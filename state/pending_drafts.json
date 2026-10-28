@@ -271,5 +271,26 @@
     "video_id": "FTCySwj2zyg",
     "youtube_url": "https://youtube.com/shorts/FTCySwj2zyg",
     "scheduled_at": null
+  },
+  "34": {
+    "episode": "earth-water",
+    "video_path": "output/drafts/earth-water.mp4",
+    "titles": [
+      "What if you poured all of Earth's water into one ball?",
+      "Earth is 71% ocean, but has surprisingly little water"
+    ],
+    "description": "A spin around the globe from the Pacific to Lake Baikal, ending with every drop of Earth's water squeezed into a single ball.\n\nSources:\n- About 71% of Earth's surface is ocean; 96.5% of Earth's water is in the oceans; 2.5% is fresh water, 68.7% of it in glaciers: https://en.wikipedia.org/wiki/Water_distribution_on_Earth\n- The Pacific covers more than 30% of Earth's surface and is larger than all the continents combined: https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/\n- Average ocean depth about 3,682 m; Challenger Deep about 10,935 m: https://oceanservice.noaa.gov/facts/oceandepth.html\n- Lake Baikal contains 20% of the world's total unfrozen fresh water: https://whc.unesco.org/en/list/754\n- All the water on Earth would form a sphere about 860 miles (about 1,385 km) across: https://www.usgs.gov/media/files/all-water-earth-a-sphere-placed-over-a-dry-globe\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "earth",
+      "ocean",
+      "water",
+      "fresh water",
+      "planet earth",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · earth-water · 65s</i>\n\n<b>A:</b> What if you poured all of Earth's water into one ball?\n<b>B:</b> Earth is 71% ocean, but has surprisingly little water\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793192359.8012407
   }
 }
