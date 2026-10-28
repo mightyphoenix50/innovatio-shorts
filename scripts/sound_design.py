@@ -276,9 +276,11 @@ def _lobby(ep: dict, buf: list, rng, end: float) -> None:
 
 # Target peak level of each effect in the bed (the bed is normalised afterwards, so these are relative).
 EFFECT_PEAK = {"dive_splash": 0.45, "sonar_ping": 0.32, "hull_creak": 0.28, "seabed_thud": 0.62, "whoosh": 0.36,
-               "fall_wind": 0.34, "rock_rumble": 0.5, "lava_bubble": 0.32, "plane_flyby": 0.4, "station_beep": 0.3}
+               "fall_wind": 0.34, "rock_rumble": 0.5, "lava_bubble": 0.32, "plane_flyby": 0.4, "station_beep": 0.3,
+               "cartoon_pop": 0.34}
 MAX_LEN = {"dive_splash": 2.4, "sonar_ping": 2.0, "hull_creak": 2.0, "seabed_thud": 1.6, "whoosh": 1.4,
-           "fall_wind": 3.0, "rock_rumble": 2.0, "lava_bubble": 2.5, "plane_flyby": 3.0, "station_beep": 2.0}
+           "fall_wind": 3.0, "rock_rumble": 2.0, "lava_bubble": 2.5, "plane_flyby": 3.0, "station_beep": 2.0,
+           "cartoon_pop": 0.8}
 _clip_cache = {}
 
 
@@ -310,7 +312,8 @@ def _real_clip(choice, name):
     if key in _clip_cache:
         return _clip_cache[key]
     start = float(choice.get("start") or 0.0)
-    length = min(float(choice.get("end") or start + MAX_LEN[name]) - start, MAX_LEN[name])
+    max_len = MAX_LEN.get(name, 2.0)
+    length = min(float(choice.get("end") or start + max_len) - start, max_len)
     try:
         raw = subprocess.run(
             ["ffmpeg", "-v", "error", "-ss", f"{start:.3f}", "-t", f"{length:.3f}", "-i", choice["path"],
@@ -335,7 +338,7 @@ def _real_clip(choice, name):
     x = x[max(0, attack - int(0.005 * SR)):]
     for i in range(min(fin, len(x))):
         x[i] *= i / fin
-    g = EFFECT_PEAK[name] / pk
+    g = EFFECT_PEAK.get(name, 0.35) / pk
     clip = [s * g for s in x]
     _clip_cache[key] = clip
     return clip
