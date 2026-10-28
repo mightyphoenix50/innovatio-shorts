@@ -1,0 +1,57 @@
+{
+  "dive_splash": {
+    "id": "fs-553563",
+    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
+    "start": 5.6,
+    "end": 8.0,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
+    "match_z": 4.62,
+    "p_real": 0.951
+  },
+  "sonar_ping": {
+    "id": "fs-544311",
+    "file": "audio/assets/sfx/fs-544311_submarine-sonar-wav.ogg",
+    "start": 1.962,
+    "end": 2.57,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/martian/sounds/544311/",
+    "match_z": 5.55,
+    "p_real": 0.227
+  },
+  "hull_creak": {
+    "id": "fs-697748",
+    "file": "audio/assets/sfx/fs-697748_metlimpt-metal-impact-creak-resonant-sdf.ogg",
+    "start": 0.057,
+    "end": 1.751,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/SoundDesignForYou/sounds/697748/",
+    "match_z": 4.59,
+    "p_real": 0.736
+  },
+  "seabed_thud": {
+    "id": "fs-828412",
+    "file": "audio/assets/sfx/fs-828412_custom-heavy-punch-kick-thud-impact-soun.ogg",
+    "start": 0.08,
+    "end": 1.68,
+    "license": "CC BY 4.0",
+    "attribution": "\"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Artninja/sounds/828412/",
+    "match_z": 4.56,
+    "p_real": 0.994
+  },
+  "cartoon_pop": {
+    "id": "fs-463390",
+    "file": "audio/assets/sfx/fs-463390_vs-pop-2-mp3.ogg",
+    "start": 0.065,
+    "end": 0.18,
+    "license": "CC BY 4.0",
+    "attribution": "\"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463390/",
+    "match_z": 5.13,
+    "p_real": 0.818
+  }
+}

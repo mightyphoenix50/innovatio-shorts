@@ -1,0 +1,1211 @@
+{
+  "title": "Sinking to the Titanic",
+  "fps": 30,
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.773,
+      0
+    ],
+    [
+      5.683,
+      200
+    ],
+    [
+      9.502,
+      420
+    ],
+    [
+      11.459,
+      1000
+    ],
+    [
+      15.374,
+      1900
+    ],
+    [
+      17.267,
+      3600
+    ],
+    [
+      21.053,
+      3700
+    ],
+    [
+      22.91,
+      3780
+    ],
+    [
+      26.623,
+      3790
+    ],
+    [
+      28.608,
+      3800
+    ],
+    [
+      50.494,
+      3800
+    ]
+  ],
+  "maxDepth": 3800,
+  "colours": [
+    [
+      0,
+      [
+        42,
+        143,
+        189
+      ]
+    ],
+    [
+      200,
+      [
+        14,
+        74,
+        120
+      ]
+    ],
+    [
+      1000,
+      [
+        3,
+        22,
+        46
+      ]
+    ],
+    [
+      2500,
+      [
+        1,
+        12,
+        24
+      ]
+    ],
+    [
+      4000,
+      [
+        1,
+        9,
+        18
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 200,
+      "name": "Sunlight zone",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 200,
+      "to": 1000,
+      "name": "Twilight zone",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 1000,
+      "to": 4000,
+      "name": "Midnight zone",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      12
+    ],
+    [
+      200,
+      10
+    ],
+    [
+      1000,
+      5
+    ],
+    [
+      2500,
+      3
+    ],
+    [
+      3800,
+      1.5
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 40,
+      "x": 0.25,
+      "kind": "fish"
+    },
+    {
+      "depth": 140,
+      "x": 0.7,
+      "kind": "jelly"
+    },
+    {
+      "depth": 480,
+      "x": 0.3,
+      "kind": "lantern"
+    },
+    {
+      "depth": 820,
+      "x": 0.72,
+      "kind": "squid"
+    },
+    {
+      "depth": 1400,
+      "x": 0.3,
+      "kind": "jelly"
+    },
+    {
+      "depth": 2200,
+      "x": 0.68,
+      "kind": "angler"
+    },
+    {
+      "depth": 2900,
+      "x": 0.3,
+      "kind": "gulper"
+    },
+    {
+      "depth": 3500,
+      "x": 0.7,
+      "kind": "dumbo"
+    },
+    {
+      "depth": 3780,
+      "x": 0.28,
+      "kind": "cuc"
+    },
+    {
+      "depth": 3790,
+      "x": 0.72,
+      "kind": "xeno"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.773,
+      "heading": "Sinking to the Titanic",
+      "text": "The Titanic is down there. And you're sinking straight toward it.",
+      "source": "Wreck of the Titanic",
+      "words": [
+        {
+          "start": 0.257,
+          "end": 0.305,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.317,
+          "end": 0.817,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 0.829,
+          "end": 0.924,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 0.936,
+          "end": 1.186,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 1.198,
+          "end": 1.436,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 1.829,
+          "end": 1.888,
+          "char": 27,
+          "len": 3
+        },
+        {
+          "start": 1.9,
+          "end": 2.019,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 2.031,
+          "end": 2.364,
+          "char": 38,
+          "len": 7
+        },
+        {
+          "start": 2.376,
+          "end": 2.626,
+          "char": 46,
+          "len": 8
+        },
+        {
+          "start": 2.638,
+          "end": 2.876,
+          "char": 55,
+          "len": 6
+        },
+        {
+          "start": 2.888,
+          "end": 3.031,
+          "char": 62,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 3.773,
+      "to": 9.502,
+      "heading": "Sunlight zone",
+      "text": "Only the top two hundred metres are the sunlight zone. Below that, the light fades fast.",
+      "source": "NOAA Ocean Service",
+      "words": [
+        {
+          "start": 4.018,
+          "end": 4.197,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 4.209,
+          "end": 4.304,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 4.316,
+          "end": 4.625,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 4.637,
+          "end": 4.804,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 4.816,
+          "end": 5.078,
+          "char": 17,
+          "len": 7
+        },
+        {
+          "start": 5.09,
+          "end": 5.459,
+          "char": 25,
+          "len": 6
+        },
+        {
+          "start": 5.471,
+          "end": 5.625,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 5.637,
+          "end": 5.709,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 5.721,
+          "end": 6.185,
+          "char": 40,
+          "len": 8
+        },
+        {
+          "start": 6.197,
+          "end": 6.494,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 6.887,
+          "end": 7.149,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 7.161,
+          "end": 7.387,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 7.59,
+          "end": 7.685,
+          "char": 67,
+          "len": 3
+        },
+        {
+          "start": 7.697,
+          "end": 7.923,
+          "char": 71,
+          "len": 5
+        },
+        {
+          "start": 7.935,
+          "end": 8.244,
+          "char": 77,
+          "len": 5
+        },
+        {
+          "start": 8.256,
+          "end": 8.756,
+          "char": 83,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 9.502,
+      "to": 15.374,
+      "heading": "1,000 m down",
+      "text": "Past one thousand metres, sunlight can't reach at all. You're sinking through total darkness.",
+      "source": "NOAA Ocean Service",
+      "words": [
+        {
+          "start": 9.759,
+          "end": 10.021,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 10.033,
+          "end": 10.212,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 10.223,
+          "end": 10.581,
+          "char": 9,
+          "len": 8
+        },
+        {
+          "start": 10.592,
+          "end": 11.057,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 11.247,
+          "end": 11.712,
+          "char": 26,
+          "len": 8
+        },
+        {
+          "start": 11.723,
+          "end": 12.021,
+          "char": 35,
+          "len": 5
+        },
+        {
+          "start": 12.033,
+          "end": 12.259,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 12.271,
+          "end": 12.342,
+          "char": 47,
+          "len": 2
+        },
+        {
+          "start": 12.354,
+          "end": 12.616,
+          "char": 50,
+          "len": 3
+        },
+        {
+          "start": 13.009,
+          "end": 13.128,
+          "char": 55,
+          "len": 6
+        },
+        {
+          "start": 13.14,
+          "end": 13.557,
+          "char": 62,
+          "len": 7
+        },
+        {
+          "start": 13.569,
+          "end": 13.735,
+          "char": 70,
+          "len": 7
+        },
+        {
+          "start": 13.747,
+          "end": 14.045,
+          "char": 78,
+          "len": 5
+        },
+        {
+          "start": 14.057,
+          "end": 14.628,
+          "char": 84,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 15.374,
+      "to": 21.053,
+      "heading": "3,800 m down",
+      "text": "Three thousand eight hundred metres down, the Titanic's bow rises out of the dark.",
+      "source": "Wreck of the Titanic",
+      "words": [
+        {
+          "start": 15.667,
+          "end": 15.845,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 15.857,
+          "end": 16.345,
+          "char": 6,
+          "len": 8
+        },
+        {
+          "start": 16.512,
+          "end": 16.631,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 16.643,
+          "end": 16.941,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 16.953,
+          "end": 17.25,
+          "char": 29,
+          "len": 6
+        },
+        {
+          "start": 17.262,
+          "end": 17.631,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 17.917,
+          "end": 18.0,
+          "char": 42,
+          "len": 3
+        },
+        {
+          "start": 18.012,
+          "end": 18.703,
+          "char": 46,
+          "len": 9
+        },
+        {
+          "start": 18.798,
+          "end": 19.012,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 19.024,
+          "end": 19.584,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 19.595,
+          "end": 19.738,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 19.75,
+          "end": 19.822,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 19.834,
+          "end": 19.917,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 19.929,
+          "end": 20.31,
+          "char": 77,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 21.053,
+      "to": 26.623,
+      "heading": "The pressure",
+      "text": "Down here, the water presses about three hundred and eighty times harder than at the surface.",
+      "source": "NOAA Ocean Service",
+      "words": [
+        {
+          "start": 21.298,
+          "end": 21.501,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 21.513,
+          "end": 21.822,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 22.108,
+          "end": 22.191,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 22.203,
+          "end": 22.465,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 22.477,
+          "end": 22.846,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 22.858,
+          "end": 23.132,
+          "char": 29,
+          "len": 5
+        },
+        {
+          "start": 23.143,
+          "end": 23.453,
+          "char": 35,
+          "len": 5
+        },
+        {
+          "start": 23.465,
+          "end": 23.81,
+          "char": 41,
+          "len": 7
+        },
+        {
+          "start": 23.822,
+          "end": 23.941,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 24.072,
+          "end": 24.298,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 24.31,
+          "end": 24.62,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 24.632,
+          "end": 24.989,
+          "char": 66,
+          "len": 6
+        },
+        {
+          "start": 25.001,
+          "end": 25.108,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 25.12,
+          "end": 25.191,
+          "char": 78,
+          "len": 2
+        },
+        {
+          "start": 25.203,
+          "end": 25.274,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 25.286,
+          "end": 25.882,
+          "char": 85,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 26.623,
+      "to": 32.579,
+      "heading": "The impact",
+      "text": "When it sank in 1912, the bow slammed into this seabed at about ten metres per second.",
+      "source": "Wreck of the Titanic",
+      "words": [
+        {
+          "start": 26.88,
+          "end": 26.975,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 26.987,
+          "end": 27.071,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 27.083,
+          "end": 27.428,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 27.44,
+          "end": 28.416,
+          "char": 13,
+          "len": 7
+        },
+        {
+          "start": 28.618,
+          "end": 28.713,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 28.725,
+          "end": 28.94,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 28.952,
+          "end": 29.428,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 29.44,
+          "end": 29.606,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 29.618,
+          "end": 29.797,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 29.809,
+          "end": 30.273,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 30.285,
+          "end": 30.368,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 30.38,
+          "end": 30.654,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 30.666,
+          "end": 30.928,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 30.94,
+          "end": 31.249,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 31.261,
+          "end": 31.404,
+          "char": 75,
+          "len": 3
+        },
+        {
+          "start": 31.416,
+          "end": 31.833,
+          "char": 79,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 32.579,
+      "to": 38.786,
+      "heading": "The stern",
+      "text": "The stern lies six hundred metres away, in water just one or two degrees above freezing.",
+      "source": "Wreck of the Titanic",
+      "words": [
+        {
+          "start": 32.836,
+          "end": 32.884,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 32.896,
+          "end": 33.253,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 33.265,
+          "end": 33.527,
+          "char": 10,
+          "len": 4
+        },
+        {
+          "start": 33.539,
+          "end": 33.86,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 33.872,
+          "end": 34.169,
+          "char": 19,
+          "len": 7
+        },
+        {
+          "start": 34.181,
+          "end": 34.479,
+          "char": 27,
+          "len": 6
+        },
+        {
+          "start": 34.491,
+          "end": 34.86,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 35.205,
+          "end": 35.36,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 35.372,
+          "end": 35.777,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 35.884,
+          "end": 36.158,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 36.169,
+          "end": 36.455,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 36.467,
+          "end": 36.562,
+          "char": 58,
+          "len": 2
+        },
+        {
+          "start": 36.574,
+          "end": 36.812,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 36.824,
+          "end": 37.289,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 37.3,
+          "end": 37.598,
+          "char": 73,
+          "len": 5
+        },
+        {
+          "start": 37.61,
+          "end": 38.039,
+          "char": 79,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 38.786,
+      "to": 45.754,
+      "heading": "The twist",
+      "text": "The twist? A rust-eating bacterium, Halomonas titanicae, is slowly eating the ship's iron.",
+      "source": "Live Science",
+      "words": [
+        {
+          "start": 39.043,
+          "end": 39.091,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 39.103,
+          "end": 39.543,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 39.924,
+          "end": 39.96,
+          "char": 11,
+          "len": 1
+        },
+        {
+          "start": 39.972,
+          "end": 40.662,
+          "char": 13,
+          "len": 11
+        },
+        {
+          "start": 40.674,
+          "end": 41.448,
+          "char": 25,
+          "len": 9
+        },
+        {
+          "start": 41.698,
+          "end": 42.21,
+          "char": 36,
+          "len": 9
+        },
+        {
+          "start": 42.222,
+          "end": 42.96,
+          "char": 46,
+          "len": 9
+        },
+        {
+          "start": 43.269,
+          "end": 43.353,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 43.365,
+          "end": 43.865,
+          "char": 60,
+          "len": 6
+        },
+        {
+          "start": 43.984,
+          "end": 44.222,
+          "char": 67,
+          "len": 6
+        },
+        {
+          "start": 44.234,
+          "end": 44.305,
+          "char": 74,
+          "len": 3
+        },
+        {
+          "start": 44.317,
+          "end": 44.662,
+          "char": 78,
+          "len": 6
+        },
+        {
+          "start": 44.674,
+          "end": 45.007,
+          "char": 85,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 45.754,
+      "to": 53.541,
+      "heading": "Gone by 2037?",
+      "text": "Some scientists think it could be gone by 2037. Should we raise what's left, or let the ocean keep it?",
+      "source": "Wreck of the Titanic",
+      "words": [
+        {
+          "start": 46.011,
+          "end": 46.19,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 46.202,
+          "end": 46.737,
+          "char": 5,
+          "len": 10
+        },
+        {
+          "start": 46.749,
+          "end": 46.964,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 46.975,
+          "end": 47.047,
+          "char": 22,
+          "len": 2
+        },
+        {
+          "start": 47.059,
+          "end": 47.154,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 47.166,
+          "end": 47.249,
+          "char": 31,
+          "len": 2
+        },
+        {
+          "start": 47.261,
+          "end": 47.535,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 47.547,
+          "end": 48.63,
+          "char": 39,
+          "len": 7
+        },
+        {
+          "start": 49.023,
+          "end": 49.178,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 49.19,
+          "end": 49.309,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 49.321,
+          "end": 49.594,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 49.606,
+          "end": 49.797,
+          "char": 64,
+          "len": 6
+        },
+        {
+          "start": 49.809,
+          "end": 50.202,
+          "char": 71,
+          "len": 4
+        },
+        {
+          "start": 50.547,
+          "end": 50.618,
+          "char": 77,
+          "len": 2
+        },
+        {
+          "start": 50.63,
+          "end": 50.773,
+          "char": 80,
+          "len": 3
+        },
+        {
+          "start": 50.785,
+          "end": 50.892,
+          "char": 84,
+          "len": 3
+        },
+        {
+          "start": 50.904,
+          "end": 51.19,
+          "char": 88,
+          "len": 5
+        },
+        {
+          "start": 51.202,
+          "end": 51.416,
+          "char": 94,
+          "len": 4
+        },
+        {
+          "start": 51.428,
+          "end": 51.594,
+          "char": 99,
+          "len": 2
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 3.27
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:1000"
+    },
+    {
+      "need": "hull_creak",
+      "at": 21.981
+    },
+    {
+      "need": "seabed_thud",
+      "at": "depth:3800"
+    }
+  ],
+  "skit": {
+    "text": "Iron-eating bacteria? Good thing I'm mostly aluminium. I think.",
+    "mood": "gasp",
+    "action": "*nervous beep*",
+    "from": 53.541,
+    "to": 61.668,
+    "words": [
+      {
+        "start": 54.086,
+        "end": 54.66,
+        "char": 0,
+        "len": 11
+      },
+      {
+        "start": 54.672,
+        "end": 55.392,
+        "char": 12,
+        "len": 8
+      },
+      {
+        "start": 56.169,
+        "end": 56.406,
+        "char": 22,
+        "len": 4
+      },
+      {
+        "start": 56.417,
+        "end": 56.71,
+        "char": 27,
+        "len": 5
+      },
+      {
+        "start": 56.721,
+        "end": 56.879,
+        "char": 33,
+        "len": 3
+      },
+      {
+        "start": 56.89,
+        "end": 57.352,
+        "char": 37,
+        "len": 6
+      },
+      {
+        "start": 57.363,
+        "end": 58.151,
+        "char": 44,
+        "len": 9
+      },
+      {
+        "start": 58.928,
+        "end": 59.097,
+        "char": 55,
+        "len": 1
+      },
+      {
+        "start": 59.109,
+        "end": 59.536,
+        "char": 57,
+        "len": 5
+      }
+    ]
+  },
+  "seed": "sink-to-titanic",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank all the way down to the Titanic?",
+      "Sinking 3.8 km to the Titanic, and what's eating it"
+    ],
+    "description": "Sink from the surface of the North Atlantic through the sunlight, twilight and midnight zones to the wreck of the Titanic, 3,800 metres down, and meet the rust-eating bacterium slowly destroying it.",
+    "tags": [
+      "titanic",
+      "titanic wreck",
+      "deep sea",
+      "ocean zones",
+      "halomonas titanicae",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "The wreck lies about 3,800 m (12,500 ft) down, in two main pieces about 600 m apart",
+      "url": "https://en.wikipedia.org/wiki/Titanic_wreck"
+    },
+    {
+      "claim": "The Titanic sank on 15 April 1912; the bow hit the bottom at about 20 knots (10 m/s)",
+      "url": "https://en.wikipedia.org/wiki/Titanic_wreck"
+    },
+    {
+      "claim": "Water at the wreck is about 1-2 \u00b0C; Mann and Kaur's analysis says the wreck will not exist by 2037",
+      "url": "https://en.wikipedia.org/wiki/Titanic_wreck"
+    },
+    {
+      "claim": "The upper 200 m is the sunlight zone; below 1,000 m sunlight does not penetrate",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+    },
+    {
+      "claim": "Pressure rises by one atmosphere for every 10.06 m (33 ft) of depth, so about 380 atm at 3,800 m",
+      "url": "https://oceanservice.noaa.gov/facts/pressure.html"
+    },
+    {
+      "claim": "A new rust-eating bacterium found in the Titanic's rusticles was named Halomonas titanicae",
+      "url": "https://www.livescience.com/9079-species-rust-eating-bacteria-destroying-titanic.html"
+    }
+  ],
+  "voiceover": "audio/sink-to-titanic.mp3",
+  "music": "audio/sink-to-titanic_bed.mp3"
+}

@@ -297,5 +297,27 @@
     "video_id": "33WzjRa2E2g",
     "youtube_url": "https://youtube.com/shorts/33WzjRa2E2g",
     "scheduled_at": null
+  },
+  "36": {
+    "episode": "sink-to-titanic",
+    "video_path": "output/drafts/sink-to-titanic.mp4",
+    "titles": [
+      "What if you sank all the way down to the Titanic?",
+      "Sinking 3.8 km to the Titanic, and what's eating it"
+    ],
+    "description": "Sink from the surface of the North Atlantic through the sunlight, twilight and midnight zones to the wreck of the Titanic, 3,800 metres down, and meet the rust-eating bacterium slowly destroying it.\n\nSources:\n- The wreck lies about 3,800 m (12,500 ft) down, in two main pieces about 600 m apart: https://en.wikipedia.org/wiki/Titanic_wreck\n- The Titanic sank on 15 April 1912; the bow hit the bottom at about 20 knots (10 m/s): https://en.wikipedia.org/wiki/Titanic_wreck\n- Water at the wreck is about 1-2 °C; Mann and Kaur's analysis says the wreck will not exist by 2037: https://en.wikipedia.org/wiki/Titanic_wreck\n- The upper 200 m is the sunlight zone; below 1,000 m sunlight does not penetrate: https://oceanservice.noaa.gov/facts/light_travel.html\n- Pressure rises by one atmosphere for every 10.06 m (33 ft) of depth, so about 380 atm at 3,800 m: https://oceanservice.noaa.gov/facts/pressure.html\n- A new rust-eating bacterium found in the Titanic's rusticles was named Halomonas titanicae: https://www.livescience.com/9079-species-rust-eating-bacteria-destroying-titanic.html\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- sonar ping: CC0 1.0, https://freesound.org/people/martian/sounds/544311/\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "titanic",
+      "titanic wreck",
+      "deep sea",
+      "ocean zones",
+      "halomonas titanicae",
+      "ocean science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · sink-to-titanic · 62s</i>\n\n<b>A:</b> What if you sank all the way down to the Titanic?\n<b>B:</b> Sinking 3.8 km to the Titanic, and what's eating it\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793221892.5480642
   }
 }
