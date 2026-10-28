@@ -7,7 +7,8 @@ Voices (each is skipped, with the reason in the answer key, if its key is missin
   Azure en-US-AndrewNeural, as used now (+5% speed)    AZURE_SPEECH_KEY, AZURE_SPEECH_REGION
   Azure Andrew, Dragon HD                              same
   Azure Andrew, Dragon HD Omni                         same
-  Google Gemini TTS (Charon, with a style prompt)      GEMINI_API_KEY  (Google AI Studio key)
+  (HD voices use AZURE_HD_SPEECH_KEY / AZURE_HD_SPEECH_REGION when set: a Speech resource in a region that offers them)
+  Google Gemini TTS (Charon and Iapetus, style prompt) GEMINI_API_KEY  (Google AI Studio key)
   Google Chirp 3 HD (Charon)                           GEMINI_API_KEY, with the Cloud Text-to-Speech API enabled on its project
 
 Keys are always sent in request headers, never in URLs, so they can't appear in logs.
@@ -35,12 +36,16 @@ LINES = [
     "The twist? A rust-eating bacterium, Halomonas titanicae, is slowly eating the ship's iron.",
 ]
 TEXT = " ".join(LINES)
-STYLE = ("Read this as a calm, curious science documentary narrator for a YouTube Short: warm and clear, "
-         "with a hint of awe at the big reveals and natural pauses between sentences.")
+STYLE = ("Read this as an engaging science narrator for a fast-paced YouTube Short: warm, clear and curious, "
+         "with a hint of awe at the big reveals. Keep a brisk pace, about 150 words per minute, "
+         "with only short natural pauses between sentences.")
 
 
-def _azure(voice: str, rate: str | None = None) -> bytes:
+def _azure(voice: str, rate: str | None = None, hd: bool = False) -> bytes:
     key, region = os.environ.get("AZURE_SPEECH_KEY"), os.environ.get("AZURE_SPEECH_REGION")
+    # HD voices aren't offered in every region; a second Speech resource in e.g. East US can serve them.
+    if hd and os.environ.get("AZURE_HD_SPEECH_KEY"):
+        key, region = os.environ["AZURE_HD_SPEECH_KEY"], os.environ.get("AZURE_HD_SPEECH_REGION", "eastus")
     if not key or not region:
         raise RuntimeError("AZURE_SPEECH_KEY / AZURE_SPEECH_REGION not set")
     body = TEXT if rate is None else f'<prosody rate="{rate}">{TEXT}</prosody>'
@@ -57,7 +62,7 @@ def _azure(voice: str, rate: str | None = None) -> bytes:
     return r.content
 
 
-def _gemini() -> tuple[bytes, str]:
+def _gemini(voice: str = "Charon") -> tuple[bytes, str]:
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY not set")
@@ -68,7 +73,7 @@ def _gemini() -> tuple[bytes, str]:
             headers={"x-goog-api-key": key, "Content-Type": "application/json"},
             json={"contents": [{"parts": [{"text": f"{STYLE}\n\n{TEXT}"}]}],
                   "generationConfig": {"responseModalities": ["AUDIO"],
-                                       "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": "Charon"}}}}},
+                                       "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}},
             timeout=180)
         if r.status_code == 200:
             part = r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]
@@ -89,7 +94,7 @@ def _chirp() -> bytes:
         timeout=120)
     if r.status_code != 200:
         hint = " (enable the Cloud Text-to-Speech API on the key's project)" if r.status_code == 403 else ""
-        raise RuntimeError(f"Chirp {r.status_code}: {r.text[:160]}{hint}")
+        raise RuntimeError(f"Chirp {r.status_code}{hint}: " + " ".join(r.text.split())[:160])
     return base64.b64decode(r.json()["audioContent"])
 
 
@@ -109,9 +114,10 @@ def _to_mp3(raw: bytes, out: str, pcm: bool = False) -> float:
 def main():
     voices = [
         ("Azure Andrew (current voice, +5%)", lambda: (_azure("en-US-AndrewNeural", "+5%"), False, "")),
-        ("Azure Andrew Dragon HD", lambda: (_azure("en-US-Andrew:DragonHDLatestNeural"), False, "")),
-        ("Azure Andrew Dragon HD Omni", lambda: (_azure("en-us-Andrew:DragonHDOmniLatestNeural"), False, "")),
-        ("Google Gemini TTS (Charon, style prompt)", lambda: (*_gemini_pcm(), )),
+        ("Azure Andrew Dragon HD", lambda: (_azure("en-US-Andrew:DragonHDLatestNeural", hd=True), False, "")),
+        ("Azure Andrew Dragon HD Omni", lambda: (_azure("en-us-Andrew:DragonHDOmniLatestNeural", hd=True), False, "")),
+        ("Google Gemini TTS (Charon, style prompt)", lambda: _gemini_pcm("Charon")),
+        ("Google Gemini TTS (Iapetus, style prompt)", lambda: _gemini_pcm("Iapetus")),
         ("Google Chirp 3 HD (Charon)", lambda: (_chirp(), False, "")),
     ]
     random.shuffle(voices)
@@ -148,8 +154,8 @@ def main():
     print("\nAnswer key:\n" + answer)
 
 
-def _gemini_pcm():
-    pcm, model = _gemini()
+def _gemini_pcm(voice: str):
+    pcm, model = _gemini(voice)
     return pcm, True, f"[{model}]"
 
 
