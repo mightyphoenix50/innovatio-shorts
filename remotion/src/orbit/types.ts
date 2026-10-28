@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { beatSchema, hookSchema } from "../shared/Edit";
 import { skitSchema } from "../shared/Skit";
 
 /** Worlds the Orbit template can draw. earth uses a real map (Natural Earth); the rest are drawn from the seed. */
@@ -55,6 +56,8 @@ export const orbitSchema = z.object({
       text: z.string(),
       source: z.string().optional(),
       words: z.array(z.object({ start: z.number(), end: z.number(), char: z.number(), len: z.number() })).optional(),
+      /** Micro-beats that land on spoken words (see shared/Edit.tsx). */
+      beats: z.array(beatSchema).optional(),
     }),
   ),
   voiceover: z.string().optional(),
@@ -73,6 +76,8 @@ export const orbitSchema = z.object({
     .optional(),
   /** The end skit: Bit's one-line joke after the last narration line. */
   skit: skitSchema,
+  /** The hook: cold open, question banner (see shared/Edit.tsx). */
+  hook: hookSchema,
   seed: z.string().default("orbit"),
 });
 

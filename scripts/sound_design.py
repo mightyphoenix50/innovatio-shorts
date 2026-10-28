@@ -26,6 +26,7 @@ from array import array
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+from scripts.edit_timing import edit_hits
 from scripts.episode_timing import depth_at, end_time, skit_span
 
 SR = 32000
@@ -89,6 +90,16 @@ def _thud(rng):
         f = 62 - 20 * min(1.0, t / 0.3)
         lp += 0.05 * (rng.uniform(-1, 1) - lp)
         out.append(0.75 * math.exp(-t / 0.35) * math.sin(TAU * f * t) + 0.9 * math.exp(-t / 0.12) * lp)
+    return out
+
+
+def _click(rng):
+    """A short UI tick: a 2.4 kHz blip with a noise transient."""
+    out = []
+    for i in range(int(0.09 * SR)):
+        t = i / SR
+        env = math.exp(-t / 0.012)
+        out.append(0.28 * env * (math.sin(TAU * 2400 * t) + 0.6 * rng.uniform(-1, 1) * math.exp(-t / 0.003)))
     return out
 
 
@@ -277,10 +288,10 @@ def _lobby(ep: dict, buf: list, rng, end: float) -> None:
 # Target peak level of each effect in the bed (the bed is normalised afterwards, so these are relative).
 EFFECT_PEAK = {"dive_splash": 0.45, "sonar_ping": 0.32, "hull_creak": 0.28, "seabed_thud": 0.62, "whoosh": 0.36,
                "fall_wind": 0.34, "rock_rumble": 0.5, "lava_bubble": 0.32, "plane_flyby": 0.4, "station_beep": 0.3,
-               "cartoon_pop": 0.34}
+               "cartoon_pop": 0.34, "ui_click": 0.22, "impact_boom": 0.6}
 MAX_LEN = {"dive_splash": 2.4, "sonar_ping": 2.0, "hull_creak": 2.0, "seabed_thud": 1.6, "whoosh": 1.4,
            "fall_wind": 3.0, "rock_rumble": 2.0, "lava_bubble": 2.5, "plane_flyby": 3.0, "station_beep": 2.0,
-           "cartoon_pop": 0.8}
+           "cartoon_pop": 0.8, "ui_click": 0.5, "impact_boom": 2.0}
 _clip_cache = {}
 
 
@@ -377,6 +388,11 @@ def build(ep: dict, out_mp3: str) -> str:
     span = skit_span(ep)
     if span and not any(x.get("at") == "skit" for x in ep.get("sfx") or []):
         effect("cartoon_pop", span[0] + 0.12, lambda: _ping(rng))
+
+    # The editing layer's hits: an impact under the cold-open stamp, a whoosh into the cut, clicks on beats.
+    hit_synth = {"impact_boom": _thud, "whoosh": _whoosh, "ui_click": _click}
+    for need, t_hit, align in edit_hits(ep):
+        effect(need, t_hit, lambda need=need: hit_synth[need](rng), align=align)
 
     if ep.get("sfx"):
         # Episodes with their own plan (the Fall and Orbit templates): each entry names a need and a moment.

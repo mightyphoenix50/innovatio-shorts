@@ -28,6 +28,8 @@ Change only `remotion/episodes/queue/<slug>.json` and `content/topics.json`. Don
 
 Copy the example's structure field for field, then change the content. Don't invent new fields.
 
+**Prefer Orbit.** The owner finds Orbit's 3D look the most appealing. Whenever a topic can be told around a whole world (places on it, what covers it, how big things are), use Orbit; use the others when the story is a journey down or up.
+
 What each format can draw (anything else is rejected by the checker):
 
 - **Descent creatures:** fish, turtle, jelly, lantern, squid, whale, angler, gulper, dumbo, cuc (sea cucumber), snail (snailfish), amph (amphipod), xeno (xenophyophore). `x` is 0–1 across the screen.
@@ -44,14 +46,45 @@ If a great topic needs something not on these lists, don't force it: set its sta
 
 The channel voice follows the reference video the owner liked (Awaken, "Can 2 People Really Restart Humanity?"): second person, escalating, curious, a little playful, always sourced.
 
-- **Hook (line 1, ≤ 3 s):** put the viewer in the scenario. "Someone dug a hole straight through the Earth. And you just tripped into it."
+- **Hook (line 1):** see "The hook" below. It's the most important line in the video.
 - **8–9 lines, 110–170 words in all.** Each line under 28 words, with one fact per line, and each one more extreme than the last.
 - **Headings** are short labels for the caption card: "4 km down", "The mantle", "The twist", ≤ 28 characters.
 - **One twist** about two-thirds through: a counter-intuitive fact that reframes the journey (it's 1,000 °C up there but you'd freeze; the whole fall takes only 38 minutes).
 - **Close** with a zoom-out or payoff, then a question viewers can answer in the comments. Bit's skit follows it (see "The end skit").
 - Numbers as words where they're spoken ("Four kilometres", "minus 56 degrees") so the voice reads them naturally.
+- **Write for the ear.** Read every line aloud in your head. Use contractions (you're, it's, can't), mix very short sentences with longer ones ("And it's deep." then a long one), and put the surprising word last, after a comma or a question mark, so the voice pauses before it ("The twist? A bacterium is eating the ship."). No parentheses, slashes or lists in narration.
 - No gore or shock about death: people pass out or need suits; keep it factual and light.
 - Every line with a fact gets a short `source` tag, e.g. `"Kola Superdeep Borehole"`, `"NASA Space Place"`. Every fact also appears in `sources` with the exact page URL and the claim it supports.
+
+## The hook (every episode)
+
+The first two seconds decide whether anyone watches. Every episode opens with three things:
+
+1. **A cold open.** The picture flashes forward to the episode's most extreme moment (`previewLine`, usually the climax or the twist) with a big red stamp (`flash`), then whip-cuts back to the start. The viewer sees the payoff first and stays to see how you get there.
+2. **The hook line** (narration line 1), spoken over the cold open and the banner. ≤ 16 words, says "you", creates a curiosity gap. Strong patterns:
+   - **Challenge:** "You think Earth is a water planet? Wait till you see it in one ball."
+   - **Impossible situation:** "Someone dug a hole straight through the Earth. And you just tripped into it."
+   - **Countdown or stakes:** "You have thirty-eight minutes before you come out the other side of the planet."
+   - **Shock number:** "Three thousand eight hundred metres down, something is eating the Titanic."
+   - Never open with "Did you know", "In this video", "Today we" or a greeting.
+3. **The banner:** the question the whole video answers, ≤ 8 words, ending in ? or !, shown big while the hook line plays. The last word is highlighted in gold, so end on the key word: "How much water does Earth REALLY have?"
+
+```json
+"hook": {"banner": "How much water does Earth really have?", "flash": "1,400 km WIDE", "previewLine": 7}
+```
+
+`flash` ≤ 18 characters: the most striking number or phrase from the preview moment. `previewLine` is a narration index (2 or later). Leave `coldOpen` out (1.3 s).
+
+## Beats: something new every 1–2 seconds
+
+Breakout Shorts change something on screen every 1–2 seconds. Give at least 60% of the lines after the hook one or two **beats**: small graphics that land on a spoken word. `word` must be a word in that line's text (the beat lands when it's spoken).
+
+- **`stat`**: a number that counts up, with a small label. `{"word": "seventy-one", "kind": "stat", "value": "71%", "label": "of the surface"}`. Don't repeat a number the template already shows big (Orbit's stat card, the depth counter).
+- **`compare`**: the thing next to something familiar, as two bars. The best retention tool there is: people grasp size only against things they know (Everest, the Burj Khalifa at 828 m, an airliner at 11 km, the Moon at 3,475 km, all land on Earth). `{"word": "eleven", "kind": "compare", "compare": {"name": "Mount Everest", "value": 8.8, "icon": "mountain", "subject": "Challenger Deep", "subjectValue": 10.9, "unit": "km", "note": "Everest would vanish"}}`. Icons: tower, mountain, plane, ship, person, building, whale, rocket, moon, land. Both numbers must be sourced.
+- **`stamp`**: a slammed phrase with a camera punch, for the big moments: `{"word": "frozen", "kind": "stamp", "value": "FROZEN SOLID"}`. ≤ 18 characters, capitals. One or two per video.
+- **`warning`**: a red warning pill: `{"word": "drink", "kind": "warning", "value": "UNDRINKABLE"}`. ≤ 18 characters.
+
+At most 3 beats per line; vary the kinds through the video. Captions are big word-by-word pops; nothing to set.
 
 ## The end skit (every episode)
 

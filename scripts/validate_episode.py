@@ -23,6 +23,7 @@ BODIES = {"earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava"}
 SFX_NEEDS = {"dive_splash", "sonar_ping", "hull_creak", "seabed_thud", "whoosh",
              "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep", "cartoon_pop"}
 SKIT_MOODS = {"wink", "smug", "gasp", "shrug", "laugh"}
+COMPARE_ICONS = {"tower", "mountain", "plane", "ship", "person", "building", "whale", "rocket", "moon", "land"}
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -115,6 +116,58 @@ def validate(ep: dict, filename: str = "") -> list[str]:
             p.append(f"skit.mood must be one of {', '.join(sorted(SKIT_MOODS))}")
         if len(str(sk.get("action", ""))) > 24:
             p.append("skit.action is too long (≤ 24 characters)")
+
+    # The hook and beats (the editing layer, shared/Edit.tsx)
+    queued = "queue" in os.path.normpath(filename).split(os.sep)
+    hook = ep.get("hook")
+    if hook is None and queued:
+        p.append("new episodes need a 'hook': banner, flash and previewLine (see the guide)")
+    if hook is not None:
+        banner = str(hook.get("banner", ""))
+        if not banner or len(banner.split()) > 8 or banner[-1:] not in "?!":
+            p.append("hook.banner must be ≤ 8 words and end with ? or !")
+        if len(str(hook.get("flash", ""))) > 18:
+            p.append("hook.flash is too long (≤ 18 characters)")
+        pl = hook.get("previewLine")
+        if pl is not None and not (2 <= pl < len(lines)):
+            p.append("hook.previewLine must point at a later narration line (2 or more), usually the climax")
+        if queued and (pl is None or not hook.get("flash")):
+            p.append("new episodes need hook.flash and hook.previewLine for the cold open")
+    if lines:
+        first = lines[0].get("text", "")
+        if queued and len(first.split()) > 16:
+            p.append(f"the hook line has {len(first.split())} words; keep it to 16 or fewer")
+        if queued and not re.search(r"\byou(r|'re|'d|'ll)?\b", first.lower()):
+            p.append("the hook line should speak to the viewer (use 'you')")
+    beat_kinds = {"stat", "compare", "stamp", "warning"}
+    with_beats = 0
+    for i, n in enumerate(lines):
+        bs = n.get("beats") or []
+        if bs:
+            with_beats += 1
+        if len(bs) > 3:
+            p.append(f"narration[{i}] has {len(bs)} beats; 3 at most")
+        norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
+        words = [norm(w) for w in n.get("text", "").split()]
+        for b in bs:
+            if b.get("kind") not in beat_kinds:
+                p.append(f"narration[{i}] beat kind must be one of {', '.join(sorted(beat_kinds))}")
+                continue
+            if b.get("word") and not any(w.startswith(norm(b["word"].split()[0])) for w in words if w):
+                p.append(f"narration[{i}] beat word {b['word']!r} isn't in the line's text")
+            if b["kind"] in ("stat", "stamp", "warning") and not b.get("value"):
+                p.append(f"narration[{i}] {b['kind']} beat needs a value")
+            if b["kind"] in ("stamp", "warning") and len(str(b.get("value", ""))) > 18:
+                p.append(f"narration[{i}] {b['kind']} text is too long (≤ 18 characters)")
+            if b["kind"] == "compare":
+                c = b.get("compare") or {}
+                need = ("name", "value", "icon", "subject", "subjectValue", "unit")
+                if any(k2 not in c for k2 in need):
+                    p.append(f"narration[{i}] compare beat needs {', '.join(need)}")
+                elif c["icon"] not in COMPARE_ICONS:
+                    p.append(f"narration[{i}] compare icon must be one of {', '.join(sorted(COMPARE_ICONS))}")
+    if queued and lines and with_beats < max(1, round(0.6 * (len(lines) - 1))):
+        p.append(f"only {with_beats} lines have beats; give at least 60% of the lines after the hook one or two")
 
     if orbit:
         if _pairs(k) and any(not 0 <= z <= 1 for _, z in k):

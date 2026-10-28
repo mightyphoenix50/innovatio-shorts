@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { beatSchema, hookSchema } from "../shared/Edit";
 import { skitSchema } from "../shared/Skit";
 
 export const creatureKinds = [
@@ -45,6 +46,8 @@ export const episodeSchema = z.object({
       words: z
         .array(z.object({ start: z.number(), end: z.number(), char: z.number(), len: z.number() }))
         .optional(),
+      /** Micro-beats that land on spoken words (see shared/Edit.tsx). */
+      beats: z.array(beatSchema).optional(),
     }),
   ),
   /** Optional comparison marker on the gauge, measured up from maxDepth. */
@@ -70,6 +73,8 @@ export const episodeSchema = z.object({
   /** Seed for particle positions, so every render is identical. */
   /** The end skit: Bit's one-line joke after the last narration line. */
   skit: skitSchema,
+  /** The hook: cold open, question banner (see shared/Edit.tsx). */
+  hook: hookSchema,
   seed: z.string().default("descent"),
 });
 

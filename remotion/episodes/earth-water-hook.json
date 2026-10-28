@@ -1,0 +1,369 @@
+{
+  "template": "Orbit",
+  "title": "How much of Earth is actually water?",
+  "fps": 30,
+  "keyframes": [
+    [
+      0,
+      0.0
+    ],
+    [
+      4.766,
+      0.05
+    ],
+    [
+      6.874,
+      0.35
+    ],
+    [
+      11.091,
+      0.35
+    ],
+    [
+      13.291,
+      0.3
+    ],
+    [
+      17.69,
+      0.3
+    ],
+    [
+      20.128,
+      0.72
+    ],
+    [
+      25.003,
+      0.68
+    ],
+    [
+      27.063,
+      0.4
+    ],
+    [
+      31.183,
+      0.4
+    ],
+    [
+      33.287,
+      0.5
+    ],
+    [
+      37.496,
+      0.5
+    ],
+    [
+      39.831,
+      0.72
+    ],
+    [
+      44.501,
+      0.7
+    ],
+    [
+      47.22,
+      0.12
+    ],
+    [
+      51.027,
+      0.15
+    ],
+    [
+      53.131,
+      0.0
+    ],
+    [
+      57.338,
+      0.0
+    ]
+  ],
+  "body": {
+    "kind": "earth",
+    "name": "Earth",
+    "tilt": 23.4,
+    "moon": true,
+    "glow": "#78C8FF"
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 12,
+      "lon": -38,
+      "label": "Atlantic Ocean",
+      "value": "71%",
+      "caption": "Of the surface"
+    },
+    {
+      "line": 2,
+      "lat": 2,
+      "lon": -150,
+      "label": "Pacific Ocean",
+      "value": "30%+",
+      "caption": "Pacific alone"
+    },
+    {
+      "line": 3,
+      "lat": 11.35,
+      "lon": 142.2,
+      "label": "Challenger Deep",
+      "value": "10.9 km",
+      "caption": "Deepest point"
+    },
+    {
+      "line": 4,
+      "lat": -28,
+      "lon": 78,
+      "label": "Indian Ocean",
+      "value": "96.5%",
+      "caption": "Salty ocean"
+    },
+    {
+      "line": 5,
+      "lat": 72,
+      "lon": -41,
+      "label": "Greenland ice",
+      "value": "2.5%",
+      "caption": "Fresh water"
+    },
+    {
+      "line": 6,
+      "lat": 53.5,
+      "lon": 108.2,
+      "label": "Lake Baikal",
+      "value": "20%",
+      "caption": "Unfrozen fresh water"
+    },
+    {
+      "line": 7,
+      "lat": 39,
+      "lon": -98,
+      "label": "All the water",
+      "value": "1,400 km",
+      "caption": "All Earth's water",
+      "ballKm": 1385
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.766,
+      "heading": "Water planet?",
+      "text": "You think Earth is a water planet? Wait till you see it all in one ball."
+    },
+    {
+      "from": 4.766,
+      "to": 11.091,
+      "heading": "71% blue",
+      "text": "Oceans cover about seventy-one percent of the surface. Nearly three quarters of everything you can see.",
+      "source": "Water distribution on Earth",
+      "beats": [
+        {
+          "word": "quarters",
+          "kind": "stamp",
+          "value": "THREE QUARTERS"
+        }
+      ]
+    },
+    {
+      "from": 11.091,
+      "to": 17.69,
+      "heading": "The Pacific",
+      "text": "The Pacific alone covers more than thirty percent of the planet. It's bigger than all the continents put together.",
+      "source": "NOAA Ocean Exploration",
+      "beats": [
+        {
+          "word": "continents",
+          "kind": "compare",
+          "compare": {
+            "name": "All land on Earth",
+            "value": 149,
+            "icon": "land",
+            "subject": "Pacific Ocean",
+            "subjectValue": 165,
+            "unit": "million sq km",
+            "note": "Bigger than every continent"
+          }
+        }
+      ]
+    },
+    {
+      "from": 17.69,
+      "to": 25.003,
+      "heading": "How deep?",
+      "text": "And it's deep. The ocean averages almost four kilometres down, and the Challenger Deep plunges nearly eleven.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "3.7 km",
+          "label": "average ocean depth"
+        },
+        {
+          "word": "eleven",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Challenger Deep",
+            "subjectValue": 10.9,
+            "unit": "km",
+            "note": "Everest would vanish"
+          }
+        }
+      ]
+    },
+    {
+      "from": 25.003,
+      "to": 31.183,
+      "heading": "Too salty",
+      "text": "But you can't drink it. Ninety-six and a half percent of all Earth's water sits in the salty oceans.",
+      "source": "Water distribution on Earth",
+      "beats": [
+        {
+          "word": "drink",
+          "kind": "warning",
+          "value": "UNDRINKABLE"
+        }
+      ]
+    },
+    {
+      "from": 31.183,
+      "to": 37.496,
+      "heading": "Fresh water",
+      "text": "Only two and a half percent is fresh. And most of that is frozen solid in glaciers and ice sheets.",
+      "source": "Water distribution on Earth",
+      "beats": [
+        {
+          "word": "frozen",
+          "kind": "stamp",
+          "value": "FROZEN SOLID"
+        }
+      ]
+    },
+    {
+      "from": 37.496,
+      "to": 44.501,
+      "heading": "One lake",
+      "text": "Meanwhile one lake in Siberia, Baikal, holds a fifth of all the unfrozen fresh water on the planet.",
+      "source": "UNESCO World Heritage"
+    },
+    {
+      "from": 44.501,
+      "to": 51.027,
+      "heading": "The twist",
+      "text": "Now pour every drop on Earth into a single ball. It would be only about fourteen hundred kilometres wide.",
+      "source": "USGS Water Science School",
+      "beats": [
+        {
+          "word": "fourteen",
+          "kind": "compare",
+          "compare": {
+            "name": "The Moon",
+            "value": 3475,
+            "icon": "moon",
+            "subject": "All Earth's water",
+            "subjectValue": 1385,
+            "unit": "km wide",
+            "note": "Less than half the Moon"
+          }
+        }
+      ]
+    },
+    {
+      "from": 51.027,
+      "to": 58.39,
+      "heading": "Your guess?",
+      "text": "A blue planet with surprisingly little water. So how much of it could you actually drink? Guess below."
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.477
+    },
+    {
+      "need": "whoosh",
+      "at": 5.188,
+      "align": "peak"
+    },
+    {
+      "need": "sonar_ping",
+      "at": 19.153
+    },
+    {
+      "need": "whoosh",
+      "at": 45.589,
+      "align": "peak"
+    }
+  ],
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you poured all of Earth's water into one ball?",
+      "Earth is 71% ocean, but has surprisingly little water"
+    ],
+    "description": "A spin around the globe from the Pacific to Lake Baikal, ending with every drop of Earth's water squeezed into a single ball.",
+    "tags": [
+      "earth",
+      "ocean",
+      "water",
+      "fresh water",
+      "planet earth",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "About 71% of Earth's surface is ocean; 96.5% of Earth's water is in the oceans; 2.5% is fresh water, 68.7% of it in glaciers",
+      "url": "https://en.wikipedia.org/wiki/Water_distribution_on_Earth"
+    },
+    {
+      "claim": "The Pacific covers more than 30% of Earth's surface and is larger than all the continents combined",
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/"
+    },
+    {
+      "claim": "Average ocean depth about 3,682 m; Challenger Deep about 10,935 m",
+      "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    },
+    {
+      "claim": "Lake Baikal contains 20% of the world's total unfrozen fresh water",
+      "url": "https://whc.unesco.org/en/list/754"
+    },
+    {
+      "claim": "All the water on Earth would form a sphere about 860 miles (about 1,385 km) across",
+      "url": "https://www.usgs.gov/media/files/all-water-earth-a-sphere-placed-over-a-dry-globe"
+    },
+    {
+      "claim": "The Pacific Ocean covers about 165 million km², more than all Earth's land combined",
+      "url": "https://www.britannica.com/summary/Pacific-Ocean"
+    },
+    {
+      "claim": "Earth's land area is about 149 million km²",
+      "url": "https://en.wikipedia.org/wiki/Earth"
+    },
+    {
+      "claim": "The Moon is about 3,475 km across",
+      "url": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "claim": "All Earth's water would form a sphere about 1,385 km across, less than a third of the Moon's size",
+      "url": "https://www.universetoday.com/95054/earth-has-less-water-than-you-think/"
+    },
+    {
+      "claim": "Mount Everest is 8,849 m (about 8.8 km) high",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    }
+  ],
+  "seed": "earth-water-hook",
+  "skit": {
+    "text": "See? Still more than enough water to keep me cool.",
+    "mood": "wink",
+    "action": "*winks*"
+  },
+  "hook": {
+    "banner": "How much water does Earth really have?",
+    "flash": "1,400 km WIDE",
+    "previewLine": 7
+  }
+}

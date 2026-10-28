@@ -90,6 +90,19 @@ NEEDS = {
         "max_clip": 4, "max_len": 0.8,
         "allow_synth": True,  # cartoon pops are meant to sound made
     },
+    # The editing layer (shared/Edit.tsx): beats and the hook
+    "ui_click": {
+        "queries": ["ui click pop", "interface pop click", "soft pop notification"],
+        "listen": "a short clean user interface click or pop",
+        "max_clip": 3, "max_len": 0.5,
+        "allow_synth": True,  # UI sounds are made, not recorded
+    },
+    "impact_boom": {
+        "queries": ["cinematic impact boom", "trailer hit boom", "deep impact hit"],
+        "listen": "a deep cinematic impact boom",
+        "max_clip": 8, "max_len": 2.0, "ring_out": True,
+        "allow_synth": True,
+    },
     "station_beep": {
         "queries": ["space radio beep", "satellite beep", "radio beep transmission"],
         "listen": "an electronic radio beep from a spacecraft",
@@ -170,6 +183,8 @@ def main():
     base = [n for n in NEEDS if n in planned] if planned else [n for n in NEEDS if n in DESCENT_NEEDS]
     if ep.get("skit") and "cartoon_pop" not in base:
         base.append("cartoon_pop")
+    from scripts.edit_timing import edit_needs
+    base += [n for n in edit_needs(ep) if n not in base]
     wanted = [n for n in base if not a.only or n in a.only.split(",")]
 
     for name in wanted:

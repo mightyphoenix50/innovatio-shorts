@@ -1,10 +1,10 @@
 import { loadFont } from "@remotion/fonts";
+import { Beats, HookLayer, PopCaptions, bannerIn, cameraStyle, visualTime } from "../shared/Edit";
 import { Skit, skitDuck } from "../shared/Skit";
 import { Audio } from "@remotion/media";
 import { useLayoutEffect, useRef } from "react";
 import {
   AbsoluteFill,
-  Easing,
   interpolate,
   staticFile,
   useCurrentFrame,
@@ -22,13 +22,17 @@ for (const weight of ["500", "600"]) {
   });
 }
 
+for (const weight of ["500", "700"]) {
+  loadFont({ family: "Outfit", url: staticFile(`fonts/outfit-latin-${weight}-normal.woff2`), weight });
+}
+const EDIT_FONT = "Outfit";
+
 const INK = "#e8f4fa";
 const DIM = "#a8c8d6";
 const GOLD = "#ffd37a";
 
 // Shorts safe zones at 1080x1920: keep text out of the bottom ~420px and the right ~150px.
 const SAFE_BOTTOM = 420;
-const SAFE_RIGHT = 150;
 
 const fmt = (n: number) => Math.round(n).toLocaleString("en-US");
 
@@ -66,30 +70,6 @@ const Gauge: React.FC<{ ep: Episode; depth: number; opacity: number }> = ({ ep, 
   );
 };
 
-type Line = Episode["narration"][number];
-
-/** Caption text. With word timings, spoken words turn solid and the current word turns gold. */
-const CaptionText: React.FC<{ line: Line; t: number }> = ({ line, t }) => {
-  if (!line.words?.length) return <>{line.text}</>;
-  const spokenTo = line.words.filter((w) => w.start <= t).reduce((m, w) => Math.max(m, w.char + w.len), 0);
-  const current = line.words.find((w) => w.start <= t && t < w.end + 0.08);
-  if (!current) {
-    return (
-      <>
-        <span>{line.text.slice(0, spokenTo)}</span>
-        <span style={{ opacity: 0.5 }}>{line.text.slice(spokenTo)}</span>
-      </>
-    );
-  }
-  return (
-    <>
-      <span>{line.text.slice(0, current.char)}</span>
-      <span style={{ color: GOLD }}>{line.text.slice(current.char, current.char + current.len)}</span>
-      <span style={{ opacity: 0.5 }}>{line.text.slice(current.char + current.len)}</span>
-    </>
-  );
-};
-
 // About -1.1 dB, so voice and music together stay under YouTube's -1 dBTP peak guideline.
 const VOICE_VOLUME = 0.88;
 const MUSIC_FULL = 0.75;
@@ -115,36 +95,29 @@ export const Descent: React.FC<Episode> = (ep) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps;
+  // During the cold open the picture flashes forward; everything visual uses vt, captions and audio use t.
+  const vt = visualTime(ep, t);
   const canvas = useRef<HTMLCanvasElement>(null);
 
   useLayoutEffect(() => {
     const ctx = canvas.current?.getContext("2d");
-    if (ctx) drawFrame(ctx, ep, width, height, t);
-  }, [ep, t, width, height]);
+    if (ctx) drawFrame(ctx, ep, width, height, vt);
+  }, [ep, vt, width, height]);
 
-  const depth = depthAt(ep, t);
+  const depth = depthAt(ep, vt);
   const zone = ep.zones.find((z) => depth < z.to) ?? ep.zones[ep.zones.length - 1];
   const temp = lerpTable(ep.temperature, depth);
   const hudOpacity =
-    ep.platesAt === undefined
+    (ep.platesAt === undefined
       ? 1
-      : interpolate(t, [ep.platesAt, ep.platesAt + 0.8], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-
-  const line = ep.narration.find((n) => t >= n.from && t < n.to);
-  const lineOpacity = line
-    ? interpolate(t, [line.from, line.from + 0.3, line.to - 0.25, line.to], [0, 1, 1, 0], {
-        extrapolateLeft: "clamp",
-        extrapolateRight: "clamp",
-        easing: Easing.bezier(0.16, 1, 0.3, 1),
-      })
-    : 0;
-  const lineRise = line
-    ? interpolate(t, [line.from, line.from + 0.4], [24, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.bezier(0.16, 1, 0.3, 1) })
-    : 0;
+      : interpolate(vt, [ep.platesAt, ep.platesAt + 0.8], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })) *
+    (1 - bannerIn(ep, t));
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000", fontFamily, color: INK }}>
-      <canvas ref={canvas} width={width} height={height} style={{ position: "absolute", inset: 0 }} />
+      <div style={{ position: "absolute", inset: 0, ...cameraStyle(ep, t) }}>
+        <canvas ref={canvas} width={width} height={height} style={{ position: "absolute", inset: 0 }} />
+      </div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: 640, opacity: hudOpacity, background: "linear-gradient(rgba(0,14,26,.62), rgba(0,14,26,0))" }} />
 
       <div style={{ position: "absolute", left: 64, top: 150, opacity: hudOpacity, textShadow: "0 2px 18px rgba(0,0,0,.7)" }}>
@@ -162,24 +135,9 @@ export const Descent: React.FC<Episode> = (ep) => {
 
       <Gauge ep={ep} depth={depth} opacity={hudOpacity} />
 
-      {line ? (
-        <div
-          style={{
-            position: "absolute",
-            left: 56,
-            right: SAFE_RIGHT,
-            bottom: SAFE_BOTTOM,
-            padding: "28px 34px 32px",
-            borderRadius: 22,
-            background: "rgba(2,12,22,.66)",
-            opacity: lineOpacity,
-            translate: `0px ${lineRise}px`,
-          }}
-        >
-          <div style={{ fontSize: 50, fontWeight: 600, lineHeight: 1.05, color: GOLD, marginBottom: 10 }}>{line.heading}</div>
-          <div style={{ fontSize: 56, fontWeight: 500, lineHeight: 1.16 }}><CaptionText line={line} t={t} /></div>
-        </div>
-      ) : null}
+      <Beats ep={ep} t={t} font={EDIT_FONT} />
+      <PopCaptions ep={ep} t={t} font={EDIT_FONT} bottom={SAFE_BOTTOM} />
+      <HookLayer ep={ep} t={t} font={EDIT_FONT} />
 
       <Skit ep={ep} font={fontFamily} />
       {ep.music ? <Audio src={staticFile(ep.music)} volume={(f) => musicVolume(ep, f / fps)} /> : null}

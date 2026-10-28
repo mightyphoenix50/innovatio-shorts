@@ -1,4 +1,5 @@
 import { loadFont } from "@remotion/fonts";
+import { Beats, HookLayer, PopCaptions, bannerIn, cameraStyle, coldOpenLength, visualTime } from "../shared/Edit";
 import { Skit, skitDuck, skitIn } from "../shared/Skit";
 import { Audio } from "@remotion/media";
 import { useThree } from "@react-three/fiber";
@@ -22,29 +23,6 @@ const MUSIC_FULL = 0.75;
 const MUSIC_DUCKED = 0.35;
 const ease = Easing.bezier(0.16, 1, 0.3, 1);
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
-
-type Line = OrbitEpisode["narration"][number];
-
-const CaptionText: React.FC<{ line: Line; t: number }> = ({ line, t }) => {
-  if (!line.words?.length) return <>{line.text}</>;
-  const spokenTo = line.words.filter((w) => w.start <= t).reduce((m, w) => Math.max(m, w.char + w.len), 0);
-  const cur = line.words.find((w) => w.start <= t && t < w.end + 0.08);
-  if (!cur) {
-    return (
-      <>
-        <span>{line.text.slice(0, spokenTo)}</span>
-        <span style={{ opacity: 0.45 }}>{line.text.slice(spokenTo)}</span>
-      </>
-    );
-  }
-  return (
-    <>
-      <span>{line.text.slice(0, cur.char)}</span>
-      <span style={{ color: PAL.gold }}>{line.text.slice(cur.char, cur.char + cur.len)}</span>
-      <span style={{ opacity: 0.45 }}>{line.text.slice(cur.char + cur.len)}</span>
-    </>
-  );
-};
 
 const musicVolume = (ep: OrbitEpisode, t: number) => {
   let duck = 0;
@@ -224,23 +202,25 @@ export const Orbit: React.FC<OrbitEpisode> = (props) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps;
-  const dist = distanceAt(ep, t);
+  // During the cold open the picture flashes forward; everything visual uses vt, captions and audio use t.
+  const vt = visualTime(ep, t);
+  const dist = distanceAt(ep, vt);
   const r = screenRadius(dist, height);
   const lastTo = ep.narration[ep.narration.length - 1].to;
   const lineIdx = t >= lastTo ? ep.narration.length - 1 : Math.max(0, ep.narration.findIndex((n) => t < n.to));
-  const line = t < lastTo ? ep.narration[lineIdx] : undefined;
   const stop = stopFor(ep, lineIdx);
+  const vLineIdx = vt >= lastTo ? ep.narration.length - 1 : Math.max(0, ep.narration.findIndex((n) => vt < n.to));
 
-  const lineOpacity = line ? interpolate(t, [line.from, line.from + 0.25, line.to - 0.2, line.to], [0, 1, 1, 0], { ...clamp, easing: ease }) : 0;
-  const lineScale = line ? interpolate(t, [line.from, line.from + 0.35], [0.94, 1], { ...clamp, easing: ease }) : 1;
-  const sourceOpacity = line?.source ? interpolate(t, [line.from + 0.6, line.from + 1.0], [0, 1], clamp) * lineOpacity : 0;
-  const cardIn = interpolate(t, [0.2, 0.8], [0, 1], { ...clamp, easing: ease }) * (1 - skitIn(ep, t));
+  const cut = coldOpenLength(ep);
+  const cardIn =
+    interpolate(t, [cut + 0.2, cut + 0.8], [0, 1], { ...clamp, easing: ease }) * (1 - skitIn(ep, t)) * (1 - bannerIn(ep, t)) * (t < cut ? 0 : 1);
   const valueKey = stop?.value ?? ep.body.name;
   const valueIn = spring({ frame: Math.round((t - (stop ? ep.narration[stop.line].from + 0.6 : 0.2)) * fps), fps, config: { damping: 14 } });
 
   return (
     <AbsoluteFill style={{ fontFamily: UI_FONT, color: PAL.white, backgroundColor: "#120B33" }}>
-      <Space ep={ep} t={t} dist={dist} />
+      <div style={{ position: "absolute", inset: 0, ...cameraStyle(ep, t) }}>
+      <Space ep={ep} t={vt} dist={dist} />
       {ep.body.glow ? <Glow colour={ep.body.glow} r={r} /> : null}
 
       <div style={{ position: "absolute", left: 0, top: -LIFT, width, height }}>
@@ -249,12 +229,13 @@ export const Orbit: React.FC<OrbitEpisode> = (props) => {
           <ambientLight intensity={0.35} color="#7B6BE0" />
           <directionalLight position={[-5, 2.5, 3]} intensity={2.7} color="#FFF3DC" />
           <directionalLight position={[5, 1, -3]} intensity={1.2} color="#7FD8FF" />
-          <World ep={ep} t={t} />
-          {ep.body.moon ? <SmallMoon t={t} /> : null}
+          <World ep={ep} t={vt} />
+          {ep.body.moon ? <SmallMoon t={vt} /> : null}
         </ThreeCanvas>
       </div>
 
-      <Pin ep={ep} t={t} lineIdx={lineIdx} />
+      <Pin ep={ep} t={vt} lineIdx={vLineIdx} />
+      </div>
 
       {/* Stat card: the current stop's number, or the world's name */}
       <div style={{ position: "absolute", left: 56, top: 130, opacity: cardIn, transform: `translateY(${(1 - cardIn) * -30}px)` }}>
@@ -268,25 +249,12 @@ export const Orbit: React.FC<OrbitEpisode> = (props) => {
         </div>
       </div>
 
-      {line ? (
-        <div style={{ position: "absolute", left: 56, right: SAFE_RIGHT, bottom: SAFE_BOTTOM, opacity: lineOpacity, transform: `scale(${lineScale})`, transformOrigin: "50% 100%" }}>
-          <div style={{ padding: "26px 34px 30px", borderRadius: 30, background: PAL.card, border: `3px solid ${PAL.gold}` }}>
-            <div style={{ fontSize: 40, fontWeight: 700, color: PAL.gold, marginBottom: 8 }}>{line.heading}</div>
-            <div style={{ fontSize: 54, fontWeight: 500, lineHeight: 1.18 }}>
-              <CaptionText line={line} t={t} />
-            </div>
-          </div>
-          {line.source ? (
-            <div style={{ marginTop: 12, opacity: sourceOpacity, display: "flex" }}>
-              <div style={{ padding: "6px 18px", borderRadius: 999, background: "rgba(244,244,246,0.92)", color: PAL.ink, fontSize: 26, fontWeight: 500 }}>
-                Source: {line.source}
-              </div>
-            </div>
-          ) : null}
-        </div>
-      ) : null}
-
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, transparent 60%, rgba(8,2,30,0.5) 100%)", pointerEvents: "none" }} />
+
+      <Beats ep={ep} t={t} font={UI_FONT} />
+      <PopCaptions ep={ep} t={t} font={UI_FONT} bottom={SAFE_BOTTOM} />
+      <HookLayer ep={ep} t={t} font={UI_FONT} />
+
 
       <Skit ep={ep} font={UI_FONT} />
       {ep.music ? <Audio src={staticFile(ep.music)} volume={(f) => musicVolume(ep, f / fps)} /> : null}
