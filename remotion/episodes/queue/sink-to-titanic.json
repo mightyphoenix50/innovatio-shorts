@@ -1,0 +1,94 @@
+{
+  "title": "Sinking to the Titanic",
+  "fps": 30,
+  "keyframes": [
+    [0, 0],
+    [3, 0],
+    [5, 200],
+    [9, 420],
+    [11, 1000],
+    [15, 1900],
+    [17, 3600],
+    [21, 3700],
+    [23, 3780],
+    [27, 3790],
+    [29, 3800],
+    [52, 3800]
+  ],
+  "maxDepth": 3800,
+  "colours": [
+    [0, [42, 143, 189]],
+    [200, [14, 74, 120]],
+    [1000, [3, 22, 46]],
+    [2500, [1, 12, 24]],
+    [4000, [1, 9, 18]]
+  ],
+  "zones": [
+    {"from": 0, "to": 200, "name": "Sunlight zone", "colour": "#8fd8f0"},
+    {"from": 200, "to": 1000, "name": "Twilight zone", "colour": "#3f8fb8"},
+    {"from": 1000, "to": 4000, "name": "Midnight zone", "colour": "#1f5a84"}
+  ],
+  "temperature": [
+    [0, 12],
+    [200, 10],
+    [1000, 5],
+    [2500, 3],
+    [3800, 1.5]
+  ],
+  "creatures": [
+    {"depth": 40, "x": 0.25, "kind": "fish"},
+    {"depth": 140, "x": 0.7, "kind": "jelly"},
+    {"depth": 480, "x": 0.3, "kind": "lantern"},
+    {"depth": 820, "x": 0.72, "kind": "squid"},
+    {"depth": 1400, "x": 0.3, "kind": "jelly"},
+    {"depth": 2200, "x": 0.68, "kind": "angler"},
+    {"depth": 2900, "x": 0.3, "kind": "gulper"},
+    {"depth": 3500, "x": 0.7, "kind": "dumbo"},
+    {"depth": 3780, "x": 0.28, "kind": "cuc"},
+    {"depth": 3790, "x": 0.72, "kind": "xeno"}
+  ],
+  "narration": [
+    {"from": 0, "to": 3, "heading": "Sinking to the Titanic", "text": "The Titanic is down there. And you're sinking straight toward it.", "source": "Wreck of the Titanic"},
+    {"from": 3, "to": 9, "heading": "Sunlight zone", "text": "Only the top two hundred metres are the sunlight zone. Below that, the light fades fast.", "source": "NOAA Ocean Service"},
+    {"from": 9, "to": 15, "heading": "1,000 m down", "text": "Past one thousand metres, sunlight can't reach at all. You're sinking through total darkness.", "source": "NOAA Ocean Service"},
+    {"from": 15, "to": 21, "heading": "3,800 m down", "text": "Three thousand eight hundred metres down, the Titanic's bow rises out of the dark.", "source": "Wreck of the Titanic"},
+    {"from": 21, "to": 27, "heading": "The pressure", "text": "Down here, the water presses about three hundred and eighty times harder than at the surface.", "source": "NOAA Ocean Service"},
+    {"from": 27, "to": 33, "heading": "The impact", "text": "When it sank in 1912, the bow slammed into this seabed at about ten metres per second.", "source": "Wreck of the Titanic"},
+    {"from": 33, "to": 39, "heading": "The stern", "text": "The stern lies six hundred metres away, in water just one or two degrees above freezing.", "source": "Wreck of the Titanic"},
+    {"from": 39, "to": 45, "heading": "The twist", "text": "The twist? A rust-eating bacterium, Halomonas titanicae, is slowly eating the ship's iron.", "source": "Live Science"},
+    {"from": 45, "to": 52, "heading": "Gone by 2037?", "text": "Some scientists think it could be gone by 2037. Should we raise what's left, or let the ocean keep it?", "source": "Wreck of the Titanic"}
+  ],
+  "sfx": [
+    {"need": "dive_splash", "at": 2.6},
+    {"need": "sonar_ping", "at": "depth:1000"},
+    {"need": "hull_creak", "at": 22},
+    {"need": "seabed_thud", "at": "depth:3800"}
+  ],
+  "skit": {"text": "Iron-eating bacteria? Good thing I'm mostly aluminium. I think.", "mood": "gasp", "action": "*nervous beep*"},
+  "seed": "sink-to-titanic",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank all the way down to the Titanic?",
+      "Sinking 3.8 km to the Titanic, and what's eating it"
+    ],
+    "description": "Sink from the surface of the North Atlantic through the sunlight, twilight and midnight zones to the wreck of the Titanic, 3,800 metres down, and meet the rust-eating bacterium slowly destroying it.",
+    "tags": [
+      "titanic",
+      "titanic wreck",
+      "deep sea",
+      "ocean zones",
+      "halomonas titanicae",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {"claim": "The wreck lies about 3,800 m (12,500 ft) down, in two main pieces about 600 m apart", "url": "https://en.wikipedia.org/wiki/Titanic_wreck"},
+    {"claim": "The Titanic sank on 15 April 1912; the bow hit the bottom at about 20 knots (10 m/s)", "url": "https://en.wikipedia.org/wiki/Titanic_wreck"},
+    {"claim": "Water at the wreck is about 1-2 °C; Mann and Kaur's analysis says the wreck will not exist by 2037", "url": "https://en.wikipedia.org/wiki/Titanic_wreck"},
+    {"claim": "The upper 200 m is the sunlight zone; below 1,000 m sunlight does not penetrate", "url": "https://oceanservice.noaa.gov/facts/light_travel.html"},
+    {"claim": "Pressure rises by one atmosphere for every 10.06 m (33 ft) of depth, so about 380 atm at 3,800 m", "url": "https://oceanservice.noaa.gov/facts/pressure.html"},
+    {"claim": "A new rust-eating bacterium found in the Titanic's rusticles was named Halomonas titanicae", "url": "https://www.livescience.com/9079-species-rust-eating-bacteria-destroying-titanic.html"}
+  ]
+}
