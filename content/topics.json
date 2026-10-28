@@ -1,0 +1,16 @@
+{
+  "_about": "Topic backlog for the daily episode task. It takes the first 'next' entry, then marks it 'queued'. See content/DAILY_EPISODE_GUIDE.md.",
+  "topics": [
+    {"slug": "mariana", "title": "How deep is the Mariana Trench, really?", "format": "Descent", "angle": "Sinking 11 km to Challenger Deep.", "status": "published"},
+    {"slug": "earth-fall", "title": "What if you fell into a hole through the Earth?", "format": "Fall-down", "angle": "The fall takes only 38 minutes, and you'd swing back and forth forever.", "status": "queued"},
+    {"slug": "float-up", "title": "What if you started floating up and couldn't stop?", "format": "Fall-up", "angle": "The thermosphere tops 1,000 degrees, but you'd freeze.", "status": "queued"},
+    {"slug": "sink-to-titanic", "title": "What if you sank all the way down to the Titanic?", "format": "Descent", "angle": "3.8 km down in the dark; the twist is that bacteria are eating the wreck and it may be gone within decades.", "status": "next"},
+    {"slug": "highest-flying-things", "title": "What's the highest thing that can fly?", "format": "Fall-up", "angle": "Rise past a vulture at 11 km, the SR-71, weather balloons, meteors burning up, to Hubble; the twist is that a bird has hit a plane at 11 km.", "status": "next"},
+    {"slug": "hole-through-the-moon", "title": "What if you fell into a hole through the Moon?", "format": "Fall-down", "angle": "Through regolith, crust and mantle to a small iron core; the twist is the fall takes longer than on Earth despite the Moon being smaller.", "status": "next"},
+    {"slug": "sperm-whale-dive", "title": "Follow a whale on the deepest dive of any mammal", "format": "Descent", "angle": "A Cuvier's beaked whale holds its breath almost 3 km down; the twist is how long it stays under.", "status": "next"},
+    {"slug": "drill-through-antarctica", "title": "What's under 4 km of Antarctic ice?", "format": "Fall-down", "angle": "Drill down through ice layers that are hundreds of thousands of years old to a lake sealed off for millions of years (Lake Vostok).", "status": "next"},
+    {"slug": "sink-in-lake-baikal", "title": "What if you sank to the bottom of the deepest lake?", "format": "Descent", "angle": "Lake Baikal is 1.6 km deep and holds about a fifth of the world's unfrozen fresh surface water; the twist is the animals found nowhere else.", "status": "next"},
+    {"slug": "hole-through-mars", "title": "What if you fell into a hole through Mars?", "format": "Fall-down", "angle": "Through a dusty crust and mantle to a liquid core; compare the fall time and top speed with Earth's.", "status": "next"},
+    {"slug": "north-pole-seabed", "title": "What's at the bottom of the ocean under the North Pole?", "format": "Descent", "angle": "Below 2 m of sea ice, 4 km down to where a flag was planted by submersible in 2007.", "status": "next"}
+  ]
+}

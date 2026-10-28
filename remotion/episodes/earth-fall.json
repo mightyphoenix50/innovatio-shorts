@@ -1,0 +1,1378 @@
+{
+  "template": "Fall",
+  "title": "You fall into a hole through the Earth",
+  "fps": 30,
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.688,
+      0
+    ],
+    [
+      6.585,
+      3700
+    ],
+    [
+      10.663,
+      4300
+    ],
+    [
+      13.546,
+      11800
+    ],
+    [
+      17.571,
+      12800
+    ],
+    [
+      20.298,
+      36000
+    ],
+    [
+      24.064,
+      250000
+    ],
+    [
+      26.595,
+      2950000
+    ],
+    [
+      29.784,
+      3900000
+    ],
+    [
+      33.225,
+      6371000
+    ],
+    [
+      38.295,
+      6371000
+    ],
+    [
+      60.012,
+      6371000
+    ]
+  ],
+  "maxDepth": 6371000,
+  "fallAt": 3.688,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      4000,
+      900
+    ],
+    [
+      12262,
+      1800
+    ],
+    [
+      35000,
+      2700
+    ],
+    [
+      300000,
+      3200
+    ],
+    [
+      2900000,
+      4000
+    ],
+    [
+      5150000,
+      4900
+    ],
+    [
+      6371000,
+      5600
+    ],
+    [
+      7592000,
+      6300
+    ],
+    [
+      9842000,
+      7200
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 1500,
+      "name": "Soil and rock",
+      "colourTop": "#9C7356",
+      "colourBottom": "#8C6A4F",
+      "texture": "soil"
+    },
+    {
+      "from": 1500,
+      "to": 12000,
+      "name": "The crust",
+      "colourTop": "#8C6A4F",
+      "colourBottom": "#A7825F",
+      "texture": "strata"
+    },
+    {
+      "from": 12000,
+      "to": 35000,
+      "name": "The crust",
+      "colourTop": "#8F7B6C",
+      "colourBottom": "#7E6A5C",
+      "texture": "granite"
+    },
+    {
+      "from": 35000,
+      "to": 2900000,
+      "name": "The mantle",
+      "colourTop": "#B5532E",
+      "colourBottom": "#D9692E",
+      "texture": "mantle"
+    },
+    {
+      "from": 2900000,
+      "to": 5150000,
+      "name": "Outer core",
+      "colourTop": "#E8822F",
+      "colourBottom": "#F5A847",
+      "texture": "liquid"
+    },
+    {
+      "from": 5150000,
+      "to": 7592000,
+      "name": "Inner core",
+      "colourTop": "#FFD27A",
+      "colourBottom": "#FFE29A",
+      "texture": "crystal"
+    },
+    {
+      "from": 7592000,
+      "to": 9842000,
+      "name": "Outer core",
+      "colourTop": "#F5A847",
+      "colourBottom": "#E8822F",
+      "texture": "liquid"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 4000,
+      "kind": "mine",
+      "label": "Deepest mine \u00b7 4 km",
+      "side": "left"
+    },
+    {
+      "depth": 12262,
+      "kind": "borehole",
+      "label": "Deepest hole \u00b7 12 km",
+      "side": "right"
+    },
+    {
+      "depth": 35000,
+      "kind": "boundary",
+      "label": "End of the crust",
+      "side": "left"
+    },
+    {
+      "depth": 2900000,
+      "kind": "boundary",
+      "label": "Liquid iron",
+      "side": "right"
+    },
+    {
+      "depth": 5150000,
+      "kind": "boundary",
+      "label": "Solid iron",
+      "side": "left"
+    },
+    {
+      "depth": 6371000,
+      "kind": "center",
+      "label": "The centre \u00b7 6,371 km",
+      "side": "left"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      20
+    ],
+    [
+      4000,
+      66
+    ],
+    [
+      12262,
+      180
+    ],
+    [
+      35000,
+      500
+    ],
+    [
+      100000,
+      1000
+    ],
+    [
+      2900000,
+      3700
+    ],
+    [
+      5150000,
+      5500
+    ],
+    [
+      6371000,
+      6000
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      1
+    ],
+    [
+      4000,
+      1100
+    ],
+    [
+      12262,
+      3300
+    ],
+    [
+      35000,
+      10000
+    ],
+    [
+      2900000,
+      1350000
+    ],
+    [
+      5150000,
+      3300000
+    ],
+    [
+      6371000,
+      3600000
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.255,
+      "heading": "The hole",
+      "text": "Someone dug a hole straight through the Earth. And you just tripped into it.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.531,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 0.543,
+          "end": 0.805,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 0.817,
+          "end": 0.852,
+          "char": 12,
+          "len": 1
+        },
+        {
+          "start": 0.864,
+          "end": 1.079,
+          "char": 14,
+          "len": 4
+        },
+        {
+          "start": 1.09,
+          "end": 1.471,
+          "char": 19,
+          "len": 8
+        },
+        {
+          "start": 1.483,
+          "end": 1.626,
+          "char": 28,
+          "len": 7
+        },
+        {
+          "start": 1.638,
+          "end": 1.745,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 1.757,
+          "end": 2.09,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 2.483,
+          "end": 2.555,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 2.567,
+          "end": 2.626,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 2.638,
+          "end": 2.817,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 2.829,
+          "end": 3.09,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 3.102,
+          "end": 3.352,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 3.364,
+          "end": 3.507,
+          "char": 73,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 4.255,
+      "to": 11.246,
+      "heading": "4 km down",
+      "text": "Four kilometres: the deepest mine ever dug, near Johannesburg. The rock here is 66 degrees.",
+      "source": "Guinness World Records",
+      "words": [
+        {
+          "start": 4.536,
+          "end": 4.619,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 4.631,
+          "end": 5.31,
+          "char": 5,
+          "len": 10
+        },
+        {
+          "start": 5.536,
+          "end": 5.667,
+          "char": 17,
+          "len": 3
+        },
+        {
+          "start": 5.679,
+          "end": 6.084,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 6.095,
+          "end": 6.405,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 6.548,
+          "end": 6.75,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 6.762,
+          "end": 7.095,
+          "char": 39,
+          "len": 3
+        },
+        {
+          "start": 7.369,
+          "end": 7.548,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 7.56,
+          "end": 8.298,
+          "char": 49,
+          "len": 12
+        },
+        {
+          "start": 8.703,
+          "end": 8.75,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 8.762,
+          "end": 8.965,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 8.976,
+          "end": 9.214,
+          "char": 72,
+          "len": 4
+        },
+        {
+          "start": 9.286,
+          "end": 9.381,
+          "char": 77,
+          "len": 2
+        },
+        {
+          "start": 9.393,
+          "end": 10.5,
+          "char": 80,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 11.246,
+      "to": 18.146,
+      "heading": "12 km down",
+      "text": "Twelve kilometres: the deepest hole humans ever drilled. It took nineteen years. You just passed it.",
+      "source": "Kola Superdeep Borehole",
+      "words": [
+        {
+          "start": 11.491,
+          "end": 11.777,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 11.789,
+          "end": 12.491,
+          "char": 7,
+          "len": 10
+        },
+        {
+          "start": 12.717,
+          "end": 12.848,
+          "char": 19,
+          "len": 3
+        },
+        {
+          "start": 12.86,
+          "end": 13.265,
+          "char": 23,
+          "len": 7
+        },
+        {
+          "start": 13.277,
+          "end": 13.491,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 13.503,
+          "end": 14.098,
+          "char": 36,
+          "len": 6
+        },
+        {
+          "start": 14.241,
+          "end": 14.432,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 14.444,
+          "end": 14.872,
+          "char": 48,
+          "len": 7
+        },
+        {
+          "start": 15.265,
+          "end": 15.348,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 15.36,
+          "end": 15.527,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 15.539,
+          "end": 15.908,
+          "char": 65,
+          "len": 8
+        },
+        {
+          "start": 15.92,
+          "end": 16.325,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 16.717,
+          "end": 16.765,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 16.777,
+          "end": 16.932,
+          "char": 85,
+          "len": 4
+        },
+        {
+          "start": 16.944,
+          "end": 17.277,
+          "char": 90,
+          "len": 6
+        },
+        {
+          "start": 17.289,
+          "end": 17.408,
+          "char": 97,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 18.146,
+      "to": 24.602,
+      "heading": "The mantle",
+      "text": "The crust ends. Down here the rock is so hot that, over millions of years, it flows.",
+      "source": "Earth's mantle, Wikipedia",
+      "words": [
+        {
+          "start": 18.403,
+          "end": 18.451,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 18.463,
+          "end": 18.808,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 18.82,
+          "end": 19.236,
+          "char": 10,
+          "len": 4
+        },
+        {
+          "start": 19.629,
+          "end": 19.82,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 19.832,
+          "end": 19.986,
+          "char": 21,
+          "len": 4
+        },
+        {
+          "start": 19.998,
+          "end": 20.07,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 20.082,
+          "end": 20.379,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 20.391,
+          "end": 20.498,
+          "char": 35,
+          "len": 2
+        },
+        {
+          "start": 20.51,
+          "end": 20.736,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 20.748,
+          "end": 21.153,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 21.165,
+          "end": 21.439,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 21.808,
+          "end": 22.01,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 22.022,
+          "end": 22.534,
+          "char": 56,
+          "len": 8
+        },
+        {
+          "start": 22.546,
+          "end": 22.606,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 22.617,
+          "end": 23.046,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 23.213,
+          "end": 23.284,
+          "char": 75,
+          "len": 2
+        },
+        {
+          "start": 23.296,
+          "end": 23.856,
+          "char": 78,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 24.602,
+      "to": 30.183,
+      "heading": "2,900 km down",
+      "text": "Now an ocean of liquid iron. Its churning is what gives Earth its magnetic field.",
+      "source": "Earth's outer core, Wikipedia",
+      "words": [
+        {
+          "start": 24.847,
+          "end": 25.073,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 25.085,
+          "end": 25.192,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 25.204,
+          "end": 25.633,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 25.704,
+          "end": 25.811,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 25.823,
+          "end": 26.109,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 26.121,
+          "end": 26.466,
+          "char": 23,
+          "len": 4
+        },
+        {
+          "start": 26.859,
+          "end": 27.026,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 27.038,
+          "end": 27.454,
+          "char": 33,
+          "len": 8
+        },
+        {
+          "start": 27.466,
+          "end": 27.562,
+          "char": 42,
+          "len": 2
+        },
+        {
+          "start": 27.573,
+          "end": 27.728,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 27.74,
+          "end": 28.014,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 28.109,
+          "end": 28.347,
+          "char": 56,
+          "len": 5
+        },
+        {
+          "start": 28.407,
+          "end": 28.526,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 28.538,
+          "end": 29.014,
+          "char": 66,
+          "len": 8
+        },
+        {
+          "start": 29.026,
+          "end": 29.442,
+          "char": 75,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 30.183,
+      "to": 38.295,
+      "heading": "The centre",
+      "text": "The centre: solid iron, about as hot as the surface of the Sun, squeezed by over three million times the air pressure.",
+      "source": "Anzellini et al., Science 2013",
+      "words": [
+        {
+          "start": 30.44,
+          "end": 30.5,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 30.512,
+          "end": 30.94,
+          "char": 4,
+          "len": 6
+        },
+        {
+          "start": 31.297,
+          "end": 31.702,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 31.714,
+          "end": 32.047,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 32.393,
+          "end": 32.643,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 32.654,
+          "end": 32.75,
+          "char": 30,
+          "len": 2
+        },
+        {
+          "start": 32.762,
+          "end": 33.035,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 33.047,
+          "end": 33.154,
+          "char": 37,
+          "len": 2
+        },
+        {
+          "start": 33.166,
+          "end": 33.25,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 33.262,
+          "end": 33.726,
+          "char": 44,
+          "len": 7
+        },
+        {
+          "start": 33.738,
+          "end": 33.809,
+          "char": 52,
+          "len": 2
+        },
+        {
+          "start": 33.821,
+          "end": 33.892,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 33.904,
+          "end": 34.285,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 34.595,
+          "end": 35.012,
+          "char": 64,
+          "len": 8
+        },
+        {
+          "start": 35.023,
+          "end": 35.214,
+          "char": 73,
+          "len": 2
+        },
+        {
+          "start": 35.226,
+          "end": 35.464,
+          "char": 76,
+          "len": 4
+        },
+        {
+          "start": 35.476,
+          "end": 35.857,
+          "char": 81,
+          "len": 5
+        },
+        {
+          "start": 35.869,
+          "end": 36.404,
+          "char": 87,
+          "len": 7
+        },
+        {
+          "start": 36.416,
+          "end": 36.738,
+          "char": 95,
+          "len": 5
+        },
+        {
+          "start": 36.75,
+          "end": 36.821,
+          "char": 101,
+          "len": 3
+        },
+        {
+          "start": 36.833,
+          "end": 37.059,
+          "char": 105,
+          "len": 3
+        },
+        {
+          "start": 37.071,
+          "end": 37.547,
+          "char": 109,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 38.295,
+      "to": 45.989,
+      "heading": "The twist",
+      "text": "With the air pumped out, the whole fall takes just 38 minutes. At the centre you're doing over 8 kilometres a second.",
+      "source": "Klotz, Am. J. Physics 2015",
+      "words": [
+        {
+          "start": 38.552,
+          "end": 38.659,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 38.671,
+          "end": 38.743,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 38.755,
+          "end": 38.969,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 38.981,
+          "end": 39.266,
+          "char": 13,
+          "len": 6
+        },
+        {
+          "start": 39.278,
+          "end": 39.516,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 39.766,
+          "end": 39.838,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 39.85,
+          "end": 40.064,
+          "char": 29,
+          "len": 5
+        },
+        {
+          "start": 40.076,
+          "end": 40.35,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 40.362,
+          "end": 40.671,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 40.683,
+          "end": 40.969,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 40.981,
+          "end": 41.552,
+          "char": 51,
+          "len": 2
+        },
+        {
+          "start": 41.564,
+          "end": 42.052,
+          "char": 54,
+          "len": 7
+        },
+        {
+          "start": 42.445,
+          "end": 42.528,
+          "char": 63,
+          "len": 2
+        },
+        {
+          "start": 42.54,
+          "end": 42.612,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 42.624,
+          "end": 42.981,
+          "char": 70,
+          "len": 6
+        },
+        {
+          "start": 42.993,
+          "end": 43.124,
+          "char": 77,
+          "len": 6
+        },
+        {
+          "start": 43.135,
+          "end": 43.504,
+          "char": 84,
+          "len": 5
+        },
+        {
+          "start": 43.647,
+          "end": 43.885,
+          "char": 90,
+          "len": 4
+        },
+        {
+          "start": 43.993,
+          "end": 44.171,
+          "char": 95,
+          "len": 1
+        },
+        {
+          "start": 44.183,
+          "end": 44.731,
+          "char": 97,
+          "len": 10
+        },
+        {
+          "start": 44.743,
+          "end": 44.79,
+          "char": 108,
+          "len": 1
+        },
+        {
+          "start": 44.802,
+          "end": 45.243,
+          "char": 110,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 45.989,
+      "to": 52.32,
+      "heading": "Then what?",
+      "text": "You rise to the other side, slow down, stop right at the surface\u2026 and fall back. Forever.",
+      "words": [
+        {
+          "start": 46.234,
+          "end": 46.353,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 46.365,
+          "end": 46.627,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 46.639,
+          "end": 46.722,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 46.734,
+          "end": 46.841,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 46.853,
+          "end": 47.044,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 47.056,
+          "end": 47.449,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 47.699,
+          "end": 47.96,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 47.972,
+          "end": 48.329,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 48.687,
+          "end": 48.984,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 48.996,
+          "end": 49.151,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 49.163,
+          "end": 49.222,
+          "char": 50,
+          "len": 2
+        },
+        {
+          "start": 49.234,
+          "end": 49.306,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 49.318,
+          "end": 49.853,
+          "char": 57,
+          "len": 7
+        },
+        {
+          "start": 50.044,
+          "end": 50.127,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 50.139,
+          "end": 50.377,
+          "char": 70,
+          "len": 4
+        },
+        {
+          "start": 50.389,
+          "end": 50.758,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 51.175,
+          "end": 51.579,
+          "char": 81,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 52.32,
+      "to": 60.012,
+      "heading": "Where you'd land",
+      "text": "Jump in near Johannesburg and you'd pop out in the Pacific, north-east of Hawaii. Where would your hole come out?",
+      "words": [
+        {
+          "start": 52.565,
+          "end": 52.78,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 52.791,
+          "end": 52.875,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 52.887,
+          "end": 53.065,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 53.077,
+          "end": 53.827,
+          "char": 13,
+          "len": 12
+        },
+        {
+          "start": 54.006,
+          "end": 54.089,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 54.101,
+          "end": 54.256,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 54.268,
+          "end": 54.53,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 54.541,
+          "end": 54.684,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 54.696,
+          "end": 54.756,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 54.768,
+          "end": 54.839,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 54.851,
+          "end": 55.434,
+          "char": 51,
+          "len": 7
+        },
+        {
+          "start": 55.72,
+          "end": 56.208,
+          "char": 60,
+          "len": 10
+        },
+        {
+          "start": 56.22,
+          "end": 56.291,
+          "char": 71,
+          "len": 2
+        },
+        {
+          "start": 56.303,
+          "end": 56.744,
+          "char": 74,
+          "len": 6
+        },
+        {
+          "start": 57.137,
+          "end": 57.22,
+          "char": 82,
+          "len": 5
+        },
+        {
+          "start": 57.232,
+          "end": 57.327,
+          "char": 88,
+          "len": 5
+        },
+        {
+          "start": 57.339,
+          "end": 57.434,
+          "char": 94,
+          "len": 4
+        },
+        {
+          "start": 57.446,
+          "end": 57.637,
+          "char": 99,
+          "len": 4
+        },
+        {
+          "start": 57.649,
+          "end": 57.791,
+          "char": 104,
+          "len": 4
+        },
+        {
+          "start": 57.803,
+          "end": 58.065,
+          "char": 109,
+          "len": 3
+        }
+      ]
+    }
+  ],
+  "diagramAt": 38.295,
+  "diagram": {
+    "start": "Johannesburg",
+    "end": "North Pacific, near Hawaii",
+    "timer": "38 min 11 s",
+    "speed": "Top speed: 8+ km/s"
+  },
+  "sfx": [
+    {
+      "need": "fall_wind",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:4000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:12262"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:35000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:2900000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:5150000"
+    },
+    {
+      "need": "whoosh",
+      "at": "diagramAt",
+      "align": "peak"
+    }
+  ],
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you fell into a hole through the Earth?",
+      "Falling through the centre of the Earth"
+    ],
+    "description": "Someone dug a hole straight through the planet and you tripped in. A 55-second fall past the deepest mine and the deepest hole ever drilled, through the mantle and the liquid-iron outer core, to a centre as hot as the Sun's surface, and out the other side.",
+    "tags": [
+      "what if",
+      "hole through the earth",
+      "earth's core",
+      "kola superdeep borehole",
+      "gravity tunnel",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Mponeng, the deepest mine, is over 4 km deep with rock at 66 \u00b0C",
+      "url": "https://en.wikipedia.org/wiki/Mponeng_Gold_Mine"
+    },
+    {
+      "claim": "Deepest mine (Guinness World Records)",
+      "url": "https://www.guinnessworldrecords.com/world-records/66169-deepest-mine"
+    },
+    {
+      "claim": "Kola Superdeep Borehole reached 12,262 m in 1989 after drilling began in 1970",
+      "url": "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole"
+    },
+    {
+      "claim": "The mantle's rock flows slowly over geological time",
+      "url": "https://en.wikipedia.org/wiki/Earth%27s_mantle"
+    },
+    {
+      "claim": "The liquid-iron outer core starts about 2,900 km down and drives Earth's magnetic field",
+      "url": "https://en.wikipedia.org/wiki/Earth%27s_outer_core"
+    },
+    {
+      "claim": "Inner core pressure is about 330\u2013360 GPa",
+      "url": "https://en.wikipedia.org/wiki/Earth%27s_inner_core"
+    },
+    {
+      "claim": "The centre of the Earth is about as hot as the Sun's surface (Anzellini et al. 2013)",
+      "url": "https://www.smithsonianmag.com/smart-news/the-center-of-the-earth-is-as-hot-as-the-sun-43631207"
+    },
+    {
+      "claim": "A fall through the Earth takes about 38 minutes 11 seconds, reaching over 8 km/s (Klotz 2015)",
+      "url": "https://www.livescience.com/50312-how-long-to-fall-through-earth.html"
+    }
+  ],
+  "seed": "earth-fall",
+  "voiceover": "audio/earth-fall.mp3",
+  "music": "audio/earth-fall_bed.mp3"
+}

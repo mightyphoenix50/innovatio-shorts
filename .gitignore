@@ -1,0 +1,21 @@
+# Secrets: never commit these (on GitHub they live in Settings → Secrets and variables → Actions)
+.env
+*.env
+!.env.example
+*.pickle
+client_secret.json
+config/auth_url.txt
+
+# Generated
+output/
+remotion/node_modules/
+remotion/out/
+remotion/dist/
+__pycache__/
+*.pyc
+
+# Local tools and assets too big for the repo
+tools/earshot/
+assets/ue5_vault/
+assets/stock/
+assets/audio/

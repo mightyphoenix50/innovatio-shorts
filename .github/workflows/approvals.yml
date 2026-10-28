@@ -1,0 +1,53 @@
+# Checks Telegram for your Approve / Publish now / Reject taps and acts on them (uploads go to YouTube).
+# Every 30 minutes from 06:00 to 23:30 South African time, which keeps it well inside GitHub's free minutes.
+# Run it by hand from the Actions tab ("Run workflow") to act on a tap straight away.
+name: Telegram approvals
+
+on:
+  schedule:
+    - cron: "*/30 4-21 * * *"   # UTC
+  workflow_dispatch:
+
+concurrency:
+  group: pipeline-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  approvals:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      DRAFTS_REGISTRY: state/pending_drafts.json
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+      GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Python packages
+        run: pip install -q requests google-api-python-client google-auth google-auth-oauthlib
+
+      - name: Handle taps
+        run: python scripts/telegram_daemon.py --once
+
+      - name: Save state back to the repo
+        if: always()
+        run: |
+          git config user.name "innovatio-bot"
+          git config user.email "innovatio-bot@users.noreply.github.com"
+          git add -A state
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Approvals: update drafts [skip ci]"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1

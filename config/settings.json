@@ -1,0 +1,30 @@
+{
+  "voice": {
+    "default_voice": "en-US-GuyNeural",
+    "rate": "+10%",
+    "pitch": "+1Hz",
+    "tail_buffer_seconds": 0.4
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "intro_skip_seconds": 4.0,
+    "crop_mode": "blur_fill"
+  },
+  "youtube": {
+    "privacy_status": "public",
+    "category_id": "28",
+    "publish_slots_utc": [
+      "16:00"
+    ],
+    "display_utc_offset_hours": 2,
+    "min_lead_minutes": 60
+  },
+  "paths": {
+    "ue5_vault": "assets/ue5_vault",
+    "audio_dir": "assets/audio",
+    "stock_dir": "assets/stock",
+    "output_dir": "output/drafts"
+  }
+}

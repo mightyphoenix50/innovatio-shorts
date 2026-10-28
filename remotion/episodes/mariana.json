@@ -1,0 +1,1067 @@
+{
+  "title": "The Mariana Trench",
+  "fps": 30,
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      2.849,
+      0
+    ],
+    [
+      7.056,
+      200
+    ],
+    [
+      11.915,
+      1000
+    ],
+    [
+      17.763,
+      4000
+    ],
+    [
+      23.16,
+      6000
+    ],
+    [
+      29.331,
+      8300
+    ],
+    [
+      35.591,
+      8450
+    ],
+    [
+      39.427,
+      10935
+    ],
+    [
+      51.022,
+      10935
+    ]
+  ],
+  "maxDepth": 10935,
+  "colours": [
+    [
+      0,
+      [
+        42,
+        143,
+        189
+      ]
+    ],
+    [
+      200,
+      [
+        14,
+        74,
+        120
+      ]
+    ],
+    [
+      1000,
+      [
+        3,
+        22,
+        46
+      ]
+    ],
+    [
+      4000,
+      [
+        1,
+        9,
+        18
+      ]
+    ],
+    [
+      11000,
+      [
+        0,
+        2,
+        5
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 200,
+      "name": "Sunlight zone",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 200,
+      "to": 1000,
+      "name": "Twilight zone",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 1000,
+      "to": 4000,
+      "name": "Midnight zone",
+      "colour": "#1f5a84"
+    },
+    {
+      "from": 4000,
+      "to": 6000,
+      "name": "Abyssal zone",
+      "colour": "#2d4f8c"
+    },
+    {
+      "from": 6000,
+      "to": 11000,
+      "name": "Hadal zone",
+      "colour": "#8a6fc0"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      26
+    ],
+    [
+      200,
+      18
+    ],
+    [
+      1000,
+      4
+    ],
+    [
+      4000,
+      1.6
+    ],
+    [
+      11000,
+      2.5
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 40,
+      "x": 0.25,
+      "kind": "turtle"
+    },
+    {
+      "depth": 110,
+      "x": 0.7,
+      "kind": "fish"
+    },
+    {
+      "depth": 520,
+      "x": 0.3,
+      "kind": "lantern"
+    },
+    {
+      "depth": 700,
+      "x": 0.72,
+      "kind": "jelly"
+    },
+    {
+      "depth": 880,
+      "x": 0.3,
+      "kind": "squid"
+    },
+    {
+      "depth": 1600,
+      "x": 0.62,
+      "kind": "whale"
+    },
+    {
+      "depth": 2600,
+      "x": 0.3,
+      "kind": "angler"
+    },
+    {
+      "depth": 3400,
+      "x": 0.7,
+      "kind": "gulper"
+    },
+    {
+      "depth": 4500,
+      "x": 0.32,
+      "kind": "dumbo"
+    },
+    {
+      "depth": 5400,
+      "x": 0.72,
+      "kind": "jelly"
+    },
+    {
+      "depth": 6800,
+      "x": 0.3,
+      "kind": "cuc"
+    },
+    {
+      "depth": 7600,
+      "x": 0.7,
+      "kind": "cuc"
+    },
+    {
+      "depth": 8380,
+      "x": 0.62,
+      "kind": "snail"
+    },
+    {
+      "depth": 10900,
+      "x": 0.62,
+      "kind": "amph"
+    },
+    {
+      "depth": 10985,
+      "x": 0.5,
+      "kind": "xeno"
+    },
+    {
+      "depth": 10990,
+      "x": 0.25,
+      "kind": "amph"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 2.849,
+      "heading": "The Mariana Trench",
+      "text": "This is how deep the ocean really goes.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.376,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 0.388,
+          "end": 0.483,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 0.495,
+          "end": 0.674,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 0.686,
+          "end": 0.948,
+          "char": 12,
+          "len": 4
+        },
+        {
+          "start": 0.96,
+          "end": 1.079,
+          "char": 17,
+          "len": 3
+        },
+        {
+          "start": 1.09,
+          "end": 1.412,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 1.424,
+          "end": 1.614,
+          "char": 27,
+          "len": 6
+        },
+        {
+          "start": 1.626,
+          "end": 2.102,
+          "char": 34,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 2.849,
+      "to": 7.056,
+      "heading": "Sunlight zone",
+      "text": "Only the top 200 metres get enough sunlight for plants to grow.",
+      "words": [
+        {
+          "start": 3.094,
+          "end": 3.273,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 3.285,
+          "end": 3.38,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 3.392,
+          "end": 3.701,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 3.713,
+          "end": 4.166,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 4.178,
+          "end": 4.523,
+          "char": 17,
+          "len": 6
+        },
+        {
+          "start": 4.535,
+          "end": 4.666,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 4.678,
+          "end": 4.928,
+          "char": 28,
+          "len": 6
+        },
+        {
+          "start": 4.939,
+          "end": 5.439,
+          "char": 35,
+          "len": 8
+        },
+        {
+          "start": 5.451,
+          "end": 5.582,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 5.594,
+          "end": 5.904,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 5.916,
+          "end": 5.999,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 6.011,
+          "end": 6.309,
+          "char": 58,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 7.056,
+      "to": 11.915,
+      "heading": "Twilight zone",
+      "text": "By 1,000 metres the sun is gone. Animals here make their own light.",
+      "words": [
+        {
+          "start": 7.313,
+          "end": 7.408,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 7.42,
+          "end": 8.087,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 8.099,
+          "end": 8.408,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 8.42,
+          "end": 8.516,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 8.527,
+          "end": 8.813,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 8.825,
+          "end": 8.932,
+          "char": 24,
+          "len": 2
+        },
+        {
+          "start": 8.944,
+          "end": 9.277,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 9.67,
+          "end": 10.051,
+          "char": 33,
+          "len": 7
+        },
+        {
+          "start": 10.063,
+          "end": 10.289,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 10.301,
+          "end": 10.468,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 10.48,
+          "end": 10.646,
+          "char": 51,
+          "len": 5
+        },
+        {
+          "start": 10.658,
+          "end": 10.825,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 10.837,
+          "end": 11.17,
+          "char": 61,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 11.915,
+      "to": 17.763,
+      "heading": "Midnight zone",
+      "text": "Sperm whales dive here to hunt. Anglerfish dangle glowing lures in total darkness.",
+      "words": [
+        {
+          "start": 12.16,
+          "end": 12.458,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 12.47,
+          "end": 12.744,
+          "char": 6,
+          "len": 6
+        },
+        {
+          "start": 12.755,
+          "end": 13.005,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 13.017,
+          "end": 13.148,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 13.16,
+          "end": 13.208,
+          "char": 23,
+          "len": 2
+        },
+        {
+          "start": 13.22,
+          "end": 13.541,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 13.934,
+          "end": 14.565,
+          "char": 32,
+          "len": 10
+        },
+        {
+          "start": 14.625,
+          "end": 15.101,
+          "char": 43,
+          "len": 6
+        },
+        {
+          "start": 15.184,
+          "end": 15.66,
+          "char": 50,
+          "len": 7
+        },
+        {
+          "start": 15.672,
+          "end": 16.041,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 16.053,
+          "end": 16.148,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 16.16,
+          "end": 16.422,
+          "char": 67,
+          "len": 5
+        },
+        {
+          "start": 16.434,
+          "end": 17.017,
+          "char": 73,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 17.763,
+      "to": 23.16,
+      "heading": "Abyssal zone",
+      "text": "At 4,000 metres the water presses 400 times harder than at the surface.",
+      "words": [
+        {
+          "start": 18.008,
+          "end": 18.115,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 18.127,
+          "end": 18.794,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 18.806,
+          "end": 19.163,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 19.175,
+          "end": 19.27,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 19.282,
+          "end": 19.615,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 19.627,
+          "end": 20.092,
+          "char": 26,
+          "len": 7
+        },
+        {
+          "start": 20.163,
+          "end": 20.818,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 20.83,
+          "end": 21.127,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 21.139,
+          "end": 21.532,
+          "char": 44,
+          "len": 6
+        },
+        {
+          "start": 21.544,
+          "end": 21.663,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 21.675,
+          "end": 21.746,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 21.758,
+          "end": 21.818,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 21.83,
+          "end": 22.413,
+          "char": 63,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 23.16,
+      "to": 29.331,
+      "heading": "Hadal zone",
+      "text": "Below 6,000 metres you're inside the trench, a place almost nothing else on Earth reaches.",
+      "words": [
+        {
+          "start": 23.417,
+          "end": 23.679,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 23.691,
+          "end": 24.465,
+          "char": 6,
+          "len": 5
+        },
+        {
+          "start": 24.477,
+          "end": 24.798,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 24.81,
+          "end": 24.953,
+          "char": 19,
+          "len": 6
+        },
+        {
+          "start": 24.965,
+          "end": 25.381,
+          "char": 26,
+          "len": 6
+        },
+        {
+          "start": 25.393,
+          "end": 25.453,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 25.465,
+          "end": 25.905,
+          "char": 37,
+          "len": 6
+        },
+        {
+          "start": 26.262,
+          "end": 26.298,
+          "char": 45,
+          "len": 1
+        },
+        {
+          "start": 26.31,
+          "end": 26.62,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 26.691,
+          "end": 27.12,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 27.131,
+          "end": 27.524,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 27.536,
+          "end": 27.739,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 27.75,
+          "end": 27.869,
+          "char": 73,
+          "len": 2
+        },
+        {
+          "start": 27.881,
+          "end": 28.084,
+          "char": 76,
+          "len": 5
+        },
+        {
+          "start": 28.096,
+          "end": 28.584,
+          "char": 82,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 29.331,
+      "to": 35.591,
+      "heading": "Snailfish",
+      "text": "A snailfish filmed at 8,336 metres is the deepest fish ever seen.",
+      "words": [
+        {
+          "start": 29.576,
+          "end": 29.636,
+          "char": 0,
+          "len": 1
+        },
+        {
+          "start": 29.648,
+          "end": 30.171,
+          "char": 2,
+          "len": 9
+        },
+        {
+          "start": 30.183,
+          "end": 30.493,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 30.505,
+          "end": 30.6,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 30.671,
+          "end": 32.362,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 32.374,
+          "end": 32.767,
+          "char": 28,
+          "len": 6
+        },
+        {
+          "start": 32.981,
+          "end": 33.076,
+          "char": 35,
+          "len": 2
+        },
+        {
+          "start": 33.088,
+          "end": 33.207,
+          "char": 38,
+          "len": 3
+        },
+        {
+          "start": 33.291,
+          "end": 33.719,
+          "char": 42,
+          "len": 7
+        },
+        {
+          "start": 33.731,
+          "end": 34.171,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 34.314,
+          "end": 34.481,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 34.493,
+          "end": 34.85,
+          "char": 60,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 35.591,
+      "to": 39.427,
+      "heading": "The final drop",
+      "text": "The pressure passes 1,000 atmospheres on the way down.",
+      "words": [
+        {
+          "start": 35.848,
+          "end": 35.896,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 35.908,
+          "end": 36.241,
+          "char": 4,
+          "len": 8
+        },
+        {
+          "start": 36.253,
+          "end": 36.753,
+          "char": 13,
+          "len": 6
+        },
+        {
+          "start": 36.765,
+          "end": 37.479,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 37.491,
+          "end": 38.015,
+          "char": 26,
+          "len": 11
+        },
+        {
+          "start": 38.027,
+          "end": 38.098,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 38.11,
+          "end": 38.17,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 38.181,
+          "end": 38.324,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 38.336,
+          "end": 38.681,
+          "char": 49,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 39.427,
+      "to": 44.229,
+      "heading": "Challenger Deep, 10,935 m",
+      "text": "Put Everest here and its peak would still be 2 kilometres underwater.",
+      "words": [
+        {
+          "start": 39.696,
+          "end": 39.875,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 39.887,
+          "end": 40.315,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 40.327,
+          "end": 40.589,
+          "char": 12,
+          "len": 4
+        },
+        {
+          "start": 40.767,
+          "end": 40.839,
+          "char": 17,
+          "len": 3
+        },
+        {
+          "start": 40.851,
+          "end": 40.97,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 40.982,
+          "end": 41.291,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 41.363,
+          "end": 41.494,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 41.506,
+          "end": 41.756,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 41.767,
+          "end": 41.922,
+          "char": 42,
+          "len": 2
+        },
+        {
+          "start": 41.934,
+          "end": 42.244,
+          "char": 45,
+          "len": 1
+        },
+        {
+          "start": 42.256,
+          "end": 42.91,
+          "char": 47,
+          "len": 10
+        },
+        {
+          "start": 42.922,
+          "end": 43.482,
+          "char": 58,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 44.229,
+      "to": 51.022,
+      "heading": "Why it's so deep",
+      "text": "The Pacific plate is sliding underneath the Philippine plate, dragging the seafloor down.",
+      "words": [
+        {
+          "start": 44.486,
+          "end": 44.546,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 44.558,
+          "end": 44.998,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 45.01,
+          "end": 45.367,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 45.45,
+          "end": 45.558,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 45.569,
+          "end": 46.034,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 46.046,
+          "end": 46.51,
+          "char": 29,
+          "len": 10
+        },
+        {
+          "start": 46.522,
+          "end": 46.605,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 46.617,
+          "end": 47.141,
+          "char": 44,
+          "len": 10
+        },
+        {
+          "start": 47.153,
+          "end": 47.51,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 47.808,
+          "end": 48.2,
+          "char": 62,
+          "len": 8
+        },
+        {
+          "start": 48.212,
+          "end": 48.284,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 48.296,
+          "end": 48.736,
+          "char": 75,
+          "len": 8
+        },
+        {
+          "start": 48.748,
+          "end": 49.081,
+          "char": 84,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "label": "Everest",
+    "height": 8849,
+    "showAfter": 7000
+  },
+  "platesAt": 44.229,
+  "seed": "mariana-1",
+  "voiceover": "audio/mariana.mp3",
+  "music": "audio/mariana_bed.mp3",
+  "series": "The Descent",
+  "youtube": {
+    "titles": [
+      "How deep is the Mariana Trench, really?",
+      "Sinking 11 km to the bottom of the ocean"
+    ],
+    "description": "A 50-second dive from the surface to Challenger Deep, about 10,935 metres down, through every zone of the ocean: the light running out, the pressure climbing past 1,000 atmospheres, and the animals that live at each depth.",
+    "tags": [
+      "mariana trench",
+      "challenger deep",
+      "deep sea",
+      "ocean zones",
+      "snailfish",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Challenger Deep is about 10,935 m deep",
+      "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    },
+    {
+      "claim": "Ocean zones and their depths",
+      "url": "https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/ocean-zones/"
+    },
+    {
+      "claim": "Deepest fish ever filmed, a snailfish at 8,336 m",
+      "url": "https://uwa.edu.au/news/Article/2023/April/Scientists-break-new-record-after-finding-worlds-deepest-fish"
+    }
+  ]
+}

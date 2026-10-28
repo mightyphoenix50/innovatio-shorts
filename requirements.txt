@@ -1,0 +1,6 @@
+# Python packages for the pipeline (the Remotion side is in remotion/package.json).
+requests>=2.31
+azure-cognitiveservices-speech>=1.40
+google-api-python-client>=2.100
+google-auth>=2.23
+google-auth-oauthlib>=1.1

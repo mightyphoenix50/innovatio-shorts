@@ -1,0 +1,35 @@
+{
+  "whoosh": {
+    "id": "fs-807291",
+    "file": "audio/assets/sfx/fs-807291_jet-whoosh-low.ogg",
+    "start": 0.4,
+    "end": 1.8,
+    "license": "CC BY 4.0",
+    "attribution": "\"JET WHOOSH LOW\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807291/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807291/",
+    "match_z": 3.32,
+    "p_real": 0.845
+  },
+  "rock_rumble": {
+    "id": "fs-222521",
+    "file": "audio/assets/sfx/fs-222521_cracking-earthquake-cracking-soil-cracki.ogg",
+    "start": 7.958,
+    "end": 9.958,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/uagadugu/sounds/222521/",
+    "match_z": 4.35,
+    "p_real": 0.886
+  },
+  "lava_bubble": {
+    "id": "fs-474849",
+    "file": "audio/assets/sfx/fs-474849_lava-loop-1.ogg",
+    "start": 1.667,
+    "end": 4.167,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Fission9/sounds/474849/",
+    "match_z": 6.05,
+    "p_real": 0.962
+  }
+}

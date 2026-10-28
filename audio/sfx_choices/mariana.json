@@ -1,0 +1,57 @@
+{
+  "dive_splash": {
+    "id": "fs-553563",
+    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
+    "start": 5.6,
+    "end": 7.47,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
+    "match_z": 4.4,
+    "p_real": 0.969
+  },
+  "hull_creak": {
+    "id": "fs-697748",
+    "file": "audio/assets/sfx/fs-697748_metlimpt-metal-impact-creak-resonant-sdf.ogg",
+    "start": 0.057,
+    "end": 1.751,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/SoundDesignForYou/sounds/697748/",
+    "match_z": 4.57,
+    "p_real": 0.733
+  },
+  "seabed_thud": {
+    "id": "fs-457531",
+    "file": "audio/assets/sfx/fs-457531_dinosaur-falls-to-the-ground.ogg",
+    "start": 3.051,
+    "end": 4.651,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Breviceps/sounds/457531/",
+    "match_z": 4.67,
+    "p_real": 0.988
+  },
+  "sonar_ping": {
+    "id": "fs-493162",
+    "file": "audio/assets/sfx/fs-493162_submarine-sonar.ogg",
+    "start": 3.227,
+    "end": 4.97,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Breviceps/sounds/493162/",
+    "match_z": 6.09,
+    "p_real": 0.108
+  },
+  "whoosh": {
+    "id": "fs-74917",
+    "file": "audio/assets/sfx/fs-74917_whoosh-compressed-wav.ogg",
+    "start": 0.0,
+    "end": 1.4,
+    "license": "CC BY 4.0",
+    "attribution": "\"Whoosh Compressed.wav\" by Benboncan (https://freesound.org/people/Benboncan/sounds/74917/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Benboncan/sounds/74917/",
+    "match_z": 3.61,
+    "p_real": 0.919
+  }
+}
