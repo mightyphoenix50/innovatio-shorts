@@ -116,7 +116,9 @@ def render_cmd(episode_path: str, out: str, composition: str = "Descent") -> lis
         raise SystemExit(f"Unknown template {composition!r}; expected one of {', '.join(TEMPLATES)}")
     npx = shutil.which("npx.cmd") or shutil.which("npx") or "npx"
     cmd = [npx, "remotion", "render", composition, out, f"--props={episode_path}", "--codec=h264", "--crf=20",
-           "--log=error"]
+           # Loading the voice and music for the first frames can take longer than Remotion's 30 s default on a
+           # busy 2-core runner (seen on the 3D template); 2 minutes stops that from failing a render at random.
+           "--timeout=120000", "--log=error"]
     if composition in WEBGL_TEMPLATES:
         cmd.append(f"--gl={os.environ.get('REMOTION_GL', 'swangle')}")
     browser = os.environ.get("REMOTION_BROWSER_EXECUTABLE")
