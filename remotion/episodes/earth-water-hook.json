@@ -8,71 +8,71 @@
       0.0
     ],
     [
-      4.766,
+      4.348,
       0.05
     ],
     [
-      6.874,
+      6.456,
       0.35
     ],
     [
-      11.091,
+      10.673,
       0.35
     ],
     [
-      13.291,
+      12.873,
       0.3
     ],
     [
-      17.69,
+      17.272,
       0.3
     ],
     [
-      20.128,
+      19.71,
       0.72
     ],
     [
-      25.003,
+      24.585,
       0.68
     ],
     [
-      27.063,
+      26.645,
       0.4
     ],
     [
-      31.183,
+      30.765,
       0.4
     ],
     [
-      33.287,
+      32.869,
       0.5
     ],
     [
-      37.496,
+      37.078,
       0.5
     ],
     [
-      39.831,
+      39.413,
       0.72
     ],
     [
-      44.501,
+      44.083,
       0.7
     ],
     [
-      47.22,
+      46.802,
       0.12
     ],
     [
-      51.027,
+      50.609,
       0.15
     ],
     [
-      53.131,
+      51.915,
       0.0
     ],
     [
-      57.338,
+      54.526,
       0.0
     ]
   ],
@@ -145,13 +145,111 @@
   "narration": [
     {
       "from": 0,
-      "to": 4.766,
+      "to": 4.348,
       "heading": "Water planet?",
-      "text": "You think Earth is a water planet? Wait till you see it all in one ball."
+      "text": "You think Earth is a water planet? Wait till you see it all in one ball.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.341,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.352,
+          "end": 0.543,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.555,
+          "end": 0.757,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 0.769,
+          "end": 0.852,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 0.864,
+          "end": 0.924,
+          "char": 19,
+          "len": 1
+        },
+        {
+          "start": 0.936,
+          "end": 1.233,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 1.245,
+          "end": 1.65,
+          "char": 27,
+          "len": 6
+        },
+        {
+          "start": 2.055,
+          "end": 2.233,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 2.245,
+          "end": 2.376,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 2.388,
+          "end": 2.471,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 2.483,
+          "end": 2.686,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 2.698,
+          "end": 2.781,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 2.793,
+          "end": 2.995,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 3.007,
+          "end": 3.09,
+          "char": 60,
+          "len": 2
+        },
+        {
+          "start": 3.102,
+          "end": 3.281,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 3.293,
+          "end": 3.602,
+          "char": 67,
+          "len": 4
+        }
+      ]
     },
     {
-      "from": 4.766,
-      "to": 11.091,
+      "from": 4.348,
+      "to": 10.673,
       "heading": "71% blue",
       "text": "Oceans cover about seventy-one percent of the surface. Nearly three quarters of everything you can see.",
       "source": "Water distribution on Earth",
@@ -161,11 +259,109 @@
           "kind": "stamp",
           "value": "THREE QUARTERS"
         }
+      ],
+      "words": [
+        {
+          "start": 4.593,
+          "end": 4.927,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 4.938,
+          "end": 5.248,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 5.26,
+          "end": 5.51,
+          "char": 13,
+          "len": 5
+        },
+        {
+          "start": 5.522,
+          "end": 6.081,
+          "char": 19,
+          "len": 11
+        },
+        {
+          "start": 6.093,
+          "end": 6.51,
+          "char": 31,
+          "len": 7
+        },
+        {
+          "start": 6.522,
+          "end": 6.581,
+          "char": 39,
+          "len": 2
+        },
+        {
+          "start": 6.593,
+          "end": 6.653,
+          "char": 42,
+          "len": 3
+        },
+        {
+          "start": 6.665,
+          "end": 7.26,
+          "char": 46,
+          "len": 7
+        },
+        {
+          "start": 7.653,
+          "end": 7.915,
+          "char": 55,
+          "len": 6
+        },
+        {
+          "start": 7.927,
+          "end": 8.284,
+          "char": 62,
+          "len": 5
+        },
+        {
+          "start": 8.296,
+          "end": 8.748,
+          "char": 68,
+          "len": 8
+        },
+        {
+          "start": 8.76,
+          "end": 8.843,
+          "char": 77,
+          "len": 2
+        },
+        {
+          "start": 8.974,
+          "end": 9.379,
+          "char": 80,
+          "len": 10
+        },
+        {
+          "start": 9.391,
+          "end": 9.474,
+          "char": 91,
+          "len": 3
+        },
+        {
+          "start": 9.486,
+          "end": 9.617,
+          "char": 95,
+          "len": 3
+        },
+        {
+          "start": 9.629,
+          "end": 9.927,
+          "char": 99,
+          "len": 3
+        }
       ]
     },
     {
-      "from": 11.091,
-      "to": 17.69,
+      "from": 10.673,
+      "to": 17.272,
       "heading": "The Pacific",
       "text": "The Pacific alone covers more than thirty percent of the planet. It's bigger than all the continents put together.",
       "source": "NOAA Ocean Exploration",
@@ -183,11 +379,127 @@
             "note": "Bigger than every continent"
           }
         }
+      ],
+      "words": [
+        {
+          "start": 10.93,
+          "end": 10.978,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 10.99,
+          "end": 11.418,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 11.43,
+          "end": 11.799,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 11.811,
+          "end": 12.168,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 12.18,
+          "end": 12.43,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 12.442,
+          "end": 12.597,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 12.609,
+          "end": 12.942,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 12.954,
+          "end": 13.347,
+          "char": 42,
+          "len": 7
+        },
+        {
+          "start": 13.359,
+          "end": 13.406,
+          "char": 50,
+          "len": 2
+        },
+        {
+          "start": 13.418,
+          "end": 13.49,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 13.502,
+          "end": 13.942,
+          "char": 57,
+          "len": 6
+        },
+        {
+          "start": 14.335,
+          "end": 14.478,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 14.49,
+          "end": 14.787,
+          "char": 70,
+          "len": 6
+        },
+        {
+          "start": 14.799,
+          "end": 14.99,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 15.085,
+          "end": 15.263,
+          "char": 82,
+          "len": 3
+        },
+        {
+          "start": 15.275,
+          "end": 15.359,
+          "char": 86,
+          "len": 3
+        },
+        {
+          "start": 15.371,
+          "end": 15.859,
+          "char": 90,
+          "len": 10
+        },
+        {
+          "start": 15.871,
+          "end": 16.061,
+          "char": 101,
+          "len": 3
+        },
+        {
+          "start": 16.073,
+          "end": 16.525,
+          "char": 105,
+          "len": 8
+        }
       ]
     },
     {
-      "from": 17.69,
-      "to": 25.003,
+      "from": 17.272,
+      "to": 24.585,
       "heading": "How deep?",
       "text": "And it's deep. The ocean averages almost four kilometres down, and the Challenger Deep plunges nearly eleven.",
       "source": "NOAA Ocean Service",
@@ -211,11 +523,115 @@
             "note": "Everest would vanish"
           }
         }
+      ],
+      "words": [
+        {
+          "start": 17.517,
+          "end": 17.577,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 17.589,
+          "end": 17.743,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 17.755,
+          "end": 18.041,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 18.434,
+          "end": 18.553,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 18.565,
+          "end": 18.934,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 18.946,
+          "end": 19.481,
+          "char": 25,
+          "len": 8
+        },
+        {
+          "start": 19.493,
+          "end": 19.898,
+          "char": 34,
+          "len": 6
+        },
+        {
+          "start": 19.91,
+          "end": 20.231,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 20.243,
+          "end": 20.803,
+          "char": 46,
+          "len": 10
+        },
+        {
+          "start": 20.815,
+          "end": 21.172,
+          "char": 57,
+          "len": 4
+        },
+        {
+          "start": 21.458,
+          "end": 21.517,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 21.529,
+          "end": 21.601,
+          "char": 67,
+          "len": 3
+        },
+        {
+          "start": 21.612,
+          "end": 22.148,
+          "char": 71,
+          "len": 10
+        },
+        {
+          "start": 22.232,
+          "end": 22.505,
+          "char": 82,
+          "len": 4
+        },
+        {
+          "start": 22.577,
+          "end": 23.065,
+          "char": 87,
+          "len": 7
+        },
+        {
+          "start": 23.077,
+          "end": 23.446,
+          "char": 95,
+          "len": 6
+        },
+        {
+          "start": 23.458,
+          "end": 23.839,
+          "char": 102,
+          "len": 6
+        }
       ]
     },
     {
-      "from": 25.003,
-      "to": 31.183,
+      "from": 24.585,
+      "to": 30.765,
       "heading": "Too salty",
       "text": "But you can't drink it. Ninety-six and a half percent of all Earth's water sits in the salty oceans.",
       "source": "Water distribution on Earth",
@@ -225,11 +641,127 @@
           "kind": "warning",
           "value": "UNDRINKABLE"
         }
+      ],
+      "words": [
+        {
+          "start": 24.842,
+          "end": 24.914,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 24.925,
+          "end": 24.997,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 25.009,
+          "end": 25.235,
+          "char": 8,
+          "len": 5
+        },
+        {
+          "start": 25.247,
+          "end": 25.473,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 25.485,
+          "end": 25.628,
+          "char": 20,
+          "len": 2
+        },
+        {
+          "start": 26.021,
+          "end": 26.616,
+          "char": 24,
+          "len": 10
+        },
+        {
+          "start": 26.628,
+          "end": 26.771,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 26.783,
+          "end": 26.83,
+          "char": 39,
+          "len": 1
+        },
+        {
+          "start": 26.842,
+          "end": 27.175,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 27.187,
+          "end": 27.616,
+          "char": 46,
+          "len": 7
+        },
+        {
+          "start": 27.628,
+          "end": 27.723,
+          "char": 54,
+          "len": 2
+        },
+        {
+          "start": 27.842,
+          "end": 28.092,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 28.104,
+          "end": 28.354,
+          "char": 61,
+          "len": 7
+        },
+        {
+          "start": 28.366,
+          "end": 28.675,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 28.687,
+          "end": 28.985,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 28.997,
+          "end": 29.056,
+          "char": 80,
+          "len": 2
+        },
+        {
+          "start": 29.068,
+          "end": 29.14,
+          "char": 83,
+          "len": 3
+        },
+        {
+          "start": 29.152,
+          "end": 29.533,
+          "char": 87,
+          "len": 5
+        },
+        {
+          "start": 29.545,
+          "end": 30.021,
+          "char": 93,
+          "len": 6
+        }
       ]
     },
     {
-      "from": 31.183,
-      "to": 37.496,
+      "from": 30.765,
+      "to": 37.078,
       "heading": "Fresh water",
       "text": "Only two and a half percent is fresh. And most of that is frozen solid in glaciers and ice sheets.",
       "source": "Water distribution on Earth",
@@ -239,18 +771,250 @@
           "kind": "stamp",
           "value": "FROZEN SOLID"
         }
+      ],
+      "words": [
+        {
+          "start": 31.01,
+          "end": 31.213,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 31.225,
+          "end": 31.486,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 31.498,
+          "end": 31.558,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 31.57,
+          "end": 31.605,
+          "char": 13,
+          "len": 1
+        },
+        {
+          "start": 31.617,
+          "end": 31.879,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 31.891,
+          "end": 32.236,
+          "char": 20,
+          "len": 7
+        },
+        {
+          "start": 32.248,
+          "end": 32.344,
+          "char": 28,
+          "len": 2
+        },
+        {
+          "start": 32.355,
+          "end": 32.879,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 33.272,
+          "end": 33.379,
+          "char": 38,
+          "len": 3
+        },
+        {
+          "start": 33.391,
+          "end": 33.653,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 33.665,
+          "end": 33.725,
+          "char": 47,
+          "len": 2
+        },
+        {
+          "start": 33.736,
+          "end": 33.903,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 33.915,
+          "end": 34.01,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 34.022,
+          "end": 34.451,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 34.463,
+          "end": 34.832,
+          "char": 65,
+          "len": 5
+        },
+        {
+          "start": 34.844,
+          "end": 34.915,
+          "char": 71,
+          "len": 2
+        },
+        {
+          "start": 34.927,
+          "end": 35.486,
+          "char": 74,
+          "len": 8
+        },
+        {
+          "start": 35.498,
+          "end": 35.605,
+          "char": 83,
+          "len": 3
+        },
+        {
+          "start": 35.617,
+          "end": 35.796,
+          "char": 87,
+          "len": 3
+        },
+        {
+          "start": 35.808,
+          "end": 36.332,
+          "char": 91,
+          "len": 6
+        }
       ]
     },
     {
-      "from": 37.496,
-      "to": 44.501,
+      "from": 37.078,
+      "to": 44.083,
       "heading": "One lake",
       "text": "Meanwhile one lake in Siberia, Baikal, holds a fifth of all the unfrozen fresh water on the planet.",
-      "source": "UNESCO World Heritage"
+      "source": "UNESCO World Heritage",
+      "words": [
+        {
+          "start": 37.323,
+          "end": 37.764,
+          "char": 0,
+          "len": 9
+        },
+        {
+          "start": 37.776,
+          "end": 38.026,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 38.038,
+          "end": 38.288,
+          "char": 14,
+          "len": 4
+        },
+        {
+          "start": 38.299,
+          "end": 38.383,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 38.395,
+          "end": 39.049,
+          "char": 22,
+          "len": 7
+        },
+        {
+          "start": 39.299,
+          "end": 39.752,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 40.097,
+          "end": 40.287,
+          "char": 39,
+          "len": 5
+        },
+        {
+          "start": 40.299,
+          "end": 40.347,
+          "char": 45,
+          "len": 1
+        },
+        {
+          "start": 40.359,
+          "end": 40.74,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 40.752,
+          "end": 40.859,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 40.942,
+          "end": 41.121,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 41.133,
+          "end": 41.252,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 41.323,
+          "end": 42.002,
+          "char": 64,
+          "len": 8
+        },
+        {
+          "start": 42.014,
+          "end": 42.335,
+          "char": 73,
+          "len": 5
+        },
+        {
+          "start": 42.347,
+          "end": 42.716,
+          "char": 79,
+          "len": 5
+        },
+        {
+          "start": 42.728,
+          "end": 42.799,
+          "char": 85,
+          "len": 2
+        },
+        {
+          "start": 42.811,
+          "end": 42.883,
+          "char": 88,
+          "len": 3
+        },
+        {
+          "start": 42.895,
+          "end": 43.335,
+          "char": 92,
+          "len": 6
+        }
+      ]
     },
     {
-      "from": 44.501,
-      "to": 51.027,
+      "from": 44.083,
+      "to": 50.609,
       "heading": "The twist",
       "text": "Now pour every drop on Earth into a single ball. It would be only about fourteen hundred kilometres wide.",
       "source": "USGS Water Science School",
@@ -268,32 +1032,258 @@
             "note": "Less than half the Moon"
           }
         }
+      ],
+      "words": [
+        {
+          "start": 44.328,
+          "end": 44.507,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 44.519,
+          "end": 44.912,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 44.923,
+          "end": 45.15,
+          "char": 9,
+          "len": 5
+        },
+        {
+          "start": 45.162,
+          "end": 45.459,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 45.471,
+          "end": 45.614,
+          "char": 20,
+          "len": 2
+        },
+        {
+          "start": 45.626,
+          "end": 45.888,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 45.971,
+          "end": 46.185,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 46.197,
+          "end": 46.257,
+          "char": 34,
+          "len": 1
+        },
+        {
+          "start": 46.269,
+          "end": 46.566,
+          "char": 36,
+          "len": 6
+        },
+        {
+          "start": 46.578,
+          "end": 46.864,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 47.257,
+          "end": 47.304,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 47.316,
+          "end": 47.412,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 47.423,
+          "end": 47.614,
+          "char": 58,
+          "len": 2
+        },
+        {
+          "start": 47.626,
+          "end": 47.9,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 47.912,
+          "end": 48.162,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 48.173,
+          "end": 48.626,
+          "char": 72,
+          "len": 8
+        },
+        {
+          "start": 48.638,
+          "end": 48.923,
+          "char": 81,
+          "len": 7
+        },
+        {
+          "start": 48.935,
+          "end": 49.495,
+          "char": 89,
+          "len": 10
+        },
+        {
+          "start": 49.507,
+          "end": 49.864,
+          "char": 100,
+          "len": 4
+        }
       ]
     },
     {
-      "from": 51.027,
-      "to": 58.39,
+      "from": 50.609,
+      "to": 57.972,
       "heading": "Your guess?",
-      "text": "A blue planet with surprisingly little water. So how much of it could you actually drink? Guess below."
+      "text": "A blue planet with surprisingly little water. So how much of it could you actually drink? Guess below.",
+      "words": [
+        {
+          "start": 50.854,
+          "end": 50.926,
+          "char": 0,
+          "len": 1
+        },
+        {
+          "start": 50.938,
+          "end": 51.199,
+          "char": 2,
+          "len": 4
+        },
+        {
+          "start": 51.211,
+          "end": 51.64,
+          "char": 7,
+          "len": 6
+        },
+        {
+          "start": 51.652,
+          "end": 51.783,
+          "char": 14,
+          "len": 4
+        },
+        {
+          "start": 51.795,
+          "end": 52.509,
+          "char": 19,
+          "len": 12
+        },
+        {
+          "start": 52.521,
+          "end": 52.759,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 52.771,
+          "end": 53.164,
+          "char": 39,
+          "len": 5
+        },
+        {
+          "start": 53.569,
+          "end": 53.688,
+          "char": 46,
+          "len": 2
+        },
+        {
+          "start": 53.699,
+          "end": 53.818,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 53.83,
+          "end": 54.021,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 54.033,
+          "end": 54.092,
+          "char": 58,
+          "len": 2
+        },
+        {
+          "start": 54.104,
+          "end": 54.164,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 54.176,
+          "end": 54.307,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 54.319,
+          "end": 54.402,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 54.414,
+          "end": 54.747,
+          "char": 74,
+          "len": 8
+        },
+        {
+          "start": 54.759,
+          "end": 55.092,
+          "char": 83,
+          "len": 5
+        },
+        {
+          "start": 55.485,
+          "end": 55.652,
+          "char": 90,
+          "len": 5
+        },
+        {
+          "start": 55.664,
+          "end": 56.033,
+          "char": 96,
+          "len": 5
+        }
+      ]
     }
   ],
   "sfx": [
     {
       "need": "station_beep",
-      "at": 0.477
+      "at": 0.435
     },
     {
       "need": "whoosh",
-      "at": 5.188,
+      "at": 4.77,
       "align": "peak"
     },
     {
       "need": "sonar_ping",
-      "at": 19.153
+      "at": 18.735
     },
     {
       "need": "whoosh",
-      "at": 45.589,
+      "at": 45.171,
       "align": "peak"
     }
   ],
@@ -335,11 +1325,11 @@
       "url": "https://www.usgs.gov/media/files/all-water-earth-a-sphere-placed-over-a-dry-globe"
     },
     {
-      "claim": "The Pacific Ocean covers about 165 million km², more than all Earth's land combined",
+      "claim": "The Pacific Ocean covers about 165 million km\u00b2, more than all Earth's land combined",
       "url": "https://www.britannica.com/summary/Pacific-Ocean"
     },
     {
-      "claim": "Earth's land area is about 149 million km²",
+      "claim": "Earth's land area is about 149 million km\u00b2",
       "url": "https://en.wikipedia.org/wiki/Earth"
     },
     {
@@ -359,11 +1349,77 @@
   "skit": {
     "text": "See? Still more than enough water to keep me cool.",
     "mood": "wink",
-    "action": "*winks*"
+    "action": "*winks*",
+    "from": 57.972,
+    "to": 64.308,
+    "words": [
+      {
+        "start": 58.517,
+        "end": 58.922,
+        "char": 0,
+        "len": 3
+      },
+      {
+        "start": 59.688,
+        "end": 60.082,
+        "char": 5,
+        "len": 5
+      },
+      {
+        "start": 60.094,
+        "end": 60.364,
+        "char": 11,
+        "len": 4
+      },
+      {
+        "start": 60.375,
+        "end": 60.522,
+        "char": 16,
+        "len": 4
+      },
+      {
+        "start": 60.533,
+        "end": 60.826,
+        "char": 21,
+        "len": 6
+      },
+      {
+        "start": 60.837,
+        "end": 61.254,
+        "char": 28,
+        "len": 5
+      },
+      {
+        "start": 61.265,
+        "end": 61.389,
+        "char": 34,
+        "len": 2
+      },
+      {
+        "start": 61.4,
+        "end": 61.614,
+        "char": 37,
+        "len": 4
+      },
+      {
+        "start": 61.625,
+        "end": 61.772,
+        "char": 42,
+        "len": 2
+      },
+      {
+        "start": 61.783,
+        "end": 62.177,
+        "char": 45,
+        "len": 4
+      }
+    ]
   },
   "hook": {
     "banner": "How much water does Earth really have?",
     "flash": "1,400 km WIDE",
     "previewLine": 7
-  }
+  },
+  "voiceover": "audio/earth-water-hook.mp3",
+  "music": "audio/earth-water-hook_bed.mp3"
 }

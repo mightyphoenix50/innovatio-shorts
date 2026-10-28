@@ -1,0 +1,68 @@
+{
+  "sonar_ping": {
+    "id": "fs-493162",
+    "file": "audio/assets/sfx/fs-493162_submarine-sonar.ogg",
+    "start": 3.227,
+    "end": 4.97,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Breviceps/sounds/493162/",
+    "match_z": 6.09,
+    "p_real": 0.108
+  },
+  "whoosh": {
+    "id": "fs-461023",
+    "file": "audio/assets/sfx/fs-461023_whoosh-into-hit-003-wav.ogg",
+    "start": 0.0,
+    "end": 1.4,
+    "license": "CC BY 4.0",
+    "attribution": "\"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/alanmcki/sounds/461023/",
+    "match_z": 3.13,
+    "p_real": 0.86
+  },
+  "station_beep": {
+    "id": "fs-791966",
+    "file": "audio/assets/sfx/fs-791966_apollo-program-beep-real.ogg",
+    "start": 0.013,
+    "end": 0.29,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/SoundsofTheMachine/sounds/791966/",
+    "match_z": 2.9,
+    "p_real": 0.702
+  },
+  "cartoon_pop": {
+    "id": "fs-463390",
+    "file": "audio/assets/sfx/fs-463390_vs-pop-2-mp3.ogg",
+    "start": 0.065,
+    "end": 0.18,
+    "license": "CC BY 4.0",
+    "attribution": "\"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463390/",
+    "match_z": 5.14,
+    "p_real": 0.816
+  },
+  "impact_boom": {
+    "id": "fs-825964",
+    "file": "audio/assets/sfx/fs-825964_underground-profound-cave-boom.ogg",
+    "start": 0.37,
+    "end": 2.37,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/ROHHSADOTCOM/sounds/825964/",
+    "match_z": 4.09,
+    "p_real": 0.311
+  },
+  "ui_click": {
+    "id": "fs-855481",
+    "file": "audio/assets/sfx/fs-855481_ui-pack-generative-sound-by-glorb.ogg",
+    "start": 1.51,
+    "end": 1.58,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/bassimat/sounds/855481/",
+    "match_z": 5.09,
+    "p_real": 0.033
+  }
+}
