@@ -17,18 +17,19 @@ The project is the private GitHub repo `mightyphoenix50/innovatio-shorts`. Clone
 
 Change only `remotion/episodes/queue/<slug>.json` and `content/topics.json`. Don't edit code, workflows or settings, don't run `produce.py` or any workflow, don't delete anything, and don't push anything else.
 
-## The four formats
+## The five formats
 
 | Format | Use for | Example to copy |
 |---|---|---|
 | `Descent` (no `template` field) | Sinking through water: the ocean, a lake, a whale's dive. Depth zones, sea creatures, water temperature, pressure. | `remotion/episodes/mariana.json` |
 | `Fall` + `"direction": "down"` | Falling or digging through solid layers: a planet, a moon, ice, rock. Ends on a tunnel diagram. | `remotion/episodes/earth-fall.json` |
 | `Fall` + `"direction": "up"` | Rising through the sky: altitude, air thinning, things that fly. Ends by zooming out to the planet. | `remotion/episodes/float-up.json` |
+| `Scale` | **Size ladders in 3D**: real objects side by side at true relative size, the camera pulling back from each to the next bigger one (moons, planets, stars). The "Powers of Ten" format behind some of the biggest science Shorts. | `remotion/episodes/biggest-star.json` |
 | `Orbit` | A tour around a whole world seen from space, in 3D: places on its surface, how big things are, what covers it. Earth uses the real map; other worlds are drawn in their style. | `remotion/episodes/earth-water.json` |
 
 Copy the example's structure field for field, then change the content. Don't invent new fields.
 
-**Prefer Orbit.** The owner finds Orbit's 3D look the most appealing. Whenever a topic can be told around a whole world (places on it, what covers it, how big things are), use Orbit; use the others when the story is a journey down or up.
+**Prefer the 3D look.** The owner likes the 3D toon animation style of Orbit and Scale (flat toon shading, glowing atmospheres, the purple starfield) far more than the flat 2D templates. Prefer Scale and Orbit whenever the topic fits; use Descent and Fall only for journeys down or up. Don't repeat the same template two days running.
 
 What each format can draw (anything else is rejected by the checker):
 
@@ -36,6 +37,7 @@ What each format can draw (anything else is rejected by the checker):
 - **Fall landmarks:** `mine` (tunnel with miners), `borehole` (drill pipe ending at the depth), `boundary` (dashed line with a label: use for any layer edge or named level), `center` (glowing point), `mountain` (peak reaching that altitude), `plane` (airliner crossing), `balloon` (high-altitude balloon), `station` (space station). Labels ≤ 30 characters, e.g. `"Deepest mine · 4 km"`.
 - **Fall textures going down:** soil, strata, granite, mantle (slow swirls), liquid (waves), crystal (facets; also works as ice).
 - **Fall textures going up:** cloud, ozone, haze, aurora, stars.
+- **Scale objects (`objects`):** 3–7 objects, each bigger than the last, each on its own narration line (the first on line 0), `{line, name, value, caption, kind, radiusKm, colours?, glow?, rings?}`. `kind` is any Orbit world kind or `star`. `radiusKm` is the real radius (it sets the true relative size, so get it from the source). `value` ≤ 14 characters is the big readout (`"12,756 km"`, `"764× Sun"`), `caption` ≤ 20 (`"WIDE"`). Stars glow in their `colours` (three, light to dark: yellow `#FFF1B8 #FFC94D #FF8A2E`, red giant `#FFB38A #F2603A #B8321E`, blue `#E8F4FF #9CC8FF #4F7FE0`); give Earth `"glow": "#7EC8F0"`. The camera flies to each object as its line starts; lines without a new object hold on the last one (good for the twist). A whoosh plays on each move automatically; no `sfx` needed. Don't repeat the object's number as a stat beat (the card already shows it): use beats for how many fit inside, comparisons and stamps.
 - **Orbit worlds (`body.kind`):** earth (real continents and oceans, with clouds), mars, moon, mercury, venus, gas (a banded giant; set `colours` to three bands light to dark, and `rings: true` for Saturn), ice (cracked ice like Europa), lava (glowing cracks like Io). Optional `moon: true` (a small moon orbiting behind), `glow` (atmosphere colour, `#RRGGBB`; leave out for airless worlds), `tilt` (degrees) and `radiusKm` (the real radius; needed for `ballKm`).
 - **Orbit stops:** one place per narration line that needs one, `{line, lat, lon, label, value, caption}`. The globe turns to bring the place to the front while its line plays and drops a pin on it. `label` ≤ 24 characters (next to the pin), `value` ≤ 9 (the big number on the stat card, e.g. `"10.9 km"`), `caption` ≤ 22 (above the number, e.g. `"Deepest point"`). Use real coordinates for Earth places; on other worlds use the feature's real lat/lon even though the surface is stylised. `ballKm` (optional) stands a ball of that diameter on the place, to scale with the world: use it for "if you gathered all of X into one ball" moments. 3+ stops; at most one per line.
 - **Sound effects (`sfx`):** dive_splash, sonar_ping, hull_creak, seabed_thud, whoosh, fall_wind, rock_rumble, lava_bubble, plane_flyby, station_beep. `at` is seconds, `"fallAt"`, `"diagramAt"`, `"skit"`, or `"depth:<metres>"` (the moment that depth is reached). Use 3–7 effects; always a `whoosh` at `diagramAt` when there is a diagram. Descent episodes can leave `sfx` out (they get pings, creaks and a landing thud automatically). Orbit episodes must list them in seconds: a `whoosh` (`"align": "peak"`) on big turns or zooms, `station_beep` at the start, `sonar_ping` for anything deep.

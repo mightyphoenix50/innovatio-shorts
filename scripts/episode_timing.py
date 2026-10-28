@@ -39,7 +39,8 @@ def skit_span(ep: dict) -> tuple[float, float] | None:
 
 def end_time(ep: dict) -> float:
     span = skit_span(ep)
-    return max([ep["keyframes"][-1][0]] + [n["to"] for n in ep["narration"]] + ([span[1]] if span else []))
+    last_key = [ep["keyframes"][-1][0]] if ep.get("keyframes") else []  # Scale has no keyframes
+    return max(last_key + [n["to"] for n in ep["narration"]] + ([span[1]] if span else []))
 
 
 def place_skit(ep: dict, duration: float) -> float:
@@ -75,7 +76,8 @@ def fit_timeline(ep: dict, durations: list[float]) -> None:
                 return round(new[i] + f * (new[i + 1] - new[i]), 3)
         return round(t - old[-1] + new[-1], 3)
 
-    ep["keyframes"] = [[warp(t), d] for t, d in ep["keyframes"]]
+    if ep.get("keyframes"):
+        ep["keyframes"] = [[warp(t), d] for t, d in ep["keyframes"]]
     # Scene markers used by the templates: Descent's plates scene, Fall's trip and closing diagram.
     for key in ("platesAt", "fallAt", "diagramAt"):
         if ep.get(key) is not None:

@@ -23,6 +23,7 @@ BODIES = {"earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava"}
 SFX_NEEDS = {"dive_splash", "sonar_ping", "hull_creak", "seabed_thud", "whoosh",
              "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep", "cartoon_pop"}
 SKIT_MOODS = {"wink", "smug", "gasp", "shrug", "laugh"}
+SCALE_KINDS = {"earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava", "star"}
 COMPARE_ICONS = {"tower", "mountain", "plane", "ship", "person", "building", "whale", "rocket", "moon", "land"}
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -37,22 +38,25 @@ def validate(ep: dict, filename: str = "") -> list[str]:
     p = []
     req = lambda k: p.append(f"missing '{k}'") if k not in ep else None  # noqa: E731
     template = ep.get("template", "Descent")
-    if template not in ("Descent", "Fall", "Orbit"):
-        p.append(f"template must be Descent, Fall or Orbit, not {template!r}")
+    if template not in ("Descent", "Fall", "Orbit", "Scale"):
+        p.append(f"template must be Descent, Fall, Orbit or Scale, not {template!r}")
     if filename:
         slug = os.path.splitext(os.path.basename(filename))[0]
         if not SLUG.match(slug):
             p.append(f"file name '{slug}' should be lowercase words joined by hyphens")
     orbit = template == "Orbit"
-    for k in ("title", "keyframes", "narration", "youtube", "sources") + (() if orbit else ("maxDepth", "temperature")):
+    scale = template == "Scale"
+    for k in ("title", "narration", "youtube", "sources") + (() if scale else ("keyframes",)) + (() if orbit or scale else ("maxDepth", "temperature")):
         req(k)
 
     k = ep.get("keyframes", [])
-    if not _pairs(k):
+    if scale:
+        pass  # Scale's camera follows the objects; it has no keyframes
+    elif not _pairs(k):
         p.append(f"keyframes must be a list of [seconds, {'zoom' if orbit else 'metres'}] pairs")
     elif any(b[0] < a[0] for a, b in zip(k, k[1:])):
         p.append("keyframes must be in time order")
-    if not orbit and not _pairs(ep.get("temperature", [])):
+    if not orbit and not scale and not _pairs(ep.get("temperature", [])):
         p.append("temperature must be a list of [metres, °C] pairs")
 
     lines = ep.get("narration", [])
@@ -207,6 +211,39 @@ def validate(ep: dict, filename: str = "") -> list[str]:
                 p.append(f"stops[{i}].value is too long for the stat card (≤ 9 characters)")
             if len(st.get("caption", "")) > 22:
                 p.append(f"stops[{i}].caption is too long (≤ 22 characters)")
+    elif scale:
+        objs = ep.get("objects") or []
+        if len(objs) < 3:
+            p.append("Scale needs at least 3 objects")
+        prev_line, prev_r = -1, 0.0
+        for o in objs:
+            nm = o.get("name", "?")
+            if o.get("kind") not in SCALE_KINDS:
+                p.append(f"object {nm!r}: kind must be one of {', '.join(sorted(SCALE_KINDS))}")
+            r = o.get("radiusKm", 0)
+            if not isinstance(r, (int, float)) or r <= 0:
+                p.append(f"object {nm!r}: radiusKm must be a positive number (the real radius)")
+            elif r <= prev_r:
+                p.append(f"object {nm!r}: objects must get bigger, each larger than the one before")
+            else:
+                prev_r = r
+            ln = o.get("line", -1)
+            if not isinstance(ln, int) or not (0 <= ln < len(lines)) or ln <= prev_line:
+                p.append(f"object {nm!r}: line must be a narration index, each object on a later line than the last")
+            else:
+                prev_line = ln
+            if len(nm) > 22:
+                p.append(f"object {nm!r}: name ≤ 22 characters")
+            if len(str(o.get("value", ""))) > 14 or not o.get("value"):
+                p.append(f"object {nm!r}: value is required, ≤ 14 characters")
+            if len(str(o.get("caption", "WIDE"))) > 20:
+                p.append(f"object {nm!r}: caption ≤ 20 characters")
+            for c in o.get("colours") or []:
+                if not HEX.match(str(c)):
+                    p.append(f"object {nm!r}: colours must be #RRGGBB")
+        if objs and objs[0].get("line", 0) != 0:
+            p.append("the first object must be on line 0 (it's on screen from the start)")
+
     elif template == "Descent":
         for f in ("colours", "zones", "creatures"):
             req(f)

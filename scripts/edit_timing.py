@@ -55,6 +55,10 @@ def edit_hits(ep: dict) -> list[tuple[str, float, str]]:
         hits.append(("whoosh", cut, "peak"))
     if (ep.get("hook") or {}).get("banner"):
         hits.append(("ui_click", cut + 0.05, "attack"))
+    if ep.get("template") == "Scale":
+        # A whoosh as the camera pulls back to each new object (the move peaks about 0.9 s into its line).
+        for o in ep.get("objects", [])[1:]:
+            hits.append(("whoosh", ep["narration"][o["line"]]["from"] + 0.95, "peak"))
     for line in ep["narration"]:
         for b in line.get("beats") or []:
             t = beat_time(line, b)

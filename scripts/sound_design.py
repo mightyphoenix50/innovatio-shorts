@@ -394,18 +394,18 @@ def build(ep: dict, out_mp3: str) -> str:
     for need, t_hit, align in edit_hits(ep):
         effect(need, t_hit, lambda need=need: hit_synth[need](rng), align=align)
 
-    if ep.get("sfx"):
+    if ep.get("sfx") or ep.get("template") == "Scale":
         # Episodes with their own plan (the Fall and Orbit templates): each entry names a need and a moment.
         fallback = {"cartoon_pop": _ping, "rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
                     "station_beep": _ping}
-        for s in ep["sfx"]:
+        for s in ep.get("sfx") or []:
             t = _resolve_at(ep, s["at"], end)
             if t is None:
                 continue
             synth = fallback.get(s["need"], _whoosh)
             effect(s["need"], t, lambda synth=synth: synth(rng), align=s.get("align", "attack"))
         _finish(buf, out_mp3)
-        print(f"Sound bed: {out_mp3}  ({len(ep['sfx'])} planned effects, "
+        print(f"Sound bed: {out_mp3}  ({len(ep.get('sfx') or [])} planned effects, "
               f"real recordings: {', '.join(used) if used else 'none'})")
         return "audio/" + os.path.basename(out_mp3)
 

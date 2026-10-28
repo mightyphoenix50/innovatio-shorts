@@ -1,19 +1,140 @@
 {
   "_about": "Topic backlog for the daily episode task. It takes the first 'next' entry, then marks it 'queued'. See content/DAILY_EPISODE_GUIDE.md.",
   "topics": [
-    {"slug": "mariana", "title": "How deep is the Mariana Trench, really?", "format": "Descent", "angle": "Sinking 11 km to Challenger Deep.", "status": "published"},
-    {"slug": "earth-fall", "title": "What if you fell into a hole through the Earth?", "format": "Fall-down", "angle": "The fall takes only 38 minutes, and you'd swing back and forth forever.", "status": "queued"},
-    {"slug": "float-up", "title": "What if you started floating up and couldn't stop?", "format": "Fall-up", "angle": "The thermosphere tops 1,000 degrees, but you'd freeze.", "status": "queued"},
-    {"slug": "sink-to-titanic", "title": "What if you sank all the way down to the Titanic?", "format": "Descent", "angle": "3.8 km down in the dark; the twist is that bacteria are eating the wreck and it may be gone within decades.", "status": "queued", "queued_on": "2026-10-28"},
-    {"slug": "highest-flying-things", "title": "What's the highest thing that can fly?", "format": "Fall-up", "angle": "Rise past a vulture at 11 km, the SR-71, weather balloons, meteors burning up, to Hubble; the twist is that a bird has hit a plane at 11 km.", "status": "next"},
-    {"slug": "hole-through-the-moon", "title": "What if you fell into a hole through the Moon?", "format": "Fall-down", "angle": "Through regolith, crust and mantle to a small iron core; the twist is the fall takes longer than on Earth despite the Moon being smaller.", "status": "next"},
-    {"slug": "sperm-whale-dive", "title": "Follow a whale on the deepest dive of any mammal", "format": "Descent", "angle": "A Cuvier's beaked whale holds its breath almost 3 km down; the twist is how long it stays under.", "status": "next"},
-    {"slug": "drill-through-antarctica", "title": "What's under 4 km of Antarctic ice?", "format": "Fall-down", "angle": "Drill down through ice layers that are hundreds of thousands of years old to a lake sealed off for millions of years (Lake Vostok).", "status": "next"},
-    {"slug": "sink-in-lake-baikal", "title": "What if you sank to the bottom of the deepest lake?", "format": "Descent", "angle": "Lake Baikal is 1.6 km deep and holds about a fifth of the world's unfrozen fresh surface water; the twist is the animals found nowhere else.", "status": "next"},
-    {"slug": "hole-through-mars", "title": "What if you fell into a hole through Mars?", "format": "Fall-down", "angle": "Through a dusty crust and mantle to a liquid core; compare the fall time and top speed with Earth's.", "status": "next"},
-    {"slug": "north-pole-seabed", "title": "What's at the bottom of the ocean under the North Pole?", "format": "Descent", "angle": "Below 2 m of sea ice, 4 km down to where a flag was planted by submersible in 2007.", "status": "next"},
-    {"slug": "olympus-mons", "title": "How big is the biggest volcano in the solar system?", "format": "Orbit", "angle": "Tour Mars from Olympus Mons to Valles Marineris and Hellas basin; the twist is that Olympus Mons is so wide its edge would sit below the horizon if you stood at the top.", "status": "next"},
-    {"slug": "saturn-would-float", "title": "Could Saturn really float in water?", "format": "Orbit", "angle": "Spin round Saturn, its rings and the hexagon storm at the north pole; the twist is that its average density is lower than water's.", "status": "next"},
-    {"slug": "europa-ocean", "title": "Is there more water on Europa than on Earth?", "format": "Orbit", "angle": "A cracked ice moon of Jupiter hiding a salty ocean; the twist is that it may hold about twice the water of all Earth's oceans.", "status": "next"}
+    {
+      "slug": "mariana",
+      "title": "How deep is the Mariana Trench, really?",
+      "format": "Descent",
+      "angle": "Sinking 11 km to Challenger Deep.",
+      "status": "published"
+    },
+    {
+      "slug": "earth-fall",
+      "title": "What if you fell into a hole through the Earth?",
+      "format": "Fall-down",
+      "angle": "The fall takes only 38 minutes, and you'd swing back and forth forever.",
+      "status": "queued"
+    },
+    {
+      "slug": "float-up",
+      "title": "What if you started floating up and couldn't stop?",
+      "format": "Fall-up",
+      "angle": "The thermosphere tops 1,000 degrees, but you'd freeze.",
+      "status": "queued"
+    },
+    {
+      "slug": "sink-to-titanic",
+      "title": "What if you sank all the way down to the Titanic?",
+      "format": "Descent",
+      "angle": "3.8 km down in the dark; the twist is that bacteria are eating the wreck and it may be gone within decades.",
+      "status": "queued",
+      "queued_on": "2026-10-28"
+    },
+    {
+      "slug": "biggest-star",
+      "title": "How big is the biggest star?",
+      "format": "Scale",
+      "angle": "Moon → Earth → Jupiter → Sun → Betelgeuse → UY Scuti; twist: put Betelgeuse where the Sun is and you'd live inside it.",
+      "status": "queued",
+      "queued_on": "2026-10-29"
+    },
+    {
+      "slug": "planets-to-scale",
+      "title": "What if you lined up every planet?",
+      "format": "Scale",
+      "angle": "Mercury → Mars → Venus → Earth → Neptune → Uranus → Saturn → Jupiter; twist: all the planets would fit in the gap between Earth and the Moon.",
+      "status": "next"
+    },
+    {
+      "slug": "highest-flying-things",
+      "title": "What's the highest thing that can fly?",
+      "format": "Fall-up",
+      "angle": "Rise past a vulture at 11 km, the SR-71, weather balloons, meteors burning up, to Hubble; the twist is that a bird has hit a plane at 11 km.",
+      "status": "next"
+    },
+    {
+      "slug": "moons-to-scale",
+      "title": "Some moons are bigger than planets",
+      "format": "Scale",
+      "angle": "Our Moon → Europa → Titan → Mercury → Ganymede; twist: Ganymede and Titan are both wider than the planet Mercury.",
+      "status": "next"
+    },
+    {
+      "slug": "hole-through-the-moon",
+      "title": "What if you fell into a hole through the Moon?",
+      "format": "Fall-down",
+      "angle": "Through regolith, crust and mantle to a small iron core; the twist is the fall takes longer than on Earth despite the Moon being smaller.",
+      "status": "next"
+    },
+    {
+      "slug": "how-small-is-earth",
+      "title": "How small is Earth, really?",
+      "format": "Scale",
+      "angle": "Earth → Sun → Sirius → Arcturus → Rigel → Antares; hook: you think Earth is big? Watch this.",
+      "status": "next"
+    },
+    {
+      "slug": "sperm-whale-dive",
+      "title": "Follow a whale on the deepest dive of any mammal",
+      "format": "Descent",
+      "angle": "A Cuvier's beaked whale holds its breath almost 3 km down; the twist is how long it stays under.",
+      "status": "next"
+    },
+    {
+      "slug": "dwarf-planets",
+      "title": "The planets that got demoted",
+      "format": "Scale",
+      "angle": "Ceres → Makemake → Eris → Pluto → our Moon; twist: Pluto is smaller than our Moon.",
+      "status": "next"
+    },
+    {
+      "slug": "drill-through-antarctica",
+      "title": "What's under 4 km of Antarctic ice?",
+      "format": "Fall-down",
+      "angle": "Drill down through ice layers that are hundreds of thousands of years old to a lake sealed off for millions of years (Lake Vostok).",
+      "status": "next"
+    },
+    {
+      "slug": "sink-in-lake-baikal",
+      "title": "What if you sank to the bottom of the deepest lake?",
+      "format": "Descent",
+      "angle": "Lake Baikal is 1.6 km deep and holds about a fifth of the world's unfrozen fresh surface water; the twist is the animals found nowhere else.",
+      "status": "next"
+    },
+    {
+      "slug": "hole-through-mars",
+      "title": "What if you fell into a hole through Mars?",
+      "format": "Fall-down",
+      "angle": "Through a dusty crust and mantle to a liquid core; compare the fall time and top speed with Earth's.",
+      "status": "next"
+    },
+    {
+      "slug": "north-pole-seabed",
+      "title": "What's at the bottom of the ocean under the North Pole?",
+      "format": "Descent",
+      "angle": "Below 2 m of sea ice, 4 km down to where a flag was planted by submersible in 2007.",
+      "status": "next"
+    },
+    {
+      "slug": "olympus-mons",
+      "title": "How big is the biggest volcano in the solar system?",
+      "format": "Orbit",
+      "angle": "Tour Mars from Olympus Mons to Valles Marineris and Hellas basin; the twist is that Olympus Mons is so wide its edge would sit below the horizon if you stood at the top.",
+      "status": "next"
+    },
+    {
+      "slug": "saturn-would-float",
+      "title": "Could Saturn really float in water?",
+      "format": "Orbit",
+      "angle": "Spin round Saturn, its rings and the hexagon storm at the north pole; the twist is that its average density is lower than water's.",
+      "status": "next"
+    },
+    {
+      "slug": "europa-ocean",
+      "title": "Is there more water on Europa than on Earth?",
+      "format": "Orbit",
+      "angle": "A cracked ice moon of Jupiter hiding a salty ocean; the twist is that it may hold about twice the water of all Earth's oceans.",
+      "status": "next"
+    }
   ]
 }
