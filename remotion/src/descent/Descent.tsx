@@ -1,4 +1,5 @@
 import { loadFont } from "@remotion/fonts";
+import { Skit, skitDuck } from "../shared/Skit";
 import { Audio } from "@remotion/media";
 import { useLayoutEffect, useRef } from "react";
 import {
@@ -106,6 +107,7 @@ const musicVolume = (ep: Episode, t: number) => {
     });
     duck = Math.max(duck, v);
   }
+  duck = Math.max(duck, skitDuck(ep, t));
   return MUSIC_FULL + (MUSIC_DUCKED - MUSIC_FULL) * duck;
 };
 
@@ -179,6 +181,7 @@ export const Descent: React.FC<Episode> = (ep) => {
         </div>
       ) : null}
 
+      <Skit ep={ep} font={fontFamily} />
       {ep.music ? <Audio src={staticFile(ep.music)} volume={(f) => musicVolume(ep, f / fps)} /> : null}
       {ep.voiceover ? <Audio src={staticFile(ep.voiceover)} volume={VOICE_VOLUME} /> : null}
     </AbsoluteFill>

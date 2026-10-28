@@ -2,7 +2,8 @@
 
     python scripts/validate_episode.py remotion/episodes/queue/<episode>.json
 
-Mirrors the Remotion schemas (remotion/src/descent/types.ts and remotion/src/fall/types.ts) plus the
+Mirrors the Remotion schemas (remotion/src/descent/types.ts, remotion/src/fall/types.ts and
+remotion/src/orbit/types.ts) plus the
 channel's own rules: sources for every fact, titles under 100 characters, scenes in order, a known sound need.
 Exits 0 when the file is fine, 1 with a list of problems otherwise. Needs only the standard library.
 """
@@ -18,8 +19,10 @@ CREATURES = {"fish", "turtle", "jelly", "lantern", "squid", "whale", "angler", "
 LANDMARKS = {"mine", "borehole", "boundary", "center", "mountain", "plane", "balloon", "station"}
 DOWN_TEXTURES = {"soil", "strata", "granite", "mantle", "liquid", "crystal"}
 UP_TEXTURES = {"cloud", "ozone", "haze", "aurora", "stars"}
+BODIES = {"earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava"}
 SFX_NEEDS = {"dive_splash", "sonar_ping", "hull_creak", "seabed_thud", "whoosh",
-             "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep"}
+             "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep", "cartoon_pop"}
+SKIT_MOODS = {"wink", "smug", "gasp", "shrug", "laugh"}
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -33,21 +36,22 @@ def validate(ep: dict, filename: str = "") -> list[str]:
     p = []
     req = lambda k: p.append(f"missing '{k}'") if k not in ep else None  # noqa: E731
     template = ep.get("template", "Descent")
-    if template not in ("Descent", "Fall"):
-        p.append(f"template must be Descent or Fall, not {template!r}")
+    if template not in ("Descent", "Fall", "Orbit"):
+        p.append(f"template must be Descent, Fall or Orbit, not {template!r}")
     if filename:
         slug = os.path.splitext(os.path.basename(filename))[0]
         if not SLUG.match(slug):
             p.append(f"file name '{slug}' should be lowercase words joined by hyphens")
-    for k in ("title", "keyframes", "maxDepth", "temperature", "narration", "youtube", "sources"):
+    orbit = template == "Orbit"
+    for k in ("title", "keyframes", "narration", "youtube", "sources") + (() if orbit else ("maxDepth", "temperature")):
         req(k)
 
     k = ep.get("keyframes", [])
     if not _pairs(k):
-        p.append("keyframes must be a list of [seconds, metres] pairs")
+        p.append(f"keyframes must be a list of [seconds, {'zoom' if orbit else 'metres'}] pairs")
     elif any(b[0] < a[0] for a, b in zip(k, k[1:])):
         p.append("keyframes must be in time order")
-    if not _pairs(ep.get("temperature", [])):
+    if not orbit and not _pairs(ep.get("temperature", [])):
         p.append("temperature must be a list of [metres, °C] pairs")
 
     lines = ep.get("narration", [])
@@ -93,10 +97,64 @@ def validate(ep: dict, filename: str = "") -> list[str]:
         if s.get("need") not in SFX_NEEDS:
             p.append(f"unknown sound need {s.get('need')!r}; use one of {', '.join(sorted(SFX_NEEDS))}")
         at = s.get("at")
-        if isinstance(at, str) and not (at in ("fallAt", "diagramAt", "platesAt") or re.match(r"^depth:\d+(\.\d+)?$", at)):
-            p.append(f"sfx 'at' must be seconds, fallAt, diagramAt or depth:<metres>, not {at!r}")
+        if isinstance(at, str) and not (at in ("fallAt", "diagramAt", "platesAt", "skit") or re.match(r"^depth:\d+(\.\d+)?$", at)):
+            p.append(f"sfx 'at' must be seconds, fallAt, diagramAt, skit or depth:<metres>, not {at!r}")
 
-    if template == "Descent":
+    sk = ep.get("skit")
+    if sk is None and "queue" in os.path.normpath(filename).split(os.sep):
+        p.append("new episodes need a 'skit': Bit's one-line joke at the end (see the guide)")
+    if sk is not None:
+        text = str(sk.get("text", ""))
+        if not text:
+            p.append("skit.text is empty")
+        if len(text.split()) > 16:
+            p.append(f"skit.text has {len(text.split())} words; keep the joke to 16 or fewer")
+        if any(ch in text for ch in "&<>"):
+            p.append("skit.text can't contain &, < or >")
+        if sk.get("mood", "wink") not in SKIT_MOODS:
+            p.append(f"skit.mood must be one of {', '.join(sorted(SKIT_MOODS))}")
+        if len(str(sk.get("action", ""))) > 24:
+            p.append("skit.action is too long (≤ 24 characters)")
+
+    if orbit:
+        if _pairs(k) and any(not 0 <= z <= 1 for _, z in k):
+            p.append("Orbit keyframes are [seconds, zoom] with zoom from 0 (far) to 1 (close)")
+        if not ep.get("sfx"):
+            p.append("Orbit episodes need an sfx list (3–7 effects)")
+        b = ep.get("body") or {}
+        if not b:
+            p.append("missing 'body'")
+        if b and b.get("kind") not in BODIES:
+            p.append(f"unknown body kind {b.get('kind')!r}; use one of {', '.join(sorted(BODIES))}")
+        if b and not b.get("name"):
+            p.append("body.name is empty")
+        for c in (b.get("colours") or []):
+            if not HEX.match(str(c)):
+                p.append(f"body colour must be #RRGGBB: {c!r}")
+        if b.get("colours") is not None and len(b["colours"]) != 3:
+            p.append("body.colours needs exactly three colours (light to dark)")
+        if b.get("glow") is not None and not HEX.match(str(b["glow"])):
+            p.append("body.glow must be #RRGGBB")
+        stops = ep.get("stops", [])
+        if len(stops) < 3:
+            p.append("Orbit needs at least 3 stops (places on the world)")
+        seen = set()
+        for i, st in enumerate(stops):
+            line = st.get("line")
+            if not isinstance(line, int) or not 0 <= line < len(lines):
+                p.append(f"stops[{i}].line must be a narration line index (0–{len(lines) - 1})")
+            elif line in seen:
+                p.append(f"stops[{i}]: line {line} already has a stop")
+            seen.add(line)
+            if not -90 <= st.get("lat", 999) <= 90 or not -180 <= st.get("lon", 999) <= 180:
+                p.append(f"stops[{i}] needs lat -90..90 and lon -180..180")
+            if not st.get("label") or len(st.get("label", "")) > 24:
+                p.append(f"stops[{i}].label must be 1–24 characters")
+            if len(st.get("value", "")) > 9:
+                p.append(f"stops[{i}].value is too long for the stat card (≤ 9 characters)")
+            if len(st.get("caption", "")) > 22:
+                p.append(f"stops[{i}].caption is too long (≤ 22 characters)")
+    elif template == "Descent":
         for f in ("colours", "zones", "creatures"):
             req(f)
         for c in ep.get("creatures", []):

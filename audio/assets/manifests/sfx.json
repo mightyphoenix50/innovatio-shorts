@@ -203,122 +203,6 @@
     }
   },
   {
-    "id": "fs-105341",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-105341_sonar-ping-pong-c-wav.ogg",
-    "title": "SONAR PING PONG C#.wav",
-    "author": "sandyrb",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/sandyrb/sounds/105341/",
-    "download_url": "https://cdn.freesound.org/previews/105/105341_14771-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"SONAR PING PONG C#.wav\" by sandyrb (https://freesound.org/people/sandyrb/sounds/105341/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "sonar_ping",
-    "rank": 1,
-    "best_segment": [
-      1.5,
-      2.605
-    ],
-    "duration_s": 3.89321,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 3.83,
-        "verdict": "strong"
-      },
-      "realness": 0.114
-    }
-  },
-  {
-    "id": "fs-38703",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-38703_archi-sonar-04-wav.ogg",
-    "title": "archi_sonar_04.wav",
-    "author": "ElanHickler",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/ElanHickler/sounds/38703/",
-    "download_url": "https://cdn.freesound.org/previews/38/38703_107780-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 2,
-    "best_segment": [
-      1.867,
-      3.23
-    ],
-    "duration_s": 4.0,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 4.64,
-        "verdict": "strong"
-      },
-      "realness": 0.122
-    }
-  },
-  {
-    "id": "fs-544311",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-544311_submarine-sonar-wav.ogg",
-    "title": "submarine sonar.wav",
-    "author": "martian",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/martian/sounds/544311/",
-    "download_url": "https://cdn.freesound.org/previews/544/544311_84709-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 3,
-    "best_segment": [
-      1.962,
-      2.57
-    ],
-    "duration_s": 7.8429,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 5.55,
-        "verdict": "strong"
-      },
-      "realness": 0.22
-    }
-  },
-  {
-    "id": "fs-414831",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-414831_submarine-sonar-mp3.ogg",
-    "title": "submarine sonar.mp3",
-    "author": "Link-Boy",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Link-Boy/sounds/414831/",
-    "download_url": "https://cdn.freesound.org/previews/414/414831_2785350-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 4,
-    "best_segment": [
-      0.011,
-      2.011
-    ],
-    "duration_s": 5.77298,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 3.95,
-        "verdict": "strong"
-      },
-      "realness": 0.367
-    }
-  },
-  {
     "id": "fs-493162",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-493162_submarine-sonar.ogg",
@@ -841,122 +725,6 @@
     }
   },
   {
-    "id": "fs-807291",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-807291_jet-whoosh-low.ogg",
-    "title": "JET WHOOSH LOW",
-    "author": "sound.variant",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/sound.variant/sounds/807291/",
-    "download_url": "https://cdn.freesound.org/previews/807/807291_5455544-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"JET WHOOSH LOW\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807291/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 1,
-    "best_segment": [
-      0.4,
-      1.8
-    ],
-    "duration_s": 2.66144,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 3.32,
-        "verdict": "strong"
-      },
-      "realness": 0.842
-    }
-  },
-  {
-    "id": "fs-170516",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-170516_rubber-crunch-whoosh-wav.ogg",
-    "title": "Rubber Crunch whoosh.wav",
-    "author": "alexkandrell",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/alexkandrell/sounds/170516/",
-    "download_url": "https://cdn.freesound.org/previews/170/170516_1363668-hq.ogg",
-    "license": "CC BY 3.0",
-    "license_url": "https://creativecommons.org/licenses/by/3.0/",
-    "attribution": "\"Rubber Crunch whoosh.wav\" by alexkandrell (https://freesound.org/people/alexkandrell/sounds/170516/), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited",
-    "need": "whoosh",
-    "rank": 2,
-    "best_segment": [
-      0.073,
-      1.473
-    ],
-    "duration_s": 2.624,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 1.52,
-        "verdict": "no match"
-      },
-      "realness": 0.649
-    }
-  },
-  {
-    "id": "fs-25072",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-25072_whoosh03-wav.ogg",
-    "title": "whoosh03.wav",
-    "author": "FreqMan",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/FreqMan/sounds/25072/",
-    "download_url": "https://cdn.freesound.org/previews/25/25072_92661-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"whoosh03.wav\" by FreqMan (https://freesound.org/people/FreqMan/sounds/25072/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 3,
-    "best_segment": [
-      1.05,
-      2.45
-    ],
-    "duration_s": 3.15565,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 1.46,
-        "verdict": "no match"
-      },
-      "realness": 0.018
-    }
-  },
-  {
-    "id": "fs-461023",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-461023_whoosh-into-hit-003-wav.ogg",
-    "title": "whoosh_into_hit_003.wav",
-    "author": "alanmcki",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/alanmcki/sounds/461023/",
-    "download_url": "https://cdn.freesound.org/previews/461/461023_5564376-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 4,
-    "best_segment": [
-      0.0,
-      1.4
-    ],
-    "duration_s": 2.76719,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 3.13,
-        "verdict": "strong"
-      },
-      "realness": 0.86
-    }
-  },
-  {
     "id": "fs-829643",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-829643_learjet-60-flyby.ogg",
@@ -1073,6 +841,238 @@
     }
   },
   {
+    "id": "fs-105341",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-105341_sonar-ping-pong-c-wav.ogg",
+    "title": "SONAR PING PONG C#.wav",
+    "author": "sandyrb",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sandyrb/sounds/105341/",
+    "download_url": "https://cdn.freesound.org/previews/105/105341_14771-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"SONAR PING PONG C#.wav\" by sandyrb (https://freesound.org/people/sandyrb/sounds/105341/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "sonar_ping",
+    "rank": 1,
+    "best_segment": [
+      1.5,
+      2.605
+    ],
+    "duration_s": 3.89321,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 3.84,
+        "verdict": "strong"
+      },
+      "realness": 0.117
+    }
+  },
+  {
+    "id": "fs-38703",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-38703_archi-sonar-04-wav.ogg",
+    "title": "archi_sonar_04.wav",
+    "author": "ElanHickler",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ElanHickler/sounds/38703/",
+    "download_url": "https://cdn.freesound.org/previews/38/38703_107780-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 2,
+    "best_segment": [
+      1.867,
+      3.23
+    ],
+    "duration_s": 4.0,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 4.65,
+        "verdict": "strong"
+      },
+      "realness": 0.125
+    }
+  },
+  {
+    "id": "fs-544311",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-544311_submarine-sonar-wav.ogg",
+    "title": "submarine sonar.wav",
+    "author": "martian",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/martian/sounds/544311/",
+    "download_url": "https://cdn.freesound.org/previews/544/544311_84709-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 3,
+    "best_segment": [
+      1.962,
+      2.57
+    ],
+    "duration_s": 7.8429,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 5.55,
+        "verdict": "strong"
+      },
+      "realness": 0.229
+    }
+  },
+  {
+    "id": "fs-414831",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-414831_submarine-sonar-mp3.ogg",
+    "title": "submarine sonar.mp3",
+    "author": "Link-Boy",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Link-Boy/sounds/414831/",
+    "download_url": "https://cdn.freesound.org/previews/414/414831_2785350-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 4,
+    "best_segment": [
+      0.011,
+      2.011
+    ],
+    "duration_s": 5.77298,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 3.95,
+        "verdict": "strong"
+      },
+      "realness": 0.375
+    }
+  },
+  {
+    "id": "fs-807291",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-807291_jet-whoosh-low.ogg",
+    "title": "JET WHOOSH LOW",
+    "author": "sound.variant",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807291/",
+    "download_url": "https://cdn.freesound.org/previews/807/807291_5455544-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"JET WHOOSH LOW\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807291/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 1,
+    "best_segment": [
+      0.4,
+      1.8
+    ],
+    "duration_s": 2.66144,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 3.32,
+        "verdict": "strong"
+      },
+      "realness": 0.844
+    }
+  },
+  {
+    "id": "fs-170516",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-170516_rubber-crunch-whoosh-wav.ogg",
+    "title": "Rubber Crunch whoosh.wav",
+    "author": "alexkandrell",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/alexkandrell/sounds/170516/",
+    "download_url": "https://cdn.freesound.org/previews/170/170516_1363668-hq.ogg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "\"Rubber Crunch whoosh.wav\" by alexkandrell (https://freesound.org/people/alexkandrell/sounds/170516/), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited",
+    "need": "whoosh",
+    "rank": 2,
+    "best_segment": [
+      0.073,
+      1.473
+    ],
+    "duration_s": 2.624,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 1.51,
+        "verdict": "no match"
+      },
+      "realness": 0.633
+    }
+  },
+  {
+    "id": "fs-25072",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-25072_whoosh03-wav.ogg",
+    "title": "whoosh03.wav",
+    "author": "FreqMan",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/FreqMan/sounds/25072/",
+    "download_url": "https://cdn.freesound.org/previews/25/25072_92661-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"whoosh03.wav\" by FreqMan (https://freesound.org/people/FreqMan/sounds/25072/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 3,
+    "best_segment": [
+      1.05,
+      2.45
+    ],
+    "duration_s": 3.15565,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 1.46,
+        "verdict": "no match"
+      },
+      "realness": 0.021
+    }
+  },
+  {
+    "id": "fs-461023",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-461023_whoosh-into-hit-003-wav.ogg",
+    "title": "whoosh_into_hit_003.wav",
+    "author": "alanmcki",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/alanmcki/sounds/461023/",
+    "download_url": "https://cdn.freesound.org/previews/461/461023_5564376-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 4,
+    "best_segment": [
+      0.0,
+      1.4
+    ],
+    "duration_s": 2.76719,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 3.13,
+        "verdict": "strong"
+      },
+      "realness": 0.856
+    }
+  },
+  {
     "id": "fs-791966",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-791966_apollo-program-beep-real.ogg",
@@ -1095,10 +1095,10 @@
     "earshot": {
       "match": {
         "query": "an electronic radio beep from a spacecraft",
-        "z": 2.9,
+        "z": 2.88,
         "verdict": "plausible"
       },
-      "realness": 0.702
+      "realness": 0.703
     }
   },
   {
@@ -1153,10 +1153,10 @@
     "earshot": {
       "match": {
         "query": "an electronic radio beep from a spacecraft",
-        "z": 2.16,
+        "z": 2.15,
         "verdict": "weak"
       },
-      "realness": 0.679
+      "realness": 0.678
     }
   },
   {
@@ -1182,10 +1182,126 @@
     "earshot": {
       "match": {
         "query": "an electronic radio beep from a spacecraft",
-        "z": 2.53,
+        "z": 2.54,
         "verdict": "plausible"
       },
-      "realness": 0.767
+      "realness": 0.769
+    }
+  },
+  {
+    "id": "fs-463390",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-463390_vs-pop-2-mp3.ogg",
+    "title": "VS Pop_2.mp3",
+    "author": "Vilkas_Sound",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463390/",
+    "download_url": "https://cdn.freesound.org/previews/463/463390_9658839-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "cartoon_pop",
+    "rank": 1,
+    "best_segment": [
+      0.065,
+      0.18
+    ],
+    "duration_s": 0.484331,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 5.12,
+        "verdict": "strong"
+      },
+      "realness": 0.818
+    }
+  },
+  {
+    "id": "fs-676000",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-676000_s24-24-comedy-cartoon-cork-pop-wav.ogg",
+    "title": "S24-24 Comedy cartoon cork pop.wav",
+    "author": "craigsmith",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/craigsmith/sounds/676000/",
+    "download_url": "https://cdn.freesound.org/previews/676/676000_2524442-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "cartoon_pop",
+    "rank": 2,
+    "best_segment": [
+      0.115,
+      0.47
+    ],
+    "duration_s": 1.10967,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 3.85,
+        "verdict": "strong"
+      },
+      "realness": 0.797
+    }
+  },
+  {
+    "id": "fs-741368",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-741368_cartoon-pop.ogg",
+    "title": "Cartoon Pop",
+    "author": "Mish7913",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Mish7913/sounds/741368/",
+    "download_url": "https://cdn.freesound.org/previews/741/741368_16104671-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "cartoon_pop",
+    "rank": 3,
+    "best_segment": [
+      0.111,
+      0.19
+    ],
+    "duration_s": 0.460469,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 3.34,
+        "verdict": "strong"
+      },
+      "realness": 0.22
+    }
+  },
+  {
+    "id": "fs-817070",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-817070_toonpop-blue-snowball-microphone-cu-deta.ogg",
+    "title": "TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC",
+    "author": "designerschoice",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/designerschoice/sounds/817070/",
+    "download_url": "https://cdn.freesound.org/previews/817/817070_6951162-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC\" by designerschoice (https://freesound.org/people/designerschoice/sounds/817070/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "cartoon_pop",
+    "rank": 4,
+    "best_segment": [
+      0.011,
+      0.145
+    ],
+    "duration_s": 0.563084,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 2.63,
+        "verdict": "plausible"
+      },
+      "realness": 0.992
     }
   }
 ]

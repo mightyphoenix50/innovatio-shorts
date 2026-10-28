@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { skitSchema } from "../shared/Skit";
 
 export const creatureKinds = [
   "fish",
@@ -67,6 +68,8 @@ export const episodeSchema = z.object({
   /** One source per fact used in the narration; listed in the description. */
   sources: z.array(z.object({ claim: z.string(), url: z.string().url() })).optional(),
   /** Seed for particle positions, so every render is identical. */
+  /** The end skit: Bit's one-line joke after the last narration line. */
+  skit: skitSchema,
   seed: z.string().default("descent"),
 });
 

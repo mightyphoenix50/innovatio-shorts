@@ -1,0 +1,46 @@
+{
+  "sonar_ping": {
+    "id": "fs-544311",
+    "file": "audio/assets/sfx/fs-544311_submarine-sonar-wav.ogg",
+    "start": 1.962,
+    "end": 2.57,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/martian/sounds/544311/",
+    "match_z": 5.55,
+    "p_real": 0.229
+  },
+  "whoosh": {
+    "id": "fs-807291",
+    "file": "audio/assets/sfx/fs-807291_jet-whoosh-low.ogg",
+    "start": 0.4,
+    "end": 1.8,
+    "license": "CC BY 4.0",
+    "attribution": "\"JET WHOOSH LOW\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807291/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807291/",
+    "match_z": 3.32,
+    "p_real": 0.844
+  },
+  "station_beep": {
+    "id": "fs-791966",
+    "file": "audio/assets/sfx/fs-791966_apollo-program-beep-real.ogg",
+    "start": 0.013,
+    "end": 0.29,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/SoundsofTheMachine/sounds/791966/",
+    "match_z": 2.88,
+    "p_real": 0.703
+  },
+  "cartoon_pop": {
+    "id": "fs-463390",
+    "file": "audio/assets/sfx/fs-463390_vs-pop-2-mp3.ogg",
+    "start": 0.065,
+    "end": 0.18,
+    "license": "CC BY 4.0",
+    "attribution": "\"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463390/",
+    "match_z": 5.12,
+    "p_real": 0.818
+  }
+}

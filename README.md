@@ -22,7 +22,7 @@ Send `/status` to the bot to see what's waiting and what's scheduled (answered a
 
 | Path | What |
 |---|---|
-| `remotion/` | The animation templates: `Descent` (ocean dive) and `Fall` (down through layers, or up through the sky) |
+| `remotion/` | The animation templates: `Descent` (ocean dive), `Fall` (down through layers, or up through the sky) and `Orbit` (a 3D world seen from space, with 2D pins and cards) |
 | `remotion/episodes/` | One JSON file per episode; `queue/` holds new ones waiting to be produced |
 | `scripts/` | Pipeline steps: `produce.py` runs them all; `produce_queue.py` runs it for each queued episode |
 | `audio/` | Sound effects picked for each episode (CC0 / CC BY, credited in descriptions) |

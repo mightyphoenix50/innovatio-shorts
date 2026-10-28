@@ -1,4 +1,4 @@
-"""Builds an original music and sound-effects bed for an episode (Descent or Fall template).
+"""Builds an original music and sound-effects bed for an episode (Descent, Fall or Orbit template).
 
 Everything is synthesised here from sine waves and noise, so there is nothing to license.
 
@@ -7,7 +7,8 @@ Music style comes from SOUND_STYLE in .env:
   ambient          a pad and drone that darken with depth, plus water texture
 
 Sound effects on top. An episode with an "sfx" list gets exactly those (each a need from
-source_sfx.py and a moment: seconds, "fallAt"/"diagramAt", or "depth:<metres>").
+source_sfx.py and a moment: seconds, "fallAt"/"diagramAt", "skit", or "depth:<metres>").
+Every episode with an end skit also gets a cartoon pop as the mascot appears.
 Otherwise the Descent schedule: a sonar ping at each new zone, hull creaks in the deep,
 a thud when the sub lands, and a whoosh into the plates scene.
 
@@ -25,7 +26,7 @@ from array import array
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from scripts.episode_timing import depth_at, end_time
+from scripts.episode_timing import depth_at, end_time, skit_span
 
 SR = 32000
 CTRL = 160  # samples per control step (200 Hz control rate)
@@ -106,7 +107,7 @@ def _whoosh(rng):
 def _ambient(ep: dict, buf: list, rng, end: float) -> None:
     """Pad and drone that darken with depth, plus water texture."""
     n = len(buf)
-    max_depth = ep["maxDepth"]
+    max_depth = ep.get("maxDepth") or 1.0
     pad_freqs = [220.0, 261.63, 329.63, 493.88]
     pad_ph = [0.0] * len(pad_freqs)
     dr_ph = [0.0, 0.0, 0.0, 0.0]
@@ -275,9 +276,11 @@ def _lobby(ep: dict, buf: list, rng, end: float) -> None:
 
 # Target peak level of each effect in the bed (the bed is normalised afterwards, so these are relative).
 EFFECT_PEAK = {"dive_splash": 0.45, "sonar_ping": 0.32, "hull_creak": 0.28, "seabed_thud": 0.62, "whoosh": 0.36,
-               "fall_wind": 0.34, "rock_rumble": 0.5, "lava_bubble": 0.32, "plane_flyby": 0.4, "station_beep": 0.3}
+               "fall_wind": 0.34, "rock_rumble": 0.5, "lava_bubble": 0.32, "plane_flyby": 0.4, "station_beep": 0.3,
+               "cartoon_pop": 0.34}
 MAX_LEN = {"dive_splash": 2.4, "sonar_ping": 2.0, "hull_creak": 2.0, "seabed_thud": 1.6, "whoosh": 1.4,
-           "fall_wind": 3.0, "rock_rumble": 2.0, "lava_bubble": 2.5, "plane_flyby": 3.0, "station_beep": 2.0}
+           "fall_wind": 3.0, "rock_rumble": 2.0, "lava_bubble": 2.5, "plane_flyby": 3.0, "station_beep": 2.0,
+           "cartoon_pop": 0.8}
 _clip_cache = {}
 
 
@@ -309,7 +312,8 @@ def _real_clip(choice, name):
     if key in _clip_cache:
         return _clip_cache[key]
     start = float(choice.get("start") or 0.0)
-    length = min(float(choice.get("end") or start + MAX_LEN[name]) - start, MAX_LEN[name])
+    max_len = MAX_LEN.get(name, 2.0)
+    length = min(float(choice.get("end") or start + max_len) - start, max_len)
     try:
         raw = subprocess.run(
             ["ffmpeg", "-v", "error", "-ss", f"{start:.3f}", "-t", f"{length:.3f}", "-i", choice["path"],
@@ -334,7 +338,7 @@ def _real_clip(choice, name):
     x = x[max(0, attack - int(0.005 * SR)):]
     for i in range(min(fin, len(x))):
         x[i] *= i / fin
-    g = EFFECT_PEAK[name] / pk
+    g = EFFECT_PEAK.get(name, 0.35) / pk
     clip = [s * g for s in x]
     _clip_cache[key] = clip
     return clip
@@ -346,7 +350,7 @@ def build(ep: dict, out_mp3: str) -> str:
     end = end_time(ep)
     n = int(end * SR)
     buf = [0.0] * n
-    max_depth = ep["maxDepth"]
+    max_depth = ep.get("maxDepth") or 1.0
     style = os.environ.get("SOUND_STYLE", "lobby").strip().lower()
     if style == "ambient":
         _ambient(ep, buf, rng, end)
@@ -370,9 +374,13 @@ def build(ep: dict, out_mp3: str) -> str:
         if name not in used:
             used.append(name)
 
+    span = skit_span(ep)
+    if span and not any(x.get("at") == "skit" for x in ep.get("sfx") or []):
+        effect("cartoon_pop", span[0] + 0.12, lambda: _ping(rng))
+
     if ep.get("sfx"):
-        # Episodes with their own plan (the Fall template): each entry names a need and a moment.
-        fallback = {"rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
+        # Episodes with their own plan (the Fall and Orbit templates): each entry names a need and a moment.
+        fallback = {"cartoon_pop": _ping, "rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
                     "station_beep": _ping}
         for s in ep["sfx"]:
             t = _resolve_at(ep, s["at"], end)
@@ -416,9 +424,12 @@ def build(ep: dict, out_mp3: str) -> str:
 
 
 def _resolve_at(ep: dict, at, end: float) -> float | None:
-    """An sfx moment: seconds, a scene marker ("fallAt", "diagramAt"), or "depth:<metres>" (first crossing)."""
+    """An sfx moment: seconds, a scene marker ("fallAt", "diagramAt", "skit"), or "depth:<metres>" (first crossing)."""
     if isinstance(at, (int, float)):
         return float(at)
+    if at == "skit":
+        span = skit_span(ep)
+        return span[0] + 0.12 if span else None
     if at.startswith("depth:"):
         return _crossings(ep, float(at.split(":", 1)[1]), end)
     v = ep.get(at)

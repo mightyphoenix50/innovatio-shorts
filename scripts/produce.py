@@ -104,7 +104,10 @@ def description(ep: dict, credits: str) -> str:
     return "\n\n".join(p for p in parts if p)
 
 
-TEMPLATES = ("Descent", "Fall")
+TEMPLATES = ("Descent", "Fall", "Orbit")
+# Templates drawn with WebGL (three.js). GitHub runners have no GPU, so these use Chrome's software
+# renderer; on a PC with a graphics card set REMOTION_GL=angle in .env for faster renders.
+WEBGL_TEMPLATES = ("Orbit",)
 
 
 def render_cmd(episode_path: str, out: str, composition: str = "Descent") -> list:
@@ -114,6 +117,8 @@ def render_cmd(episode_path: str, out: str, composition: str = "Descent") -> lis
     npx = shutil.which("npx.cmd") or shutil.which("npx") or "npx"
     cmd = [npx, "remotion", "render", composition, out, f"--props={episode_path}", "--codec=h264", "--crf=20",
            "--log=error"]
+    if composition in WEBGL_TEMPLATES:
+        cmd.append(f"--gl={os.environ.get('REMOTION_GL', 'swangle')}")
     browser = os.environ.get("REMOTION_BROWSER_EXECUTABLE")
     if browser:
         cmd.append(f"--browser-executable={browser}")

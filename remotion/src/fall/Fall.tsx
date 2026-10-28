@@ -1,4 +1,5 @@
 import { loadFont } from "@remotion/fonts";
+import { Skit, skitDuck, skitIn } from "../shared/Skit";
 import { Audio } from "@remotion/media";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { AbsoluteFill, continueRender, delayRender, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
@@ -57,6 +58,7 @@ const musicVolume = (ep: FallEpisode, t: number) => {
     const end = n.words?.length ? n.words[n.words.length - 1].end : n.to - 0.45;
     duck = Math.max(duck, interpolate(t, [start - 0.15, start, end, end + 0.5], [0, 1, 1, 0], clamp));
   }
+  duck = Math.max(duck, skitDuck(ep, t));
   return MUSIC_FULL + (MUSIC_DUCKED - MUSIC_FULL) * duck;
 };
 
@@ -111,7 +113,7 @@ export const Fall: React.FC<FallEpisode> = (ep) => {
   const atm = lerpTable(ep.pressure, d);
   const [num, unit] = fmtDepth(d);
   const hudIn = interpolate(t, [ep.fallAt - 0.4, ep.fallAt + 0.3], [0, 1], { ...clamp, easing: ease });
-  const hudOpacity = hudIn * (1 - diagramAlpha);
+  const hudOpacity = hudIn * (1 - diagramAlpha) * (1 - skitIn(ep, t));
   const hot = temp > 800 ? PAL.red : temp < 0 ? "#48CAE4" : PAL.gold;
 
   const line = ep.narration.find((n) => t >= n.from && t < n.to);
@@ -192,6 +194,7 @@ export const Fall: React.FC<FallEpisode> = (ep) => {
         </div>
       ) : null}
 
+      <Skit ep={ep} font={UI_FONT} />
       {ep.music ? <Audio src={staticFile(ep.music)} volume={(f) => musicVolume(ep, f / fps)} /> : null}
       {ep.voiceover ? <Audio src={staticFile(ep.voiceover)} volume={VOICE_VOLUME} /> : null}
     </AbsoluteFill>
