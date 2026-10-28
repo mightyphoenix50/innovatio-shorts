@@ -5,56 +5,1218 @@
   "title": "You start floating up and can't stop",
   "fps": 30,
   "keyframes": [
-    [0, 0], [2.6, 0],
-    [5, 8000], [8.5, 9300],
-    [11, 10600], [14.5, 12000],
-    [17, 18500], [20.5, 21000],
-    [23, 38000], [26.5, 41000],
-    [29, 98000], [32.5, 110000],
-    [37, 250000], [41, 400000],
-    [45, 400000], [52, 400000]
+    [
+      0,
+      0
+    ],
+    [
+      3.295,
+      0
+    ],
+    [
+      5.648,
+      8000
+    ],
+    [
+      8.878,
+      9300
+    ],
+    [
+      11.072,
+      10600
+    ],
+    [
+      14.106,
+      12000
+    ],
+    [
+      16.699,
+      18500
+    ],
+    [
+      20.479,
+      21000
+    ],
+    [
+      23.143,
+      38000
+    ],
+    [
+      26.861,
+      41000
+    ],
+    [
+      28.861,
+      98000
+    ],
+    [
+      31.432,
+      110000
+    ],
+    [
+      35.822,
+      250000
+    ],
+    [
+      39.502,
+      400000
+    ],
+    [
+      42.838,
+      400000
+    ],
+    [
+      50.339,
+      400000
+    ]
   ],
   "maxDepth": 400000,
-  "fallAt": 2.6,
+  "fallAt": 3.295,
   "visualScale": [
-    [0, 0], [2000, 500], [8849, 1100], [11000, 1500], [19000, 2000],
-    [39000, 2600], [100000, 3300], [400000, 4100], [1000000, 4800]
+    [
+      0,
+      0
+    ],
+    [
+      2000,
+      500
+    ],
+    [
+      8849,
+      1100
+    ],
+    [
+      11000,
+      1500
+    ],
+    [
+      19000,
+      2000
+    ],
+    [
+      39000,
+      2600
+    ],
+    [
+      100000,
+      3300
+    ],
+    [
+      400000,
+      4100
+    ],
+    [
+      1000000,
+      4800
+    ]
   ],
   "layers": [
-    { "from": 0, "to": 11000, "name": "Troposphere", "colourTop": "#F2B896", "colourBottom": "#A9C3DD", "texture": "cloud" },
-    { "from": 11000, "to": 50000, "name": "Stratosphere", "colourTop": "#A9C3DD", "colourBottom": "#6474A8", "texture": "ozone" },
-    { "from": 50000, "to": 85000, "name": "Mesosphere", "colourTop": "#6474A8", "colourBottom": "#3B3966", "texture": "haze" },
-    { "from": 85000, "to": 600000, "name": "Thermosphere", "colourTop": "#3B3966", "colourBottom": "#141A33", "texture": "aurora" },
-    { "from": 600000, "to": 1000000, "name": "Exosphere", "colourTop": "#141A33", "colourBottom": "#0B1020", "texture": "stars" }
+    {
+      "from": 0,
+      "to": 11000,
+      "name": "Troposphere",
+      "colourTop": "#F2B896",
+      "colourBottom": "#A9C3DD",
+      "texture": "cloud"
+    },
+    {
+      "from": 11000,
+      "to": 50000,
+      "name": "Stratosphere",
+      "colourTop": "#A9C3DD",
+      "colourBottom": "#6474A8",
+      "texture": "ozone"
+    },
+    {
+      "from": 50000,
+      "to": 85000,
+      "name": "Mesosphere",
+      "colourTop": "#6474A8",
+      "colourBottom": "#3B3966",
+      "texture": "haze"
+    },
+    {
+      "from": 85000,
+      "to": 600000,
+      "name": "Thermosphere",
+      "colourTop": "#3B3966",
+      "colourBottom": "#141A33",
+      "texture": "aurora"
+    },
+    {
+      "from": 600000,
+      "to": 1000000,
+      "name": "Exosphere",
+      "colourTop": "#141A33",
+      "colourBottom": "#0B1020",
+      "texture": "stars"
+    }
   ],
   "landmarks": [
-    { "depth": 8849, "kind": "mountain", "label": "Everest · 8,849 m", "side": "left" },
-    { "depth": 11000, "kind": "plane", "label": "Airliners · 11 km", "side": "right" },
-    { "depth": 19000, "kind": "boundary", "label": "Armstrong limit · 19 km", "side": "left" },
-    { "depth": 38969, "kind": "balloon", "label": "Baumgartner's jump · 39 km", "side": "right" },
-    { "depth": 100000, "kind": "boundary", "label": "Kármán line · 100 km", "side": "left" },
-    { "depth": 400000, "kind": "station", "label": "Space Station · 400 km", "side": "right" }
+    {
+      "depth": 8849,
+      "kind": "mountain",
+      "label": "Everest \u00b7 8,849 m",
+      "side": "left"
+    },
+    {
+      "depth": 11000,
+      "kind": "plane",
+      "label": "Airliners \u00b7 11 km",
+      "side": "right"
+    },
+    {
+      "depth": 19000,
+      "kind": "boundary",
+      "label": "Armstrong limit \u00b7 19 km",
+      "side": "left"
+    },
+    {
+      "depth": 38969,
+      "kind": "balloon",
+      "label": "Baumgartner's jump \u00b7 39 km",
+      "side": "right"
+    },
+    {
+      "depth": 100000,
+      "kind": "boundary",
+      "label": "K\u00e1rm\u00e1n line \u00b7 100 km",
+      "side": "left"
+    },
+    {
+      "depth": 400000,
+      "kind": "station",
+      "label": "Space Station \u00b7 400 km",
+      "side": "right"
+    }
   ],
   "temperature": [
-    [0, 15], [8849, -37], [11000, -56], [20000, -56], [32000, -44], [47000, -2], [51000, -2],
-    [71000, -58], [85000, -86], [100000, -78], [150000, 600], [300000, 1000], [400000, 1000]
+    [
+      0,
+      15
+    ],
+    [
+      8849,
+      -37
+    ],
+    [
+      11000,
+      -56
+    ],
+    [
+      20000,
+      -56
+    ],
+    [
+      32000,
+      -44
+    ],
+    [
+      47000,
+      -2
+    ],
+    [
+      51000,
+      -2
+    ],
+    [
+      71000,
+      -58
+    ],
+    [
+      85000,
+      -86
+    ],
+    [
+      100000,
+      -78
+    ],
+    [
+      150000,
+      600
+    ],
+    [
+      300000,
+      1000
+    ],
+    [
+      400000,
+      1000
+    ]
   ],
   "pressure": [
-    [0, 100], [5500, 50], [8849, 33], [11000, 22], [19000, 6.2], [39000, 0.3], [50000, 0.08],
-    [100000, 0.00003], [400000, 0.0000000004]
+    [
+      0,
+      100
+    ],
+    [
+      5500,
+      50
+    ],
+    [
+      8849,
+      33
+    ],
+    [
+      11000,
+      22
+    ],
+    [
+      19000,
+      6.2
+    ],
+    [
+      39000,
+      0.3
+    ],
+    [
+      50000,
+      0.08
+    ],
+    [
+      100000,
+      3e-05
+    ],
+    [
+      400000,
+      4e-10
+    ]
   ],
   "narration": [
-    { "from": 0, "to": 3, "heading": "Lift-off", "text": "One morning you start floating straight up. And you can't stop." },
-    { "from": 3, "to": 9, "heading": "8.8 km up", "text": "You pass Everest. The air is a third as thick here, and climbers call it the death zone.", "source": "Mount Everest, Wikipedia" },
-    { "from": 9, "to": 15, "heading": "11 km up", "text": "Airliners cruise here. Outside the window it's about minus 56 degrees.", "source": "International Standard Atmosphere" },
-    { "from": 15, "to": 21, "heading": "19 km up", "text": "The Armstrong limit. The air is so thin that water boils at body temperature. Your spit would fizz.", "source": "Armstrong limit, Wikipedia" },
-    { "from": 21, "to": 27, "heading": "39 km up", "text": "Felix Baumgartner jumped from here in 2012, and broke the speed of sound on the way down.", "source": "Red Bull Stratos" },
-    { "from": 27, "to": 33, "heading": "100 km up", "text": "The Kármán line. Most people count this as the edge of space.", "source": "Kármán line, Wikipedia" },
-    { "from": 33, "to": 39, "heading": "The twist", "text": "Up here the air can top a thousand degrees. But you'd still freeze. There's too little of it to heat you.", "source": "NASA Space Place" },
-    { "from": 39, "to": 45, "heading": "400 km up", "text": "You've reached the Space Station. It circles the whole Earth every 90 minutes.", "source": "NASA" },
-    { "from": 45, "to": 52, "heading": "Zoom out", "text": "If Earth were an apple, all the air you just rose through would be thinner than its skin. How high would you go?", "source": "UCAR Center for Science Education" }
+    {
+      "from": 0,
+      "to": 3.802,
+      "heading": "Lift-off",
+      "text": "One morning you start floating straight up. And you can't stop.",
+      "words": [
+        {
+          "start": 0.257,
+          "end": 0.412,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.424,
+          "end": 0.733,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 0.745,
+          "end": 0.817,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 0.829,
+          "end": 1.09,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 1.102,
+          "end": 1.436,
+          "char": 22,
+          "len": 8
+        },
+        {
+          "start": 1.448,
+          "end": 1.71,
+          "char": 31,
+          "len": 8
+        },
+        {
+          "start": 1.721,
+          "end": 1.924,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 2.317,
+          "end": 2.376,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 2.388,
+          "end": 2.459,
+          "char": 48,
+          "len": 3
+        },
+        {
+          "start": 2.471,
+          "end": 2.674,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 2.686,
+          "end": 3.055,
+          "char": 58,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 3.802,
+      "to": 9.339,
+      "heading": "8.8 km up",
+      "text": "You pass Everest. The air is a third as thick here, and climbers call it the death zone.",
+      "source": "Mount Everest, Wikipedia",
+      "words": [
+        {
+          "start": 4.047,
+          "end": 4.131,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 4.142,
+          "end": 4.416,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 4.428,
+          "end": 4.892,
+          "char": 9,
+          "len": 7
+        },
+        {
+          "start": 5.285,
+          "end": 5.381,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 5.392,
+          "end": 5.631,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 5.642,
+          "end": 5.738,
+          "char": 26,
+          "len": 2
+        },
+        {
+          "start": 5.75,
+          "end": 5.797,
+          "char": 29,
+          "len": 1
+        },
+        {
+          "start": 5.809,
+          "end": 6.19,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 6.202,
+          "end": 6.345,
+          "char": 37,
+          "len": 2
+        },
+        {
+          "start": 6.357,
+          "end": 6.583,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 6.595,
+          "end": 6.904,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 7.178,
+          "end": 7.238,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 7.25,
+          "end": 7.666,
+          "char": 56,
+          "len": 8
+        },
+        {
+          "start": 7.678,
+          "end": 7.881,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 7.892,
+          "end": 7.964,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 7.976,
+          "end": 8.047,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 8.059,
+          "end": 8.285,
+          "char": 77,
+          "len": 5
+        },
+        {
+          "start": 8.297,
+          "end": 8.595,
+          "char": 83,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 9.339,
+      "to": 14.539,
+      "heading": "11 km up",
+      "text": "Airliners cruise here. Outside the window it's about minus 56 degrees.",
+      "source": "International Standard Atmosphere",
+      "words": [
+        {
+          "start": 9.584,
+          "end": 10.025,
+          "char": 0,
+          "len": 9
+        },
+        {
+          "start": 10.037,
+          "end": 10.31,
+          "char": 10,
+          "len": 6
+        },
+        {
+          "start": 10.322,
+          "end": 10.608,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 11.001,
+          "end": 11.382,
+          "char": 23,
+          "len": 7
+        },
+        {
+          "start": 11.394,
+          "end": 11.453,
+          "char": 31,
+          "len": 3
+        },
+        {
+          "start": 11.465,
+          "end": 11.882,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 11.965,
+          "end": 12.072,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 12.084,
+          "end": 12.334,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 12.346,
+          "end": 12.703,
+          "char": 53,
+          "len": 5
+        },
+        {
+          "start": 12.715,
+          "end": 13.798,
+          "char": 59,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 14.539,
+      "to": 21.019,
+      "heading": "19 km up",
+      "text": "The Armstrong limit. The air is so thin that water boils at body temperature. Your spit would fizz.",
+      "source": "Armstrong limit, Wikipedia",
+      "words": [
+        {
+          "start": 14.796,
+          "end": 14.868,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 14.879,
+          "end": 15.379,
+          "char": 4,
+          "len": 9
+        },
+        {
+          "start": 15.391,
+          "end": 15.713,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 16.106,
+          "end": 16.213,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 16.225,
+          "end": 16.475,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 16.487,
+          "end": 16.594,
+          "char": 29,
+          "len": 2
+        },
+        {
+          "start": 16.606,
+          "end": 16.868,
+          "char": 32,
+          "len": 2
+        },
+        {
+          "start": 16.879,
+          "end": 17.248,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 17.26,
+          "end": 17.427,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 17.439,
+          "end": 17.749,
+          "char": 45,
+          "len": 5
+        },
+        {
+          "start": 17.76,
+          "end": 18.07,
+          "char": 51,
+          "len": 5
+        },
+        {
+          "start": 18.082,
+          "end": 18.165,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 18.177,
+          "end": 18.415,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 18.427,
+          "end": 18.951,
+          "char": 65,
+          "len": 11
+        },
+        {
+          "start": 19.344,
+          "end": 19.427,
+          "char": 78,
+          "len": 4
+        },
+        {
+          "start": 19.439,
+          "end": 19.689,
+          "char": 83,
+          "len": 4
+        },
+        {
+          "start": 19.701,
+          "end": 19.832,
+          "char": 88,
+          "len": 5
+        },
+        {
+          "start": 19.844,
+          "end": 20.272,
+          "char": 94,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 21.019,
+      "to": 27.392,
+      "heading": "39 km up",
+      "text": "Felix Baumgartner jumped from here in 2012, and broke the speed of sound on the way down.",
+      "source": "Red Bull Stratos",
+      "words": [
+        {
+          "start": 21.312,
+          "end": 21.609,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 21.621,
+          "end": 22.24,
+          "char": 6,
+          "len": 11
+        },
+        {
+          "start": 22.348,
+          "end": 22.657,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 22.669,
+          "end": 22.848,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 22.859,
+          "end": 23.169,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 23.252,
+          "end": 24.336,
+          "char": 35,
+          "len": 7
+        },
+        {
+          "start": 24.621,
+          "end": 24.717,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 24.729,
+          "end": 25.002,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 25.014,
+          "end": 25.109,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 25.121,
+          "end": 25.478,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 25.49,
+          "end": 25.562,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 25.574,
+          "end": 25.967,
+          "char": 67,
+          "len": 5
+        },
+        {
+          "start": 25.979,
+          "end": 26.05,
+          "char": 73,
+          "len": 2
+        },
+        {
+          "start": 26.062,
+          "end": 26.133,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 26.145,
+          "end": 26.3,
+          "char": 80,
+          "len": 3
+        },
+        {
+          "start": 26.312,
+          "end": 26.645,
+          "char": 84,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 27.392,
+      "to": 31.799,
+      "heading": "100 km up",
+      "text": "The K\u00e1rm\u00e1n line. Most people count this as the edge of space.",
+      "source": "K\u00e1rm\u00e1n line, Wikipedia",
+      "words": [
+        {
+          "start": 27.649,
+          "end": 27.709,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 27.721,
+          "end": 28.09,
+          "char": 4,
+          "len": 6
+        },
+        {
+          "start": 28.102,
+          "end": 28.387,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 28.78,
+          "end": 28.982,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 28.994,
+          "end": 29.28,
+          "char": 22,
+          "len": 6
+        },
+        {
+          "start": 29.292,
+          "end": 29.602,
+          "char": 29,
+          "len": 5
+        },
+        {
+          "start": 29.613,
+          "end": 29.875,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 29.887,
+          "end": 29.982,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 29.994,
+          "end": 30.09,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 30.102,
+          "end": 30.352,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 30.363,
+          "end": 30.435,
+          "char": 52,
+          "len": 2
+        },
+        {
+          "start": 30.447,
+          "end": 31.054,
+          "char": 55,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 31.799,
+      "to": 37.834,
+      "heading": "The twist",
+      "text": "Up here the air can top a thousand degrees. But you'd still freeze. There's too little of it to heat you.",
+      "source": "NASA Space Place",
+      "words": [
+        {
+          "start": 32.044,
+          "end": 32.151,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 32.163,
+          "end": 32.33,
+          "char": 3,
+          "len": 4
+        },
+        {
+          "start": 32.342,
+          "end": 32.437,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 32.449,
+          "end": 32.735,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 32.747,
+          "end": 32.854,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 32.866,
+          "end": 33.139,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 33.151,
+          "end": 33.187,
+          "char": 24,
+          "len": 1
+        },
+        {
+          "start": 33.199,
+          "end": 33.568,
+          "char": 26,
+          "len": 8
+        },
+        {
+          "start": 33.58,
+          "end": 34.092,
+          "char": 35,
+          "len": 7
+        },
+        {
+          "start": 34.497,
+          "end": 34.568,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 34.58,
+          "end": 34.699,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 34.711,
+          "end": 34.925,
+          "char": 54,
+          "len": 5
+        },
+        {
+          "start": 34.937,
+          "end": 35.413,
+          "char": 60,
+          "len": 6
+        },
+        {
+          "start": 35.818,
+          "end": 35.961,
+          "char": 68,
+          "len": 7
+        },
+        {
+          "start": 35.973,
+          "end": 36.139,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 36.151,
+          "end": 36.354,
+          "char": 80,
+          "len": 6
+        },
+        {
+          "start": 36.366,
+          "end": 36.449,
+          "char": 87,
+          "len": 2
+        },
+        {
+          "start": 36.461,
+          "end": 36.544,
+          "char": 90,
+          "len": 2
+        },
+        {
+          "start": 36.556,
+          "end": 36.639,
+          "char": 93,
+          "len": 2
+        },
+        {
+          "start": 36.651,
+          "end": 36.889,
+          "char": 96,
+          "len": 4
+        },
+        {
+          "start": 36.901,
+          "end": 37.092,
+          "char": 101,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 37.834,
+      "to": 42.838,
+      "heading": "400 km up",
+      "text": "You've reached the Space Station. It circles the whole Earth every 90 minutes.",
+      "source": "NASA",
+      "words": [
+        {
+          "start": 38.079,
+          "end": 38.258,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 38.27,
+          "end": 38.508,
+          "char": 7,
+          "len": 7
+        },
+        {
+          "start": 38.52,
+          "end": 38.591,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 38.603,
+          "end": 38.924,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 38.936,
+          "end": 39.389,
+          "char": 25,
+          "len": 7
+        },
+        {
+          "start": 39.782,
+          "end": 39.865,
+          "char": 34,
+          "len": 2
+        },
+        {
+          "start": 39.877,
+          "end": 40.27,
+          "char": 37,
+          "len": 7
+        },
+        {
+          "start": 40.282,
+          "end": 40.365,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 40.377,
+          "end": 40.639,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 40.651,
+          "end": 40.913,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 41.091,
+          "end": 41.294,
+          "char": 61,
+          "len": 5
+        },
+        {
+          "start": 41.305,
+          "end": 41.591,
+          "char": 67,
+          "len": 2
+        },
+        {
+          "start": 41.603,
+          "end": 42.091,
+          "char": 70,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 42.838,
+      "to": 50.339,
+      "heading": "Zoom out",
+      "text": "If Earth were an apple, all the air you just rose through would be thinner than its skin. How high would you go?",
+      "source": "UCAR Center for Science Education",
+      "words": [
+        {
+          "start": 43.083,
+          "end": 43.238,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 43.25,
+          "end": 43.464,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 43.476,
+          "end": 43.631,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 43.643,
+          "end": 43.726,
+          "char": 14,
+          "len": 2
+        },
+        {
+          "start": 43.738,
+          "end": 44.107,
+          "char": 17,
+          "len": 5
+        },
+        {
+          "start": 44.488,
+          "end": 44.619,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 44.631,
+          "end": 44.726,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 44.738,
+          "end": 45.0,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 45.012,
+          "end": 45.107,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 45.119,
+          "end": 45.381,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 45.393,
+          "end": 45.833,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 45.845,
+          "end": 46.0,
+          "char": 50,
+          "len": 7
+        },
+        {
+          "start": 46.012,
+          "end": 46.143,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 46.155,
+          "end": 46.286,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 46.298,
+          "end": 46.69,
+          "char": 67,
+          "len": 7
+        },
+        {
+          "start": 46.702,
+          "end": 46.821,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 46.833,
+          "end": 46.94,
+          "char": 80,
+          "len": 3
+        },
+        {
+          "start": 46.952,
+          "end": 47.333,
+          "char": 84,
+          "len": 4
+        },
+        {
+          "start": 47.726,
+          "end": 47.821,
+          "char": 90,
+          "len": 3
+        },
+        {
+          "start": 47.833,
+          "end": 47.928,
+          "char": 94,
+          "len": 4
+        },
+        {
+          "start": 47.94,
+          "end": 48.059,
+          "char": 99,
+          "len": 5
+        },
+        {
+          "start": 48.071,
+          "end": 48.143,
+          "char": 105,
+          "len": 3
+        },
+        {
+          "start": 48.155,
+          "end": 48.393,
+          "char": 109,
+          "len": 2
+        }
+      ]
+    }
   ],
-  "diagramAt": 45,
+  "diagramAt": 42.838,
   "diagram": {
     "kind": "atmosphere",
     "start": "The air, to scale",
@@ -63,29 +1225,77 @@
     "speed": "The air = thinner than its skin"
   },
   "sfx": [
-    { "need": "fall_wind", "at": "fallAt", "align": "attack" },
-    { "need": "plane_flyby", "at": "depth:10500" },
-    { "need": "station_beep", "at": "depth:399000" },
-    { "need": "whoosh", "at": "diagramAt", "align": "peak" }
+    {
+      "need": "fall_wind",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "plane_flyby",
+      "at": "depth:10500"
+    },
+    {
+      "need": "station_beep",
+      "at": "depth:399000"
+    },
+    {
+      "need": "whoosh",
+      "at": "diagramAt",
+      "align": "peak"
+    }
   ],
-  "series": "What if…",
+  "series": "What if\u2026",
   "youtube": {
     "titles": [
       "What if you started floating up and couldn't stop?",
       "Floating from the ground to the Space Station"
     ],
     "description": "One morning you start floating straight up. A 50-second rise past Everest, airliners, the Armstrong limit, Felix Baumgartner's record jump and the edge of space, all the way to the Space Station, and why the air up there is over 1,000 degrees but would still freeze you.",
-    "tags": ["what if", "edge of space", "armstrong limit", "karman line", "atmosphere layers", "space station", "science shorts"]
+    "tags": [
+      "what if",
+      "edge of space",
+      "armstrong limit",
+      "karman line",
+      "atmosphere layers",
+      "space station",
+      "science shorts"
+    ]
   },
   "sources": [
-    { "claim": "Everest is 8,849 m tall, with about a third of sea-level air pressure at the summit", "url": "https://en.wikipedia.org/wiki/Mount_Everest" },
-    { "claim": "Air at airliner cruising altitude (11 km) is about −56 °C in the standard atmosphere", "url": "https://en.wikipedia.org/wiki/International_Standard_Atmosphere" },
-    { "claim": "The Armstrong limit (about 18–19 km), where water boils at body temperature", "url": "https://en.wikipedia.org/wiki/Armstrong_limit" },
-    { "claim": "Felix Baumgartner jumped from 38,969 m on 14 October 2012 and reached Mach 1.25", "url": "https://en.wikipedia.org/wiki/Red_Bull_Stratos" },
-    { "claim": "The Kármán line at 100 km is the commonly used edge of space", "url": "https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line" },
-    { "claim": "The thermosphere can be extremely hot yet would feel very cold", "url": "https://spaceplace.nasa.gov/thermosphere/en/" },
-    { "claim": "The Space Station orbits about 400 km up, circling Earth about every 90 minutes", "url": "https://en.wikipedia.org/wiki/International_Space_Station" },
-    { "claim": "If Earth were an apple, the atmosphere would be as thick as its skin", "url": "https://scied.ucar.edu/activity/atmospheric-layers" }
+    {
+      "claim": "Everest is 8,849 m tall, with about a third of sea-level air pressure at the summit",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "claim": "Air at airliner cruising altitude (11 km) is about \u221256 \u00b0C in the standard atmosphere",
+      "url": "https://en.wikipedia.org/wiki/International_Standard_Atmosphere"
+    },
+    {
+      "claim": "The Armstrong limit (about 18\u201319 km), where water boils at body temperature",
+      "url": "https://en.wikipedia.org/wiki/Armstrong_limit"
+    },
+    {
+      "claim": "Felix Baumgartner jumped from 38,969 m on 14 October 2012 and reached Mach 1.25",
+      "url": "https://en.wikipedia.org/wiki/Red_Bull_Stratos"
+    },
+    {
+      "claim": "The K\u00e1rm\u00e1n line at 100 km is the commonly used edge of space",
+      "url": "https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line"
+    },
+    {
+      "claim": "The thermosphere can be extremely hot yet would feel very cold",
+      "url": "https://spaceplace.nasa.gov/thermosphere/en/"
+    },
+    {
+      "claim": "The Space Station orbits about 400 km up, circling Earth about every 90 minutes",
+      "url": "https://en.wikipedia.org/wiki/International_Space_Station"
+    },
+    {
+      "claim": "If Earth were an apple, the atmosphere would be as thick as its skin",
+      "url": "https://scied.ucar.edu/activity/atmospheric-layers"
+    }
   ],
-  "seed": "float-up"
+  "seed": "float-up",
+  "voiceover": "audio/float-up.mp3",
+  "music": "audio/float-up_bed.mp3"
 }

@@ -244,5 +244,27 @@
     "title_used": "What if you fell into a hole through the Earth?",
     "video_id": "2IrDHmZuZVs",
     "youtube_url": "https://youtube.com/shorts/2IrDHmZuZVs"
+  },
+  "32": {
+    "episode": "float-up",
+    "video_path": "output/drafts/float-up.mp4",
+    "titles": [
+      "What if you started floating up and couldn't stop?",
+      "Floating from the ground to the Space Station"
+    ],
+    "description": "One morning you start floating straight up. A 50-second rise past Everest, airliners, the Armstrong limit, Felix Baumgartner's record jump and the edge of space, all the way to the Space Station, and why the air up there is over 1,000 degrees but would still freeze you.\n\nSources:\n- Everest is 8,849 m tall, with about a third of sea-level air pressure at the summit: https://en.wikipedia.org/wiki/Mount_Everest\n- Air at airliner cruising altitude (11 km) is about −56 °C in the standard atmosphere: https://en.wikipedia.org/wiki/International_Standard_Atmosphere\n- The Armstrong limit (about 18–19 km), where water boils at body temperature: https://en.wikipedia.org/wiki/Armstrong_limit\n- Felix Baumgartner jumped from 38,969 m on 14 October 2012 and reached Mach 1.25: https://en.wikipedia.org/wiki/Red_Bull_Stratos\n- The Kármán line at 100 km is the commonly used edge of space: https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line\n- The thermosphere can be extremely hot yet would feel very cold: https://spaceplace.nasa.gov/thermosphere/en/\n- The Space Station orbits about 400 km up, circling Earth about every 90 minutes: https://en.wikipedia.org/wiki/International_Space_Station\n- If Earth were an apple, the atmosphere would be as thick as its skin: https://scied.ucar.edu/activity/atmospheric-layers\n\nSound effects:\n- \"JET WHOOSH LOW\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807291/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- plane flyby: CC0 1.0, https://freesound.org/people/clif_creates/sounds/251957/\n- station beep: CC0 1.0, https://freesound.org/people/SoundsofTheMachine/sounds/791966/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "what if",
+      "edge of space",
+      "armstrong limit",
+      "karman line",
+      "atmosphere layers",
+      "space station",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · float-up · 50s</i>\n\n<b>A:</b> What if you started floating up and couldn't stop?\n<b>B:</b> Floating from the ground to the Space Station\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793177300.0827727
   }
 }
