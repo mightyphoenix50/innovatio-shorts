@@ -1,0 +1,1182 @@
+{
+  "template": "Scale",
+  "title": "How big is the biggest star?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "The Moon",
+      "value": "3,475 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 1737
+    },
+    {
+      "line": 2,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 3,
+      "name": "Jupiter",
+      "value": "139,822 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 69911,
+      "colours": [
+        "#F2DEC0",
+        "#D9A56B",
+        "#B6703F"
+      ]
+    },
+    {
+      "line": 4,
+      "name": "The Sun",
+      "value": "1.39M km",
+      "caption": "WIDE",
+      "kind": "star",
+      "radiusKm": 696000
+    },
+    {
+      "line": 5,
+      "name": "Betelgeuse",
+      "value": "764\u00d7 Sun",
+      "caption": "WIDTH",
+      "kind": "star",
+      "radiusKm": 531500000,
+      "colours": [
+        "#FFB38A",
+        "#F2603A",
+        "#B8321E"
+      ]
+    },
+    {
+      "line": 7,
+      "name": "UY Scuti",
+      "value": "909\u00d7 Sun",
+      "caption": "WIDTH",
+      "kind": "star",
+      "radiusKm": 632400000,
+      "colours": [
+        "#FFD0A8",
+        "#FF8A4C",
+        "#C9461F"
+      ]
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.273,
+      "heading": "Biggest star?",
+      "text": "You think the Sun is huge? Wait till you see what's sitting next to it.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.329,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.34,
+          "end": 0.507,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.519,
+          "end": 0.59,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 0.602,
+          "end": 0.876,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 0.888,
+          "end": 0.995,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 1.007,
+          "end": 1.412,
+          "char": 21,
+          "len": 4
+        },
+        {
+          "start": 1.817,
+          "end": 2.007,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 2.019,
+          "end": 2.174,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 2.186,
+          "end": 2.281,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 2.293,
+          "end": 2.543,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 2.555,
+          "end": 2.733,
+          "char": 45,
+          "len": 6
+        },
+        {
+          "start": 2.745,
+          "end": 2.96,
+          "char": 52,
+          "len": 7
+        },
+        {
+          "start": 2.971,
+          "end": 3.209,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 3.221,
+          "end": 3.364,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 3.376,
+          "end": 3.531,
+          "char": 68,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 4.273,
+      "to": 10.384,
+      "heading": "The Moon",
+      "text": "Start with the Moon, about three and a half thousand kilometres across. Now here comes Earth.",
+      "source": "NASA",
+      "words": [
+        {
+          "start": 4.53,
+          "end": 4.828,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 4.84,
+          "end": 4.971,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 4.983,
+          "end": 5.054,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 5.066,
+          "end": 5.423,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 5.709,
+          "end": 5.959,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 5.971,
+          "end": 6.411,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 6.423,
+          "end": 6.518,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 6.53,
+          "end": 6.578,
+          "char": 37,
+          "len": 1
+        },
+        {
+          "start": 6.59,
+          "end": 6.947,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 6.959,
+          "end": 7.328,
+          "char": 44,
+          "len": 8
+        },
+        {
+          "start": 7.34,
+          "end": 7.852,
+          "char": 53,
+          "len": 10
+        },
+        {
+          "start": 7.863,
+          "end": 8.423,
+          "char": 64,
+          "len": 6
+        },
+        {
+          "start": 8.816,
+          "end": 8.923,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 8.935,
+          "end": 9.102,
+          "char": 76,
+          "len": 4
+        },
+        {
+          "start": 9.113,
+          "end": 9.34,
+          "char": 81,
+          "len": 5
+        },
+        {
+          "start": 9.352,
+          "end": 9.637,
+          "char": 87,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 10.384,
+      "to": 15.934,
+      "heading": "Earth",
+      "text": "Earth is almost four Moons wide, at twelve thousand seven hundred kilometres.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "3.7\u00d7",
+          "label": "wider than the Moon"
+        }
+      ],
+      "words": [
+        {
+          "start": 10.629,
+          "end": 10.855,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 10.867,
+          "end": 11.022,
+          "char": 6,
+          "len": 2
+        },
+        {
+          "start": 11.034,
+          "end": 11.463,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 11.474,
+          "end": 11.82,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 11.832,
+          "end": 12.129,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 12.141,
+          "end": 12.534,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 12.891,
+          "end": 13.01,
+          "char": 33,
+          "len": 2
+        },
+        {
+          "start": 13.022,
+          "end": 13.379,
+          "char": 36,
+          "len": 6
+        },
+        {
+          "start": 13.391,
+          "end": 13.891,
+          "char": 43,
+          "len": 8
+        },
+        {
+          "start": 13.903,
+          "end": 14.213,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 14.224,
+          "end": 14.498,
+          "char": 58,
+          "len": 7
+        },
+        {
+          "start": 14.51,
+          "end": 15.189,
+          "char": 66,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 15.934,
+      "to": 21.081,
+      "heading": "Jupiter",
+      "text": "Next, Jupiter. If it were hollow, about a thousand Earths would fit inside.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 16.179,
+          "end": 16.536,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 16.644,
+          "end": 17.12,
+          "char": 6,
+          "len": 7
+        },
+        {
+          "start": 17.513,
+          "end": 17.62,
+          "char": 15,
+          "len": 2
+        },
+        {
+          "start": 17.632,
+          "end": 17.679,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 17.691,
+          "end": 17.81,
+          "char": 21,
+          "len": 4
+        },
+        {
+          "start": 17.822,
+          "end": 18.251,
+          "char": 26,
+          "len": 6
+        },
+        {
+          "start": 18.477,
+          "end": 18.691,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 18.703,
+          "end": 18.739,
+          "char": 40,
+          "len": 1
+        },
+        {
+          "start": 18.751,
+          "end": 19.227,
+          "char": 42,
+          "len": 8
+        },
+        {
+          "start": 19.239,
+          "end": 19.489,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 19.501,
+          "end": 19.62,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 19.632,
+          "end": 19.858,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 19.87,
+          "end": 20.334,
+          "char": 68,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 21.081,
+      "to": 26.073,
+      "heading": "The Sun",
+      "text": "The Sun makes Jupiter look tiny. One point three million Earths could fill it.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "million",
+          "kind": "stamp",
+          "value": "1.3 MILLION EARTHS"
+        }
+      ],
+      "words": [
+        {
+          "start": 21.338,
+          "end": 21.386,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 21.398,
+          "end": 21.671,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 21.683,
+          "end": 21.933,
+          "char": 8,
+          "len": 5
+        },
+        {
+          "start": 21.945,
+          "end": 22.314,
+          "char": 14,
+          "len": 7
+        },
+        {
+          "start": 22.326,
+          "end": 22.493,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 22.505,
+          "end": 22.886,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 23.291,
+          "end": 23.445,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 23.457,
+          "end": 23.707,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 23.767,
+          "end": 24.064,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 24.076,
+          "end": 24.457,
+          "char": 49,
+          "len": 7
+        },
+        {
+          "start": 24.469,
+          "end": 24.743,
+          "char": 57,
+          "len": 6
+        },
+        {
+          "start": 24.755,
+          "end": 24.886,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 24.898,
+          "end": 25.183,
+          "char": 70,
+          "len": 4
+        },
+        {
+          "start": 25.195,
+          "end": 25.326,
+          "char": 75,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 26.073,
+      "to": 33.029,
+      "heading": "Betelgeuse",
+      "text": "Then Betelgeuse, the red shoulder of Orion, about seven hundred and sixty times wider than the Sun.",
+      "source": "Betelgeuse, Wikipedia",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "compare",
+          "compare": {
+            "name": "Mars's orbit",
+            "value": 456,
+            "icon": "moon",
+            "subject": "Betelgeuse",
+            "subjectValue": 1063,
+            "unit": "million km wide",
+            "note": "It would swallow Mars"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 26.318,
+          "end": 26.568,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 26.58,
+          "end": 27.33,
+          "char": 5,
+          "len": 10
+        },
+        {
+          "start": 27.509,
+          "end": 27.604,
+          "char": 17,
+          "len": 3
+        },
+        {
+          "start": 27.616,
+          "end": 27.878,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 27.89,
+          "end": 28.378,
+          "char": 25,
+          "len": 8
+        },
+        {
+          "start": 28.39,
+          "end": 28.509,
+          "char": 34,
+          "len": 2
+        },
+        {
+          "start": 28.521,
+          "end": 29.056,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 29.425,
+          "end": 29.663,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 29.675,
+          "end": 30.009,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 30.021,
+          "end": 30.342,
+          "char": 56,
+          "len": 7
+        },
+        {
+          "start": 30.354,
+          "end": 30.461,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 30.473,
+          "end": 30.89,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 30.902,
+          "end": 31.283,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 31.294,
+          "end": 31.687,
+          "char": 80,
+          "len": 5
+        },
+        {
+          "start": 31.699,
+          "end": 31.818,
+          "char": 86,
+          "len": 4
+        },
+        {
+          "start": 31.83,
+          "end": 31.902,
+          "char": 91,
+          "len": 3
+        },
+        {
+          "start": 31.913,
+          "end": 32.282,
+          "char": 95,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 33.029,
+      "to": 39.008,
+      "heading": "The twist",
+      "text": "Put it where the Sun is, and its surface would reach past Mars. You'd be living inside a star.",
+      "source": "Betelgeuse, Wikipedia",
+      "beats": [
+        {
+          "word": "inside",
+          "kind": "stamp",
+          "value": "INSIDE A STAR"
+        }
+      ],
+      "words": [
+        {
+          "start": 33.286,
+          "end": 33.369,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 33.381,
+          "end": 33.465,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 33.477,
+          "end": 33.596,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 33.608,
+          "end": 33.679,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 33.691,
+          "end": 33.977,
+          "char": 17,
+          "len": 3
+        },
+        {
+          "start": 33.989,
+          "end": 34.393,
+          "char": 21,
+          "len": 2
+        },
+        {
+          "start": 34.643,
+          "end": 34.75,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 34.762,
+          "end": 34.881,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 34.893,
+          "end": 35.274,
+          "char": 33,
+          "len": 7
+        },
+        {
+          "start": 35.286,
+          "end": 35.477,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 35.489,
+          "end": 35.739,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 35.75,
+          "end": 36.084,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 36.096,
+          "end": 36.536,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 36.929,
+          "end": 37.048,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 37.06,
+          "end": 37.155,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 37.167,
+          "end": 37.429,
+          "char": 73,
+          "len": 6
+        },
+        {
+          "start": 37.441,
+          "end": 37.774,
+          "char": 80,
+          "len": 6
+        },
+        {
+          "start": 37.786,
+          "end": 37.81,
+          "char": 87,
+          "len": 1
+        },
+        {
+          "start": 37.822,
+          "end": 38.262,
+          "char": 89,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 39.008,
+      "to": 46.724,
+      "heading": "UY Scuti",
+      "text": "And UY Scuti is bigger still, about nine hundred Suns wide. Seven hundred and fifty million Suns would fit inside.",
+      "source": "UY Scuti, Wikipedia",
+      "beats": [
+        {
+          "word": "Seven",
+          "kind": "stat",
+          "value": "750,000,000",
+          "label": "Suns would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 39.253,
+          "end": 39.337,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 39.348,
+          "end": 39.622,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 39.634,
+          "end": 40.122,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 40.241,
+          "end": 40.396,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 40.479,
+          "end": 40.765,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 40.777,
+          "end": 41.182,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 41.539,
+          "end": 41.789,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 41.801,
+          "end": 42.051,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 42.063,
+          "end": 42.301,
+          "char": 41,
+          "len": 7
+        },
+        {
+          "start": 42.313,
+          "end": 42.587,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 42.598,
+          "end": 42.944,
+          "char": 54,
+          "len": 4
+        },
+        {
+          "start": 43.348,
+          "end": 43.598,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 43.61,
+          "end": 43.837,
+          "char": 66,
+          "len": 7
+        },
+        {
+          "start": 43.848,
+          "end": 43.932,
+          "char": 74,
+          "len": 3
+        },
+        {
+          "start": 43.944,
+          "end": 44.277,
+          "char": 78,
+          "len": 5
+        },
+        {
+          "start": 44.289,
+          "end": 44.646,
+          "char": 84,
+          "len": 7
+        },
+        {
+          "start": 44.658,
+          "end": 45.027,
+          "char": 92,
+          "len": 4
+        },
+        {
+          "start": 45.098,
+          "end": 45.229,
+          "char": 97,
+          "len": 5
+        },
+        {
+          "start": 45.241,
+          "end": 45.479,
+          "char": 103,
+          "len": 3
+        },
+        {
+          "start": 45.491,
+          "end": 45.979,
+          "char": 107,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 46.724,
+      "to": 52.441,
+      "heading": "Even bigger?",
+      "text": "And it might not even be the biggest. What's the biggest thing you can imagine?",
+      "source": "UY Scuti, Wikipedia",
+      "words": [
+        {
+          "start": 46.969,
+          "end": 47.029,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 47.041,
+          "end": 47.112,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 47.124,
+          "end": 47.326,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 47.338,
+          "end": 47.493,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 47.505,
+          "end": 47.684,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 47.695,
+          "end": 47.803,
+          "char": 22,
+          "len": 2
+        },
+        {
+          "start": 47.814,
+          "end": 47.898,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 47.91,
+          "end": 48.41,
+          "char": 29,
+          "len": 7
+        },
+        {
+          "start": 48.803,
+          "end": 48.969,
+          "char": 38,
+          "len": 6
+        },
+        {
+          "start": 48.981,
+          "end": 49.112,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 49.207,
+          "end": 49.576,
+          "char": 49,
+          "len": 7
+        },
+        {
+          "start": 49.588,
+          "end": 49.767,
+          "char": 57,
+          "len": 5
+        },
+        {
+          "start": 49.779,
+          "end": 49.874,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 49.886,
+          "end": 50.005,
+          "char": 67,
+          "len": 3
+        },
+        {
+          "start": 50.017,
+          "end": 50.493,
+          "char": 71,
+          "len": 7
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How big is the biggest star?",
+    "flash": "909\u00d7 THE SUN",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Nine hundred Suns? And I complain when my fan gets warm.",
+    "mood": "gasp",
+    "action": "*fan whirs*",
+    "from": 52.441,
+    "to": 59.397,
+    "words": [
+      {
+        "start": 52.986,
+        "end": 53.29,
+        "char": 0,
+        "len": 4
+      },
+      {
+        "start": 53.301,
+        "end": 53.684,
+        "char": 5,
+        "len": 7
+      },
+      {
+        "start": 53.696,
+        "end": 54.191,
+        "char": 13,
+        "len": 4
+      },
+      {
+        "start": 54.968,
+        "end": 55.159,
+        "char": 19,
+        "len": 3
+      },
+      {
+        "start": 55.171,
+        "end": 55.283,
+        "char": 23,
+        "len": 1
+      },
+      {
+        "start": 55.295,
+        "end": 55.88,
+        "char": 25,
+        "len": 8
+      },
+      {
+        "start": 55.891,
+        "end": 56.049,
+        "char": 34,
+        "len": 4
+      },
+      {
+        "start": 56.06,
+        "end": 56.218,
+        "char": 39,
+        "len": 2
+      },
+      {
+        "start": 56.229,
+        "end": 56.545,
+        "char": 42,
+        "len": 3
+      },
+      {
+        "start": 56.556,
+        "end": 56.815,
+        "char": 46,
+        "len": 4
+      },
+      {
+        "start": 56.826,
+        "end": 57.265,
+        "char": 51,
+        "len": 4
+      }
+    ]
+  },
+  "series": "Scale",
+  "youtube": {
+    "titles": [
+      "How big is the biggest star? (it's not the Sun)",
+      "From the Moon to UY Scuti, to scale"
+    ],
+    "description": "A to-scale zoom out from the Moon to Earth, Jupiter, the Sun, Betelgeuse and UY Scuti, one of the largest known stars: about 909 times wider than the Sun.",
+    "tags": [
+      "space",
+      "star size comparison",
+      "uy scuti",
+      "betelgeuse",
+      "scale of the universe",
+      "astronomy",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "The Moon is about 3,475 km across",
+      "url": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "claim": "Earth's equatorial diameter is 12,756 km",
+      "url": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "claim": "Jupiter's radius is 69,911 km; about 1,000 Earths would fit inside it",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "The Sun is about 1.4 million km wide; about 1.3 million Earths would fill it",
+      "url": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "claim": "Betelgeuse's radius is about 764 solar radii (Joyce et al. 2020); at the Sun's position it would engulf the orbits of Mercury, Venus, Earth and Mars",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse"
+    },
+    {
+      "claim": "Mars orbits at about 1.52 AU (so its orbit is about 456 million km across)",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
+      "claim": "UY Scuti's radius is about 909 solar radii (2023); its volume is about 750 million times the Sun's; it may not be the largest known star",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti"
+    }
+  ],
+  "seed": "biggest-star",
+  "voiceover": "audio/biggest-star.mp3",
+  "music": "audio/biggest-star_bed.mp3"
+}

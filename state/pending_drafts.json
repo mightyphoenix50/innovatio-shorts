@@ -319,5 +319,27 @@
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · sink-to-titanic · 62s</i>\n\n<b>A:</b> What if you sank all the way down to the Titanic?\n<b>B:</b> Sinking 3.8 km to the Titanic, and what's eating it\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
     "status": "PENDING",
     "created_at": 1793221892.5480642
+  },
+  "43": {
+    "episode": "biggest-star",
+    "video_path": "output/drafts/biggest-star.mp4",
+    "titles": [
+      "How big is the biggest star? (it's not the Sun)",
+      "From the Moon to UY Scuti, to scale"
+    ],
+    "description": "A to-scale zoom out from the Moon to Earth, Jupiter, the Sun, Betelgeuse and UY Scuti, one of the largest known stars: about 909 times wider than the Sun.\n\nSources:\n- The Moon is about 3,475 km across: https://science.nasa.gov/moon/facts/\n- Earth's equatorial diameter is 12,756 km: https://science.nasa.gov/earth/facts/\n- Jupiter's radius is 69,911 km; about 1,000 Earths would fit inside it: https://science.nasa.gov/jupiter/facts/\n- The Sun is about 1.4 million km wide; about 1.3 million Earths would fill it: https://science.nasa.gov/sun/facts/\n- Betelgeuse's radius is about 764 solar radii (Joyce et al. 2020); at the Sun's position it would engulf the orbits of Mercury, Venus, Earth and Mars: https://en.wikipedia.org/wiki/Betelgeuse\n- Mars orbits at about 1.52 AU (so its orbit is about 456 million km across): https://en.wikipedia.org/wiki/Mars\n- UY Scuti's radius is about 909 solar radii (2023); its volume is about 750 million times the Sun's; it may not be the largest known star: https://en.wikipedia.org/wiki/UY_Scuti\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- sonar ping: CC0 1.0, https://freesound.org/people/Breviceps/sounds/493162/\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825964/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "space",
+      "star size comparison",
+      "uy scuti",
+      "betelgeuse",
+      "scale of the universe",
+      "astronomy",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Scale · biggest-star · 59s</i>\n\n<b>A:</b> How big is the biggest star? (it's not the Sun)\n<b>B:</b> From the Moon to UY Scuti, to scale\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793229650.625553
   }
 }
