@@ -288,7 +288,7 @@ def _lobby(ep: dict, buf: list, rng, end: float) -> None:
 # Target peak level of each effect in the bed (the bed is normalised afterwards, so these are relative).
 EFFECT_PEAK = {"dive_splash": 0.45, "sonar_ping": 0.32, "hull_creak": 0.28, "seabed_thud": 0.62, "whoosh": 0.36,
                "fall_wind": 0.34, "rock_rumble": 0.5, "lava_bubble": 0.32, "plane_flyby": 0.4, "station_beep": 0.3,
-               "cartoon_pop": 0.34, "ui_click": 0.22, "impact_boom": 0.6}
+               "cartoon_pop": 0.34, "ui_click": 0.22, "impact_boom": 0.42}
 MAX_LEN = {"dive_splash": 2.4, "sonar_ping": 2.0, "hull_creak": 2.0, "seabed_thud": 1.6, "whoosh": 1.4,
            "fall_wind": 3.0, "rock_rumble": 2.0, "lava_bubble": 2.5, "plane_flyby": 3.0, "station_beep": 2.0,
            "cartoon_pop": 0.8, "ui_click": 0.5, "impact_boom": 2.0}
