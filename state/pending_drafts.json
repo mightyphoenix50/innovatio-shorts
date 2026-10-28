@@ -290,7 +290,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · earth-water · 65s</i>\n\n<b>A:</b> What if you poured all of Earth's water into one ball?\n<b>B:</b> Earth is 71% ocean, but has surprisingly little water\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793192359.8012407
+    "status": "PUBLISHED",
+    "created_at": 1793192359.8012407,
+    "updated_at": 1793192570.6373112,
+    "title_used": "What if you poured all of Earth's water into one ball?",
+    "video_id": "33WzjRa2E2g",
+    "youtube_url": "https://youtube.com/shorts/33WzjRa2E2g",
+    "scheduled_at": null
   }
 }
