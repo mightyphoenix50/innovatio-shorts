@@ -83,6 +83,13 @@ NEEDS = {
         "listen": "a jet airliner flying past",
         "max_clip": 20, "max_len": 3.0,
     },
+    # End skit: the mascot popping in
+    "cartoon_pop": {
+        "queries": ["cartoon pop", "bubble pop cute", "comedy pop boing"],
+        "listen": "a short cute cartoon pop",
+        "max_clip": 4, "max_len": 0.8,
+        "allow_synth": True,  # cartoon pops are meant to sound made
+    },
     "station_beep": {
         "queries": ["space radio beep", "satellite beep", "radio beep transmission"],
         "listen": "an electronic radio beep from a spacecraft",
@@ -161,6 +168,8 @@ def main():
     # An episode with an sfx plan sources only the needs it names; otherwise the Descent set.
     planned = [x["need"] for x in ep.get("sfx") or []]
     base = [n for n in NEEDS if n in planned] if planned else [n for n in NEEDS if n in DESCENT_NEEDS]
+    if ep.get("skit") and "cartoon_pop" not in base:
+        base.append("cartoon_pop")
     wanted = [n for n in base if not a.only or n in a.only.split(",")]
 
     for name in wanted:

@@ -263,5 +263,10 @@
       "url": "https://www.usgs.gov/media/files/all-water-earth-a-sphere-placed-over-a-dry-globe"
     }
   ],
-  "seed": "earth-water"
+  "seed": "earth-water",
+  "skit": {
+    "text": "See? Still more than enough water to keep me cool.",
+    "mood": "wink",
+    "action": "*winks*"
+  }
 }

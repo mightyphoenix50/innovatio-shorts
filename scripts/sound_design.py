@@ -7,7 +7,8 @@ Music style comes from SOUND_STYLE in .env:
   ambient          a pad and drone that darken with depth, plus water texture
 
 Sound effects on top. An episode with an "sfx" list gets exactly those (each a need from
-source_sfx.py and a moment: seconds, "fallAt"/"diagramAt", or "depth:<metres>").
+source_sfx.py and a moment: seconds, "fallAt"/"diagramAt", "skit", or "depth:<metres>").
+Every episode with an end skit also gets a cartoon pop as the mascot appears.
 Otherwise the Descent schedule: a sonar ping at each new zone, hull creaks in the deep,
 a thud when the sub lands, and a whoosh into the plates scene.
 
@@ -25,7 +26,7 @@ from array import array
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from scripts.episode_timing import depth_at, end_time
+from scripts.episode_timing import depth_at, end_time, skit_span
 
 SR = 32000
 CTRL = 160  # samples per control step (200 Hz control rate)
@@ -370,9 +371,13 @@ def build(ep: dict, out_mp3: str) -> str:
         if name not in used:
             used.append(name)
 
+    span = skit_span(ep)
+    if span and not any(x.get("at") == "skit" for x in ep.get("sfx") or []):
+        effect("cartoon_pop", span[0] + 0.12, lambda: _ping(rng))
+
     if ep.get("sfx"):
         # Episodes with their own plan (the Fall and Orbit templates): each entry names a need and a moment.
-        fallback = {"rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
+        fallback = {"cartoon_pop": _ping, "rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
                     "station_beep": _ping}
         for s in ep["sfx"]:
             t = _resolve_at(ep, s["at"], end)
@@ -416,9 +421,12 @@ def build(ep: dict, out_mp3: str) -> str:
 
 
 def _resolve_at(ep: dict, at, end: float) -> float | None:
-    """An sfx moment: seconds, a scene marker ("fallAt", "diagramAt"), or "depth:<metres>" (first crossing)."""
+    """An sfx moment: seconds, a scene marker ("fallAt", "diagramAt", "skit"), or "depth:<metres>" (first crossing)."""
     if isinstance(at, (int, float)):
         return float(at)
+    if at == "skit":
+        span = skit_span(ep)
+        return span[0] + 0.12 if span else None
     if at.startswith("depth:"):
         return _crossings(ep, float(at.split(":", 1)[1]), end)
     v = ep.get(at)

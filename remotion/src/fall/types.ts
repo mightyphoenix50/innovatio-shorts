@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { skitSchema } from "../shared/Skit";
 
 export const landmarkKinds = ["mine", "borehole", "boundary", "center", "mountain", "plane", "balloon", "station"] as const;
 export const textures = ["soil", "strata", "granite", "mantle", "liquid", "crystal", "cloud", "ozone", "haze", "aurora", "stars"] as const;
@@ -74,6 +75,8 @@ export const fallSchema = z.object({
   sfx: z
     .array(z.object({ need: z.string(), at: z.union([z.number(), z.string()]), align: z.enum(["attack", "peak"]).default("attack") }))
     .optional(),
+  /** The end skit: Bit's one-line joke after the last narration line. */
+  skit: skitSchema,
   seed: z.string().default("fall"),
 });
 

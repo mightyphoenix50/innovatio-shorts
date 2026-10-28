@@ -8,6 +8,9 @@ LEAD_IN = 0.15   # silence before a line's voice starts
 BEAT = 0.45      # pause after a line before the next scene starts
 MIN_LINE = 2.0   # shortest a scene may be
 END_HOLD = 1.2   # extra time held on the final line
+SKIT_ENTER = 0.5  # the mascot pops in this long before its line starts
+SKIT_HOLD = 1.4   # time held on the mascot's reaction after its line
+SKIT_DEFAULT = 4.5  # skit length before it has been voiced (matches remotion/src/shared/Skit.tsx)
 
 
 def _smooth(f: float) -> float:
@@ -25,8 +28,26 @@ def depth_at(ep: dict, t: float) -> float:
     return k[-1][1]
 
 
+def skit_span(ep: dict) -> tuple[float, float] | None:
+    """When the end skit runs: its own timing once voiced, otherwise right after the last line."""
+    sk = ep.get("skit")
+    if not sk:
+        return None
+    start = sk.get("from", ep["narration"][-1]["to"])
+    return start, sk.get("to", start + SKIT_DEFAULT)
+
+
 def end_time(ep: dict) -> float:
-    return max([ep["keyframes"][-1][0]] + [n["to"] for n in ep["narration"]])
+    span = skit_span(ep)
+    return max([ep["keyframes"][-1][0]] + [n["to"] for n in ep["narration"]] + ([span[1]] if span else []))
+
+
+def place_skit(ep: dict, duration: float) -> float:
+    """Puts the skit right after the last line, sized to its voice. Returns when its voice starts."""
+    start = ep["narration"][-1]["to"]
+    ep["skit"]["from"] = round(start, 3)
+    ep["skit"]["to"] = round(start + SKIT_ENTER + duration + SKIT_HOLD, 3)
+    return start + SKIT_ENTER
 
 
 def fit_timeline(ep: dict, durations: list[float]) -> None:

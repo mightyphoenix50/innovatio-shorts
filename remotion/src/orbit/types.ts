@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { skitSchema } from "../shared/Skit";
 
 /** Worlds the Orbit template can draw. earth uses a real map (Natural Earth); the rest are drawn from the seed. */
 export const bodyKinds = ["earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava"] as const;
@@ -70,6 +71,8 @@ export const orbitSchema = z.object({
   sfx: z
     .array(z.object({ need: z.string(), at: z.union([z.number(), z.string()]), align: z.enum(["attack", "peak"]).default("attack") }))
     .optional(),
+  /** The end skit: Bit's one-line joke after the last narration line. */
+  skit: skitSchema,
   seed: z.string().default("orbit"),
 });
 

@@ -1,4 +1,5 @@
 import { loadFont } from "@remotion/fonts";
+import { Skit, skitDuck, skitIn } from "../shared/Skit";
 import { Audio } from "@remotion/media";
 import { useThree } from "@react-three/fiber";
 import { ThreeCanvas } from "@remotion/three";
@@ -52,6 +53,7 @@ const musicVolume = (ep: OrbitEpisode, t: number) => {
     const end = n.words?.length ? n.words[n.words.length - 1].end : n.to - 0.45;
     duck = Math.max(duck, interpolate(t, [start - 0.15, start, end, end + 0.5], [0, 1, 1, 0], clamp));
   }
+  duck = Math.max(duck, skitDuck(ep, t));
   return MUSIC_FULL + (MUSIC_DUCKED - MUSIC_FULL) * duck;
 };
 
@@ -232,7 +234,7 @@ export const Orbit: React.FC<OrbitEpisode> = (props) => {
   const lineOpacity = line ? interpolate(t, [line.from, line.from + 0.25, line.to - 0.2, line.to], [0, 1, 1, 0], { ...clamp, easing: ease }) : 0;
   const lineScale = line ? interpolate(t, [line.from, line.from + 0.35], [0.94, 1], { ...clamp, easing: ease }) : 1;
   const sourceOpacity = line?.source ? interpolate(t, [line.from + 0.6, line.from + 1.0], [0, 1], clamp) * lineOpacity : 0;
-  const cardIn = interpolate(t, [0.2, 0.8], [0, 1], { ...clamp, easing: ease });
+  const cardIn = interpolate(t, [0.2, 0.8], [0, 1], { ...clamp, easing: ease }) * (1 - skitIn(ep, t));
   const valueKey = stop?.value ?? ep.body.name;
   const valueIn = spring({ frame: Math.round((t - (stop ? ep.narration[stop.line].from + 0.6 : 0.2)) * fps), fps, config: { damping: 14 } });
 
@@ -286,6 +288,7 @@ export const Orbit: React.FC<OrbitEpisode> = (props) => {
 
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, transparent 60%, rgba(8,2,30,0.5) 100%)", pointerEvents: "none" }} />
 
+      <Skit ep={ep} font={UI_FONT} />
       {ep.music ? <Audio src={staticFile(ep.music)} volume={(f) => musicVolume(ep, f / fps)} /> : null}
       {ep.voiceover ? <Audio src={staticFile(ep.voiceover)} volume={VOICE_VOLUME} /> : null}
     </AbsoluteFill>

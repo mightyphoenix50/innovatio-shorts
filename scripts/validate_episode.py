@@ -21,7 +21,8 @@ DOWN_TEXTURES = {"soil", "strata", "granite", "mantle", "liquid", "crystal"}
 UP_TEXTURES = {"cloud", "ozone", "haze", "aurora", "stars"}
 BODIES = {"earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava"}
 SFX_NEEDS = {"dive_splash", "sonar_ping", "hull_creak", "seabed_thud", "whoosh",
-             "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep"}
+             "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep", "cartoon_pop"}
+SKIT_MOODS = {"wink", "smug", "gasp", "shrug", "laugh"}
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -96,8 +97,24 @@ def validate(ep: dict, filename: str = "") -> list[str]:
         if s.get("need") not in SFX_NEEDS:
             p.append(f"unknown sound need {s.get('need')!r}; use one of {', '.join(sorted(SFX_NEEDS))}")
         at = s.get("at")
-        if isinstance(at, str) and not (at in ("fallAt", "diagramAt", "platesAt") or re.match(r"^depth:\d+(\.\d+)?$", at)):
-            p.append(f"sfx 'at' must be seconds, fallAt, diagramAt or depth:<metres>, not {at!r}")
+        if isinstance(at, str) and not (at in ("fallAt", "diagramAt", "platesAt", "skit") or re.match(r"^depth:\d+(\.\d+)?$", at)):
+            p.append(f"sfx 'at' must be seconds, fallAt, diagramAt, skit or depth:<metres>, not {at!r}")
+
+    sk = ep.get("skit")
+    if sk is None and "queue" in os.path.normpath(filename).split(os.sep):
+        p.append("new episodes need a 'skit': Bit's one-line joke at the end (see the guide)")
+    if sk is not None:
+        text = str(sk.get("text", ""))
+        if not text:
+            p.append("skit.text is empty")
+        if len(text.split()) > 16:
+            p.append(f"skit.text has {len(text.split())} words; keep the joke to 16 or fewer")
+        if any(ch in text for ch in "&<>"):
+            p.append("skit.text can't contain &, < or >")
+        if sk.get("mood", "wink") not in SKIT_MOODS:
+            p.append(f"skit.mood must be one of {', '.join(sorted(SKIT_MOODS))}")
+        if len(str(sk.get("action", ""))) > 24:
+            p.append("skit.action is too long (≤ 24 characters)")
 
     if orbit:
         if _pairs(k) and any(not 0 <= z <= 1 for _, z in k):

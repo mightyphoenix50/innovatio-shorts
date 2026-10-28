@@ -14,6 +14,7 @@ What it does:
 
 Needs AZURE_SPEECH_KEY in .env. AZURE_SPEECH_REGION is optional: if it is blank the script finds it.
 Optional AZURE_VOICE (default en-US-AndrewNeural) and AZURE_RATE (speaking speed in %, default 5).
+The end skit (the mascot's joke) uses AZURE_SKIT_VOICE (default en-US-AnaNeural), a little faster and higher.
 """
 import array
 import json
@@ -28,7 +29,7 @@ import requests
 import azure.cognitiveservices.speech as speechsdk
 
 from scripts.env_config import ROOT, ENV_PATH, load_dotenv
-from scripts.episode_timing import LEAD_IN, end_time, fit_timeline
+from scripts.episode_timing import LEAD_IN, end_time, fit_timeline, place_skit
 from scripts import sound_design
 
 if sys.stdout is not None and sys.stdout.encoding != "utf-8":
@@ -69,21 +70,21 @@ def find_region(key: str) -> str:
     )
 
 
-def ssml_for(text: str, voice: str, rate: int) -> tuple[str, int]:
+def ssml_for(text: str, voice: str, rate: int, pitch: int = 0) -> tuple[str, int]:
     """Returns the SSML and the character offset where the line's text starts inside it."""
     if any(ch in text for ch in "&<>"):
         raise SystemExit(f"Remove &, < or > from this narration line: {text}")
     head = (
         '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
-        f'<voice name="{voice}"><prosody rate="{rate:+d}%">'
+        f'<voice name="{voice}"><prosody rate="{rate:+d}%" pitch="{pitch:+d}%">'
     )
     return head + text + "</prosody></voice></speak>", len(head)
 
 
-def speak(synth_config, text: str, voice: str, rate: int):
+def speak(synth_config, text: str, voice: str, rate: int, pitch: int = 0):
     """Speaks one line. Returns (16-bit mono samples, duration in s, word timings)."""
     synth = speechsdk.SpeechSynthesizer(speech_config=synth_config, audio_config=None)
-    ssml, text_start = ssml_for(text, voice, rate)
+    ssml, text_start = ssml_for(text, voice, rate, pitch)
     words = []
 
     def on_word(evt):
@@ -130,8 +131,16 @@ def main():
         spoken.append((samples, words))
         print(f"[{i + 1}/{len(ep['narration'])}] {dur:4.2f}s  {line['heading']}")
 
+    skit = None
+    if ep.get("skit"):
+        skit_voice = os.environ.get("AZURE_SKIT_VOICE", "en-US-AnaNeural")
+        samples, dur, words = speak(cfg, ep["skit"]["text"], skit_voice, rate + 6, 4)
+        skit = (samples, words)
+        print(f"[skit] {dur:4.2f}s  {ep['skit']['text']}")
+
     old_end = end_time(ep)
     fit_timeline(ep, [len(s) / SAMPLE_RATE for s, _ in spoken])
+    skit_start = place_skit(ep, len(skit[0]) / SAMPLE_RATE) if skit else None
     print(f"\nRetimed to fit the voice: {old_end:.1f}s -> {end_time(ep):.1f}s")
 
     track = array.array("h", bytes(2 * int((end_time(ep) + 1) * SAMPLE_RATE)))
@@ -141,6 +150,14 @@ def main():
         track[pos:pos + len(samples)] = samples
         line["words"] = [
             {"start": round(offset + w["start"], 3), "end": round(offset + w["end"], 3), "char": w["char"], "len": w["len"]}
+            for w in words
+        ]
+    if skit:
+        samples, words = skit
+        pos = int(skit_start * SAMPLE_RATE)
+        track[pos:pos + len(samples)] = samples
+        ep["skit"]["words"] = [
+            {"start": round(skit_start + w["start"], 3), "end": round(skit_start + w["end"], 3), "char": w["char"], "len": w["len"]}
             for w in words
         ]
 

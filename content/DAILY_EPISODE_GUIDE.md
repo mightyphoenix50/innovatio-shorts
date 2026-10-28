@@ -10,6 +10,7 @@ The project is the private GitHub repo `mightyphoenix50/innovatio-shorts`. Clone
 2. **Research.** Look up every number and claim the script will use, on the web, before writing. Open each source page and check it says what the script says. Prefer Wikipedia, NASA, NOAA, USGS, Guinness World Records, university and museum pages, and major science outlets. Don't use content farms, AI-written fact sites or forums.
 3. **Write the episode** as JSON, using the matching example file as the pattern (below).
 4. **Save it** to `remotion/episodes/queue/<slug>.json` and **check it**: `python3 scripts/validate_episode.py remotion/episodes/queue/<slug>.json` must print ✓. Fix every problem it lists.
+   It must include a `skit` (the checker fails new episodes without one).
 5. **Update `content/topics.json`**: set the topic's `status` to `"queued"` and add `"queued_on": "<YYYY-MM-DD>"`.
 6. **Commit and push** both files to `main` in one commit, `Queue episode: <title>` (pull with rebase first if the push is rejected). The push starts the "Produce episodes" GitHub workflow, which voices, renders and checks the episode and sends it to Telegram for approval.
 7. **Report** in one short message: the title, the twist, and the sources.
@@ -35,7 +36,7 @@ What each format can draw (anything else is rejected by the checker):
 - **Fall textures going up:** cloud, ozone, haze, aurora, stars.
 - **Orbit worlds (`body.kind`):** earth (real continents and oceans, with clouds), mars, moon, mercury, venus, gas (a banded giant; set `colours` to three bands light to dark, and `rings: true` for Saturn), ice (cracked ice like Europa), lava (glowing cracks like Io). Optional `moon: true` (a small moon orbiting behind), `glow` (atmosphere colour, `#RRGGBB`; leave out for airless worlds), `tilt` (degrees) and `radiusKm` (the real radius; needed for `ballKm`).
 - **Orbit stops:** one place per narration line that needs one, `{line, lat, lon, label, value, caption}`. The globe turns to bring the place to the front while its line plays and drops a pin on it. `label` ≤ 24 characters (next to the pin), `value` ≤ 9 (the big number on the stat card, e.g. `"10.9 km"`), `caption` ≤ 22 (above the number, e.g. `"Deepest point"`). Use real coordinates for Earth places; on other worlds use the feature's real lat/lon even though the surface is stylised. `ballKm` (optional) stands a ball of that diameter on the place, to scale with the world: use it for "if you gathered all of X into one ball" moments. 3+ stops; at most one per line.
-- **Sound effects (`sfx`):** dive_splash, sonar_ping, hull_creak, seabed_thud, whoosh, fall_wind, rock_rumble, lava_bubble, plane_flyby, station_beep. `at` is seconds, `"fallAt"`, `"diagramAt"`, or `"depth:<metres>"` (the moment that depth is reached). Use 3–7 effects; always a `whoosh` at `diagramAt` when there is a diagram. Descent episodes can leave `sfx` out (they get pings, creaks and a landing thud automatically). Orbit episodes must list them in seconds: a `whoosh` (`"align": "peak"`) on big turns or zooms, `station_beep` at the start, `sonar_ping` for anything deep.
+- **Sound effects (`sfx`):** dive_splash, sonar_ping, hull_creak, seabed_thud, whoosh, fall_wind, rock_rumble, lava_bubble, plane_flyby, station_beep. `at` is seconds, `"fallAt"`, `"diagramAt"`, `"skit"`, or `"depth:<metres>"` (the moment that depth is reached). Use 3–7 effects; always a `whoosh` at `diagramAt` when there is a diagram. Descent episodes can leave `sfx` out (they get pings, creaks and a landing thud automatically). Orbit episodes must list them in seconds: a `whoosh` (`"align": "peak"`) on big turns or zooms, `station_beep` at the start, `sonar_ping` for anything deep.
 
 If a great topic needs something not on these lists, don't force it: set its status to `"needs_visuals"` with a note saying what it needs, and take the next topic.
 
@@ -47,10 +48,24 @@ The channel voice follows the reference video the owner liked (Awaken, "Can 2 Pe
 - **8–9 lines, 110–170 words in all.** Each line under 28 words, with one fact per line, and each one more extreme than the last.
 - **Headings** are short labels for the caption card: "4 km down", "The mantle", "The twist", ≤ 28 characters.
 - **One twist** about two-thirds through: a counter-intuitive fact that reframes the journey (it's 1,000 °C up there but you'd freeze; the whole fall takes only 38 minutes).
-- **Close** with a zoom-out or payoff, then a question viewers can answer in the comments.
+- **Close** with a zoom-out or payoff, then a question viewers can answer in the comments. Bit's skit follows it (see "The end skit").
 - Numbers as words where they're spoken ("Four kilometres", "minus 56 degrees") so the voice reads them naturally.
 - No gore or shock about death: people pass out or need suits; keep it factual and light.
 - Every line with a fact gets a short `source` tag, e.g. `"Kola Superdeep Borehole"`, `"NASA Space Place"`. Every fact also appears in `sources` with the exact page URL and the claim it supports.
+
+## The end skit (every episode)
+
+Every Short ends with a tiny comedy beat from **Bit**, the channel's mascot: a small, friendly AI robot that pops in after the last line, says one joke in its own voice and reacts. It's the channel's signature, so every new episode has one.
+
+```json
+"skit": {"text": "See? Still more than enough water to keep me cool.", "mood": "wink", "action": "*winks*"}
+```
+
+- **`text`**: one line, ≤ 16 words, spoken by Bit. It lands best as a self-aware AI aside on the episode's payoff or closing question: Bit being smug, oblivious, dramatic or a bit too pleased with itself (in the example, a nod to computers needing water for cooling). Examples of the tone: "Relax. I only need a teaspoon of the Sun." / "Thirty-eight minutes? I'd still be buffering." / "Good thing I'm waterproof. I think."
+- **`mood`**: Bit's reaction on the last word: `wink`, `smug`, `gasp`, `shrug` or `laugh`.
+- **`action`** (optional, ≤ 24 characters): a stage direction shown under the bubble, e.g. `"*winks*"`, `"*nervous beep*"`.
+- Keep it kind: the joke is on Bit, never on the viewer or real people. No new facts in the skit (it isn't sourced), and don't contradict the episode.
+- The voice step times it after the last line, so leave out `from`, `to` and `words`. A cartoon pop plays as Bit appears; don't add it to `sfx`.
 
 ## Timing and visuals
 
