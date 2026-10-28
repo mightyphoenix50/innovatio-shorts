@@ -16,13 +16,14 @@ The project is the private GitHub repo `mightyphoenix50/innovatio-shorts`. Clone
 
 Change only `remotion/episodes/queue/<slug>.json` and `content/topics.json`. Don't edit code, workflows or settings, don't run `produce.py` or any workflow, don't delete anything, and don't push anything else.
 
-## The three formats
+## The four formats
 
 | Format | Use for | Example to copy |
 |---|---|---|
 | `Descent` (no `template` field) | Sinking through water: the ocean, a lake, a whale's dive. Depth zones, sea creatures, water temperature, pressure. | `remotion/episodes/mariana.json` |
 | `Fall` + `"direction": "down"` | Falling or digging through solid layers: a planet, a moon, ice, rock. Ends on a tunnel diagram. | `remotion/episodes/earth-fall.json` |
 | `Fall` + `"direction": "up"` | Rising through the sky: altitude, air thinning, things that fly. Ends by zooming out to the planet. | `remotion/episodes/float-up.json` |
+| `Orbit` | A tour around a whole world seen from space, in 3D: places on its surface, how big things are, what covers it. Earth uses the real map; other worlds are drawn in their style. | `remotion/episodes/earth-water.json` |
 
 Copy the example's structure field for field, then change the content. Don't invent new fields.
 
@@ -32,7 +33,9 @@ What each format can draw (anything else is rejected by the checker):
 - **Fall landmarks:** `mine` (tunnel with miners), `borehole` (drill pipe ending at the depth), `boundary` (dashed line with a label: use for any layer edge or named level), `center` (glowing point), `mountain` (peak reaching that altitude), `plane` (airliner crossing), `balloon` (high-altitude balloon), `station` (space station). Labels ≤ 30 characters, e.g. `"Deepest mine · 4 km"`.
 - **Fall textures going down:** soil, strata, granite, mantle (slow swirls), liquid (waves), crystal (facets; also works as ice).
 - **Fall textures going up:** cloud, ozone, haze, aurora, stars.
-- **Sound effects (`sfx`):** dive_splash, sonar_ping, hull_creak, seabed_thud, whoosh, fall_wind, rock_rumble, lava_bubble, plane_flyby, station_beep. `at` is seconds, `"fallAt"`, `"diagramAt"`, or `"depth:<metres>"` (the moment that depth is reached). Use 3–7 effects; always a `whoosh` at `diagramAt` when there is a diagram. Descent episodes can leave `sfx` out (they get pings, creaks and a landing thud automatically).
+- **Orbit worlds (`body.kind`):** earth (real continents and oceans, with clouds), mars, moon, mercury, venus, gas (a banded giant; set `colours` to three bands light to dark, and `rings: true` for Saturn), ice (cracked ice like Europa), lava (glowing cracks like Io). Optional `moon: true` (a small moon orbiting behind), `glow` (atmosphere colour, `#RRGGBB`; leave out for airless worlds), `tilt` (degrees) and `radiusKm` (the real radius; needed for `ballKm`).
+- **Orbit stops:** one place per narration line that needs one, `{line, lat, lon, label, value, caption}`. The globe turns to bring the place to the front while its line plays and drops a pin on it. `label` ≤ 24 characters (next to the pin), `value` ≤ 9 (the big number on the stat card, e.g. `"10.9 km"`), `caption` ≤ 22 (above the number, e.g. `"Deepest point"`). Use real coordinates for Earth places; on other worlds use the feature's real lat/lon even though the surface is stylised. `ballKm` (optional) stands a ball of that diameter on the place, to scale with the world: use it for "if you gathered all of X into one ball" moments. 3+ stops; at most one per line.
+- **Sound effects (`sfx`):** dive_splash, sonar_ping, hull_creak, seabed_thud, whoosh, fall_wind, rock_rumble, lava_bubble, plane_flyby, station_beep. `at` is seconds, `"fallAt"`, `"diagramAt"`, or `"depth:<metres>"` (the moment that depth is reached). Use 3–7 effects; always a `whoosh` at `diagramAt` when there is a diagram. Descent episodes can leave `sfx` out (they get pings, creaks and a landing thud automatically). Orbit episodes must list them in seconds: a `whoosh` (`"align": "peak"`) on big turns or zooms, `station_beep` at the start, `sonar_ping` for anything deep.
 
 If a great topic needs something not on these lists, don't force it: set its status to `"needs_visuals"` with a note saying what it needs, and take the next topic.
 
@@ -56,6 +59,7 @@ The channel voice follows the reference video the owner liked (Awaken, "Can 2 Pe
 - `fallAt` (Fall): when you trip in or lift off, about 2.6 s.
 - `visualScale` (Fall): `[metres, pixels]` pairs that stretch the interesting parts. Give each landmark roughly 500–900 px of travel from the one before, and extend one step past `maxDepth` so the screen never runs out of world.
 - `diagramAt`: the start of the last one or two lines. Tunnel diagrams use `start`, `end`, `timer` and `speed` as the four labels. The atmosphere diagram (`"kind": "atmosphere"`) uses `timer` and `speed` for two headline pills, `start` for the air label and `end` for the orbit label.
+- Orbit `keyframes` are `[seconds, zoom]`, zoom 0 (the whole world small in space) to 1 (flown in close). Start at 0, ease to 0.3–0.5 for wide facts and 0.7–0.75 for close-ups, about 2 s into each line, and pull back to 0.1–0.15 for the twist or the close. Orbit has no `maxDepth`, `temperature`, `fallAt` or `diagramAt`.
 - Temperature in °C. Pressure in atm (`"pressureUnit": "atm"`) going down, or percent of surface air (`"pressureUnit": "percent"`) going up.
 - Colours `#RRGGBB`, from the reference palette: warm sky #E8DAC8 → #E29578 → #5C4D7D; earth browns #8C6A4F / #A7825F; molten #B5532E → #F09A3E; ice blues #CFE8F3 → #7FB8D6; blueprint #0D1B2A.
 - `seed` = the slug.
@@ -65,10 +69,10 @@ The channel voice follows the reference video the owner liked (Awaken, "Can 2 Pe
 - `youtube.titles`: two options under 70 characters. One "What if…" question, one plain statement. No clickbait the video doesn't pay off.
 - `youtube.description`: 1–2 sentences on what the viewer will see (sources and credits are added automatically).
 - `youtube.tags`: 5–8 lowercase tags, ending with `"science shorts"`.
-- `series`: `"What if…"` for Fall episodes, `"Journeys"` for Descent.
+- `series`: `"What if…"` for Fall episodes, `"Journeys"` for Descent, `"Planet scale"` for Orbit.
 
 ## Finding new topics
 
-When fewer than 3 `next` topics remain, add 5 more to `content/topics.json`. Good topics are journeys through real, measurable layers with a surprising twist and that fit one of the three formats. If the vidIQ connector is available, check `vidiq_outliers` / `vidiq_keyword_research` for "what if" and scale/journey Shorts in science, space and earth science for what's rising. Don't copy other videos' scripts: use them only to see which questions people are curious about.
+When fewer than 3 `next` topics remain, add 5 more to `content/topics.json`. Good topics are journeys through real, measurable layers, or tours of a whole world's surface, with a surprising twist, that fit one of the four formats. If the vidIQ connector is available, check `vidiq_outliers` / `vidiq_keyword_research` for "what if" and scale/journey Shorts in science, space and earth science for what's rising. Don't copy other videos' scripts: use them only to see which questions people are curious about.
 
-Each topic entry: `{"slug": "...", "title": "...", "format": "Descent|Fall-down|Fall-up", "angle": "the hook and the twist in one sentence", "status": "next"}`.
+Each topic entry: `{"slug": "...", "title": "...", "format": "Descent|Fall-down|Fall-up|Orbit", "angle": "the hook and the twist in one sentence", "status": "next"}`.

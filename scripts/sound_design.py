@@ -1,4 +1,4 @@
-"""Builds an original music and sound-effects bed for an episode (Descent or Fall template).
+"""Builds an original music and sound-effects bed for an episode (Descent, Fall or Orbit template).
 
 Everything is synthesised here from sine waves and noise, so there is nothing to license.
 
@@ -106,7 +106,7 @@ def _whoosh(rng):
 def _ambient(ep: dict, buf: list, rng, end: float) -> None:
     """Pad and drone that darken with depth, plus water texture."""
     n = len(buf)
-    max_depth = ep["maxDepth"]
+    max_depth = ep.get("maxDepth") or 1.0
     pad_freqs = [220.0, 261.63, 329.63, 493.88]
     pad_ph = [0.0] * len(pad_freqs)
     dr_ph = [0.0, 0.0, 0.0, 0.0]
@@ -346,7 +346,7 @@ def build(ep: dict, out_mp3: str) -> str:
     end = end_time(ep)
     n = int(end * SR)
     buf = [0.0] * n
-    max_depth = ep["maxDepth"]
+    max_depth = ep.get("maxDepth") or 1.0
     style = os.environ.get("SOUND_STYLE", "lobby").strip().lower()
     if style == "ambient":
         _ambient(ep, buf, rng, end)
@@ -371,7 +371,7 @@ def build(ep: dict, out_mp3: str) -> str:
             used.append(name)
 
     if ep.get("sfx"):
-        # Episodes with their own plan (the Fall template): each entry names a need and a moment.
+        # Episodes with their own plan (the Fall and Orbit templates): each entry names a need and a moment.
         fallback = {"rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
                     "station_beep": _ping}
         for s in ep["sfx"]:

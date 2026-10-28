@@ -11,6 +11,9 @@
     {"slug": "drill-through-antarctica", "title": "What's under 4 km of Antarctic ice?", "format": "Fall-down", "angle": "Drill down through ice layers that are hundreds of thousands of years old to a lake sealed off for millions of years (Lake Vostok).", "status": "next"},
     {"slug": "sink-in-lake-baikal", "title": "What if you sank to the bottom of the deepest lake?", "format": "Descent", "angle": "Lake Baikal is 1.6 km deep and holds about a fifth of the world's unfrozen fresh surface water; the twist is the animals found nowhere else.", "status": "next"},
     {"slug": "hole-through-mars", "title": "What if you fell into a hole through Mars?", "format": "Fall-down", "angle": "Through a dusty crust and mantle to a liquid core; compare the fall time and top speed with Earth's.", "status": "next"},
-    {"slug": "north-pole-seabed", "title": "What's at the bottom of the ocean under the North Pole?", "format": "Descent", "angle": "Below 2 m of sea ice, 4 km down to where a flag was planted by submersible in 2007.", "status": "next"}
+    {"slug": "north-pole-seabed", "title": "What's at the bottom of the ocean under the North Pole?", "format": "Descent", "angle": "Below 2 m of sea ice, 4 km down to where a flag was planted by submersible in 2007.", "status": "next"},
+    {"slug": "olympus-mons", "title": "How big is the biggest volcano in the solar system?", "format": "Orbit", "angle": "Tour Mars from Olympus Mons to Valles Marineris and Hellas basin; the twist is that Olympus Mons is so wide its edge would sit below the horizon if you stood at the top.", "status": "next"},
+    {"slug": "saturn-would-float", "title": "Could Saturn really float in water?", "format": "Orbit", "angle": "Spin round Saturn, its rings and the hexagon storm at the north pole; the twist is that its average density is lower than water's.", "status": "next"},
+    {"slug": "europa-ocean", "title": "Is there more water on Europa than on Earth?", "format": "Orbit", "angle": "A cracked ice moon of Jupiter hiding a salty ocean; the twist is that it may hold about twice the water of all Earth's oceans.", "status": "next"}
   ]
 }

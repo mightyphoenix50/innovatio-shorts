@@ -72,3 +72,18 @@ To make a new episode, copy `episodes/mariana.json`, change it, and pass the new
 - `src/descent/types.ts`: the episode schema
 - `src/descent/episodes/mariana.ts`: episode 1 with its fact sources
 - `public/fonts/`: Barlow Condensed (SIL Open Font License), bundled so renders work offline
+
+# Orbit: 3D world template
+
+A world seen from space, in 3D (three.js via `@remotion/three`), with the same 2D stat card, caption pill and source tag as Fall. The globe turns to each narration line's `stops` entry and pins it; `keyframes` are `[seconds, zoom]` from 0 (far) to 1 (close). Earth is drawn from the real Natural Earth coastlines (`world-atlas`, public domain); mars, moon, mercury, venus, gas, ice and lava are drawn in code from the seed. A stop with `ballKm` stands a ball of that size on the place, to scale. Example: `episodes/earth-water.json`.
+
+```powershell
+npx remotion render Orbit ..\output\drafts\earth-water.mp4 --props=episodes\earth-water.json --gl=angle
+```
+
+`--gl=angle` uses your graphics card. GitHub runners have none, so `scripts/produce.py` renders Orbit with `--gl=swangle` (software WebGL) unless `REMOTION_GL` is set. Rules for 3D code here: drive every motion from `useCurrentFrame()`, never `useFrame()`.
+
+- `src/orbit/types.ts`: the episode schema
+- `src/orbit/Orbit.tsx`: the 3D world, pins, cards, captions and audio
+- `src/orbit/view.ts`: zoom, rotation and the projection that keeps 2D pins on the 3D surface
+- `src/orbit/textures.ts`: the surface maps for each kind of world

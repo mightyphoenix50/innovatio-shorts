@@ -1,0 +1,267 @@
+{
+  "template": "Orbit",
+  "title": "How much of Earth is actually water?",
+  "fps": 30,
+  "keyframes": [
+    [
+      0,
+      0.0
+    ],
+    [
+      3,
+      0.05
+    ],
+    [
+      5,
+      0.35
+    ],
+    [
+      9,
+      0.35
+    ],
+    [
+      11,
+      0.3
+    ],
+    [
+      15,
+      0.3
+    ],
+    [
+      17,
+      0.72
+    ],
+    [
+      21,
+      0.68
+    ],
+    [
+      23,
+      0.4
+    ],
+    [
+      27,
+      0.4
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      35,
+      0.72
+    ],
+    [
+      39,
+      0.7
+    ],
+    [
+      41.5,
+      0.12
+    ],
+    [
+      45,
+      0.15
+    ],
+    [
+      48,
+      0.0
+    ],
+    [
+      54,
+      0.0
+    ]
+  ],
+  "body": {
+    "kind": "earth",
+    "name": "Earth",
+    "tilt": 23.4,
+    "moon": true,
+    "glow": "#78C8FF"
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 12,
+      "lon": -38,
+      "label": "Atlantic Ocean",
+      "value": "71%",
+      "caption": "Of the surface"
+    },
+    {
+      "line": 2,
+      "lat": 2,
+      "lon": -150,
+      "label": "Pacific Ocean",
+      "value": "30%+",
+      "caption": "Pacific alone"
+    },
+    {
+      "line": 3,
+      "lat": 11.35,
+      "lon": 142.2,
+      "label": "Challenger Deep",
+      "value": "10.9 km",
+      "caption": "Deepest point"
+    },
+    {
+      "line": 4,
+      "lat": -28,
+      "lon": 78,
+      "label": "Indian Ocean",
+      "value": "96.5%",
+      "caption": "Salty ocean"
+    },
+    {
+      "line": 5,
+      "lat": 72,
+      "lon": -41,
+      "label": "Greenland ice",
+      "value": "2.5%",
+      "caption": "Fresh water"
+    },
+    {
+      "line": 6,
+      "lat": 53.5,
+      "lon": 108.2,
+      "label": "Lake Baikal",
+      "value": "20%",
+      "caption": "Unfrozen fresh water"
+    },
+    {
+      "line": 7,
+      "lat": 39,
+      "lon": -98,
+      "label": "All the water",
+      "value": "1,400 km",
+      "caption": "All Earth's water",
+      "ballKm": 1385
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3,
+      "heading": "Planet Ocean",
+      "text": "From space, our planet looks like it's made almost entirely of water."
+    },
+    {
+      "from": 3,
+      "to": 9,
+      "heading": "71% blue",
+      "text": "Oceans cover about seventy-one percent of the surface. Nearly three quarters of everything you can see.",
+      "source": "Water distribution on Earth"
+    },
+    {
+      "from": 9,
+      "to": 15,
+      "heading": "The Pacific",
+      "text": "The Pacific alone covers more than thirty percent of the planet. It's bigger than all the continents put together.",
+      "source": "NOAA Ocean Exploration"
+    },
+    {
+      "from": 15,
+      "to": 21,
+      "heading": "How deep?",
+      "text": "And it's deep. The ocean averages almost four kilometres down, and the Challenger Deep plunges nearly eleven.",
+      "source": "NOAA Ocean Service"
+    },
+    {
+      "from": 21,
+      "to": 27,
+      "heading": "Too salty",
+      "text": "But you can't drink it. Ninety-six and a half percent of all Earth's water sits in the salty oceans.",
+      "source": "Water distribution on Earth"
+    },
+    {
+      "from": 27,
+      "to": 33,
+      "heading": "Fresh water",
+      "text": "Only two and a half percent is fresh. And most of that is frozen solid in glaciers and ice sheets.",
+      "source": "Water distribution on Earth"
+    },
+    {
+      "from": 33,
+      "to": 39,
+      "heading": "One lake",
+      "text": "Meanwhile one lake in Siberia, Baikal, holds a fifth of all the unfrozen fresh water on the planet.",
+      "source": "UNESCO World Heritage"
+    },
+    {
+      "from": 39,
+      "to": 45,
+      "heading": "The twist",
+      "text": "Now pour every drop on Earth into a single ball. It would be only about fourteen hundred kilometres wide.",
+      "source": "USGS Water Science School"
+    },
+    {
+      "from": 45,
+      "to": 51,
+      "heading": "Your guess?",
+      "text": "A blue planet with surprisingly little water. So how much of it could you actually drink? Guess below."
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.3
+    },
+    {
+      "need": "whoosh",
+      "at": 3.4,
+      "align": "peak"
+    },
+    {
+      "need": "sonar_ping",
+      "at": 16.2
+    },
+    {
+      "need": "whoosh",
+      "at": 40,
+      "align": "peak"
+    }
+  ],
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you poured all of Earth's water into one ball?",
+      "Earth is 71% ocean, but has surprisingly little water"
+    ],
+    "description": "A spin around the globe from the Pacific to Lake Baikal, ending with every drop of Earth's water squeezed into a single ball.",
+    "tags": [
+      "earth",
+      "ocean",
+      "water",
+      "fresh water",
+      "planet earth",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "About 71% of Earth's surface is ocean; 96.5% of Earth's water is in the oceans; 2.5% is fresh water, 68.7% of it in glaciers",
+      "url": "https://en.wikipedia.org/wiki/Water_distribution_on_Earth"
+    },
+    {
+      "claim": "The Pacific covers more than 30% of Earth's surface and is larger than all the continents combined",
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/"
+    },
+    {
+      "claim": "Average ocean depth about 3,682 m; Challenger Deep about 10,935 m",
+      "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    },
+    {
+      "claim": "Lake Baikal contains 20% of the world's total unfrozen fresh water",
+      "url": "https://whc.unesco.org/en/list/754"
+    },
+    {
+      "claim": "All the water on Earth would form a sphere about 860 miles (about 1,385 km) across",
+      "url": "https://www.usgs.gov/media/files/all-water-earth-a-sphere-placed-over-a-dry-globe"
+    }
+  ],
+  "seed": "earth-water"
+}
