@@ -264,7 +264,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · float-up · 50s</i>\n\n<b>A:</b> What if you started floating up and couldn't stop?\n<b>B:</b> Floating from the ground to the Space Station\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793177300.0827727
+    "status": "PUBLISHED",
+    "created_at": 1793177300.0827727,
+    "updated_at": 1793177356.4605153,
+    "title_used": "What if you started floating up and couldn't stop?",
+    "video_id": "FTCySwj2zyg",
+    "youtube_url": "https://youtube.com/shorts/FTCySwj2zyg",
+    "scheduled_at": null
   }
 }
