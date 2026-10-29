@@ -348,5 +348,27 @@
     "title_used": "How big is the biggest star? (it's not the Sun)",
     "video_id": "xv4ffkaunWE",
     "youtube_url": "https://youtube.com/shorts/xv4ffkaunWE"
+  },
+  "45": {
+    "episode": "highest-flying-things",
+    "video_path": "output/drafts/highest-flying-things.mp4",
+    "titles": [
+      "What's the highest thing that can fly?",
+      "From a goose to Hubble: the highest things in the sky"
+    ],
+    "description": "Race up past a Himalayan goose, a record-breaking vulture, the SR-71 Blackbird, a record balloon and shooting stars to the Hubble Space Telescope, and find out why above a certain height nothing flies at all.\n\nSources:\n- A tracked bar-headed goose reached 7,290 m (2012 study); the geese cross the Himalayas: https://en.wikipedia.org/wiki/Bar-headed_goose\n- Mount Everest is 8,849 m tall: https://en.wikipedia.org/wiki/Mount_Everest\n- A Rüppell's vulture struck an aircraft at 11,300 m over Abidjan, Ivory Coast, on 29 November 1973; the highest confirmed bird flight: https://en.wikipedia.org/wiki/R%C3%BCppell%27s_vulture\n- SR-71 records of 27–28 July 1976: altitude in horizontal flight 25,929 m, speed 3,529.56 km/h: https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird\n- In 2013 the JAXA/ISAS balloon BS 13-08 reached a record 53.7 km: https://en.wikipedia.org/wiki/High-altitude_balloon\n- Meteors become visible about 75–120 km up; most meteoroids are about the size of a grain of sand: https://en.wikipedia.org/wiki/Meteor\n- An orbiting object is always falling toward the planet but moves sideways fast enough that it never hits it: https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-an-orbit-grades-5-8/\n- Hubble was launched on 24 April 1990; its orbit in 2026 is about 470–475 km up: https://en.wikipedia.org/wiki/Hubble_Space_Telescope\n- Hubble travels about 27,000 km/h, circling Earth every 95 minutes, about 483 km up: https://science.nasa.gov/mission/hubble/overview/hubble-by-the-numbers/\n- Standard-atmosphere temperatures and pressures used for the gauges (−56.5 °C at 11 km, 22,632 Pa, etc.): https://en.wikipedia.org/wiki/International_Standard_Atmosphere\n- The thermosphere can reach very high temperatures (up to 4,500 °F): https://spaceplace.nasa.gov/thermosphere/en/\n\nSound effects:\n- \"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- plane flyby: CC0 1.0, https://freesound.org/people/clif_creates/sounds/251957/\n- station beep: CC0 1.0, https://freesound.org/people/SoundsofTheMachine/sounds/791966/\n- \"VS Pop_2.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463390/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825964/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "what if",
+      "highest flying bird",
+      "sr-71 blackbird",
+      "hubble space telescope",
+      "atmosphere layers",
+      "how orbits work",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · highest-flying-things · 78s</i>\n\n<b>A:</b> What's the highest thing that can fly?\n<b>B:</b> From a goose to Hubble: the highest things in the sky\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 31 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793300492.3418984
   }
 }
