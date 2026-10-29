@@ -83,6 +83,9 @@ class TelegramApprovalDaemon:
     def upload(self, msg_id, which: str, now: bool):
         draft = state.claim_draft(msg_id)
         if draft is None:
+            known = state.get_draft(msg_id)
+            log.info("Draft %s not uploaded: %s", msg_id,
+                     f"already {known.get('status')}" if known else "not in the drafts registry")
             return "Already handled."
         titles = draft.get("titles") or [draft.get("title") or "Untitled"]
         title = titles[1] if which == "b" and len(titles) > 1 else titles[0]
@@ -144,6 +147,8 @@ class TelegramApprovalDaemon:
     def handle(self, update: dict):
         if "callback_query" in update:
             cq = update["callback_query"]
+            log.info("Tap: %r on message %s from %s", cq.get("data"), cq.get("message", {}).get("message_id"),
+                     "you" if str(cq.get("from", {}).get("id")) == self.chat_id else "someone else (ignored)")
             if str(cq.get("from", {}).get("id")) != self.chat_id:
                 return
             data = cq.get("data", "")
@@ -167,6 +172,7 @@ class TelegramApprovalDaemon:
                     self.upload(msg_id, "a", now=False)
         elif "message" in update:
             m = update["message"]
+            log.info("Message: %r", (m.get("text") or "")[:40])
             if str(m.get("chat", {}).get("id")) != self.chat_id:
                 return
             text = (m.get("text") or "").strip().lower()

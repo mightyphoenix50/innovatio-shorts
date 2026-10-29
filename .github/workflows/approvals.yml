@@ -1,11 +1,12 @@
 # Checks Telegram for your Approve / Publish now / Reject taps and acts on them (uploads go to YouTube).
-# Every 30 minutes from 06:00 to 23:30 South African time, which keeps it well inside GitHub's free minutes.
+# Twice an hour from about 06:00 to 23:45 South African time, which keeps it well inside GitHub's free minutes.
+# The minutes are deliberately not :00 / :30: GitHub delays or drops scheduled runs at the top and half of the hour.
 # Run it by hand from the Actions tab ("Run workflow") to act on a tap straight away.
 name: Telegram approvals
 
 on:
   schedule:
-    - cron: "*/30 4-21 * * *"   # UTC
+    - cron: "17,47 4-21 * * *"   # UTC
   workflow_dispatch:
 
 concurrency:
