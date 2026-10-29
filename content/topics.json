@@ -50,7 +50,8 @@
       "title": "What's the highest thing that can fly?",
       "format": "Fall-up",
       "angle": "Rise past a vulture at 11 km, the SR-71, weather balloons, meteors burning up, to Hubble; the twist is that a bird has hit a plane at 11 km.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-10-29"
     },
     {
       "slug": "moons-to-scale",
