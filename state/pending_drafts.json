@@ -339,7 +339,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Scale · biggest-star · 59s</i>\n\n<b>A:</b> How big is the biggest star? (it's not the Sun)\n<b>B:</b> From the Moon to UY Scuti, to scale\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793229650.625553
+    "status": "SCHEDULED",
+    "created_at": 1793229650.625553,
+    "updated_at": 1793288162.705409,
+    "scheduled_at": "2026-10-30T16:00:00Z",
+    "title_used": "How big is the biggest star? (it's not the Sun)",
+    "video_id": "xv4ffkaunWE",
+    "youtube_url": "https://youtube.com/shorts/xv4ffkaunWE"
   }
 }
