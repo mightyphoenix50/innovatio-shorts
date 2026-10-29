@@ -317,8 +317,10 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · sink-to-titanic · 62s</i>\n\n<b>A:</b> What if you sank all the way down to the Titanic?\n<b>B:</b> Sinking 3.8 km to the Titanic, and what's eating it\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 29 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793221892.5480642
+    "status": "REJECTED",
+    "created_at": 1793221892.5480642,
+    "updated_at": 1793288189.8393173,
+    "note": "Rejected by the owner (tap not recorded); marked by hand 29 Oct"
   },
   "43": {
     "episode": "biggest-star",
