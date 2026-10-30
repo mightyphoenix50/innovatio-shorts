@@ -18,9 +18,10 @@ on:
         required: false
         default: ""
 
-# Produce and approvals both write state/, so they never run at the same time.
+# One produce run at a time. The Telegram listener runs alongside; state/*.json from both is merged
+# by scripts/merge_state.py.
 concurrency:
-  group: pipeline-state
+  group: produce
   cancel-in-progress: false
 
 permissions:
@@ -109,10 +110,11 @@ jobs:
         run: |
           git config user.name "innovatio-bot"
           git config user.email "innovatio-bot@users.noreply.github.com"
+          git config merge.state.driver "python scripts/merge_state.py %O %A %B"
           git add -A state remotion audio content   # node_modules and out/ are git-ignored
           git diff --cached --quiet && exit 0
           git commit -q -m "Produce: update drafts and episode files [skip ci]"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
           exit 1
 
       - name: Producer log

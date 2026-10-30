@@ -3,14 +3,17 @@ Reject discards. Only button taps from your own chat are accepted.
 
 Run it in the background with tools/install_daemon.ps1 (starts at logon, restarts if it stops),
 or in a terminal:  python scripts/telegram_daemon.py
-On GitHub Actions it runs as a quick check instead (--once, every 30 minutes): it handles the taps
-waiting since the last check, remembering its place in state/telegram_offset.json.
+On GitHub Actions it listens for a few hours per run (--listen MINUTES), saving state to the repo after
+every tap and remembering its place in state/telegram_offset.json; --once handles waiting taps and exits.
+Only one copy may listen: on GitHub, remove the PC listener (tools\\install_daemon.ps1 -Remove),
+or it takes taps that then never reach GitHub.
 Commands you can send the bot: /status (drafts waiting and scheduled), /help.
 Logs: output/logs/daemon.log
 """
 import json
 import logging
 import os
+import subprocess
 import sys
 import time
 from logging.handlers import RotatingFileHandler
@@ -43,7 +46,12 @@ HELP = ("I send you each new Short for review.\n"
         "🚀 Publish now: uploads it public straight away.\n"
         "❌ Reject: discards it.\n"
         "/status lists drafts waiting for you and uploads that are scheduled.\n"
-        "Taps are picked up within about 30 minutes (checked from 06:00 to midnight).")
+        "Taps are picked up within a few seconds.")
+
+STOLEN = ("⚠️ Another copy of this bot is reading your taps, so some of them never reached the pipeline. "
+          "It's probably the old PC listener: on that PC run  tools\\install_daemon.ps1 -Remove  "
+          "Then tap the button again on any draft that didn't change.")
+ON_GITHUB = bool(os.environ.get("GITHUB_ACTIONS"))
 
 
 class TelegramApprovalDaemon:
@@ -80,12 +88,29 @@ class TelegramApprovalDaemon:
                   parse_mode="HTML", reply_markup=buttons or {"inline_keyboard": []})
 
     # Actions ----------------------------------------------------------------------------------------
-    def upload(self, msg_id, which: str, now: bool):
-        draft = state.claim_draft(msg_id)
+    def claim(self, msg_id, action: str, to_status="UPLOADING"):
+        """Claims the draft for a tap, or None (already handled, or unknown, which is reported on the phone)."""
+        draft = state.claim_draft(msg_id, to_status=to_status)
+        # A draft tapped the moment it arrives may not be saved by Produce yet: wait up to 3 minutes for it.
+        for _ in range(6 if ON_GITHUB and draft is None and not state.get_draft(msg_id) else 0):
+            time.sleep(30)
+            pull_state()
+            if state.get_draft(msg_id):
+                draft = state.claim_draft(msg_id, to_status=to_status)
+                break
         if draft is None:
             known = state.get_draft(msg_id)
-            log.info("Draft %s not uploaded: %s", msg_id,
-                     f"already {known.get('status')}" if known else "not in the drafts registry")
+            if known:
+                log.info("Draft %s not %s: already %s", msg_id, action, known.get("status"))
+            else:
+                log.warning("Draft %s not %s: not in the drafts registry", msg_id, action)
+                self.call("sendMessage", chat_id=self.chat_id, reply_to_message_id=int(msg_id),
+                          text=f"⚠️ I can't find this draft in the registry, so it wasn't {action}.")
+        return draft
+
+    def upload(self, msg_id, which: str, now: bool):
+        draft = self.claim(msg_id, "uploaded")
+        if draft is None:
             return "Already handled."
         titles = draft.get("titles") or [draft.get("title") or "Untitled"]
         title = titles[1] if which == "b" and len(titles) > 1 else titles[0]
@@ -124,7 +149,7 @@ class TelegramApprovalDaemon:
         return "Uploaded and scheduled." if publish_at else "Uploaded, live now."
 
     def reject(self, msg_id):
-        draft = state.claim_draft(msg_id, to_status="REJECTED")
+        draft = self.claim(msg_id, "rejected", to_status="REJECTED")
         if draft is None:
             return "Already handled."
         self.set_status(msg_id, draft, "❌ rejected.")
@@ -181,32 +206,74 @@ class TelegramApprovalDaemon:
             elif text.startswith("/help") or text.startswith("/start"):
                 self.call("sendMessage", chat_id=self.chat_id, text=HELP)
 
-    def run_once(self, offset_file: str):
-        """Handles the taps waiting since the last check, then exits (for scheduled runs on GitHub)."""
-        offset = None
-        if os.path.exists(offset_file):
-            with open(offset_file, "r", encoding="utf-8") as f:
-                offset = json.load(f).get("offset")
-        params = {"timeout": 0, "allowed_updates": json.dumps(["callback_query", "message"])}
+    def poll(self, offset, timeout: int) -> list | None:
+        """One getUpdates call; None when it failed (already logged)."""
+        params = {"timeout": timeout, "allowed_updates": json.dumps(["callback_query", "message"])}
         if offset is not None:
             params["offset"] = offset
-        r = requests.get(f"{self.api}/getUpdates", params=params, timeout=60)
-        j = r.json()
+        try:
+            r = requests.get(f"{self.api}/getUpdates", params=params, timeout=timeout + 20)
+            j = r.json()
+        except (requests.RequestException, ValueError) as e:
+            log.warning("Network problem: %s", e)
+            return None
+        if r.status_code == 409:
+            # Another copy is long-polling (or a webhook is set): it will take taps meant for us.
+            log.warning("Telegram 409: %s", j.get("description"))
+            self.warn_stolen()
+            return None
         if not j.get("ok"):
-            raise SystemExit(f"getUpdates failed: {j.get('description')} (is the PC daemon still running? "
-                             "Remove it with tools\\install_daemon.ps1 -Remove)")
-        updates = j.get("result", [])
-        log.info("Checked Telegram: %d new update(s).", len(updates))
+            log.warning("getUpdates: %s", j.get("description"))
+            return None
+        return j.get("result", [])
+
+    def warn_stolen(self):
+        if not getattr(self, "_warned", False):
+            self._warned = True
+            self.call("sendMessage", chat_id=self.chat_id, text=STOLEN)
+
+    def handle_batch(self, updates: list, offset, offset_file: str):
+        """Handles updates in order, saving the offset after each one, so a crash never repeats an upload."""
         for upd in updates:
+            if offset is not None and upd["update_id"] > offset:
+                # Update ids are sequential: a gap means another copy of the bot took those updates.
+                log.warning("Updates %s to %s were taken by another copy of the bot.", offset, upd["update_id"] - 1)
+                self.warn_stolen()
             offset = upd["update_id"] + 1
             try:
                 self.handle(upd)
             except Exception:  # noqa: BLE001
                 log.exception("Error handling update %s", upd.get("update_id"))
-            # Save after each one, so a crash never repeats an upload that already happened.
             os.makedirs(os.path.dirname(offset_file), exist_ok=True)
             with open(offset_file, "w", encoding="utf-8") as f:
                 json.dump({"offset": offset}, f)
+        return offset
+
+    def run_once(self, offset_file: str):
+        """Handles the taps waiting since the last check, then exits."""
+        updates = self.poll(read_offset(offset_file), timeout=0)
+        if updates is None:
+            raise SystemExit("getUpdates failed (see above)")
+        log.info("Checked Telegram: %d new update(s).", len(updates))
+        self.handle_batch(updates, read_offset(offset_file), offset_file)
+
+    def run_listen(self, offset_file: str, minutes: float):
+        """Listens for taps for a while (one GitHub run), saving state to the repo after each batch."""
+        deadline = time.time() + minutes * 60
+        log.info("Listening for taps for %.0f minutes.", minutes)
+        while time.time() < deadline - 60:
+            offset = read_offset(offset_file)
+            updates = self.poll(offset, timeout=50)
+            if updates is None:
+                time.sleep(30)
+                continue
+            if not updates:
+                continue
+            log.info("%d new update(s).", len(updates))
+            pull_state()  # drafts produced since this run started
+            self.handle_batch(updates, read_offset(offset_file), offset_file)
+            push_state()
+        log.info("Done listening.")
 
     def run(self):
         log.info("Approval daemon started; listening for taps.")
@@ -237,6 +304,41 @@ class TelegramApprovalDaemon:
                 time.sleep(10)
 
 
+def read_offset(offset_file: str):
+    if not os.path.exists(offset_file):
+        return None
+    with open(offset_file, "r", encoding="utf-8") as f:
+        return json.load(f).get("offset")
+
+
+def git(*args) -> bool:
+    r = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
+    if r.returncode:
+        log.warning("git %s failed: %s", args[0], (r.stderr or r.stdout).strip()[:300])
+    return r.returncode == 0
+
+
+def pull_state() -> None:
+    """On GitHub, brings in drafts and state saved by other runs (state/*.json merges via merge_state.py)."""
+    if ON_GITHUB and not git("pull", "-q", "--rebase", "--autostash"):
+        git("rebase", "--abort")
+
+
+def push_state() -> None:
+    """On GitHub, commits and pushes state/ so taps are saved as they happen; retried at the next tap if it fails."""
+    if not ON_GITHUB:
+        return
+    git("add", "-A", "state")
+    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
+        return
+    git("commit", "-q", "-m", "Approvals: update drafts [skip ci]")
+    for _ in range(3):
+        if git("pull", "-q", "--rebase") and git("push", "-q"):
+            return
+        git("rebase", "--abort")
+        time.sleep(5)
+
+
 def fetch_draft_video(video_path: str) -> None:
     """On GitHub the rendered drafts are kept as files on the repo's "drafts" release; download one when needed."""
     full = video_path if os.path.isabs(video_path) else os.path.join(ROOT, video_path)
@@ -254,7 +356,10 @@ def state_escape(s: str) -> str:
 
 
 if __name__ == "__main__":
+    OFFSET_FILE = os.path.join(ROOT, "state", "telegram_offset.json")
     if "--once" in sys.argv:
-        TelegramApprovalDaemon().run_once(os.path.join(ROOT, "state", "telegram_offset.json"))
+        TelegramApprovalDaemon().run_once(OFFSET_FILE)
+    elif "--listen" in sys.argv:
+        TelegramApprovalDaemon().run_listen(OFFSET_FILE, float(sys.argv[sys.argv.index("--listen") + 1]))
     else:
         TelegramApprovalDaemon().run()
