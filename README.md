@@ -7,14 +7,14 @@ The automated pipeline behind the Innovatio YouTube channel (science, space, tec
 1. **19:36 SAST, Claude scheduled task "Innovatio daily episode":** picks the next topic from `content/topics.json`, researches it, writes `remotion/episodes/queue/<slug>.json` following `content/DAILY_EPISODE_GUIDE.md`, checks it with `scripts/validate_episode.py`, and pushes it here.
 2. **GitHub workflow "Produce episodes"** (starts on that push): Azure voice and word timings → sound effects (Freesound, picked by earshot) → lobby music bed → Remotion render → quality checks → the draft is sent to Telegram. The video is kept on the `drafts` release; state and timings are committed back.
 3. **You tap a button in Telegram:** Schedule (title A or B), Publish now, or Reject.
-4. **GitHub workflow "Telegram approvals"** (every 30 min, 06:00–23:30 SAST): acts on the taps. Scheduled uploads go up private and YouTube publishes them at the next free 18:00 slot.
+4. **GitHub workflow "Telegram approvals"** (always listening; each run lasts about 5½ hours and starts the next): acts on a tap within seconds. Scheduled uploads go up private and YouTube publishes them at the next free 18:00 slot. Only one copy of the bot may listen, so the old PC listener must stay removed (`tools\install_daemon.ps1 -Remove`); if another copy takes a tap, the bot tells you in Telegram.
 
-Send `/status` to the bot to see what's waiting and what's scheduled (answered at the next check).
+Send `/status` to the bot to see what's waiting and what's scheduled.
 
 ## Doing things by hand
 
 - **Produce one episode now:** Actions → Produce episodes → Run workflow, episode `remotion/episodes/<slug>.json` (flags e.g. `--revoice`, `--resource`, `--no-send`).
-- **Act on a tap straight away:** Actions → Telegram approvals → Run workflow.
+- **Restart the listener** (if the bot ever seems asleep): Actions → Telegram approvals → Run workflow.
 - **Add or reorder topics:** edit `content/topics.json`.
 - **Change how episodes are written:** edit `content/DAILY_EPISODE_GUIDE.md`.
 

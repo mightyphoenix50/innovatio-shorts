@@ -1,0 +1,2 @@
+# Drafts registry and Telegram offset: merged by scripts/merge_state.py (enabled in the workflows)
+state/*.json merge=state

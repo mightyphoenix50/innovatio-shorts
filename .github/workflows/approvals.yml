@@ -1,25 +1,29 @@
-# Checks Telegram for your Approve / Publish now / Reject taps and acts on them (uploads go to YouTube).
-# Twice an hour from about 06:00 to 23:45 South African time, which keeps it well inside GitHub's free minutes.
-# The minutes are deliberately not :00 / :30: GitHub delays or drops scheduled runs at the top and half of the hour.
-# Run it by hand from the Actions tab ("Run workflow") to act on a tap straight away.
+# Listens for your Schedule / Publish now / Reject taps in Telegram and acts on them within seconds
+# (uploads go to YouTube). Each run listens for about 5½ hours, then starts the next one, so it's always on;
+# the hourly schedule only restarts it if that chain ever breaks. The repo is public, so these minutes are free.
+# GitHub's own schedule alone was too unreliable: it ran this every 4–10 hours instead of every 30 minutes.
+# Run it by hand from the Actions tab ("Run workflow") if the bot ever seems asleep.
 name: Telegram approvals
 
 on:
   schedule:
-    - cron: "17,47 4-21 * * *"   # UTC
+    - cron: "17 * * * *"   # fallback; while a listener runs, this just waits its turn
   workflow_dispatch:
 
+# Only one listener at a time (two would fight over Telegram). Produce has its own group: the two
+# can run together because state/*.json is merged by scripts/merge_state.py.
 concurrency:
-  group: pipeline-state
+  group: telegram-listener
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write   # to start the next listener
 
 jobs:
   approvals:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 350
     env:
       DRAFTS_REGISTRY: state/pending_drafts.json
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -30,6 +34,8 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # the latest drafts, not the commit this run was queued on
 
       - uses: actions/setup-python@v5
         with:
@@ -39,16 +45,25 @@ jobs:
       - name: Python packages
         run: pip install -q requests google-api-python-client google-auth google-auth-oauthlib
 
-      - name: Handle taps
-        run: python scripts/telegram_daemon.py --once
+      - name: Git identity and state merging
+        run: |
+          git config user.name "innovatio-bot"
+          git config user.email "innovatio-bot@users.noreply.github.com"
+          git config merge.state.driver "python scripts/merge_state.py %O %A %B"
+
+      # Saves state to the repo after every tap, pulling new drafts from Produce first.
+      - name: Listen for taps
+        run: python scripts/telegram_daemon.py --listen 330
 
       - name: Save state back to the repo
         if: always()
         run: |
-          git config user.name "innovatio-bot"
-          git config user.email "innovatio-bot@users.noreply.github.com"
           git add -A state
           git diff --cached --quiet && exit 0
           git commit -q -m "Approvals: update drafts [skip ci]"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
           exit 1
+
+      - name: Start the next listener
+        if: success()
+        run: gh workflow run approvals.yml --ref main
