@@ -232,13 +232,16 @@ class TelegramApprovalDaemon:
             self._warned = True
             self.call("sendMessage", chat_id=self.chat_id, text=STOLEN)
 
-    def handle_batch(self, updates: list, offset, offset_file: str):
-        """Handles updates in order, saving the offset after each one, so a crash never repeats an upload."""
+    def handle_batch(self, updates: list, offset, offset_file: str, warn_gaps: bool = True):
+        """Handles updates in order, saving the offset after each one, so a crash never repeats an upload.
+
+        Update ids are sequential, so a gap means something else read those updates. A gap on a run's first
+        poll is only logged: it covers the time before this run, e.g. taps the PC listener took before removal."""
         for upd in updates:
             if offset is not None and upd["update_id"] > offset:
-                # Update ids are sequential: a gap means another copy of the bot took those updates.
-                log.warning("Updates %s to %s were taken by another copy of the bot.", offset, upd["update_id"] - 1)
-                self.warn_stolen()
+                log.warning("Updates %s to %s were read by something else.", offset, upd["update_id"] - 1)
+                if warn_gaps:
+                    self.warn_stolen()
             offset = upd["update_id"] + 1
             try:
                 self.handle(upd)
@@ -255,12 +258,13 @@ class TelegramApprovalDaemon:
         if updates is None:
             raise SystemExit("getUpdates failed (see above)")
         log.info("Checked Telegram: %d new update(s).", len(updates))
-        self.handle_batch(updates, read_offset(offset_file), offset_file)
+        self.handle_batch(updates, read_offset(offset_file), offset_file, warn_gaps=False)
 
     def run_listen(self, offset_file: str, minutes: float):
         """Listens for taps for a while (one GitHub run), saving state to the repo after each batch."""
         deadline = time.time() + minutes * 60
         log.info("Listening for taps for %.0f minutes.", minutes)
+        first = True
         while time.time() < deadline - 60:
             offset = read_offset(offset_file)
             updates = self.poll(offset, timeout=50)
@@ -268,10 +272,12 @@ class TelegramApprovalDaemon:
                 time.sleep(30)
                 continue
             if not updates:
+                first = False
                 continue
             log.info("%d new update(s).", len(updates))
             pull_state()  # drafts produced since this run started
-            self.handle_batch(updates, read_offset(offset_file), offset_file)
+            self.handle_batch(updates, read_offset(offset_file), offset_file, warn_gaps=not first)
+            first = False
             push_state()
         log.info("Done listening.")
 
