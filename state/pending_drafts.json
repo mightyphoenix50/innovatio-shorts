@@ -368,7 +368,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · highest-flying-things · 78s</i>\n\n<b>A:</b> What's the highest thing that can fly?\n<b>B:</b> From a goose to Hubble: the highest things in the sky\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 31 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793300492.3418984
+    "status": "PUBLISHED",
+    "created_at": 1793300492.3418984,
+    "updated_at": 1793389264.5812638,
+    "title_used": "What's the highest thing that can fly?",
+    "video_id": "Lmx9c4W47v0",
+    "youtube_url": "https://youtube.com/shorts/Lmx9c4W47v0",
+    "scheduled_at": null
   }
 }
