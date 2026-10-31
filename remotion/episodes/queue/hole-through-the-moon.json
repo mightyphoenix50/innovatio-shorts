@@ -1,0 +1,560 @@
+{
+  "template": "Fall",
+  "title": "What if you fell into a hole through the Moon?",
+  "fps": 30,
+  "hook": {
+    "banner": "What if you fell through the Moon?",
+    "flash": "55 MINUTES",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      2.6,
+      0
+    ],
+    [
+      5.5,
+      4
+    ],
+    [
+      9.5,
+      6
+    ],
+    [
+      11.5,
+      8200
+    ],
+    [
+      15.5,
+      9500
+    ],
+    [
+      17.5,
+      40000
+    ],
+    [
+      21.5,
+      48000
+    ],
+    [
+      23.5,
+      1000000
+    ],
+    [
+      27.5,
+      1040000
+    ],
+    [
+      29.5,
+      1257000
+    ],
+    [
+      31.5,
+      1407000
+    ],
+    [
+      33,
+      1497000
+    ],
+    [
+      34,
+      1560000
+    ],
+    [
+      36,
+      1737400
+    ],
+    [
+      54,
+      1760000
+    ]
+  ],
+  "maxDepth": 1737400,
+  "fallAt": 2.6,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      600
+    ],
+    [
+      8200,
+      1300
+    ],
+    [
+      40000,
+      2000
+    ],
+    [
+      1000000,
+      2800
+    ],
+    [
+      1257000,
+      3400
+    ],
+    [
+      1407000,
+      3950
+    ],
+    [
+      1497000,
+      4500
+    ],
+    [
+      1737400,
+      5200
+    ],
+    [
+      1977400,
+      5900
+    ],
+    [
+      2237400,
+      6600
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 4,
+      "name": "Moon dust",
+      "colourTop": "#B3AEA6",
+      "colourBottom": "#9A958E",
+      "texture": "soil"
+    },
+    {
+      "from": 4,
+      "to": 8200,
+      "name": "The crust",
+      "colourTop": "#8F8A83",
+      "colourBottom": "#7D7871",
+      "texture": "strata"
+    },
+    {
+      "from": 8200,
+      "to": 40000,
+      "name": "The crust",
+      "colourTop": "#7D7871",
+      "colourBottom": "#6B655F",
+      "texture": "granite"
+    },
+    {
+      "from": 40000,
+      "to": 1257000,
+      "name": "The mantle",
+      "colourTop": "#6E5F55",
+      "colourBottom": "#8A5A3E",
+      "texture": "mantle"
+    },
+    {
+      "from": 1257000,
+      "to": 1407000,
+      "name": "Part-molten rock",
+      "colourTop": "#B5532E",
+      "colourBottom": "#C8642F",
+      "texture": "mantle"
+    },
+    {
+      "from": 1407000,
+      "to": 1497000,
+      "name": "Liquid iron core",
+      "colourTop": "#E8822F",
+      "colourBottom": "#F5A847",
+      "texture": "liquid"
+    },
+    {
+      "from": 1497000,
+      "to": 1977400,
+      "name": "Solid iron core",
+      "colourTop": "#FFD27A",
+      "colourBottom": "#FFE29A",
+      "texture": "crystal"
+    },
+    {
+      "from": 1977400,
+      "to": 2237400,
+      "name": "Liquid iron core",
+      "colourTop": "#F5A847",
+      "colourBottom": "#E8822F",
+      "texture": "liquid"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 4,
+      "kind": "boundary",
+      "label": "End of the dust · ~4 m",
+      "side": "left"
+    },
+    {
+      "depth": 8200,
+      "kind": "boundary",
+      "label": "Biggest crater's depth · 8 km",
+      "side": "right"
+    },
+    {
+      "depth": 40000,
+      "kind": "boundary",
+      "label": "End of the crust · 40 km",
+      "side": "left"
+    },
+    {
+      "depth": 1000000,
+      "kind": "boundary",
+      "label": "Deep moonquakes · 1,000 km",
+      "side": "right"
+    },
+    {
+      "depth": 1257000,
+      "kind": "boundary",
+      "label": "Partly molten rock",
+      "side": "left"
+    },
+    {
+      "depth": 1407000,
+      "kind": "boundary",
+      "label": "Liquid iron",
+      "side": "right"
+    },
+    {
+      "depth": 1497000,
+      "kind": "boundary",
+      "label": "Solid iron",
+      "side": "left"
+    },
+    {
+      "depth": 1737400,
+      "kind": "center",
+      "label": "The centre · 1,737 km",
+      "side": "left"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -20
+    ],
+    [
+      4,
+      -20
+    ],
+    [
+      40000,
+      300
+    ],
+    [
+      1000000,
+      1100
+    ],
+    [
+      1257000,
+      1300
+    ],
+    [
+      1407000,
+      1350
+    ],
+    [
+      1737400,
+      1400
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0
+    ],
+    [
+      40000,
+      1600
+    ],
+    [
+      1000000,
+      35000
+    ],
+    [
+      1407000,
+      48900
+    ],
+    [
+      1737400,
+      60300
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "The hole",
+      "text": "Someone drilled a hole straight through the Moon. And you just stepped in."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "4 m down",
+      "text": "Four metres down, the Moon dust ends. That's the average under its dark lava plains.",
+      "source": "Brown University, 2026",
+      "beats": [
+        {
+          "word": "dust",
+          "kind": "compare",
+          "compare": {
+            "name": "You",
+            "value": 1.7,
+            "icon": "person",
+            "subject": "Moon dust",
+            "subjectValue": 4,
+            "unit": "m",
+            "note": "Twice your height"
+          }
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15.5,
+      "heading": "8 km down",
+      "text": "Eight kilometres. As deep as the Moon's biggest crater, a scar two thousand five hundred kilometres wide.",
+      "source": "South Pole–Aitken basin, Wikipedia",
+      "beats": [
+        {
+          "word": "crater",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Biggest crater",
+            "subjectValue": 8.2,
+            "unit": "km",
+            "note": "Nearly an Everest deep"
+          }
+        },
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "2,500 km",
+          "label": "crater width"
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "The crust ends",
+      "text": "Forty kilometres: the crust ends. On the far side, it can be sixty kilometres thick.",
+      "source": "NASA Moon facts",
+      "beats": [
+        {
+          "word": "sixty",
+          "kind": "stat",
+          "value": "60 km",
+          "label": "far-side crust"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "1,000 km down",
+      "text": "A thousand kilometres down, the rock is shaking. This is where deep moonquakes start.",
+      "source": "Internal structure of the Moon, Wikipedia",
+      "beats": [
+        {
+          "word": "moonquakes",
+          "kind": "stamp",
+          "value": "MOONQUAKES"
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 34,
+      "heading": "The core",
+      "text": "Then the rock turns partly molten. Then liquid iron. Then a solid iron ball, with a radius of two hundred and forty kilometres.",
+      "source": "NASA Moon facts",
+      "beats": [
+        {
+          "word": "liquid",
+          "kind": "warning",
+          "value": "LIQUID IRON"
+        },
+        {
+          "word": "radius",
+          "kind": "stat",
+          "value": "240 km",
+          "label": "solid iron core"
+        }
+      ]
+    },
+    {
+      "from": 34,
+      "to": 40.5,
+      "heading": "The centre",
+      "text": "The centre: about fourteen hundred degrees. Hot, but Earth's core is as hot as the Sun's surface.",
+      "source": "Internal structure of the Moon, Wikipedia",
+      "beats": [
+        {
+          "word": "Earth's",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth's centre",
+            "value": 6000,
+            "icon": "land",
+            "subject": "Moon's centre",
+            "subjectValue": 1400,
+            "unit": "°C",
+            "note": "Earth's is 4× hotter"
+          }
+        }
+      ]
+    },
+    {
+      "from": 40.5,
+      "to": 47,
+      "heading": "The twist",
+      "text": "The twist? The Moon is tiny, but the fall takes longer. About fifty-five minutes, against thirty-eight for Earth.",
+      "source": "Cramer, Analog AV-32",
+      "beats": [
+        {
+          "word": "longer",
+          "kind": "stamp",
+          "value": "IT TAKES LONGER"
+        },
+        {
+          "word": "fifty-five",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth fall",
+            "value": 38,
+            "icon": "land",
+            "subject": "Moon fall",
+            "subjectValue": 55,
+            "unit": "min",
+            "note": "Smaller, yet slower"
+          }
+        }
+      ]
+    },
+    {
+      "from": 47,
+      "to": 54,
+      "heading": "Why so slow?",
+      "text": "Why? The Moon is far less dense, so its pull is weak, a sixth of Earth's. Which would you jump through?",
+      "source": "Moon, Wikipedia",
+      "beats": [
+        {
+          "word": "sixth",
+          "kind": "stat",
+          "value": "1/6",
+          "label": "of Earth's gravity"
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "whoosh",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:8200"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:40000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:1000000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:1257000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:1407000"
+    },
+    {
+      "need": "whoosh",
+      "at": 40.5,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Fifty-five minutes of falling? Finally, time to download that update.",
+    "mood": "smug",
+    "action": "*happy beep*"
+  },
+  "series": "What if…",
+  "youtube": {
+    "titles": [
+      "What if you fell into a hole through the Moon?",
+      "Falling through the centre of the Moon"
+    ],
+    "description": "Someone drilled a hole straight through the Moon and you stepped in. A fall past the Moon dust, the crust and the deep moonquake zone to a small iron core, and why the trip takes longer than falling through the whole Earth.",
+    "tags": [
+      "what if",
+      "hole through the moon",
+      "moon core",
+      "gravity tunnel",
+      "moonquakes",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Lunar regolith averages about 4 m thick in the maria and about 6 m in the highlands (Planetary Science Journal study)",
+      "url": "https://www.brown.edu/news/2026-07-14/moon-regolith"
+    },
+    {
+      "claim": "The South Pole–Aitken basin is about 2,500 km across and up to about 8.2 km deep",
+      "url": "https://en.wikipedia.org/wiki/South_Pole%E2%80%93Aitken_basin"
+    },
+    {
+      "claim": "The Moon's crust is about 40 km thick on the near side and up to about 60 km on the far side; its radius is about 1,740 km; solid iron inner core of 240 km radius inside a 90 km liquid iron shell; surface −173 °C to 127 °C",
+      "url": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "claim": "Deep moonquakes occur about 1,000 km down; partially molten layer to a radius of 480 km; fluid outer core radius 330 km; core temperature about 1,600–1,700 K (1,330–1,430 °C)",
+      "url": "https://en.wikipedia.org/wiki/Internal_structure_of_the_Moon"
+    },
+    {
+      "claim": "Model pressures of 6.11 GPa at the Moon's centre and 4.95 GPa at the core-mantle boundary (Aitta, interior structure of rock-and-iron bodies)",
+      "url": "https://arxiv.org/abs/1811.09198"
+    },
+    {
+      "claim": "Earth's centre is about 6,000 °C (10,800 °F), about as hot as the Sun's surface",
+      "url": "https://www.smithsonianmag.com/smart-news/the-center-of-the-earth-is-as-hot-as-the-sun-43631207"
+    },
+    {
+      "claim": "A fall-through tunnel on the Moon, whose average density is 61% of Earth's, would take about 55 minutes (Cramer, Analog AV-32)",
+      "url": "https://www.npl.washington.edu/AV/altvw32.html"
+    },
+    {
+      "claim": "Straight-tunnel travel would take about 53 minutes on the Moon (TIME, 1966)",
+      "url": "https://time.com/archive/6889155/mathematics-to-everywhere-in-42-minutes/"
+    },
+    {
+      "claim": "Fall-through time depends only on density; a realistic Earth model gives about 38 minutes",
+      "url": "https://en.wikipedia.org/wiki/Gravity_train"
+    },
+    {
+      "claim": "The Moon's mean radius is 1,737.4 km and its surface gravity 1.62 m/s², about 0.1654 g",
+      "url": "https://en.wikipedia.org/wiki/Moon"
+    }
+  ],
+  "seed": "hole-through-the-moon"
+}
