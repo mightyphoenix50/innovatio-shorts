@@ -422,7 +422,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · hole-through-the-moon · 68s</i>\n\n<b>A:</b> What if you fell into a hole through the Moon?\n<b>B:</b> Falling through the centre of the Moon\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 01 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793481268.8250914
+    "status": "SCHEDULED",
+    "created_at": 1793481268.8250914,
+    "updated_at": 1793481580.5498173,
+    "scheduled_at": "2026-11-01T16:00:00Z",
+    "title_used": "Falling through the centre of the Moon",
+    "video_id": "i25RJdSIEJo",
+    "youtube_url": "https://youtube.com/shorts/i25RJdSIEJo"
   }
 }
