@@ -375,5 +375,27 @@
     "video_id": "Lmx9c4W47v0",
     "youtube_url": "https://youtube.com/shorts/Lmx9c4W47v0",
     "scheduled_at": null
+  },
+  "48": {
+    "episode": "planets-to-scale",
+    "video_path": "output/drafts/planets-to-scale.mp4",
+    "titles": [
+      "What if you lined up every planet? (to scale)",
+      "Every planet to scale, from Mercury to Jupiter"
+    ],
+    "description": "A to-scale zoom out from Mercury to Mars, Earth, Neptune, Saturn and Jupiter, ending on how all the other planets could squeeze between Earth and the Moon.\n\nSources:\n- Mercury is the smallest planet, only slightly larger than Earth's Moon; radius 2,440 km: https://science.nasa.gov/mercury/facts/\n- The Moon's radius is about 1,740 km (about 3,480 km across); average distance 384,400 km: https://science.nasa.gov/moon/facts/\n- Mars has a radius of 3,390 km and is about half the size of Earth: https://science.nasa.gov/mars/facts/\n- Earth's equatorial diameter is 12,756 km; it is the biggest of the terrestrial planets: https://science.nasa.gov/earth/facts/\n- Venus is nearly as big around as Earth: 12,104 km across versus 12,756 km: https://science.nasa.gov/venus/facts/\n- Neptune's equatorial diameter is 49,528 km, about four times wider than Earth: https://science.nasa.gov/neptune/facts/\n- Uranus's equatorial diameter is 51,118 km, four times wider than Earth: https://science.nasa.gov/uranus/facts/\n- Saturn is about 120,500 km across, 9 times wider than Earth: https://science.nasa.gov/saturn/facts/\n- Saturn's volume is 763.59 times Earth's; equatorial radius 60,268 km: https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html\n- Jupiter has a radius of 69,911 km, is 11 times wider than Earth, and 1,000 Earths could fit inside it: https://science.nasa.gov/jupiter/facts/\n- Planet diameters: Mercury 4,879 km, Mars 6,792 km, Jupiter 142,984 km, Saturn 120,536 km: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n- The other seven planets' average diameters add up to 380,016 km; they don't fit at the Moon's average distance (about 376,000 km surface to surface) but do fit at apogee (about 398,000 km): https://www.syfy.com/syfy-wire/can-you-really-fit-all-planets-between-earth-and-moon\n- At the Moon's most distant, all the planets fit between Earth and the Moon: https://www.skyatnightmagazine.com/space-science/fit-every-planet-in-solar-system-between-earth-and-moon\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- \"Sonar Ping.wav\" by digifishmusic (https://freesound.org/people/digifishmusic/sounds/42796/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/829590/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/vekoN/sounds/719830/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "space",
+      "planets to scale",
+      "solar system",
+      "planet size comparison",
+      "jupiter",
+      "astronomy",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Scale · planets-to-scale · 59s</i>\n\n<b>A:</b> What if you lined up every planet? (to scale)\n<b>B:</b> Every planet to scale, from Mercury to Jupiter\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 31 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793434124.6671207
   }
 }
