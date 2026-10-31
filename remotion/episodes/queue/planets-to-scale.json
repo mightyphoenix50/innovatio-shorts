@@ -1,0 +1,315 @@
+{
+  "template": "Scale",
+  "title": "What if you lined up every planet?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Mercury",
+      "value": "4,879 km",
+      "caption": "WIDE",
+      "kind": "mercury",
+      "radiusKm": 2440
+    },
+    {
+      "line": 2,
+      "name": "Mars",
+      "value": "6,792 km",
+      "caption": "WIDE",
+      "kind": "mars",
+      "radiusKm": 3396,
+      "glow": "#E29578"
+    },
+    {
+      "line": 3,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 4,
+      "name": "Neptune",
+      "value": "49,528 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 24764,
+      "colours": [
+        "#BFE3F5",
+        "#5B9BD5",
+        "#2E5FA8"
+      ],
+      "glow": "#7FB8D6"
+    },
+    {
+      "line": 5,
+      "name": "Saturn",
+      "value": "120,536 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 60268,
+      "colours": [
+        "#F3E3C0",
+        "#E0C089",
+        "#B8935A"
+      ],
+      "rings": true
+    },
+    {
+      "line": 6,
+      "name": "Jupiter",
+      "value": "142,984 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 71492,
+      "colours": [
+        "#F2DEC0",
+        "#D9A56B",
+        "#B6703F"
+      ]
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "Every planet, to scale",
+      "text": "You think Earth is a big planet? Wait till you see where it ranks."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "Mercury",
+      "text": "Start with Mercury, the smallest planet. It's only a little bigger than our Moon.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "Moon",
+          "kind": "compare",
+          "compare": {
+            "name": "The Moon",
+            "value": 3.5,
+            "icon": "moon",
+            "subject": "Mercury",
+            "subjectValue": 4.9,
+            "unit": "thousand km wide",
+            "note": "Barely bigger"
+          }
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15.5,
+      "heading": "Mars",
+      "text": "Then Mars. Red, rocky, and only about half as wide as Earth.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "53%",
+          "label": "of Earth's width"
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "Earth",
+      "text": "Here's home, the biggest rocky planet there is. And Venus? It's only a little smaller.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "biggest",
+          "kind": "stamp",
+          "value": "BIGGEST ROCKY ONE"
+        },
+        {
+          "word": "Venus",
+          "kind": "compare",
+          "compare": {
+            "name": "Venus",
+            "value": 12104,
+            "icon": "moon",
+            "subject": "Earth",
+            "subjectValue": 12756,
+            "unit": "km wide",
+            "note": "Nearly twins"
+          }
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "The ice giants",
+      "text": "Now the ice giants. Neptune is about four Earths wide, and Uranus is almost its twin.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "4\u00d7",
+          "label": "wider than Earth"
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 33.5,
+      "heading": "Saturn",
+      "text": "Saturn is nine Earths across. Hollow it out, and over seven hundred Earths would fit inside.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "stat",
+          "value": "763",
+          "label": "Earths would fit inside"
+        }
+      ]
+    },
+    {
+      "from": 33.5,
+      "to": 39.5,
+      "heading": "Jupiter",
+      "text": "And the king, Jupiter. Eleven Earths wide, with room for a thousand Earths inside.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "Eleven",
+          "kind": "stat",
+          "value": "11\u00d7",
+          "label": "wider than Earth"
+        },
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000",
+          "label": "Earths would fit inside"
+        }
+      ]
+    },
+    {
+      "from": 39.5,
+      "to": 45.5,
+      "heading": "The twist",
+      "text": "The twist? Line up every other planet side by side, and they'd fit between Earth and the Moon.",
+      "source": "Bad Astronomy",
+      "beats": [
+        {
+          "word": "fit",
+          "kind": "stamp",
+          "value": "THEY ALL FIT"
+        }
+      ]
+    },
+    {
+      "from": 45.5,
+      "to": 52,
+      "heading": "Room to spare?",
+      "text": "But only when the Moon is at its farthest. Which planet would you visit first?",
+      "source": "Bad Astronomy",
+      "beats": [
+        {
+          "word": "farthest",
+          "kind": "compare",
+          "compare": {
+            "name": "Gap at Moon's farthest",
+            "value": 398,
+            "icon": "moon",
+            "subject": "7 planets in a row",
+            "subjectValue": 380,
+            "unit": "thousand km",
+            "note": "Just enough room"
+          }
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How big are the planets, really?",
+    "flash": "THEY ALL FIT",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Seven planets in one gap? I can't even fit my cables in a drawer.",
+    "mood": "laugh",
+    "action": "*tangled beep*"
+  },
+  "series": "Scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up every planet? (to scale)",
+      "Every planet to scale, from Mercury to Jupiter"
+    ],
+    "description": "A to-scale zoom out from Mercury to Mars, Earth, Neptune, Saturn and Jupiter, ending on how all the other planets could squeeze between Earth and the Moon.",
+    "tags": [
+      "space",
+      "planets to scale",
+      "solar system",
+      "planet size comparison",
+      "jupiter",
+      "astronomy",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Mercury is the smallest planet, only slightly larger than Earth's Moon; radius 2,440 km",
+      "url": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "claim": "The Moon's radius is about 1,740 km (about 3,480 km across); average distance 384,400 km",
+      "url": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "claim": "Mars has a radius of 3,390 km and is about half the size of Earth",
+      "url": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "claim": "Earth's equatorial diameter is 12,756 km; it is the biggest of the terrestrial planets",
+      "url": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "claim": "Venus is nearly as big around as Earth: 12,104 km across versus 12,756 km",
+      "url": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "claim": "Neptune's equatorial diameter is 49,528 km, about four times wider than Earth",
+      "url": "https://science.nasa.gov/neptune/facts/"
+    },
+    {
+      "claim": "Uranus's equatorial diameter is 51,118 km, four times wider than Earth",
+      "url": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "claim": "Saturn is about 120,500 km across, 9 times wider than Earth",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "claim": "Saturn's volume is 763.59 times Earth's; equatorial radius 60,268 km",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+    },
+    {
+      "claim": "Jupiter has a radius of 69,911 km, is 11 times wider than Earth, and 1,000 Earths could fit inside it",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "Planet diameters: Mercury 4,879 km, Mars 6,792 km, Jupiter 142,984 km, Saturn 120,536 km",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+    },
+    {
+      "claim": "The other seven planets' average diameters add up to 380,016 km; they don't fit at the Moon's average distance (about 376,000 km surface to surface) but do fit at apogee (about 398,000 km)",
+      "url": "https://www.syfy.com/syfy-wire/can-you-really-fit-all-planets-between-earth-and-moon"
+    },
+    {
+      "claim": "At the Moon's most distant, all the planets fit between Earth and the Moon",
+      "url": "https://www.skyatnightmagazine.com/space-science/fit-every-planet-in-solar-system-between-earth-and-moon"
+    }
+  ],
+  "seed": "planets-to-scale"
+}

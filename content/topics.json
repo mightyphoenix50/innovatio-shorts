@@ -43,7 +43,8 @@
       "title": "What if you lined up every planet?",
       "format": "Scale",
       "angle": "Mercury → Mars → Venus → Earth → Neptune → Uranus → Saturn → Jupiter; twist: all the planets would fit in the gap between Earth and the Moon.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-10-31"
     },
     {
       "slug": "highest-flying-things",
