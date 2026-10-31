@@ -402,5 +402,27 @@
     "title_used": "What if you lined up every planet? (to scale)",
     "video_id": "a2ArJqy1ywQ",
     "youtube_url": "https://youtube.com/shorts/a2ArJqy1ywQ"
+  },
+  "50": {
+    "episode": "hole-through-the-moon",
+    "video_path": "output/drafts/hole-through-the-moon.mp4",
+    "titles": [
+      "What if you fell into a hole through the Moon?",
+      "Falling through the centre of the Moon"
+    ],
+    "description": "Someone drilled a hole straight through the Moon and you stepped in. A fall past the Moon dust, the crust and the deep moonquake zone to a small iron core, and why the trip takes longer than falling through the whole Earth.\n\nSources:\n- Lunar regolith averages about 4 m thick in the maria and about 6 m in the highlands (Planetary Science Journal study): https://www.brown.edu/news/2026-07-14/moon-regolith\n- The South Pole–Aitken basin is about 2,500 km across and up to about 8.2 km deep: https://en.wikipedia.org/wiki/South_Pole%E2%80%93Aitken_basin\n- The Moon's crust is about 40 km thick on the near side and up to about 60 km on the far side; its radius is about 1,740 km; solid iron inner core of 240 km radius inside a 90 km liquid iron shell; surface −173 °C to 127 °C: https://science.nasa.gov/moon/facts/\n- Deep moonquakes occur about 1,000 km down; partially molten layer to a radius of 480 km; fluid outer core radius 330 km; core temperature about 1,600–1,700 K (1,330–1,430 °C): https://en.wikipedia.org/wiki/Internal_structure_of_the_Moon\n- Model pressures of 6.11 GPa at the Moon's centre and 4.95 GPa at the core-mantle boundary (Aitta, interior structure of rock-and-iron bodies): https://arxiv.org/abs/1811.09198\n- Earth's centre is about 6,000 °C (10,800 °F), about as hot as the Sun's surface: https://www.smithsonianmag.com/smart-news/the-center-of-the-earth-is-as-hot-as-the-sun-43631207\n- A fall-through tunnel on the Moon, whose average density is 61% of Earth's, would take about 55 minutes (Cramer, Analog AV-32): https://www.npl.washington.edu/AV/altvw32.html\n- Straight-tunnel travel would take about 53 minutes on the Moon (TIME, 1966): https://time.com/archive/6889155/mathematics-to-everywhere-in-42-minutes/\n- Fall-through time depends only on density; a realistic Earth model gives about 38 minutes: https://en.wikipedia.org/wiki/Gravity_train\n- The Moon's mean radius is 1,737.4 km and its surface gravity 1.62 m/s², about 0.1654 g: https://en.wikipedia.org/wiki/Moon\n\nSound effects:\n- \"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- rock rumble: CC0 1.0, https://freesound.org/people/uagadugu/sounds/222521/\n- lava bubble: CC0 1.0, https://freesound.org/people/Fission9/sounds/474849/\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "what if",
+      "hole through the moon",
+      "moon core",
+      "gravity tunnel",
+      "moonquakes",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · hole-through-the-moon · 68s</i>\n\n<b>A:</b> What if you fell into a hole through the Moon?\n<b>B:</b> Falling through the centre of the Moon\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 01 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793481268.8250914
   }
 }
