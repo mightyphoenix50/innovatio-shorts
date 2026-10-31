@@ -1,4 +1,4 @@
-"""Builds an original music and sound-effects bed for an episode (Descent, Fall or Orbit template).
+"""Builds an original music and sound-effects bed for an episode (Descent, Fall, Orbit, Scale or Story template).
 
 Everything is synthesised here from sine waves and noise, so there is nothing to license.
 
@@ -394,7 +394,7 @@ def build(ep: dict, out_mp3: str) -> str:
     for need, t_hit, align in edit_hits(ep):
         effect(need, t_hit, lambda need=need: hit_synth[need](rng), align=align)
 
-    if ep.get("sfx") or ep.get("template") == "Scale":
+    if ep.get("sfx") or ep.get("template") in ("Scale", "Story"):
         # Episodes with their own plan (the Fall and Orbit templates): each entry names a need and a moment.
         fallback = {"cartoon_pop": _ping, "rock_rumble": _thud, "seabed_thud": _thud, "sonar_ping": _ping, "hull_creak": _creak,
                     "station_beep": _ping}

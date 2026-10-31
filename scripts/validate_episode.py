@@ -2,8 +2,8 @@
 
     python scripts/validate_episode.py remotion/episodes/queue/<episode>.json
 
-Mirrors the Remotion schemas (remotion/src/descent/types.ts, remotion/src/fall/types.ts and
-remotion/src/orbit/types.ts) plus the
+Mirrors the Remotion schemas (remotion/src/descent/types.ts, remotion/src/fall/types.ts,
+remotion/src/orbit/types.ts, remotion/src/scale/types.ts and remotion/src/story/types.ts) plus the
 channel's own rules: sources for every fact, titles under 100 characters, scenes in order, a known sound need.
 Exits 0 when the file is fine, 1 with a list of problems otherwise. Needs only the standard library.
 """
@@ -24,6 +24,13 @@ SFX_NEEDS = {"dive_splash", "sonar_ping", "hull_creak", "seabed_thud", "whoosh",
              "fall_wind", "rock_rumble", "lava_bubble", "plane_flyby", "station_beep", "cartoon_pop"}
 SKIT_MOODS = {"wink", "smug", "gasp", "shrug", "laugh"}
 SCALE_KINDS = {"earth", "mars", "moon", "venus", "mercury", "gas", "ice", "lava", "star"}
+STORY_PLACES = {"city", "room", "street", "stadium", "lab", "night", "meadow"}
+STORY_POSES = {"idle", "catch", "point", "cheer", "shrug", "think", "run", "slump"}
+STORY_MOODS = {"neutral", "happy", "smug", "shocked", "determined", "sad"}
+STORY_PROPS = {"ball", "phone", "cup", "clock", "car", "bulb", "trophy", "book", "flower", "bee", "eye", "brain", "rocket", "coin"}
+STORY_MOTIONS = {"hold", "fall", "fly", "float"}
+STORY_EFFECTS = {"none", "slowmo", "speed", "glow", "uv"}
+STORY_CAMERAS = {"push", "pull", "pan", "still"}
 COMPARE_ICONS = {"tower", "mountain", "plane", "ship", "person", "building", "whale", "rocket", "moon", "land"}
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -38,25 +45,27 @@ def validate(ep: dict, filename: str = "") -> list[str]:
     p = []
     req = lambda k: p.append(f"missing '{k}'") if k not in ep else None  # noqa: E731
     template = ep.get("template", "Descent")
-    if template not in ("Descent", "Fall", "Orbit", "Scale"):
-        p.append(f"template must be Descent, Fall, Orbit or Scale, not {template!r}")
+    if template not in ("Descent", "Fall", "Orbit", "Scale", "Story"):
+        p.append(f"template must be Descent, Fall, Orbit, Scale or Story, not {template!r}")
     if filename:
         slug = os.path.splitext(os.path.basename(filename))[0]
         if not SLUG.match(slug):
             p.append(f"file name '{slug}' should be lowercase words joined by hyphens")
     orbit = template == "Orbit"
     scale = template == "Scale"
-    for k in ("title", "narration", "youtube", "sources") + (() if scale else ("keyframes",)) + (() if orbit or scale else ("maxDepth", "temperature")):
+    story = template == "Story"
+    nokeys = scale or story  # their camera follows the objects or scenes
+    for k in ("title", "narration", "youtube", "sources") + (() if nokeys else ("keyframes",)) + (() if orbit or nokeys else ("maxDepth", "temperature")):
         req(k)
 
     k = ep.get("keyframes", [])
-    if scale:
-        pass  # Scale's camera follows the objects; it has no keyframes
+    if nokeys:
+        pass  # Scale and Story have no keyframes
     elif not _pairs(k):
         p.append(f"keyframes must be a list of [seconds, {'zoom' if orbit else 'metres'}] pairs")
     elif any(b[0] < a[0] for a, b in zip(k, k[1:])):
         p.append("keyframes must be in time order")
-    if not orbit and not scale and not _pairs(ep.get("temperature", [])):
+    if not orbit and not nokeys and not _pairs(ep.get("temperature", [])):
         p.append("temperature must be a list of [metres, °C] pairs")
 
     lines = ep.get("narration", [])
@@ -144,11 +153,15 @@ def validate(ep: dict, filename: str = "") -> list[str]:
         if queued and not re.search(r"\byou(r|'re|'d|'ll)?\b", first.lower()):
             p.append("the hook line should speak to the viewer (use 'you')")
     beat_kinds = {"stat", "compare", "stamp", "warning"}
+    # Story's scoreboard and chain take the beats' place on screen, so their lines count as having beats.
+    device_lines = {s.get("line") for s in ep.get("scenes") or [] if s.get("score") or s.get("chain")} if story else set()
     with_beats = 0
     for i, n in enumerate(lines):
         bs = n.get("beats") or []
-        if bs:
+        if bs or i in device_lines:
             with_beats += 1
+        if bs and i in device_lines:
+            p.append(f"narration[{i}] has a scoreboard or chain; leave its beats out (they share the same spot)")
         if len(bs) > 3:
             p.append(f"narration[{i}] has {len(bs)} beats; 3 at most")
         norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
@@ -243,6 +256,60 @@ def validate(ep: dict, filename: str = "") -> list[str]:
                     p.append(f"object {nm!r}: colours must be #RRGGBB")
         if objs and objs[0].get("line", 0) != 0:
             p.append("the first object must be on line 0 (it's on screen from the start)")
+
+    elif story:
+        scenes = ep.get("scenes") or []
+        hero = ep.get("hero") or {}
+        if hero.get("hoodie") is not None and not HEX.match(str(hero["hoodie"])):
+            p.append("hero.hoodie must be #RRGGBB")
+        if not scenes or scenes[0].get("line") != 0:
+            p.append("Story needs a scene on line 0 (the first scene is on screen from the start)")
+        prev = -1
+        places = set()
+        for i, sc in enumerate(scenes):
+            ln = sc.get("line", -1)
+            if not isinstance(ln, int) or not (0 <= ln < len(lines)) or ln <= prev:
+                p.append(f"scenes[{i}].line must be a narration index, each scene on a later line than the last")
+            else:
+                prev = ln
+            for key, allowed, default in (("place", STORY_PLACES, None), ("pose", STORY_POSES, "idle"), ("mood", STORY_MOODS, "neutral"),
+                                          ("effect", STORY_EFFECTS, "none"), ("camera", STORY_CAMERAS, "push")):
+                val = sc.get(key, default)
+                if val not in allowed:
+                    p.append(f"scenes[{i}].{key} must be one of {', '.join(sorted(allowed))}")
+            places.add(sc.get("place"))
+            if not 0 <= sc.get("x", 0.5) <= 1:
+                p.append(f"scenes[{i}].x must be between 0 and 1")
+            pr = sc.get("prop")
+            if pr is not None:
+                if pr.get("kind") not in STORY_PROPS:
+                    p.append(f"scenes[{i}].prop.kind must be one of {', '.join(sorted(STORY_PROPS))}")
+                if pr.get("motion", "hold") not in STORY_MOTIONS:
+                    p.append(f"scenes[{i}].prop.motion must be one of {', '.join(sorted(STORY_MOTIONS))}")
+            if not 0 <= sc.get("others", 0) <= 5:
+                p.append(f"scenes[{i}].others must be 0–5")
+            if sc.get("othersPose", "idle") not in ("idle", "cheer", "point"):
+                p.append(f"scenes[{i}].othersPose must be idle, cheer or point")
+            lb = sc.get("label")
+            if lb is not None:
+                if not lb.get("text") or len(lb["text"]) > 14:
+                    p.append(f"scenes[{i}].label.text must be 1–14 characters")
+                if lb.get("on", "head") not in ("head", "hand", "prop"):
+                    p.append(f"scenes[{i}].label.on must be head, hand or prop")
+                if lb.get("on") == "prop" and not pr:
+                    p.append(f"scenes[{i}].label is on the prop, but the scene has no prop")
+            sco = sc.get("score")
+            if sco is not None and (not isinstance(sco, list) or len(sco) != 2 or any(len(str(x)) > 4 or not str(x) for x in sco)):
+                p.append(f"scenes[{i}].score must be two short values, each 1–4 characters, e.g. [\"21\", \"0\"]")
+            ch = sc.get("chain")
+            if ch is not None and (not isinstance(ch, list) or not 2 <= len(ch) <= 4 or any(not x or len(x) > 10 for x in ch)):
+                p.append(f"scenes[{i}].chain must be 2–4 steps, each 1–10 characters")
+            if sco is not None and ch is not None:
+                p.append(f"scenes[{i}] can have a score or a chain, not both")
+        if len(scenes) < len(lines) - 2:
+            p.append(f"only {len(scenes)} scenes for {len(lines)} lines; give nearly every line its own scene")
+        if scenes and len(places) < 3:
+            p.append("use at least 3 different places so the story moves around")
 
     elif template == "Descent":
         for f in ("colours", "zones", "creatures"):

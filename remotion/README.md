@@ -87,3 +87,7 @@ npx remotion render Orbit ..\output\drafts\earth-water.mp4 --props=episodes\eart
 - `src/orbit/Orbit.tsx`: the 3D world, pins, cards, captions and audio
 - `src/orbit/view.ts`: zoom, rotation and the projection that keeps 2D pins on the 3D surface
 - `src/orbit/textures.ts`: the surface maps for each kind of world
+
+# Story: "what if you…" template
+
+A second-person story in 2D SVG (no WebGL, so it renders fast): the channel's own hero, a round indigo-headed kid in a teal hoodie, acts out each narration line in a painted place. Each `scenes` entry sets the place, the hero's pose and mood, a prop and how it moves, background extras, an effect (slow motion, speed lines, power glow, ultraviolet vision), the camera move, and optional devices: an arrowed callout label, a flip scoreboard, or a cause → effect chain. Poses blend from one scene to the next; a change of place cross-fades. Example: `episodes/see-ultraviolet.json`. Files: `src/story/Story.tsx` (layout, effects, devices), `Hero.tsx` (the character rig), `Places.tsx`, `Props.tsx`, `types.ts`.

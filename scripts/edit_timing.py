@@ -59,6 +59,18 @@ def edit_hits(ep: dict) -> list[tuple[str, float, str]]:
         # A whoosh as the camera pulls back to each new object (the move peaks about 0.9 s into its line).
         for o in ep.get("objects", [])[1:]:
             hits.append(("whoosh", ep["narration"][o["line"]]["from"] + 0.95, "peak"))
+    if ep.get("template") == "Story":
+        # A whoosh into every change of place, and a click as each step of a chain lights up.
+        last = None
+        for s in sorted(ep.get("scenes", []), key=lambda s: s["line"]):
+            start = ep["narration"][s["line"]]["from"]
+            if last is not None and s["place"] != last:
+                hits.append(("whoosh", start, "peak"))
+            last = s["place"]
+            for k in range(len(s.get("chain") or [])):
+                hits.append(("ui_click", start + 0.5 + k * 0.65, "attack"))
+            if s.get("score"):
+                hits.append(("ui_click", start + 0.35, "attack"))
     for line in ep["narration"]:
         for b in line.get("beats") or []:
             t = beat_time(line, b)

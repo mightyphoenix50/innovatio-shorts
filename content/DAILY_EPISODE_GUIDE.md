@@ -17,7 +17,7 @@ The project is the private GitHub repo `mightyphoenix50/innovatio-shorts`. Clone
 
 Change only `remotion/episodes/queue/<slug>.json` and `content/topics.json`. Don't edit code, workflows or settings, don't run `produce.py` or any workflow, don't delete anything, and don't push anything else.
 
-## The five formats
+## The six formats
 
 | Format | Use for | Example to copy |
 |---|---|---|
@@ -26,10 +26,11 @@ Change only `remotion/episodes/queue/<slug>.json` and `content/topics.json`. Don
 | `Fall` + `"direction": "up"` | Rising through the sky: altitude, air thinning, things that fly. Ends by zooming out to the planet. | `remotion/episodes/float-up.json` |
 | `Scale` | **Size ladders in 3D**: real objects side by side at true relative size, the camera pulling back from each to the next bigger one (moons, planets, stars). The "Powers of Ten" format behind some of the biggest science Shorts. | `remotion/episodes/biggest-star.json` |
 | `Orbit` | A tour around a whole world seen from space, in 3D: places on its surface, how big things are, what covers it. Earth uses the real map; other worlds are drawn in their style. | `remotion/episodes/earth-water.json` |
+| `Story` | **"What if *you* could…" stories in 2D**: the channel's hero (a round-headed kid in a teal hoodie) lives the premise scene by scene: a superpower, a body that works differently, a world with one rule changed. Everyday life first, then it escalates, a twist, a payoff. Best for biology, the senses, the body and physics "what ifs" that have no journey through layers. | `remotion/episodes/see-ultraviolet.json` |
 
 Copy the example's structure field for field, then change the content. Don't invent new fields.
 
-**Prefer the 3D look.** The owner likes the 3D toon animation style of Orbit and Scale (flat toon shading, glowing atmospheres, the purple starfield) far more than the flat 2D templates. Prefer Scale and Orbit whenever the topic fits; use Descent and Fall only for journeys down or up. Don't repeat the same template two days running.
+**Prefer the 3D look.** The owner likes the 3D toon animation style of Orbit and Scale (flat toon shading, glowing atmospheres, the purple starfield) far more than the flat 2D templates. Prefer Scale and Orbit whenever the topic fits; use Descent and Fall only for journeys down or up, and Story for "what if you…" premises about people, the body and the senses. Don't repeat the same template two days running.
 
 What each format can draw (anything else is rejected by the checker):
 
@@ -40,6 +41,16 @@ What each format can draw (anything else is rejected by the checker):
 - **Scale objects (`objects`):** 3–7 objects, each bigger than the last, each on its own narration line (the first on line 0), `{line, name, value, caption, kind, radiusKm, colours?, glow?, rings?}`. `kind` is any Orbit world kind or `star`. `radiusKm` is the real radius (it sets the true relative size, so get it from the source). `value` ≤ 14 characters is the big readout (`"12,756 km"`, `"764× Sun"`), `caption` ≤ 20 (`"WIDE"`). Stars glow in their `colours` (three, light to dark: yellow `#FFF1B8 #FFC94D #FF8A2E`, red giant `#FFB38A #F2603A #B8321E`, blue `#E8F4FF #9CC8FF #4F7FE0`); give Earth `"glow": "#7EC8F0"`. The camera flies to each object as its line starts; lines without a new object hold on the last one (good for the twist). A whoosh plays on each move automatically; no `sfx` needed. Don't repeat the object's number as a stat beat (the card already shows it): use beats for how many fit inside, comparisons and stamps.
 - **Orbit worlds (`body.kind`):** earth (real continents and oceans, with clouds), mars, moon, mercury, venus, gas (a banded giant; set `colours` to three bands light to dark, and `rings: true` for Saturn), ice (cracked ice like Europa), lava (glowing cracks like Io). Optional `moon: true` (a small moon orbiting behind), `glow` (atmosphere colour, `#RRGGBB`; leave out for airless worlds), `tilt` (degrees) and `radiusKm` (the real radius; needed for `ballKm`).
 - **Orbit stops:** one place per narration line that needs one, `{line, lat, lon, label, value, caption}`. The globe turns to bring the place to the front while its line plays and drops a pin on it. `label` ≤ 24 characters (next to the pin), `value` ≤ 9 (the big number on the stat card, e.g. `"10.9 km"`), `caption` ≤ 22 (above the number, e.g. `"Deepest point"`). Use real coordinates for Earth places; on other worlds use the feature's real lat/lon even though the surface is stylised. `ballKm` (optional) stands a ball of that diameter on the place, to scale with the world: use it for "if you gathered all of X into one ball" moments. 3+ stops; at most one per line.
+- **Story scenes (`scenes`):** one per narration line (nearly every line gets its own; the first on line 0), `{line, place, pose, mood, x?, prop?, others?, othersPose?, effect?, camera?, label?, score?, chain?}`. The hero acts each line out:
+  - `place`: city (dusk skyline), room (window, shelf), street (night, traffic light), stadium (night floodlights, crowd), lab (benches, glowing flasks), night (stars, moon), meadow (sunny hills, flowers). Use at least 3 places; changing place plays a whoosh automatically.
+  - `pose`: idle, catch (one arm up), point, cheer (both arms up, bouncing), shrug, think (hand on chin), run, slump. `mood`: neutral, happy, smug, shocked, determined, sad. `x`: where the hero stands, 0–1 (default 0.5).
+  - `prop` `{kind, motion}`: kind is ball, phone, cup, clock, car, bulb, trophy, book, flower, bee, eye, brain, rocket or coin; motion is hold (in the hand), fall (drops from the top into the hand), fly (crosses the screen) or float (hovers beside the hero).
+  - `others`: 0–5 people in the background, `othersPose` idle, cheer or point.
+  - `effect`: slowmo (blue tint, ripples, frozen dust, the prop crawls: "the world in slow motion"), speed (speed lines), glow (golden power aura), uv (violet "bee vision", flowers show their nectar guides), or none. `camera`: push, pull, pan or still.
+  - `label` `{text, on}`: an arrowed callout on the head, hand or prop, ≤ 14 characters, e.g. `{"text": "LENS", "on": "prop"}`.
+  - `score`: a flip scoreboard, two values ≤ 4 characters, e.g. `["21", "0"]`. `chain`: a cause → effect chain that lights up step by step, 2–4 steps ≤ 10 characters, e.g. `["LIGHT", "LENS", "RETINA"]` (great for "here's how it works"). A line with a score or chain gets no beats (same spot on screen); it counts as a line with beats.
+  - Write Story scripts as a mini story in second person: the impossible premise, how it works (a chain), everyday life, escalation, the twist, the payoff. Keep every claim real and sourced, as always; the story is the frame, the facts are the content.
+  - `hero.hoodie` (optional) recolours the hoodie, `#RRGGBB`; keep the default teal unless the episode has a reason.
 - **Sound effects (`sfx`):** dive_splash, sonar_ping, hull_creak, seabed_thud, whoosh, fall_wind, rock_rumble, lava_bubble, plane_flyby, station_beep. `at` is seconds, `"fallAt"`, `"diagramAt"`, `"skit"`, or `"depth:<metres>"` (the moment that depth is reached). Use 3–7 effects; always a `whoosh` at `diagramAt` when there is a diagram. Descent episodes can leave `sfx` out (they get pings, creaks and a landing thud automatically). Orbit episodes must list them in seconds: a `whoosh` (`"align": "peak"`) on big turns or zooms, `station_beep` at the start, `sonar_ping` for anything deep.
 
 If a great topic needs something not on these lists, don't force it: set its status to `"needs_visuals"` with a note saying what it needs, and take the next topic.
@@ -119,10 +130,10 @@ Every Short ends with a tiny comedy beat from **Bit**, the channel's mascot: a s
 - `youtube.titles`: two options under 70 characters. One "What if…" question, one plain statement. No clickbait the video doesn't pay off.
 - `youtube.description`: 1–2 sentences on what the viewer will see (sources and credits are added automatically).
 - `youtube.tags`: 5–8 lowercase tags, ending with `"science shorts"`.
-- `series`: `"What if…"` for Fall episodes, `"Journeys"` for Descent, `"Planet scale"` for Orbit.
+- `series`: `"What if…"` for Fall and Story episodes, `"Journeys"` for Descent, `"Planet scale"` for Orbit.
 
 ## Finding new topics
 
-When fewer than 3 `next` topics remain, add 5 more to `content/topics.json`. Good topics are journeys through real, measurable layers, or tours of a whole world's surface, with a surprising twist, that fit one of the four formats. If the vidIQ connector is available, check `vidiq_outliers` / `vidiq_keyword_research` for "what if" and scale/journey Shorts in science, space and earth science for what's rising. Don't copy other videos' scripts: use them only to see which questions people are curious about.
+When fewer than 3 `next` topics remain, add 5 more to `content/topics.json`. Good topics are journeys through real, measurable layers, tours of a whole world's surface, size ladders, or "what if you could…" premises about the body and senses (Story), with a surprising twist, that fit one of the formats. If the vidIQ connector is available, check `vidiq_outliers` / `vidiq_keyword_research` for "what if" and scale/journey Shorts in science, space and earth science for what's rising. Don't copy other videos' scripts: use them only to see which questions people are curious about.
 
-Each topic entry: `{"slug": "...", "title": "...", "format": "Descent|Fall-down|Fall-up|Orbit", "angle": "the hook and the twist in one sentence", "status": "next"}`.
+Each topic entry: `{"slug": "...", "title": "...", "format": "Descent|Fall-down|Fall-up|Orbit|Scale|Story", "angle": "the hook and the twist in one sentence", "status": "next"}`.

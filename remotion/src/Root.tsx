@@ -12,6 +12,9 @@ import { orbitSchema, type OrbitEpisode } from "./orbit/types";
 import { Scale } from "./scale/Scale";
 import { scaleSchema, type ScaleEpisode } from "./scale/types";
 import starsScale from "./scale/example.json";
+import seeUltraviolet from "../episodes/see-ultraviolet.json";
+import { Story } from "./story/Story";
+import { storySchema, type StoryEpisode } from "./story/types";
 
 // Length comes from the episode itself: the last keyframe or narration line, whichever ends later.
 const lengthOf = (props: { keyframes: [number, number][]; narration: { to: number }[]; fps: number; skit?: SkitData }) => {
@@ -23,6 +26,11 @@ const fallMetadata: CalculateMetadataFunction<FallEpisode> = ({ props }) => leng
 const orbitMetadata: CalculateMetadataFunction<OrbitEpisode> = ({ props }) => lengthOf(props);
 // Scale has no keyframes: it lasts as long as its narration and the skit.
 const scaleMetadata: CalculateMetadataFunction<ScaleEpisode> = ({ props }) => {
+  const end = Math.max(...props.narration.map((n) => n.to), skitSpan(props)?.[1] ?? 0);
+  return { durationInFrames: Math.ceil(end * (props.fps ?? 30)), fps: props.fps ?? 30 };
+};
+// Story has no keyframes either: its scenes follow the narration.
+const storyMetadata: CalculateMetadataFunction<StoryEpisode> = ({ props }) => {
   const end = Math.max(...props.narration.map((n) => n.to), skitSpan(props)?.[1] ?? 0);
   return { durationInFrames: Math.ceil(end * (props.fps ?? 30)), fps: props.fps ?? 30 };
 };
@@ -69,6 +77,17 @@ export const RemotionRoot: React.FC = () => {
         schema={scaleSchema}
         defaultProps={scaleSchema.parse(starsScale)}
         calculateMetadata={scaleMetadata}
+        durationInFrames={1800}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Story"
+        component={Story}
+        schema={storySchema}
+        defaultProps={storySchema.parse(seeUltraviolet)}
+        calculateMetadata={storyMetadata}
         durationInFrames={1800}
         fps={30}
         width={1080}
