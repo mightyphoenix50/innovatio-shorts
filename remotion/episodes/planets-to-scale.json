@@ -1,0 +1,1227 @@
+{
+  "template": "Scale",
+  "title": "What if you lined up every planet?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Mercury",
+      "value": "4,879 km",
+      "caption": "WIDE",
+      "kind": "mercury",
+      "radiusKm": 2440
+    },
+    {
+      "line": 2,
+      "name": "Mars",
+      "value": "6,792 km",
+      "caption": "WIDE",
+      "kind": "mars",
+      "radiusKm": 3396,
+      "glow": "#E29578"
+    },
+    {
+      "line": 3,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 4,
+      "name": "Neptune",
+      "value": "49,528 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 24764,
+      "colours": [
+        "#BFE3F5",
+        "#5B9BD5",
+        "#2E5FA8"
+      ],
+      "glow": "#7FB8D6"
+    },
+    {
+      "line": 5,
+      "name": "Saturn",
+      "value": "120,536 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 60268,
+      "colours": [
+        "#F3E3C0",
+        "#E0C089",
+        "#B8935A"
+      ],
+      "rings": true
+    },
+    {
+      "line": 6,
+      "name": "Jupiter",
+      "value": "142,984 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 71492,
+      "colours": [
+        "#F2DEC0",
+        "#D9A56B",
+        "#B6703F"
+      ]
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.147,
+      "heading": "Every planet, to scale",
+      "text": "You think Earth is a big planet? Wait till you see where it ranks.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.341,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.352,
+          "end": 0.543,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.555,
+          "end": 0.733,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 0.745,
+          "end": 0.84,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 0.852,
+          "end": 0.9,
+          "char": 19,
+          "len": 1
+        },
+        {
+          "start": 0.912,
+          "end": 1.114,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 1.126,
+          "end": 1.531,
+          "char": 25,
+          "len": 6
+        },
+        {
+          "start": 1.924,
+          "end": 2.102,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 2.114,
+          "end": 2.245,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 2.257,
+          "end": 2.352,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 2.364,
+          "end": 2.65,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 2.662,
+          "end": 2.817,
+          "char": 51,
+          "len": 5
+        },
+        {
+          "start": 2.829,
+          "end": 2.924,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 2.936,
+          "end": 3.4,
+          "char": 60,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 4.147,
+      "to": 9.342,
+      "heading": "Mercury",
+      "text": "Start with Mercury, the smallest planet. It's only a little bigger than our Moon.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "Moon",
+          "kind": "compare",
+          "compare": {
+            "name": "The Moon",
+            "value": 3.5,
+            "icon": "moon",
+            "subject": "Mercury",
+            "subjectValue": 4.9,
+            "unit": "thousand km wide",
+            "note": "Barely bigger"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 4.392,
+          "end": 4.666,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 4.678,
+          "end": 4.821,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 4.833,
+          "end": 5.368,
+          "char": 11,
+          "len": 7
+        },
+        {
+          "start": 5.595,
+          "end": 5.678,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 5.69,
+          "end": 6.178,
+          "char": 24,
+          "len": 8
+        },
+        {
+          "start": 6.19,
+          "end": 6.607,
+          "char": 33,
+          "len": 6
+        },
+        {
+          "start": 6.999,
+          "end": 7.118,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 7.13,
+          "end": 7.38,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 7.392,
+          "end": 7.452,
+          "char": 51,
+          "len": 1
+        },
+        {
+          "start": 7.464,
+          "end": 7.702,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 7.714,
+          "end": 8.011,
+          "char": 60,
+          "len": 6
+        },
+        {
+          "start": 8.023,
+          "end": 8.154,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 8.166,
+          "end": 8.261,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 8.273,
+          "end": 8.595,
+          "char": 76,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 9.342,
+      "to": 14.452,
+      "heading": "Mars",
+      "text": "Then Mars. Red, rocky, and only about half as wide as Earth.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "53%",
+          "label": "of Earth's width"
+        }
+      ],
+      "words": [
+        {
+          "start": 9.587,
+          "end": 9.694,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 9.706,
+          "end": 10.182,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 10.575,
+          "end": 10.897,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 11.254,
+          "end": 11.671,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 11.873,
+          "end": 12.016,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 12.028,
+          "end": 12.278,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 12.29,
+          "end": 12.528,
+          "char": 32,
+          "len": 5
+        },
+        {
+          "start": 12.54,
+          "end": 12.849,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 12.861,
+          "end": 12.944,
+          "char": 43,
+          "len": 2
+        },
+        {
+          "start": 12.956,
+          "end": 13.218,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 13.23,
+          "end": 13.337,
+          "char": 51,
+          "len": 2
+        },
+        {
+          "start": 13.349,
+          "end": 13.706,
+          "char": 54,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 14.452,
+      "to": 20.283,
+      "heading": "Earth",
+      "text": "Here's home, the biggest rocky planet there is. And Venus? It's only a little smaller.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "biggest",
+          "kind": "stamp",
+          "value": "BIGGEST ROCKY ONE"
+        },
+        {
+          "word": "Venus",
+          "kind": "compare",
+          "compare": {
+            "name": "Venus",
+            "value": 12104,
+            "icon": "moon",
+            "subject": "Earth",
+            "subjectValue": 12756,
+            "unit": "km wide",
+            "note": "Nearly twins"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 14.721,
+          "end": 14.911,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 14.923,
+          "end": 15.233,
+          "char": 7,
+          "len": 4
+        },
+        {
+          "start": 15.531,
+          "end": 15.614,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 15.626,
+          "end": 15.983,
+          "char": 17,
+          "len": 7
+        },
+        {
+          "start": 15.995,
+          "end": 16.304,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 16.316,
+          "end": 16.662,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 16.673,
+          "end": 16.852,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 16.864,
+          "end": 17.15,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 17.542,
+          "end": 17.614,
+          "char": 48,
+          "len": 3
+        },
+        {
+          "start": 17.626,
+          "end": 18.102,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 18.495,
+          "end": 18.614,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 18.626,
+          "end": 18.828,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 18.84,
+          "end": 18.888,
+          "char": 69,
+          "len": 1
+        },
+        {
+          "start": 18.9,
+          "end": 19.078,
+          "char": 71,
+          "len": 6
+        },
+        {
+          "start": 19.09,
+          "end": 19.542,
+          "char": 78,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 20.283,
+      "to": 26.93,
+      "heading": "The ice giants",
+      "text": "Now the ice giants. Neptune is about four Earths wide, and Uranus is almost its twin.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "4\u00d7",
+          "label": "wider than Earth"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.528,
+          "end": 20.671,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 20.683,
+          "end": 20.79,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 20.802,
+          "end": 21.028,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 21.04,
+          "end": 21.588,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 21.981,
+          "end": 22.493,
+          "char": 20,
+          "len": 7
+        },
+        {
+          "start": 22.564,
+          "end": 22.695,
+          "char": 28,
+          "len": 2
+        },
+        {
+          "start": 22.707,
+          "end": 22.969,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 22.981,
+          "end": 23.362,
+          "char": 37,
+          "len": 4
+        },
+        {
+          "start": 23.373,
+          "end": 23.635,
+          "char": 42,
+          "len": 6
+        },
+        {
+          "start": 23.647,
+          "end": 24.064,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 24.373,
+          "end": 24.504,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 24.516,
+          "end": 25.052,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 25.171,
+          "end": 25.302,
+          "char": 66,
+          "len": 2
+        },
+        {
+          "start": 25.314,
+          "end": 25.695,
+          "char": 69,
+          "len": 6
+        },
+        {
+          "start": 25.707,
+          "end": 25.826,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 25.838,
+          "end": 26.183,
+          "char": 80,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 26.93,
+      "to": 32.731,
+      "heading": "Saturn",
+      "text": "Saturn is nine Earths across. Hollow it out, and over seven hundred Earths would fit inside.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "stat",
+          "value": "763",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 27.187,
+          "end": 27.497,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 27.509,
+          "end": 27.604,
+          "char": 7,
+          "len": 2
+        },
+        {
+          "start": 27.616,
+          "end": 27.889,
+          "char": 10,
+          "len": 4
+        },
+        {
+          "start": 27.901,
+          "end": 28.104,
+          "char": 15,
+          "len": 6
+        },
+        {
+          "start": 28.116,
+          "end": 28.628,
+          "char": 22,
+          "len": 6
+        },
+        {
+          "start": 29.032,
+          "end": 29.306,
+          "char": 30,
+          "len": 6
+        },
+        {
+          "start": 29.318,
+          "end": 29.378,
+          "char": 37,
+          "len": 2
+        },
+        {
+          "start": 29.39,
+          "end": 29.628,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 29.901,
+          "end": 29.985,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 29.997,
+          "end": 30.223,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 30.235,
+          "end": 30.556,
+          "char": 54,
+          "len": 5
+        },
+        {
+          "start": 30.568,
+          "end": 30.842,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 30.854,
+          "end": 31.139,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 31.151,
+          "end": 31.282,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 31.294,
+          "end": 31.509,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 31.52,
+          "end": 31.985,
+          "char": 85,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 32.731,
+      "to": 38.691,
+      "heading": "Jupiter",
+      "text": "And the king, Jupiter. Eleven Earths wide, with room for a thousand Earths inside.",
+      "source": "NASA",
+      "beats": [
+        {
+          "word": "Eleven",
+          "kind": "stat",
+          "value": "11\u00d7",
+          "label": "wider than Earth"
+        },
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 32.976,
+          "end": 33.036,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 33.048,
+          "end": 33.131,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 33.143,
+          "end": 33.524,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 33.75,
+          "end": 34.202,
+          "char": 14,
+          "len": 7
+        },
+        {
+          "start": 34.595,
+          "end": 34.929,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 34.941,
+          "end": 35.202,
+          "char": 30,
+          "len": 6
+        },
+        {
+          "start": 35.214,
+          "end": 35.583,
+          "char": 37,
+          "len": 4
+        },
+        {
+          "start": 35.941,
+          "end": 36.107,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 36.119,
+          "end": 36.357,
+          "char": 48,
+          "len": 4
+        },
+        {
+          "start": 36.369,
+          "end": 36.536,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 36.548,
+          "end": 36.583,
+          "char": 57,
+          "len": 1
+        },
+        {
+          "start": 36.595,
+          "end": 37.119,
+          "char": 59,
+          "len": 8
+        },
+        {
+          "start": 37.226,
+          "end": 37.464,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 37.476,
+          "end": 37.952,
+          "char": 75,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 38.691,
+      "to": 45.026,
+      "heading": "The twist",
+      "text": "The twist? Line up every other planet side by side, and they'd fit between Earth and the Moon.",
+      "source": "Bad Astronomy",
+      "beats": [
+        {
+          "word": "fit",
+          "kind": "stamp",
+          "value": "THEY ALL FIT"
+        }
+      ],
+      "words": [
+        {
+          "start": 38.948,
+          "end": 38.996,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 39.008,
+          "end": 39.448,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 39.841,
+          "end": 40.079,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 40.091,
+          "end": 40.234,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 40.389,
+          "end": 40.662,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 40.674,
+          "end": 40.877,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 40.889,
+          "end": 41.21,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 41.222,
+          "end": 41.484,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 41.496,
+          "end": 41.639,
+          "char": 43,
+          "len": 2
+        },
+        {
+          "start": 41.651,
+          "end": 42.055,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 42.412,
+          "end": 42.46,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 42.472,
+          "end": 42.662,
+          "char": 56,
+          "len": 6
+        },
+        {
+          "start": 42.674,
+          "end": 42.948,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 42.96,
+          "end": 43.317,
+          "char": 67,
+          "len": 7
+        },
+        {
+          "start": 43.424,
+          "end": 43.698,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 43.793,
+          "end": 43.877,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 43.889,
+          "end": 43.948,
+          "char": 85,
+          "len": 3
+        },
+        {
+          "start": 43.96,
+          "end": 44.281,
+          "char": 89,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 45.026,
+      "to": 51.211,
+      "heading": "Room to spare?",
+      "text": "But only when the Moon is at its farthest. Which planet would you visit first?",
+      "source": "Bad Astronomy",
+      "beats": [
+        {
+          "word": "farthest",
+          "kind": "compare",
+          "compare": {
+            "name": "Gap at Moon's farthest",
+            "value": 398,
+            "icon": "moon",
+            "subject": "7 planets in a row",
+            "subjectValue": 380,
+            "unit": "thousand km",
+            "note": "Just enough room"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 45.283,
+          "end": 45.39,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 45.402,
+          "end": 45.664,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 45.676,
+          "end": 45.819,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 45.831,
+          "end": 45.902,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 45.914,
+          "end": 46.331,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 46.39,
+          "end": 46.545,
+          "char": 23,
+          "len": 2
+        },
+        {
+          "start": 46.557,
+          "end": 46.628,
+          "char": 26,
+          "len": 2
+        },
+        {
+          "start": 46.64,
+          "end": 46.759,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 46.771,
+          "end": 47.378,
+          "char": 33,
+          "len": 8
+        },
+        {
+          "start": 47.771,
+          "end": 47.938,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 47.95,
+          "end": 48.283,
+          "char": 49,
+          "len": 6
+        },
+        {
+          "start": 48.295,
+          "end": 48.414,
+          "char": 56,
+          "len": 5
+        },
+        {
+          "start": 48.426,
+          "end": 48.497,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 48.509,
+          "end": 48.747,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 48.759,
+          "end": 49.271,
+          "char": 72,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How big are the planets, really?",
+    "flash": "THEY ALL FIT",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Seven planets in one gap? I can't even fit my cables in a drawer.",
+    "mood": "laugh",
+    "action": "*tangled beep*",
+    "from": 51.211,
+    "to": 58.671,
+    "words": [
+      {
+        "start": 51.756,
+        "end": 52.184,
+        "char": 0,
+        "len": 5
+      },
+      {
+        "start": 52.195,
+        "end": 52.679,
+        "char": 6,
+        "len": 7
+      },
+      {
+        "start": 52.691,
+        "end": 52.86,
+        "char": 14,
+        "len": 2
+      },
+      {
+        "start": 52.871,
+        "end": 53.119,
+        "char": 17,
+        "len": 3
+      },
+      {
+        "start": 53.13,
+        "end": 53.468,
+        "char": 21,
+        "len": 3
+      },
+      {
+        "start": 54.256,
+        "end": 54.402,
+        "char": 26,
+        "len": 1
+      },
+      {
+        "start": 54.414,
+        "end": 54.706,
+        "char": 28,
+        "len": 5
+      },
+      {
+        "start": 54.718,
+        "end": 54.965,
+        "char": 34,
+        "len": 4
+      },
+      {
+        "start": 54.977,
+        "end": 55.202,
+        "char": 39,
+        "len": 3
+      },
+      {
+        "start": 55.213,
+        "end": 55.382,
+        "char": 43,
+        "len": 2
+      },
+      {
+        "start": 55.393,
+        "end": 55.889,
+        "char": 46,
+        "len": 6
+      },
+      {
+        "start": 55.9,
+        "end": 56.024,
+        "char": 53,
+        "len": 2
+      },
+      {
+        "start": 56.035,
+        "end": 56.103,
+        "char": 56,
+        "len": 1
+      },
+      {
+        "start": 56.114,
+        "end": 56.542,
+        "char": 58,
+        "len": 6
+      }
+    ]
+  },
+  "series": "Scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up every planet? (to scale)",
+      "Every planet to scale, from Mercury to Jupiter"
+    ],
+    "description": "A to-scale zoom out from Mercury to Mars, Earth, Neptune, Saturn and Jupiter, ending on how all the other planets could squeeze between Earth and the Moon.",
+    "tags": [
+      "space",
+      "planets to scale",
+      "solar system",
+      "planet size comparison",
+      "jupiter",
+      "astronomy",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Mercury is the smallest planet, only slightly larger than Earth's Moon; radius 2,440 km",
+      "url": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "claim": "The Moon's radius is about 1,740 km (about 3,480 km across); average distance 384,400 km",
+      "url": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "claim": "Mars has a radius of 3,390 km and is about half the size of Earth",
+      "url": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "claim": "Earth's equatorial diameter is 12,756 km; it is the biggest of the terrestrial planets",
+      "url": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "claim": "Venus is nearly as big around as Earth: 12,104 km across versus 12,756 km",
+      "url": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "claim": "Neptune's equatorial diameter is 49,528 km, about four times wider than Earth",
+      "url": "https://science.nasa.gov/neptune/facts/"
+    },
+    {
+      "claim": "Uranus's equatorial diameter is 51,118 km, four times wider than Earth",
+      "url": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "claim": "Saturn is about 120,500 km across, 9 times wider than Earth",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "claim": "Saturn's volume is 763.59 times Earth's; equatorial radius 60,268 km",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+    },
+    {
+      "claim": "Jupiter has a radius of 69,911 km, is 11 times wider than Earth, and 1,000 Earths could fit inside it",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "Planet diameters: Mercury 4,879 km, Mars 6,792 km, Jupiter 142,984 km, Saturn 120,536 km",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+    },
+    {
+      "claim": "The other seven planets' average diameters add up to 380,016 km; they don't fit at the Moon's average distance (about 376,000 km surface to surface) but do fit at apogee (about 398,000 km)",
+      "url": "https://www.syfy.com/syfy-wire/can-you-really-fit-all-planets-between-earth-and-moon"
+    },
+    {
+      "claim": "At the Moon's most distant, all the planets fit between Earth and the Moon",
+      "url": "https://www.skyatnightmagazine.com/space-science/fit-every-planet-in-solar-system-between-earth-and-moon"
+    }
+  ],
+  "seed": "planets-to-scale",
+  "voiceover": "audio/planets-to-scale.mp3",
+  "music": "audio/planets-to-scale_bed.mp3"
+}

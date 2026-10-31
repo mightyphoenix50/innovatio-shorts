@@ -66,7 +66,8 @@
       "title": "What if you fell into a hole through the Moon?",
       "format": "Fall-down",
       "angle": "Through regolith, crust and mantle to a small iron core; the twist is the fall takes longer than on Earth despite the Moon being smaller.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-10-31"
     },
     {
       "slug": "how-small-is-earth",
