@@ -395,7 +395,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Scale · planets-to-scale · 59s</i>\n\n<b>A:</b> What if you lined up every planet? (to scale)\n<b>B:</b> Every planet to scale, from Mercury to Jupiter\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 31 Oct, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793434124.6671207
+    "status": "SCHEDULED",
+    "created_at": 1793434124.6671207,
+    "updated_at": 1793435117.2888834,
+    "scheduled_at": "2026-10-31T16:00:00Z",
+    "title_used": "What if you lined up every planet? (to scale)",
+    "video_id": "a2ArJqy1ywQ",
+    "youtube_url": "https://youtube.com/shorts/a2ArJqy1ywQ"
   }
 }
