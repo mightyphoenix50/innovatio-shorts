@@ -232,35 +232,6 @@
     }
   },
   {
-    "id": "fs-38703",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-38703_archi-sonar-04-wav.ogg",
-    "title": "archi_sonar_04.wav",
-    "author": "ElanHickler",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/ElanHickler/sounds/38703/",
-    "download_url": "https://cdn.freesound.org/previews/38/38703_107780-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 2,
-    "best_segment": [
-      1.867,
-      3.23
-    ],
-    "duration_s": 4.0,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 4.64,
-        "verdict": "strong"
-      },
-      "realness": 0.122
-    }
-  },
-  {
     "id": "fs-544311",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-544311_submarine-sonar-wav.ogg",
@@ -1015,6 +986,35 @@
     }
   },
   {
+    "id": "fs-38704",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-38704_archi-sonar-05-wav.ogg",
+    "title": "archi_sonar_05.wav",
+    "author": "ElanHickler",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ElanHickler/sounds/38704/",
+    "download_url": "https://cdn.freesound.org/previews/38/38704_107780-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 3,
+    "best_segment": [
+      0.0,
+      1.055
+    ],
+    "duration_s": 4.0,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 4.05,
+        "verdict": "strong"
+      },
+      "realness": 0.365
+    }
+  },
+  {
     "id": "fs-67882",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-67882_dive-mixdown-wav.ogg",
@@ -1037,10 +1037,10 @@
     "earshot": {
       "match": {
         "query": "a splash of a heavy object entering water",
-        "z": 2.73,
+        "z": 2.76,
         "verdict": "plausible"
       },
-      "realness": 0.757
+      "realness": 0.751
     }
   },
   {
@@ -1095,10 +1095,10 @@
     "earshot": {
       "match": {
         "query": "a splash of a heavy object entering water",
-        "z": 4.63,
+        "z": 4.62,
         "verdict": "strong"
       },
-      "realness": 0.951
+      "realness": 0.952
     }
   },
   {
@@ -1124,10 +1124,10 @@
     "earshot": {
       "match": {
         "query": "a submarine sonar ping",
-        "z": 3.84,
+        "z": 3.83,
         "verdict": "strong"
       },
-      "realness": 0.117
+      "realness": 0.114
     }
   },
   {
@@ -1153,39 +1153,10 @@
     "earshot": {
       "match": {
         "query": "a submarine sonar ping",
-        "z": 5.09,
+        "z": 5.1,
         "verdict": "strong"
       },
-      "realness": 0.013
-    }
-  },
-  {
-    "id": "fs-38704",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-38704_archi-sonar-05-wav.ogg",
-    "title": "archi_sonar_05.wav",
-    "author": "ElanHickler",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/ElanHickler/sounds/38704/",
-    "download_url": "https://cdn.freesound.org/previews/38/38704_107780-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 3,
-    "best_segment": [
-      0.0,
-      1.055
-    ],
-    "duration_s": 4.0,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 4.05,
-        "verdict": "strong"
-      },
-      "realness": 0.365
+      "realness": 0.012
     }
   },
   {
@@ -1201,7 +1172,7 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "attribution": null,
     "need": "sonar_ping",
-    "rank": 4,
+    "rank": 3,
     "best_segment": [
       0.0,
       1.015
@@ -1214,7 +1185,36 @@
         "z": 6.01,
         "verdict": "strong"
       },
-      "realness": 0.239
+      "realness": 0.221
+    }
+  },
+  {
+    "id": "fs-38703",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-38703_archi-sonar-04-wav.ogg",
+    "title": "archi_sonar_04.wav",
+    "author": "ElanHickler",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ElanHickler/sounds/38703/",
+    "download_url": "https://cdn.freesound.org/previews/38/38703_107780-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 4,
+    "best_segment": [
+      1.867,
+      3.23
+    ],
+    "duration_s": 4.0,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 4.64,
+        "verdict": "strong"
+      },
+      "realness": 0.122
     }
   },
   {
@@ -1240,10 +1240,10 @@
     "earshot": {
       "match": {
         "query": "a deep metal hull creaking under pressure",
-        "z": 4.02,
+        "z": 4.01,
         "verdict": "strong"
       },
-      "realness": 0.971
+      "realness": 0.972
     }
   },
   {
@@ -1269,10 +1269,10 @@
     "earshot": {
       "match": {
         "query": "a deep metal hull creaking under pressure",
-        "z": 2.99,
-        "verdict": "plausible"
+        "z": 3.01,
+        "verdict": "strong"
       },
-      "realness": 0.822
+      "realness": 0.825
     }
   },
   {
@@ -1298,10 +1298,10 @@
     "earshot": {
       "match": {
         "query": "a deep metal hull creaking under pressure",
-        "z": 4.59,
+        "z": 4.57,
         "verdict": "strong"
       },
-      "realness": 0.735
+      "realness": 0.733
     }
   },
   {
@@ -1327,10 +1327,10 @@
     "earshot": {
       "match": {
         "query": "a deep metal hull creaking under pressure",
-        "z": 1.19,
+        "z": 1.18,
         "verdict": "no match"
       },
-      "realness": 0.775
+      "realness": 0.774
     }
   },
   {
@@ -1385,7 +1385,7 @@
     "earshot": {
       "match": {
         "query": "a heavy deep thud impact",
-        "z": 4.52,
+        "z": 4.51,
         "verdict": "strong"
       },
       "realness": 0.926
@@ -1414,7 +1414,7 @@
     "earshot": {
       "match": {
         "query": "a heavy deep thud impact",
-        "z": 2.7,
+        "z": 2.71,
         "verdict": "plausible"
       },
       "realness": 0.988
@@ -1443,7 +1443,7 @@
     "earshot": {
       "match": {
         "query": "a heavy deep thud impact",
-        "z": 0.79,
+        "z": 0.78,
         "verdict": "no match"
       },
       "realness": 0.986
@@ -1472,10 +1472,10 @@
     "earshot": {
       "match": {
         "query": "a whoosh",
-        "z": 2.85,
+        "z": 2.88,
         "verdict": "plausible"
       },
-      "realness": 0.706
+      "realness": 0.704
     }
   },
   {
@@ -1501,10 +1501,10 @@
     "earshot": {
       "match": {
         "query": "a whoosh",
-        "z": 1.51,
+        "z": 1.52,
         "verdict": "no match"
       },
-      "realness": 0.633
+      "realness": 0.649
     }
   },
   {
@@ -1533,7 +1533,7 @@
         "z": 1.46,
         "verdict": "no match"
       },
-      "realness": 0.021
+      "realness": 0.018
     }
   },
   {
@@ -1562,7 +1562,7 @@
         "z": 3.13,
         "verdict": "strong"
       },
-      "realness": 0.856
+      "realness": 0.86
     }
   },
   {
@@ -1591,7 +1591,7 @@
         "z": 4.69,
         "verdict": "strong"
       },
-      "realness": 0.687
+      "realness": 0.685
     }
   },
   {
@@ -1617,10 +1617,10 @@
     "earshot": {
       "match": {
         "query": "a short cute cartoon pop",
-        "z": 3.85,
+        "z": 3.87,
         "verdict": "strong"
       },
-      "realness": 0.797
+      "realness": 0.793
     }
   },
   {
@@ -1646,10 +1646,10 @@
     "earshot": {
       "match": {
         "query": "a short cute cartoon pop",
-        "z": 3.34,
+        "z": 3.36,
         "verdict": "strong"
       },
-      "realness": 0.22
+      "realness": 0.222
     }
   },
   {
@@ -1675,7 +1675,7 @@
     "earshot": {
       "match": {
         "query": "a short cute cartoon pop",
-        "z": 2.63,
+        "z": 2.61,
         "verdict": "plausible"
       },
       "realness": 0.992
@@ -1704,10 +1704,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.86,
+        "z": 3.87,
         "verdict": "strong"
       },
-      "realness": 0.222
+      "realness": 0.216
     }
   },
   {
@@ -1733,10 +1733,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 2.33,
+        "z": 2.31,
         "verdict": "weak"
       },
-      "realness": 0.051
+      "realness": 0.05
     }
   },
   {
@@ -1762,10 +1762,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.87,
+        "z": 3.88,
         "verdict": "strong"
       },
-      "realness": 0.518
+      "realness": 0.52
     }
   },
   {
@@ -1783,18 +1783,18 @@
     "need": "impact_boom",
     "rank": 4,
     "best_segment": [
-      5.385,
-      7.103
+      4.735,
+      6.735
     ],
     "duration_s": 7.10342,
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.43,
+        "z": 3.95,
         "verdict": "strong"
       },
-      "realness": 0.936
+      "realness": 0.926
     }
   },
   {
@@ -1820,10 +1820,10 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": 5.11,
+        "z": 5.09,
         "verdict": "strong"
       },
-      "realness": 0.032
+      "realness": 0.033
     }
   },
   {
@@ -1849,10 +1849,10 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": 3.21,
+        "z": 3.22,
         "verdict": "strong"
       },
-      "realness": 0.612
+      "realness": 0.61
     }
   },
   {
@@ -1878,10 +1878,10 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": -0.11,
+        "z": -0.13,
         "verdict": "no match"
       },
-      "realness": 0.983
+      "realness": 0.982
     }
   },
   {
@@ -1907,7 +1907,7 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": 2.49,
+        "z": 2.48,
         "verdict": "weak"
       },
       "realness": 0.976

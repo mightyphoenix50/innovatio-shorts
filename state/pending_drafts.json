@@ -456,5 +456,27 @@
     "video_id": "q_73Tr2Ru7M",
     "youtube_url": "https://youtube.com/shorts/q_73Tr2Ru7M",
     "scheduled_at": null
+  },
+  "55": {
+    "episode": "moons-to-scale",
+    "video_path": "output/drafts/moons-to-scale.mp4",
+    "titles": [
+      "What if moons were lined up next to a planet?",
+      "Some moons are bigger than planets"
+    ],
+    "description": "Europa, our Moon, Mercury, Titan and Ganymede side by side at true scale, and why the planet Mercury still outweighs the two moons that are wider than it.\n\nSources:\n- Europa's mean radius is 1,560.8 km, slightly smaller than Earth's Moon; its subsurface ocean holds two to three times the volume of Earth's oceans: https://en.wikipedia.org/wiki/Europa_(moon)\n- The Moon's mean radius is 1,737.4 km (about 3,475 km across): https://en.wikipedia.org/wiki/Moon\n- Mercury is the planet nearest the Sun, radius about 2,440 km, with a metallic core of about 2,074 km radius, about 85% of the planet's radius: https://science.nasa.gov/mercury/facts/\n- Mercury's mean radius is 2,439.4 km (diameter 4,878.8 km) and its mass 3.3011 × 10²³ kg; it is smaller but more massive than Ganymede and Titan: https://en.wikipedia.org/wiki/Mercury_(planet)\n- Titan's mean radius is about 2,575 km (5,150 km across), about 6% wider than Mercury; surface pressure about 1.45 atm, denser than Earth's; lakes of liquid methane: https://en.wikipedia.org/wiki/Titan_(moon)\n- Ganymede, the largest moon, has a mean radius of 2,632.27 km and a mass of 1.48 × 10²³ kg, 45% of Mercury's; it has an internal ocean and is made of rock and water in roughly equal proportions: https://en.wikipedia.org/wiki/Ganymede_(moon)\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- sonar ping: CC0 1.0, https://freesound.org/people/nicorico_120/sounds/808185/\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/829590/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/vekoN/sounds/719830/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "moons",
+      "ganymede",
+      "titan",
+      "mercury",
+      "solar system to scale",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · moons-to-scale · 66s</i>\n\n<b>A:</b> What if moons were lined up next to a planet?\n<b>B:</b> Some moons are bigger than planets\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 02 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793555755.1545656
   }
 }
