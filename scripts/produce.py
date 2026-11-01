@@ -104,7 +104,7 @@ def description(ep: dict, credits: str) -> str:
     return "\n\n".join(p for p in parts if p)
 
 
-TEMPLATES = ("Descent", "Fall", "Orbit", "Scale")
+TEMPLATES = ("Descent", "Fall", "Orbit", "Scale", "Story")
 # Templates drawn with WebGL (three.js). GitHub runners have no GPU, so these use Chrome's software
 # renderer; on a PC with a graphics card set REMOTION_GL=angle in .env for faster renders.
 WEBGL_TEMPLATES = ("Orbit", "Scale")

@@ -1,0 +1,273 @@
+{
+  "template": "Story",
+  "title": "What if you could see like a bee?",
+  "fps": 30,
+  "hero": {
+    "hoodie": "#2A9D8F"
+  },
+  "scenes": [
+    {
+      "line": 0,
+      "place": "meadow",
+      "pose": "idle",
+      "mood": "shocked",
+      "x": 0.6,
+      "prop": {
+        "kind": "flower",
+        "motion": "float"
+      },
+      "effect": "uv",
+      "camera": "push"
+    },
+    {
+      "line": 1,
+      "place": "city",
+      "pose": "point",
+      "mood": "happy",
+      "x": 0.45,
+      "others": 2,
+      "camera": "pan"
+    },
+    {
+      "line": 2,
+      "place": "meadow",
+      "pose": "shrug",
+      "mood": "neutral",
+      "x": 0.62,
+      "prop": {
+        "kind": "bee",
+        "motion": "float"
+      },
+      "label": {
+        "text": "BEE",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 3,
+      "place": "lab",
+      "pose": "think",
+      "mood": "determined",
+      "x": 0.5,
+      "camera": "still",
+      "chain": [
+        "LIGHT",
+        "LENS",
+        "RETINA"
+      ]
+    },
+    {
+      "line": 4,
+      "place": "lab",
+      "pose": "point",
+      "mood": "shocked",
+      "x": 0.62,
+      "prop": {
+        "kind": "eye",
+        "motion": "float"
+      },
+      "label": {
+        "text": "LENS",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 5,
+      "place": "meadow",
+      "pose": "catch",
+      "mood": "shocked",
+      "x": 0.42,
+      "prop": {
+        "kind": "flower",
+        "motion": "hold"
+      },
+      "effect": "uv",
+      "camera": "push"
+    },
+    {
+      "line": 6,
+      "place": "room",
+      "pose": "think",
+      "mood": "neutral",
+      "x": 0.4,
+      "prop": {
+        "kind": "book",
+        "motion": "float"
+      },
+      "camera": "pull"
+    },
+    {
+      "line": 7,
+      "place": "meadow",
+      "pose": "cheer",
+      "mood": "happy",
+      "x": 0.5,
+      "effect": "uv",
+      "camera": "pan"
+    },
+    {
+      "line": 8,
+      "place": "night",
+      "pose": "shrug",
+      "mood": "smug",
+      "x": 0.5,
+      "camera": "push"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3,
+      "heading": "Bee vision",
+      "text": "You wake up, and every flower in the garden has a secret pattern on it."
+    },
+    {
+      "from": 3,
+      "to": 9,
+      "heading": "What you see",
+      "source": "Wikipedia: Visible spectrum",
+      "text": "Your eyes see light from about three hundred and eighty to seven hundred and fifty nanometres. That's every rainbow you've ever seen.",
+      "beats": [
+        {
+          "word": "nanometres",
+          "kind": "stat",
+          "value": "380\u2013750 nm",
+          "label": "what human eyes see"
+        }
+      ]
+    },
+    {
+      "from": 9,
+      "to": 15,
+      "heading": "What bees see",
+      "source": "Wikipedia: Visible spectrum",
+      "text": "But bees see something you can't: ultraviolet, just past violet. And they can't see red at all.",
+      "beats": [
+        {
+          "word": "red",
+          "kind": "warning",
+          "value": "NO RED"
+        }
+      ]
+    },
+    {
+      "from": 15,
+      "to": 21,
+      "heading": "How seeing works",
+      "source": "Science History Institute",
+      "text": "So how would that work for you? Light enters your eye, your lens filters it, and your retina reads it."
+    },
+    {
+      "from": 21,
+      "to": 27,
+      "heading": "The catch",
+      "source": "Science History Institute",
+      "text": "Here's the catch. Your cones can already sense a little ultraviolet. It's your lens that blocks it.",
+      "beats": [
+        {
+          "word": "blocks",
+          "kind": "warning",
+          "value": "LENS BLOCKS UV"
+        }
+      ]
+    },
+    {
+      "from": 27,
+      "to": 33,
+      "heading": "UV vision",
+      "source": "Wikipedia: Nectar guide",
+      "text": "Without it, plain yellow flowers suddenly show dark bullseyes. Patterns painted there to guide bees to the nectar.",
+      "beats": [
+        {
+          "word": "bullseyes",
+          "kind": "stamp",
+          "value": "SECRET BULLSEYES"
+        }
+      ]
+    },
+    {
+      "from": 33,
+      "to": 39,
+      "heading": "The twist",
+      "source": "Science History Institute",
+      "text": "The twist? This really happened. In nineteen twenty-three, the painter Claude Monet had a cataract removed, and lost that lens.",
+      "beats": [
+        {
+          "word": "twenty-three",
+          "kind": "stat",
+          "value": "1923",
+          "label": "Monet's eye surgery"
+        }
+      ]
+    },
+    {
+      "from": 39,
+      "to": 45,
+      "heading": "Monet's lilies",
+      "source": "Science History Institute",
+      "text": "Afterwards, his water lilies turned blue and purple. Some scientists think he was painting light you can't see."
+    },
+    {
+      "from": 45,
+      "to": 50,
+      "heading": "Your call",
+      "text": "So would you trade seeing red for seeing ultraviolet?"
+    }
+  ],
+  "hook": {
+    "banner": "What if you could see like a bee?",
+    "flash": "BEE VISION",
+    "previewLine": 5
+  },
+  "skit": {
+    "text": "Ultraviolet? Please. I only see in dark mode.",
+    "mood": "smug",
+    "action": "*smug beep*"
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you could see like a bee?",
+      "Your eyes can almost see ultraviolet. Here's what stops them"
+    ],
+    "description": "Bees see ultraviolet patterns on flowers that are invisible to us, and the only thing stopping your eyes is your lens. Even Monet may have painted it.",
+    "tags": [
+      "what if",
+      "ultraviolet",
+      "bee vision",
+      "eyes",
+      "monet",
+      "biology",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "A typical human eye responds to wavelengths from about 380 to about 750 nanometres",
+      "url": "https://en.wikipedia.org/wiki/Visible_spectrum"
+    },
+    {
+      "claim": "Bees and many other insects can detect ultraviolet light; bees' long-wavelength cutoff is about 590 nm, short of red",
+      "url": "https://en.wikipedia.org/wiki/Visible_spectrum"
+    },
+    {
+      "claim": "Our lenses filter out UV light; human cones can perceive UV if given the chance",
+      "url": "https://sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/"
+    },
+    {
+      "claim": "In some plants, such as the meadow buttercup, nectar guides are visible only in ultraviolet light, attracting pollinators such as honey bees",
+      "url": "https://en.wikipedia.org/wiki/Nectar_guide"
+    },
+    {
+      "claim": "People without a lens perceive ultraviolet light as whitish blue or whitish violet",
+      "url": "https://en.wikipedia.org/wiki/Aphakia"
+    },
+    {
+      "claim": "Monet's cataract surgery took place in January 1923; his later water lilies gained blue and purple overtones, which some link to seeing UV",
+      "url": "https://sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/"
+    }
+  ],
+  "seed": "see-ultraviolet"
+}
