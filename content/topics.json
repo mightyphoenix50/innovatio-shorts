@@ -59,7 +59,8 @@
       "title": "Some moons are bigger than planets",
       "format": "Scale",
       "angle": "Our Moon → Europa → Titan → Mercury → Ganymede; twist: Ganymede and Titan are both wider than the planet Mercury.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-01"
     },
     {
       "slug": "hole-through-the-moon",

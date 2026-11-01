@@ -1,0 +1,251 @@
+{
+  "template": "Scale",
+  "title": "Some moons are bigger than planets",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Europa",
+      "value": "3,122 km",
+      "caption": "WIDE",
+      "kind": "ice",
+      "radiusKm": 1560.8
+    },
+    {
+      "line": 2,
+      "name": "The Moon",
+      "value": "3,475 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 1737.4
+    },
+    {
+      "line": 3,
+      "name": "Mercury",
+      "value": "4,879 km",
+      "caption": "WIDE",
+      "kind": "mercury",
+      "radiusKm": 2439.4
+    },
+    {
+      "line": 4,
+      "name": "Titan",
+      "value": "5,150 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 2575,
+      "colours": [
+        "#F2C27A",
+        "#E0A04E",
+        "#C47F38"
+      ],
+      "glow": "#E8A23C"
+    },
+    {
+      "line": 6,
+      "name": "Ganymede",
+      "value": "5,264 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 2632.27
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 3.5,
+      "heading": "Moon vs planet",
+      "text": "You think moons are small? Some of them are bigger than a planet."
+    },
+    {
+      "from": 3.5,
+      "to": 10.0,
+      "heading": "Europa",
+      "text": "Meet Europa, an icy moon of Jupiter. Under its ice may be two or three times the water in Earth's oceans.",
+      "source": "Europa, Wikipedia",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stat",
+          "value": "2–3×",
+          "label": "the water in Earth's oceans"
+        }
+      ]
+    },
+    {
+      "from": 10.0,
+      "to": 15.5,
+      "heading": "Our Moon",
+      "text": "Our own Moon is a little bigger, about three and a half thousand kilometres across.",
+      "source": "Moon, Wikipedia",
+      "beats": [
+        {
+          "word": "bigger",
+          "kind": "compare",
+          "compare": {
+            "name": "Europa",
+            "value": 3122,
+            "icon": "moon",
+            "subject": "Our Moon",
+            "subjectValue": 3475,
+            "unit": "km wide",
+            "note": "Just a bit bigger"
+          }
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "Mercury",
+      "text": "Now a real planet. Mercury, the closest one to the Sun, is almost five thousand kilometres wide.",
+      "source": "NASA Mercury facts",
+      "beats": [
+        {
+          "word": "planet",
+          "kind": "stamp",
+          "value": "A REAL PLANET"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 28.0,
+      "heading": "Titan",
+      "text": "But Saturn's moon Titan is wider still. It even has thicker air than Earth, and lakes of liquid methane.",
+      "source": "Titan, Wikipedia",
+      "beats": [
+        {
+          "word": "thicker",
+          "kind": "stat",
+          "value": "1.45×",
+          "label": "Earth's air pressure"
+        },
+        {
+          "word": "methane",
+          "kind": "warning",
+          "value": "METHANE LAKES"
+        }
+      ]
+    },
+    {
+      "from": 28.0,
+      "to": 33.0,
+      "heading": "Moon beats planet",
+      "text": "Titan is about six percent wider than Mercury. A moon, beating a planet.",
+      "source": "Titan, Wikipedia",
+      "beats": [
+        {
+          "word": "beating",
+          "kind": "stamp",
+          "value": "MOON BEATS PLANET"
+        }
+      ]
+    },
+    {
+      "from": 33.0,
+      "to": 39.5,
+      "heading": "Ganymede",
+      "text": "And the biggest moon of all? Jupiter's Ganymede, wider than Mercury, with a hidden ocean under its ice.",
+      "source": "Ganymede, Wikipedia",
+      "beats": [
+        {
+          "word": "biggest",
+          "kind": "stamp",
+          "value": "BIGGEST MOON"
+        }
+      ]
+    },
+    {
+      "from": 39.5,
+      "to": 45.5,
+      "heading": "The twist",
+      "text": "The twist? Mercury is smaller, but heavier. Ganymede has less than half of Mercury's mass.",
+      "source": "Ganymede, Wikipedia",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "compare",
+          "compare": {
+            "name": "Ganymede",
+            "value": 1.48,
+            "icon": "moon",
+            "subject": "Mercury",
+            "subjectValue": 3.3,
+            "unit": "×10²³ kg",
+            "note": "Over twice as heavy"
+          }
+        }
+      ]
+    },
+    {
+      "from": 45.5,
+      "to": 52.5,
+      "heading": "Why?",
+      "text": "Mercury's metal core fills most of its width. Ganymede is half rock, half ice. So which is bigger: wider, or heavier?",
+      "source": "NASA Mercury facts",
+      "beats": [
+        {
+          "word": "core",
+          "kind": "stat",
+          "value": "85%",
+          "label": "of Mercury's radius is core"
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "Can a moon beat a planet?",
+    "flash": "MOON > PLANET",
+    "previewLine": 5
+  },
+  "skit": {
+    "text": "Wider or heavier? I just say my files are compressed.",
+    "mood": "smug",
+    "action": "*proud beep*"
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if moons were lined up next to a planet?",
+      "Some moons are bigger than planets"
+    ],
+    "description": "Europa, our Moon, Mercury, Titan and Ganymede side by side at true scale, and why the planet Mercury still outweighs the two moons that are wider than it.",
+    "tags": [
+      "moons",
+      "ganymede",
+      "titan",
+      "mercury",
+      "solar system to scale",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Europa's mean radius is 1,560.8 km, slightly smaller than Earth's Moon; its subsurface ocean holds two to three times the volume of Earth's oceans",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)"
+    },
+    {
+      "claim": "The Moon's mean radius is 1,737.4 km (about 3,475 km across)",
+      "url": "https://en.wikipedia.org/wiki/Moon"
+    },
+    {
+      "claim": "Mercury is the planet nearest the Sun, radius about 2,440 km, with a metallic core of about 2,074 km radius, about 85% of the planet's radius",
+      "url": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "claim": "Mercury's mean radius is 2,439.4 km (diameter 4,878.8 km) and its mass 3.3011 × 10²³ kg; it is smaller but more massive than Ganymede and Titan",
+      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    },
+    {
+      "claim": "Titan's mean radius is about 2,575 km (5,150 km across), about 6% wider than Mercury; surface pressure about 1.45 atm, denser than Earth's; lakes of liquid methane",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)"
+    },
+    {
+      "claim": "Ganymede, the largest moon, has a mean radius of 2,632.27 km and a mass of 1.48 × 10²³ kg, 45% of Mercury's; it has an internal ocean and is made of rock and water in roughly equal proportions",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+    }
+  ],
+  "seed": "moons-to-scale"
+}
