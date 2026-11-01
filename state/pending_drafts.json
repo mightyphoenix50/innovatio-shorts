@@ -476,7 +476,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · moons-to-scale · 66s</i>\n\n<b>A:</b> What if moons were lined up next to a planet?\n<b>B:</b> Some moons are bigger than planets\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 02 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793555755.1545656
+    "status": "PUBLISHED",
+    "created_at": 1793555755.1545656,
+    "updated_at": 1793555806.2143648,
+    "title_used": "What if moons were lined up next to a planet?",
+    "video_id": "Pm9Atjvb72Y",
+    "youtube_url": "https://youtube.com/shorts/Pm9Atjvb72Y",
+    "scheduled_at": null
   }
 }
