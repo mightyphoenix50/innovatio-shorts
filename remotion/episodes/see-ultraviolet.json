@@ -119,13 +119,105 @@
   "narration": [
     {
       "from": 0,
-      "to": 3,
+      "to": 4.526,
       "heading": "Bee vision",
-      "text": "You wake up, and every flower in the garden has a secret pattern on it."
+      "text": "You wake up, and every flower in the garden has a secret pattern on it.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.376,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.388,
+          "end": 0.614,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 0.626,
+          "end": 0.852,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 1.138,
+          "end": 1.245,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 1.257,
+          "end": 1.495,
+          "char": 17,
+          "len": 5
+        },
+        {
+          "start": 1.507,
+          "end": 1.864,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 1.876,
+          "end": 1.948,
+          "char": 30,
+          "len": 2
+        },
+        {
+          "start": 1.96,
+          "end": 2.031,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 2.043,
+          "end": 2.376,
+          "char": 37,
+          "len": 6
+        },
+        {
+          "start": 2.388,
+          "end": 2.567,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 2.579,
+          "end": 2.626,
+          "char": 48,
+          "len": 1
+        },
+        {
+          "start": 2.638,
+          "end": 3.067,
+          "char": 50,
+          "len": 6
+        },
+        {
+          "start": 3.079,
+          "end": 3.424,
+          "char": 57,
+          "len": 7
+        },
+        {
+          "start": 3.436,
+          "end": 3.614,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 3.626,
+          "end": 3.781,
+          "char": 68,
+          "len": 2
+        }
+      ]
     },
     {
-      "from": 3,
-      "to": 9,
+      "from": 4.526,
+      "to": 11.874,
       "heading": "What you see",
       "source": "Wikipedia: Visible spectrum",
       "text": "Your eyes see light from about three hundred and eighty to seven hundred and fifty nanometres. That's every rainbow you've ever seen.",
@@ -136,11 +228,145 @@
           "value": "380\u2013750 nm",
           "label": "what human eyes see"
         }
+      ],
+      "words": [
+        {
+          "start": 4.783,
+          "end": 4.938,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 4.95,
+          "end": 5.2,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 5.212,
+          "end": 5.366,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 5.378,
+          "end": 5.688,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 5.7,
+          "end": 5.855,
+          "char": 20,
+          "len": 4
+        },
+        {
+          "start": 5.866,
+          "end": 6.164,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 6.176,
+          "end": 6.45,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 6.462,
+          "end": 6.747,
+          "char": 37,
+          "len": 7
+        },
+        {
+          "start": 6.759,
+          "end": 6.843,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 6.855,
+          "end": 7.152,
+          "char": 49,
+          "len": 6
+        },
+        {
+          "start": 7.164,
+          "end": 7.271,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 7.283,
+          "end": 7.605,
+          "char": 59,
+          "len": 5
+        },
+        {
+          "start": 7.616,
+          "end": 7.89,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 7.902,
+          "end": 7.974,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 7.986,
+          "end": 8.283,
+          "char": 77,
+          "len": 5
+        },
+        {
+          "start": 8.295,
+          "end": 8.974,
+          "char": 83,
+          "len": 10
+        },
+        {
+          "start": 9.378,
+          "end": 9.557,
+          "char": 95,
+          "len": 6
+        },
+        {
+          "start": 9.688,
+          "end": 9.914,
+          "char": 102,
+          "len": 5
+        },
+        {
+          "start": 9.926,
+          "end": 10.343,
+          "char": 108,
+          "len": 7
+        },
+        {
+          "start": 10.355,
+          "end": 10.569,
+          "char": 116,
+          "len": 6
+        },
+        {
+          "start": 10.581,
+          "end": 10.747,
+          "char": 123,
+          "len": 4
+        },
+        {
+          "start": 10.759,
+          "end": 11.128,
+          "char": 128,
+          "len": 4
+        }
       ]
     },
     {
-      "from": 9,
-      "to": 15,
+      "from": 11.874,
+      "to": 18.211,
       "heading": "What bees see",
       "source": "Wikipedia: Visible spectrum",
       "text": "But bees see something you can't: ultraviolet, just past violet. And they can't see red at all.",
@@ -150,18 +376,244 @@
           "kind": "warning",
           "value": "NO RED"
         }
+      ],
+      "words": [
+        {
+          "start": 12.131,
+          "end": 12.274,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 12.286,
+          "end": 12.607,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 12.619,
+          "end": 12.834,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 12.845,
+          "end": 13.167,
+          "char": 13,
+          "len": 9
+        },
+        {
+          "start": 13.179,
+          "end": 13.274,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 13.286,
+          "end": 13.655,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 14.072,
+          "end": 14.726,
+          "char": 34,
+          "len": 11
+        },
+        {
+          "start": 14.976,
+          "end": 15.167,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 15.179,
+          "end": 15.464,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 15.476,
+          "end": 15.893,
+          "char": 57,
+          "len": 6
+        },
+        {
+          "start": 16.286,
+          "end": 16.345,
+          "char": 65,
+          "len": 3
+        },
+        {
+          "start": 16.357,
+          "end": 16.453,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 16.464,
+          "end": 16.703,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 16.714,
+          "end": 16.917,
+          "char": 80,
+          "len": 3
+        },
+        {
+          "start": 16.929,
+          "end": 17.119,
+          "char": 84,
+          "len": 3
+        },
+        {
+          "start": 17.131,
+          "end": 17.203,
+          "char": 88,
+          "len": 2
+        },
+        {
+          "start": 17.214,
+          "end": 17.464,
+          "char": 91,
+          "len": 3
+        }
       ]
     },
     {
-      "from": 15,
-      "to": 21,
+      "from": 18.211,
+      "to": 24.144,
       "heading": "How seeing works",
       "source": "Science History Institute",
-      "text": "So how would that work for you? Light enters your eye, your lens filters it, and your retina reads it."
+      "text": "So how would that work for you? Light enters your eye, your lens filters it, and your retina reads it.",
+      "words": [
+        {
+          "start": 18.468,
+          "end": 18.575,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 18.587,
+          "end": 18.706,
+          "char": 3,
+          "len": 3
+        },
+        {
+          "start": 18.718,
+          "end": 18.813,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 18.825,
+          "end": 18.956,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 18.968,
+          "end": 19.135,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 19.147,
+          "end": 19.325,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 19.337,
+          "end": 19.48,
+          "char": 27,
+          "len": 3
+        },
+        {
+          "start": 19.873,
+          "end": 20.099,
+          "char": 32,
+          "len": 5
+        },
+        {
+          "start": 20.182,
+          "end": 20.444,
+          "char": 38,
+          "len": 6
+        },
+        {
+          "start": 20.456,
+          "end": 20.599,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 20.611,
+          "end": 20.813,
+          "char": 50,
+          "len": 3
+        },
+        {
+          "start": 21.159,
+          "end": 21.254,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 21.266,
+          "end": 21.528,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 21.54,
+          "end": 21.992,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 22.004,
+          "end": 22.135,
+          "char": 73,
+          "len": 2
+        },
+        {
+          "start": 22.421,
+          "end": 22.48,
+          "char": 77,
+          "len": 3
+        },
+        {
+          "start": 22.492,
+          "end": 22.611,
+          "char": 81,
+          "len": 4
+        },
+        {
+          "start": 22.623,
+          "end": 22.897,
+          "char": 86,
+          "len": 6
+        },
+        {
+          "start": 22.909,
+          "end": 23.218,
+          "char": 93,
+          "len": 5
+        },
+        {
+          "start": 23.23,
+          "end": 23.397,
+          "char": 99,
+          "len": 2
+        }
+      ]
     },
     {
-      "from": 21,
-      "to": 27,
+      "from": 24.144,
+      "to": 30.075,
       "heading": "The catch",
       "source": "Science History Institute",
       "text": "Here's the catch. Your cones can already sense a little ultraviolet. It's your lens that blocks it.",
@@ -171,11 +623,115 @@
           "kind": "warning",
           "value": "LENS BLOCKS UV"
         }
+      ],
+      "words": [
+        {
+          "start": 24.413,
+          "end": 24.568,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 24.58,
+          "end": 24.663,
+          "char": 7,
+          "len": 3
+        },
+        {
+          "start": 24.675,
+          "end": 25.115,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 25.508,
+          "end": 25.615,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 25.627,
+          "end": 25.913,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 25.925,
+          "end": 26.068,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 26.08,
+          "end": 26.389,
+          "char": 33,
+          "len": 7
+        },
+        {
+          "start": 26.401,
+          "end": 26.723,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 26.734,
+          "end": 26.782,
+          "char": 47,
+          "len": 1
+        },
+        {
+          "start": 26.794,
+          "end": 27.068,
+          "char": 49,
+          "len": 6
+        },
+        {
+          "start": 27.08,
+          "end": 27.782,
+          "char": 56,
+          "len": 11
+        },
+        {
+          "start": 28.175,
+          "end": 28.282,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 28.294,
+          "end": 28.401,
+          "char": 74,
+          "len": 4
+        },
+        {
+          "start": 28.413,
+          "end": 28.639,
+          "char": 79,
+          "len": 4
+        },
+        {
+          "start": 28.651,
+          "end": 28.794,
+          "char": 84,
+          "len": 4
+        },
+        {
+          "start": 28.806,
+          "end": 29.163,
+          "char": 89,
+          "len": 6
+        },
+        {
+          "start": 29.175,
+          "end": 29.33,
+          "char": 96,
+          "len": 2
+        }
       ]
     },
     {
-      "from": 27,
-      "to": 33,
+      "from": 30.075,
+      "to": 37.649,
       "heading": "UV vision",
       "source": "Wikipedia: Nectar guide",
       "text": "Without it, plain yellow flowers suddenly show dark bullseyes. Patterns painted there to guide bees to the nectar.",
@@ -185,11 +741,121 @@
           "kind": "stamp",
           "value": "SECRET BULLSEYES"
         }
+      ],
+      "words": [
+        {
+          "start": 30.332,
+          "end": 30.618,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 30.63,
+          "end": 30.737,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 31.082,
+          "end": 31.32,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 31.332,
+          "end": 31.606,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 31.618,
+          "end": 32.082,
+          "char": 25,
+          "len": 7
+        },
+        {
+          "start": 32.154,
+          "end": 32.57,
+          "char": 33,
+          "len": 8
+        },
+        {
+          "start": 32.582,
+          "end": 32.856,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 32.868,
+          "end": 33.165,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 33.177,
+          "end": 33.796,
+          "char": 52,
+          "len": 9
+        },
+        {
+          "start": 34.189,
+          "end": 34.594,
+          "char": 63,
+          "len": 8
+        },
+        {
+          "start": 34.606,
+          "end": 35.023,
+          "char": 72,
+          "len": 7
+        },
+        {
+          "start": 35.035,
+          "end": 35.225,
+          "char": 80,
+          "len": 5
+        },
+        {
+          "start": 35.237,
+          "end": 35.332,
+          "char": 86,
+          "len": 2
+        },
+        {
+          "start": 35.344,
+          "end": 35.773,
+          "char": 89,
+          "len": 5
+        },
+        {
+          "start": 35.868,
+          "end": 36.249,
+          "char": 95,
+          "len": 4
+        },
+        {
+          "start": 36.261,
+          "end": 36.356,
+          "char": 100,
+          "len": 2
+        },
+        {
+          "start": 36.368,
+          "end": 36.451,
+          "char": 103,
+          "len": 3
+        },
+        {
+          "start": 36.463,
+          "end": 36.904,
+          "char": 107,
+          "len": 6
+        }
       ]
     },
     {
-      "from": 33,
-      "to": 39,
+      "from": 37.649,
+      "to": 45.855,
       "heading": "The twist",
       "source": "Science History Institute",
       "text": "The twist? This really happened. In nineteen twenty-three, the painter Claude Monet had a cataract removed, and lost that lens.",
@@ -200,20 +866,308 @@
           "value": "1923",
           "label": "Monet's eye surgery"
         }
+      ],
+      "words": [
+        {
+          "start": 37.906,
+          "end": 37.954,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 37.966,
+          "end": 38.406,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 38.799,
+          "end": 38.942,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 38.954,
+          "end": 39.12,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 39.132,
+          "end": 39.525,
+          "char": 23,
+          "len": 8
+        },
+        {
+          "start": 39.918,
+          "end": 40.001,
+          "char": 33,
+          "len": 2
+        },
+        {
+          "start": 40.013,
+          "end": 40.347,
+          "char": 36,
+          "len": 8
+        },
+        {
+          "start": 40.359,
+          "end": 40.966,
+          "char": 45,
+          "len": 12
+        },
+        {
+          "start": 41.216,
+          "end": 41.311,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 41.323,
+          "end": 41.644,
+          "char": 63,
+          "len": 7
+        },
+        {
+          "start": 41.656,
+          "end": 41.942,
+          "char": 71,
+          "len": 6
+        },
+        {
+          "start": 41.954,
+          "end": 42.347,
+          "char": 78,
+          "len": 5
+        },
+        {
+          "start": 42.359,
+          "end": 42.501,
+          "char": 84,
+          "len": 3
+        },
+        {
+          "start": 42.513,
+          "end": 42.561,
+          "char": 88,
+          "len": 1
+        },
+        {
+          "start": 42.573,
+          "end": 43.144,
+          "char": 90,
+          "len": 8
+        },
+        {
+          "start": 43.156,
+          "end": 43.692,
+          "char": 99,
+          "len": 7
+        },
+        {
+          "start": 43.989,
+          "end": 44.097,
+          "char": 108,
+          "len": 3
+        },
+        {
+          "start": 44.109,
+          "end": 44.394,
+          "char": 112,
+          "len": 4
+        },
+        {
+          "start": 44.406,
+          "end": 44.597,
+          "char": 117,
+          "len": 4
+        },
+        {
+          "start": 44.609,
+          "end": 45.109,
+          "char": 122,
+          "len": 4
+        }
       ]
     },
     {
-      "from": 39,
-      "to": 45,
+      "from": 45.855,
+      "to": 52.858,
       "heading": "Monet's lilies",
       "source": "Science History Institute",
-      "text": "Afterwards, his water lilies turned blue and purple. Some scientists think he was painting light you can't see."
+      "text": "Afterwards, his water lilies turned blue and purple. Some scientists think he was painting light you can't see.",
+      "words": [
+        {
+          "start": 46.1,
+          "end": 46.695,
+          "char": 0,
+          "len": 10
+        },
+        {
+          "start": 46.898,
+          "end": 47.029,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 47.041,
+          "end": 47.362,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 47.374,
+          "end": 47.779,
+          "char": 22,
+          "len": 6
+        },
+        {
+          "start": 47.791,
+          "end": 48.148,
+          "char": 29,
+          "len": 6
+        },
+        {
+          "start": 48.16,
+          "end": 48.588,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 48.672,
+          "end": 48.779,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 48.791,
+          "end": 49.231,
+          "char": 45,
+          "len": 6
+        },
+        {
+          "start": 49.636,
+          "end": 49.779,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 49.791,
+          "end": 50.314,
+          "char": 58,
+          "len": 10
+        },
+        {
+          "start": 50.326,
+          "end": 50.553,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 50.565,
+          "end": 50.648,
+          "char": 75,
+          "len": 2
+        },
+        {
+          "start": 50.66,
+          "end": 50.814,
+          "char": 78,
+          "len": 3
+        },
+        {
+          "start": 50.826,
+          "end": 51.207,
+          "char": 82,
+          "len": 8
+        },
+        {
+          "start": 51.219,
+          "end": 51.422,
+          "char": 91,
+          "len": 5
+        },
+        {
+          "start": 51.434,
+          "end": 51.529,
+          "char": 97,
+          "len": 3
+        },
+        {
+          "start": 51.541,
+          "end": 51.803,
+          "char": 101,
+          "len": 5
+        },
+        {
+          "start": 51.815,
+          "end": 52.112,
+          "char": 107,
+          "len": 3
+        }
+      ]
     },
     {
-      "from": 45,
-      "to": 50,
+      "from": 52.858,
+      "to": 57.444,
       "heading": "Your call",
-      "text": "So would you trade seeing red for seeing ultraviolet?"
+      "text": "So would you trade seeing red for seeing ultraviolet?",
+      "words": [
+        {
+          "start": 53.103,
+          "end": 53.222,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 53.234,
+          "end": 53.353,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 53.365,
+          "end": 53.448,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 53.46,
+          "end": 53.77,
+          "char": 13,
+          "len": 5
+        },
+        {
+          "start": 53.782,
+          "end": 54.127,
+          "char": 19,
+          "len": 6
+        },
+        {
+          "start": 54.139,
+          "end": 54.389,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 54.401,
+          "end": 54.544,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 54.556,
+          "end": 54.829,
+          "char": 34,
+          "len": 6
+        },
+        {
+          "start": 54.841,
+          "end": 55.496,
+          "char": 41,
+          "len": 11
+        }
+      ]
     }
   ],
   "hook": {
@@ -224,7 +1178,59 @@
   "skit": {
     "text": "Ultraviolet? Please. I only see in dark mode.",
     "mood": "smug",
-    "action": "*smug beep*"
+    "action": "*smug beep*",
+    "from": 57.444,
+    "to": 64.76,
+    "words": [
+      {
+        "start": 57.989,
+        "end": 58.867,
+        "char": 0,
+        "len": 11
+      },
+      {
+        "start": 59.633,
+        "end": 60.174,
+        "char": 13,
+        "len": 6
+      },
+      {
+        "start": 60.94,
+        "end": 61.12,
+        "char": 21,
+        "len": 1
+      },
+      {
+        "start": 61.131,
+        "end": 61.48,
+        "char": 23,
+        "len": 4
+      },
+      {
+        "start": 61.491,
+        "end": 61.762,
+        "char": 28,
+        "len": 3
+      },
+      {
+        "start": 61.773,
+        "end": 61.942,
+        "char": 32,
+        "len": 2
+      },
+      {
+        "start": 61.953,
+        "end": 62.257,
+        "char": 35,
+        "len": 4
+      },
+      {
+        "start": 62.268,
+        "end": 62.629,
+        "char": 40,
+        "len": 4
+      }
+    ]
   },
   "series": "What if\u2026",
   "youtube": {
@@ -269,5 +1275,7 @@
       "url": "https://sciencehistory.org/stories/magazine/could-claude-monet-see-like-a-bee/"
     }
   ],
-  "seed": "see-ultraviolet"
+  "seed": "see-ultraviolet",
+  "voiceover": "audio/see-ultraviolet.mp3",
+  "music": "audio/see-ultraviolet_bed.mp3"
 }
