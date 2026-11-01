@@ -138,6 +138,14 @@
       "format": "Orbit",
       "angle": "A cracked ice moon of Jupiter hiding a salty ocean; the twist is that it may hold about twice the water of all Earth's oceans.",
       "status": "next"
+    },
+    {
+      "slug": "see-ultraviolet",
+      "title": "What if you could see like a bee?",
+      "format": "Story",
+      "angle": "Bees see ultraviolet patterns on flowers; your cones could too if your lens didn't block UV; twist: Monet lost a lens in 1923 and his lilies turned blue-purple.",
+      "status": "queued",
+      "queued_on": "2026-11-01"
     }
   ]
 }
