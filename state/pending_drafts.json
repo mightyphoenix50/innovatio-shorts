@@ -449,7 +449,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · see-ultraviolet · 65s</i>\n\n<b>A:</b> What if you could see like a bee?\n<b>B:</b> Your eyes can almost see ultraviolet. Here's what stops them\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 02 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793515919.4817307
+    "status": "PUBLISHED",
+    "created_at": 1793515919.4817307,
+    "updated_at": 1793515996.566022,
+    "title_used": "What if you could see like a bee?",
+    "video_id": "q_73Tr2Ru7M",
+    "youtube_url": "https://youtube.com/shorts/q_73Tr2Ru7M",
+    "scheduled_at": null
   }
 }
