@@ -240,6 +240,9 @@ const chunksOf = (line: EditLine) => {
   return chunks;
 };
 
+/** How far below the caption block the source tag sits, in px (about 75 px of clear space between them). */
+const SOURCE_DROP = 110;
+
 export const PopCaptions: React.FC<{ ep: EditEpisode; t: number; font: string; bottom?: number; fade?: number }> = ({ ep, t, font, bottom = 430, fade = 1 }) => {
   const { fps } = useVideoConfig();
   const line = ep.narration.find((n) => t >= n.from && t < n.to);
@@ -253,7 +256,8 @@ export const PopCaptions: React.FC<{ ep: EditEpisode; t: number; font: string; b
   const lineIn = interpolate(t, [line.from, line.from + 0.2, line.to - 0.15, line.to], [0, 1, 1, 0], clamp) * fade;
   const headIn = spring({ frame: Math.round((t - line.from) * fps), fps, config: { damping: 14 } });
   return (
-    <div style={{ position: "absolute", left: 40, right: 150, bottom, display: "flex", flexDirection: "column", alignItems: "center", opacity: lineIn }}>
+    <>
+      <div style={{ position: "absolute", left: 40, right: 150, bottom, display: "flex", flexDirection: "column", alignItems: "center", opacity: lineIn }}>
       <div
         style={{
           fontFamily: font,
@@ -301,12 +305,16 @@ export const PopCaptions: React.FC<{ ep: EditEpisode; t: number; font: string; b
             })
           : null}
       </div>
+      </div>
+      {/* The source sits well below the captions, on its own, so the caption block stays clean. */}
       {line.source ? (
-        <div style={{ marginTop: 6, fontFamily: font, fontSize: 24, fontWeight: 500, color: C.ink, background: "rgba(244,244,246,0.9)", padding: "4px 16px", borderRadius: 999 }}>
-          Source: {line.source}
+        <div style={{ position: "absolute", left: 40, right: 150, bottom: bottom - SOURCE_DROP, display: "flex", justifyContent: "center", opacity: lineIn * 0.85 }}>
+          <div style={{ fontFamily: font, fontSize: 24, fontWeight: 500, color: C.ink, background: "rgba(244,244,246,0.9)", padding: "4px 16px", borderRadius: 999 }}>
+            Source: {line.source}
+          </div>
         </div>
       ) : null}
-    </div>
+    </>
   );
 };
 
