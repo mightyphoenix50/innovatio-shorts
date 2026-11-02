@@ -82,7 +82,8 @@
       "title": "Follow a whale on the deepest dive of any mammal",
       "format": "Descent",
       "angle": "A Cuvier's beaked whale holds its breath almost 3 km down; the twist is how long it stays under.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-02"
     },
     {
       "slug": "dwarf-planets",

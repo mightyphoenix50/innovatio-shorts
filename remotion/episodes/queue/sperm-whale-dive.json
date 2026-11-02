@@ -1,0 +1,412 @@
+{
+  "title": "Follow a whale on the deepest dive of any mammal",
+  "fps": 30,
+  "hook": {
+    "banner": "How deep can a whale dive?",
+    "flash": "222 MINUTES",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      5,
+      20
+    ],
+    [
+      9,
+      60
+    ],
+    [
+      11,
+      200
+    ],
+    [
+      15,
+      260
+    ],
+    [
+      17,
+      1000
+    ],
+    [
+      21,
+      1100
+    ],
+    [
+      23,
+      2250
+    ],
+    [
+      27,
+      2320
+    ],
+    [
+      29,
+      2992
+    ],
+    [
+      52,
+      2992
+    ]
+  ],
+  "maxDepth": 3200,
+  "colours": [
+    [
+      0,
+      [
+        42,
+        143,
+        189
+      ]
+    ],
+    [
+      200,
+      [
+        14,
+        74,
+        120
+      ]
+    ],
+    [
+      1000,
+      [
+        3,
+        22,
+        46
+      ]
+    ],
+    [
+      2500,
+      [
+        1,
+        12,
+        24
+      ]
+    ],
+    [
+      3200,
+      [
+        1,
+        9,
+        18
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 200,
+      "name": "Sunlight zone",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 200,
+      "to": 1000,
+      "name": "Twilight zone",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 1000,
+      "to": 3200,
+      "name": "Midnight zone",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      16
+    ],
+    [
+      200,
+      10
+    ],
+    [
+      1000,
+      4
+    ],
+    [
+      2000,
+      2.5
+    ],
+    [
+      3000,
+      1.8
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 30,
+      "x": 0.6,
+      "kind": "whale"
+    },
+    {
+      "depth": 120,
+      "x": 0.25,
+      "kind": "fish"
+    },
+    {
+      "depth": 320,
+      "x": 0.7,
+      "kind": "jelly"
+    },
+    {
+      "depth": 560,
+      "x": 0.3,
+      "kind": "lantern"
+    },
+    {
+      "depth": 1050,
+      "x": 0.62,
+      "kind": "whale"
+    },
+    {
+      "depth": 1150,
+      "x": 0.3,
+      "kind": "squid"
+    },
+    {
+      "depth": 1700,
+      "x": 0.7,
+      "kind": "angler"
+    },
+    {
+      "depth": 2250,
+      "x": 0.3,
+      "kind": "whale"
+    },
+    {
+      "depth": 2600,
+      "x": 0.7,
+      "kind": "gulper"
+    },
+    {
+      "depth": 2985,
+      "x": 0.6,
+      "kind": "whale"
+    },
+    {
+      "depth": 2970,
+      "x": 0.25,
+      "kind": "squid"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3,
+      "heading": "One breath",
+      "text": "You're holding your breath. And you're following a whale three kilometres down."
+    },
+    {
+      "from": 3,
+      "to": 9,
+      "heading": "The diver",
+      "text": "Meet Cuvier's beaked whale, up to eight metres long. It takes one breath at the surface, and dives.",
+      "source": "Cuvier's beaked whale, Wikipedia",
+      "beats": [
+        {
+          "word": "eight",
+          "kind": "stat",
+          "value": "8 m",
+          "label": "long, at most"
+        }
+      ]
+    },
+    {
+      "from": 9,
+      "to": 15,
+      "heading": "Sunlight zone",
+      "text": "Two hundred metres down, the sunlight zone ends. Above you, the light is already fading.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "fading",
+          "kind": "warning",
+          "value": "LIGHT FADING"
+        }
+      ]
+    },
+    {
+      "from": 15,
+      "to": 21,
+      "heading": "1,000 m down",
+      "text": "Past a thousand metres, no sunlight reaches at all. The whale hunts squid here, in total darkness.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "darkness",
+          "kind": "stamp",
+          "value": "TOTAL DARKNESS"
+        }
+      ]
+    },
+    {
+      "from": 21,
+      "to": 27,
+      "heading": "2,250 m down",
+      "text": "Two thousand two hundred and fifty metres. That's as deep as a sperm whale can go.",
+      "source": "Sperm whale, Wikipedia",
+      "beats": [
+        {
+          "word": "sperm",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "Sperm whale dive",
+            "subjectValue": 2250,
+            "unit": "m",
+            "note": "Nearly 3 Burj Khalifas"
+          }
+        }
+      ]
+    },
+    {
+      "from": 27,
+      "to": 33,
+      "heading": "2,992 m down",
+      "text": "But our whale keeps going. Two thousand nine hundred and ninety-two metres: the deepest dive ever recorded for a mammal.",
+      "source": "Schorr et al., PLOS ONE 2014",
+      "beats": [
+        {
+          "word": "deepest",
+          "kind": "stamp",
+          "value": "MAMMAL RECORD"
+        },
+        {
+          "word": "keeps",
+          "kind": "compare",
+          "compare": {
+            "name": "Sperm whale",
+            "value": 2250,
+            "icon": "whale",
+            "subject": "Cuvier's beaked whale",
+            "subjectValue": 2992,
+            "unit": "m",
+            "note": "742 m deeper"
+          }
+        }
+      ]
+    },
+    {
+      "from": 33,
+      "to": 39,
+      "heading": "The pressure",
+      "text": "Down here, the water presses nearly three hundred times harder than the air at the surface.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "presses",
+          "kind": "warning",
+          "value": "CRUSHING PRESSURE"
+        }
+      ]
+    },
+    {
+      "from": 39,
+      "to": 46,
+      "heading": "The twist",
+      "text": "The twist? One of these whales stayed under for two hundred and twenty-two minutes. That's over three and a half hours.",
+      "source": "Guinness World Records",
+      "beats": [
+        {
+          "word": "minutes",
+          "kind": "stat",
+          "value": "222 min",
+          "label": "on one breath"
+        },
+        {
+          "word": "hours",
+          "kind": "stamp",
+          "value": "3 HOURS 42 MIN"
+        }
+      ]
+    },
+    {
+      "from": 46,
+      "to": 52,
+      "heading": "Your turn",
+      "text": "And you? You'd need a submarine. How long can you hold your breath? Tell us your time."
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 2.6
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:1000"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:2992"
+    },
+    {
+      "need": "hull_creak",
+      "at": 34
+    }
+  ],
+  "skit": {
+    "text": "Three and a half hours on one breath? I can't go one minute without Wi-Fi.",
+    "mood": "gasp",
+    "action": "*nervous beep*"
+  },
+  "seed": "sperm-whale-dive",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you followed a whale on its deepest dive?",
+      "Following the deepest-diving mammal on Earth, 3 km down"
+    ],
+    "description": "Dive with a Cuvier's beaked whale through the sunlight, twilight and midnight zones, past the sperm whale's limit to 2,992 metres, the deepest dive any mammal has made, and find out how long it can stay down.",
+    "tags": [
+      "cuviers beaked whale",
+      "deepest dive",
+      "whales",
+      "deep sea",
+      "ocean zones",
+      "marine biology",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Cuvier's beaked whales reach about 4.5–8 m long, eat mainly squid, and hold the records for the deepest and longest dives documented for any mammal",
+      "url": "https://en.wikipedia.org/wiki/Cuvier%27s_beaked_whale"
+    },
+    {
+      "claim": "Eight tagged Cuvier's beaked whales off Southern California made dives to 2,992 m, the deepest recorded for a mammal (Schorr et al. 2014)",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092633"
+    },
+    {
+      "claim": "Longest dive by a mammal: a Cuvier's beaked whale off Cape Hatteras stayed under for 222 minutes (3 h 42 min)",
+      "url": "https://www.guinnessworldrecords.com/world-records/341455-longest-dive-by-a-mammal"
+    },
+    {
+      "claim": "Sperm whales dive to about 2,250 m",
+      "url": "https://en.wikipedia.org/wiki/Sperm_whale"
+    },
+    {
+      "claim": "The upper 200 m is the sunlight zone; below 1,000 m sunlight does not reach",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+    },
+    {
+      "claim": "Pressure rises by one atmosphere for every 10.06 m of depth, so about 300 atm at 2,992 m",
+      "url": "https://oceanservice.noaa.gov/facts/pressure.html"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ]
+}
