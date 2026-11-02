@@ -503,7 +503,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · sperm-whale-dive · 64s</i>\n\n<b>A:</b> What if you followed a whale on its deepest dive?\n<b>B:</b> Following the deepest-diving mammal on Earth, 3 km down\n\n✅ QC passed\n📅 Approving schedules it for <b>Tue 03 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793642097.9880614
+    "status": "PUBLISHED",
+    "created_at": 1793642097.9880614,
+    "updated_at": 1793642126.9227195,
+    "title_used": "What if you followed a whale on its deepest dive?",
+    "video_id": "T_2ozZAbwQE",
+    "youtube_url": "https://youtube.com/shorts/T_2ozZAbwQE",
+    "scheduled_at": null
   }
 }
