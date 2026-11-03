@@ -1,0 +1,1260 @@
+{
+  "template": "Scale",
+  "title": "How small is Earth, really?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 1,
+      "name": "The Sun",
+      "value": "1.39M km",
+      "caption": "WIDE",
+      "kind": "star",
+      "radiusKm": 696000
+    },
+    {
+      "line": 3,
+      "name": "Sirius",
+      "value": "1.7\u00d7 Sun",
+      "caption": "WIDTH",
+      "kind": "star",
+      "radiusKm": 1192700,
+      "colours": [
+        "#E8F4FF",
+        "#9CC8FF",
+        "#4F7FE0"
+      ]
+    },
+    {
+      "line": 4,
+      "name": "Arcturus",
+      "value": "25\u00d7 Sun",
+      "caption": "WIDTH",
+      "kind": "star",
+      "radiusKm": 17670800,
+      "colours": [
+        "#FFD9A8",
+        "#FFA552",
+        "#D9702A"
+      ]
+    },
+    {
+      "line": 5,
+      "name": "Rigel",
+      "value": "74\u00d7 Sun",
+      "caption": "WIDTH",
+      "kind": "star",
+      "radiusKm": 51551000,
+      "colours": [
+        "#E8F4FF",
+        "#9CC8FF",
+        "#4F7FE0"
+      ]
+    },
+    {
+      "line": 6,
+      "name": "Antares",
+      "value": "680\u00d7 Sun",
+      "caption": "WIDTH",
+      "kind": "star",
+      "radiusKm": 473076000,
+      "colours": [
+        "#FFB38A",
+        "#F2603A",
+        "#B8321E"
+      ]
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 4.421,
+      "heading": "How small is Earth?",
+      "text": "You think Earth is big? Watch what happens when we line it up with the stars.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.305,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.317,
+          "end": 0.507,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.519,
+          "end": 0.674,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 0.686,
+          "end": 0.805,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 0.817,
+          "end": 1.126,
+          "char": 19,
+          "len": 3
+        },
+        {
+          "start": 1.519,
+          "end": 1.709,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 1.721,
+          "end": 1.829,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 1.84,
+          "end": 2.209,
+          "char": 35,
+          "len": 7
+        },
+        {
+          "start": 2.221,
+          "end": 2.329,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 2.34,
+          "end": 2.436,
+          "char": 48,
+          "len": 2
+        },
+        {
+          "start": 2.448,
+          "end": 2.686,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 2.698,
+          "end": 2.769,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 2.781,
+          "end": 2.912,
+          "char": 59,
+          "len": 2
+        },
+        {
+          "start": 2.924,
+          "end": 3.031,
+          "char": 62,
+          "len": 4
+        },
+        {
+          "start": 3.043,
+          "end": 3.114,
+          "char": 67,
+          "len": 3
+        },
+        {
+          "start": 3.126,
+          "end": 3.674,
+          "char": 71,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 4.421,
+      "to": 8.274,
+      "heading": "The Sun",
+      "text": "Now the Sun. It's about a hundred times wider than Earth.",
+      "source": "NASA Sun facts",
+      "beats": [
+        {
+          "word": "hundred",
+          "kind": "stat",
+          "value": "100\u00d7",
+          "label": "wider than Earth"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.666,
+          "end": 4.785,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 4.797,
+          "end": 4.881,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 4.892,
+          "end": 5.25,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 5.642,
+          "end": 5.738,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 5.75,
+          "end": 5.964,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 5.976,
+          "end": 6.0,
+          "char": 24,
+          "len": 1
+        },
+        {
+          "start": 6.011,
+          "end": 6.38,
+          "char": 26,
+          "len": 7
+        },
+        {
+          "start": 6.392,
+          "end": 6.726,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 6.738,
+          "end": 7.059,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 7.071,
+          "end": 7.178,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 7.19,
+          "end": 7.535,
+          "char": 51,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 8.274,
+      "to": 13.54,
+      "heading": "Just average",
+      "text": "And yet NASA calls it only an average star. Some stars are a hundred times bigger.",
+      "source": "NASA Sun facts",
+      "beats": [
+        {
+          "word": "average",
+          "kind": "stamp",
+          "value": "JUST AVERAGE"
+        }
+      ],
+      "words": [
+        {
+          "start": 8.519,
+          "end": 8.579,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 8.591,
+          "end": 8.745,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 8.757,
+          "end": 9.091,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 9.103,
+          "end": 9.388,
+          "char": 13,
+          "len": 5
+        },
+        {
+          "start": 9.4,
+          "end": 9.484,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 9.579,
+          "end": 9.841,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 9.853,
+          "end": 9.924,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 9.936,
+          "end": 10.234,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 10.245,
+          "end": 10.662,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 11.067,
+          "end": 11.245,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 11.257,
+          "end": 11.614,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 11.626,
+          "end": 11.71,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 11.722,
+          "end": 11.757,
+          "char": 59,
+          "len": 1
+        },
+        {
+          "start": 11.769,
+          "end": 12.103,
+          "char": 61,
+          "len": 7
+        },
+        {
+          "start": 12.114,
+          "end": 12.388,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 12.4,
+          "end": 12.793,
+          "char": 75,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 13.54,
+      "to": 20.057,
+      "heading": "Sirius",
+      "text": "Sirius, the brightest star in our night sky, is about one point seven times wider than the Sun.",
+      "source": "Sirius, Wikipedia",
+      "beats": [
+        {
+          "word": "brightest",
+          "kind": "stamp",
+          "value": "BRIGHTEST STAR"
+        }
+      ],
+      "words": [
+        {
+          "start": 13.797,
+          "end": 14.428,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 14.607,
+          "end": 14.714,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 14.726,
+          "end": 15.119,
+          "char": 12,
+          "len": 9
+        },
+        {
+          "start": 15.13,
+          "end": 15.44,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 15.452,
+          "end": 15.523,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 15.535,
+          "end": 15.619,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 15.63,
+          "end": 15.857,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 15.869,
+          "end": 16.321,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 16.678,
+          "end": 16.773,
+          "char": 45,
+          "len": 2
+        },
+        {
+          "start": 16.785,
+          "end": 17.083,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 17.095,
+          "end": 17.333,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 17.345,
+          "end": 17.642,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 17.654,
+          "end": 18.035,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 18.047,
+          "end": 18.369,
+          "char": 70,
+          "len": 5
+        },
+        {
+          "start": 18.38,
+          "end": 18.738,
+          "char": 76,
+          "len": 5
+        },
+        {
+          "start": 18.75,
+          "end": 18.869,
+          "char": 82,
+          "len": 4
+        },
+        {
+          "start": 18.88,
+          "end": 18.94,
+          "char": 87,
+          "len": 3
+        },
+        {
+          "start": 18.952,
+          "end": 19.309,
+          "char": 91,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 20.057,
+      "to": 26.283,
+      "heading": "Arcturus",
+      "text": "Arcturus, a red giant thirty-seven light-years away, is over twenty-five Suns wide.",
+      "source": "Arcturus, Wikipedia",
+      "beats": [
+        {
+          "word": "thirty-seven",
+          "kind": "stat",
+          "value": "36.7 ly",
+          "label": "away from Earth"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.302,
+          "end": 20.981,
+          "char": 0,
+          "len": 8
+        },
+        {
+          "start": 21.159,
+          "end": 21.219,
+          "char": 10,
+          "len": 1
+        },
+        {
+          "start": 21.231,
+          "end": 21.588,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 21.6,
+          "end": 21.957,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 21.969,
+          "end": 22.647,
+          "char": 22,
+          "len": 12
+        },
+        {
+          "start": 22.659,
+          "end": 23.124,
+          "char": 35,
+          "len": 11
+        },
+        {
+          "start": 23.136,
+          "end": 23.528,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 23.874,
+          "end": 24.028,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 24.04,
+          "end": 24.243,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 24.255,
+          "end": 24.826,
+          "char": 61,
+          "len": 11
+        },
+        {
+          "start": 24.838,
+          "end": 25.136,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 25.147,
+          "end": 25.54,
+          "char": 78,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 26.283,
+      "to": 33.847,
+      "heading": "Rigel",
+      "text": "Rigel, in Orion, is over seventy Suns wide, and shines about a hundred and twenty thousand times brighter.",
+      "source": "Rigel, Wikipedia",
+      "beats": [
+        {
+          "word": "brighter",
+          "kind": "stat",
+          "value": "120,000\u00d7",
+          "label": "the Sun's light"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.528,
+          "end": 27.004,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 27.207,
+          "end": 27.373,
+          "char": 7,
+          "len": 2
+        },
+        {
+          "start": 27.433,
+          "end": 27.981,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 28.254,
+          "end": 28.373,
+          "char": 17,
+          "len": 2
+        },
+        {
+          "start": 28.385,
+          "end": 28.623,
+          "char": 20,
+          "len": 4
+        },
+        {
+          "start": 28.635,
+          "end": 29.064,
+          "char": 25,
+          "len": 7
+        },
+        {
+          "start": 29.076,
+          "end": 29.385,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 29.397,
+          "end": 29.826,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 30.183,
+          "end": 30.266,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 30.278,
+          "end": 30.683,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 30.695,
+          "end": 30.909,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 30.921,
+          "end": 30.945,
+          "char": 61,
+          "len": 1
+        },
+        {
+          "start": 30.957,
+          "end": 31.326,
+          "char": 63,
+          "len": 7
+        },
+        {
+          "start": 31.338,
+          "end": 31.433,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 31.445,
+          "end": 31.802,
+          "char": 75,
+          "len": 6
+        },
+        {
+          "start": 31.814,
+          "end": 32.278,
+          "char": 82,
+          "len": 8
+        },
+        {
+          "start": 32.29,
+          "end": 32.612,
+          "char": 91,
+          "len": 5
+        },
+        {
+          "start": 32.623,
+          "end": 33.1,
+          "char": 97,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 33.847,
+      "to": 42.309,
+      "heading": "Antares",
+      "text": "Then Antares, the red heart of Scorpius, about six hundred and eighty Suns wide. Put here, it would reach the asteroid belt.",
+      "source": "Antares, Wikipedia",
+      "beats": [
+        {
+          "word": "asteroid",
+          "kind": "stamp",
+          "value": "TO THE ASTEROIDS"
+        }
+      ],
+      "words": [
+        {
+          "start": 34.092,
+          "end": 34.247,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 34.259,
+          "end": 34.949,
+          "char": 5,
+          "len": 7
+        },
+        {
+          "start": 35.14,
+          "end": 35.235,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 35.247,
+          "end": 35.461,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 35.473,
+          "end": 35.735,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 35.747,
+          "end": 35.818,
+          "char": 28,
+          "len": 2
+        },
+        {
+          "start": 35.83,
+          "end": 36.521,
+          "char": 31,
+          "len": 8
+        },
+        {
+          "start": 36.747,
+          "end": 36.973,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 36.985,
+          "end": 37.306,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 37.318,
+          "end": 37.699,
+          "char": 51,
+          "len": 7
+        },
+        {
+          "start": 37.711,
+          "end": 37.83,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 37.961,
+          "end": 38.176,
+          "char": 63,
+          "len": 6
+        },
+        {
+          "start": 38.187,
+          "end": 38.509,
+          "char": 70,
+          "len": 4
+        },
+        {
+          "start": 38.521,
+          "end": 38.914,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 39.318,
+          "end": 39.449,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 39.461,
+          "end": 39.807,
+          "char": 85,
+          "len": 4
+        },
+        {
+          "start": 40.068,
+          "end": 40.116,
+          "char": 91,
+          "len": 2
+        },
+        {
+          "start": 40.128,
+          "end": 40.283,
+          "char": 94,
+          "len": 5
+        },
+        {
+          "start": 40.295,
+          "end": 40.545,
+          "char": 100,
+          "len": 5
+        },
+        {
+          "start": 40.557,
+          "end": 40.664,
+          "char": 106,
+          "len": 3
+        },
+        {
+          "start": 40.735,
+          "end": 41.247,
+          "char": 110,
+          "len": 8
+        },
+        {
+          "start": 41.259,
+          "end": 41.568,
+          "char": 119,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 42.309,
+      "to": 49.603,
+      "heading": "The twist",
+      "text": "The twist? Sirius has a tiny partner, a dead star about Earth's size. It weighs as much as the whole Sun.",
+      "source": "Sirius, Wikipedia",
+      "beats": [
+        {
+          "word": "weighs",
+          "kind": "stamp",
+          "value": "ONE WHOLE SUN"
+        },
+        {
+          "word": "dead",
+          "kind": "warning",
+          "value": "WHITE DWARF"
+        }
+      ],
+      "words": [
+        {
+          "start": 42.566,
+          "end": 42.614,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 42.626,
+          "end": 43.066,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 43.471,
+          "end": 43.935,
+          "char": 11,
+          "len": 6
+        },
+        {
+          "start": 43.947,
+          "end": 44.102,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 44.114,
+          "end": 44.173,
+          "char": 22,
+          "len": 1
+        },
+        {
+          "start": 44.185,
+          "end": 44.566,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 44.578,
+          "end": 44.995,
+          "char": 29,
+          "len": 7
+        },
+        {
+          "start": 45.352,
+          "end": 45.399,
+          "char": 38,
+          "len": 1
+        },
+        {
+          "start": 45.411,
+          "end": 45.614,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 45.626,
+          "end": 45.888,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 45.899,
+          "end": 46.138,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 46.149,
+          "end": 46.364,
+          "char": 56,
+          "len": 7
+        },
+        {
+          "start": 46.376,
+          "end": 46.864,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 47.257,
+          "end": 47.376,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 47.388,
+          "end": 47.673,
+          "char": 73,
+          "len": 6
+        },
+        {
+          "start": 47.685,
+          "end": 47.804,
+          "char": 80,
+          "len": 2
+        },
+        {
+          "start": 47.816,
+          "end": 48.054,
+          "char": 83,
+          "len": 4
+        },
+        {
+          "start": 48.066,
+          "end": 48.149,
+          "char": 88,
+          "len": 2
+        },
+        {
+          "start": 48.161,
+          "end": 48.221,
+          "char": 91,
+          "len": 3
+        },
+        {
+          "start": 48.233,
+          "end": 48.447,
+          "char": 95,
+          "len": 5
+        },
+        {
+          "start": 48.459,
+          "end": 48.864,
+          "char": 101,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 49.603,
+      "to": 57.219,
+      "heading": "So, is Earth small?",
+      "text": "So is Earth small? Next to Antares, it's a speck you can't even see. What's the biggest star you know?",
+      "words": [
+        {
+          "start": 49.86,
+          "end": 49.979,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 49.991,
+          "end": 50.098,
+          "char": 3,
+          "len": 2
+        },
+        {
+          "start": 50.11,
+          "end": 50.265,
+          "char": 6,
+          "len": 5
+        },
+        {
+          "start": 50.277,
+          "end": 50.67,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 51.063,
+          "end": 51.301,
+          "char": 19,
+          "len": 4
+        },
+        {
+          "start": 51.313,
+          "end": 51.396,
+          "char": 24,
+          "len": 2
+        },
+        {
+          "start": 51.408,
+          "end": 52.086,
+          "char": 27,
+          "len": 7
+        },
+        {
+          "start": 52.277,
+          "end": 52.372,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 52.384,
+          "end": 52.432,
+          "char": 41,
+          "len": 1
+        },
+        {
+          "start": 52.443,
+          "end": 52.741,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 52.753,
+          "end": 52.86,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 52.872,
+          "end": 53.134,
+          "char": 53,
+          "len": 5
+        },
+        {
+          "start": 53.146,
+          "end": 53.348,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 53.36,
+          "end": 53.729,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 54.122,
+          "end": 54.277,
+          "char": 69,
+          "len": 6
+        },
+        {
+          "start": 54.289,
+          "end": 54.396,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 54.408,
+          "end": 54.729,
+          "char": 80,
+          "len": 7
+        },
+        {
+          "start": 54.741,
+          "end": 54.932,
+          "char": 88,
+          "len": 4
+        },
+        {
+          "start": 54.943,
+          "end": 55.015,
+          "char": 93,
+          "len": 3
+        },
+        {
+          "start": 55.027,
+          "end": 55.277,
+          "char": 97,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How small is Earth, really?",
+    "flash": "680\u00d7 THE SUN",
+    "previewLine": 6
+  },
+  "skit": {
+    "text": "A speck you can't see? Relax, I'll just zoom in. Enhance!",
+    "mood": "smug",
+    "action": "*lens whirs*",
+    "from": 57.219,
+    "to": 65.188,
+    "words": [
+      {
+        "start": 57.764,
+        "end": 57.854,
+        "char": 0,
+        "len": 1
+      },
+      {
+        "start": 57.865,
+        "end": 58.192,
+        "char": 2,
+        "len": 5
+      },
+      {
+        "start": 58.203,
+        "end": 58.316,
+        "char": 8,
+        "len": 3
+      },
+      {
+        "start": 58.327,
+        "end": 58.609,
+        "char": 12,
+        "len": 5
+      },
+      {
+        "start": 58.62,
+        "end": 58.935,
+        "char": 18,
+        "len": 3
+      },
+      {
+        "start": 59.712,
+        "end": 60.309,
+        "char": 23,
+        "len": 5
+      },
+      {
+        "start": 60.534,
+        "end": 60.681,
+        "char": 30,
+        "len": 4
+      },
+      {
+        "start": 60.692,
+        "end": 60.985,
+        "char": 35,
+        "len": 4
+      },
+      {
+        "start": 60.996,
+        "end": 61.278,
+        "char": 40,
+        "len": 4
+      },
+      {
+        "start": 61.289,
+        "end": 61.57,
+        "char": 45,
+        "len": 2
+      },
+      {
+        "start": 62.347,
+        "end": 63.068,
+        "char": 49,
+        "len": 7
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you lined Earth up with the stars?",
+      "How small Earth really is next to the stars"
+    ],
+    "description": "Earth, the Sun, Sirius, Arcturus, Rigel and Antares side by side at true scale, and the Earth-sized dead star that weighs as much as the Sun.",
+    "tags": [
+      "earth to scale",
+      "star size comparison",
+      "antares",
+      "sirius",
+      "rigel",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "The Sun's radius is about 700,000 km, about 100 times wider than Earth; NASA calls it only an average star in size, with some stars up to 100 times larger",
+      "url": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "claim": "Sirius is the brightest star in the night sky; Sirius A's radius is 1.7144 solar radii; its companion Sirius B is a white dwarf with nearly Earth's diameter and a mass of 1.02 solar masses",
+      "url": "https://en.wikipedia.org/wiki/Sirius"
+    },
+    {
+      "claim": "Arcturus is a red giant 36.7 light-years away with a radius of about 25.4 solar radii",
+      "url": "https://en.wikipedia.org/wiki/Arcturus"
+    },
+    {
+      "claim": "Rigel, in Orion, has a radius of about 74.1 solar radii and a luminosity of about 120,000 Suns",
+      "url": "https://en.wikipedia.org/wiki/Rigel"
+    },
+    {
+      "claim": "Antares, the brightest star in Scorpius, has a radius of about 680 solar radii; placed at the centre of the Solar System it would extend into the asteroid belt",
+      "url": "https://en.wikipedia.org/wiki/Antares"
+    }
+  ],
+  "seed": "how-small-is-earth",
+  "voiceover": "audio/how-small-is-earth.mp3",
+  "music": "audio/how-small-is-earth_bed.mp3"
+}

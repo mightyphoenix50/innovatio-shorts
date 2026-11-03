@@ -1,0 +1,90 @@
+{
+  "dive_splash": {
+    "id": "fs-553563",
+    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
+    "start": 5.6,
+    "end": 8.0,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
+    "match_z": 4.63,
+    "p_real": 0.951
+  },
+  "sonar_ping": {
+    "id": "fs-70329",
+    "file": "audio/assets/sfx/fs-70329_sonar-dual-ping.ogg",
+    "start": 0.995,
+    "end": 1.675,
+    "license": "CC BY 4.0",
+    "attribution": "\"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/paulnorthyorks/sounds/70329/",
+    "match_z": 5.09,
+    "p_real": 0.013
+  },
+  "hull_creak": {
+    "id": "fs-697748",
+    "file": "audio/assets/sfx/fs-697748_metlimpt-metal-impact-creak-resonant-sdf.ogg",
+    "start": 0.057,
+    "end": 1.751,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/SoundDesignForYou/sounds/697748/",
+    "match_z": 4.59,
+    "p_real": 0.735
+  },
+  "seabed_thud": {
+    "id": "fs-828412",
+    "file": "audio/assets/sfx/fs-828412_custom-heavy-punch-kick-thud-impact-soun.ogg",
+    "start": 0.08,
+    "end": 1.68,
+    "license": "CC BY 4.0",
+    "attribution": "\"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Artninja/sounds/828412/",
+    "match_z": 4.56,
+    "p_real": 0.994
+  },
+  "whoosh": {
+    "id": "fs-391445",
+    "file": "audio/assets/sfx/fs-391445_ukulele-whoosh-2-wav.ogg",
+    "start": 0.46,
+    "end": 1.625,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/saturdaysoundguy/sounds/391445/",
+    "match_z": 3.24,
+    "p_real": 0.988
+  },
+  "cartoon_pop": {
+    "id": "fs-97978",
+    "file": "audio/assets/sfx/fs-97978_pop-aif.ogg",
+    "start": 0.054,
+    "end": 0.135,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/oldedgar/sounds/97978/",
+    "match_z": 5.56,
+    "p_real": 0.95
+  },
+  "impact_boom": {
+    "id": "fs-825790",
+    "file": "audio/assets/sfx/fs-825790_deep-underground-boom.ogg",
+    "start": 0.012,
+    "end": 2.012,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/ROHHSADOTCOM/sounds/825790/",
+    "match_z": 3.87,
+    "p_real": 0.518
+  },
+  "ui_click": {
+    "id": "fs-855481",
+    "file": "audio/assets/sfx/fs-855481_ui-pack-generative-sound-by-glorb.ogg",
+    "start": 1.51,
+    "end": 1.58,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/bassimat/sounds/855481/",
+    "match_z": 5.11,
+    "p_real": 0.032
+  }
+}

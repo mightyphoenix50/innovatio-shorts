@@ -510,5 +510,27 @@
     "video_id": "T_2ozZAbwQE",
     "youtube_url": "https://youtube.com/shorts/T_2ozZAbwQE",
     "scheduled_at": null
+  },
+  "59": {
+    "episode": "how-small-is-earth",
+    "video_path": "output/drafts/how-small-is-earth.mp4",
+    "titles": [
+      "What if you lined Earth up with the stars?",
+      "How small Earth really is next to the stars"
+    ],
+    "description": "Earth, the Sun, Sirius, Arcturus, Rigel and Antares side by side at true scale, and the Earth-sized dead star that weighs as much as the Sun.\n\nSources:\n- The Sun's radius is about 700,000 km, about 100 times wider than Earth; NASA calls it only an average star in size, with some stars up to 100 times larger: https://science.nasa.gov/sun/facts/\n- Sirius is the brightest star in the night sky; Sirius A's radius is 1.7144 solar radii; its companion Sirius B is a white dwarf with nearly Earth's diameter and a mass of 1.02 solar masses: https://en.wikipedia.org/wiki/Sirius\n- Arcturus is a red giant 36.7 light-years away with a radius of about 25.4 solar radii: https://en.wikipedia.org/wiki/Arcturus\n- Rigel, in Orion, has a radius of about 74.1 solar radii and a luminosity of about 120,000 Suns: https://en.wikipedia.org/wiki/Rigel\n- Antares, the brightest star in Scorpius, has a radius of about 680 solar radii; placed at the centre of the Solar System it would extend into the asteroid belt: https://en.wikipedia.org/wiki/Antares\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- \"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- whoosh: CC0 1.0, https://freesound.org/people/saturdaysoundguy/sounds/391445/\n- cartoon pop: CC0 1.0, https://freesound.org/people/oldedgar/sounds/97978/\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "earth to scale",
+      "star size comparison",
+      "antares",
+      "sirius",
+      "rigel",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · how-small-is-earth · 65s</i>\n\n<b>A:</b> What if you lined Earth up with the stars?\n<b>B:</b> How small Earth really is next to the stars\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 04 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793728144.4608908
   }
 }
