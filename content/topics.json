@@ -75,7 +75,8 @@
       "title": "How small is Earth, really?",
       "format": "Scale",
       "angle": "Earth → Sun → Sirius → Arcturus → Rigel → Antares; hook: you think Earth is big? Watch this.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-03"
     },
     {
       "slug": "sperm-whale-dive",
