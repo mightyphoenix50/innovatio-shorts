@@ -530,7 +530,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · how-small-is-earth · 65s</i>\n\n<b>A:</b> What if you lined Earth up with the stars?\n<b>B:</b> How small Earth really is next to the stars\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 04 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793728144.4608908
+    "status": "PUBLISHED",
+    "created_at": 1793728144.4608908,
+    "updated_at": 1793728231.9722173,
+    "title_used": "What if you lined Earth up with the stars?",
+    "video_id": "6dbDMU7x4zQ",
+    "youtube_url": "https://youtube.com/shorts/6dbDMU7x4zQ",
+    "scheduled_at": null
   }
 }
