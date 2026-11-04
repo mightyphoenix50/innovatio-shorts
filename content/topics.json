@@ -98,7 +98,8 @@
       "title": "What's under 4 km of Antarctic ice?",
       "format": "Fall-down",
       "angle": "Drill down through ice layers that are hundreds of thousands of years old to a lake sealed off for millions of years (Lake Vostok).",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-04"
     },
     {
       "slug": "sink-in-lake-baikal",
