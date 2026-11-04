@@ -557,7 +557,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · drill-through-antarctica · 71s</i>\n\n<b>A:</b> What if you drilled through 4 km of Antarctic ice?\n<b>B:</b> The lake hidden under 4 km of Antarctic ice\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 05 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793814338.7263553
+    "status": "PUBLISHED",
+    "created_at": 1793814338.7263553,
+    "updated_at": 1793814380.225632,
+    "title_used": "What if you drilled through 4 km of Antarctic ice?",
+    "video_id": "yJkfCEaEyl0",
+    "youtube_url": "https://youtube.com/shorts/yJkfCEaEyl0",
+    "scheduled_at": null
   }
 }
