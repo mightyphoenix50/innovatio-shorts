@@ -537,5 +537,27 @@
     "video_id": "6dbDMU7x4zQ",
     "youtube_url": "https://youtube.com/shorts/6dbDMU7x4zQ",
     "scheduled_at": null
+  },
+  "61": {
+    "episode": "drill-through-antarctica",
+    "video_path": "output/drafts/drill-through-antarctica.mp4",
+    "titles": [
+      "What if you drilled through 4 km of Antarctic ice?",
+      "The lake hidden under 4 km of Antarctic ice"
+    ],
+    "description": "Drill down from the coldest place on Earth through ice that fell as snow 414,000 years ago, to Lake Vostok, sealed off for millions of years and still liquid at minus three degrees.\n\nSources:\n- Vostok Station recorded −89.2 °C on 21 July 1983, the lowest reliably measured natural temperature on Earth; it sits at 3,488 m above sea level: https://en.wikipedia.org/wiki/Vostok_Station\n- The Vostok ice core gives climate data down to 3,310 m, or 414,000 years, covering about 420,000 years and four previous glacial periods: https://en.wikipedia.org/wiki/Vostok_Station\n- On 5 February 2012 a Russian team completed a 3,768 m borehole and pierced the ice to Lake Vostok, about 4,000 m below the ice surface: https://en.wikipedia.org/wiki/Lake_Vostok\n- Lake Vostok is 250 km long and may have been isolated for 15 to 25 million years: https://en.wikipedia.org/wiki/Lake_Vostok\n- The lake water averages about −3 °C and stays liquid because of the high pressure from the ice above: https://en.wikipedia.org/wiki/Lake_Vostok\n- Microbes were found in accretion ice frozen from the lake; whether life exists in the lake water itself is unconfirmed: https://en.wikipedia.org/wiki/Lake_Vostok\n- The Burj Khalifa's roof height is 828 m: https://en.wikipedia.org/wiki/Burj_Khalifa\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- sonar ping: CC0 1.0, https://freesound.org/people/Breviceps/sounds/493162/\n- whoosh: CC0 1.0, https://freesound.org/people/saturdaysoundguy/sounds/391445/\n- rock rumble: CC0 1.0, https://freesound.org/people/uagadugu/sounds/222521/\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "lake vostok",
+      "antarctica",
+      "ice core",
+      "subglacial lake",
+      "vostok station",
+      "earth science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · drill-through-antarctica · 71s</i>\n\n<b>A:</b> What if you drilled through 4 km of Antarctic ice?\n<b>B:</b> The lake hidden under 4 km of Antarctic ice\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 05 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793814338.7263553
   }
 }

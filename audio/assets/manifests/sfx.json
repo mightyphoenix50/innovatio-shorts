@@ -203,35 +203,6 @@
     }
   },
   {
-    "id": "fs-493162",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-493162_submarine-sonar.ogg",
-    "title": "Submarine Sonar",
-    "author": "Breviceps",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Breviceps/sounds/493162/",
-    "download_url": "https://cdn.freesound.org/previews/493/493162_9159316-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 4,
-    "best_segment": [
-      3.227,
-      4.97
-    ],
-    "duration_s": 9.44102,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 6.09,
-        "verdict": "strong"
-      },
-      "realness": 0.108
-    }
-  },
-  {
     "id": "fs-620434",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-620434_opening-garage-door-handle-9-wav.ogg",
@@ -638,122 +609,6 @@
     }
   },
   {
-    "id": "fs-51097",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-51097_sounds-for-earthquakes-radiator-metal-ru.ogg",
-    "title": "Sounds For Earthquakes - Radiator Metal Rumbling.wav",
-    "author": "RutgerMuller",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/RutgerMuller/sounds/51097/",
-    "download_url": "https://cdn.freesound.org/previews/51/51097_179538-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "rock_rumble",
-    "rank": 1,
-    "best_segment": [
-      1.855,
-      3.855
-    ],
-    "duration_s": 7.42195,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep rumble of rocks shaking underground",
-        "z": 3.74,
-        "verdict": "strong"
-      },
-      "realness": 0.921
-    }
-  },
-  {
-    "id": "fs-199803",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-199803_quake-short-wav.ogg",
-    "title": "Quake Short.wav",
-    "author": "TheMinkman",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/TheMinkman/sounds/199803/",
-    "download_url": "https://cdn.freesound.org/previews/199/199803_3491501-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "rock_rumble",
-    "rank": 2,
-    "best_segment": [
-      2.048,
-      4.048
-    ],
-    "duration_s": 12.2864,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep rumble of rocks shaking underground",
-        "z": 3.93,
-        "verdict": "strong"
-      },
-      "realness": 0.91
-    }
-  },
-  {
-    "id": "fs-275809",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-275809_earthquake-aif.ogg",
-    "title": "earthquake.aif",
-    "author": "dingus23",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/dingus23/sounds/275809/",
-    "download_url": "https://cdn.freesound.org/previews/275/275809_3295139-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"earthquake.aif\" by dingus23 (https://freesound.org/people/dingus23/sounds/275809/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "rock_rumble",
-    "rank": 3,
-    "best_segment": [
-      3.5,
-      5.455
-    ],
-    "duration_s": 5.45467,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep rumble of rocks shaking underground",
-        "z": 3.25,
-        "verdict": "strong"
-      },
-      "realness": 0.592
-    }
-  },
-  {
-    "id": "fs-222521",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-222521_cracking-earthquake-cracking-soil-cracki.ogg",
-    "title": "Cracking Earthquake (cracking soil, cracking stone)",
-    "author": "uagadugu",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/uagadugu/sounds/222521/",
-    "download_url": "https://cdn.freesound.org/previews/222/222521_255863-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "rock_rumble",
-    "rank": 4,
-    "best_segment": [
-      7.958,
-      9.958
-    ],
-    "duration_s": 11.9375,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep rumble of rocks shaking underground",
-        "z": 4.34,
-        "verdict": "strong"
-      },
-      "realness": 0.885
-    }
-  },
-  {
     "id": "fs-521392",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-521392_water-bubbles-loop.ogg",
@@ -957,35 +812,6 @@
     }
   },
   {
-    "id": "fs-817070",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-817070_toonpop-blue-snowball-microphone-cu-deta.ogg",
-    "title": "TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC",
-    "author": "designerschoice",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/designerschoice/sounds/817070/",
-    "download_url": "https://cdn.freesound.org/previews/817/817070_6951162-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC\" by designerschoice (https://freesound.org/people/designerschoice/sounds/817070/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "cartoon_pop",
-    "rank": 4,
-    "best_segment": [
-      0.011,
-      0.145
-    ],
-    "duration_s": 0.563084,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a short cute cartoon pop",
-        "z": 2.61,
-        "verdict": "plausible"
-      },
-      "realness": 0.992
-    }
-  },
-  {
     "id": "fs-12677",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-12677_sonar-pings-ogg.ogg",
@@ -1099,180 +925,6 @@
         "verdict": "no match"
       },
       "realness": 0.018
-    }
-  },
-  {
-    "id": "fs-67882",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-67882_dive-mixdown-wav.ogg",
-    "title": "dive_mixdown.wav",
-    "author": "gyzhor",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/gyzhor/sounds/67882/",
-    "download_url": "https://cdn.freesound.org/previews/67/67882_383523-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 1,
-    "best_segment": [
-      0.0,
-      2.4
-    ],
-    "duration_s": 9.66429,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 2.73,
-        "verdict": "plausible"
-      },
-      "realness": 0.757
-    }
-  },
-  {
-    "id": "fs-679404",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-679404_dipping-below-water.ogg",
-    "title": "Dipping below water",
-    "author": "adviseme333",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/adviseme333/sounds/679404/",
-    "download_url": "https://cdn.freesound.org/previews/679/679404_14805886-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 2,
-    "best_segment": [
-      2.4,
-      4.342
-    ],
-    "duration_s": 4.34213,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 4.08,
-        "verdict": "strong"
-      },
-      "realness": 0.946
-    }
-  },
-  {
-    "id": "fs-553563",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
-    "title": "Diver going underwater",
-    "author": "Mixigodo",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
-    "download_url": "https://cdn.freesound.org/previews/553/553563_3753531-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 3,
-    "best_segment": [
-      5.6,
-      8.0
-    ],
-    "duration_s": 11.178,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 4.63,
-        "verdict": "strong"
-      },
-      "realness": 0.951
-    }
-  },
-  {
-    "id": "fs-105341",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-105341_sonar-ping-pong-c-wav.ogg",
-    "title": "SONAR PING PONG C#.wav",
-    "author": "sandyrb",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/sandyrb/sounds/105341/",
-    "download_url": "https://cdn.freesound.org/previews/105/105341_14771-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"SONAR PING PONG C#.wav\" by sandyrb (https://freesound.org/people/sandyrb/sounds/105341/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "sonar_ping",
-    "rank": 1,
-    "best_segment": [
-      1.5,
-      2.605
-    ],
-    "duration_s": 3.89321,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 3.84,
-        "verdict": "strong"
-      },
-      "realness": 0.117
-    }
-  },
-  {
-    "id": "fs-70329",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-70329_sonar-dual-ping.ogg",
-    "title": "Sonar Dual Ping",
-    "author": "paulnorthyorks",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/paulnorthyorks/sounds/70329/",
-    "download_url": "https://cdn.freesound.org/previews/70/70329_1019270-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "sonar_ping",
-    "rank": 2,
-    "best_segment": [
-      0.995,
-      1.675
-    ],
-    "duration_s": 4.12501,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 5.09,
-        "verdict": "strong"
-      },
-      "realness": 0.013
-    }
-  },
-  {
-    "id": "fs-38703",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-38703_archi-sonar-04-wav.ogg",
-    "title": "archi_sonar_04.wav",
-    "author": "ElanHickler",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/ElanHickler/sounds/38703/",
-    "download_url": "https://cdn.freesound.org/previews/38/38703_107780-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "sonar_ping",
-    "rank": 3,
-    "best_segment": [
-      1.867,
-      3.23
-    ],
-    "duration_s": 4.0,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 4.65,
-        "verdict": "strong"
-      },
-      "realness": 0.125
     }
   },
   {
@@ -1537,6 +1189,238 @@
     }
   },
   {
+    "id": "fs-97978",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-97978_pop-aif.ogg",
+    "title": "Pop!.aif",
+    "author": "oldedgar",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/oldedgar/sounds/97978/",
+    "download_url": "https://cdn.freesound.org/previews/97/97978_1490788-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "cartoon_pop",
+    "rank": 4,
+    "best_segment": [
+      0.054,
+      0.135
+    ],
+    "duration_s": 3.08644,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 5.56,
+        "verdict": "strong"
+      },
+      "realness": 0.95
+    }
+  },
+  {
+    "id": "fs-67882",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-67882_dive-mixdown-wav.ogg",
+    "title": "dive_mixdown.wav",
+    "author": "gyzhor",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/gyzhor/sounds/67882/",
+    "download_url": "https://cdn.freesound.org/previews/67/67882_383523-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 1,
+    "best_segment": [
+      0.0,
+      2.4
+    ],
+    "duration_s": 9.66429,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a splash of a heavy object entering water",
+        "z": 2.73,
+        "verdict": "plausible"
+      },
+      "realness": 0.757
+    }
+  },
+  {
+    "id": "fs-679404",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-679404_dipping-below-water.ogg",
+    "title": "Dipping below water",
+    "author": "adviseme333",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/adviseme333/sounds/679404/",
+    "download_url": "https://cdn.freesound.org/previews/679/679404_14805886-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 2,
+    "best_segment": [
+      2.4,
+      4.342
+    ],
+    "duration_s": 4.34213,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a splash of a heavy object entering water",
+        "z": 4.08,
+        "verdict": "strong"
+      },
+      "realness": 0.946
+    }
+  },
+  {
+    "id": "fs-553563",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
+    "title": "Diver going underwater",
+    "author": "Mixigodo",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
+    "download_url": "https://cdn.freesound.org/previews/553/553563_3753531-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 3,
+    "best_segment": [
+      5.6,
+      8.0
+    ],
+    "duration_s": 11.178,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a splash of a heavy object entering water",
+        "z": 4.63,
+        "verdict": "strong"
+      },
+      "realness": 0.951
+    }
+  },
+  {
+    "id": "fs-105341",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-105341_sonar-ping-pong-c-wav.ogg",
+    "title": "SONAR PING PONG C#.wav",
+    "author": "sandyrb",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sandyrb/sounds/105341/",
+    "download_url": "https://cdn.freesound.org/previews/105/105341_14771-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"SONAR PING PONG C#.wav\" by sandyrb (https://freesound.org/people/sandyrb/sounds/105341/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "sonar_ping",
+    "rank": 1,
+    "best_segment": [
+      1.5,
+      2.605
+    ],
+    "duration_s": 3.89321,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 3.84,
+        "verdict": "strong"
+      },
+      "realness": 0.117
+    }
+  },
+  {
+    "id": "fs-70329",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-70329_sonar-dual-ping.ogg",
+    "title": "Sonar Dual Ping",
+    "author": "paulnorthyorks",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/paulnorthyorks/sounds/70329/",
+    "download_url": "https://cdn.freesound.org/previews/70/70329_1019270-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "sonar_ping",
+    "rank": 2,
+    "best_segment": [
+      0.995,
+      1.675
+    ],
+    "duration_s": 4.12501,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 5.09,
+        "verdict": "strong"
+      },
+      "realness": 0.013
+    }
+  },
+  {
+    "id": "fs-38703",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-38703_archi-sonar-04-wav.ogg",
+    "title": "archi_sonar_04.wav",
+    "author": "ElanHickler",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ElanHickler/sounds/38703/",
+    "download_url": "https://cdn.freesound.org/previews/38/38703_107780-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 3,
+    "best_segment": [
+      1.867,
+      3.23
+    ],
+    "duration_s": 4.0,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 4.65,
+        "verdict": "strong"
+      },
+      "realness": 0.125
+    }
+  },
+  {
+    "id": "fs-493162",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-493162_submarine-sonar.ogg",
+    "title": "Submarine Sonar",
+    "author": "Breviceps",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Breviceps/sounds/493162/",
+    "download_url": "https://cdn.freesound.org/previews/493/493162_9159316-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 4,
+    "best_segment": [
+      3.227,
+      4.97
+    ],
+    "duration_s": 9.44102,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 6.07,
+        "verdict": "strong"
+      },
+      "realness": 0.115
+    }
+  },
+  {
     "id": "fs-807286",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-807286_crt-tv-whoosh.ogg",
@@ -1653,6 +1537,122 @@
     }
   },
   {
+    "id": "fs-51097",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-51097_sounds-for-earthquakes-radiator-metal-ru.ogg",
+    "title": "Sounds For Earthquakes - Radiator Metal Rumbling.wav",
+    "author": "RutgerMuller",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/RutgerMuller/sounds/51097/",
+    "download_url": "https://cdn.freesound.org/previews/51/51097_179538-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "rock_rumble",
+    "rank": 1,
+    "best_segment": [
+      1.855,
+      3.855
+    ],
+    "duration_s": 7.42195,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep rumble of rocks shaking underground",
+        "z": 3.74,
+        "verdict": "strong"
+      },
+      "realness": 0.921
+    }
+  },
+  {
+    "id": "fs-199803",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-199803_quake-short-wav.ogg",
+    "title": "Quake Short.wav",
+    "author": "TheMinkman",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/TheMinkman/sounds/199803/",
+    "download_url": "https://cdn.freesound.org/previews/199/199803_3491501-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "rock_rumble",
+    "rank": 2,
+    "best_segment": [
+      2.048,
+      4.048
+    ],
+    "duration_s": 12.2864,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep rumble of rocks shaking underground",
+        "z": 3.93,
+        "verdict": "strong"
+      },
+      "realness": 0.91
+    }
+  },
+  {
+    "id": "fs-275809",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-275809_earthquake-aif.ogg",
+    "title": "earthquake.aif",
+    "author": "dingus23",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/dingus23/sounds/275809/",
+    "download_url": "https://cdn.freesound.org/previews/275/275809_3295139-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"earthquake.aif\" by dingus23 (https://freesound.org/people/dingus23/sounds/275809/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "rock_rumble",
+    "rank": 3,
+    "best_segment": [
+      3.5,
+      5.455
+    ],
+    "duration_s": 5.45467,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep rumble of rocks shaking underground",
+        "z": 3.25,
+        "verdict": "strong"
+      },
+      "realness": 0.592
+    }
+  },
+  {
+    "id": "fs-222521",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-222521_cracking-earthquake-cracking-soil-cracki.ogg",
+    "title": "Cracking Earthquake (cracking soil, cracking stone)",
+    "author": "uagadugu",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/uagadugu/sounds/222521/",
+    "download_url": "https://cdn.freesound.org/previews/222/222521_255863-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "rock_rumble",
+    "rank": 4,
+    "best_segment": [
+      7.958,
+      9.958
+    ],
+    "duration_s": 11.9375,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep rumble of rocks shaking underground",
+        "z": 4.34,
+        "verdict": "strong"
+      },
+      "realness": 0.885
+    }
+  },
+  {
     "id": "fs-463393",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-463393_vs-pop-7-mp3.ogg",
@@ -1740,32 +1740,32 @@
     }
   },
   {
-    "id": "fs-97978",
+    "id": "fs-817070",
     "category": "sfx",
-    "file": "audio/assets/sfx/fs-97978_pop-aif.ogg",
-    "title": "Pop!.aif",
-    "author": "oldedgar",
+    "file": "audio/assets/sfx/fs-817070_toonpop-blue-snowball-microphone-cu-deta.ogg",
+    "title": "TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC",
+    "author": "designerschoice",
     "source": "freesound",
-    "page_url": "https://freesound.org/people/oldedgar/sounds/97978/",
-    "download_url": "https://cdn.freesound.org/previews/97/97978_1490788-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
+    "page_url": "https://freesound.org/people/designerschoice/sounds/817070/",
+    "download_url": "https://cdn.freesound.org/previews/817/817070_6951162-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC\" by designerschoice (https://freesound.org/people/designerschoice/sounds/817070/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
     "need": "cartoon_pop",
     "rank": 4,
     "best_segment": [
-      0.054,
-      0.135
+      0.011,
+      0.145
     ],
-    "duration_s": 3.08644,
+    "duration_s": 0.563084,
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
     "earshot": {
       "match": {
         "query": "a short cute cartoon pop",
-        "z": 5.56,
-        "verdict": "strong"
+        "z": 2.63,
+        "verdict": "plausible"
       },
-      "realness": 0.95
+      "realness": 0.992
     }
   },
   {

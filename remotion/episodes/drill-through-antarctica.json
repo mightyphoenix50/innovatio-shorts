@@ -1,0 +1,1420 @@
+{
+  "template": "Fall",
+  "title": "What's under 4 km of Antarctic ice?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's hiding under Antarctica's ice?",
+    "flash": "\u22123 \u00b0C, NOT FROZEN",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.903,
+      0
+    ],
+    [
+      8.188,
+      40
+    ],
+    [
+      14.056,
+      100
+    ],
+    [
+      15.966,
+      400
+    ],
+    [
+      19.786,
+      1200
+    ],
+    [
+      22.16,
+      3310
+    ],
+    [
+      26.908,
+      3400
+    ],
+    [
+      28.771,
+      3500
+    ],
+    [
+      32.496,
+      3600
+    ],
+    [
+      34.922,
+      3768
+    ],
+    [
+      40.381,
+      3800
+    ],
+    [
+      42.715,
+      3950
+    ],
+    [
+      47.968,
+      4000
+    ],
+    [
+      50.236,
+      4050
+    ],
+    [
+      59.802,
+      4150
+    ]
+  ],
+  "maxDepth": 4200,
+  "fallAt": 3.903,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      100,
+      500
+    ],
+    [
+      1500,
+      1100
+    ],
+    [
+      3310,
+      1800
+    ],
+    [
+      3600,
+      2400
+    ],
+    [
+      3768,
+      3000
+    ],
+    [
+      4000,
+      3600
+    ],
+    [
+      4200,
+      4100
+    ],
+    [
+      4600,
+      4700
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 3310,
+      "name": "Ancient ice",
+      "colourTop": "#EAF5FA",
+      "colourBottom": "#CFE8F3",
+      "texture": "crystal"
+    },
+    {
+      "from": 3310,
+      "to": 3768,
+      "name": "The oldest ice",
+      "colourTop": "#CFE8F3",
+      "colourBottom": "#9CCBE3",
+      "texture": "crystal"
+    },
+    {
+      "from": 3768,
+      "to": 4200,
+      "name": "Lake Vostok",
+      "colourTop": "#4F8FB8",
+      "colourBottom": "#2D5F85",
+      "texture": "liquid"
+    },
+    {
+      "from": 4200,
+      "to": 4600,
+      "name": "Lake bed",
+      "colourTop": "#6B5A4A",
+      "colourBottom": "#5A4A3E",
+      "texture": "strata"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 3310,
+      "kind": "boundary",
+      "label": "Ice 414,000 years old",
+      "side": "left"
+    },
+    {
+      "depth": 3768,
+      "kind": "borehole",
+      "label": "Drill hit water \u00b7 3,768 m",
+      "side": "right"
+    },
+    {
+      "depth": 4000,
+      "kind": "boundary",
+      "label": "Lake Vostok \u00b7 ~4 km down",
+      "side": "left"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -89
+    ],
+    [
+      100,
+      -55
+    ],
+    [
+      3310,
+      -10
+    ],
+    [
+      3768,
+      -3
+    ],
+    [
+      4200,
+      -3
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      1
+    ],
+    [
+      3768,
+      335
+    ],
+    [
+      4200,
+      375
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.254,
+      "heading": "Under the ice",
+      "text": "Under your feet: four kilometres of ice. And under that, a hidden lake.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.424,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 0.436,
+          "end": 0.555,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 0.567,
+          "end": 0.924,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 1.221,
+          "end": 1.352,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 1.364,
+          "end": 1.948,
+          "char": 22,
+          "len": 10
+        },
+        {
+          "start": 1.96,
+          "end": 2.043,
+          "char": 33,
+          "len": 2
+        },
+        {
+          "start": 2.055,
+          "end": 2.531,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 2.924,
+          "end": 3.067,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 3.079,
+          "end": 3.269,
+          "char": 45,
+          "len": 5
+        },
+        {
+          "start": 3.281,
+          "end": 3.507,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 3.864,
+          "end": 3.9,
+          "char": 57,
+          "len": 1
+        },
+        {
+          "start": 3.912,
+          "end": 4.174,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 4.186,
+          "end": 4.507,
+          "char": 66,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 5.254,
+      "to": 14.056,
+      "heading": "Vostok Station",
+      "text": "This is Vostok Station, Antarctica. In 1983 it hit minus eighty-nine point two degrees, the coldest ever measured on Earth.",
+      "source": "Vostok Station, Wikipedia",
+      "beats": [
+        {
+          "word": "coldest",
+          "kind": "stamp",
+          "value": "COLDEST ON EARTH"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.499,
+          "end": 5.666,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 5.678,
+          "end": 5.773,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 5.785,
+          "end": 6.261,
+          "char": 8,
+          "len": 6
+        },
+        {
+          "start": 6.273,
+          "end": 6.749,
+          "char": 15,
+          "len": 7
+        },
+        {
+          "start": 6.916,
+          "end": 7.428,
+          "char": 24,
+          "len": 10
+        },
+        {
+          "start": 7.821,
+          "end": 8.868,
+          "char": 36,
+          "len": 7
+        },
+        {
+          "start": 8.88,
+          "end": 8.975,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 8.987,
+          "end": 9.202,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 9.214,
+          "end": 9.63,
+          "char": 51,
+          "len": 5
+        },
+        {
+          "start": 9.773,
+          "end": 10.225,
+          "char": 57,
+          "len": 11
+        },
+        {
+          "start": 10.237,
+          "end": 10.535,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 10.547,
+          "end": 10.714,
+          "char": 75,
+          "len": 3
+        },
+        {
+          "start": 10.725,
+          "end": 11.261,
+          "char": 79,
+          "len": 7
+        },
+        {
+          "start": 11.499,
+          "end": 11.606,
+          "char": 88,
+          "len": 3
+        },
+        {
+          "start": 11.618,
+          "end": 12.118,
+          "char": 92,
+          "len": 7
+        },
+        {
+          "start": 12.261,
+          "end": 12.452,
+          "char": 100,
+          "len": 4
+        },
+        {
+          "start": 12.464,
+          "end": 12.773,
+          "char": 105,
+          "len": 8
+        },
+        {
+          "start": 12.785,
+          "end": 12.928,
+          "char": 114,
+          "len": 2
+        },
+        {
+          "start": 12.94,
+          "end": 13.309,
+          "char": 117,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 14.056,
+      "to": 19.786,
+      "heading": "Going down",
+      "text": "The ice here is so thick, its surface sits three and a half kilometres above sea level.",
+      "source": "Vostok Station, Wikipedia",
+      "beats": [
+        {
+          "word": "thick",
+          "kind": "stat",
+          "value": "3,488 m",
+          "label": "above sea level"
+        }
+      ],
+      "words": [
+        {
+          "start": 14.301,
+          "end": 14.396,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 14.408,
+          "end": 14.646,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 14.658,
+          "end": 14.861,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 14.873,
+          "end": 14.98,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 14.992,
+          "end": 15.242,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 15.254,
+          "end": 15.682,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 15.968,
+          "end": 16.087,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 16.099,
+          "end": 16.516,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 16.527,
+          "end": 16.789,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 16.801,
+          "end": 17.146,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 17.158,
+          "end": 17.254,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 17.266,
+          "end": 17.313,
+          "char": 53,
+          "len": 1
+        },
+        {
+          "start": 17.325,
+          "end": 17.623,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 17.635,
+          "end": 18.194,
+          "char": 60,
+          "len": 10
+        },
+        {
+          "start": 18.206,
+          "end": 18.492,
+          "char": 71,
+          "len": 5
+        },
+        {
+          "start": 18.504,
+          "end": 18.694,
+          "char": 77,
+          "len": 3
+        },
+        {
+          "start": 18.706,
+          "end": 19.039,
+          "char": 81,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 19.786,
+      "to": 26.908,
+      "heading": "3,310 m down",
+      "text": "Three thousand three hundred and ten metres down, this ice fell as snow four hundred and fourteen thousand years ago.",
+      "source": "Vostok Station, Wikipedia",
+      "beats": [
+        {
+          "word": "snow",
+          "kind": "stat",
+          "value": "414,000 yrs",
+          "label": "old ice"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.091,
+          "end": 20.257,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 20.269,
+          "end": 20.746,
+          "char": 6,
+          "len": 8
+        },
+        {
+          "start": 20.757,
+          "end": 21.031,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 21.043,
+          "end": 21.365,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 21.376,
+          "end": 21.46,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 21.472,
+          "end": 21.698,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 21.71,
+          "end": 22.019,
+          "char": 37,
+          "len": 6
+        },
+        {
+          "start": 22.031,
+          "end": 22.341,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 22.722,
+          "end": 22.912,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 22.924,
+          "end": 23.162,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 23.174,
+          "end": 23.448,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 23.46,
+          "end": 23.555,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 23.567,
+          "end": 23.9,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 23.912,
+          "end": 24.234,
+          "char": 72,
+          "len": 4
+        },
+        {
+          "start": 24.246,
+          "end": 24.567,
+          "char": 77,
+          "len": 7
+        },
+        {
+          "start": 24.579,
+          "end": 24.662,
+          "char": 85,
+          "len": 3
+        },
+        {
+          "start": 24.674,
+          "end": 25.234,
+          "char": 89,
+          "len": 8
+        },
+        {
+          "start": 25.246,
+          "end": 25.626,
+          "char": 98,
+          "len": 8
+        },
+        {
+          "start": 25.638,
+          "end": 25.865,
+          "char": 107,
+          "len": 5
+        },
+        {
+          "start": 25.876,
+          "end": 26.162,
+          "char": 113,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 26.908,
+      "to": 32.496,
+      "heading": "Frozen history",
+      "text": "That one ice core is a record of Earth's climate stretching back through four ice ages.",
+      "source": "Vostok Station, Wikipedia",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "4",
+          "label": "ice ages on record"
+        }
+      ],
+      "words": [
+        {
+          "start": 27.153,
+          "end": 27.356,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 27.368,
+          "end": 27.57,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 27.582,
+          "end": 27.772,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 27.784,
+          "end": 28.106,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 28.177,
+          "end": 28.284,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 28.296,
+          "end": 28.332,
+          "char": 21,
+          "len": 1
+        },
+        {
+          "start": 28.344,
+          "end": 28.713,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 28.725,
+          "end": 28.808,
+          "char": 30,
+          "len": 2
+        },
+        {
+          "start": 28.879,
+          "end": 29.153,
+          "char": 33,
+          "len": 7
+        },
+        {
+          "start": 29.165,
+          "end": 29.57,
+          "char": 41,
+          "len": 7
+        },
+        {
+          "start": 29.582,
+          "end": 30.022,
+          "char": 49,
+          "len": 10
+        },
+        {
+          "start": 30.034,
+          "end": 30.403,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 30.582,
+          "end": 30.748,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 30.76,
+          "end": 31.082,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 31.094,
+          "end": 31.296,
+          "char": 78,
+          "len": 3
+        },
+        {
+          "start": 31.308,
+          "end": 31.748,
+          "char": 82,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 32.496,
+      "to": 40.381,
+      "heading": "Breakthrough",
+      "text": "Three thousand seven hundred and sixty-eight metres. In February 2012, Russian drillers finally broke through.",
+      "source": "Lake Vostok, Wikipedia",
+      "beats": [
+        {
+          "word": "broke",
+          "kind": "stamp",
+          "value": "BREAKTHROUGH"
+        },
+        {
+          "word": "drillers",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 0.83,
+            "icon": "tower",
+            "subject": "Ice drilled",
+            "subjectValue": 3.77,
+            "unit": "km",
+            "note": "Over 4 Burj Khalifas"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 32.801,
+          "end": 32.979,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 32.991,
+          "end": 33.467,
+          "char": 6,
+          "len": 8
+        },
+        {
+          "start": 33.479,
+          "end": 33.777,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 33.789,
+          "end": 34.11,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 34.217,
+          "end": 34.372,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 34.384,
+          "end": 34.932,
+          "char": 33,
+          "len": 11
+        },
+        {
+          "start": 34.944,
+          "end": 35.408,
+          "char": 45,
+          "len": 6
+        },
+        {
+          "start": 35.801,
+          "end": 35.896,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 35.908,
+          "end": 37.575,
+          "char": 56,
+          "len": 13
+        },
+        {
+          "start": 37.836,
+          "end": 38.122,
+          "char": 71,
+          "len": 7
+        },
+        {
+          "start": 38.134,
+          "end": 38.598,
+          "char": 79,
+          "len": 8
+        },
+        {
+          "start": 38.61,
+          "end": 39.015,
+          "char": 88,
+          "len": 7
+        },
+        {
+          "start": 39.027,
+          "end": 39.325,
+          "char": 96,
+          "len": 5
+        },
+        {
+          "start": 39.336,
+          "end": 39.634,
+          "char": 102,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 40.381,
+      "to": 47.968,
+      "heading": "Lake Vostok",
+      "text": "Below is Lake Vostok: two hundred and fifty kilometres long, and sealed off for perhaps fifteen million years.",
+      "source": "Lake Vostok, Wikipedia",
+      "beats": [
+        {
+          "word": "sealed",
+          "kind": "stat",
+          "value": "15M+ yrs",
+          "label": "sealed off"
+        }
+      ],
+      "words": [
+        {
+          "start": 40.638,
+          "end": 41.079,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 41.174,
+          "end": 41.305,
+          "char": 6,
+          "len": 2
+        },
+        {
+          "start": 41.317,
+          "end": 41.543,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 41.555,
+          "end": 42.162,
+          "char": 14,
+          "len": 6
+        },
+        {
+          "start": 42.424,
+          "end": 42.602,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 42.614,
+          "end": 42.864,
+          "char": 26,
+          "len": 7
+        },
+        {
+          "start": 42.876,
+          "end": 42.948,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 42.96,
+          "end": 43.317,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 43.329,
+          "end": 43.876,
+          "char": 44,
+          "len": 10
+        },
+        {
+          "start": 43.888,
+          "end": 44.269,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 44.567,
+          "end": 44.638,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 44.65,
+          "end": 45.007,
+          "char": 65,
+          "len": 6
+        },
+        {
+          "start": 45.019,
+          "end": 45.21,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 45.221,
+          "end": 45.329,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 45.341,
+          "end": 45.793,
+          "char": 80,
+          "len": 7
+        },
+        {
+          "start": 45.805,
+          "end": 46.388,
+          "char": 88,
+          "len": 7
+        },
+        {
+          "start": 46.4,
+          "end": 46.733,
+          "char": 96,
+          "len": 7
+        },
+        {
+          "start": 46.745,
+          "end": 47.221,
+          "char": 104,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 47.968,
+      "to": 55.34,
+      "heading": "The twist",
+      "text": "The twist? The water is minus three degrees, but it isn't frozen. Four kilometres of ice squeeze it liquid.",
+      "source": "Lake Vostok, Wikipedia",
+      "beats": [
+        {
+          "word": "frozen",
+          "kind": "stamp",
+          "value": "STILL LIQUID"
+        }
+      ],
+      "words": [
+        {
+          "start": 48.225,
+          "end": 48.273,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 48.285,
+          "end": 48.725,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 49.13,
+          "end": 49.189,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 49.201,
+          "end": 49.523,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 49.535,
+          "end": 49.642,
+          "char": 21,
+          "len": 2
+        },
+        {
+          "start": 49.654,
+          "end": 50.035,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 50.047,
+          "end": 50.249,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 50.261,
+          "end": 50.844,
+          "char": 36,
+          "len": 7
+        },
+        {
+          "start": 51.07,
+          "end": 51.201,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 51.213,
+          "end": 51.285,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 51.297,
+          "end": 51.511,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 51.523,
+          "end": 51.951,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 52.38,
+          "end": 52.463,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 52.475,
+          "end": 53.058,
+          "char": 71,
+          "len": 10
+        },
+        {
+          "start": 53.07,
+          "end": 53.166,
+          "char": 82,
+          "len": 2
+        },
+        {
+          "start": 53.178,
+          "end": 53.57,
+          "char": 85,
+          "len": 3
+        },
+        {
+          "start": 53.666,
+          "end": 54.118,
+          "char": 89,
+          "len": 7
+        },
+        {
+          "start": 54.13,
+          "end": 54.225,
+          "char": 97,
+          "len": 2
+        },
+        {
+          "start": 54.237,
+          "end": 54.594,
+          "char": 100,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 55.34,
+      "to": 62.671,
+      "heading": "Anyone home?",
+      "text": "Microbes turned up in ice frozen from this lake. So, is anything still alive down there?",
+      "source": "Lake Vostok, Wikipedia",
+      "words": [
+        {
+          "start": 55.585,
+          "end": 56.073,
+          "char": 0,
+          "len": 8
+        },
+        {
+          "start": 56.085,
+          "end": 56.335,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 56.347,
+          "end": 56.502,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 56.597,
+          "end": 56.716,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 56.811,
+          "end": 57.038,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 57.05,
+          "end": 57.478,
+          "char": 26,
+          "len": 6
+        },
+        {
+          "start": 57.49,
+          "end": 57.645,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 57.657,
+          "end": 57.835,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 57.847,
+          "end": 58.157,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 58.561,
+          "end": 58.847,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 59.204,
+          "end": 59.347,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 59.359,
+          "end": 59.704,
+          "char": 56,
+          "len": 8
+        },
+        {
+          "start": 59.716,
+          "end": 59.942,
+          "char": 65,
+          "len": 5
+        },
+        {
+          "start": 59.954,
+          "end": 60.252,
+          "char": 71,
+          "len": 5
+        },
+        {
+          "start": 60.264,
+          "end": 60.49,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 60.502,
+          "end": 60.728,
+          "char": 82,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "whoosh",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:3310"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:3700"
+    },
+    {
+      "need": "dive_splash",
+      "at": "depth:3768"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:4000"
+    }
+  ],
+  "skit": {
+    "text": "Minus three and still liquid? Finally, a place colder than my jokes.",
+    "mood": "laugh",
+    "action": "*shivers*",
+    "from": 62.671,
+    "to": 70.494,
+    "words": [
+      {
+        "start": 63.216,
+        "end": 63.7,
+        "char": 0,
+        "len": 5
+      },
+      {
+        "start": 63.712,
+        "end": 64.038,
+        "char": 6,
+        "len": 5
+      },
+      {
+        "start": 64.049,
+        "end": 64.218,
+        "char": 12,
+        "len": 3
+      },
+      {
+        "start": 64.23,
+        "end": 64.534,
+        "char": 16,
+        "len": 5
+      },
+      {
+        "start": 64.545,
+        "end": 64.984,
+        "char": 22,
+        "len": 6
+      },
+      {
+        "start": 65.761,
+        "end": 66.347,
+        "char": 30,
+        "len": 7
+      },
+      {
+        "start": 66.628,
+        "end": 66.696,
+        "char": 39,
+        "len": 1
+      },
+      {
+        "start": 66.707,
+        "end": 67.045,
+        "char": 41,
+        "len": 5
+      },
+      {
+        "start": 67.056,
+        "end": 67.473,
+        "char": 47,
+        "len": 6
+      },
+      {
+        "start": 67.484,
+        "end": 67.642,
+        "char": 54,
+        "len": 4
+      },
+      {
+        "start": 67.653,
+        "end": 67.822,
+        "char": 59,
+        "len": 2
+      },
+      {
+        "start": 67.833,
+        "end": 68.362,
+        "char": 62,
+        "len": 5
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you drilled through 4 km of Antarctic ice?",
+      "The lake hidden under 4 km of Antarctic ice"
+    ],
+    "description": "Drill down from the coldest place on Earth through ice that fell as snow 414,000 years ago, to Lake Vostok, sealed off for millions of years and still liquid at minus three degrees.",
+    "tags": [
+      "lake vostok",
+      "antarctica",
+      "ice core",
+      "subglacial lake",
+      "vostok station",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Vostok Station recorded \u221289.2 \u00b0C on 21 July 1983, the lowest reliably measured natural temperature on Earth; it sits at 3,488 m above sea level",
+      "url": "https://en.wikipedia.org/wiki/Vostok_Station"
+    },
+    {
+      "claim": "The Vostok ice core gives climate data down to 3,310 m, or 414,000 years, covering about 420,000 years and four previous glacial periods",
+      "url": "https://en.wikipedia.org/wiki/Vostok_Station"
+    },
+    {
+      "claim": "On 5 February 2012 a Russian team completed a 3,768 m borehole and pierced the ice to Lake Vostok, about 4,000 m below the ice surface",
+      "url": "https://en.wikipedia.org/wiki/Lake_Vostok"
+    },
+    {
+      "claim": "Lake Vostok is 250 km long and may have been isolated for 15 to 25 million years",
+      "url": "https://en.wikipedia.org/wiki/Lake_Vostok"
+    },
+    {
+      "claim": "The lake water averages about \u22123 \u00b0C and stays liquid because of the high pressure from the ice above",
+      "url": "https://en.wikipedia.org/wiki/Lake_Vostok"
+    },
+    {
+      "claim": "Microbes were found in accretion ice frozen from the lake; whether life exists in the lake water itself is unconfirmed",
+      "url": "https://en.wikipedia.org/wiki/Lake_Vostok"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ],
+  "seed": "drill-through-antarctica",
+  "voiceover": "audio/drill-through-antarctica.mp3",
+  "music": "audio/drill-through-antarctica_bed.mp3"
+}

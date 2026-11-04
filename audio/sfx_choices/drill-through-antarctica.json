@@ -1,0 +1,79 @@
+{
+  "dive_splash": {
+    "id": "fs-553563",
+    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
+    "start": 5.6,
+    "end": 8.0,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
+    "match_z": 4.63,
+    "p_real": 0.951
+  },
+  "sonar_ping": {
+    "id": "fs-493162",
+    "file": "audio/assets/sfx/fs-493162_submarine-sonar.ogg",
+    "start": 3.227,
+    "end": 4.97,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Breviceps/sounds/493162/",
+    "match_z": 6.07,
+    "p_real": 0.115
+  },
+  "whoosh": {
+    "id": "fs-391445",
+    "file": "audio/assets/sfx/fs-391445_ukulele-whoosh-2-wav.ogg",
+    "start": 0.46,
+    "end": 1.625,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/saturdaysoundguy/sounds/391445/",
+    "match_z": 3.24,
+    "p_real": 0.988
+  },
+  "rock_rumble": {
+    "id": "fs-222521",
+    "file": "audio/assets/sfx/fs-222521_cracking-earthquake-cracking-soil-cracki.ogg",
+    "start": 7.958,
+    "end": 9.958,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/uagadugu/sounds/222521/",
+    "match_z": 4.34,
+    "p_real": 0.885
+  },
+  "cartoon_pop": {
+    "id": "fs-463393",
+    "file": "audio/assets/sfx/fs-463393_vs-pop-7-mp3.ogg",
+    "start": 0.078,
+    "end": 0.16,
+    "license": "CC BY 4.0",
+    "attribution": "\"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463393/",
+    "match_z": 4.69,
+    "p_real": 0.687
+  },
+  "impact_boom": {
+    "id": "fs-825790",
+    "file": "audio/assets/sfx/fs-825790_deep-underground-boom.ogg",
+    "start": 0.012,
+    "end": 2.012,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/ROHHSADOTCOM/sounds/825790/",
+    "match_z": 3.87,
+    "p_real": 0.518
+  },
+  "ui_click": {
+    "id": "fs-855481",
+    "file": "audio/assets/sfx/fs-855481_ui-pack-generative-sound-by-glorb.ogg",
+    "start": 1.51,
+    "end": 1.58,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/bassimat/sounds/855481/",
+    "match_z": 5.11,
+    "p_real": 0.032
+  }
+}
