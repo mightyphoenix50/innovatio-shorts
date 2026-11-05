@@ -564,5 +564,27 @@
     "video_id": "yJkfCEaEyl0",
     "youtube_url": "https://youtube.com/shorts/yJkfCEaEyl0",
     "scheduled_at": null
+  },
+  "63": {
+    "episode": "dwarf-planets",
+    "video_path": "output/drafts/dwarf-planets.mp4",
+    "titles": [
+      "What if you lined up the planets that got demoted?",
+      "The dwarf planets, to scale, next to our Moon"
+    ],
+    "description": "Ceres, Makemake, Eris and Pluto side by side at true scale, why Pluto lost its planet status in 2006, and how it compares with our own Moon.\n\nSources:\n- Ceres has a mean radius of about 469.7 km (about 939 km across), was listed as a planet for over half a century, and holds about 40% of the asteroid belt's mass: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)\n- Makemake, in the Kuiper belt beyond Neptune, has a mean radius of 715 km and is named after the creator god of the Rapa Nui people of Easter Island: https://en.wikipedia.org/wiki/Makemake\n- Eris, discovered in 2005, is about 2,326 km across and about 27% more massive than Pluto; its size prompted the IAU to define 'planet', approved on 24 August 2006: https://en.wikipedia.org/wiki/Eris_(dwarf_planet)\n- Pluto, discovered in 1930, has a mean radius of 1,188.3 km (2,376.6 km across), became a dwarf planet under the 2006 IAU definition, is the largest known dwarf planet by volume, and has about one-sixth the Moon's mass: https://en.wikipedia.org/wiki/Pluto\n- The Moon's mean radius is 1,737.4 km (about 3,475 km across): https://en.wikipedia.org/wiki/Moon\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- sonar ping: CC0 1.0, https://freesound.org/people/martian/sounds/544311/\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"whoosh_into_hit_003.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461023/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- cartoon pop: CC0 1.0, https://freesound.org/people/oldedgar/sounds/97978/\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "pluto",
+      "dwarf planets",
+      "eris",
+      "ceres",
+      "makemake",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · dwarf-planets · 63s</i>\n\n<b>A:</b> What if you lined up the planets that got demoted?\n<b>B:</b> The dwarf planets, to scale, next to our Moon\n\n✅ QC passed\n📅 Approving schedules it for <b>Fri 06 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1793900843.9353278
   }
 }
