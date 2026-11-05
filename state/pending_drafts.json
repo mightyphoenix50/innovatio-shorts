@@ -584,7 +584,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · dwarf-planets · 63s</i>\n\n<b>A:</b> What if you lined up the planets that got demoted?\n<b>B:</b> The dwarf planets, to scale, next to our Moon\n\n✅ QC passed\n📅 Approving schedules it for <b>Fri 06 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793900843.9353278
+    "status": "PUBLISHED",
+    "created_at": 1793900843.9353278,
+    "updated_at": 1793909107.1323988,
+    "title_used": "What if you lined up the planets that got demoted?",
+    "video_id": "VDwtdg7EDXw",
+    "youtube_url": "https://youtube.com/shorts/VDwtdg7EDXw",
+    "scheduled_at": null
   }
 }
