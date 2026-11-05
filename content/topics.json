@@ -91,7 +91,8 @@
       "title": "The planets that got demoted",
       "format": "Scale",
       "angle": "Ceres → Makemake → Eris → Pluto → our Moon; twist: Pluto is smaller than our Moon.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-05"
     },
     {
       "slug": "drill-through-antarctica",
