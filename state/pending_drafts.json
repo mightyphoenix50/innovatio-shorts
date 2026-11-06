@@ -611,7 +611,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · sink-in-lake-baikal · 66s</i>\n\n<b>A:</b> What if you sank to the bottom of the deepest lake?\n<b>B:</b> Sinking 1,642 m to the bottom of Lake Baikal\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 07 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1793987205.1162071
+    "status": "PUBLISHED",
+    "created_at": 1793987205.1162071,
+    "updated_at": 1793987238.1561592,
+    "title_used": "What if you sank to the bottom of the deepest lake?",
+    "video_id": "8ZgqwRm0U6A",
+    "youtube_url": "https://youtube.com/shorts/8ZgqwRm0U6A",
+    "scheduled_at": null
   }
 }
