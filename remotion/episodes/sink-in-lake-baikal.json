@@ -1,0 +1,1376 @@
+{
+  "title": "What if you sank to the bottom of the deepest lake?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's at the bottom of Lake Baikal?",
+    "flash": "1,642 m DEEP",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      5.561,
+      0
+    ],
+    [
+      7.725,
+      20
+    ],
+    [
+      12.054,
+      35
+    ],
+    [
+      13.853,
+      50
+    ],
+    [
+      17.452,
+      60
+    ],
+    [
+      19.592,
+      90
+    ],
+    [
+      23.871,
+      110
+    ],
+    [
+      26.014,
+      180
+    ],
+    [
+      30.299,
+      250
+    ],
+    [
+      32.183,
+      300
+    ],
+    [
+      35.952,
+      380
+    ],
+    [
+      38.144,
+      1642
+    ],
+    [
+      55.663,
+      1642
+    ]
+  ],
+  "maxDepth": 1642,
+  "colours": [
+    [
+      0,
+      [
+        46,
+        150,
+        170
+      ]
+    ],
+    [
+      100,
+      [
+        20,
+        92,
+        120
+      ]
+    ],
+    [
+      500,
+      [
+        6,
+        40,
+        62
+      ]
+    ],
+    [
+      1000,
+      [
+        2,
+        20,
+        34
+      ]
+    ],
+    [
+      1642,
+      [
+        1,
+        12,
+        22
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 100,
+      "name": "Clear surface water",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 100,
+      "to": 500,
+      "name": "Golomyanka depths",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 500,
+      "to": 1642,
+      "name": "The deep",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      10
+    ],
+    [
+      100,
+      5
+    ],
+    [
+      300,
+      3.3
+    ],
+    [
+      1642,
+      3.3
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 20,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 65,
+      "x": 0.7,
+      "kind": "amph"
+    },
+    {
+      "depth": 75,
+      "x": 0.35,
+      "kind": "amph"
+    },
+    {
+      "depth": 150,
+      "x": 0.65,
+      "kind": "fish"
+    },
+    {
+      "depth": 260,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 700,
+      "x": 0.7,
+      "kind": "amph"
+    },
+    {
+      "depth": 1000,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 1400,
+      "x": 0.65,
+      "kind": "amph"
+    },
+    {
+      "depth": 1620,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 1635,
+      "x": 0.7,
+      "kind": "amph"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.561,
+      "heading": "Lake Baikal",
+      "text": "You're sinking into the deepest lake on Earth. And it's full of life found nowhere else.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.364,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.376,
+          "end": 0.793,
+          "char": 7,
+          "len": 7
+        },
+        {
+          "start": 0.805,
+          "end": 0.971,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 0.983,
+          "end": 1.126,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 1.174,
+          "end": 1.602,
+          "char": 24,
+          "len": 7
+        },
+        {
+          "start": 1.614,
+          "end": 1.84,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 1.852,
+          "end": 1.995,
+          "char": 37,
+          "len": 2
+        },
+        {
+          "start": 2.007,
+          "end": 2.352,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 2.745,
+          "end": 2.805,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 2.817,
+          "end": 2.936,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 2.948,
+          "end": 3.138,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 3.15,
+          "end": 3.233,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 3.245,
+          "end": 3.591,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 3.71,
+          "end": 3.983,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 3.995,
+          "end": 4.388,
+          "char": 75,
+          "len": 7
+        },
+        {
+          "start": 4.4,
+          "end": 4.817,
+          "char": 83,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 5.561,
+      "to": 12.054,
+      "heading": "A fifth of it all",
+      "text": "Lake Baikal, in Siberia, holds more than a fifth of all the fresh water on Earth's surface.",
+      "source": "Lake Baikal, Wikipedia",
+      "beats": [
+        {
+          "word": "fifth",
+          "kind": "stat",
+          "value": "22\u201323%",
+          "label": "of Earth's fresh surface water"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.806,
+          "end": 6.009,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 6.021,
+          "end": 6.485,
+          "char": 5,
+          "len": 6
+        },
+        {
+          "start": 6.83,
+          "end": 6.913,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 6.925,
+          "end": 7.592,
+          "char": 16,
+          "len": 7
+        },
+        {
+          "start": 7.949,
+          "end": 8.175,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 8.187,
+          "end": 8.413,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 8.425,
+          "end": 8.532,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 8.544,
+          "end": 8.592,
+          "char": 41,
+          "len": 1
+        },
+        {
+          "start": 8.604,
+          "end": 8.973,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 8.985,
+          "end": 9.116,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 9.235,
+          "end": 9.461,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 9.473,
+          "end": 9.556,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 9.568,
+          "end": 9.89,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 9.901,
+          "end": 10.294,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 10.378,
+          "end": 10.485,
+          "char": 72,
+          "len": 2
+        },
+        {
+          "start": 10.497,
+          "end": 10.711,
+          "char": 75,
+          "len": 7
+        },
+        {
+          "start": 10.723,
+          "end": 11.306,
+          "char": 83,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 12.054,
+      "to": 17.452,
+      "heading": "Crystal clear",
+      "text": "In winter, you can see thirty to forty metres down through its crystal-clear water.",
+      "source": "Lake Baikal, Wikipedia",
+      "beats": [
+        {
+          "word": "crystal",
+          "kind": "stamp",
+          "value": "CRYSTAL CLEAR"
+        }
+      ],
+      "words": [
+        {
+          "start": 12.299,
+          "end": 12.43,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 12.442,
+          "end": 12.883,
+          "char": 3,
+          "len": 6
+        },
+        {
+          "start": 13.121,
+          "end": 13.204,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 13.216,
+          "end": 13.347,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 13.359,
+          "end": 13.609,
+          "char": 19,
+          "len": 3
+        },
+        {
+          "start": 13.621,
+          "end": 13.966,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 13.978,
+          "end": 14.085,
+          "char": 30,
+          "len": 2
+        },
+        {
+          "start": 14.097,
+          "end": 14.478,
+          "char": 33,
+          "len": 5
+        },
+        {
+          "start": 14.49,
+          "end": 14.835,
+          "char": 39,
+          "len": 6
+        },
+        {
+          "start": 14.847,
+          "end": 15.228,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 15.335,
+          "end": 15.502,
+          "char": 51,
+          "len": 7
+        },
+        {
+          "start": 15.514,
+          "end": 15.633,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 15.644,
+          "end": 16.311,
+          "char": 63,
+          "len": 13
+        },
+        {
+          "start": 16.323,
+          "end": 16.704,
+          "char": 77,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 17.452,
+      "to": 23.871,
+      "heading": "Found nowhere else",
+      "text": "Look closer. More than three hundred and fifty kinds of tiny amphipods live here, and nowhere else.",
+      "source": "Lake Baikal, Wikipedia",
+      "beats": [
+        {
+          "word": "fifty",
+          "kind": "stat",
+          "value": "350+",
+          "label": "amphipod species, only here"
+        }
+      ],
+      "words": [
+        {
+          "start": 17.697,
+          "end": 17.828,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 17.84,
+          "end": 18.281,
+          "char": 5,
+          "len": 6
+        },
+        {
+          "start": 18.673,
+          "end": 18.84,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 18.852,
+          "end": 19.007,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 19.019,
+          "end": 19.269,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 19.281,
+          "end": 19.519,
+          "char": 29,
+          "len": 7
+        },
+        {
+          "start": 19.531,
+          "end": 19.59,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 19.602,
+          "end": 19.983,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 19.995,
+          "end": 20.316,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 20.328,
+          "end": 20.412,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 20.423,
+          "end": 20.864,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 20.876,
+          "end": 21.447,
+          "char": 61,
+          "len": 9
+        },
+        {
+          "start": 21.459,
+          "end": 21.685,
+          "char": 71,
+          "len": 4
+        },
+        {
+          "start": 21.697,
+          "end": 21.995,
+          "char": 76,
+          "len": 4
+        },
+        {
+          "start": 22.281,
+          "end": 22.352,
+          "char": 82,
+          "len": 3
+        },
+        {
+          "start": 22.364,
+          "end": 22.709,
+          "char": 86,
+          "len": 7
+        },
+        {
+          "start": 22.721,
+          "end": 23.126,
+          "char": 94,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 23.871,
+      "to": 30.299,
+      "heading": "See-through fish",
+      "text": "Below a hundred metres, see-through golomyanka fish drift by. Baikal's seals live mostly on them.",
+      "source": "Baikal oilfish, Wikipedia",
+      "beats": [
+        {
+          "word": "seals",
+          "kind": "stat",
+          "value": "90%+",
+          "label": "of a Baikal seal's diet"
+        }
+      ],
+      "words": [
+        {
+          "start": 24.128,
+          "end": 24.378,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 24.39,
+          "end": 24.426,
+          "char": 6,
+          "len": 1
+        },
+        {
+          "start": 24.438,
+          "end": 24.783,
+          "char": 8,
+          "len": 7
+        },
+        {
+          "start": 24.795,
+          "end": 25.247,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 25.45,
+          "end": 25.926,
+          "char": 24,
+          "len": 11
+        },
+        {
+          "start": 25.938,
+          "end": 26.545,
+          "char": 36,
+          "len": 10
+        },
+        {
+          "start": 26.557,
+          "end": 26.854,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 26.866,
+          "end": 27.152,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 27.164,
+          "end": 27.461,
+          "char": 58,
+          "len": 2
+        },
+        {
+          "start": 27.866,
+          "end": 28.283,
+          "char": 62,
+          "len": 8
+        },
+        {
+          "start": 28.295,
+          "end": 28.604,
+          "char": 71,
+          "len": 5
+        },
+        {
+          "start": 28.616,
+          "end": 28.819,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 28.831,
+          "end": 29.223,
+          "char": 82,
+          "len": 6
+        },
+        {
+          "start": 29.235,
+          "end": 29.378,
+          "char": 89,
+          "len": 2
+        },
+        {
+          "start": 29.39,
+          "end": 29.557,
+          "char": 92,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 30.299,
+      "to": 35.952,
+      "heading": "300 m down",
+      "text": "Past three hundred metres, the water stays at a steady three degrees, all year round.",
+      "source": "Lake Baikal, Wikipedia",
+      "words": [
+        {
+          "start": 30.556,
+          "end": 30.878,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 30.889,
+          "end": 31.151,
+          "char": 5,
+          "len": 5
+        },
+        {
+          "start": 31.163,
+          "end": 31.425,
+          "char": 11,
+          "len": 7
+        },
+        {
+          "start": 31.437,
+          "end": 31.901,
+          "char": 19,
+          "len": 6
+        },
+        {
+          "start": 32.116,
+          "end": 32.211,
+          "char": 27,
+          "len": 3
+        },
+        {
+          "start": 32.223,
+          "end": 32.508,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 32.52,
+          "end": 32.866,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 32.878,
+          "end": 32.937,
+          "char": 43,
+          "len": 2
+        },
+        {
+          "start": 32.949,
+          "end": 32.985,
+          "char": 46,
+          "len": 1
+        },
+        {
+          "start": 32.997,
+          "end": 33.342,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 33.354,
+          "end": 33.604,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 33.616,
+          "end": 34.211,
+          "char": 61,
+          "len": 7
+        },
+        {
+          "start": 34.425,
+          "end": 34.604,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 34.616,
+          "end": 34.842,
+          "char": 74,
+          "len": 4
+        },
+        {
+          "start": 34.854,
+          "end": 35.211,
+          "char": 79,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 35.952,
+      "to": 42.528,
+      "heading": "The bottom",
+      "text": "One thousand six hundred and forty-two metres: the bottom. That's almost two Burj Khalifas deep.",
+      "source": "Lake Baikal, Wikipedia",
+      "beats": [
+        {
+          "word": "bottom",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "Lake Baikal",
+            "subjectValue": 1642,
+            "unit": "m",
+            "note": "Almost two Burj Khalifas"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 36.209,
+          "end": 36.411,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 36.423,
+          "end": 36.864,
+          "char": 4,
+          "len": 8
+        },
+        {
+          "start": 36.876,
+          "end": 37.221,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 37.233,
+          "end": 37.59,
+          "char": 17,
+          "len": 7
+        },
+        {
+          "start": 37.602,
+          "end": 37.662,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 37.673,
+          "end": 38.197,
+          "char": 29,
+          "len": 9
+        },
+        {
+          "start": 38.209,
+          "end": 38.733,
+          "char": 39,
+          "len": 6
+        },
+        {
+          "start": 38.935,
+          "end": 39.042,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 39.054,
+          "end": 39.411,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 39.816,
+          "end": 39.971,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 39.983,
+          "end": 40.328,
+          "char": 66,
+          "len": 6
+        },
+        {
+          "start": 40.34,
+          "end": 40.602,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 40.614,
+          "end": 40.947,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 40.959,
+          "end": 41.447,
+          "char": 82,
+          "len": 8
+        },
+        {
+          "start": 41.459,
+          "end": 41.781,
+          "char": 91,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 42.528,
+      "to": 50.734,
+      "heading": "The twist",
+      "text": "The twist? Baikal has oxygen all the way down, so fish live even here. The deepest freshwater fish anywhere.",
+      "source": "Lake Baikal, Wikipedia",
+      "beats": [
+        {
+          "word": "oxygen",
+          "kind": "stamp",
+          "value": "OXYGEN ALL THE WAY"
+        }
+      ],
+      "words": [
+        {
+          "start": 42.785,
+          "end": 42.833,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 42.845,
+          "end": 43.285,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 43.69,
+          "end": 44.023,
+          "char": 11,
+          "len": 6
+        },
+        {
+          "start": 44.035,
+          "end": 44.178,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 44.19,
+          "end": 44.702,
+          "char": 22,
+          "len": 6
+        },
+        {
+          "start": 44.809,
+          "end": 45.023,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 45.035,
+          "end": 45.095,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 45.107,
+          "end": 45.261,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 45.273,
+          "end": 45.654,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 46.035,
+          "end": 46.249,
+          "char": 47,
+          "len": 2
+        },
+        {
+          "start": 46.261,
+          "end": 46.618,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 46.63,
+          "end": 46.868,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 46.88,
+          "end": 47.083,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 47.095,
+          "end": 47.452,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 47.857,
+          "end": 47.952,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 47.964,
+          "end": 48.368,
+          "char": 75,
+          "len": 7
+        },
+        {
+          "start": 48.38,
+          "end": 48.916,
+          "char": 83,
+          "len": 10
+        },
+        {
+          "start": 48.928,
+          "end": 49.357,
+          "char": 94,
+          "len": 4
+        },
+        {
+          "start": 49.523,
+          "end": 49.988,
+          "char": 99,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 50.734,
+      "to": 58.831,
+      "heading": "The oldest lake",
+      "text": "And this lake is twenty-five to thirty million years old, the oldest on Earth. Which lake should we sink into next?",
+      "source": "Lake Baikal, Wikipedia",
+      "beats": [
+        {
+          "word": "million",
+          "kind": "stat",
+          "value": "25\u201330M yrs",
+          "label": "the world's oldest lake"
+        }
+      ],
+      "words": [
+        {
+          "start": 50.979,
+          "end": 51.098,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 51.11,
+          "end": 51.289,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 51.301,
+          "end": 51.527,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 51.539,
+          "end": 51.658,
+          "char": 14,
+          "len": 2
+        },
+        {
+          "start": 51.67,
+          "end": 52.301,
+          "char": 17,
+          "len": 11
+        },
+        {
+          "start": 52.313,
+          "end": 52.396,
+          "char": 29,
+          "len": 2
+        },
+        {
+          "start": 52.408,
+          "end": 52.777,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 52.789,
+          "end": 53.205,
+          "char": 39,
+          "len": 7
+        },
+        {
+          "start": 53.217,
+          "end": 53.503,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 53.515,
+          "end": 53.789,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 54.063,
+          "end": 54.17,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 54.229,
+          "end": 54.575,
+          "char": 62,
+          "len": 6
+        },
+        {
+          "start": 54.586,
+          "end": 54.717,
+          "char": 69,
+          "len": 2
+        },
+        {
+          "start": 54.729,
+          "end": 55.098,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 55.503,
+          "end": 55.622,
+          "char": 79,
+          "len": 5
+        },
+        {
+          "start": 55.634,
+          "end": 55.777,
+          "char": 85,
+          "len": 4
+        },
+        {
+          "start": 55.789,
+          "end": 55.908,
+          "char": 90,
+          "len": 6
+        },
+        {
+          "start": 55.92,
+          "end": 55.991,
+          "char": 97,
+          "len": 2
+        },
+        {
+          "start": 56.003,
+          "end": 56.229,
+          "char": 100,
+          "len": 4
+        },
+        {
+          "start": 56.241,
+          "end": 56.384,
+          "char": 105,
+          "len": 4
+        },
+        {
+          "start": 56.396,
+          "end": 56.884,
+          "char": 110,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 4.82
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:300"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:1000"
+    },
+    {
+      "need": "seabed_thud",
+      "at": "depth:1642"
+    }
+  ],
+  "skit": {
+    "text": "Twenty-five million years old? And I thought my code was ancient.",
+    "mood": "gasp",
+    "action": "*dusty beep*",
+    "from": 58.831,
+    "to": 66.001,
+    "words": [
+      {
+        "start": 59.376,
+        "end": 60.04,
+        "char": 0,
+        "len": 11
+      },
+      {
+        "start": 60.052,
+        "end": 60.491,
+        "char": 12,
+        "len": 7
+      },
+      {
+        "start": 60.502,
+        "end": 60.795,
+        "char": 20,
+        "len": 5
+      },
+      {
+        "start": 60.806,
+        "end": 61.155,
+        "char": 26,
+        "len": 3
+      },
+      {
+        "start": 61.932,
+        "end": 62.112,
+        "char": 31,
+        "len": 3
+      },
+      {
+        "start": 62.124,
+        "end": 62.236,
+        "char": 35,
+        "len": 1
+      },
+      {
+        "start": 62.248,
+        "end": 62.507,
+        "char": 37,
+        "len": 7
+      },
+      {
+        "start": 62.518,
+        "end": 62.687,
+        "char": 45,
+        "len": 2
+      },
+      {
+        "start": 62.698,
+        "end": 63.036,
+        "char": 48,
+        "len": 4
+      },
+      {
+        "start": 63.047,
+        "end": 63.25,
+        "char": 53,
+        "len": 3
+      },
+      {
+        "start": 63.261,
+        "end": 63.869,
+        "char": 57,
+        "len": 7
+      }
+    ]
+  },
+  "seed": "sink-in-lake-baikal",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank to the bottom of the deepest lake?",
+      "Sinking 1,642 m to the bottom of Lake Baikal"
+    ],
+    "description": "Sink through Lake Baikal, the world's deepest and oldest lake, past amphipods and see-through golomyanka fish found nowhere else, to the bottom 1,642 metres down.",
+    "tags": [
+      "lake baikal",
+      "deepest lake",
+      "golomyanka",
+      "siberia",
+      "freshwater",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Lake Baikal is 1,642 m deep, the deepest and oldest lake (25\u201330 million years), holding 22\u201323% of the world's fresh surface water",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal"
+    },
+    {
+      "claim": "Winter transparency reaches 30\u201340 m; below about 300 m the water is stable at 3.1\u20133.4 \u00b0C; the water is rich in oxygen even in deep sections",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal"
+    },
+    {
+      "claim": "More than 350 endemic amphipod species and subspecies live in Baikal; golomyanka and certain sculpins are the deepest-living freshwater fish",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal"
+    },
+    {
+      "claim": "Golomyankas have translucent bodies, live mostly below 100 m, and make up more than 90% of the Baikal seal's diet",
+      "url": "https://en.wikipedia.org/wiki/Baikal_oilfish"
+    },
+    {
+      "claim": "The Baikal seal is endemic to Lake Baikal and feeds mainly on golomyanka",
+      "url": "https://en.wikipedia.org/wiki/Baikal_seal"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ],
+  "voiceover": "audio/sink-in-lake-baikal.mp3",
+  "music": "audio/sink-in-lake-baikal_bed.mp3"
+}
