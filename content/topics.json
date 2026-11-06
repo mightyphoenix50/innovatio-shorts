@@ -107,7 +107,8 @@
       "title": "What if you sank to the bottom of the deepest lake?",
       "format": "Descent",
       "angle": "Lake Baikal is 1.6 km deep and holds about a fifth of the world's unfrozen fresh surface water; the twist is the animals found nowhere else.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-06"
     },
     {
       "slug": "hole-through-mars",
