@@ -1,0 +1,68 @@
+{
+  "whoosh": {
+    "id": "fs-807286",
+    "file": "audio/assets/sfx/fs-807286_crt-tv-whoosh.ogg",
+    "start": 0.0,
+    "end": 1.4,
+    "license": "CC BY 4.0",
+    "attribution": "\"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807286/",
+    "match_z": 2.85,
+    "p_real": 0.706
+  },
+  "rock_rumble": {
+    "id": "fs-222521",
+    "file": "audio/assets/sfx/fs-222521_cracking-earthquake-cracking-soil-cracki.ogg",
+    "start": 7.958,
+    "end": 9.958,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/uagadugu/sounds/222521/",
+    "match_z": 4.34,
+    "p_real": 0.885
+  },
+  "lava_bubble": {
+    "id": "fs-456806",
+    "file": "audio/assets/sfx/fs-456806_hot-bubbling-mud.ogg",
+    "start": 2.026,
+    "end": 3.765,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/Breviceps/sounds/456806/",
+    "match_z": 5.58,
+    "p_real": 0.947
+  },
+  "cartoon_pop": {
+    "id": "fs-321163",
+    "file": "audio/assets/sfx/fs-321163_toony-pops-wav.ogg",
+    "start": 0.011,
+    "end": 0.105,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/mikala_oidua/sounds/321163/",
+    "match_z": 5.51,
+    "p_real": 0.92
+  },
+  "impact_boom": {
+    "id": "fs-825790",
+    "file": "audio/assets/sfx/fs-825790_deep-underground-boom.ogg",
+    "start": 0.012,
+    "end": 2.012,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/ROHHSADOTCOM/sounds/825790/",
+    "match_z": 3.87,
+    "p_real": 0.518
+  },
+  "ui_click": {
+    "id": "fs-855481",
+    "file": "audio/assets/sfx/fs-855481_ui-pack-generative-sound-by-glorb.ogg",
+    "start": 1.51,
+    "end": 1.58,
+    "license": "CC0 1.0",
+    "attribution": null,
+    "page_url": "https://freesound.org/people/bassimat/sounds/855481/",
+    "match_z": 5.11,
+    "p_real": 0.032
+  }
+}

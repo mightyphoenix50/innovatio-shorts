@@ -618,5 +618,27 @@
     "video_id": "8ZgqwRm0U6A",
     "youtube_url": "https://youtube.com/shorts/8ZgqwRm0U6A",
     "scheduled_at": null
+  },
+  "67": {
+    "episode": "hole-through-mars",
+    "video_path": "output/drafts/hole-through-mars.mp4",
+    "titles": [
+      "What if you fell into a hole through Mars?",
+      "Falling through the centre of Mars"
+    ],
+    "description": "Someone drilled a hole straight through Mars and you slipped in. A fall past the depth of Valles Marineris, through the crust and mantle to a molten metal core, and why Mars lost its magnetic shield.\n\nSources:\n- Mars has a mean radius of 3,389.5 km, about half Earth's diameter; mean surface temperature −60 °C; surface pressure about 0.6% of Earth's; Valles Marineris up to 7 km deep: https://en.wikipedia.org/wiki/Mars\n- Mars lost its magnetosphere about 4 billion years ago, so the solar wind interacts directly with its ionosphere, stripping away atoms and lowering atmospheric density: https://en.wikipedia.org/wiki/Mars\n- Mars's crust is about 10–50 km deep, its mantle about 1,240–1,880 km thick, and its iron, nickel and sulfur core 1,500–2,100 km in radius; traces of a magnetic field from 4 billion years ago: https://science.nasa.gov/mars/facts/\n- Straight-tunnel travel would take about 49 minutes on Mars (TIME, 1966): https://time.com/archive/6889155/mathematics-to-everywhere-in-42-minutes/\n- A realistic Earth model gives a fall-through time of about 38 minutes: https://en.wikipedia.org/wiki/Gravity_train\n\nSound effects:\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- rock rumble: CC0 1.0, https://freesound.org/people/uagadugu/sounds/222521/\n- lava bubble: CC0 1.0, https://freesound.org/people/Breviceps/sounds/456806/\n- cartoon pop: CC0 1.0, https://freesound.org/people/mikala_oidua/sounds/321163/\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "what if",
+      "hole through mars",
+      "mars core",
+      "gravity tunnel",
+      "mars",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · hole-through-mars · 70s</i>\n\n<b>A:</b> What if you fell into a hole through Mars?\n<b>B:</b> Falling through the centre of Mars\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 08 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794073544.0224197
   }
 }

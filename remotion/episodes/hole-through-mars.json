@@ -1,0 +1,1420 @@
+{
+  "template": "Fall",
+  "title": "What if you fell into a hole through Mars?",
+  "fps": 30,
+  "hook": {
+    "banner": "What if you fell through Mars?",
+    "flash": "49 MINUTES",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.079,
+      0
+    ],
+    [
+      6.373,
+      300
+    ],
+    [
+      10.828,
+      1000
+    ],
+    [
+      13.258,
+      7000
+    ],
+    [
+      18.118,
+      9000
+    ],
+    [
+      20.764,
+      50000
+    ],
+    [
+      26.056,
+      80000
+    ],
+    [
+      28.627,
+      1730000
+    ],
+    [
+      33.77,
+      1800000
+    ],
+    [
+      35.852,
+      3389500
+    ],
+    [
+      40.536,
+      3400000
+    ],
+    [
+      58.611,
+      3500000
+    ]
+  ],
+  "maxDepth": 3389500,
+  "fallAt": 3.079,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      7000,
+      800
+    ],
+    [
+      50000,
+      1600
+    ],
+    [
+      1730000,
+      2600
+    ],
+    [
+      3389500,
+      3500
+    ],
+    [
+      5049000,
+      4400
+    ],
+    [
+      6779000,
+      5300
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 1000,
+      "name": "Red dust and rock",
+      "colourTop": "#C1694F",
+      "colourBottom": "#A85A43",
+      "texture": "soil"
+    },
+    {
+      "from": 1000,
+      "to": 50000,
+      "name": "The crust",
+      "colourTop": "#9C5B45",
+      "colourBottom": "#7E4A3A",
+      "texture": "strata"
+    },
+    {
+      "from": 50000,
+      "to": 1730000,
+      "name": "The mantle",
+      "colourTop": "#8A4A35",
+      "colourBottom": "#B5532E",
+      "texture": "mantle"
+    },
+    {
+      "from": 1730000,
+      "to": 5049000,
+      "name": "The core",
+      "colourTop": "#E8822F",
+      "colourBottom": "#F5A847",
+      "texture": "liquid"
+    },
+    {
+      "from": 5049000,
+      "to": 6779000,
+      "name": "The mantle",
+      "colourTop": "#B5532E",
+      "colourBottom": "#8A4A35",
+      "texture": "mantle"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 7000,
+      "kind": "boundary",
+      "label": "Valles Marineris depth \u00b7 7 km",
+      "side": "left"
+    },
+    {
+      "depth": 50000,
+      "kind": "boundary",
+      "label": "End of the crust \u00b7 ~50 km",
+      "side": "right"
+    },
+    {
+      "depth": 1730000,
+      "kind": "boundary",
+      "label": "Molten metal core",
+      "side": "left"
+    },
+    {
+      "depth": 3389500,
+      "kind": "center",
+      "label": "The centre \u00b7 3,390 km",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -60
+    ],
+    [
+      7000,
+      -40
+    ],
+    [
+      50000,
+      500
+    ],
+    [
+      1730000,
+      1600
+    ],
+    [
+      3389500,
+      1800
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0.006
+    ],
+    [
+      50000,
+      4000
+    ],
+    [
+      1730000,
+      190000
+    ],
+    [
+      3389500,
+      400000
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.145,
+      "heading": "The hole",
+      "text": "Someone drilled a hole straight through Mars. And you just slipped in.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.519,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 0.531,
+          "end": 0.888,
+          "char": 8,
+          "len": 7
+        },
+        {
+          "start": 0.9,
+          "end": 0.924,
+          "char": 16,
+          "len": 1
+        },
+        {
+          "start": 0.936,
+          "end": 1.198,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 1.21,
+          "end": 1.519,
+          "char": 23,
+          "len": 8
+        },
+        {
+          "start": 1.531,
+          "end": 1.686,
+          "char": 32,
+          "len": 7
+        },
+        {
+          "start": 1.698,
+          "end": 2.186,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 2.579,
+          "end": 2.638,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 2.65,
+          "end": 2.71,
+          "char": 50,
+          "len": 3
+        },
+        {
+          "start": 2.721,
+          "end": 2.9,
+          "char": 54,
+          "len": 4
+        },
+        {
+          "start": 2.912,
+          "end": 3.221,
+          "char": 59,
+          "len": 7
+        },
+        {
+          "start": 3.233,
+          "end": 3.4,
+          "char": 67,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 4.145,
+      "to": 10.828,
+      "heading": "The surface",
+      "text": "Up top, it's minus sixty degrees on average, and the air is less than one percent as thick as Earth's.",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "thick",
+          "kind": "stat",
+          "value": "0.6%",
+          "label": "of Earth's air pressure"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.39,
+          "end": 4.521,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 4.533,
+          "end": 4.878,
+          "char": 3,
+          "len": 3
+        },
+        {
+          "start": 5.081,
+          "end": 5.212,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 5.224,
+          "end": 5.581,
+          "char": 13,
+          "len": 5
+        },
+        {
+          "start": 5.593,
+          "end": 5.914,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 5.926,
+          "end": 6.295,
+          "char": 25,
+          "len": 7
+        },
+        {
+          "start": 6.307,
+          "end": 6.45,
+          "char": 33,
+          "len": 2
+        },
+        {
+          "start": 6.462,
+          "end": 6.926,
+          "char": 36,
+          "len": 7
+        },
+        {
+          "start": 7.2,
+          "end": 7.283,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 7.295,
+          "end": 7.378,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 7.39,
+          "end": 7.676,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 7.688,
+          "end": 7.807,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 7.819,
+          "end": 8.081,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 8.093,
+          "end": 8.271,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 8.283,
+          "end": 8.509,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 8.521,
+          "end": 8.997,
+          "char": 74,
+          "len": 7
+        },
+        {
+          "start": 9.093,
+          "end": 9.212,
+          "char": 82,
+          "len": 2
+        },
+        {
+          "start": 9.224,
+          "end": 9.462,
+          "char": 85,
+          "len": 5
+        },
+        {
+          "start": 9.474,
+          "end": 9.581,
+          "char": 91,
+          "len": 2
+        },
+        {
+          "start": 9.593,
+          "end": 10.081,
+          "char": 94,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 10.828,
+      "to": 18.118,
+      "heading": "7 km down",
+      "text": "Seven kilometres down: as deep as Valles Marineris, the giant canyon scarring Mars's surface.",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "canyon",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Valles Marineris",
+            "subjectValue": 7,
+            "unit": "km",
+            "note": "Nearly an Everest deep"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 11.085,
+          "end": 11.418,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 11.43,
+          "end": 11.978,
+          "char": 6,
+          "len": 10
+        },
+        {
+          "start": 11.99,
+          "end": 12.335,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 12.74,
+          "end": 12.918,
+          "char": 23,
+          "len": 2
+        },
+        {
+          "start": 12.93,
+          "end": 13.216,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 13.311,
+          "end": 13.49,
+          "char": 31,
+          "len": 2
+        },
+        {
+          "start": 13.502,
+          "end": 14.002,
+          "char": 34,
+          "len": 6
+        },
+        {
+          "start": 14.014,
+          "end": 14.728,
+          "char": 41,
+          "len": 9
+        },
+        {
+          "start": 14.978,
+          "end": 15.085,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 15.097,
+          "end": 15.478,
+          "char": 56,
+          "len": 5
+        },
+        {
+          "start": 15.49,
+          "end": 15.966,
+          "char": 62,
+          "len": 6
+        },
+        {
+          "start": 15.978,
+          "end": 16.43,
+          "char": 69,
+          "len": 8
+        },
+        {
+          "start": 16.442,
+          "end": 16.788,
+          "char": 78,
+          "len": 6
+        },
+        {
+          "start": 16.799,
+          "end": 17.371,
+          "char": 85,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 18.118,
+      "to": 26.056,
+      "heading": "The crust ends",
+      "text": "Around fifty kilometres down, the crust ends. Below it, a rocky mantle well over a thousand kilometres thick.",
+      "source": "NASA Mars facts",
+      "beats": [
+        {
+          "word": "mantle",
+          "kind": "stat",
+          "value": "1,240+ km",
+          "label": "of rocky mantle"
+        }
+      ],
+      "words": [
+        {
+          "start": 18.363,
+          "end": 18.625,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 18.637,
+          "end": 18.994,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 19.006,
+          "end": 19.566,
+          "char": 13,
+          "len": 10
+        },
+        {
+          "start": 19.578,
+          "end": 19.947,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 20.137,
+          "end": 20.22,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 20.232,
+          "end": 20.613,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 20.625,
+          "end": 21.066,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 21.47,
+          "end": 21.768,
+          "char": 46,
+          "len": 5
+        },
+        {
+          "start": 21.78,
+          "end": 21.911,
+          "char": 52,
+          "len": 2
+        },
+        {
+          "start": 22.208,
+          "end": 22.244,
+          "char": 56,
+          "len": 1
+        },
+        {
+          "start": 22.256,
+          "end": 22.613,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 22.625,
+          "end": 23.089,
+          "char": 64,
+          "len": 6
+        },
+        {
+          "start": 23.101,
+          "end": 23.423,
+          "char": 71,
+          "len": 4
+        },
+        {
+          "start": 23.518,
+          "end": 23.744,
+          "char": 76,
+          "len": 4
+        },
+        {
+          "start": 23.756,
+          "end": 23.792,
+          "char": 81,
+          "len": 1
+        },
+        {
+          "start": 23.804,
+          "end": 24.327,
+          "char": 83,
+          "len": 8
+        },
+        {
+          "start": 24.339,
+          "end": 24.911,
+          "char": 92,
+          "len": 10
+        },
+        {
+          "start": 24.923,
+          "end": 25.316,
+          "char": 103,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 26.056,
+      "to": 33.77,
+      "heading": "The core",
+      "text": "Then the core: iron, nickel and sulfur, at least partly molten, starting about seventeen hundred kilometres down.",
+      "source": "NASA Mars facts",
+      "beats": [
+        {
+          "word": "molten",
+          "kind": "warning",
+          "value": "MOLTEN METAL"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.313,
+          "end": 26.42,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 26.432,
+          "end": 26.516,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 26.527,
+          "end": 26.968,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 27.42,
+          "end": 27.742,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 28.004,
+          "end": 28.432,
+          "char": 21,
+          "len": 6
+        },
+        {
+          "start": 28.444,
+          "end": 28.539,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 28.551,
+          "end": 29.123,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 29.385,
+          "end": 29.48,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 29.492,
+          "end": 29.694,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 29.706,
+          "end": 30.027,
+          "char": 49,
+          "len": 6
+        },
+        {
+          "start": 30.039,
+          "end": 30.456,
+          "char": 56,
+          "len": 6
+        },
+        {
+          "start": 30.754,
+          "end": 31.051,
+          "char": 64,
+          "len": 8
+        },
+        {
+          "start": 31.063,
+          "end": 31.313,
+          "char": 73,
+          "len": 5
+        },
+        {
+          "start": 31.325,
+          "end": 31.861,
+          "char": 79,
+          "len": 9
+        },
+        {
+          "start": 31.873,
+          "end": 32.158,
+          "char": 89,
+          "len": 7
+        },
+        {
+          "start": 32.17,
+          "end": 32.694,
+          "char": 97,
+          "len": 10
+        },
+        {
+          "start": 32.706,
+          "end": 33.027,
+          "char": 108,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 33.77,
+      "to": 40.536,
+      "heading": "The centre",
+      "text": "The centre, three thousand three hundred and ninety kilometres down. Mars is only about half as wide as Earth.",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "\u00bd",
+          "label": "Earth's width"
+        }
+      ],
+      "words": [
+        {
+          "start": 34.027,
+          "end": 34.075,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 34.087,
+          "end": 34.527,
+          "char": 4,
+          "len": 6
+        },
+        {
+          "start": 34.718,
+          "end": 34.968,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 34.98,
+          "end": 35.456,
+          "char": 18,
+          "len": 8
+        },
+        {
+          "start": 35.468,
+          "end": 35.753,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 35.765,
+          "end": 36.039,
+          "char": 33,
+          "len": 7
+        },
+        {
+          "start": 36.051,
+          "end": 36.122,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 36.134,
+          "end": 36.42,
+          "char": 45,
+          "len": 6
+        },
+        {
+          "start": 36.432,
+          "end": 36.968,
+          "char": 52,
+          "len": 10
+        },
+        {
+          "start": 36.98,
+          "end": 37.289,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 37.682,
+          "end": 37.92,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 37.932,
+          "end": 38.063,
+          "char": 74,
+          "len": 2
+        },
+        {
+          "start": 38.075,
+          "end": 38.349,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 38.36,
+          "end": 38.599,
+          "char": 82,
+          "len": 5
+        },
+        {
+          "start": 38.61,
+          "end": 38.968,
+          "char": 88,
+          "len": 4
+        },
+        {
+          "start": 38.98,
+          "end": 39.063,
+          "char": 93,
+          "len": 2
+        },
+        {
+          "start": 39.075,
+          "end": 39.325,
+          "char": 96,
+          "len": 4
+        },
+        {
+          "start": 39.337,
+          "end": 39.444,
+          "char": 101,
+          "len": 2
+        },
+        {
+          "start": 39.456,
+          "end": 39.789,
+          "char": 104,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 40.536,
+      "to": 47.333,
+      "heading": "The fall",
+      "text": "Falling straight through, with no air in the way, would take about forty-nine minutes. Earth takes thirty-eight.",
+      "source": "TIME, 1966",
+      "beats": [
+        {
+          "word": "forty-nine",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth fall",
+            "value": 38,
+            "icon": "land",
+            "subject": "Mars fall",
+            "subjectValue": 49,
+            "unit": "min",
+            "note": "Half the size, slower"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 40.853,
+          "end": 41.138,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 41.15,
+          "end": 41.484,
+          "char": 8,
+          "len": 8
+        },
+        {
+          "start": 41.496,
+          "end": 41.853,
+          "char": 17,
+          "len": 7
+        },
+        {
+          "start": 42.126,
+          "end": 42.269,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 42.281,
+          "end": 42.567,
+          "char": 31,
+          "len": 2
+        },
+        {
+          "start": 42.579,
+          "end": 42.793,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 42.805,
+          "end": 42.876,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 42.888,
+          "end": 42.972,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 42.984,
+          "end": 43.281,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 43.579,
+          "end": 43.698,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 43.71,
+          "end": 43.9,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 43.912,
+          "end": 44.15,
+          "char": 61,
+          "len": 5
+        },
+        {
+          "start": 44.162,
+          "end": 44.722,
+          "char": 67,
+          "len": 10
+        },
+        {
+          "start": 44.734,
+          "end": 45.21,
+          "char": 78,
+          "len": 7
+        },
+        {
+          "start": 45.603,
+          "end": 45.757,
+          "char": 87,
+          "len": 5
+        },
+        {
+          "start": 45.769,
+          "end": 46.055,
+          "char": 93,
+          "len": 5
+        },
+        {
+          "start": 46.067,
+          "end": 46.591,
+          "char": 99,
+          "len": 12
+        }
+      ]
+    },
+    {
+      "from": 47.333,
+      "to": 54.407,
+      "heading": "The twist",
+      "text": "The twist? Mars once had a magnetic field, like Earth. About four billion years ago, it switched off.",
+      "source": "NASA Mars facts",
+      "beats": [
+        {
+          "word": "switched",
+          "kind": "stamp",
+          "value": "FIELD SWITCHED OFF"
+        }
+      ],
+      "words": [
+        {
+          "start": 47.59,
+          "end": 47.638,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 47.65,
+          "end": 48.09,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 48.483,
+          "end": 48.733,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 48.745,
+          "end": 48.971,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 48.983,
+          "end": 49.114,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 49.126,
+          "end": 49.162,
+          "char": 25,
+          "len": 1
+        },
+        {
+          "start": 49.173,
+          "end": 49.662,
+          "char": 27,
+          "len": 8
+        },
+        {
+          "start": 49.673,
+          "end": 49.995,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 50.245,
+          "end": 50.388,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 50.4,
+          "end": 50.745,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 51.138,
+          "end": 51.412,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 51.423,
+          "end": 51.769,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 51.781,
+          "end": 52.114,
+          "char": 66,
+          "len": 7
+        },
+        {
+          "start": 52.126,
+          "end": 52.376,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 52.388,
+          "end": 52.709,
+          "char": 80,
+          "len": 3
+        },
+        {
+          "start": 52.888,
+          "end": 52.995,
+          "char": 85,
+          "len": 2
+        },
+        {
+          "start": 53.007,
+          "end": 53.328,
+          "char": 88,
+          "len": 8
+        },
+        {
+          "start": 53.34,
+          "end": 53.662,
+          "char": 97,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 54.407,
+      "to": 61.313,
+      "heading": "No shield",
+      "text": "With no shield, the solar wind stripped away much of its air. Would you still move to Mars?",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "stripped",
+          "kind": "warning",
+          "value": "AIR STRIPPED AWAY"
+        }
+      ],
+      "words": [
+        {
+          "start": 54.664,
+          "end": 54.795,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 54.807,
+          "end": 54.986,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 54.997,
+          "end": 55.462,
+          "char": 8,
+          "len": 6
+        },
+        {
+          "start": 55.712,
+          "end": 55.807,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 55.819,
+          "end": 56.176,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 56.188,
+          "end": 56.438,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 56.45,
+          "end": 56.819,
+          "char": 31,
+          "len": 8
+        },
+        {
+          "start": 56.831,
+          "end": 57.093,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 57.105,
+          "end": 57.378,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 57.39,
+          "end": 57.462,
+          "char": 50,
+          "len": 2
+        },
+        {
+          "start": 57.474,
+          "end": 57.605,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 57.617,
+          "end": 57.914,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 58.307,
+          "end": 58.402,
+          "char": 62,
+          "len": 5
+        },
+        {
+          "start": 58.414,
+          "end": 58.474,
+          "char": 68,
+          "len": 3
+        },
+        {
+          "start": 58.486,
+          "end": 58.664,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 58.676,
+          "end": 58.843,
+          "char": 78,
+          "len": 4
+        },
+        {
+          "start": 58.855,
+          "end": 58.914,
+          "char": 83,
+          "len": 2
+        },
+        {
+          "start": 58.926,
+          "end": 59.366,
+          "char": 86,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "fall_wind",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:7000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:50000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:1730000"
+    },
+    {
+      "need": "whoosh",
+      "at": 47.333,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "No magnetic field? Perfect. Finally somewhere my hard drive is safe.",
+    "mood": "wink",
+    "action": "*happy beep*",
+    "from": 61.313,
+    "to": 69.912,
+    "words": [
+      {
+        "start": 61.858,
+        "end": 62.083,
+        "char": 0,
+        "len": 2
+      },
+      {
+        "start": 62.095,
+        "end": 62.669,
+        "char": 3,
+        "len": 8
+      },
+      {
+        "start": 62.68,
+        "end": 63.108,
+        "char": 12,
+        "len": 5
+      },
+      {
+        "start": 63.885,
+        "end": 64.561,
+        "char": 19,
+        "len": 7
+      },
+      {
+        "start": 65.326,
+        "end": 65.867,
+        "char": 28,
+        "len": 7
+      },
+      {
+        "start": 65.878,
+        "end": 66.318,
+        "char": 36,
+        "len": 9
+      },
+      {
+        "start": 66.329,
+        "end": 66.486,
+        "char": 46,
+        "len": 2
+      },
+      {
+        "start": 66.498,
+        "end": 66.813,
+        "char": 49,
+        "len": 4
+      },
+      {
+        "start": 66.824,
+        "end": 67.185,
+        "char": 54,
+        "len": 5
+      },
+      {
+        "start": 67.196,
+        "end": 67.342,
+        "char": 60,
+        "len": 2
+      },
+      {
+        "start": 67.354,
+        "end": 67.781,
+        "char": 63,
+        "len": 4
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you fell into a hole through Mars?",
+      "Falling through the centre of Mars"
+    ],
+    "description": "Someone drilled a hole straight through Mars and you slipped in. A fall past the depth of Valles Marineris, through the crust and mantle to a molten metal core, and why Mars lost its magnetic shield.",
+    "tags": [
+      "what if",
+      "hole through mars",
+      "mars core",
+      "gravity tunnel",
+      "mars",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Mars has a mean radius of 3,389.5 km, about half Earth's diameter; mean surface temperature \u221260 \u00b0C; surface pressure about 0.6% of Earth's; Valles Marineris up to 7 km deep",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
+      "claim": "Mars lost its magnetosphere about 4 billion years ago, so the solar wind interacts directly with its ionosphere, stripping away atoms and lowering atmospheric density",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
+      "claim": "Mars's crust is about 10\u201350 km deep, its mantle about 1,240\u20131,880 km thick, and its iron, nickel and sulfur core 1,500\u20132,100 km in radius; traces of a magnetic field from 4 billion years ago",
+      "url": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "claim": "Straight-tunnel travel would take about 49 minutes on Mars (TIME, 1966)",
+      "url": "https://time.com/archive/6889155/mathematics-to-everywhere-in-42-minutes/"
+    },
+    {
+      "claim": "A realistic Earth model gives a fall-through time of about 38 minutes",
+      "url": "https://en.wikipedia.org/wiki/Gravity_train"
+    }
+  ],
+  "seed": "hole-through-mars",
+  "voiceover": "audio/hole-through-mars.mp3",
+  "music": "audio/hole-through-mars_bed.mp3"
+}
