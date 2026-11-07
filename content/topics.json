@@ -115,7 +115,8 @@
       "title": "What if you fell into a hole through Mars?",
       "format": "Fall-down",
       "angle": "Through a dusty crust and mantle to a liquid core; compare the fall time and top speed with Earth's.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-07"
     },
     {
       "slug": "north-pole-seabed",

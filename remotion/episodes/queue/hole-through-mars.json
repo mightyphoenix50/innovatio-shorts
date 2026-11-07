@@ -1,0 +1,412 @@
+{
+  "template": "Fall",
+  "title": "What if you fell into a hole through Mars?",
+  "fps": 30,
+  "hook": {
+    "banner": "What if you fell through Mars?",
+    "flash": "49 MINUTES",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      2.6,
+      0
+    ],
+    [
+      5.5,
+      300
+    ],
+    [
+      9.5,
+      1000
+    ],
+    [
+      11.5,
+      7000
+    ],
+    [
+      15.5,
+      9000
+    ],
+    [
+      17.5,
+      50000
+    ],
+    [
+      21.5,
+      80000
+    ],
+    [
+      23.5,
+      1730000
+    ],
+    [
+      27.5,
+      1800000
+    ],
+    [
+      29.5,
+      3389500
+    ],
+    [
+      34,
+      3400000
+    ],
+    [
+      54,
+      3500000
+    ]
+  ],
+  "maxDepth": 3389500,
+  "fallAt": 2.6,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      7000,
+      800
+    ],
+    [
+      50000,
+      1600
+    ],
+    [
+      1730000,
+      2600
+    ],
+    [
+      3389500,
+      3500
+    ],
+    [
+      5049000,
+      4400
+    ],
+    [
+      6779000,
+      5300
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 1000,
+      "name": "Red dust and rock",
+      "colourTop": "#C1694F",
+      "colourBottom": "#A85A43",
+      "texture": "soil"
+    },
+    {
+      "from": 1000,
+      "to": 50000,
+      "name": "The crust",
+      "colourTop": "#9C5B45",
+      "colourBottom": "#7E4A3A",
+      "texture": "strata"
+    },
+    {
+      "from": 50000,
+      "to": 1730000,
+      "name": "The mantle",
+      "colourTop": "#8A4A35",
+      "colourBottom": "#B5532E",
+      "texture": "mantle"
+    },
+    {
+      "from": 1730000,
+      "to": 5049000,
+      "name": "The core",
+      "colourTop": "#E8822F",
+      "colourBottom": "#F5A847",
+      "texture": "liquid"
+    },
+    {
+      "from": 5049000,
+      "to": 6779000,
+      "name": "The mantle",
+      "colourTop": "#B5532E",
+      "colourBottom": "#8A4A35",
+      "texture": "mantle"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 7000,
+      "kind": "boundary",
+      "label": "Valles Marineris depth · 7 km",
+      "side": "left"
+    },
+    {
+      "depth": 50000,
+      "kind": "boundary",
+      "label": "End of the crust · ~50 km",
+      "side": "right"
+    },
+    {
+      "depth": 1730000,
+      "kind": "boundary",
+      "label": "Molten metal core",
+      "side": "left"
+    },
+    {
+      "depth": 3389500,
+      "kind": "center",
+      "label": "The centre · 3,390 km",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -60
+    ],
+    [
+      7000,
+      -40
+    ],
+    [
+      50000,
+      500
+    ],
+    [
+      1730000,
+      1600
+    ],
+    [
+      3389500,
+      1800
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0.006
+    ],
+    [
+      50000,
+      4000
+    ],
+    [
+      1730000,
+      190000
+    ],
+    [
+      3389500,
+      400000
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "The hole",
+      "text": "Someone drilled a hole straight through Mars. And you just slipped in."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "The surface",
+      "text": "Up top, it's minus sixty degrees on average, and the air is less than one percent as thick as Earth's.",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "thick",
+          "kind": "stat",
+          "value": "0.6%",
+          "label": "of Earth's air pressure"
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15.5,
+      "heading": "7 km down",
+      "text": "Seven kilometres down: as deep as Valles Marineris, the giant canyon scarring Mars's surface.",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "canyon",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Valles Marineris",
+            "subjectValue": 7,
+            "unit": "km",
+            "note": "Nearly an Everest deep"
+          }
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "The crust ends",
+      "text": "Around fifty kilometres down, the crust ends. Below it, a rocky mantle well over a thousand kilometres thick.",
+      "source": "NASA Mars facts",
+      "beats": [
+        {
+          "word": "mantle",
+          "kind": "stat",
+          "value": "1,240+ km",
+          "label": "of rocky mantle"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "The core",
+      "text": "Then the core: iron, nickel and sulfur, at least partly molten, starting about seventeen hundred kilometres down.",
+      "source": "NASA Mars facts",
+      "beats": [
+        {
+          "word": "molten",
+          "kind": "warning",
+          "value": "MOLTEN METAL"
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 34,
+      "heading": "The centre",
+      "text": "The centre, three thousand three hundred and ninety kilometres down. Mars is only about half as wide as Earth.",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "½",
+          "label": "Earth's width"
+        }
+      ]
+    },
+    {
+      "from": 34,
+      "to": 40.5,
+      "heading": "The fall",
+      "text": "Falling straight through, with no air in the way, would take about forty-nine minutes. Earth takes thirty-eight.",
+      "source": "TIME, 1966",
+      "beats": [
+        {
+          "word": "forty-nine",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth fall",
+            "value": 38,
+            "icon": "land",
+            "subject": "Mars fall",
+            "subjectValue": 49,
+            "unit": "min",
+            "note": "Half the size, slower"
+          }
+        }
+      ]
+    },
+    {
+      "from": 40.5,
+      "to": 47,
+      "heading": "The twist",
+      "text": "The twist? Mars once had a magnetic field, like Earth. About four billion years ago, it switched off.",
+      "source": "NASA Mars facts",
+      "beats": [
+        {
+          "word": "switched",
+          "kind": "stamp",
+          "value": "FIELD SWITCHED OFF"
+        }
+      ]
+    },
+    {
+      "from": 47,
+      "to": 54,
+      "heading": "No shield",
+      "text": "With no shield, the solar wind stripped away much of its air. Would you still move to Mars?",
+      "source": "Mars, Wikipedia",
+      "beats": [
+        {
+          "word": "stripped",
+          "kind": "warning",
+          "value": "AIR STRIPPED AWAY"
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "fall_wind",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:7000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:50000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:1730000"
+    },
+    {
+      "need": "whoosh",
+      "at": 40.5,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "No magnetic field? Perfect. Finally somewhere my hard drive is safe.",
+    "mood": "wink",
+    "action": "*happy beep*"
+  },
+  "series": "What if…",
+  "youtube": {
+    "titles": [
+      "What if you fell into a hole through Mars?",
+      "Falling through the centre of Mars"
+    ],
+    "description": "Someone drilled a hole straight through Mars and you slipped in. A fall past the depth of Valles Marineris, through the crust and mantle to a molten metal core, and why Mars lost its magnetic shield.",
+    "tags": [
+      "what if",
+      "hole through mars",
+      "mars core",
+      "gravity tunnel",
+      "mars",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Mars has a mean radius of 3,389.5 km, about half Earth's diameter; mean surface temperature −60 °C; surface pressure about 0.6% of Earth's; Valles Marineris up to 7 km deep",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
+      "claim": "Mars lost its magnetosphere about 4 billion years ago, so the solar wind interacts directly with its ionosphere, stripping away atoms and lowering atmospheric density",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
+      "claim": "Mars's crust is about 10–50 km deep, its mantle about 1,240–1,880 km thick, and its iron, nickel and sulfur core 1,500–2,100 km in radius; traces of a magnetic field from 4 billion years ago",
+      "url": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "claim": "Straight-tunnel travel would take about 49 minutes on Mars (TIME, 1966)",
+      "url": "https://time.com/archive/6889155/mathematics-to-everywhere-in-42-minutes/"
+    },
+    {
+      "claim": "A realistic Earth model gives a fall-through time of about 38 minutes",
+      "url": "https://en.wikipedia.org/wiki/Gravity_train"
+    }
+  ],
+  "seed": "hole-through-mars"
+}
