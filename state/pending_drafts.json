@@ -638,7 +638,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · hole-through-mars · 70s</i>\n\n<b>A:</b> What if you fell into a hole through Mars?\n<b>B:</b> Falling through the centre of Mars\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 08 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794073544.0224197
+    "status": "PUBLISHED",
+    "created_at": 1794073544.0224197,
+    "updated_at": 1794073573.414269,
+    "title_used": "What if you fell into a hole through Mars?",
+    "video_id": "Oy6qw0sGkuU",
+    "youtube_url": "https://youtube.com/shorts/Oy6qw0sGkuU",
+    "scheduled_at": null
   }
 }
