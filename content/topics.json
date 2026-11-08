@@ -123,7 +123,8 @@
       "title": "What's at the bottom of the ocean under the North Pole?",
       "format": "Descent",
       "angle": "Below 2 m of sea ice, 4 km down to where a flag was planted by submersible in 2007.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-08"
     },
     {
       "slug": "olympus-mons",
