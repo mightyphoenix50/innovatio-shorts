@@ -645,5 +645,27 @@
     "video_id": "Oy6qw0sGkuU",
     "youtube_url": "https://youtube.com/shorts/Oy6qw0sGkuU",
     "scheduled_at": null
+  },
+  "69": {
+    "episode": "north-pole-seabed",
+    "video_path": "output/drafts/north-pole-seabed.mp4",
+    "titles": [
+      "What if you sank to the seabed under the North Pole?",
+      "Sinking 4,261 m to the seabed under the North Pole"
+    ],
+    "description": "Drop through the sea ice at the North Pole and sink 4,261 metres to the seabed where a titanium flag was planted in 2007, and find out why there's no land at the Pole at all.\n\nSources:\n- Sea ice at the North Pole is typically 2–3 m thick; the seabed is 4,261 m down (Mir, 2007); the nearest land, Kaffeklubben Island, is about 700 km away: https://en.wikipedia.org/wiki/North_Pole\n- USS Nautilus was the first submarine to complete a submerged transit of the North Pole, on 3 August 1958: https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)\n- On 2 August 2007, MIR-1 and MIR-2 reached the seabed at the Pole (MIR-1 at 4,261 m after about 2 h 40 min) and planted a titanium Russian flag; the expedition was tied to Russia's claim to the Lomonosov Ridge: https://en.wikipedia.org/wiki/Arktika_2007\n- The upper 200 m is the sunlight zone; below 1,000 m sunlight does not reach: https://oceanservice.noaa.gov/facts/light_travel.html\n- The Burj Khalifa's roof height is 828 m: https://en.wikipedia.org/wiki/Burj_Khalifa\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- \"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/829590/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- cartoon pop: CC0 1.0, https://freesound.org/people/mikala_oidua/sounds/321163/\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "north pole",
+      "arctic ocean",
+      "sea ice",
+      "deep sea",
+      "arktika 2007",
+      "ocean science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · north-pole-seabed · 64s</i>\n\n<b>A:</b> What if you sank to the seabed under the North Pole?\n<b>B:</b> Sinking 4,261 m to the seabed under the North Pole\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 09 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794159843.3042104
   }
 }

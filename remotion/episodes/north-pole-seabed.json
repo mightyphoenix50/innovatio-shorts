@@ -1,0 +1,1352 @@
+{
+  "title": "What's at the bottom of the ocean under the North Pole?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's under the North Pole?",
+    "flash": "4,261 m DOWN",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.718,
+      0
+    ],
+    [
+      6.605,
+      3
+    ],
+    [
+      10.378,
+      60
+    ],
+    [
+      12.264,
+      200
+    ],
+    [
+      16.035,
+      280
+    ],
+    [
+      18.425,
+      600
+    ],
+    [
+      23.206,
+      700
+    ],
+    [
+      25.29,
+      1000
+    ],
+    [
+      29.457,
+      1300
+    ],
+    [
+      32.127,
+      2500
+    ],
+    [
+      37.467,
+      3200
+    ],
+    [
+      39.619,
+      4261
+    ],
+    [
+      54.691,
+      4261
+    ]
+  ],
+  "maxDepth": 4261,
+  "colours": [
+    [
+      0,
+      [
+        70,
+        140,
+        175
+      ]
+    ],
+    [
+      200,
+      [
+        20,
+        74,
+        110
+      ]
+    ],
+    [
+      1000,
+      [
+        4,
+        24,
+        44
+      ]
+    ],
+    [
+      2500,
+      [
+        1,
+        12,
+        24
+      ]
+    ],
+    [
+      4261,
+      [
+        1,
+        9,
+        18
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 200,
+      "name": "Sunlight zone",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 200,
+      "to": 1000,
+      "name": "Twilight zone",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 1000,
+      "to": 4261,
+      "name": "Midnight zone",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -1.8
+    ],
+    [
+      200,
+      0.5
+    ],
+    [
+      1000,
+      -0.5
+    ],
+    [
+      4261,
+      -0.8
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 30,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 150,
+      "x": 0.7,
+      "kind": "jelly"
+    },
+    {
+      "depth": 420,
+      "x": 0.3,
+      "kind": "amph"
+    },
+    {
+      "depth": 800,
+      "x": 0.68,
+      "kind": "fish"
+    },
+    {
+      "depth": 1500,
+      "x": 0.3,
+      "kind": "jelly"
+    },
+    {
+      "depth": 2600,
+      "x": 0.7,
+      "kind": "amph"
+    },
+    {
+      "depth": 3600,
+      "x": 0.32,
+      "kind": "snail"
+    },
+    {
+      "depth": 4250,
+      "x": 0.28,
+      "kind": "cuc"
+    },
+    {
+      "depth": 4255,
+      "x": 0.72,
+      "kind": "amph"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.718,
+      "heading": "The North Pole",
+      "text": "You're standing on the North Pole. But under your boots, there's no ground at all.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.341,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.352,
+          "end": 0.721,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 0.733,
+          "end": 0.817,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 0.829,
+          "end": 0.888,
+          "char": 19,
+          "len": 3
+        },
+        {
+          "start": 0.9,
+          "end": 1.162,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 1.174,
+          "end": 1.483,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 1.888,
+          "end": 1.971,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 1.983,
+          "end": 2.162,
+          "char": 39,
+          "len": 5
+        },
+        {
+          "start": 2.174,
+          "end": 2.305,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 2.317,
+          "end": 2.745,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 2.96,
+          "end": 3.15,
+          "char": 57,
+          "len": 7
+        },
+        {
+          "start": 3.162,
+          "end": 3.388,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 3.4,
+          "end": 3.65,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 3.662,
+          "end": 3.721,
+          "char": 75,
+          "len": 2
+        },
+        {
+          "start": 3.733,
+          "end": 3.971,
+          "char": 78,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 4.718,
+      "to": 10.378,
+      "heading": "Thin ice",
+      "text": "Just two to three metres of floating sea ice. Then you drop through into the Arctic Ocean.",
+      "source": "North Pole, Wikipedia",
+      "beats": [
+        {
+          "word": "ice",
+          "kind": "stat",
+          "value": "2\u20133 m",
+          "label": "of sea ice"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.963,
+          "end": 5.154,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 5.166,
+          "end": 5.332,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 5.344,
+          "end": 5.428,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 5.439,
+          "end": 5.725,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 5.737,
+          "end": 6.13,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 6.142,
+          "end": 6.213,
+          "char": 25,
+          "len": 2
+        },
+        {
+          "start": 6.225,
+          "end": 6.547,
+          "char": 28,
+          "len": 8
+        },
+        {
+          "start": 6.558,
+          "end": 6.808,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 6.82,
+          "end": 7.225,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 7.63,
+          "end": 7.713,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 7.725,
+          "end": 7.82,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 7.832,
+          "end": 8.154,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 8.166,
+          "end": 8.535,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 8.547,
+          "end": 8.749,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 8.761,
+          "end": 8.88,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 8.892,
+          "end": 9.285,
+          "char": 77,
+          "len": 6
+        },
+        {
+          "start": 9.297,
+          "end": 9.63,
+          "char": 84,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 10.378,
+      "to": 16.035,
+      "heading": "Sunlight zone",
+      "text": "Two hundred metres down, the sunlight zone ends. Under the ice, it's already dim.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "dim",
+          "kind": "warning",
+          "value": "BARELY ANY LIGHT"
+        }
+      ],
+      "words": [
+        {
+          "start": 10.623,
+          "end": 10.742,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 10.754,
+          "end": 10.992,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 11.004,
+          "end": 11.302,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 11.314,
+          "end": 11.683,
+          "char": 19,
+          "len": 4
+        },
+        {
+          "start": 11.933,
+          "end": 12.004,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 12.016,
+          "end": 12.48,
+          "char": 29,
+          "len": 8
+        },
+        {
+          "start": 12.492,
+          "end": 12.778,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 12.79,
+          "end": 13.242,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 13.635,
+          "end": 13.814,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 13.826,
+          "end": 13.945,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 13.957,
+          "end": 14.338,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 14.54,
+          "end": 14.659,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 14.671,
+          "end": 15.004,
+          "char": 69,
+          "len": 7
+        },
+        {
+          "start": 15.016,
+          "end": 15.29,
+          "char": 77,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 16.035,
+      "to": 23.206,
+      "heading": "Nautilus",
+      "text": "In 1958, the submarine Nautilus passed right under this spot, the first to cross the Pole underwater.",
+      "source": "USS Nautilus, Wikipedia",
+      "beats": [
+        {
+          "word": "first",
+          "kind": "stamp",
+          "value": "FIRST CROSSING"
+        }
+      ],
+      "words": [
+        {
+          "start": 16.28,
+          "end": 17.423,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 17.649,
+          "end": 17.745,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 17.756,
+          "end": 18.256,
+          "char": 13,
+          "len": 9
+        },
+        {
+          "start": 18.268,
+          "end": 18.721,
+          "char": 23,
+          "len": 8
+        },
+        {
+          "start": 18.733,
+          "end": 19.197,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 19.209,
+          "end": 19.435,
+          "char": 39,
+          "len": 5
+        },
+        {
+          "start": 19.447,
+          "end": 19.625,
+          "char": 45,
+          "len": 5
+        },
+        {
+          "start": 19.637,
+          "end": 19.804,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 19.816,
+          "end": 20.245,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 20.506,
+          "end": 20.602,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 20.614,
+          "end": 20.911,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 20.923,
+          "end": 20.983,
+          "char": 72,
+          "len": 2
+        },
+        {
+          "start": 20.995,
+          "end": 21.316,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 21.328,
+          "end": 21.423,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 21.435,
+          "end": 21.828,
+          "char": 85,
+          "len": 4
+        },
+        {
+          "start": 21.899,
+          "end": 22.459,
+          "char": 90,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 23.206,
+      "to": 29.457,
+      "heading": "1,000 m down",
+      "text": "Past a thousand metres, no sunlight reaches at all. Total darkness, under total ice.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "darkness",
+          "kind": "stamp",
+          "value": "TOTAL DARKNESS"
+        }
+      ],
+      "words": [
+        {
+          "start": 23.451,
+          "end": 23.701,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 23.713,
+          "end": 23.749,
+          "char": 5,
+          "len": 1
+        },
+        {
+          "start": 23.761,
+          "end": 24.189,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 24.201,
+          "end": 24.689,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 24.904,
+          "end": 25.082,
+          "char": 24,
+          "len": 2
+        },
+        {
+          "start": 25.094,
+          "end": 25.618,
+          "char": 27,
+          "len": 8
+        },
+        {
+          "start": 25.63,
+          "end": 25.963,
+          "char": 36,
+          "len": 7
+        },
+        {
+          "start": 25.975,
+          "end": 26.058,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 26.07,
+          "end": 26.344,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 26.737,
+          "end": 26.963,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 26.975,
+          "end": 27.558,
+          "char": 58,
+          "len": 8
+        },
+        {
+          "start": 27.749,
+          "end": 27.951,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 27.963,
+          "end": 28.285,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 28.296,
+          "end": 28.713,
+          "char": 80,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 29.457,
+      "to": 37.467,
+      "heading": "The long sink",
+      "text": "In 2007, two Russian submersibles, Mir One and Mir Two, took almost three hours to sink this far.",
+      "source": "Arktika 2007, Wikipedia",
+      "beats": [
+        {
+          "word": "hours",
+          "kind": "stat",
+          "value": "2 h 40 min",
+          "label": "to reach the bottom"
+        }
+      ],
+      "words": [
+        {
+          "start": 29.702,
+          "end": 30.809,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 31.071,
+          "end": 31.309,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 31.321,
+          "end": 31.655,
+          "char": 13,
+          "len": 7
+        },
+        {
+          "start": 31.667,
+          "end": 32.417,
+          "char": 21,
+          "len": 12
+        },
+        {
+          "start": 32.678,
+          "end": 32.94,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 32.952,
+          "end": 33.25,
+          "char": 39,
+          "len": 3
+        },
+        {
+          "start": 33.345,
+          "end": 33.44,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 33.452,
+          "end": 33.69,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 33.702,
+          "end": 34.024,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 34.333,
+          "end": 34.524,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 34.571,
+          "end": 34.964,
+          "char": 61,
+          "len": 6
+        },
+        {
+          "start": 34.976,
+          "end": 35.357,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 35.369,
+          "end": 35.738,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 35.75,
+          "end": 35.833,
+          "char": 80,
+          "len": 2
+        },
+        {
+          "start": 35.845,
+          "end": 36.155,
+          "char": 83,
+          "len": 4
+        },
+        {
+          "start": 36.167,
+          "end": 36.345,
+          "char": 88,
+          "len": 4
+        },
+        {
+          "start": 36.357,
+          "end": 36.726,
+          "char": 93,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 37.467,
+      "to": 43.923,
+      "heading": "The seabed",
+      "text": "Four thousand two hundred and sixty-one metres: the seabed. They planted a titanium flag right here.",
+      "source": "Arktika 2007, Wikipedia",
+      "beats": [
+        {
+          "word": "seabed",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "North Pole seabed",
+            "subjectValue": 4261,
+            "unit": "m",
+            "note": "Over five Burj Khalifas"
+          }
+        },
+        {
+          "word": "flag",
+          "kind": "stamp",
+          "value": "TITANIUM FLAG"
+        }
+      ],
+      "words": [
+        {
+          "start": 37.736,
+          "end": 37.807,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 37.819,
+          "end": 38.307,
+          "char": 5,
+          "len": 8
+        },
+        {
+          "start": 38.319,
+          "end": 38.51,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 38.522,
+          "end": 38.831,
+          "char": 18,
+          "len": 7
+        },
+        {
+          "start": 38.843,
+          "end": 38.927,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 38.938,
+          "end": 39.498,
+          "char": 30,
+          "len": 9
+        },
+        {
+          "start": 39.51,
+          "end": 39.986,
+          "char": 40,
+          "len": 6
+        },
+        {
+          "start": 40.2,
+          "end": 40.284,
+          "char": 48,
+          "len": 3
+        },
+        {
+          "start": 40.296,
+          "end": 40.807,
+          "char": 52,
+          "len": 6
+        },
+        {
+          "start": 41.212,
+          "end": 41.284,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 41.296,
+          "end": 41.653,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 41.665,
+          "end": 41.712,
+          "char": 73,
+          "len": 1
+        },
+        {
+          "start": 41.724,
+          "end": 42.307,
+          "char": 75,
+          "len": 8
+        },
+        {
+          "start": 42.319,
+          "end": 42.641,
+          "char": 84,
+          "len": 4
+        },
+        {
+          "start": 42.653,
+          "end": 42.843,
+          "char": 89,
+          "len": 5
+        },
+        {
+          "start": 42.855,
+          "end": 43.176,
+          "char": 95,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 43.923,
+      "to": 50.372,
+      "heading": "The twist",
+      "text": "The twist? There's no land at the North Pole. The nearest island is about seven hundred kilometres away.",
+      "source": "North Pole, Wikipedia",
+      "beats": [
+        {
+          "word": "land",
+          "kind": "stamp",
+          "value": "NO LAND AT ALL"
+        }
+      ],
+      "words": [
+        {
+          "start": 44.18,
+          "end": 44.228,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 44.24,
+          "end": 44.68,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 45.085,
+          "end": 45.228,
+          "char": 11,
+          "len": 7
+        },
+        {
+          "start": 45.24,
+          "end": 45.43,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 45.442,
+          "end": 45.74,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 45.752,
+          "end": 45.823,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 45.835,
+          "end": 45.894,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 45.906,
+          "end": 46.168,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 46.18,
+          "end": 46.513,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 46.918,
+          "end": 46.966,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 46.978,
+          "end": 47.323,
+          "char": 50,
+          "len": 7
+        },
+        {
+          "start": 47.335,
+          "end": 47.656,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 47.763,
+          "end": 47.859,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 47.871,
+          "end": 48.121,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 48.133,
+          "end": 48.442,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 48.454,
+          "end": 48.74,
+          "char": 80,
+          "len": 7
+        },
+        {
+          "start": 48.752,
+          "end": 49.287,
+          "char": 88,
+          "len": 10
+        },
+        {
+          "start": 49.299,
+          "end": 49.633,
+          "char": 99,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 50.372,
+      "to": 57.468,
+      "heading": "Whose is it?",
+      "text": "Just drifting ice over four kilometres of ocean. So who do you think the North Pole belongs to?",
+      "source": "Arktika 2007, Wikipedia",
+      "words": [
+        {
+          "start": 50.617,
+          "end": 50.891,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 50.903,
+          "end": 51.367,
+          "char": 5,
+          "len": 8
+        },
+        {
+          "start": 51.379,
+          "end": 51.677,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 51.772,
+          "end": 51.974,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 51.986,
+          "end": 52.308,
+          "char": 23,
+          "len": 4
+        },
+        {
+          "start": 52.32,
+          "end": 52.927,
+          "char": 28,
+          "len": 10
+        },
+        {
+          "start": 52.939,
+          "end": 53.022,
+          "char": 39,
+          "len": 2
+        },
+        {
+          "start": 53.034,
+          "end": 53.403,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 53.796,
+          "end": 53.939,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 53.951,
+          "end": 54.034,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 54.046,
+          "end": 54.105,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 54.117,
+          "end": 54.212,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 54.224,
+          "end": 54.415,
+          "char": 63,
+          "len": 5
+        },
+        {
+          "start": 54.427,
+          "end": 54.486,
+          "char": 69,
+          "len": 3
+        },
+        {
+          "start": 54.498,
+          "end": 54.736,
+          "char": 73,
+          "len": 5
+        },
+        {
+          "start": 54.748,
+          "end": 54.927,
+          "char": 79,
+          "len": 4
+        },
+        {
+          "start": 54.939,
+          "end": 55.308,
+          "char": 84,
+          "len": 7
+        },
+        {
+          "start": 55.32,
+          "end": 55.522,
+          "char": 92,
+          "len": 2
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 4.089
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:1000"
+    },
+    {
+      "need": "hull_creak",
+      "at": 30.792
+    },
+    {
+      "need": "seabed_thud",
+      "at": "depth:4261"
+    }
+  ],
+  "skit": {
+    "text": "No land at the North Pole? So where does Santa park the sleigh?",
+    "mood": "gasp",
+    "action": "*confused beep*",
+    "from": 57.468,
+    "to": 64.3,
+    "words": [
+      {
+        "start": 58.013,
+        "end": 58.261,
+        "char": 0,
+        "len": 2
+      },
+      {
+        "start": 58.272,
+        "end": 58.644,
+        "char": 3,
+        "len": 4
+      },
+      {
+        "start": 58.655,
+        "end": 58.79,
+        "char": 8,
+        "len": 2
+      },
+      {
+        "start": 58.801,
+        "end": 58.88,
+        "char": 11,
+        "len": 3
+      },
+      {
+        "start": 58.891,
+        "end": 59.207,
+        "char": 15,
+        "len": 5
+      },
+      {
+        "start": 59.218,
+        "end": 59.578,
+        "char": 21,
+        "len": 4
+      },
+      {
+        "start": 60.355,
+        "end": 60.614,
+        "char": 27,
+        "len": 2
+      },
+      {
+        "start": 60.626,
+        "end": 60.817,
+        "char": 30,
+        "len": 5
+      },
+      {
+        "start": 60.828,
+        "end": 61.02,
+        "char": 36,
+        "len": 4
+      },
+      {
+        "start": 61.031,
+        "end": 61.673,
+        "char": 41,
+        "len": 10
+      },
+      {
+        "start": 61.684,
+        "end": 61.774,
+        "char": 52,
+        "len": 3
+      },
+      {
+        "start": 61.786,
+        "end": 62.168,
+        "char": 56,
+        "len": 6
+      }
+    ]
+  },
+  "seed": "north-pole-seabed",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank to the seabed under the North Pole?",
+      "Sinking 4,261 m to the seabed under the North Pole"
+    ],
+    "description": "Drop through the sea ice at the North Pole and sink 4,261 metres to the seabed where a titanium flag was planted in 2007, and find out why there's no land at the Pole at all.",
+    "tags": [
+      "north pole",
+      "arctic ocean",
+      "sea ice",
+      "deep sea",
+      "arktika 2007",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Sea ice at the North Pole is typically 2\u20133 m thick; the seabed is 4,261 m down (Mir, 2007); the nearest land, Kaffeklubben Island, is about 700 km away",
+      "url": "https://en.wikipedia.org/wiki/North_Pole"
+    },
+    {
+      "claim": "USS Nautilus was the first submarine to complete a submerged transit of the North Pole, on 3 August 1958",
+      "url": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)"
+    },
+    {
+      "claim": "On 2 August 2007, MIR-1 and MIR-2 reached the seabed at the Pole (MIR-1 at 4,261 m after about 2 h 40 min) and planted a titanium Russian flag; the expedition was tied to Russia's claim to the Lomonosov Ridge",
+      "url": "https://en.wikipedia.org/wiki/Arktika_2007"
+    },
+    {
+      "claim": "The upper 200 m is the sunlight zone; below 1,000 m sunlight does not reach",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ],
+  "voiceover": "audio/north-pole-seabed.mp3",
+  "music": "audio/north-pole-seabed_bed.mp3"
+}
