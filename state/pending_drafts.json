@@ -665,7 +665,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · north-pole-seabed · 64s</i>\n\n<b>A:</b> What if you sank to the seabed under the North Pole?\n<b>B:</b> Sinking 4,261 m to the seabed under the North Pole\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 09 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794159843.3042104
+    "status": "PUBLISHED",
+    "created_at": 1794159843.3042104,
+    "updated_at": 1794163502.3449194,
+    "title_used": "What if you sank to the seabed under the North Pole?",
+    "video_id": "qV9PjCFU63w",
+    "youtube_url": "https://youtube.com/shorts/qV9PjCFU63w",
+    "scheduled_at": null
   }
 }
