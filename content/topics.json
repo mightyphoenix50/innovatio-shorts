@@ -131,6 +131,22 @@
       "title": "How big is the biggest volcano in the solar system?",
       "format": "Orbit",
       "angle": "Tour Mars from Olympus Mons to Valles Marineris and Hellas basin; the twist is that Olympus Mons is so wide its edge would sit below the horizon if you stood at the top.",
+      "status": "queued",
+      "queued_on": "2026-11-09"
+    },
+    {
+      "slug": "see-ultraviolet",
+      "title": "What if you could see like a bee?",
+      "format": "Story",
+      "angle": "Bees see ultraviolet patterns on flowers; your cones could too if your lens didn't block UV; twist: Monet lost a lens in 1923 and his lilies turned blue-purple.",
+      "status": "queued",
+      "queued_on": "2026-11-01"
+    },
+    {
+      "slug": "deepest-cave",
+      "title": "What if you climbed down the deepest cave on Earth?",
+      "format": "Fall-down",
+      "angle": "Down Veryovkina Cave in Abkhazia, over 2 km deep, past shafts and flooded sumps; the twist is that cavers spend weeks underground to reach the bottom.",
       "status": "next"
     },
     {
@@ -141,6 +157,13 @@
       "status": "next"
     },
     {
+      "slug": "hear-like-a-bat",
+      "title": "What if you could see with sound, like a bat?",
+      "format": "Story",
+      "angle": "You wake up with echolocation: clicks, echoes, catching insects in the dark; the twist is that some blind people really do learn to echolocate with tongue clicks.",
+      "status": "next"
+    },
+    {
       "slug": "europa-ocean",
       "title": "Is there more water on Europa than on Earth?",
       "format": "Orbit",
@@ -148,12 +171,25 @@
       "status": "next"
     },
     {
-      "slug": "see-ultraviolet",
-      "title": "What if you could see like a bee?",
-      "format": "Story",
-      "angle": "Bees see ultraviolet patterns on flowers; your cones could too if your lens didn't block UV; twist: Monet lost a lens in 1923 and his lilies turned blue-purple.",
-      "status": "queued",
-      "queued_on": "2026-11-01"
+      "slug": "asteroids-to-scale",
+      "title": "How big are asteroids, really?",
+      "format": "Scale",
+      "angle": "From small asteroids like Bennu up to Vesta and Ceres, then our Moon; the twist is how small the asteroid that wiped out the dinosaurs was next to them.",
+      "status": "next"
+    },
+    {
+      "slug": "deepest-blue-hole",
+      "title": "What if you sank into the deepest blue hole?",
+      "format": "Descent",
+      "angle": "Down the deepest known blue hole, Taam Ja' off Mexico, where the water loses its oxygen; the twist is that divers and sonar still haven't found its bottom.",
+      "status": "next"
+    },
+    {
+      "slug": "balloon-to-edge-of-space",
+      "title": "What if you rode a balloon to the edge of space?",
+      "format": "Fall-up",
+      "angle": "Rise with Alan Eustace's 2014 balloon to about 41 km, past airliners and the ozone layer, then jump; the twist is that he broke the sound barrier on the way down.",
+      "status": "next"
     }
   ]
 }
