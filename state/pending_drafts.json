@@ -692,7 +692,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · olympus-mons · 64s</i>\n\n<b>A:</b> What if you stood on top of Mars's giant volcano?\n<b>B:</b> Olympus Mons: the mountain so big you can't see it\n\n✅ QC passed\n📅 Approving schedules it for <b>Tue 10 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794246800.3964684
+    "status": "PUBLISHED",
+    "created_at": 1794246800.3964684,
+    "updated_at": 1794251069.9425523,
+    "title_used": "What if you stood on top of Mars's giant volcano?",
+    "video_id": "XVy2Ez8npl4",
+    "youtube_url": "https://youtube.com/shorts/XVy2Ez8npl4",
+    "scheduled_at": null
   }
 }
