@@ -1,0 +1,1361 @@
+{
+  "template": "Orbit",
+  "title": "How big is Mars's giant volcano?",
+  "fps": 30,
+  "hook": {
+    "banner": "How big is Mars's biggest volcano?",
+    "flash": "WHAT MOUNTAIN?",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.88,
+      0.05
+    ],
+    [
+      5.699,
+      0.45
+    ],
+    [
+      9.336,
+      0.45
+    ],
+    [
+      11.111,
+      0.35
+    ],
+    [
+      14.662,
+      0.35
+    ],
+    [
+      17.001,
+      0.75
+    ],
+    [
+      21.094,
+      0.72
+    ],
+    [
+      23.549,
+      0.35
+    ],
+    [
+      29.074,
+      0.35
+    ],
+    [
+      31.613,
+      0.4
+    ],
+    [
+      37.327,
+      0.4
+    ],
+    [
+      39.243,
+      0.72
+    ],
+    [
+      43.075,
+      0.7
+    ],
+    [
+      44.955,
+      0.75
+    ],
+    [
+      48.715,
+      0.72
+    ],
+    [
+      50.182,
+      0.12
+    ],
+    [
+      53.849,
+      0.1
+    ]
+  ],
+  "body": {
+    "kind": "mars",
+    "name": "Mars",
+    "glow": "#E29578",
+    "radiusKm": 3389.5
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 18.65,
+      "lon": -133.8,
+      "label": "Olympus Mons",
+      "value": "21.9 km",
+      "caption": "Tall"
+    },
+    {
+      "line": 2,
+      "lat": 18.65,
+      "lon": -133.8,
+      "label": "Olympus Mons",
+      "value": "600 km",
+      "caption": "Wide"
+    },
+    {
+      "line": 3,
+      "lat": 18.65,
+      "lon": -133.8,
+      "label": "Summit calderas",
+      "value": "60\u00d780 km",
+      "caption": "Six nested craters"
+    },
+    {
+      "line": 4,
+      "lat": -13.9,
+      "lon": -59.2,
+      "label": "Valles Marineris",
+      "value": "4,000 km",
+      "caption": "Long"
+    },
+    {
+      "line": 5,
+      "lat": -42.4,
+      "lon": 70.5,
+      "label": "Hellas Planitia",
+      "value": "2,300 km",
+      "caption": "Wide"
+    },
+    {
+      "line": 6,
+      "lat": -42.4,
+      "lon": 70.5,
+      "label": "Hellas floor",
+      "value": "7.2 km",
+      "caption": "Below average level"
+    },
+    {
+      "line": 7,
+      "lat": 18.65,
+      "lon": -133.8,
+      "label": "Olympus Mons summit",
+      "value": "5%",
+      "caption": "Average slope"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.88,
+      "heading": "Mars",
+      "text": "You think Everest is tall? Wait till you stand on Mars.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.376,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.388,
+          "end": 0.614,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.626,
+          "end": 1.019,
+          "char": 10,
+          "len": 7
+        },
+        {
+          "start": 1.031,
+          "end": 1.126,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 1.138,
+          "end": 1.424,
+          "char": 21,
+          "len": 4
+        },
+        {
+          "start": 1.817,
+          "end": 1.995,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 2.007,
+          "end": 2.138,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 2.15,
+          "end": 2.233,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 2.245,
+          "end": 2.543,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 2.555,
+          "end": 2.65,
+          "char": 47,
+          "len": 2
+        },
+        {
+          "start": 2.662,
+          "end": 3.138,
+          "char": 50,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 3.88,
+      "to": 9.336,
+      "heading": "Olympus Mons",
+      "text": "This is Olympus Mons, roughly tied for the tallest mountain in the whole solar system.",
+      "source": "Olympus Mons, Wikipedia",
+      "beats": [
+        {
+          "word": "tallest",
+          "kind": "stamp",
+          "value": "SOLAR SYSTEM GIANT"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.125,
+          "end": 4.34,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 4.351,
+          "end": 4.506,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 4.518,
+          "end": 4.982,
+          "char": 8,
+          "len": 7
+        },
+        {
+          "start": 4.994,
+          "end": 5.518,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 5.709,
+          "end": 6.066,
+          "char": 22,
+          "len": 7
+        },
+        {
+          "start": 6.078,
+          "end": 6.387,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 6.399,
+          "end": 6.494,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 6.506,
+          "end": 6.59,
+          "char": 39,
+          "len": 3
+        },
+        {
+          "start": 6.601,
+          "end": 7.066,
+          "char": 43,
+          "len": 7
+        },
+        {
+          "start": 7.078,
+          "end": 7.435,
+          "char": 51,
+          "len": 8
+        },
+        {
+          "start": 7.447,
+          "end": 7.566,
+          "char": 60,
+          "len": 2
+        },
+        {
+          "start": 7.578,
+          "end": 7.637,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 7.649,
+          "end": 7.863,
+          "char": 67,
+          "len": 5
+        },
+        {
+          "start": 7.875,
+          "end": 8.185,
+          "char": 73,
+          "len": 5
+        },
+        {
+          "start": 8.197,
+          "end": 8.59,
+          "char": 79,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 9.336,
+      "to": 14.662,
+      "heading": "2.5 Everests",
+      "text": "It's about two and a half times as tall as Everest, and six hundred kilometres wide.",
+      "source": "Olympus Mons, Wikipedia",
+      "beats": [
+        {
+          "word": "Everest",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Olympus Mons",
+            "subjectValue": 21.9,
+            "unit": "km",
+            "note": "2.5 Everests tall"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 9.581,
+          "end": 9.677,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 9.688,
+          "end": 9.962,
+          "char": 5,
+          "len": 5
+        },
+        {
+          "start": 9.974,
+          "end": 10.26,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 10.272,
+          "end": 10.343,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 10.355,
+          "end": 10.391,
+          "char": 19,
+          "len": 1
+        },
+        {
+          "start": 10.403,
+          "end": 10.7,
+          "char": 21,
+          "len": 4
+        },
+        {
+          "start": 10.712,
+          "end": 11.034,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 11.046,
+          "end": 11.153,
+          "char": 32,
+          "len": 2
+        },
+        {
+          "start": 11.165,
+          "end": 11.498,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 11.51,
+          "end": 11.629,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 11.641,
+          "end": 12.165,
+          "char": 43,
+          "len": 7
+        },
+        {
+          "start": 12.391,
+          "end": 12.486,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 12.498,
+          "end": 12.796,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 12.807,
+          "end": 13.045,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 13.057,
+          "end": 13.557,
+          "char": 68,
+          "len": 10
+        },
+        {
+          "start": 13.569,
+          "end": 13.915,
+          "char": 79,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 14.662,
+      "to": 21.094,
+      "heading": "Size of Italy",
+      "text": "Its base covers an area about the size of Italy. At the top, six craters sit nested together.",
+      "source": "Olympus Mons, Wikipedia",
+      "beats": [
+        {
+          "word": "Italy",
+          "kind": "stamp",
+          "value": "SIZE OF ITALY"
+        }
+      ],
+      "words": [
+        {
+          "start": 14.907,
+          "end": 15.038,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 15.05,
+          "end": 15.371,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 15.383,
+          "end": 15.705,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 15.717,
+          "end": 15.836,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 15.848,
+          "end": 16.229,
+          "char": 19,
+          "len": 4
+        },
+        {
+          "start": 16.276,
+          "end": 16.514,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 16.526,
+          "end": 16.598,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 16.61,
+          "end": 16.955,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 16.967,
+          "end": 17.05,
+          "char": 39,
+          "len": 2
+        },
+        {
+          "start": 17.062,
+          "end": 17.407,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 17.8,
+          "end": 17.883,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 17.895,
+          "end": 17.967,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 17.979,
+          "end": 18.312,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 18.574,
+          "end": 18.836,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 18.848,
+          "end": 19.264,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 19.276,
+          "end": 19.538,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 19.55,
+          "end": 19.895,
+          "char": 77,
+          "len": 6
+        },
+        {
+          "start": 19.907,
+          "end": 20.36,
+          "char": 84,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 21.094,
+      "to": 29.074,
+      "heading": "Valles Marineris",
+      "text": "Spin around to Valles Marineris, a canyon more than four thousand kilometres long and up to seven kilometres deep.",
+      "source": "Valles Marineris, Wikipedia",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "stat",
+          "value": "7 km",
+          "label": "deep"
+        }
+      ],
+      "words": [
+        {
+          "start": 21.351,
+          "end": 21.589,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 21.601,
+          "end": 22.018,
+          "char": 5,
+          "len": 6
+        },
+        {
+          "start": 22.101,
+          "end": 22.208,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 22.22,
+          "end": 22.708,
+          "char": 15,
+          "len": 6
+        },
+        {
+          "start": 22.72,
+          "end": 23.423,
+          "char": 22,
+          "len": 9
+        },
+        {
+          "start": 23.673,
+          "end": 23.72,
+          "char": 33,
+          "len": 1
+        },
+        {
+          "start": 23.732,
+          "end": 24.149,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 24.161,
+          "end": 24.375,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 24.387,
+          "end": 24.518,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 24.53,
+          "end": 24.851,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 24.863,
+          "end": 25.268,
+          "char": 57,
+          "len": 8
+        },
+        {
+          "start": 25.28,
+          "end": 25.839,
+          "char": 66,
+          "len": 10
+        },
+        {
+          "start": 25.851,
+          "end": 26.387,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 26.565,
+          "end": 26.684,
+          "char": 82,
+          "len": 3
+        },
+        {
+          "start": 26.696,
+          "end": 26.875,
+          "char": 86,
+          "len": 2
+        },
+        {
+          "start": 26.946,
+          "end": 27.042,
+          "char": 89,
+          "len": 2
+        },
+        {
+          "start": 27.054,
+          "end": 27.411,
+          "char": 92,
+          "len": 5
+        },
+        {
+          "start": 27.423,
+          "end": 28.006,
+          "char": 98,
+          "len": 10
+        },
+        {
+          "start": 28.018,
+          "end": 28.327,
+          "char": 109,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 29.074,
+      "to": 37.327,
+      "heading": "Hellas",
+      "text": "And Hellas, an impact basin over two thousand kilometres wide, punched out by a giant asteroid billions of years ago.",
+      "source": "Hellas Planitia, Wikipedia",
+      "beats": [
+        {
+          "word": "asteroid",
+          "kind": "warning",
+          "value": "ASTEROID IMPACT"
+        }
+      ],
+      "words": [
+        {
+          "start": 29.331,
+          "end": 29.426,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 29.438,
+          "end": 29.95,
+          "char": 4,
+          "len": 6
+        },
+        {
+          "start": 30.164,
+          "end": 30.272,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 30.284,
+          "end": 30.772,
+          "char": 15,
+          "len": 6
+        },
+        {
+          "start": 30.784,
+          "end": 31.2,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 31.212,
+          "end": 31.462,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 31.474,
+          "end": 31.748,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 31.76,
+          "end": 32.188,
+          "char": 37,
+          "len": 8
+        },
+        {
+          "start": 32.2,
+          "end": 32.736,
+          "char": 46,
+          "len": 10
+        },
+        {
+          "start": 32.748,
+          "end": 33.141,
+          "char": 57,
+          "len": 4
+        },
+        {
+          "start": 33.498,
+          "end": 33.831,
+          "char": 63,
+          "len": 7
+        },
+        {
+          "start": 33.843,
+          "end": 34.057,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 34.069,
+          "end": 34.236,
+          "char": 75,
+          "len": 2
+        },
+        {
+          "start": 34.248,
+          "end": 34.355,
+          "char": 78,
+          "len": 1
+        },
+        {
+          "start": 34.367,
+          "end": 34.784,
+          "char": 80,
+          "len": 5
+        },
+        {
+          "start": 34.867,
+          "end": 35.498,
+          "char": 86,
+          "len": 8
+        },
+        {
+          "start": 35.51,
+          "end": 35.926,
+          "char": 95,
+          "len": 8
+        },
+        {
+          "start": 35.938,
+          "end": 35.998,
+          "char": 104,
+          "len": 2
+        },
+        {
+          "start": 36.01,
+          "end": 36.26,
+          "char": 107,
+          "len": 5
+        },
+        {
+          "start": 36.272,
+          "end": 36.581,
+          "char": 113,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 37.327,
+      "to": 43.075,
+      "heading": "Thicker air",
+      "text": "Its floor is so deep, the air down there is about twice as thick as the Martian average.",
+      "source": "Hellas Planitia, Wikipedia",
+      "beats": [
+        {
+          "word": "twice",
+          "kind": "stat",
+          "value": "2\u00d7",
+          "label": "the air pressure"
+        }
+      ],
+      "words": [
+        {
+          "start": 37.572,
+          "end": 37.691,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 37.703,
+          "end": 38.048,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 38.06,
+          "end": 38.179,
+          "char": 10,
+          "len": 2
+        },
+        {
+          "start": 38.191,
+          "end": 38.513,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 38.525,
+          "end": 38.906,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 39.179,
+          "end": 39.263,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 39.275,
+          "end": 39.489,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 39.501,
+          "end": 39.751,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 39.763,
+          "end": 39.941,
+          "char": 35,
+          "len": 5
+        },
+        {
+          "start": 39.953,
+          "end": 40.084,
+          "char": 41,
+          "len": 2
+        },
+        {
+          "start": 40.096,
+          "end": 40.346,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 40.358,
+          "end": 40.763,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 40.775,
+          "end": 40.906,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 40.917,
+          "end": 41.215,
+          "char": 59,
+          "len": 5
+        },
+        {
+          "start": 41.298,
+          "end": 41.406,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 41.417,
+          "end": 41.489,
+          "char": 68,
+          "len": 3
+        },
+        {
+          "start": 41.501,
+          "end": 41.858,
+          "char": 72,
+          "len": 7
+        },
+        {
+          "start": 41.87,
+          "end": 42.334,
+          "char": 80,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 43.075,
+      "to": 48.715,
+      "heading": "The twist",
+      "text": "The twist? Stand on top of Olympus Mons, and you wouldn't even know you're on a mountain.",
+      "source": "Olympus Mons, Wikipedia",
+      "beats": [
+        {
+          "word": "mountain",
+          "kind": "stamp",
+          "value": "WHAT MOUNTAIN?"
+        }
+      ],
+      "words": [
+        {
+          "start": 43.332,
+          "end": 43.38,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 43.392,
+          "end": 43.832,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 44.237,
+          "end": 44.558,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 44.57,
+          "end": 44.677,
+          "char": 17,
+          "len": 2
+        },
+        {
+          "start": 44.689,
+          "end": 44.975,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 44.987,
+          "end": 45.058,
+          "char": 24,
+          "len": 2
+        },
+        {
+          "start": 45.07,
+          "end": 45.475,
+          "char": 27,
+          "len": 7
+        },
+        {
+          "start": 45.487,
+          "end": 45.939,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 46.213,
+          "end": 46.32,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 46.332,
+          "end": 46.439,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 46.451,
+          "end": 46.713,
+          "char": 49,
+          "len": 8
+        },
+        {
+          "start": 46.808,
+          "end": 47.058,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 47.07,
+          "end": 47.273,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 47.285,
+          "end": 47.427,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 47.439,
+          "end": 47.535,
+          "char": 75,
+          "len": 2
+        },
+        {
+          "start": 47.546,
+          "end": 47.57,
+          "char": 78,
+          "len": 1
+        },
+        {
+          "start": 47.582,
+          "end": 47.975,
+          "char": 80,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 48.715,
+      "to": 57.149,
+      "heading": "Over the horizon",
+      "text": "Its slopes are so gentle, they run far beyond the horizon, just three kilometres away. Would you climb it?",
+      "source": "Olympus Mons, Wikipedia",
+      "words": [
+        {
+          "start": 48.96,
+          "end": 49.091,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 49.103,
+          "end": 49.472,
+          "char": 4,
+          "len": 6
+        },
+        {
+          "start": 49.484,
+          "end": 49.603,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 49.615,
+          "end": 49.913,
+          "char": 15,
+          "len": 2
+        },
+        {
+          "start": 49.925,
+          "end": 50.401,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 50.686,
+          "end": 50.794,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 50.805,
+          "end": 51.067,
+          "char": 31,
+          "len": 3
+        },
+        {
+          "start": 51.079,
+          "end": 51.484,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 51.496,
+          "end": 51.829,
+          "char": 39,
+          "len": 6
+        },
+        {
+          "start": 51.841,
+          "end": 51.889,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 51.901,
+          "end": 52.424,
+          "char": 50,
+          "len": 7
+        },
+        {
+          "start": 52.722,
+          "end": 52.984,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 52.996,
+          "end": 53.294,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 53.305,
+          "end": 53.877,
+          "char": 70,
+          "len": 10
+        },
+        {
+          "start": 53.889,
+          "end": 54.222,
+          "char": 81,
+          "len": 4
+        },
+        {
+          "start": 54.615,
+          "end": 54.722,
+          "char": 87,
+          "len": 5
+        },
+        {
+          "start": 54.734,
+          "end": 54.805,
+          "char": 93,
+          "len": 3
+        },
+        {
+          "start": 54.817,
+          "end": 55.067,
+          "char": 97,
+          "len": 5
+        },
+        {
+          "start": 55.079,
+          "end": 55.21,
+          "char": 103,
+          "len": 2
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.443
+    },
+    {
+      "need": "whoosh",
+      "at": 3.971,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 21.34,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 29.328,
+      "align": "peak"
+    },
+    {
+      "need": "sonar_ping",
+      "at": 37.806
+    },
+    {
+      "need": "whoosh",
+      "at": 43.263,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 48.935,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "A mountain you can't see from the top? Like my to-do list.",
+    "mood": "shrug",
+    "action": "*sighs in binary*",
+    "from": 57.149,
+    "to": 63.744,
+    "words": [
+      {
+        "start": 57.694,
+        "end": 57.773,
+        "char": 0,
+        "len": 1
+      },
+      {
+        "start": 57.784,
+        "end": 58.201,
+        "char": 2,
+        "len": 8
+      },
+      {
+        "start": 58.212,
+        "end": 58.347,
+        "char": 11,
+        "len": 3
+      },
+      {
+        "start": 58.358,
+        "end": 58.64,
+        "char": 15,
+        "len": 5
+      },
+      {
+        "start": 58.651,
+        "end": 58.91,
+        "char": 21,
+        "len": 3
+      },
+      {
+        "start": 58.922,
+        "end": 59.124,
+        "char": 25,
+        "len": 4
+      },
+      {
+        "start": 59.136,
+        "end": 59.214,
+        "char": 30,
+        "len": 3
+      },
+      {
+        "start": 59.226,
+        "end": 59.586,
+        "char": 34,
+        "len": 3
+      },
+      {
+        "start": 60.363,
+        "end": 60.633,
+        "char": 39,
+        "len": 4
+      },
+      {
+        "start": 60.645,
+        "end": 60.802,
+        "char": 44,
+        "len": 2
+      },
+      {
+        "start": 60.813,
+        "end": 61.162,
+        "char": 47,
+        "len": 5
+      },
+      {
+        "start": 61.174,
+        "end": 61.613,
+        "char": 53,
+        "len": 4
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you stood on top of Mars's giant volcano?",
+      "Olympus Mons: the mountain so big you can't see it"
+    ],
+    "description": "A spin around Mars from Olympus Mons, two and a half times taller than Everest, to the Valles Marineris canyon and the Hellas impact basin, and why you wouldn't know you were on a mountain at its top.",
+    "tags": [
+      "olympus mons",
+      "mars",
+      "valles marineris",
+      "hellas planitia",
+      "volcano",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Olympus Mons is roughly tied with Rheasilvia as the tallest known mountain in the Solar System; about 21.9 km high, about 2.5 times Everest's elevation; 600 km wide; about 300,000 km\u00b2, roughly the size of Italy; six nested summit calderas 60 \u00d7 80 km; average slope about 5%; the slope runs far beyond the horizon, about 3 km away; at 18.65\u00b0 N, 226.2\u00b0 E",
+      "url": "https://en.wikipedia.org/wiki/Olympus_Mons"
+    },
+    {
+      "claim": "Valles Marineris is more than 4,000 km long and up to 7 km deep, at 13.9\u00b0 S, 59.2\u00b0 W",
+      "url": "https://en.wikipedia.org/wiki/Valles_Marineris"
+    },
+    {
+      "claim": "Hellas Planitia is about 2,300 km across, its floor about 7,152 m below the Martian datum, with air pressure about 103% higher than at the datum; it formed in an impact about 4.1\u20133.8 billion years ago; at 42.4\u00b0 S, 70.5\u00b0 E",
+      "url": "https://en.wikipedia.org/wiki/Hellas_Planitia"
+    },
+    {
+      "claim": "Mars's mean radius is 3,389.5 km",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    }
+  ],
+  "seed": "olympus-mons",
+  "voiceover": "audio/olympus-mons.mp3",
+  "music": "audio/olympus-mons_bed.mp3"
+}

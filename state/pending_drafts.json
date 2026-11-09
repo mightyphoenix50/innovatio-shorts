@@ -672,5 +672,27 @@
     "video_id": "qV9PjCFU63w",
     "youtube_url": "https://youtube.com/shorts/qV9PjCFU63w",
     "scheduled_at": null
+  },
+  "71": {
+    "episode": "olympus-mons",
+    "video_path": "output/drafts/olympus-mons.mp4",
+    "titles": [
+      "What if you stood on top of Mars's giant volcano?",
+      "Olympus Mons: the mountain so big you can't see it"
+    ],
+    "description": "A spin around Mars from Olympus Mons, two and a half times taller than Everest, to the Valles Marineris canyon and the Hellas impact basin, and why you wouldn't know you were on a mountain at its top.\n\nSources:\n- Olympus Mons is roughly tied with Rheasilvia as the tallest known mountain in the Solar System; about 21.9 km high, about 2.5 times Everest's elevation; 600 km wide; about 300,000 km², roughly the size of Italy; six nested summit calderas 60 × 80 km; average slope about 5%; the slope runs far beyond the horizon, about 3 km away; at 18.65° N, 226.2° E: https://en.wikipedia.org/wiki/Olympus_Mons\n- Valles Marineris is more than 4,000 km long and up to 7 km deep, at 13.9° S, 59.2° W: https://en.wikipedia.org/wiki/Valles_Marineris\n- Hellas Planitia is about 2,300 km across, its floor about 7,152 m below the Martian datum, with air pressure about 103% higher than at the datum; it formed in an impact about 4.1–3.8 billion years ago; at 42.4° S, 70.5° E: https://en.wikipedia.org/wiki/Hellas_Planitia\n- Mars's mean radius is 3,389.5 km: https://en.wikipedia.org/wiki/Mars\n\nSound effects:\n- \"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- station beep: CC0 1.0, https://freesound.org/people/SoundsofTheMachine/sounds/791966/\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/vekoN/sounds/719830/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "olympus mons",
+      "mars",
+      "valles marineris",
+      "hellas planitia",
+      "volcano",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · olympus-mons · 64s</i>\n\n<b>A:</b> What if you stood on top of Mars's giant volcano?\n<b>B:</b> Olympus Mons: the mountain so big you can't see it\n\n✅ QC passed\n📅 Approving schedules it for <b>Tue 10 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794246800.3964684
   }
 }
