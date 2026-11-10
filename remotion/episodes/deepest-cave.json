@@ -1,0 +1,1335 @@
+{
+  "template": "Fall",
+  "title": "What if you climbed down the deepest cave on Earth?",
+  "fps": 30,
+  "hook": {
+    "banner": "How deep is the deepest cave?",
+    "flash": "2,224 m DOWN",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.017,
+      0
+    ],
+    [
+      7.737,
+      20
+    ],
+    [
+      12.395,
+      40
+    ],
+    [
+      14.882,
+      60
+    ],
+    [
+      19.857,
+      200
+    ],
+    [
+      21.985,
+      1000
+    ],
+    [
+      26.242,
+      1200
+    ],
+    [
+      28.962,
+      1500
+    ],
+    [
+      34.401,
+      1700
+    ],
+    [
+      36.41,
+      2209
+    ],
+    [
+      40.929,
+      2215
+    ],
+    [
+      42.905,
+      2224
+    ],
+    [
+      59.919,
+      2224
+    ]
+  ],
+  "maxDepth": 2224,
+  "fallAt": 4.017,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      60,
+      700
+    ],
+    [
+      1000,
+      1500
+    ],
+    [
+      1980,
+      2300
+    ],
+    [
+      2224,
+      3000
+    ],
+    [
+      2600,
+      3700
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 60,
+      "name": "Entrance shaft",
+      "colourTop": "#9C8F80",
+      "colourBottom": "#8C7F70",
+      "texture": "soil"
+    },
+    {
+      "from": 60,
+      "to": 1000,
+      "name": "Limestone",
+      "colourTop": "#A39886",
+      "colourBottom": "#8E8372",
+      "texture": "strata"
+    },
+    {
+      "from": 1000,
+      "to": 2199,
+      "name": "Deep limestone",
+      "colourTop": "#7E7464",
+      "colourBottom": "#5F574B",
+      "texture": "strata"
+    },
+    {
+      "from": 2199,
+      "to": 2224,
+      "name": "Flooded sump",
+      "colourTop": "#3F7A8C",
+      "colourBottom": "#2D5F70",
+      "texture": "liquid"
+    },
+    {
+      "from": 2224,
+      "to": 2600,
+      "name": "Bedrock",
+      "colourTop": "#5F574B",
+      "colourBottom": "#4E473D",
+      "texture": "granite"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 60,
+      "kind": "boundary",
+      "label": "Entrance shaft \u00b7 60 m",
+      "side": "left"
+    },
+    {
+      "depth": 1000,
+      "kind": "boundary",
+      "label": "1 km underground",
+      "side": "right"
+    },
+    {
+      "depth": 1980,
+      "kind": "boundary",
+      "label": "Deepest animal \u00b7 ~1,980 m",
+      "side": "left"
+    },
+    {
+      "depth": 2224,
+      "kind": "boundary",
+      "label": "The bottom \u00b7 2,224 m",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      4
+    ],
+    [
+      1000,
+      5
+    ],
+    [
+      2224,
+      7
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0.76
+    ],
+    [
+      2224,
+      1.0
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.408,
+      "heading": "The deepest cave",
+      "text": "You're climbing into the deepest known cave on Earth. Bring rope. Lots of rope.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.352,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.364,
+          "end": 0.781,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 0.793,
+          "end": 0.995,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 1.007,
+          "end": 1.15,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 1.162,
+          "end": 1.626,
+          "char": 25,
+          "len": 7
+        },
+        {
+          "start": 1.638,
+          "end": 1.936,
+          "char": 33,
+          "len": 5
+        },
+        {
+          "start": 1.948,
+          "end": 2.233,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 2.245,
+          "end": 2.4,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 2.412,
+          "end": 2.781,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 3.186,
+          "end": 3.376,
+          "char": 54,
+          "len": 5
+        },
+        {
+          "start": 3.388,
+          "end": 3.662,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 4.055,
+          "end": 4.281,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 4.293,
+          "end": 4.388,
+          "char": 71,
+          "len": 2
+        },
+        {
+          "start": 4.4,
+          "end": 4.662,
+          "char": 74,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 5.408,
+      "to": 12.395,
+      "heading": "Krubera Cave",
+      "text": "This is Krubera Cave, high in the Caucasus mountains of Abkhazia. Its entrance sits two kilometres up.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "kilometres",
+          "kind": "stat",
+          "value": "2,256 m",
+          "label": "above sea level"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.653,
+          "end": 5.856,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 5.868,
+          "end": 5.987,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 5.998,
+          "end": 6.451,
+          "char": 8,
+          "len": 7
+        },
+        {
+          "start": 6.463,
+          "end": 6.903,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 7.26,
+          "end": 7.415,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 7.427,
+          "end": 7.498,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 7.51,
+          "end": 7.594,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 7.606,
+          "end": 8.165,
+          "char": 34,
+          "len": 8
+        },
+        {
+          "start": 8.177,
+          "end": 8.582,
+          "char": 43,
+          "len": 9
+        },
+        {
+          "start": 8.594,
+          "end": 8.677,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 8.689,
+          "end": 9.368,
+          "char": 56,
+          "len": 8
+        },
+        {
+          "start": 9.76,
+          "end": 9.891,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 9.903,
+          "end": 10.272,
+          "char": 70,
+          "len": 8
+        },
+        {
+          "start": 10.284,
+          "end": 10.546,
+          "char": 79,
+          "len": 4
+        },
+        {
+          "start": 10.558,
+          "end": 10.82,
+          "char": 84,
+          "len": 3
+        },
+        {
+          "start": 10.832,
+          "end": 11.415,
+          "char": 88,
+          "len": 10
+        },
+        {
+          "start": 11.427,
+          "end": 11.653,
+          "char": 99,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 12.395,
+      "to": 19.857,
+      "heading": "Crows' Cave",
+      "text": "Crows nest in the entrance shaft, sixty metres straight down. Its other name, Voronya, means Crows' Cave.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "Voronya",
+          "kind": "stamp",
+          "value": "CROWS' CAVE"
+        }
+      ],
+      "words": [
+        {
+          "start": 12.64,
+          "end": 12.914,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 12.926,
+          "end": 13.259,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 13.271,
+          "end": 13.319,
+          "char": 11,
+          "len": 2
+        },
+        {
+          "start": 13.331,
+          "end": 13.402,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 13.414,
+          "end": 13.795,
+          "char": 18,
+          "len": 8
+        },
+        {
+          "start": 13.807,
+          "end": 14.283,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 14.533,
+          "end": 14.926,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 14.938,
+          "end": 15.307,
+          "char": 40,
+          "len": 6
+        },
+        {
+          "start": 15.426,
+          "end": 15.747,
+          "char": 47,
+          "len": 8
+        },
+        {
+          "start": 15.759,
+          "end": 16.081,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 16.474,
+          "end": 16.605,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 16.616,
+          "end": 16.831,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 16.843,
+          "end": 17.093,
+          "char": 72,
+          "len": 4
+        },
+        {
+          "start": 17.438,
+          "end": 17.89,
+          "char": 78,
+          "len": 7
+        },
+        {
+          "start": 18.2,
+          "end": 18.414,
+          "char": 87,
+          "len": 5
+        },
+        {
+          "start": 18.426,
+          "end": 18.724,
+          "char": 93,
+          "len": 6
+        },
+        {
+          "start": 18.735,
+          "end": 19.116,
+          "char": 100,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 19.857,
+      "to": 26.242,
+      "heading": "Past 2 km",
+      "text": "In this cave, Ukrainian cavers became the first people ever to go two thousand metres underground.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "first",
+          "kind": "stamp",
+          "value": "FIRST PAST 2 KM"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.102,
+          "end": 20.197,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 20.209,
+          "end": 20.376,
+          "char": 3,
+          "len": 4
+        },
+        {
+          "start": 20.388,
+          "end": 20.805,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 21.055,
+          "end": 21.602,
+          "char": 14,
+          "len": 9
+        },
+        {
+          "start": 21.614,
+          "end": 22.019,
+          "char": 24,
+          "len": 6
+        },
+        {
+          "start": 22.031,
+          "end": 22.376,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 22.388,
+          "end": 22.471,
+          "char": 38,
+          "len": 3
+        },
+        {
+          "start": 22.483,
+          "end": 22.864,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 22.876,
+          "end": 23.257,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 23.352,
+          "end": 23.555,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 23.567,
+          "end": 23.65,
+          "char": 60,
+          "len": 2
+        },
+        {
+          "start": 23.662,
+          "end": 23.852,
+          "char": 63,
+          "len": 2
+        },
+        {
+          "start": 23.864,
+          "end": 24.15,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 24.162,
+          "end": 24.59,
+          "char": 70,
+          "len": 8
+        },
+        {
+          "start": 24.602,
+          "end": 24.947,
+          "char": 79,
+          "len": 6
+        },
+        {
+          "start": 24.959,
+          "end": 25.495,
+          "char": 86,
+          "len": 11
+        }
+      ]
+    },
+    {
+      "from": 26.242,
+      "to": 34.401,
+      "heading": "Weeks below",
+      "text": "Getting this deep takes weeks. In 2012, fifty-nine cavers spent twenty-seven days underground, sleeping in camps.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "twenty-seven",
+          "kind": "stat",
+          "value": "27 days",
+          "label": "underground"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.487,
+          "end": 26.666,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 26.678,
+          "end": 26.856,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 26.868,
+          "end": 27.118,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 27.166,
+          "end": 27.44,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 27.452,
+          "end": 27.904,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 28.297,
+          "end": 29.428,
+          "char": 31,
+          "len": 7
+        },
+        {
+          "start": 29.606,
+          "end": 30.154,
+          "char": 40,
+          "len": 10
+        },
+        {
+          "start": 30.166,
+          "end": 30.571,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 30.582,
+          "end": 30.868,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 30.88,
+          "end": 31.499,
+          "char": 64,
+          "len": 12
+        },
+        {
+          "start": 31.511,
+          "end": 31.773,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 31.785,
+          "end": 32.321,
+          "char": 82,
+          "len": 11
+        },
+        {
+          "start": 32.606,
+          "end": 32.987,
+          "char": 95,
+          "len": 8
+        },
+        {
+          "start": 32.999,
+          "end": 33.094,
+          "char": 104,
+          "len": 2
+        },
+        {
+          "start": 33.106,
+          "end": 33.654,
+          "char": 107,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 34.401,
+      "to": 40.929,
+      "heading": "The rival",
+      "text": "Its neighbour, Veryovkina Cave, on the same mountain range, is only fifteen metres shallower.",
+      "source": "Veryovkina Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "Veryovkina",
+          "kind": "compare",
+          "compare": {
+            "name": "Veryovkina",
+            "value": 2209,
+            "icon": "land",
+            "subject": "Krubera",
+            "subjectValue": 2224,
+            "unit": "m deep",
+            "note": "Just 15 m deeper"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 34.646,
+          "end": 34.789,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 34.801,
+          "end": 35.253,
+          "char": 4,
+          "len": 9
+        },
+        {
+          "start": 35.432,
+          "end": 36.134,
+          "char": 15,
+          "len": 10
+        },
+        {
+          "start": 36.146,
+          "end": 36.611,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 36.884,
+          "end": 36.968,
+          "char": 32,
+          "len": 2
+        },
+        {
+          "start": 36.98,
+          "end": 37.051,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 37.063,
+          "end": 37.325,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 37.337,
+          "end": 37.634,
+          "char": 44,
+          "len": 8
+        },
+        {
+          "start": 37.646,
+          "end": 38.027,
+          "char": 53,
+          "len": 5
+        },
+        {
+          "start": 38.265,
+          "end": 38.42,
+          "char": 60,
+          "len": 2
+        },
+        {
+          "start": 38.432,
+          "end": 38.73,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 38.741,
+          "end": 39.289,
+          "char": 68,
+          "len": 7
+        },
+        {
+          "start": 39.301,
+          "end": 39.611,
+          "char": 76,
+          "len": 6
+        },
+        {
+          "start": 39.622,
+          "end": 40.182,
+          "char": 83,
+          "len": 9
+        }
+      ]
+    },
+    {
+      "from": 40.929,
+      "to": 47.35,
+      "heading": "The bottom",
+      "text": "Two thousand two hundred and twenty-four metres: the bottom, a flooded tunnel only divers can reach.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "bottom",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "Krubera Cave",
+            "subjectValue": 2224,
+            "unit": "m",
+            "note": "Almost 3 Burj Khalifas"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 41.186,
+          "end": 41.317,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 41.329,
+          "end": 41.746,
+          "char": 4,
+          "len": 8
+        },
+        {
+          "start": 41.758,
+          "end": 41.924,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 41.936,
+          "end": 42.21,
+          "char": 17,
+          "len": 7
+        },
+        {
+          "start": 42.222,
+          "end": 42.27,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 42.281,
+          "end": 42.746,
+          "char": 29,
+          "len": 11
+        },
+        {
+          "start": 42.758,
+          "end": 43.246,
+          "char": 41,
+          "len": 6
+        },
+        {
+          "start": 43.508,
+          "end": 43.603,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 43.615,
+          "end": 43.972,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 44.341,
+          "end": 44.377,
+          "char": 61,
+          "len": 1
+        },
+        {
+          "start": 44.389,
+          "end": 44.805,
+          "char": 63,
+          "len": 7
+        },
+        {
+          "start": 44.817,
+          "end": 45.15,
+          "char": 71,
+          "len": 6
+        },
+        {
+          "start": 45.281,
+          "end": 45.567,
+          "char": 78,
+          "len": 4
+        },
+        {
+          "start": 45.579,
+          "end": 45.984,
+          "char": 83,
+          "len": 6
+        },
+        {
+          "start": 45.996,
+          "end": 46.162,
+          "char": 90,
+          "len": 3
+        },
+        {
+          "start": 46.174,
+          "end": 46.603,
+          "char": 94,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 47.35,
+      "to": 55.835,
+      "heading": "The twist",
+      "text": "The twist? Something lives down here. A tiny springtail, the deepest land animal ever found, almost two kilometres down.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "springtail",
+          "kind": "stamp",
+          "value": "DEEPEST ANIMAL"
+        }
+      ],
+      "words": [
+        {
+          "start": 47.607,
+          "end": 47.655,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 47.667,
+          "end": 48.107,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 48.5,
+          "end": 48.774,
+          "char": 11,
+          "len": 9
+        },
+        {
+          "start": 48.786,
+          "end": 48.976,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 48.988,
+          "end": 49.214,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 49.226,
+          "end": 49.524,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 49.917,
+          "end": 49.988,
+          "char": 38,
+          "len": 1
+        },
+        {
+          "start": 50.0,
+          "end": 50.381,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 50.393,
+          "end": 51.048,
+          "char": 45,
+          "len": 10
+        },
+        {
+          "start": 51.286,
+          "end": 51.393,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 51.405,
+          "end": 51.845,
+          "char": 61,
+          "len": 7
+        },
+        {
+          "start": 51.857,
+          "end": 52.214,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 52.226,
+          "end": 52.619,
+          "char": 74,
+          "len": 6
+        },
+        {
+          "start": 52.667,
+          "end": 52.833,
+          "char": 81,
+          "len": 4
+        },
+        {
+          "start": 52.845,
+          "end": 53.274,
+          "char": 86,
+          "len": 5
+        },
+        {
+          "start": 53.679,
+          "end": 53.988,
+          "char": 93,
+          "len": 6
+        },
+        {
+          "start": 54.0,
+          "end": 54.202,
+          "char": 100,
+          "len": 3
+        },
+        {
+          "start": 54.214,
+          "end": 54.762,
+          "char": 104,
+          "len": 10
+        },
+        {
+          "start": 54.774,
+          "end": 55.095,
+          "char": 115,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 55.835,
+      "to": 62.544,
+      "heading": "Would you?",
+      "text": "No sunlight, no plants, just rock and water. Would you spend a month down here?",
+      "words": [
+        {
+          "start": 56.08,
+          "end": 56.223,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 56.235,
+          "end": 56.735,
+          "char": 3,
+          "len": 8
+        },
+        {
+          "start": 57.08,
+          "end": 57.259,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 57.271,
+          "end": 57.818,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 58.045,
+          "end": 58.259,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 58.271,
+          "end": 58.533,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 58.545,
+          "end": 58.64,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 58.652,
+          "end": 59.08,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 59.473,
+          "end": 59.568,
+          "char": 45,
+          "len": 5
+        },
+        {
+          "start": 59.58,
+          "end": 59.64,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 59.652,
+          "end": 59.866,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 59.878,
+          "end": 59.902,
+          "char": 61,
+          "len": 1
+        },
+        {
+          "start": 59.914,
+          "end": 60.128,
+          "char": 63,
+          "len": 5
+        },
+        {
+          "start": 60.14,
+          "end": 60.33,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 60.342,
+          "end": 60.604,
+          "char": 74,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "whoosh",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:60"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:1000"
+    },
+    {
+      "need": "dive_splash",
+      "at": "depth:2210"
+    },
+    {
+      "need": "whoosh",
+      "at": 47.35,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Twenty-seven days with no signal? I'd need therapy. Or a reboot.",
+    "mood": "gasp",
+    "action": "*panicked beep*",
+    "from": 62.544,
+    "to": 70.704,
+    "words": [
+      {
+        "start": 63.089,
+        "end": 63.832,
+        "char": 0,
+        "len": 12
+      },
+      {
+        "start": 63.844,
+        "end": 64.148,
+        "char": 13,
+        "len": 4
+      },
+      {
+        "start": 64.159,
+        "end": 64.317,
+        "char": 18,
+        "len": 4
+      },
+      {
+        "start": 64.328,
+        "end": 64.542,
+        "char": 23,
+        "len": 2
+      },
+      {
+        "start": 64.553,
+        "end": 65.071,
+        "char": 26,
+        "len": 6
+      },
+      {
+        "start": 65.848,
+        "end": 66.073,
+        "char": 34,
+        "len": 3
+      },
+      {
+        "start": 66.085,
+        "end": 66.321,
+        "char": 38,
+        "len": 4
+      },
+      {
+        "start": 66.332,
+        "end": 66.918,
+        "char": 43,
+        "len": 7
+      },
+      {
+        "start": 67.695,
+        "end": 67.931,
+        "char": 52,
+        "len": 2
+      },
+      {
+        "start": 67.943,
+        "end": 67.999,
+        "char": 55,
+        "len": 1
+      },
+      {
+        "start": 68.01,
+        "end": 68.573,
+        "char": 57,
+        "len": 6
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you climbed down the deepest cave on Earth?",
+      "Inside Krubera, the deepest known cave on Earth"
+    ],
+    "description": "Climb down Krubera Cave in the Caucasus, past the crows' entrance shaft and weeks of underground camps, to a flooded bottom 2,224 metres down, and meet the deepest land animal ever found.",
+    "tags": [
+      "krubera cave",
+      "deepest cave",
+      "caving",
+      "veryovkina",
+      "springtail",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Krubera (Voronya, 'Crows' Cave') is in the Arabika Massif, Abkhazia, with its entrance at 2,256 m and a ~60 m entrance shaft where crows nest; a 2024 resurvey gave a depth of 2,224 m, ending in a flooded sump",
+      "url": "https://en.wikipedia.org/wiki/Krubera_Cave"
+    },
+    {
+      "claim": "Ukrainian Speleological Association cavers in Krubera were the first to pass \u22122,000 m; in 2012 a team of 59 spent 27 days underground with a series of camps",
+      "url": "https://en.wikipedia.org/wiki/Krubera_Cave"
+    },
+    {
+      "claim": "The springtail Plutomurus ortobalaganensis, the deepest terrestrial animal ever found, lives about 1,980 m below the entrance",
+      "url": "https://en.wikipedia.org/wiki/Krubera_Cave"
+    },
+    {
+      "claim": "Veryovkina Cave, in the same Arabika Massif, is 2,209 m deep, the second-deepest known cave after Krubera",
+      "url": "https://en.wikipedia.org/wiki/Veryovkina_Cave"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ],
+  "seed": "deepest-cave",
+  "voiceover": "audio/deepest-cave.mp3",
+  "music": "audio/deepest-cave_bed.mp3"
+}

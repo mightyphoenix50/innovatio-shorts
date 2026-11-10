@@ -699,5 +699,27 @@
     "video_id": "XVy2Ez8npl4",
     "youtube_url": "https://youtube.com/shorts/XVy2Ez8npl4",
     "scheduled_at": null
+  },
+  "73": {
+    "episode": "deepest-cave",
+    "video_path": "output/drafts/deepest-cave.mp4",
+    "titles": [
+      "What if you climbed down the deepest cave on Earth?",
+      "Inside Krubera, the deepest known cave on Earth"
+    ],
+    "description": "Climb down Krubera Cave in the Caucasus, past the crows' entrance shaft and weeks of underground camps, to a flooded bottom 2,224 metres down, and meet the deepest land animal ever found.\n\nSources:\n- Krubera (Voronya, 'Crows' Cave') is in the Arabika Massif, Abkhazia, with its entrance at 2,256 m and a ~60 m entrance shaft where crows nest; a 2024 resurvey gave a depth of 2,224 m, ending in a flooded sump: https://en.wikipedia.org/wiki/Krubera_Cave\n- Ukrainian Speleological Association cavers in Krubera were the first to pass −2,000 m; in 2012 a team of 59 spent 27 days underground with a series of camps: https://en.wikipedia.org/wiki/Krubera_Cave\n- The springtail Plutomurus ortobalaganensis, the deepest terrestrial animal ever found, lives about 1,980 m below the entrance: https://en.wikipedia.org/wiki/Krubera_Cave\n- Veryovkina Cave, in the same Arabika Massif, is 2,209 m deep, the second-deepest known cave after Krubera: https://en.wikipedia.org/wiki/Veryovkina_Cave\n- The Burj Khalifa's roof height is 828 m: https://en.wikipedia.org/wiki/Burj_Khalifa\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- rock rumble: CC0 1.0, https://freesound.org/people/uagadugu/sounds/222521/\n- cartoon pop: CC0 1.0, https://freesound.org/people/mikala_oidua/sounds/321163/\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "krubera cave",
+      "deepest cave",
+      "caving",
+      "veryovkina",
+      "springtail",
+      "earth science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · deepest-cave · 71s</i>\n\n<b>A:</b> What if you climbed down the deepest cave on Earth?\n<b>B:</b> Inside Krubera, the deepest known cave on Earth\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 11 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794333003.7394447
   }
 }
