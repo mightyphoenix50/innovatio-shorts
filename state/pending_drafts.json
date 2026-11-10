@@ -719,7 +719,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · deepest-cave · 71s</i>\n\n<b>A:</b> What if you climbed down the deepest cave on Earth?\n<b>B:</b> Inside Krubera, the deepest known cave on Earth\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 11 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794333003.7394447
+    "status": "PUBLISHED",
+    "created_at": 1794333003.7394447,
+    "updated_at": 1794341716.504149,
+    "title_used": "What if you climbed down the deepest cave on Earth?",
+    "video_id": "_ZqvkofRyIw",
+    "youtube_url": "https://youtube.com/shorts/_ZqvkofRyIw",
+    "scheduled_at": null
   }
 }
