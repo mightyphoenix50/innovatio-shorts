@@ -1,0 +1,387 @@
+{
+  "template": "Fall",
+  "title": "What if you climbed down the deepest cave on Earth?",
+  "fps": 30,
+  "hook": {
+    "banner": "How deep is the deepest cave?",
+    "flash": "2,224 m DOWN",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      2.6,
+      0
+    ],
+    [
+      5.5,
+      20
+    ],
+    [
+      9.5,
+      40
+    ],
+    [
+      11.5,
+      60
+    ],
+    [
+      15.5,
+      200
+    ],
+    [
+      17.5,
+      1000
+    ],
+    [
+      21.5,
+      1200
+    ],
+    [
+      23.5,
+      1500
+    ],
+    [
+      27.5,
+      1700
+    ],
+    [
+      29.5,
+      2209
+    ],
+    [
+      34,
+      2215
+    ],
+    [
+      36,
+      2224
+    ],
+    [
+      54,
+      2224
+    ]
+  ],
+  "maxDepth": 2224,
+  "fallAt": 2.6,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      60,
+      700
+    ],
+    [
+      1000,
+      1500
+    ],
+    [
+      1980,
+      2300
+    ],
+    [
+      2224,
+      3000
+    ],
+    [
+      2600,
+      3700
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 60,
+      "name": "Entrance shaft",
+      "colourTop": "#9C8F80",
+      "colourBottom": "#8C7F70",
+      "texture": "soil"
+    },
+    {
+      "from": 60,
+      "to": 1000,
+      "name": "Limestone",
+      "colourTop": "#A39886",
+      "colourBottom": "#8E8372",
+      "texture": "strata"
+    },
+    {
+      "from": 1000,
+      "to": 2199,
+      "name": "Deep limestone",
+      "colourTop": "#7E7464",
+      "colourBottom": "#5F574B",
+      "texture": "strata"
+    },
+    {
+      "from": 2199,
+      "to": 2224,
+      "name": "Flooded sump",
+      "colourTop": "#3F7A8C",
+      "colourBottom": "#2D5F70",
+      "texture": "liquid"
+    },
+    {
+      "from": 2224,
+      "to": 2600,
+      "name": "Bedrock",
+      "colourTop": "#5F574B",
+      "colourBottom": "#4E473D",
+      "texture": "granite"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 60,
+      "kind": "boundary",
+      "label": "Entrance shaft · 60 m",
+      "side": "left"
+    },
+    {
+      "depth": 1000,
+      "kind": "boundary",
+      "label": "1 km underground",
+      "side": "right"
+    },
+    {
+      "depth": 1980,
+      "kind": "boundary",
+      "label": "Deepest animal · ~1,980 m",
+      "side": "left"
+    },
+    {
+      "depth": 2224,
+      "kind": "boundary",
+      "label": "The bottom · 2,224 m",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      4
+    ],
+    [
+      1000,
+      5
+    ],
+    [
+      2224,
+      7
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0.76
+    ],
+    [
+      2224,
+      1.0
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "The deepest cave",
+      "text": "You're climbing into the deepest known cave on Earth. Bring rope. Lots of rope."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "Krubera Cave",
+      "text": "This is Krubera Cave, high in the Caucasus mountains of Abkhazia. Its entrance sits two kilometres up.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "kilometres",
+          "kind": "stat",
+          "value": "2,256 m",
+          "label": "above sea level"
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15.5,
+      "heading": "Crows' Cave",
+      "text": "Crows nest in the entrance shaft, sixty metres straight down. Its other name, Voronya, means Crows' Cave.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "Voronya",
+          "kind": "stamp",
+          "value": "CROWS' CAVE"
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "Past 2 km",
+      "text": "In this cave, Ukrainian cavers became the first people ever to go two thousand metres underground.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "first",
+          "kind": "stamp",
+          "value": "FIRST PAST 2 KM"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "Weeks below",
+      "text": "Getting this deep takes weeks. In 2012, fifty-nine cavers spent twenty-seven days underground, sleeping in camps.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "twenty-seven",
+          "kind": "stat",
+          "value": "27 days",
+          "label": "underground"
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 34,
+      "heading": "The rival",
+      "text": "Its neighbour, Veryovkina Cave, on the same mountain range, is only fifteen metres shallower.",
+      "source": "Veryovkina Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "Veryovkina",
+          "kind": "compare",
+          "compare": {
+            "name": "Veryovkina",
+            "value": 2209,
+            "icon": "land",
+            "subject": "Krubera",
+            "subjectValue": 2224,
+            "unit": "m deep",
+            "note": "Just 15 m deeper"
+          }
+        }
+      ]
+    },
+    {
+      "from": 34,
+      "to": 40.5,
+      "heading": "The bottom",
+      "text": "Two thousand two hundred and twenty-four metres: the bottom, a flooded tunnel only divers can reach.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "bottom",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "Krubera Cave",
+            "subjectValue": 2224,
+            "unit": "m",
+            "note": "Almost 3 Burj Khalifas"
+          }
+        }
+      ]
+    },
+    {
+      "from": 40.5,
+      "to": 47,
+      "heading": "The twist",
+      "text": "The twist? Something lives down here. A tiny springtail, the deepest land animal ever found, almost two kilometres down.",
+      "source": "Krubera Cave, Wikipedia",
+      "beats": [
+        {
+          "word": "springtail",
+          "kind": "stamp",
+          "value": "DEEPEST ANIMAL"
+        }
+      ]
+    },
+    {
+      "from": 47,
+      "to": 54,
+      "heading": "Would you?",
+      "text": "No sunlight, no plants, just rock and water. Would you spend a month down here?"
+    }
+  ],
+  "sfx": [
+    {
+      "need": "whoosh",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:60"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:1000"
+    },
+    {
+      "need": "dive_splash",
+      "at": "depth:2210"
+    },
+    {
+      "need": "whoosh",
+      "at": 40.5,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Twenty-seven days with no signal? I'd need therapy. Or a reboot.",
+    "mood": "gasp",
+    "action": "*panicked beep*"
+  },
+  "series": "What if…",
+  "youtube": {
+    "titles": [
+      "What if you climbed down the deepest cave on Earth?",
+      "Inside Krubera, the deepest known cave on Earth"
+    ],
+    "description": "Climb down Krubera Cave in the Caucasus, past the crows' entrance shaft and weeks of underground camps, to a flooded bottom 2,224 metres down, and meet the deepest land animal ever found.",
+    "tags": [
+      "krubera cave",
+      "deepest cave",
+      "caving",
+      "veryovkina",
+      "springtail",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Krubera (Voronya, 'Crows' Cave') is in the Arabika Massif, Abkhazia, with its entrance at 2,256 m and a ~60 m entrance shaft where crows nest; a 2024 resurvey gave a depth of 2,224 m, ending in a flooded sump",
+      "url": "https://en.wikipedia.org/wiki/Krubera_Cave"
+    },
+    {
+      "claim": "Ukrainian Speleological Association cavers in Krubera were the first to pass −2,000 m; in 2012 a team of 59 spent 27 days underground with a series of camps",
+      "url": "https://en.wikipedia.org/wiki/Krubera_Cave"
+    },
+    {
+      "claim": "The springtail Plutomurus ortobalaganensis, the deepest terrestrial animal ever found, lives about 1,980 m below the entrance",
+      "url": "https://en.wikipedia.org/wiki/Krubera_Cave"
+    },
+    {
+      "claim": "Veryovkina Cave, in the same Arabika Massif, is 2,209 m deep, the second-deepest known cave after Krubera",
+      "url": "https://en.wikipedia.org/wiki/Veryovkina_Cave"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ],
+  "seed": "deepest-cave"
+}

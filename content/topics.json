@@ -147,7 +147,8 @@
       "title": "What if you climbed down the deepest cave on Earth?",
       "format": "Fall-down",
       "angle": "Down Veryovkina Cave in Abkhazia, over 2 km deep, past shafts and flooded sumps; the twist is that cavers spend weeks underground to reach the bottom.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-10"
     },
     {
       "slug": "saturn-would-float",
