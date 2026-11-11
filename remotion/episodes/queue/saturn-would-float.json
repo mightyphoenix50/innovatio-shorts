@@ -1,0 +1,330 @@
+{
+  "template": "Orbit",
+  "title": "Could Saturn really float in water?",
+  "fps": 30,
+  "hook": {
+    "banner": "Could Saturn really float in water?",
+    "flash": "LIGHTER THAN WATER",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.5,
+      0.05
+    ],
+    [
+      5.5,
+      0.3
+    ],
+    [
+      9.5,
+      0.3
+    ],
+    [
+      11.5,
+      0.4
+    ],
+    [
+      15,
+      0.4
+    ],
+    [
+      17,
+      0.12
+    ],
+    [
+      21,
+      0.12
+    ],
+    [
+      23,
+      0.72
+    ],
+    [
+      26.5,
+      0.7
+    ],
+    [
+      28.5,
+      0.72
+    ],
+    [
+      32.5,
+      0.7
+    ],
+    [
+      34.5,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      40,
+      0.3
+    ],
+    [
+      44,
+      0.3
+    ],
+    [
+      46,
+      0.1
+    ],
+    [
+      51,
+      0.08
+    ]
+  ],
+  "body": {
+    "kind": "gas",
+    "name": "Saturn",
+    "colours": [
+      "#F3E3C0",
+      "#E0C089",
+      "#B8935A"
+    ],
+    "rings": true,
+    "moon": true,
+    "tilt": 26.7,
+    "radiusKm": 58232
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0,
+      "lon": 0,
+      "label": "Saturn",
+      "value": "9× Earth",
+      "caption": "Wider than Earth"
+    },
+    {
+      "line": 2,
+      "lat": 0,
+      "lon": 60,
+      "label": "Equator",
+      "value": "10.5 h",
+      "caption": "One day"
+    },
+    {
+      "line": 3,
+      "lat": -5,
+      "lon": 120,
+      "label": "Ring edge",
+      "value": "282k km",
+      "caption": "Ring reach"
+    },
+    {
+      "line": 4,
+      "lat": 5,
+      "lon": 160,
+      "label": "Main rings",
+      "value": "~10 m",
+      "caption": "Ring thickness"
+    },
+    {
+      "line": 5,
+      "lat": 78,
+      "lon": 0,
+      "label": "North pole hexagon",
+      "value": "14,500 km",
+      "caption": "Each side"
+    },
+    {
+      "line": 6,
+      "lat": 20,
+      "lon": -100,
+      "label": "Jet streams",
+      "value": "1800 km/h",
+      "caption": "Top winds"
+    },
+    {
+      "line": 7,
+      "lat": 0,
+      "lon": -160,
+      "label": "The whole planet",
+      "value": "0.69",
+      "caption": "Density, water = 1"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "Saturn",
+      "text": "You've heard Saturn could float in a bathtub. Let's find out if that's true."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "Giant",
+      "text": "Saturn is about nine times wider than Earth. Some seven hundred and sixty Earths could fit inside.",
+      "source": "NASA Saturn facts",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "stat",
+          "value": "760",
+          "label": "Earths would fit inside"
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15,
+      "heading": "Fast spin",
+      "text": "Yet it spins so fast, a day here lasts only about ten and a half hours.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "spins",
+          "kind": "stamp",
+          "value": "SUPER FAST SPIN"
+        }
+      ]
+    },
+    {
+      "from": 15,
+      "to": 21,
+      "heading": "The rings",
+      "text": "Its rings reach out two hundred and eighty-two thousand kilometres from the planet.",
+      "source": "NASA Saturn facts"
+    },
+    {
+      "from": 21,
+      "to": 26.5,
+      "heading": "Paper thin",
+      "text": "But the main rings are typically only about ten metres thick.",
+      "source": "NASA Saturn facts",
+      "beats": [
+        {
+          "word": "thick",
+          "kind": "stamp",
+          "value": "PAPER THIN"
+        }
+      ]
+    },
+    {
+      "from": 26.5,
+      "to": 32.5,
+      "heading": "The hexagon",
+      "text": "At the north pole spins a giant hexagon. Each side is longer than Earth is wide.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "longer",
+          "kind": "stamp",
+          "value": "WIDER THAN EARTH"
+        }
+      ]
+    },
+    {
+      "from": 32.5,
+      "to": 38,
+      "heading": "The winds",
+      "text": "Winds here can blow at one thousand eight hundred kilometres an hour.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "Winds",
+          "kind": "warning",
+          "value": "EXTREME WINDS"
+        }
+      ]
+    },
+    {
+      "from": 38,
+      "to": 44,
+      "heading": "The twist",
+      "text": "The twist? Saturn's average density is lower than water's. It's the only planet like that.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "lower",
+          "kind": "stamp",
+          "value": "LIGHTER THAN WATER"
+        }
+      ]
+    },
+    {
+      "from": 44,
+      "to": 51,
+      "heading": "The bathtub",
+      "text": "So find a bathtub big enough, and NASA says it could float. What would you drop in next?",
+      "source": "NASA Saturn facts"
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.4
+    },
+    {
+      "need": "whoosh",
+      "at": 3.6,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 15.2,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 21.2,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 38.2,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 44.2,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Saturn floats? Great. I sink. I've tested it. Once.",
+    "mood": "shrug",
+    "action": "*soggy beep*"
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you dropped Saturn in a giant bathtub?",
+      "Saturn is less dense than water"
+    ],
+    "description": "A spin around Saturn: its paper-thin rings, the hexagon storm at its north pole and 1,800 km/h winds, and why NASA says it could float in a big enough bathtub.",
+    "tags": [
+      "saturn",
+      "saturn rings",
+      "saturn hexagon",
+      "planets",
+      "density",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Saturn is about 9 times wider than Earth; its rings reach up to 282,000 km from the planet and the main rings are typically about 10 m thick; it is the only planet less dense than water and could float in a big enough bathtub",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "claim": "Saturn's mean radius is 58,232 km; volume 763.59 Earths; mean density 0.6871 g/cm³, the only planet less dense than water; a day lasts about 10.5 hours; axial tilt 26.73°",
+      "url": "https://en.wikipedia.org/wiki/Saturn"
+    },
+    {
+      "claim": "Saturn's north polar hexagon is centred near 78° N, each side about 14,500 km, longer than Earth's diameter; winds reach up to 1,800 km/h",
+      "url": "https://en.wikipedia.org/wiki/Saturn"
+    }
+  ],
+  "seed": "saturn-would-float"
+}
