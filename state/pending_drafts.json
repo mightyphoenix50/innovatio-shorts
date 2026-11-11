@@ -746,7 +746,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · saturn-would-float · 56s</i>\n\n<b>A:</b> What if you dropped Saturn in a giant bathtub?\n<b>B:</b> Saturn is less dense than water\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 12 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794419880.1318767
+    "status": "PUBLISHED",
+    "created_at": 1794419880.1318767,
+    "updated_at": 1794422304.366669,
+    "title_used": "What if you dropped Saturn in a giant bathtub?",
+    "video_id": "fMKmQdEdYyI",
+    "youtube_url": "https://youtube.com/shorts/fMKmQdEdYyI",
+    "scheduled_at": null
   }
 }
