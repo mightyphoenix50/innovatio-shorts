@@ -1,0 +1,1200 @@
+{
+  "template": "Orbit",
+  "title": "Could Saturn really float in water?",
+  "fps": 30,
+  "hook": {
+    "banner": "Could Saturn really float in water?",
+    "flash": "LIGHTER THAN WATER",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.539,
+      0.05
+    ],
+    [
+      6.612,
+      0.3
+    ],
+    [
+      10.757,
+      0.3
+    ],
+    [
+      12.598,
+      0.4
+    ],
+    [
+      15.821,
+      0.4
+    ],
+    [
+      17.39,
+      0.12
+    ],
+    [
+      20.528,
+      0.12
+    ],
+    [
+      21.88,
+      0.72
+    ],
+    [
+      24.245,
+      0.7
+    ],
+    [
+      25.989,
+      0.72
+    ],
+    [
+      29.476,
+      0.7
+    ],
+    [
+      31.04,
+      0.5
+    ],
+    [
+      33.778,
+      0.5
+    ],
+    [
+      35.838,
+      0.3
+    ],
+    [
+      39.958,
+      0.3
+    ],
+    [
+      41.127,
+      0.1
+    ],
+    [
+      44.049,
+      0.08
+    ]
+  ],
+  "body": {
+    "kind": "gas",
+    "name": "Saturn",
+    "colours": [
+      "#F3E3C0",
+      "#E0C089",
+      "#B8935A"
+    ],
+    "rings": true,
+    "moon": true,
+    "tilt": 26.7,
+    "radiusKm": 58232
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0,
+      "lon": 0,
+      "label": "Saturn",
+      "value": "9\u00d7 Earth",
+      "caption": "Wider than Earth"
+    },
+    {
+      "line": 2,
+      "lat": 0,
+      "lon": 60,
+      "label": "Equator",
+      "value": "10.5 h",
+      "caption": "One day"
+    },
+    {
+      "line": 3,
+      "lat": -5,
+      "lon": 120,
+      "label": "Ring edge",
+      "value": "282k km",
+      "caption": "Ring reach"
+    },
+    {
+      "line": 4,
+      "lat": 5,
+      "lon": 160,
+      "label": "Main rings",
+      "value": "~10 m",
+      "caption": "Ring thickness"
+    },
+    {
+      "line": 5,
+      "lat": 78,
+      "lon": 0,
+      "label": "North pole hexagon",
+      "value": "14,500 km",
+      "caption": "Each side"
+    },
+    {
+      "line": 6,
+      "lat": 20,
+      "lon": -100,
+      "label": "Jet streams",
+      "value": "1800 km/h",
+      "caption": "Top winds"
+    },
+    {
+      "line": 7,
+      "lat": 0,
+      "lon": -160,
+      "label": "The whole planet",
+      "value": "0.69",
+      "caption": "Density, water = 1"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.539,
+      "heading": "Saturn",
+      "text": "You've heard Saturn could float in a bathtub. Let's find out if that's true.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.388,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.4,
+          "end": 0.59,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 0.602,
+          "end": 0.971,
+          "char": 13,
+          "len": 6
+        },
+        {
+          "start": 0.983,
+          "end": 1.126,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 1.138,
+          "end": 1.483,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 1.495,
+          "end": 1.579,
+          "char": 32,
+          "len": 2
+        },
+        {
+          "start": 1.59,
+          "end": 1.638,
+          "char": 35,
+          "len": 1
+        },
+        {
+          "start": 1.65,
+          "end": 2.198,
+          "char": 37,
+          "len": 7
+        },
+        {
+          "start": 2.59,
+          "end": 2.721,
+          "char": 46,
+          "len": 5
+        },
+        {
+          "start": 2.733,
+          "end": 2.96,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 2.971,
+          "end": 3.114,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 3.126,
+          "end": 3.21,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 3.221,
+          "end": 3.436,
+          "char": 64,
+          "len": 6
+        },
+        {
+          "start": 3.448,
+          "end": 3.793,
+          "char": 71,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 4.539,
+      "to": 10.757,
+      "heading": "Giant",
+      "text": "Saturn is about nine times wider than Earth. Some seven hundred and sixty Earths could fit inside.",
+      "source": "NASA Saturn facts",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "stat",
+          "value": "760",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.796,
+          "end": 5.189,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 5.26,
+          "end": 5.368,
+          "char": 7,
+          "len": 2
+        },
+        {
+          "start": 5.379,
+          "end": 5.665,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 5.677,
+          "end": 6.022,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 6.034,
+          "end": 6.332,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 6.344,
+          "end": 6.665,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 6.677,
+          "end": 6.796,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 6.808,
+          "end": 7.153,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 7.558,
+          "end": 7.701,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 7.713,
+          "end": 7.998,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 8.01,
+          "end": 8.225,
+          "char": 56,
+          "len": 7
+        },
+        {
+          "start": 8.237,
+          "end": 8.296,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 8.308,
+          "end": 8.665,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 8.677,
+          "end": 9.022,
+          "char": 74,
+          "len": 6
+        },
+        {
+          "start": 9.129,
+          "end": 9.284,
+          "char": 81,
+          "len": 5
+        },
+        {
+          "start": 9.296,
+          "end": 9.522,
+          "char": 87,
+          "len": 3
+        },
+        {
+          "start": 9.534,
+          "end": 10.01,
+          "char": 91,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 10.757,
+      "to": 15.821,
+      "heading": "Fast spin",
+      "text": "Yet it spins so fast, a day here lasts only about ten and a half hours.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "spins",
+          "kind": "stamp",
+          "value": "SUPER FAST SPIN"
+        }
+      ],
+      "words": [
+        {
+          "start": 11.002,
+          "end": 11.098,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 11.109,
+          "end": 11.181,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 11.193,
+          "end": 11.538,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 11.55,
+          "end": 11.8,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 11.812,
+          "end": 12.312,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 12.502,
+          "end": 12.538,
+          "char": 22,
+          "len": 1
+        },
+        {
+          "start": 12.55,
+          "end": 12.788,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 12.8,
+          "end": 12.99,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 13.002,
+          "end": 13.336,
+          "char": 33,
+          "len": 5
+        },
+        {
+          "start": 13.347,
+          "end": 13.621,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 13.633,
+          "end": 13.919,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 13.931,
+          "end": 14.216,
+          "char": 50,
+          "len": 3
+        },
+        {
+          "start": 14.228,
+          "end": 14.3,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 14.312,
+          "end": 14.347,
+          "char": 58,
+          "len": 1
+        },
+        {
+          "start": 14.359,
+          "end": 14.621,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 14.633,
+          "end": 15.074,
+          "char": 65,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 15.821,
+      "to": 20.528,
+      "heading": "The rings",
+      "text": "Its rings reach out two hundred and eighty-two thousand kilometres from the planet.",
+      "source": "NASA Saturn facts",
+      "words": [
+        {
+          "start": 16.066,
+          "end": 16.197,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 16.209,
+          "end": 16.519,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 16.531,
+          "end": 16.781,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 16.792,
+          "end": 16.959,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 16.971,
+          "end": 17.185,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 17.197,
+          "end": 17.507,
+          "char": 24,
+          "len": 7
+        },
+        {
+          "start": 17.519,
+          "end": 17.638,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 17.757,
+          "end": 18.161,
+          "char": 36,
+          "len": 10
+        },
+        {
+          "start": 18.173,
+          "end": 18.542,
+          "char": 47,
+          "len": 8
+        },
+        {
+          "start": 18.554,
+          "end": 19.114,
+          "char": 56,
+          "len": 10
+        },
+        {
+          "start": 19.126,
+          "end": 19.269,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 19.281,
+          "end": 19.34,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 19.352,
+          "end": 19.781,
+          "char": 76,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 20.528,
+      "to": 24.245,
+      "heading": "Paper thin",
+      "text": "But the main rings are typically only about ten metres thick.",
+      "source": "NASA Saturn facts",
+      "beats": [
+        {
+          "word": "thick",
+          "kind": "stamp",
+          "value": "PAPER THIN"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.785,
+          "end": 20.833,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 20.845,
+          "end": 20.904,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 20.916,
+          "end": 21.13,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 21.142,
+          "end": 21.404,
+          "char": 13,
+          "len": 5
+        },
+        {
+          "start": 21.416,
+          "end": 21.499,
+          "char": 19,
+          "len": 3
+        },
+        {
+          "start": 21.511,
+          "end": 21.988,
+          "char": 23,
+          "len": 9
+        },
+        {
+          "start": 21.999,
+          "end": 22.285,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 22.297,
+          "end": 22.547,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 22.559,
+          "end": 22.773,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 22.785,
+          "end": 23.107,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 23.118,
+          "end": 23.499,
+          "char": 55,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 24.245,
+      "to": 29.476,
+      "heading": "The hexagon",
+      "text": "At the north pole spins a giant hexagon. Each side is longer than Earth is wide.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "longer",
+          "kind": "stamp",
+          "value": "WIDER THAN EARTH"
+        }
+      ],
+      "words": [
+        {
+          "start": 24.49,
+          "end": 24.574,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 24.585,
+          "end": 24.657,
+          "char": 3,
+          "len": 3
+        },
+        {
+          "start": 24.669,
+          "end": 24.931,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 24.943,
+          "end": 25.205,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 25.216,
+          "end": 25.574,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 25.585,
+          "end": 25.645,
+          "char": 24,
+          "len": 1
+        },
+        {
+          "start": 25.657,
+          "end": 25.978,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 25.99,
+          "end": 26.55,
+          "char": 32,
+          "len": 7
+        },
+        {
+          "start": 26.943,
+          "end": 27.097,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 27.109,
+          "end": 27.383,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 27.395,
+          "end": 27.502,
+          "char": 51,
+          "len": 2
+        },
+        {
+          "start": 27.514,
+          "end": 27.847,
+          "char": 54,
+          "len": 6
+        },
+        {
+          "start": 27.859,
+          "end": 27.978,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 27.99,
+          "end": 28.228,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 28.24,
+          "end": 28.335,
+          "char": 72,
+          "len": 2
+        },
+        {
+          "start": 28.347,
+          "end": 28.728,
+          "char": 75,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 29.476,
+      "to": 33.778,
+      "heading": "The winds",
+      "text": "Winds here can blow at one thousand eight hundred kilometres an hour.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "Winds",
+          "kind": "warning",
+          "value": "EXTREME WINDS"
+        }
+      ],
+      "words": [
+        {
+          "start": 29.721,
+          "end": 29.959,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 29.971,
+          "end": 30.174,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 30.186,
+          "end": 30.305,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 30.316,
+          "end": 30.662,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 30.674,
+          "end": 30.769,
+          "char": 20,
+          "len": 2
+        },
+        {
+          "start": 30.781,
+          "end": 31.019,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 31.031,
+          "end": 31.495,
+          "char": 27,
+          "len": 8
+        },
+        {
+          "start": 31.662,
+          "end": 31.781,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 31.793,
+          "end": 32.078,
+          "char": 42,
+          "len": 7
+        },
+        {
+          "start": 32.09,
+          "end": 32.59,
+          "char": 50,
+          "len": 10
+        },
+        {
+          "start": 32.602,
+          "end": 32.674,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 32.686,
+          "end": 33.031,
+          "char": 64,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 33.778,
+      "to": 39.958,
+      "heading": "The twist",
+      "text": "The twist? Saturn's average density is lower than water's. It's the only planet like that.",
+      "source": "Saturn, Wikipedia",
+      "beats": [
+        {
+          "word": "lower",
+          "kind": "stamp",
+          "value": "LIGHTER THAN WATER"
+        }
+      ],
+      "words": [
+        {
+          "start": 34.035,
+          "end": 34.083,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 34.095,
+          "end": 34.535,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 34.94,
+          "end": 35.345,
+          "char": 11,
+          "len": 8
+        },
+        {
+          "start": 35.357,
+          "end": 35.678,
+          "char": 20,
+          "len": 7
+        },
+        {
+          "start": 35.69,
+          "end": 36.214,
+          "char": 28,
+          "len": 7
+        },
+        {
+          "start": 36.368,
+          "end": 36.487,
+          "char": 36,
+          "len": 2
+        },
+        {
+          "start": 36.499,
+          "end": 36.773,
+          "char": 39,
+          "len": 5
+        },
+        {
+          "start": 36.785,
+          "end": 36.916,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 36.928,
+          "end": 37.452,
+          "char": 50,
+          "len": 7
+        },
+        {
+          "start": 37.845,
+          "end": 37.952,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 37.964,
+          "end": 38.071,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 38.083,
+          "end": 38.345,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 38.357,
+          "end": 38.714,
+          "char": 73,
+          "len": 6
+        },
+        {
+          "start": 38.726,
+          "end": 38.904,
+          "char": 80,
+          "len": 4
+        },
+        {
+          "start": 38.916,
+          "end": 39.214,
+          "char": 85,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 39.958,
+      "to": 46.679,
+      "heading": "The bathtub",
+      "text": "So find a bathtub big enough, and NASA says it could float. What would you drop in next?",
+      "source": "NASA Saturn facts",
+      "words": [
+        {
+          "start": 40.215,
+          "end": 40.358,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 40.37,
+          "end": 40.596,
+          "char": 3,
+          "len": 4
+        },
+        {
+          "start": 40.608,
+          "end": 40.656,
+          "char": 8,
+          "len": 1
+        },
+        {
+          "start": 40.668,
+          "end": 41.191,
+          "char": 10,
+          "len": 7
+        },
+        {
+          "start": 41.203,
+          "end": 41.37,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 41.382,
+          "end": 41.763,
+          "char": 22,
+          "len": 6
+        },
+        {
+          "start": 42.025,
+          "end": 42.108,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 42.12,
+          "end": 42.453,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 42.465,
+          "end": 42.667,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 42.679,
+          "end": 42.751,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 42.763,
+          "end": 42.882,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 42.894,
+          "end": 43.298,
+          "char": 53,
+          "len": 5
+        },
+        {
+          "start": 43.691,
+          "end": 43.763,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 43.775,
+          "end": 43.882,
+          "char": 65,
+          "len": 5
+        },
+        {
+          "start": 43.894,
+          "end": 43.965,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 43.977,
+          "end": 44.263,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 44.275,
+          "end": 44.358,
+          "char": 80,
+          "len": 2
+        },
+        {
+          "start": 44.37,
+          "end": 44.739,
+          "char": 83,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.519
+    },
+    {
+      "need": "whoosh",
+      "at": 4.643,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 15.978,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 20.663,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 33.984,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 40.075,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Saturn floats? Great. I sink. I've tested it. Once.",
+    "mood": "shrug",
+    "action": "*soggy beep*",
+    "from": 46.679,
+    "to": 56.01,
+    "words": [
+      {
+        "start": 47.224,
+        "end": 47.697,
+        "char": 0,
+        "len": 6
+      },
+      {
+        "start": 47.708,
+        "end": 48.226,
+        "char": 7,
+        "len": 6
+      },
+      {
+        "start": 49.003,
+        "end": 49.442,
+        "char": 15,
+        "len": 5
+      },
+      {
+        "start": 50.208,
+        "end": 50.377,
+        "char": 22,
+        "len": 1
+      },
+      {
+        "start": 50.388,
+        "end": 50.861,
+        "char": 24,
+        "len": 4
+      },
+      {
+        "start": 51.641,
+        "end": 51.889,
+        "char": 30,
+        "len": 4
+      },
+      {
+        "start": 51.9,
+        "end": 52.339,
+        "char": 35,
+        "len": 6
+      },
+      {
+        "start": 52.35,
+        "end": 52.576,
+        "char": 42,
+        "len": 2
+      },
+      {
+        "start": 53.35,
+        "end": 53.891,
+        "char": 46,
+        "len": 4
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you dropped Saturn in a giant bathtub?",
+      "Saturn is less dense than water"
+    ],
+    "description": "A spin around Saturn: its paper-thin rings, the hexagon storm at its north pole and 1,800 km/h winds, and why NASA says it could float in a big enough bathtub.",
+    "tags": [
+      "saturn",
+      "saturn rings",
+      "saturn hexagon",
+      "planets",
+      "density",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Saturn is about 9 times wider than Earth; its rings reach up to 282,000 km from the planet and the main rings are typically about 10 m thick; it is the only planet less dense than water and could float in a big enough bathtub",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "claim": "Saturn's mean radius is 58,232 km; volume 763.59 Earths; mean density 0.6871 g/cm\u00b3, the only planet less dense than water; a day lasts about 10.5 hours; axial tilt 26.73\u00b0",
+      "url": "https://en.wikipedia.org/wiki/Saturn"
+    },
+    {
+      "claim": "Saturn's north polar hexagon is centred near 78\u00b0 N, each side about 14,500 km, longer than Earth's diameter; winds reach up to 1,800 km/h",
+      "url": "https://en.wikipedia.org/wiki/Saturn"
+    }
+  ],
+  "seed": "saturn-would-float",
+  "voiceover": "audio/saturn-would-float.mp3",
+  "music": "audio/saturn-would-float_bed.mp3"
+}

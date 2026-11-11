@@ -726,5 +726,27 @@
     "video_id": "_ZqvkofRyIw",
     "youtube_url": "https://youtube.com/shorts/_ZqvkofRyIw",
     "scheduled_at": null
+  },
+  "75": {
+    "episode": "saturn-would-float",
+    "video_path": "output/drafts/saturn-would-float.mp4",
+    "titles": [
+      "What if you dropped Saturn in a giant bathtub?",
+      "Saturn is less dense than water"
+    ],
+    "description": "A spin around Saturn: its paper-thin rings, the hexagon storm at its north pole and 1,800 km/h winds, and why NASA says it could float in a big enough bathtub.\n\nSources:\n- Saturn is about 9 times wider than Earth; its rings reach up to 282,000 km from the planet and the main rings are typically about 10 m thick; it is the only planet less dense than water and could float in a big enough bathtub: https://science.nasa.gov/saturn/facts/\n- Saturn's mean radius is 58,232 km; volume 763.59 Earths; mean density 0.6871 g/cm³, the only planet less dense than water; a day lasts about 10.5 hours; axial tilt 26.73°: https://en.wikipedia.org/wiki/Saturn\n- Saturn's north polar hexagon is centred near 78° N, each side about 14,500 km, longer than Earth's diameter; winds reach up to 1,800 km/h: https://en.wikipedia.org/wiki/Saturn\n\nSound effects:\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- station beep: CC0 1.0, https://freesound.org/people/SoundsofTheMachine/sounds/791966/\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/vekoN/sounds/719830/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "saturn",
+      "saturn rings",
+      "saturn hexagon",
+      "planets",
+      "density",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · saturn-would-float · 56s</i>\n\n<b>A:</b> What if you dropped Saturn in a giant bathtub?\n<b>B:</b> Saturn is less dense than water\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 12 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794419880.1318767
   }
 }
