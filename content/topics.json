@@ -163,7 +163,8 @@
       "title": "What if you could see with sound, like a bat?",
       "format": "Story",
       "angle": "You wake up with echolocation: clicks, echoes, catching insects in the dark; the twist is that some blind people really do learn to echolocate with tongue clicks.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-12"
     },
     {
       "slug": "europa-ocean",

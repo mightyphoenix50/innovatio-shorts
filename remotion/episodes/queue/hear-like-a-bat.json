@@ -1,0 +1,270 @@
+{
+  "template": "Story",
+  "title": "What if you could see with sound, like a bat?",
+  "fps": 30,
+  "hero": {
+    "hoodie": "#2A9D8F"
+  },
+  "scenes": [
+    {
+      "line": 0,
+      "place": "night",
+      "pose": "idle",
+      "mood": "shocked",
+      "x": 0.5,
+      "camera": "push"
+    },
+    {
+      "line": 1,
+      "place": "night",
+      "pose": "point",
+      "mood": "happy",
+      "x": 0.4,
+      "camera": "still",
+      "chain": [
+        "CALL",
+        "ECHO",
+        "MAP"
+      ]
+    },
+    {
+      "line": 2,
+      "place": "lab",
+      "pose": "think",
+      "mood": "determined",
+      "x": 0.45,
+      "prop": {
+        "kind": "brain",
+        "motion": "float"
+      },
+      "label": {
+        "text": "ECHO TIMER",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 3,
+      "place": "room",
+      "pose": "think",
+      "mood": "neutral",
+      "x": 0.5,
+      "label": {
+        "text": "YOUR EARS",
+        "on": "head"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 4,
+      "place": "street",
+      "pose": "catch",
+      "mood": "shocked",
+      "x": 0.55,
+      "camera": "pan"
+    },
+    {
+      "line": 5,
+      "place": "night",
+      "pose": "run",
+      "mood": "determined",
+      "x": 0.4,
+      "prop": {
+        "kind": "bee",
+        "motion": "fly"
+      },
+      "effect": "speed",
+      "camera": "pan"
+    },
+    {
+      "line": 6,
+      "place": "street",
+      "pose": "cheer",
+      "mood": "happy",
+      "x": 0.5,
+      "others": 2,
+      "othersPose": "cheer",
+      "camera": "pull"
+    },
+    {
+      "line": 7,
+      "place": "meadow",
+      "pose": "run",
+      "mood": "determined",
+      "x": 0.45,
+      "others": 3,
+      "othersPose": "cheer",
+      "camera": "pan"
+    },
+    {
+      "line": 8,
+      "place": "lab",
+      "pose": "think",
+      "mood": "smug",
+      "x": 0.45,
+      "prop": {
+        "kind": "brain",
+        "motion": "float"
+      },
+      "effect": "glow",
+      "camera": "push"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4,
+      "heading": "Seeing with sound",
+      "text": "You wake up in total darkness. Then you click your tongue, and the room appears."
+    },
+    {
+      "from": 4,
+      "to": 10,
+      "heading": "How bats do it",
+      "text": "Bats do this every night. They call out, then listen for the echo bouncing back.",
+      "source": "Wikipedia: Animal echolocation"
+    },
+    {
+      "from": 10,
+      "to": 16,
+      "heading": "The echo map",
+      "text": "The delay tells them how far away things are. Two ears tell them which way.",
+      "source": "Wikipedia: Animal echolocation",
+      "beats": [
+        {
+          "word": "delay",
+          "kind": "stamp",
+          "value": "ECHO MAP"
+        }
+      ]
+    },
+    {
+      "from": 16,
+      "to": 22,
+      "heading": "Too high for you",
+      "text": "Most of their calls are too high for you to hear. Your ears top out around twenty thousand hertz.",
+      "source": "Wikipedia: Hearing range",
+      "beats": [
+        {
+          "word": "twenty",
+          "kind": "stat",
+          "value": "20 kHz",
+          "label": "your hearing limit"
+        }
+      ]
+    },
+    {
+      "from": 22,
+      "to": 28,
+      "heading": "Loud and high",
+      "text": "Some bats call at over two hundred thousand. Some calls hit a hundred and forty decibels.",
+      "source": "Wikipedia: Animal echolocation",
+      "beats": [
+        {
+          "word": "two",
+          "kind": "stat",
+          "value": "212 kHz",
+          "label": "highest bat calls"
+        },
+        {
+          "word": "decibels",
+          "kind": "warning",
+          "value": "140 DECIBELS"
+        }
+      ]
+    },
+    {
+      "from": 28,
+      "to": 34,
+      "heading": "The buzz",
+      "text": "Closing in on an insect, a bat speeds up to two hundred clicks a second. A buzz.",
+      "source": "Wikipedia: Animal echolocation",
+      "beats": [
+        {
+          "word": "clicks",
+          "kind": "stat",
+          "value": "200/s",
+          "label": "clicks in the final buzz"
+        }
+      ]
+    },
+    {
+      "from": 34,
+      "to": 40,
+      "heading": "The twist",
+      "text": "The twist? People can do this too. Some blind people echolocate with tongue clicks.",
+      "source": "Wikipedia: Human echolocation",
+      "beats": [
+        {
+          "word": "People",
+          "kind": "stamp",
+          "value": "HUMANS CAN TOO"
+        }
+      ]
+    },
+    {
+      "from": 40,
+      "to": 46.5,
+      "heading": "Daniel Kish",
+      "text": "Daniel Kish lost both eyes as a baby. Clicking, he leads blind teens on hikes and mountain-bike rides.",
+      "source": "Wikipedia: Human echolocation",
+      "beats": [
+        {
+          "word": "baby",
+          "kind": "stat",
+          "value": "13 months",
+          "label": "old when he lost his eyes"
+        }
+      ]
+    },
+    {
+      "from": 46.5,
+      "to": 53,
+      "heading": "Seeing, really",
+      "text": "In expert echolocators, echoes even light up the brain's vision area. Would you learn to see with sound?",
+      "source": "Wikipedia: Human echolocation"
+    }
+  ],
+  "hook": {
+    "banner": "What if you could see with sound?",
+    "flash": "HUMANS CAN TOO",
+    "previewLine": 6
+  },
+  "skit": {
+    "text": "Echolocation? I just ping the router and hope.",
+    "mood": "smug",
+    "action": "*ping... ping*"
+  },
+  "series": "What if…",
+  "youtube": {
+    "titles": [
+      "What if you could see with sound, like a bat?",
+      "Some people really can see with sound"
+    ],
+    "description": "How bats build a map of the dark from echoes, why you can't hear most of their calls, and the blind people who learned to echolocate with tongue clicks.",
+    "tags": [
+      "echolocation",
+      "bats",
+      "human echolocation",
+      "daniel kish",
+      "senses",
+      "biology",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Echolocating animals call and listen for echoes; ranging comes from the time delay between call and echo, and two ears give direction; bat calls range from 11 kHz to 212 kHz at 60–140 dB; call rates rise to as high as 200 clicks per second in the terminal buzz",
+      "url": "https://en.wikipedia.org/wiki/Animal_echolocation"
+    },
+    {
+      "claim": "Human hearing is commonly given as 20 Hz to 20,000 Hz",
+      "url": "https://en.wikipedia.org/wiki/Hearing_range"
+    },
+    {
+      "claim": "Some blind people echolocate with tongue clicks; Daniel Kish had his eyes removed at 13 months and leads blind teenagers on hikes and mountain-bike rides; a 2014 study found echoes activated the primary visual cortex of blind expert echolocators",
+      "url": "https://en.wikipedia.org/wiki/Human_echolocation"
+    }
+  ],
+  "seed": "hear-like-a-bat"
+}
