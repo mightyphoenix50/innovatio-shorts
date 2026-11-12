@@ -1,0 +1,1224 @@
+{
+  "template": "Story",
+  "title": "What if you could see with sound, like a bat?",
+  "fps": 30,
+  "hero": {
+    "hoodie": "#2A9D8F"
+  },
+  "scenes": [
+    {
+      "line": 0,
+      "place": "night",
+      "pose": "idle",
+      "mood": "shocked",
+      "x": 0.5,
+      "camera": "push"
+    },
+    {
+      "line": 1,
+      "place": "night",
+      "pose": "point",
+      "mood": "happy",
+      "x": 0.4,
+      "camera": "still",
+      "chain": [
+        "CALL",
+        "ECHO",
+        "MAP"
+      ]
+    },
+    {
+      "line": 2,
+      "place": "lab",
+      "pose": "think",
+      "mood": "determined",
+      "x": 0.45,
+      "prop": {
+        "kind": "brain",
+        "motion": "float"
+      },
+      "label": {
+        "text": "ECHO TIMER",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 3,
+      "place": "room",
+      "pose": "think",
+      "mood": "neutral",
+      "x": 0.5,
+      "label": {
+        "text": "YOUR EARS",
+        "on": "head"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 4,
+      "place": "street",
+      "pose": "catch",
+      "mood": "shocked",
+      "x": 0.55,
+      "camera": "pan"
+    },
+    {
+      "line": 5,
+      "place": "night",
+      "pose": "run",
+      "mood": "determined",
+      "x": 0.4,
+      "prop": {
+        "kind": "bee",
+        "motion": "fly"
+      },
+      "effect": "speed",
+      "camera": "pan"
+    },
+    {
+      "line": 6,
+      "place": "street",
+      "pose": "cheer",
+      "mood": "happy",
+      "x": 0.5,
+      "others": 2,
+      "othersPose": "cheer",
+      "camera": "pull"
+    },
+    {
+      "line": 7,
+      "place": "meadow",
+      "pose": "run",
+      "mood": "determined",
+      "x": 0.45,
+      "others": 3,
+      "othersPose": "cheer",
+      "camera": "pan"
+    },
+    {
+      "line": 8,
+      "place": "lab",
+      "pose": "think",
+      "mood": "smug",
+      "x": 0.45,
+      "prop": {
+        "kind": "brain",
+        "motion": "float"
+      },
+      "effect": "glow",
+      "camera": "push"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.075,
+      "heading": "Seeing with sound",
+      "text": "You wake up in total darkness. Then you click your tongue, and the room appears.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.352,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.364,
+          "end": 0.555,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 0.567,
+          "end": 0.745,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 0.829,
+          "end": 0.924,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 0.936,
+          "end": 1.209,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 1.221,
+          "end": 1.781,
+          "char": 21,
+          "len": 8
+        },
+        {
+          "start": 2.174,
+          "end": 2.269,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 2.281,
+          "end": 2.376,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 2.388,
+          "end": 2.59,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 2.602,
+          "end": 2.709,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 2.721,
+          "end": 3.09,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 3.4,
+          "end": 3.448,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 3.46,
+          "end": 3.519,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 3.531,
+          "end": 3.745,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 3.757,
+          "end": 4.329,
+          "char": 72,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 5.075,
+      "to": 10.472,
+      "heading": "How bats do it",
+      "text": "Bats do this every night. They call out, then listen for the echo bouncing back.",
+      "source": "Wikipedia: Animal echolocation",
+      "words": [
+        {
+          "start": 5.332,
+          "end": 5.523,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 5.535,
+          "end": 5.701,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 5.713,
+          "end": 5.915,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 6.046,
+          "end": 6.237,
+          "char": 13,
+          "len": 5
+        },
+        {
+          "start": 6.249,
+          "end": 6.582,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 6.987,
+          "end": 7.058,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 7.07,
+          "end": 7.308,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 7.32,
+          "end": 7.546,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 7.915,
+          "end": 8.058,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 8.07,
+          "end": 8.344,
+          "char": 46,
+          "len": 6
+        },
+        {
+          "start": 8.356,
+          "end": 8.463,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 8.475,
+          "end": 8.57,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 8.582,
+          "end": 8.904,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 8.915,
+          "end": 9.308,
+          "char": 66,
+          "len": 8
+        },
+        {
+          "start": 9.32,
+          "end": 9.725,
+          "char": 75,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 10.472,
+      "to": 15.035,
+      "heading": "The echo map",
+      "text": "The delay tells them how far away things are. Two ears tell them which way.",
+      "source": "Wikipedia: Animal echolocation",
+      "beats": [
+        {
+          "word": "delay",
+          "kind": "stamp",
+          "value": "ECHO MAP"
+        }
+      ],
+      "words": [
+        {
+          "start": 10.729,
+          "end": 10.777,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 10.789,
+          "end": 11.098,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 11.11,
+          "end": 11.396,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 11.408,
+          "end": 11.539,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 11.551,
+          "end": 11.765,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 11.777,
+          "end": 12.003,
+          "char": 25,
+          "len": 3
+        },
+        {
+          "start": 12.015,
+          "end": 12.217,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 12.229,
+          "end": 12.515,
+          "char": 34,
+          "len": 6
+        },
+        {
+          "start": 12.527,
+          "end": 12.777,
+          "char": 41,
+          "len": 3
+        },
+        {
+          "start": 13.182,
+          "end": 13.324,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 13.336,
+          "end": 13.598,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 13.61,
+          "end": 13.753,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 13.765,
+          "end": 13.872,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 13.884,
+          "end": 14.039,
+          "char": 65,
+          "len": 5
+        },
+        {
+          "start": 14.051,
+          "end": 14.289,
+          "char": 71,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 15.035,
+      "to": 20.671,
+      "heading": "Too high for you",
+      "text": "Most of their calls are too high for you to hear. Your ears top out around twenty thousand hertz.",
+      "source": "Wikipedia: Hearing range",
+      "beats": [
+        {
+          "word": "twenty",
+          "kind": "stat",
+          "value": "20 kHz",
+          "label": "your hearing limit"
+        }
+      ],
+      "words": [
+        {
+          "start": 15.28,
+          "end": 15.495,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 15.506,
+          "end": 15.566,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 15.578,
+          "end": 15.697,
+          "char": 8,
+          "len": 5
+        },
+        {
+          "start": 15.709,
+          "end": 16.006,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 16.018,
+          "end": 16.114,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 16.125,
+          "end": 16.364,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 16.375,
+          "end": 16.59,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 16.602,
+          "end": 16.745,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 16.756,
+          "end": 16.852,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 16.864,
+          "end": 16.935,
+          "char": 41,
+          "len": 2
+        },
+        {
+          "start": 16.947,
+          "end": 17.268,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 17.661,
+          "end": 17.792,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 17.804,
+          "end": 18.078,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 18.09,
+          "end": 18.34,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 18.411,
+          "end": 18.554,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 18.566,
+          "end": 18.84,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 18.852,
+          "end": 19.114,
+          "char": 75,
+          "len": 6
+        },
+        {
+          "start": 19.125,
+          "end": 19.471,
+          "char": 82,
+          "len": 8
+        },
+        {
+          "start": 19.483,
+          "end": 19.923,
+          "char": 91,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 20.671,
+      "to": 26.079,
+      "heading": "Loud and high",
+      "text": "Some bats call at over two hundred thousand. Some calls hit a hundred and forty decibels.",
+      "source": "Wikipedia: Animal echolocation",
+      "beats": [
+        {
+          "word": "two",
+          "kind": "stat",
+          "value": "212 kHz",
+          "label": "highest bat calls"
+        },
+        {
+          "word": "decibels",
+          "kind": "warning",
+          "value": "140 DECIBELS"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.928,
+          "end": 21.107,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 21.119,
+          "end": 21.392,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 21.404,
+          "end": 21.69,
+          "char": 10,
+          "len": 4
+        },
+        {
+          "start": 21.702,
+          "end": 21.785,
+          "char": 15,
+          "len": 2
+        },
+        {
+          "start": 21.797,
+          "end": 21.988,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 22.0,
+          "end": 22.226,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 22.238,
+          "end": 22.488,
+          "char": 27,
+          "len": 7
+        },
+        {
+          "start": 22.5,
+          "end": 22.928,
+          "char": 35,
+          "len": 8
+        },
+        {
+          "start": 23.333,
+          "end": 23.488,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 23.5,
+          "end": 23.75,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 23.761,
+          "end": 23.928,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 23.988,
+          "end": 24.023,
+          "char": 60,
+          "len": 1
+        },
+        {
+          "start": 24.035,
+          "end": 24.333,
+          "char": 62,
+          "len": 7
+        },
+        {
+          "start": 24.345,
+          "end": 24.404,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 24.416,
+          "end": 24.666,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 24.678,
+          "end": 25.333,
+          "char": 80,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 26.079,
+      "to": 31.762,
+      "heading": "The buzz",
+      "text": "Closing in on an insect, a bat speeds up to two hundred clicks a second. A buzz.",
+      "source": "Wikipedia: Animal echolocation",
+      "beats": [
+        {
+          "word": "clicks",
+          "kind": "stat",
+          "value": "200/s",
+          "label": "clicks in the final buzz"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.324,
+          "end": 26.681,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 26.693,
+          "end": 26.812,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 26.824,
+          "end": 26.955,
+          "char": 11,
+          "len": 2
+        },
+        {
+          "start": 26.967,
+          "end": 27.038,
+          "char": 14,
+          "len": 2
+        },
+        {
+          "start": 27.05,
+          "end": 27.55,
+          "char": 17,
+          "len": 6
+        },
+        {
+          "start": 27.836,
+          "end": 27.884,
+          "char": 25,
+          "len": 1
+        },
+        {
+          "start": 27.896,
+          "end": 28.181,
+          "char": 27,
+          "len": 3
+        },
+        {
+          "start": 28.193,
+          "end": 28.539,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 28.55,
+          "end": 28.669,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 28.681,
+          "end": 28.765,
+          "char": 41,
+          "len": 2
+        },
+        {
+          "start": 28.777,
+          "end": 29.015,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 29.027,
+          "end": 29.348,
+          "char": 48,
+          "len": 7
+        },
+        {
+          "start": 29.36,
+          "end": 29.622,
+          "char": 56,
+          "len": 6
+        },
+        {
+          "start": 29.634,
+          "end": 29.681,
+          "char": 63,
+          "len": 1
+        },
+        {
+          "start": 29.693,
+          "end": 30.098,
+          "char": 65,
+          "len": 6
+        },
+        {
+          "start": 30.491,
+          "end": 30.55,
+          "char": 73,
+          "len": 1
+        },
+        {
+          "start": 30.562,
+          "end": 31.015,
+          "char": 75,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 31.762,
+      "to": 37.526,
+      "heading": "The twist",
+      "text": "The twist? People can do this too. Some blind people echolocate with tongue clicks.",
+      "source": "Wikipedia: Human echolocation",
+      "beats": [
+        {
+          "word": "People",
+          "kind": "stamp",
+          "value": "HUMANS CAN TOO"
+        }
+      ],
+      "words": [
+        {
+          "start": 32.019,
+          "end": 32.067,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 32.079,
+          "end": 32.519,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 32.924,
+          "end": 33.114,
+          "char": 11,
+          "len": 6
+        },
+        {
+          "start": 33.126,
+          "end": 33.245,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 33.257,
+          "end": 33.412,
+          "char": 22,
+          "len": 2
+        },
+        {
+          "start": 33.424,
+          "end": 33.591,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 33.602,
+          "end": 33.876,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 34.281,
+          "end": 34.46,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 34.472,
+          "end": 34.829,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 34.841,
+          "end": 35.21,
+          "char": 46,
+          "len": 6
+        },
+        {
+          "start": 35.222,
+          "end": 35.841,
+          "char": 53,
+          "len": 10
+        },
+        {
+          "start": 35.9,
+          "end": 36.043,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 36.055,
+          "end": 36.281,
+          "char": 69,
+          "len": 6
+        },
+        {
+          "start": 36.293,
+          "end": 36.781,
+          "char": 76,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 37.526,
+      "to": 44.398,
+      "heading": "Daniel Kish",
+      "text": "Daniel Kish lost both eyes as a baby. Clicking, he leads blind teens on hikes and mountain-bike rides.",
+      "source": "Wikipedia: Human echolocation",
+      "beats": [
+        {
+          "word": "baby",
+          "kind": "stat",
+          "value": "13 months",
+          "label": "old when he lost his eyes"
+        }
+      ],
+      "words": [
+        {
+          "start": 37.771,
+          "end": 38.081,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 38.093,
+          "end": 38.378,
+          "char": 7,
+          "len": 4
+        },
+        {
+          "start": 38.39,
+          "end": 38.7,
+          "char": 12,
+          "len": 4
+        },
+        {
+          "start": 38.712,
+          "end": 38.985,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 38.997,
+          "end": 39.283,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 39.295,
+          "end": 39.39,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 39.402,
+          "end": 39.45,
+          "char": 30,
+          "len": 1
+        },
+        {
+          "start": 39.462,
+          "end": 39.855,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 40.259,
+          "end": 40.581,
+          "char": 38,
+          "len": 8
+        },
+        {
+          "start": 40.938,
+          "end": 41.021,
+          "char": 48,
+          "len": 2
+        },
+        {
+          "start": 41.033,
+          "end": 41.271,
+          "char": 51,
+          "len": 5
+        },
+        {
+          "start": 41.283,
+          "end": 41.652,
+          "char": 57,
+          "len": 5
+        },
+        {
+          "start": 41.664,
+          "end": 41.962,
+          "char": 63,
+          "len": 5
+        },
+        {
+          "start": 41.974,
+          "end": 42.069,
+          "char": 69,
+          "len": 2
+        },
+        {
+          "start": 42.081,
+          "end": 42.474,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 42.486,
+          "end": 42.616,
+          "char": 78,
+          "len": 3
+        },
+        {
+          "start": 42.628,
+          "end": 43.152,
+          "char": 82,
+          "len": 13
+        },
+        {
+          "start": 43.164,
+          "end": 43.652,
+          "char": 96,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 44.398,
+      "to": 52.518,
+      "heading": "Seeing, really",
+      "text": "In expert echolocators, echoes even light up the brain's vision area. Would you learn to see with sound?",
+      "source": "Wikipedia: Human echolocation",
+      "words": [
+        {
+          "start": 44.643,
+          "end": 44.798,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 44.81,
+          "end": 45.203,
+          "char": 3,
+          "len": 6
+        },
+        {
+          "start": 45.274,
+          "end": 46.131,
+          "char": 10,
+          "len": 12
+        },
+        {
+          "start": 46.393,
+          "end": 46.822,
+          "char": 24,
+          "len": 6
+        },
+        {
+          "start": 46.953,
+          "end": 47.238,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 47.25,
+          "end": 47.465,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 47.477,
+          "end": 47.643,
+          "char": 42,
+          "len": 2
+        },
+        {
+          "start": 47.703,
+          "end": 47.786,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 47.798,
+          "end": 48.25,
+          "char": 49,
+          "len": 7
+        },
+        {
+          "start": 48.262,
+          "end": 48.596,
+          "char": 57,
+          "len": 6
+        },
+        {
+          "start": 48.608,
+          "end": 49.012,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 49.405,
+          "end": 49.5,
+          "char": 70,
+          "len": 5
+        },
+        {
+          "start": 49.512,
+          "end": 49.608,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 49.619,
+          "end": 49.798,
+          "char": 80,
+          "len": 5
+        },
+        {
+          "start": 49.81,
+          "end": 49.869,
+          "char": 86,
+          "len": 2
+        },
+        {
+          "start": 49.881,
+          "end": 50.048,
+          "char": 89,
+          "len": 3
+        },
+        {
+          "start": 50.06,
+          "end": 50.179,
+          "char": 93,
+          "len": 4
+        },
+        {
+          "start": 50.191,
+          "end": 50.584,
+          "char": 98,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "What if you could see with sound?",
+    "flash": "HUMANS CAN TOO",
+    "previewLine": 6
+  },
+  "skit": {
+    "text": "Echolocation? I just ping the router and hope.",
+    "mood": "smug",
+    "action": "*ping... ping*",
+    "from": 52.518,
+    "to": 58.64,
+    "words": [
+      {
+        "start": 53.063,
+        "end": 53.975,
+        "char": 0,
+        "len": 12
+      },
+      {
+        "start": 54.741,
+        "end": 54.887,
+        "char": 14,
+        "len": 1
+      },
+      {
+        "start": 54.899,
+        "end": 55.214,
+        "char": 16,
+        "len": 4
+      },
+      {
+        "start": 55.225,
+        "end": 55.462,
+        "char": 21,
+        "len": 4
+      },
+      {
+        "start": 55.473,
+        "end": 55.574,
+        "char": 26,
+        "len": 3
+      },
+      {
+        "start": 55.586,
+        "end": 56.013,
+        "char": 30,
+        "len": 6
+      },
+      {
+        "start": 56.025,
+        "end": 56.126,
+        "char": 37,
+        "len": 3
+      },
+      {
+        "start": 56.137,
+        "end": 56.509,
+        "char": 41,
+        "len": 4
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you could see with sound, like a bat?",
+      "Some people really can see with sound"
+    ],
+    "description": "How bats build a map of the dark from echoes, why you can't hear most of their calls, and the blind people who learned to echolocate with tongue clicks.",
+    "tags": [
+      "echolocation",
+      "bats",
+      "human echolocation",
+      "daniel kish",
+      "senses",
+      "biology",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Echolocating animals call and listen for echoes; ranging comes from the time delay between call and echo, and two ears give direction; bat calls range from 11 kHz to 212 kHz at 60\u2013140 dB; call rates rise to as high as 200 clicks per second in the terminal buzz",
+      "url": "https://en.wikipedia.org/wiki/Animal_echolocation"
+    },
+    {
+      "claim": "Human hearing is commonly given as 20 Hz to 20,000 Hz",
+      "url": "https://en.wikipedia.org/wiki/Hearing_range"
+    },
+    {
+      "claim": "Some blind people echolocate with tongue clicks; Daniel Kish had his eyes removed at 13 months and leads blind teenagers on hikes and mountain-bike rides; a 2014 study found echoes activated the primary visual cortex of blind expert echolocators",
+      "url": "https://en.wikipedia.org/wiki/Human_echolocation"
+    }
+  ],
+  "seed": "hear-like-a-bat",
+  "voiceover": "audio/hear-like-a-bat.mp3",
+  "music": "audio/hear-like-a-bat_bed.mp3"
+}

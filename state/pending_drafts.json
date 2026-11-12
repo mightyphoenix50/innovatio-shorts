@@ -753,5 +753,27 @@
     "video_id": "fMKmQdEdYyI",
     "youtube_url": "https://youtube.com/shorts/fMKmQdEdYyI",
     "scheduled_at": null
+  },
+  "77": {
+    "episode": "hear-like-a-bat",
+    "video_path": "output/drafts/hear-like-a-bat.mp4",
+    "titles": [
+      "What if you could see with sound, like a bat?",
+      "Some people really can see with sound"
+    ],
+    "description": "How bats build a map of the dark from echoes, why you can't hear most of their calls, and the blind people who learned to echolocate with tongue clicks.\n\nSources:\n- Echolocating animals call and listen for echoes; ranging comes from the time delay between call and echo, and two ears give direction; bat calls range from 11 kHz to 212 kHz at 60–140 dB; call rates rise to as high as 200 clicks per second in the terminal buzz: https://en.wikipedia.org/wiki/Animal_echolocation\n- Human hearing is commonly given as 20 Hz to 20,000 Hz: https://en.wikipedia.org/wiki/Hearing_range\n- Some blind people echolocate with tongue clicks; Daniel Kish had his eyes removed at 13 months and leads blind teenagers on hikes and mountain-bike rides; a 2014 study found echoes activated the primary visual cortex of blind expert echolocators: https://en.wikipedia.org/wiki/Human_echolocation\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- sonar ping: CC0 1.0, https://freesound.org/people/Breviceps/sounds/493162/\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/vekoN/sounds/719830/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "echolocation",
+      "bats",
+      "human echolocation",
+      "daniel kish",
+      "senses",
+      "biology",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · hear-like-a-bat · 59s</i>\n\n<b>A:</b> What if you could see with sound, like a bat?\n<b>B:</b> Some people really can see with sound\n\n✅ QC passed\n📅 Approving schedules it for <b>Fri 13 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794506024.7537794
   }
 }
