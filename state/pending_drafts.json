@@ -800,7 +800,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · europa-ocean · 63s</i>\n\n<b>A:</b> What if a tiny moon had more water than Earth?\n<b>B:</b> Europa may hold more water than all Earth's oceans\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 14 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794592625.0597265
+    "status": "PUBLISHED",
+    "created_at": 1794592625.0597265,
+    "updated_at": 1794595493.3211143,
+    "title_used": "What if a tiny moon had more water than Earth?",
+    "video_id": "FNxLSex_ock",
+    "youtube_url": "https://youtube.com/shorts/FNxLSex_ock",
+    "scheduled_at": null
   }
 }
