@@ -171,7 +171,8 @@
       "title": "Is there more water on Europa than on Earth?",
       "format": "Orbit",
       "angle": "A cracked ice moon of Jupiter hiding a salty ocean; the twist is that it may hold about twice the water of all Earth's oceans.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-13"
     },
     {
       "slug": "asteroids-to-scale",
