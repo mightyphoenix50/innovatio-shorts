@@ -1,0 +1,1290 @@
+{
+  "template": "Orbit",
+  "title": "Is there more water on Europa than on Earth?",
+  "fps": 30,
+  "hook": {
+    "banner": "Does Europa have more water than Earth?",
+    "flash": "MORE THAN EARTH",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.322,
+      0.05
+    ],
+    [
+      6.042,
+      0.3
+    ],
+    [
+      9.051,
+      0.3
+    ],
+    [
+      11.213,
+      0.45
+    ],
+    [
+      15.538,
+      0.45
+    ],
+    [
+      17.805,
+      0.75
+    ],
+    [
+      22.34,
+      0.72
+    ],
+    [
+      24.587,
+      0.5
+    ],
+    [
+      29.642,
+      0.5
+    ],
+    [
+      31.881,
+      0.75
+    ],
+    [
+      36.36,
+      0.72
+    ],
+    [
+      38.366,
+      0.35
+    ],
+    [
+      41.876,
+      0.35
+    ],
+    [
+      43.861,
+      0.15
+    ],
+    [
+      47.832,
+      0.15
+    ],
+    [
+      49.221,
+      0.05
+    ],
+    [
+      52.348,
+      0.03
+    ]
+  ],
+  "body": {
+    "kind": "ice",
+    "name": "Europa",
+    "radiusKm": 1560.8
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0,
+      "lon": 0,
+      "label": "Europa",
+      "value": "3,122 km",
+      "caption": "Wide"
+    },
+    {
+      "line": 2,
+      "lat": 0,
+      "lon": 40,
+      "label": "Icy plains",
+      "value": "\u2212163 \u00b0C",
+      "caption": "At the equator"
+    },
+    {
+      "line": 3,
+      "lat": 9.7,
+      "lon": 87.3,
+      "label": "Conamara Chaos",
+      "value": "Ice rafts",
+      "caption": "Cracked and shifted"
+    },
+    {
+      "line": 4,
+      "lat": -10,
+      "lon": 130,
+      "label": "Under the ice",
+      "value": "~100 km",
+      "caption": "Ocean depth"
+    },
+    {
+      "line": 5,
+      "lat": -25.2,
+      "lon": 88.6,
+      "label": "Pwyll crater",
+      "value": "45 km",
+      "caption": "Crater width"
+    },
+    {
+      "line": 6,
+      "lat": 30,
+      "lon": -60,
+      "label": "Tidal flexing",
+      "value": "1,000\u00d7",
+      "caption": "Moon's tides on Earth"
+    },
+    {
+      "line": 7,
+      "lat": 0,
+      "lon": -150,
+      "label": "Hidden ocean",
+      "value": "2\u20133\u00d7",
+      "caption": "Earth's ocean water"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.322,
+      "heading": "Water world?",
+      "text": "You think Earth is the water world? Wait till you see this little moon.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.341,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.352,
+          "end": 0.579,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.626,
+          "end": 0.84,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 0.852,
+          "end": 0.948,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 0.96,
+          "end": 1.043,
+          "char": 19,
+          "len": 3
+        },
+        {
+          "start": 1.055,
+          "end": 1.34,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 1.352,
+          "end": 1.662,
+          "char": 29,
+          "len": 5
+        },
+        {
+          "start": 2.055,
+          "end": 2.269,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 2.281,
+          "end": 2.436,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 2.448,
+          "end": 2.555,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 2.567,
+          "end": 2.864,
+          "char": 50,
+          "len": 3
+        },
+        {
+          "start": 2.876,
+          "end": 3.067,
+          "char": 54,
+          "len": 4
+        },
+        {
+          "start": 3.079,
+          "end": 3.281,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 3.293,
+          "end": 3.579,
+          "char": 66,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 4.322,
+      "to": 9.051,
+      "heading": "Europa",
+      "text": "Meet Europa, a moon of Jupiter, a little smaller than our own Moon.",
+      "source": "Europa, Wikipedia",
+      "beats": [
+        {
+          "word": "Jupiter",
+          "kind": "stamp",
+          "value": "MOON OF JUPITER"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.567,
+          "end": 4.77,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 4.782,
+          "end": 5.305,
+          "char": 5,
+          "len": 6
+        },
+        {
+          "start": 5.651,
+          "end": 5.686,
+          "char": 13,
+          "len": 1
+        },
+        {
+          "start": 5.698,
+          "end": 5.924,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 5.936,
+          "end": 6.02,
+          "char": 20,
+          "len": 2
+        },
+        {
+          "start": 6.032,
+          "end": 6.508,
+          "char": 23,
+          "len": 7
+        },
+        {
+          "start": 6.746,
+          "end": 6.77,
+          "char": 32,
+          "len": 1
+        },
+        {
+          "start": 6.782,
+          "end": 7.032,
+          "char": 34,
+          "len": 6
+        },
+        {
+          "start": 7.043,
+          "end": 7.531,
+          "char": 41,
+          "len": 7
+        },
+        {
+          "start": 7.543,
+          "end": 7.674,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 7.686,
+          "end": 7.817,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 7.829,
+          "end": 7.996,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 8.008,
+          "end": 8.305,
+          "char": 62,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 9.051,
+      "to": 15.538,
+      "heading": "Smooth ice",
+      "text": "Its surface is the smoothest of any known solid object in the solar system. And it's bitterly cold.",
+      "source": "Europa, Wikipedia",
+      "beats": [
+        {
+          "word": "smoothest",
+          "kind": "stamp",
+          "value": "SMOOTHEST WORLD"
+        }
+      ],
+      "words": [
+        {
+          "start": 9.296,
+          "end": 9.439,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 9.451,
+          "end": 9.975,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 10.058,
+          "end": 10.165,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 10.177,
+          "end": 10.272,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 10.284,
+          "end": 10.951,
+          "char": 19,
+          "len": 9
+        },
+        {
+          "start": 10.963,
+          "end": 11.07,
+          "char": 29,
+          "len": 2
+        },
+        {
+          "start": 11.213,
+          "end": 11.415,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 11.427,
+          "end": 11.689,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 11.701,
+          "end": 12.094,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 12.106,
+          "end": 12.57,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 12.582,
+          "end": 12.641,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 12.653,
+          "end": 12.725,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 12.737,
+          "end": 13.046,
+          "char": 62,
+          "len": 5
+        },
+        {
+          "start": 13.058,
+          "end": 13.451,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 13.844,
+          "end": 13.915,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 13.927,
+          "end": 14.058,
+          "char": 80,
+          "len": 4
+        },
+        {
+          "start": 14.07,
+          "end": 14.403,
+          "char": 85,
+          "len": 8
+        },
+        {
+          "start": 14.415,
+          "end": 14.796,
+          "char": 94,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 15.538,
+      "to": 22.34,
+      "heading": "Conamara Chaos",
+      "text": "At Conamara Chaos, rafts of ice have cracked, drifted and turned, like broken sea ice.",
+      "source": "Conamara Chaos, Wikipedia",
+      "beats": [
+        {
+          "word": "rafts",
+          "kind": "warning",
+          "value": "SHIFTING ICE"
+        }
+      ],
+      "words": [
+        {
+          "start": 15.783,
+          "end": 15.902,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 15.914,
+          "end": 16.414,
+          "char": 3,
+          "len": 8
+        },
+        {
+          "start": 16.426,
+          "end": 17.021,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 17.295,
+          "end": 17.676,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 17.688,
+          "end": 17.783,
+          "char": 25,
+          "len": 2
+        },
+        {
+          "start": 17.867,
+          "end": 18.105,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 18.117,
+          "end": 18.236,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 18.248,
+          "end": 18.736,
+          "char": 37,
+          "len": 7
+        },
+        {
+          "start": 19.009,
+          "end": 19.45,
+          "char": 46,
+          "len": 7
+        },
+        {
+          "start": 19.462,
+          "end": 19.581,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 19.593,
+          "end": 20.057,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 20.367,
+          "end": 20.533,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 20.545,
+          "end": 20.878,
+          "char": 71,
+          "len": 6
+        },
+        {
+          "start": 20.89,
+          "end": 21.14,
+          "char": 78,
+          "len": 3
+        },
+        {
+          "start": 21.152,
+          "end": 21.593,
+          "char": 82,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 22.34,
+      "to": 29.642,
+      "heading": "Under the ice",
+      "text": "That ice shell is about ten to thirty kilometres thick. Underneath, an ocean maybe a hundred kilometres deep.",
+      "source": "Europa, Wikipedia",
+      "beats": [
+        {
+          "word": "thick",
+          "kind": "stat",
+          "value": "10\u201330 km",
+          "label": "of ice on top"
+        },
+        {
+          "word": "deep",
+          "kind": "compare",
+          "compare": {
+            "name": "Challenger Deep",
+            "value": 10.9,
+            "icon": "ship",
+            "subject": "Europa's ocean",
+            "subjectValue": 100,
+            "unit": "km deep",
+            "note": "Over 9\u00d7 deeper"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 22.585,
+          "end": 22.716,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 22.728,
+          "end": 22.895,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 22.907,
+          "end": 23.288,
+          "char": 9,
+          "len": 5
+        },
+        {
+          "start": 23.359,
+          "end": 23.478,
+          "char": 15,
+          "len": 2
+        },
+        {
+          "start": 23.49,
+          "end": 23.776,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 23.788,
+          "end": 24.038,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 24.05,
+          "end": 24.145,
+          "char": 28,
+          "len": 2
+        },
+        {
+          "start": 24.157,
+          "end": 24.526,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 24.538,
+          "end": 25.085,
+          "char": 38,
+          "len": 10
+        },
+        {
+          "start": 25.097,
+          "end": 25.478,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 25.871,
+          "end": 26.383,
+          "char": 56,
+          "len": 10
+        },
+        {
+          "start": 26.597,
+          "end": 26.728,
+          "char": 68,
+          "len": 2
+        },
+        {
+          "start": 26.74,
+          "end": 27.145,
+          "char": 71,
+          "len": 5
+        },
+        {
+          "start": 27.276,
+          "end": 27.549,
+          "char": 77,
+          "len": 5
+        },
+        {
+          "start": 27.561,
+          "end": 27.597,
+          "char": 83,
+          "len": 1
+        },
+        {
+          "start": 27.609,
+          "end": 27.978,
+          "char": 85,
+          "len": 7
+        },
+        {
+          "start": 27.99,
+          "end": 28.561,
+          "char": 93,
+          "len": 10
+        },
+        {
+          "start": 28.573,
+          "end": 28.895,
+          "char": 104,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 29.642,
+      "to": 36.36,
+      "heading": "Pwyll crater",
+      "text": "Pwyll crater, at most eighteen million years old, flung bright rays up to a thousand kilometres.",
+      "source": "Pwyll (crater), Wikipedia",
+      "beats": [
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000 km",
+          "label": "longest rays"
+        }
+      ],
+      "words": [
+        {
+          "start": 29.911,
+          "end": 30.113,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 30.125,
+          "end": 30.518,
+          "char": 6,
+          "len": 6
+        },
+        {
+          "start": 30.732,
+          "end": 30.804,
+          "char": 14,
+          "len": 2
+        },
+        {
+          "start": 30.816,
+          "end": 31.09,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 31.197,
+          "end": 31.613,
+          "char": 22,
+          "len": 8
+        },
+        {
+          "start": 31.625,
+          "end": 32.006,
+          "char": 31,
+          "len": 7
+        },
+        {
+          "start": 32.018,
+          "end": 32.28,
+          "char": 39,
+          "len": 5
+        },
+        {
+          "start": 32.292,
+          "end": 32.542,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 32.887,
+          "end": 33.244,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 33.256,
+          "end": 33.637,
+          "char": 56,
+          "len": 6
+        },
+        {
+          "start": 33.649,
+          "end": 33.971,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 33.982,
+          "end": 34.149,
+          "char": 68,
+          "len": 2
+        },
+        {
+          "start": 34.161,
+          "end": 34.304,
+          "char": 71,
+          "len": 2
+        },
+        {
+          "start": 34.316,
+          "end": 34.375,
+          "char": 74,
+          "len": 1
+        },
+        {
+          "start": 34.387,
+          "end": 34.911,
+          "char": 76,
+          "len": 8
+        },
+        {
+          "start": 34.923,
+          "end": 35.613,
+          "char": 85,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 36.36,
+      "to": 41.876,
+      "heading": "Squeezed",
+      "text": "Jupiter's pull flexes this moon, and that squeezing helps keep the ocean from freezing.",
+      "source": "Europa, Wikipedia",
+      "beats": [
+        {
+          "word": "squeezing",
+          "kind": "warning",
+          "value": "TIDAL HEATING"
+        }
+      ],
+      "words": [
+        {
+          "start": 36.605,
+          "end": 37.058,
+          "char": 0,
+          "len": 9
+        },
+        {
+          "start": 37.07,
+          "end": 37.379,
+          "char": 10,
+          "len": 4
+        },
+        {
+          "start": 37.391,
+          "end": 37.879,
+          "char": 15,
+          "len": 6
+        },
+        {
+          "start": 37.891,
+          "end": 38.093,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 38.105,
+          "end": 38.462,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 38.831,
+          "end": 38.879,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 38.891,
+          "end": 39.034,
+          "char": 37,
+          "len": 4
+        },
+        {
+          "start": 39.046,
+          "end": 39.558,
+          "char": 42,
+          "len": 9
+        },
+        {
+          "start": 39.57,
+          "end": 39.82,
+          "char": 52,
+          "len": 5
+        },
+        {
+          "start": 39.831,
+          "end": 40.046,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 40.058,
+          "end": 40.189,
+          "char": 63,
+          "len": 3
+        },
+        {
+          "start": 40.2,
+          "end": 40.522,
+          "char": 67,
+          "len": 5
+        },
+        {
+          "start": 40.534,
+          "end": 40.689,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 40.7,
+          "end": 41.129,
+          "char": 78,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 41.876,
+      "to": 47.832,
+      "heading": "The twist",
+      "text": "The twist? This small moon may hold two to three times the water of all Earth's oceans.",
+      "source": "Europa, Wikipedia",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stamp",
+          "value": "MORE THAN EARTH"
+        }
+      ],
+      "words": [
+        {
+          "start": 42.133,
+          "end": 42.181,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 42.193,
+          "end": 42.633,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 43.026,
+          "end": 43.216,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 43.228,
+          "end": 43.538,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 43.55,
+          "end": 43.871,
+          "char": 22,
+          "len": 4
+        },
+        {
+          "start": 43.883,
+          "end": 44.026,
+          "char": 27,
+          "len": 3
+        },
+        {
+          "start": 44.038,
+          "end": 44.3,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 44.312,
+          "end": 44.597,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 44.609,
+          "end": 44.716,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 44.728,
+          "end": 45.05,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 45.062,
+          "end": 45.371,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 45.383,
+          "end": 45.466,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 45.478,
+          "end": 45.847,
+          "char": 59,
+          "len": 5
+        },
+        {
+          "start": 45.859,
+          "end": 45.978,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 46.086,
+          "end": 46.336,
+          "char": 68,
+          "len": 3
+        },
+        {
+          "start": 46.347,
+          "end": 46.597,
+          "char": 72,
+          "len": 7
+        },
+        {
+          "start": 46.609,
+          "end": 47.086,
+          "char": 80,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 47.832,
+      "to": 55.474,
+      "heading": "On its way",
+      "text": "NASA's Europa Clipper is on its way, arriving in 2030. Could something be swimming down there?",
+      "source": "Europa Clipper, Wikipedia",
+      "words": [
+        {
+          "start": 48.077,
+          "end": 48.482,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 48.494,
+          "end": 48.863,
+          "char": 7,
+          "len": 6
+        },
+        {
+          "start": 48.875,
+          "end": 49.292,
+          "char": 14,
+          "len": 7
+        },
+        {
+          "start": 49.363,
+          "end": 49.482,
+          "char": 22,
+          "len": 2
+        },
+        {
+          "start": 49.494,
+          "end": 49.637,
+          "char": 25,
+          "len": 2
+        },
+        {
+          "start": 49.649,
+          "end": 49.768,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 49.78,
+          "end": 50.113,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 50.47,
+          "end": 50.958,
+          "char": 37,
+          "len": 8
+        },
+        {
+          "start": 50.97,
+          "end": 51.732,
+          "char": 46,
+          "len": 7
+        },
+        {
+          "start": 52.125,
+          "end": 52.232,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 52.244,
+          "end": 52.577,
+          "char": 61,
+          "len": 9
+        },
+        {
+          "start": 52.589,
+          "end": 52.696,
+          "char": 71,
+          "len": 2
+        },
+        {
+          "start": 52.708,
+          "end": 53.065,
+          "char": 74,
+          "len": 8
+        },
+        {
+          "start": 53.077,
+          "end": 53.303,
+          "char": 83,
+          "len": 4
+        },
+        {
+          "start": 53.315,
+          "end": 53.53,
+          "char": 88,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.494
+    },
+    {
+      "need": "whoosh",
+      "at": 4.408,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 15.765,
+      "align": "peak"
+    },
+    {
+      "need": "sonar_ping",
+      "at": 23.463
+    },
+    {
+      "need": "whoosh",
+      "at": 29.866,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 42.075,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "An ocean under ice? Finally, a pool that matches my cooling system.",
+    "mood": "wink",
+    "action": "*happy beep*",
+    "from": 55.474,
+    "to": 63.274,
+    "words": [
+      {
+        "start": 56.019,
+        "end": 56.222,
+        "char": 0,
+        "len": 2
+      },
+      {
+        "start": 56.233,
+        "end": 56.638,
+        "char": 3,
+        "len": 5
+      },
+      {
+        "start": 56.65,
+        "end": 56.92,
+        "char": 9,
+        "len": 5
+      },
+      {
+        "start": 56.931,
+        "end": 57.303,
+        "char": 15,
+        "len": 3
+      },
+      {
+        "start": 58.08,
+        "end": 58.677,
+        "char": 20,
+        "len": 7
+      },
+      {
+        "start": 58.936,
+        "end": 59.015,
+        "char": 29,
+        "len": 1
+      },
+      {
+        "start": 59.026,
+        "end": 59.341,
+        "char": 31,
+        "len": 4
+      },
+      {
+        "start": 59.352,
+        "end": 59.544,
+        "char": 36,
+        "len": 4
+      },
+      {
+        "start": 59.555,
+        "end": 59.983,
+        "char": 41,
+        "len": 7
+      },
+      {
+        "start": 59.994,
+        "end": 60.152,
+        "char": 49,
+        "len": 2
+      },
+      {
+        "start": 60.163,
+        "end": 60.58,
+        "char": 52,
+        "len": 7
+      },
+      {
+        "start": 60.591,
+        "end": 61.143,
+        "char": 60,
+        "len": 6
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if a tiny moon had more water than Earth?",
+      "Europa may hold more water than all Earth's oceans"
+    ],
+    "description": "A spin around Jupiter's moon Europa, from the cracked ice of Conamara Chaos to Pwyll crater, and the hidden ocean that may hold two to three times the water of Earth's oceans.",
+    "tags": [
+      "europa",
+      "europa clipper",
+      "jupiter moons",
+      "ocean worlds",
+      "astrobiology",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Europa has a mean radius of 1,560.8 km, slightly smaller than Earth's Moon; it is the smoothest known solid object in the Solar System; equatorial surface temperature about 110 K (about \u2212163 \u00b0C)",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)"
+    },
+    {
+      "claim": "Europa's ice crust is about 10\u201330 km thick over an ocean that may be about 100 km deep, holding 2\u20133 times the volume of Earth's oceans; Jupiter's tides on Europa are about 1,000 times stronger than the Moon's on Earth and provide tidal heating",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)"
+    },
+    {
+      "claim": "Conamara Chaos, at 9.7\u00b0 N 87.3\u00b0 E, is made of rafts of ice that have moved around and rotated",
+      "url": "https://en.wikipedia.org/wiki/Conamara_Chaos"
+    },
+    {
+      "claim": "Pwyll crater, at 25.2\u00b0 S 271.4\u00b0 W, is 45 km across, 18 million years old or younger, with rays extending as far as 1,000 km",
+      "url": "https://en.wikipedia.org/wiki/Pwyll_(crater)"
+    },
+    {
+      "claim": "Europa Clipper launched on 14 October 2024 and is planned to enter Jupiter orbit in April 2030",
+      "url": "https://en.wikipedia.org/wiki/Europa_Clipper"
+    },
+    {
+      "claim": "Challenger Deep is about 10,935 m deep",
+      "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    }
+  ],
+  "seed": "europa-ocean",
+  "voiceover": "audio/europa-ocean.mp3",
+  "music": "audio/europa-ocean_bed.mp3"
+}

@@ -780,5 +780,27 @@
     "video_id": "Cs_pJUVHrhc",
     "youtube_url": "https://youtube.com/shorts/Cs_pJUVHrhc",
     "scheduled_at": null
+  },
+  "79": {
+    "episode": "europa-ocean",
+    "video_path": "output/drafts/europa-ocean.mp4",
+    "titles": [
+      "What if a tiny moon had more water than Earth?",
+      "Europa may hold more water than all Earth's oceans"
+    ],
+    "description": "A spin around Jupiter's moon Europa, from the cracked ice of Conamara Chaos to Pwyll crater, and the hidden ocean that may hold two to three times the water of Earth's oceans.\n\nSources:\n- Europa has a mean radius of 1,560.8 km, slightly smaller than Earth's Moon; it is the smoothest known solid object in the Solar System; equatorial surface temperature about 110 K (about −163 °C): https://en.wikipedia.org/wiki/Europa_(moon)\n- Europa's ice crust is about 10–30 km thick over an ocean that may be about 100 km deep, holding 2–3 times the volume of Earth's oceans; Jupiter's tides on Europa are about 1,000 times stronger than the Moon's on Earth and provide tidal heating: https://en.wikipedia.org/wiki/Europa_(moon)\n- Conamara Chaos, at 9.7° N 87.3° E, is made of rafts of ice that have moved around and rotated: https://en.wikipedia.org/wiki/Conamara_Chaos\n- Pwyll crater, at 25.2° S 271.4° W, is 45 km across, 18 million years old or younger, with rays extending as far as 1,000 km: https://en.wikipedia.org/wiki/Pwyll_(crater)\n- Europa Clipper launched on 14 October 2024 and is planned to enter Jupiter orbit in April 2030: https://en.wikipedia.org/wiki/Europa_Clipper\n- Challenger Deep is about 10,935 m deep: https://oceanservice.noaa.gov/facts/oceandepth.html\n\nSound effects:\n- \"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- station beep: CC0 1.0, https://freesound.org/people/SoundsofTheMachine/sounds/791966/\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "europa",
+      "europa clipper",
+      "jupiter moons",
+      "ocean worlds",
+      "astrobiology",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · europa-ocean · 63s</i>\n\n<b>A:</b> What if a tiny moon had more water than Earth?\n<b>B:</b> Europa may hold more water than all Earth's oceans\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 14 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794592625.0597265
   }
 }
