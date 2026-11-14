@@ -827,7 +827,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · asteroids-to-scale · 66s</i>\n\n<b>A:</b> What if you lined up the asteroids by size?\n<b>B:</b> How big are asteroids, really?\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 15 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794678940.327031
+    "status": "PUBLISHED",
+    "created_at": 1794678940.327031,
+    "updated_at": 1794681322.7551289,
+    "title_used": "What if you lined up the asteroids by size?",
+    "video_id": "zuQZ4K0G97A",
+    "youtube_url": "https://youtube.com/shorts/zuQZ4K0G97A",
+    "scheduled_at": null
   }
 }
