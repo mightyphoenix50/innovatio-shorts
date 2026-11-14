@@ -1,0 +1,232 @@
+{
+  "template": "Scale",
+  "title": "How big are asteroids, really?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Bennu",
+      "value": "490 m",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 0.245
+    },
+    {
+      "line": 2,
+      "name": "Dinosaur killer",
+      "value": "~10 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 5
+    },
+    {
+      "line": 3,
+      "name": "Eros",
+      "value": "16.8 km",
+      "caption": "WIDE (AVERAGE)",
+      "kind": "moon",
+      "radiusKm": 8.42
+    },
+    {
+      "line": 4,
+      "name": "Vesta",
+      "value": "523 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 261.5
+    },
+    {
+      "line": 6,
+      "name": "Ceres",
+      "value": "939 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 469.7
+    },
+    {
+      "line": 7,
+      "name": "The Moon",
+      "value": "3,475 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 1737.4
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 3.5,
+      "heading": "Asteroids",
+      "text": "You think an asteroid is just a rock? Watch how big they get."
+    },
+    {
+      "from": 3.5,
+      "to": 10.0,
+      "heading": "Bennu",
+      "text": "Bennu is about half a kilometre wide. In 2023, a NASA capsule brought a piece of it back to Earth.",
+      "source": "Bennu, Wikipedia",
+      "beats": [
+        {
+          "word": "piece",
+          "kind": "stat",
+          "value": "121.6 g",
+          "label": "of Bennu brought home"
+        }
+      ]
+    },
+    {
+      "from": 10.0,
+      "to": 15.5,
+      "heading": "Ten kilometres",
+      "text": "This one, about ten kilometres wide, slammed into Mexico sixty-six million years ago.",
+      "source": "Chicxulub impactor, Wikipedia",
+      "beats": [
+        {
+          "word": "sixty-six",
+          "kind": "stamp",
+          "value": "66 MILLION YRS AGO"
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "Eros",
+      "text": "Eros, almost seventeen kilometres long on average. In 2001, a probe made the first ever landing on an asteroid.",
+      "source": "433 Eros, Wikipedia",
+      "beats": [
+        {
+          "word": "landing",
+          "kind": "stamp",
+          "value": "FIRST LANDING"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "Vesta",
+      "text": "Vesta is over five hundred kilometres wide, and on a dark night you can spot it without a telescope.",
+      "source": "4 Vesta, Wikipedia",
+      "beats": [
+        {
+          "word": "spot",
+          "kind": "stamp",
+          "value": "NAKED-EYE ASTEROID"
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 33.5,
+      "heading": "Rheasilvia",
+      "text": "It has a crater five hundred kilometres wide, with a peak more than twice as tall as Everest.",
+      "source": "4 Vesta, Wikipedia",
+      "beats": [
+        {
+          "word": "peak",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Rheasilvia peak",
+            "subjectValue": 22,
+            "unit": "km",
+            "note": "2.5 Everests"
+          }
+        }
+      ]
+    },
+    {
+      "from": 33.5,
+      "to": 39.5,
+      "heading": "Ceres",
+      "text": "Ceres, the biggest of all, is about nine hundred and forty kilometres wide. It holds forty percent of the belt's mass.",
+      "source": "Ceres, Wikipedia",
+      "beats": [
+        {
+          "word": "forty",
+          "kind": "stat",
+          "value": "40%",
+          "label": "of the asteroid belt's mass"
+        }
+      ]
+    },
+    {
+      "from": 39.5,
+      "to": 44.5,
+      "heading": "Our Moon",
+      "text": "And our Moon, three and a half thousand kilometres across, dwarfs them all.",
+      "source": "Moon, Wikipedia"
+    },
+    {
+      "from": 44.5,
+      "to": 51.0,
+      "heading": "The twist",
+      "text": "The twist? The asteroid that ended the dinosaurs was smaller than Eros. Which one would you visit?",
+      "source": "Chicxulub impactor, Wikipedia",
+      "beats": [
+        {
+          "word": "dinosaurs",
+          "kind": "stamp",
+          "value": "DINO KILLER"
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How big are asteroids, really?",
+    "flash": "SMALLER THAN EROS",
+    "previewLine": 8
+  },
+  "skit": {
+    "text": "A ten-kilometre rock ended the dinosaurs? Good thing I'm backed up.",
+    "mood": "gasp",
+    "action": "*nervous beep*"
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up the asteroids by size?",
+      "How big are asteroids, really?"
+    ],
+    "description": "Bennu, the asteroid that ended the dinosaurs, Eros, Vesta and Ceres side by side at true scale, all the way up to our Moon.",
+    "tags": [
+      "asteroids",
+      "bennu",
+      "vesta",
+      "ceres",
+      "chicxulub",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Bennu's mean diameter is about 490 m; OSIRIS-REx returned about 121.6 g of it to Utah on 24 September 2023",
+      "url": "https://en.wikipedia.org/wiki/101955_Bennu"
+    },
+    {
+      "claim": "The Chicxulub impactor was around 10 km across and struck about 66 million years ago, causing the extinction of all non-avian dinosaurs",
+      "url": "https://en.wikipedia.org/wiki/Chicxulub_impactor"
+    },
+    {
+      "claim": "433 Eros has a mean diameter of 16.84 km; NEAR Shoemaker touched down on 12 February 2001, the first landing on an asteroid",
+      "url": "https://en.wikipedia.org/wiki/433_Eros"
+    },
+    {
+      "claim": "Vesta's mean diameter is about 523 km and it can be faintly visible to the naked eye; its Rheasilvia crater is about 500 km across with a central peak about 22–23 km high",
+      "url": "https://en.wikipedia.org/wiki/4_Vesta"
+    },
+    {
+      "claim": "Ceres has a mean radius of about 469.7 km and holds about 40% of the asteroid belt's mass",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+    },
+    {
+      "claim": "The Moon's mean radius is 1,737.4 km",
+      "url": "https://en.wikipedia.org/wiki/Moon"
+    }
+  ],
+  "seed": "asteroids-to-scale"
+}

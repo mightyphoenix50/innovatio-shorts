@@ -179,7 +179,8 @@
       "title": "How big are asteroids, really?",
       "format": "Scale",
       "angle": "From small asteroids like Bennu up to Vesta and Ceres, then our Moon; the twist is how small the asteroid that wiped out the dinosaurs was next to them.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-14"
     },
     {
       "slug": "deepest-blue-hole",
@@ -189,10 +190,45 @@
       "status": "next"
     },
     {
+      "slug": "great-red-spot",
+      "title": "How big is Jupiter's Great Red Spot?",
+      "format": "Orbit",
+      "angle": "Spin round Jupiter to a storm that has raged for centuries and is wider than Earth; the twist is that it has been shrinking.",
+      "status": "next"
+    },
+    {
       "slug": "balloon-to-edge-of-space",
       "title": "What if you rode a balloon to the edge of space?",
       "format": "Fall-up",
       "angle": "Rise with Alan Eustace's 2014 balloon to about 41 km, past airliners and the ozone layer, then jump; the twist is that he broke the sound barrier on the way down.",
+      "status": "next"
+    },
+    {
+      "slug": "infrared-like-a-snake",
+      "title": "What if you could see heat, like a snake?",
+      "format": "Story",
+      "angle": "You wake up sensing warmth in the dark like a pit viper, spotting warm bodies at night; the twist is how small a temperature change those pits can detect.",
+      "status": "next"
+    },
+    {
+      "slug": "exoplanets-to-scale",
+      "title": "How big can planets get?",
+      "format": "Scale",
+      "angle": "From Earth to Neptune, Jupiter and the biggest known puffy exoplanets; the twist is that some giant planets are wider than Jupiter but lighter than it.",
+      "status": "next"
+    },
+    {
+      "slug": "hydrothermal-vents",
+      "title": "What if you sank to a deep-sea volcano vent?",
+      "format": "Descent",
+      "angle": "Down to black smokers on the sea floor where water comes out hotter than boiling but doesn't boil; the twist is the life that lives on chemicals, not sunlight.",
+      "status": "next"
+    },
+    {
+      "slug": "rocket-to-the-iss",
+      "title": "What if you rode a rocket to the space station?",
+      "format": "Fall-up",
+      "angle": "Rise past clouds, the ozone layer and the edge of space to the ISS about 400 km up; the twist is that you'd get there in a matter of hours, faster than many flights across an ocean.",
       "status": "next"
     }
   ]
