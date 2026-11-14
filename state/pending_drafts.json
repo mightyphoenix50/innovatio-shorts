@@ -807,5 +807,27 @@
     "video_id": "FNxLSex_ock",
     "youtube_url": "https://youtube.com/shorts/FNxLSex_ock",
     "scheduled_at": null
+  },
+  "81": {
+    "episode": "asteroids-to-scale",
+    "video_path": "output/drafts/asteroids-to-scale.mp4",
+    "titles": [
+      "What if you lined up the asteroids by size?",
+      "How big are asteroids, really?"
+    ],
+    "description": "Bennu, the asteroid that ended the dinosaurs, Eros, Vesta and Ceres side by side at true scale, all the way up to our Moon.\n\nSources:\n- Bennu's mean diameter is about 490 m; OSIRIS-REx returned about 121.6 g of it to Utah on 24 September 2023: https://en.wikipedia.org/wiki/101955_Bennu\n- The Chicxulub impactor was around 10 km across and struck about 66 million years ago, causing the extinction of all non-avian dinosaurs: https://en.wikipedia.org/wiki/Chicxulub_impactor\n- 433 Eros has a mean diameter of 16.84 km; NEAR Shoemaker touched down on 12 February 2001, the first landing on an asteroid: https://en.wikipedia.org/wiki/433_Eros\n- Vesta's mean diameter is about 523 km and it can be faintly visible to the naked eye; its Rheasilvia crater is about 500 km across with a central peak about 22–23 km high: https://en.wikipedia.org/wiki/4_Vesta\n- Ceres has a mean radius of about 469.7 km and holds about 40% of the asteroid belt's mass: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)\n- The Moon's mean radius is 1,737.4 km: https://en.wikipedia.org/wiki/Moon\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- \"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- cartoon pop: CC0 1.0, https://freesound.org/people/mikala_oidua/sounds/321163/\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "asteroids",
+      "bennu",
+      "vesta",
+      "ceres",
+      "chicxulub",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · asteroids-to-scale · 66s</i>\n\n<b>A:</b> What if you lined up the asteroids by size?\n<b>B:</b> How big are asteroids, really?\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 15 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794678940.327031
   }
 }

@@ -1,0 +1,1228 @@
+{
+  "template": "Scale",
+  "title": "How big are asteroids, really?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Bennu",
+      "value": "490 m",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 0.245
+    },
+    {
+      "line": 2,
+      "name": "Dinosaur killer",
+      "value": "~10 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 5
+    },
+    {
+      "line": 3,
+      "name": "Eros",
+      "value": "16.8 km",
+      "caption": "WIDE (AVERAGE)",
+      "kind": "moon",
+      "radiusKm": 8.42
+    },
+    {
+      "line": 4,
+      "name": "Vesta",
+      "value": "523 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 261.5
+    },
+    {
+      "line": 6,
+      "name": "Ceres",
+      "value": "939 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 469.7
+    },
+    {
+      "line": 7,
+      "name": "The Moon",
+      "value": "3,475 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 1737.4
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 3.921,
+      "heading": "Asteroids",
+      "text": "You think an asteroid is just a rock? Watch how big they get.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.329,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.34,
+          "end": 0.507,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.519,
+          "end": 0.602,
+          "char": 10,
+          "len": 2
+        },
+        {
+          "start": 0.614,
+          "end": 1.15,
+          "char": 13,
+          "len": 8
+        },
+        {
+          "start": 1.162,
+          "end": 1.257,
+          "char": 22,
+          "len": 2
+        },
+        {
+          "start": 1.269,
+          "end": 1.459,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 1.471,
+          "end": 1.507,
+          "char": 30,
+          "len": 1
+        },
+        {
+          "start": 1.519,
+          "end": 1.9,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 2.293,
+          "end": 2.448,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 2.46,
+          "end": 2.567,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 2.579,
+          "end": 2.769,
+          "char": 48,
+          "len": 3
+        },
+        {
+          "start": 2.781,
+          "end": 2.864,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 2.876,
+          "end": 3.174,
+          "char": 57,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 3.921,
+      "to": 10.807,
+      "heading": "Bennu",
+      "text": "Bennu is about half a kilometre wide. In 2023, a NASA capsule brought a piece of it back to Earth.",
+      "source": "Bennu, Wikipedia",
+      "beats": [
+        {
+          "word": "piece",
+          "kind": "stat",
+          "value": "121.6 g",
+          "label": "of Bennu brought home"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.178,
+          "end": 4.464,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 4.476,
+          "end": 4.619,
+          "char": 6,
+          "len": 2
+        },
+        {
+          "start": 4.631,
+          "end": 4.857,
+          "char": 9,
+          "len": 5
+        },
+        {
+          "start": 4.869,
+          "end": 5.178,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 5.19,
+          "end": 5.25,
+          "char": 20,
+          "len": 1
+        },
+        {
+          "start": 5.261,
+          "end": 5.702,
+          "char": 22,
+          "len": 9
+        },
+        {
+          "start": 5.714,
+          "end": 6.035,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 6.428,
+          "end": 7.38,
+          "char": 38,
+          "len": 7
+        },
+        {
+          "start": 7.666,
+          "end": 7.702,
+          "char": 47,
+          "len": 1
+        },
+        {
+          "start": 7.714,
+          "end": 8.071,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 8.083,
+          "end": 8.559,
+          "char": 54,
+          "len": 7
+        },
+        {
+          "start": 8.571,
+          "end": 8.773,
+          "char": 62,
+          "len": 7
+        },
+        {
+          "start": 8.785,
+          "end": 8.833,
+          "char": 70,
+          "len": 1
+        },
+        {
+          "start": 8.845,
+          "end": 9.142,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 9.154,
+          "end": 9.226,
+          "char": 78,
+          "len": 2
+        },
+        {
+          "start": 9.238,
+          "end": 9.321,
+          "char": 81,
+          "len": 2
+        },
+        {
+          "start": 9.333,
+          "end": 9.571,
+          "char": 84,
+          "len": 4
+        },
+        {
+          "start": 9.583,
+          "end": 9.678,
+          "char": 89,
+          "len": 2
+        },
+        {
+          "start": 9.69,
+          "end": 10.059,
+          "char": 92,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 10.807,
+      "to": 17.524,
+      "heading": "Ten kilometres",
+      "text": "This one, about ten kilometres wide, slammed into Mexico sixty-six million years ago.",
+      "source": "Chicxulub impactor, Wikipedia",
+      "beats": [
+        {
+          "word": "sixty-six",
+          "kind": "stamp",
+          "value": "66 MILLION YRS AGO"
+        }
+      ],
+      "words": [
+        {
+          "start": 11.052,
+          "end": 11.267,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 11.278,
+          "end": 11.6,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 11.909,
+          "end": 12.207,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 12.219,
+          "end": 12.505,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 12.517,
+          "end": 13.076,
+          "char": 20,
+          "len": 10
+        },
+        {
+          "start": 13.088,
+          "end": 13.457,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 13.802,
+          "end": 14.207,
+          "char": 37,
+          "len": 7
+        },
+        {
+          "start": 14.219,
+          "end": 14.362,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 14.374,
+          "end": 14.921,
+          "char": 50,
+          "len": 6
+        },
+        {
+          "start": 14.933,
+          "end": 15.767,
+          "char": 57,
+          "len": 9
+        },
+        {
+          "start": 15.778,
+          "end": 16.195,
+          "char": 67,
+          "len": 7
+        },
+        {
+          "start": 16.207,
+          "end": 16.457,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 16.469,
+          "end": 16.778,
+          "char": 81,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 17.524,
+      "to": 25.968,
+      "heading": "Eros",
+      "text": "Eros, almost seventeen kilometres long on average. In 2001, a probe made the first ever landing on an asteroid.",
+      "source": "433 Eros, Wikipedia",
+      "beats": [
+        {
+          "word": "landing",
+          "kind": "stamp",
+          "value": "FIRST LANDING"
+        }
+      ],
+      "words": [
+        {
+          "start": 17.769,
+          "end": 18.257,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 18.472,
+          "end": 18.805,
+          "char": 6,
+          "len": 6
+        },
+        {
+          "start": 18.817,
+          "end": 19.353,
+          "char": 13,
+          "len": 9
+        },
+        {
+          "start": 19.364,
+          "end": 19.972,
+          "char": 23,
+          "len": 10
+        },
+        {
+          "start": 19.984,
+          "end": 20.317,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 20.329,
+          "end": 20.46,
+          "char": 39,
+          "len": 2
+        },
+        {
+          "start": 20.472,
+          "end": 21.007,
+          "char": 42,
+          "len": 7
+        },
+        {
+          "start": 21.4,
+          "end": 22.281,
+          "char": 51,
+          "len": 7
+        },
+        {
+          "start": 22.65,
+          "end": 22.698,
+          "char": 60,
+          "len": 1
+        },
+        {
+          "start": 22.71,
+          "end": 22.983,
+          "char": 62,
+          "len": 5
+        },
+        {
+          "start": 22.995,
+          "end": 23.162,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 23.174,
+          "end": 23.245,
+          "char": 73,
+          "len": 3
+        },
+        {
+          "start": 23.257,
+          "end": 23.698,
+          "char": 77,
+          "len": 5
+        },
+        {
+          "start": 23.841,
+          "end": 24.043,
+          "char": 83,
+          "len": 4
+        },
+        {
+          "start": 24.055,
+          "end": 24.424,
+          "char": 88,
+          "len": 7
+        },
+        {
+          "start": 24.436,
+          "end": 24.531,
+          "char": 96,
+          "len": 2
+        },
+        {
+          "start": 24.543,
+          "end": 24.614,
+          "char": 99,
+          "len": 2
+        },
+        {
+          "start": 24.626,
+          "end": 25.222,
+          "char": 102,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 25.968,
+      "to": 32.294,
+      "heading": "Vesta",
+      "text": "Vesta is over five hundred kilometres wide, and on a dark night you can spot it without a telescope.",
+      "source": "4 Vesta, Wikipedia",
+      "beats": [
+        {
+          "word": "spot",
+          "kind": "stamp",
+          "value": "NAKED-EYE ASTEROID"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.213,
+          "end": 26.654,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 26.666,
+          "end": 26.832,
+          "char": 6,
+          "len": 2
+        },
+        {
+          "start": 26.844,
+          "end": 27.07,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 27.082,
+          "end": 27.463,
+          "char": 14,
+          "len": 4
+        },
+        {
+          "start": 27.475,
+          "end": 27.82,
+          "char": 19,
+          "len": 7
+        },
+        {
+          "start": 27.832,
+          "end": 28.38,
+          "char": 27,
+          "len": 10
+        },
+        {
+          "start": 28.392,
+          "end": 28.761,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 29.058,
+          "end": 29.13,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 29.142,
+          "end": 29.249,
+          "char": 48,
+          "len": 2
+        },
+        {
+          "start": 29.261,
+          "end": 29.344,
+          "char": 51,
+          "len": 1
+        },
+        {
+          "start": 29.356,
+          "end": 29.654,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 29.666,
+          "end": 29.928,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 29.939,
+          "end": 30.035,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 30.047,
+          "end": 30.166,
+          "char": 68,
+          "len": 3
+        },
+        {
+          "start": 30.178,
+          "end": 30.511,
+          "char": 72,
+          "len": 4
+        },
+        {
+          "start": 30.523,
+          "end": 30.618,
+          "char": 77,
+          "len": 2
+        },
+        {
+          "start": 30.63,
+          "end": 30.904,
+          "char": 80,
+          "len": 7
+        },
+        {
+          "start": 30.916,
+          "end": 30.951,
+          "char": 88,
+          "len": 1
+        },
+        {
+          "start": 30.963,
+          "end": 31.547,
+          "char": 90,
+          "len": 9
+        }
+      ]
+    },
+    {
+      "from": 32.294,
+      "to": 38.518,
+      "heading": "Rheasilvia",
+      "text": "It has a crater five hundred kilometres wide, with a peak more than twice as tall as Everest.",
+      "source": "4 Vesta, Wikipedia",
+      "beats": [
+        {
+          "word": "peak",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Rheasilvia peak",
+            "subjectValue": 22,
+            "unit": "km",
+            "note": "2.5 Everests"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 32.539,
+          "end": 32.611,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 32.623,
+          "end": 32.801,
+          "char": 3,
+          "len": 3
+        },
+        {
+          "start": 32.813,
+          "end": 32.873,
+          "char": 7,
+          "len": 1
+        },
+        {
+          "start": 32.884,
+          "end": 33.313,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 33.325,
+          "end": 33.718,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 33.73,
+          "end": 34.075,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 34.087,
+          "end": 34.623,
+          "char": 29,
+          "len": 10
+        },
+        {
+          "start": 34.634,
+          "end": 34.992,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 35.289,
+          "end": 35.42,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 35.432,
+          "end": 35.48,
+          "char": 51,
+          "len": 1
+        },
+        {
+          "start": 35.492,
+          "end": 35.789,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 35.801,
+          "end": 36.051,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 36.063,
+          "end": 36.182,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 36.194,
+          "end": 36.623,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 36.634,
+          "end": 36.73,
+          "char": 74,
+          "len": 2
+        },
+        {
+          "start": 36.742,
+          "end": 37.111,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 37.123,
+          "end": 37.242,
+          "char": 82,
+          "len": 2
+        },
+        {
+          "start": 37.254,
+          "end": 37.777,
+          "char": 85,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 38.518,
+      "to": 46.403,
+      "heading": "Ceres",
+      "text": "Ceres, the biggest of all, is about nine hundred and forty kilometres wide. It holds forty percent of the belt's mass.",
+      "source": "Ceres, Wikipedia",
+      "beats": [
+        {
+          "word": "forty",
+          "kind": "stat",
+          "value": "40%",
+          "label": "of the asteroid belt's mass"
+        }
+      ],
+      "words": [
+        {
+          "start": 38.775,
+          "end": 39.382,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 39.549,
+          "end": 39.656,
+          "char": 7,
+          "len": 3
+        },
+        {
+          "start": 39.668,
+          "end": 40.037,
+          "char": 11,
+          "len": 7
+        },
+        {
+          "start": 40.049,
+          "end": 40.132,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 40.144,
+          "end": 40.442,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 40.799,
+          "end": 40.87,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 40.882,
+          "end": 41.156,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 41.168,
+          "end": 41.489,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 41.501,
+          "end": 41.763,
+          "char": 41,
+          "len": 7
+        },
+        {
+          "start": 41.775,
+          "end": 41.835,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 41.847,
+          "end": 42.168,
+          "char": 53,
+          "len": 5
+        },
+        {
+          "start": 42.18,
+          "end": 42.728,
+          "char": 59,
+          "len": 10
+        },
+        {
+          "start": 42.739,
+          "end": 43.108,
+          "char": 70,
+          "len": 4
+        },
+        {
+          "start": 43.501,
+          "end": 43.585,
+          "char": 76,
+          "len": 2
+        },
+        {
+          "start": 43.597,
+          "end": 43.87,
+          "char": 79,
+          "len": 5
+        },
+        {
+          "start": 43.882,
+          "end": 44.228,
+          "char": 85,
+          "len": 5
+        },
+        {
+          "start": 44.239,
+          "end": 44.656,
+          "char": 91,
+          "len": 7
+        },
+        {
+          "start": 44.668,
+          "end": 44.739,
+          "char": 99,
+          "len": 2
+        },
+        {
+          "start": 44.751,
+          "end": 44.835,
+          "char": 102,
+          "len": 3
+        },
+        {
+          "start": 44.847,
+          "end": 45.132,
+          "char": 106,
+          "len": 6
+        },
+        {
+          "start": 45.144,
+          "end": 45.656,
+          "char": 113,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 46.403,
+      "to": 51.633,
+      "heading": "Our Moon",
+      "text": "And our Moon, three and a half thousand kilometres across, dwarfs them all.",
+      "source": "Moon, Wikipedia",
+      "words": [
+        {
+          "start": 46.648,
+          "end": 46.743,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 46.755,
+          "end": 46.91,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 46.922,
+          "end": 47.315,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 47.601,
+          "end": 47.863,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 47.874,
+          "end": 47.958,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 47.97,
+          "end": 48.017,
+          "char": 24,
+          "len": 1
+        },
+        {
+          "start": 48.029,
+          "end": 48.374,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 48.386,
+          "end": 48.743,
+          "char": 31,
+          "len": 8
+        },
+        {
+          "start": 48.755,
+          "end": 49.291,
+          "char": 40,
+          "len": 10
+        },
+        {
+          "start": 49.303,
+          "end": 49.874,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 50.101,
+          "end": 50.482,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 50.493,
+          "end": 50.624,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 50.636,
+          "end": 50.886,
+          "char": 71,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 51.633,
+      "to": 59.046,
+      "heading": "The twist",
+      "text": "The twist? The asteroid that ended the dinosaurs was smaller than Eros. Which one would you visit?",
+      "source": "Chicxulub impactor, Wikipedia",
+      "beats": [
+        {
+          "word": "dinosaurs",
+          "kind": "stamp",
+          "value": "DINO KILLER"
+        }
+      ],
+      "words": [
+        {
+          "start": 51.89,
+          "end": 51.938,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 51.95,
+          "end": 52.39,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 52.795,
+          "end": 52.89,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 52.902,
+          "end": 53.509,
+          "char": 15,
+          "len": 8
+        },
+        {
+          "start": 53.521,
+          "end": 53.664,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 53.676,
+          "end": 53.866,
+          "char": 29,
+          "len": 5
+        },
+        {
+          "start": 53.878,
+          "end": 53.95,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 53.962,
+          "end": 54.557,
+          "char": 39,
+          "len": 9
+        },
+        {
+          "start": 54.569,
+          "end": 54.735,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 54.747,
+          "end": 55.2,
+          "char": 53,
+          "len": 7
+        },
+        {
+          "start": 55.212,
+          "end": 55.343,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 55.354,
+          "end": 55.866,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 56.259,
+          "end": 56.39,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 56.402,
+          "end": 56.521,
+          "char": 78,
+          "len": 3
+        },
+        {
+          "start": 56.533,
+          "end": 56.64,
+          "char": 82,
+          "len": 5
+        },
+        {
+          "start": 56.652,
+          "end": 56.735,
+          "char": 88,
+          "len": 3
+        },
+        {
+          "start": 56.747,
+          "end": 57.104,
+          "char": 92,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How big are asteroids, really?",
+    "flash": "SMALLER THAN EROS",
+    "previewLine": 8
+  },
+  "skit": {
+    "text": "A ten-kilometre rock ended the dinosaurs? Good thing I'm backed up.",
+    "mood": "gasp",
+    "action": "*nervous beep*",
+    "from": 59.046,
+    "to": 66.216,
+    "words": [
+      {
+        "start": 59.592,
+        "end": 59.705,
+        "char": 0,
+        "len": 1
+      },
+      {
+        "start": 59.716,
+        "end": 60.527,
+        "char": 2,
+        "len": 13
+      },
+      {
+        "start": 60.538,
+        "end": 60.865,
+        "char": 16,
+        "len": 4
+      },
+      {
+        "start": 60.876,
+        "end": 61.18,
+        "char": 21,
+        "len": 5
+      },
+      {
+        "start": 61.191,
+        "end": 61.281,
+        "char": 27,
+        "len": 3
+      },
+      {
+        "start": 61.293,
+        "end": 62.036,
+        "char": 31,
+        "len": 9
+      },
+      {
+        "start": 62.812,
+        "end": 63.059,
+        "char": 42,
+        "len": 4
+      },
+      {
+        "start": 63.071,
+        "end": 63.341,
+        "char": 47,
+        "len": 5
+      },
+      {
+        "start": 63.352,
+        "end": 63.499,
+        "char": 53,
+        "len": 3
+      },
+      {
+        "start": 63.51,
+        "end": 63.825,
+        "char": 57,
+        "len": 6
+      },
+      {
+        "start": 63.837,
+        "end": 64.084,
+        "char": 64,
+        "len": 2
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up the asteroids by size?",
+      "How big are asteroids, really?"
+    ],
+    "description": "Bennu, the asteroid that ended the dinosaurs, Eros, Vesta and Ceres side by side at true scale, all the way up to our Moon.",
+    "tags": [
+      "asteroids",
+      "bennu",
+      "vesta",
+      "ceres",
+      "chicxulub",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Bennu's mean diameter is about 490 m; OSIRIS-REx returned about 121.6 g of it to Utah on 24 September 2023",
+      "url": "https://en.wikipedia.org/wiki/101955_Bennu"
+    },
+    {
+      "claim": "The Chicxulub impactor was around 10 km across and struck about 66 million years ago, causing the extinction of all non-avian dinosaurs",
+      "url": "https://en.wikipedia.org/wiki/Chicxulub_impactor"
+    },
+    {
+      "claim": "433 Eros has a mean diameter of 16.84 km; NEAR Shoemaker touched down on 12 February 2001, the first landing on an asteroid",
+      "url": "https://en.wikipedia.org/wiki/433_Eros"
+    },
+    {
+      "claim": "Vesta's mean diameter is about 523 km and it can be faintly visible to the naked eye; its Rheasilvia crater is about 500 km across with a central peak about 22\u201323 km high",
+      "url": "https://en.wikipedia.org/wiki/4_Vesta"
+    },
+    {
+      "claim": "Ceres has a mean radius of about 469.7 km and holds about 40% of the asteroid belt's mass",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+    },
+    {
+      "claim": "The Moon's mean radius is 1,737.4 km",
+      "url": "https://en.wikipedia.org/wiki/Moon"
+    }
+  ],
+  "seed": "asteroids-to-scale",
+  "voiceover": "audio/asteroids-to-scale.mp3",
+  "music": "audio/asteroids-to-scale_bed.mp3"
+}
