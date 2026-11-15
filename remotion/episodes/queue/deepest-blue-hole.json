@@ -1,0 +1,367 @@
+{
+  "title": "What if you sank into the deepest blue hole?",
+  "fps": 30,
+  "hook": {
+    "banner": "How deep is the deepest blue hole?",
+    "flash": "NO BOTTOM FOUND",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      5.5,
+      5
+    ],
+    [
+      9.5,
+      8
+    ],
+    [
+      11.5,
+      30
+    ],
+    [
+      15.5,
+      40
+    ],
+    [
+      17.5,
+      110
+    ],
+    [
+      21.5,
+      130
+    ],
+    [
+      23.5,
+      274
+    ],
+    [
+      27.5,
+      285
+    ],
+    [
+      29.5,
+      330
+    ],
+    [
+      31.5,
+      400
+    ],
+    [
+      35.5,
+      424
+    ],
+    [
+      52.5,
+      424
+    ]
+  ],
+  "maxDepth": 1000,
+  "colours": [
+    [
+      0,
+      [
+        40,
+        150,
+        160
+      ]
+    ],
+    [
+      20,
+      [
+        20,
+        95,
+        110
+      ]
+    ],
+    [
+      110,
+      [
+        8,
+        40,
+        52
+      ]
+    ],
+    [
+      300,
+      [
+        3,
+        20,
+        30
+      ]
+    ],
+    [
+      1000,
+      [
+        1,
+        10,
+        16
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 20,
+      "name": "Low oxygen",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 20,
+      "to": 110,
+      "name": "The chemocline",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 110,
+      "to": 1000,
+      "name": "No oxygen",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      27
+    ],
+    [
+      8,
+      24.9
+    ],
+    [
+      236,
+      24.9
+    ],
+    [
+      249,
+      22.3
+    ],
+    [
+      313,
+      22.3
+    ],
+    [
+      332,
+      19.8
+    ],
+    [
+      399,
+      19.8
+    ],
+    [
+      424,
+      23.9
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 3,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 8,
+      "x": 0.68,
+      "kind": "fish"
+    },
+    {
+      "depth": 15,
+      "x": 0.4,
+      "kind": "jelly"
+    },
+    {
+      "depth": 40,
+      "x": 0.7,
+      "kind": "amph"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "The drop",
+      "text": "You're swimming in a bay just five metres deep. Then the floor simply drops away."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "Taam Ja'",
+      "text": "This is Taam Ja', in Chetumal Bay, Mexico. A local diver found it around 2003, following a grouper inside.",
+      "source": "Taam Ja' Blue Hole, Wikipedia",
+      "beats": [
+        {
+          "word": "grouper",
+          "kind": "stamp",
+          "value": "FOLLOWED A FISH"
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15.5,
+      "heading": "The funnel",
+      "text": "Its walls plunge almost straight down, steeper than eighty degrees, like a giant funnel.",
+      "source": "Frontiers in Marine Science, 2023",
+      "beats": [
+        {
+          "word": "eighty",
+          "kind": "stat",
+          "value": ">80°",
+          "label": "wall steepness"
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "No oxygen",
+      "text": "Twenty metres down, oxygen is already low. Past a hundred and ten, there's none at all.",
+      "source": "Frontiers in Marine Science, 2023",
+      "beats": [
+        {
+          "word": "none",
+          "kind": "warning",
+          "value": "NO OXYGEN"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "First guess",
+      "text": "Scientists first measured it at two hundred and seventy-four metres. The second-deepest blue hole known.",
+      "source": "Frontiers in Marine Science, 2023",
+      "beats": [
+        {
+          "word": "second-deepest",
+          "kind": "stamp",
+          "value": "NUMBER TWO?"
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 33.5,
+      "heading": "Still going",
+      "text": "But in December 2023, a probe on a cable kept going. Past three hundred. Past four hundred.",
+      "source": "Frontiers in Marine Science, 2024",
+      "beats": [
+        {
+          "word": "kept",
+          "kind": "warning",
+          "value": "STILL SINKING"
+        }
+      ]
+    },
+    {
+      "from": 33.5,
+      "to": 40,
+      "heading": "420 m down",
+      "text": "It stopped at over four hundred and twenty metres. Now it's the deepest blue hole known.",
+      "source": "Frontiers in Marine Science, 2024",
+      "beats": [
+        {
+          "word": "deepest",
+          "kind": "compare",
+          "compare": {
+            "name": "Dragon Hole",
+            "value": 301,
+            "icon": "land",
+            "subject": "Taam Ja'",
+            "subjectValue": 424,
+            "unit": "m deep",
+            "note": "New record holder"
+          }
+        }
+      ]
+    },
+    {
+      "from": 40,
+      "to": 46.5,
+      "heading": "The twist",
+      "text": "The twist? Its deepest water matches the Caribbean Sea. It may be secretly linked to the ocean by caves.",
+      "source": "Frontiers in Marine Science, 2024",
+      "beats": [
+        {
+          "word": "caves",
+          "kind": "stamp",
+          "value": "SECRET TUNNELS?"
+        }
+      ]
+    },
+    {
+      "from": 46.5,
+      "to": 52.5,
+      "heading": "Bottomless?",
+      "text": "And still, nobody has found the bottom. How deep do you think it goes?",
+      "source": "Frontiers in Marine Science, 2024"
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 2.6
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:110"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:274"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:420"
+    }
+  ],
+  "skit": {
+    "text": "No bottom found? Same as my search history.",
+    "mood": "shrug",
+    "action": "*awkward beep*"
+  },
+  "seed": "deepest-blue-hole",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank into the deepest blue hole on Earth?",
+      "Taam Ja': the blue hole with no bottom found yet"
+    ],
+    "description": "Sink into Taam Ja', a blue hole in Mexico's Chetumal Bay, through water with no oxygen, past 420 metres, and find out why it may be secretly connected to the Caribbean Sea.",
+    "tags": [
+      "blue hole",
+      "taam ja",
+      "mexico",
+      "ocean mysteries",
+      "deep water",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Taam Ja' Blue Hole is in Chetumal Bay, Mexico, and was discovered around 2003 by a local diver following a grouper; it is the deepest known blue hole",
+      "url": "https://en.wikipedia.org/wiki/Taam_Ja%27_Blue_Hole"
+    },
+    {
+      "claim": "Taam Ja' sits in Chetumal Bay at about 5 m depth, with slopes steeper than 80°; it has a hypoxic layer at 5–20 m, a chemocline at 50–80 m and anoxic water below about 110 m; first measured at 274.4 m, then described as the second-deepest known blue hole",
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1141160/full"
+    },
+    {
+      "claim": "CTD casts on 6 and 13 December 2023 reached 423.6 m without reaching the bottom; deep water below 400 m resembles Caribbean seawater, suggesting a possible subterranean connection; temperature layers from about 27 °C at the surface to 19.8 °C at 332–399 m",
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1387235/full"
+    },
+    {
+      "claim": "Dragon Hole in the South China Sea is about 301 m deep and was the deepest known blue hole until Taam Ja' surpassed it in 2024",
+      "url": "https://en.wikipedia.org/wiki/Dragon_Hole"
+    }
+  ]
+}

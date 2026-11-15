@@ -187,7 +187,8 @@
       "title": "What if you sank into the deepest blue hole?",
       "format": "Descent",
       "angle": "Down the deepest known blue hole, Taam Ja' off Mexico, where the water loses its oxygen; the twist is that divers and sonar still haven't found its bottom.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-15"
     },
     {
       "slug": "great-red-spot",
