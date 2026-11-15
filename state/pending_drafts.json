@@ -854,7 +854,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · deepest-blue-hole · 64s</i>\n\n<b>A:</b> What if you sank into the deepest blue hole on Earth?\n<b>B:</b> Taam Ja': the blue hole with no bottom found yet\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 16 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794764609.863683
+    "status": "PUBLISHED",
+    "created_at": 1794764609.863683,
+    "updated_at": 1794764907.3627665,
+    "title_used": "What if you sank into the deepest blue hole on Earth?",
+    "video_id": "EkHigpGVPY0",
+    "youtube_url": "https://youtube.com/shorts/EkHigpGVPY0",
+    "scheduled_at": null
   }
 }
