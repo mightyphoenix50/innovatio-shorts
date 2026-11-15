@@ -1,0 +1,1303 @@
+{
+  "title": "What if you sank into the deepest blue hole?",
+  "fps": 30,
+  "hook": {
+    "banner": "How deep is the deepest blue hole?",
+    "flash": "NO BOTTOM FOUND",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.397,
+      0
+    ],
+    [
+      7.975,
+      5
+    ],
+    [
+      13.666,
+      8
+    ],
+    [
+      15.709,
+      30
+    ],
+    [
+      19.795,
+      40
+    ],
+    [
+      21.88,
+      110
+    ],
+    [
+      26.049,
+      130
+    ],
+    [
+      28.209,
+      274
+    ],
+    [
+      32.53,
+      285
+    ],
+    [
+      34.771,
+      330
+    ],
+    [
+      37.013,
+      400
+    ],
+    [
+      40.896,
+      424
+    ],
+    [
+      55.193,
+      424
+    ]
+  ],
+  "maxDepth": 1000,
+  "colours": [
+    [
+      0,
+      [
+        40,
+        150,
+        160
+      ]
+    ],
+    [
+      20,
+      [
+        20,
+        95,
+        110
+      ]
+    ],
+    [
+      110,
+      [
+        8,
+        40,
+        52
+      ]
+    ],
+    [
+      300,
+      [
+        3,
+        20,
+        30
+      ]
+    ],
+    [
+      1000,
+      [
+        1,
+        10,
+        16
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 20,
+      "name": "Low oxygen",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 20,
+      "to": 110,
+      "name": "The chemocline",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 110,
+      "to": 1000,
+      "name": "No oxygen",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      27
+    ],
+    [
+      8,
+      24.9
+    ],
+    [
+      236,
+      24.9
+    ],
+    [
+      249,
+      22.3
+    ],
+    [
+      313,
+      22.3
+    ],
+    [
+      332,
+      19.8
+    ],
+    [
+      399,
+      19.8
+    ],
+    [
+      424,
+      23.9
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 3,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 8,
+      "x": 0.68,
+      "kind": "fish"
+    },
+    {
+      "depth": 15,
+      "x": 0.4,
+      "kind": "jelly"
+    },
+    {
+      "depth": 40,
+      "x": 0.7,
+      "kind": "amph"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.13,
+      "heading": "The drop",
+      "text": "You're swimming in a bay just five metres deep. Then the floor simply drops away.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.364,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.376,
+          "end": 0.721,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 0.733,
+          "end": 0.805,
+          "char": 16,
+          "len": 2
+        },
+        {
+          "start": 0.817,
+          "end": 0.876,
+          "char": 19,
+          "len": 1
+        },
+        {
+          "start": 0.888,
+          "end": 1.269,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 1.34,
+          "end": 1.555,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 1.567,
+          "end": 1.888,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 1.9,
+          "end": 2.21,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 2.221,
+          "end": 2.507,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 2.9,
+          "end": 2.971,
+          "char": 48,
+          "len": 4
+        },
+        {
+          "start": 2.983,
+          "end": 3.055,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 3.067,
+          "end": 3.376,
+          "char": 57,
+          "len": 5
+        },
+        {
+          "start": 3.388,
+          "end": 3.698,
+          "char": 63,
+          "len": 6
+        },
+        {
+          "start": 3.71,
+          "end": 4.043,
+          "char": 70,
+          "len": 5
+        },
+        {
+          "start": 4.055,
+          "end": 4.388,
+          "char": 76,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 5.13,
+      "to": 13.666,
+      "heading": "Taam Ja'",
+      "text": "This is Taam Ja', in Chetumal Bay, Mexico. A local diver found it around 2003, following a grouper inside.",
+      "source": "Taam Ja' Blue Hole, Wikipedia",
+      "beats": [
+        {
+          "word": "grouper",
+          "kind": "stamp",
+          "value": "FOLLOWED A FISH"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.375,
+          "end": 5.625,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 5.697,
+          "end": 5.816,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 5.828,
+          "end": 6.101,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 6.113,
+          "end": 6.494,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 6.78,
+          "end": 6.875,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 6.887,
+          "end": 7.387,
+          "char": 21,
+          "len": 8
+        },
+        {
+          "start": 7.399,
+          "end": 7.732,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 7.756,
+          "end": 8.316,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 8.709,
+          "end": 8.744,
+          "char": 43,
+          "len": 1
+        },
+        {
+          "start": 8.756,
+          "end": 9.054,
+          "char": 45,
+          "len": 5
+        },
+        {
+          "start": 9.066,
+          "end": 9.399,
+          "char": 51,
+          "len": 5
+        },
+        {
+          "start": 9.411,
+          "end": 9.685,
+          "char": 57,
+          "len": 5
+        },
+        {
+          "start": 9.697,
+          "end": 9.756,
+          "char": 63,
+          "len": 2
+        },
+        {
+          "start": 9.768,
+          "end": 10.089,
+          "char": 66,
+          "len": 6
+        },
+        {
+          "start": 10.101,
+          "end": 11.137,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 11.423,
+          "end": 11.911,
+          "char": 79,
+          "len": 9
+        },
+        {
+          "start": 11.97,
+          "end": 12.03,
+          "char": 89,
+          "len": 1
+        },
+        {
+          "start": 12.042,
+          "end": 12.447,
+          "char": 91,
+          "len": 7
+        },
+        {
+          "start": 12.459,
+          "end": 12.923,
+          "char": 99,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 13.666,
+      "to": 19.795,
+      "heading": "The funnel",
+      "text": "Its walls plunge almost straight down, steeper than eighty degrees, like a giant funnel.",
+      "source": "Frontiers in Marine Science, 2023",
+      "beats": [
+        {
+          "word": "eighty",
+          "kind": "stat",
+          "value": ">80\u00b0",
+          "label": "wall steepness"
+        }
+      ],
+      "words": [
+        {
+          "start": 13.911,
+          "end": 14.042,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 14.054,
+          "end": 14.352,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 14.364,
+          "end": 14.84,
+          "char": 10,
+          "len": 6
+        },
+        {
+          "start": 14.959,
+          "end": 15.328,
+          "char": 17,
+          "len": 6
+        },
+        {
+          "start": 15.34,
+          "end": 15.756,
+          "char": 24,
+          "len": 8
+        },
+        {
+          "start": 15.768,
+          "end": 16.126,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 16.423,
+          "end": 16.792,
+          "char": 39,
+          "len": 7
+        },
+        {
+          "start": 16.804,
+          "end": 16.983,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 17.102,
+          "end": 17.316,
+          "char": 52,
+          "len": 6
+        },
+        {
+          "start": 17.328,
+          "end": 17.923,
+          "char": 59,
+          "len": 7
+        },
+        {
+          "start": 18.149,
+          "end": 18.268,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 18.28,
+          "end": 18.34,
+          "char": 73,
+          "len": 1
+        },
+        {
+          "start": 18.352,
+          "end": 18.685,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 18.697,
+          "end": 19.054,
+          "char": 81,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 19.795,
+      "to": 26.049,
+      "heading": "No oxygen",
+      "text": "Twenty metres down, oxygen is already low. Past a hundred and ten, there's none at all.",
+      "source": "Frontiers in Marine Science, 2023",
+      "beats": [
+        {
+          "word": "none",
+          "kind": "warning",
+          "value": "NO OXYGEN"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.04,
+          "end": 20.243,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 20.255,
+          "end": 20.552,
+          "char": 7,
+          "len": 6
+        },
+        {
+          "start": 20.564,
+          "end": 20.885,
+          "char": 14,
+          "len": 4
+        },
+        {
+          "start": 21.255,
+          "end": 21.778,
+          "char": 20,
+          "len": 6
+        },
+        {
+          "start": 21.945,
+          "end": 22.1,
+          "char": 27,
+          "len": 2
+        },
+        {
+          "start": 22.112,
+          "end": 22.481,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 22.493,
+          "end": 22.814,
+          "char": 38,
+          "len": 3
+        },
+        {
+          "start": 23.219,
+          "end": 23.445,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 23.457,
+          "end": 23.481,
+          "char": 48,
+          "len": 1
+        },
+        {
+          "start": 23.493,
+          "end": 23.802,
+          "char": 50,
+          "len": 7
+        },
+        {
+          "start": 23.814,
+          "end": 23.885,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 23.897,
+          "end": 24.207,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 24.493,
+          "end": 24.671,
+          "char": 67,
+          "len": 7
+        },
+        {
+          "start": 24.683,
+          "end": 24.945,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 24.957,
+          "end": 25.04,
+          "char": 80,
+          "len": 2
+        },
+        {
+          "start": 25.052,
+          "end": 25.302,
+          "char": 83,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 26.049,
+      "to": 32.53,
+      "heading": "First guess",
+      "text": "Scientists first measured it at two hundred and seventy-four metres. The second-deepest blue hole known.",
+      "source": "Frontiers in Marine Science, 2023",
+      "beats": [
+        {
+          "word": "second-deepest",
+          "kind": "stamp",
+          "value": "NUMBER TWO?"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.294,
+          "end": 26.866,
+          "char": 0,
+          "len": 10
+        },
+        {
+          "start": 26.878,
+          "end": 27.282,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 27.294,
+          "end": 27.616,
+          "char": 17,
+          "len": 8
+        },
+        {
+          "start": 27.628,
+          "end": 27.759,
+          "char": 26,
+          "len": 2
+        },
+        {
+          "start": 27.878,
+          "end": 27.985,
+          "char": 29,
+          "len": 2
+        },
+        {
+          "start": 27.997,
+          "end": 28.235,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 28.247,
+          "end": 28.556,
+          "char": 36,
+          "len": 7
+        },
+        {
+          "start": 28.568,
+          "end": 28.639,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 28.651,
+          "end": 29.211,
+          "char": 48,
+          "len": 12
+        },
+        {
+          "start": 29.223,
+          "end": 29.699,
+          "char": 61,
+          "len": 6
+        },
+        {
+          "start": 30.104,
+          "end": 30.151,
+          "char": 69,
+          "len": 3
+        },
+        {
+          "start": 30.163,
+          "end": 30.913,
+          "char": 73,
+          "len": 14
+        },
+        {
+          "start": 30.925,
+          "end": 31.235,
+          "char": 88,
+          "len": 4
+        },
+        {
+          "start": 31.247,
+          "end": 31.437,
+          "char": 93,
+          "len": 4
+        },
+        {
+          "start": 31.449,
+          "end": 31.782,
+          "char": 98,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 32.53,
+      "to": 39.254,
+      "heading": "Still going",
+      "text": "But in December 2023, a probe on a cable kept going. Past three hundred. Past four hundred.",
+      "source": "Frontiers in Marine Science, 2024",
+      "beats": [
+        {
+          "word": "kept",
+          "kind": "warning",
+          "value": "STILL SINKING"
+        }
+      ],
+      "words": [
+        {
+          "start": 32.787,
+          "end": 32.87,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 32.882,
+          "end": 32.954,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 32.966,
+          "end": 34.275,
+          "char": 7,
+          "len": 13
+        },
+        {
+          "start": 34.644,
+          "end": 34.692,
+          "char": 22,
+          "len": 1
+        },
+        {
+          "start": 34.704,
+          "end": 35.013,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 35.025,
+          "end": 35.109,
+          "char": 30,
+          "len": 2
+        },
+        {
+          "start": 35.12,
+          "end": 35.156,
+          "char": 33,
+          "len": 1
+        },
+        {
+          "start": 35.168,
+          "end": 35.549,
+          "char": 35,
+          "len": 5
+        },
+        {
+          "start": 35.561,
+          "end": 35.823,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 35.835,
+          "end": 36.132,
+          "char": 46,
+          "len": 5
+        },
+        {
+          "start": 36.537,
+          "end": 36.823,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 36.835,
+          "end": 37.013,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 37.025,
+          "end": 37.394,
+          "char": 64,
+          "len": 7
+        },
+        {
+          "start": 37.799,
+          "end": 38.025,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 38.037,
+          "end": 38.18,
+          "char": 78,
+          "len": 4
+        },
+        {
+          "start": 38.192,
+          "end": 38.513,
+          "char": 83,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 39.254,
+      "to": 44.59,
+      "heading": "420 m down",
+      "text": "It stopped at over four hundred and twenty metres. Now it's the deepest blue hole known.",
+      "source": "Frontiers in Marine Science, 2024",
+      "beats": [
+        {
+          "word": "deepest",
+          "kind": "compare",
+          "compare": {
+            "name": "Dragon Hole",
+            "value": 301,
+            "icon": "land",
+            "subject": "Taam Ja'",
+            "subjectValue": 424,
+            "unit": "m deep",
+            "note": "New record holder"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 39.499,
+          "end": 39.583,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 39.594,
+          "end": 39.963,
+          "char": 3,
+          "len": 7
+        },
+        {
+          "start": 39.975,
+          "end": 40.059,
+          "char": 11,
+          "len": 2
+        },
+        {
+          "start": 40.071,
+          "end": 40.297,
+          "char": 14,
+          "len": 4
+        },
+        {
+          "start": 40.309,
+          "end": 40.606,
+          "char": 19,
+          "len": 4
+        },
+        {
+          "start": 40.618,
+          "end": 40.892,
+          "char": 24,
+          "len": 7
+        },
+        {
+          "start": 40.904,
+          "end": 40.964,
+          "char": 32,
+          "len": 3
+        },
+        {
+          "start": 40.975,
+          "end": 41.213,
+          "char": 36,
+          "len": 6
+        },
+        {
+          "start": 41.225,
+          "end": 41.713,
+          "char": 43,
+          "len": 6
+        },
+        {
+          "start": 42.106,
+          "end": 42.261,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 42.273,
+          "end": 42.392,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 42.404,
+          "end": 42.523,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 42.535,
+          "end": 42.94,
+          "char": 64,
+          "len": 7
+        },
+        {
+          "start": 42.952,
+          "end": 43.261,
+          "char": 72,
+          "len": 4
+        },
+        {
+          "start": 43.273,
+          "end": 43.499,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 43.511,
+          "end": 43.844,
+          "char": 82,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 44.59,
+      "to": 51.975,
+      "heading": "The twist",
+      "text": "The twist? Its deepest water matches the Caribbean Sea. It may be secretly linked to the ocean by caves.",
+      "source": "Frontiers in Marine Science, 2024",
+      "beats": [
+        {
+          "word": "caves",
+          "kind": "stamp",
+          "value": "SECRET TUNNELS?"
+        }
+      ],
+      "words": [
+        {
+          "start": 44.847,
+          "end": 44.895,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 44.907,
+          "end": 45.347,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 45.74,
+          "end": 45.907,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 45.919,
+          "end": 46.347,
+          "char": 15,
+          "len": 7
+        },
+        {
+          "start": 46.359,
+          "end": 46.704,
+          "char": 23,
+          "len": 5
+        },
+        {
+          "start": 46.883,
+          "end": 47.311,
+          "char": 29,
+          "len": 7
+        },
+        {
+          "start": 47.323,
+          "end": 47.407,
+          "char": 37,
+          "len": 3
+        },
+        {
+          "start": 47.419,
+          "end": 47.907,
+          "char": 41,
+          "len": 9
+        },
+        {
+          "start": 47.919,
+          "end": 48.264,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 48.669,
+          "end": 48.74,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 48.752,
+          "end": 48.847,
+          "char": 59,
+          "len": 3
+        },
+        {
+          "start": 48.859,
+          "end": 48.99,
+          "char": 63,
+          "len": 2
+        },
+        {
+          "start": 49.002,
+          "end": 49.538,
+          "char": 66,
+          "len": 8
+        },
+        {
+          "start": 49.55,
+          "end": 49.919,
+          "char": 75,
+          "len": 6
+        },
+        {
+          "start": 49.978,
+          "end": 50.073,
+          "char": 82,
+          "len": 2
+        },
+        {
+          "start": 50.085,
+          "end": 50.216,
+          "char": 85,
+          "len": 3
+        },
+        {
+          "start": 50.228,
+          "end": 50.538,
+          "char": 89,
+          "len": 5
+        },
+        {
+          "start": 50.55,
+          "end": 50.704,
+          "char": 95,
+          "len": 2
+        },
+        {
+          "start": 50.716,
+          "end": 51.228,
+          "char": 98,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 51.975,
+      "to": 57.606,
+      "heading": "Bottomless?",
+      "text": "And still, nobody has found the bottom. How deep do you think it goes?",
+      "source": "Frontiers in Marine Science, 2024",
+      "words": [
+        {
+          "start": 52.22,
+          "end": 52.304,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 52.315,
+          "end": 52.696,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 53.101,
+          "end": 53.363,
+          "char": 11,
+          "len": 6
+        },
+        {
+          "start": 53.375,
+          "end": 53.494,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 53.506,
+          "end": 53.72,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 53.732,
+          "end": 53.78,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 53.792,
+          "end": 54.137,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 54.53,
+          "end": 54.613,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 54.625,
+          "end": 54.768,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 54.78,
+          "end": 54.839,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 54.851,
+          "end": 54.935,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 54.946,
+          "end": 55.137,
+          "char": 56,
+          "len": 5
+        },
+        {
+          "start": 55.149,
+          "end": 55.22,
+          "char": 62,
+          "len": 2
+        },
+        {
+          "start": 55.232,
+          "end": 55.661,
+          "char": 65,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 3.811
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:110"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:274"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:420"
+    }
+  ],
+  "skit": {
+    "text": "No bottom found? Same as my search history.",
+    "mood": "shrug",
+    "action": "*awkward beep*",
+    "from": 57.606,
+    "to": 63.717,
+    "words": [
+      {
+        "start": 58.151,
+        "end": 58.376,
+        "char": 0,
+        "len": 2
+      },
+      {
+        "start": 58.388,
+        "end": 58.737,
+        "char": 3,
+        "len": 6
+      },
+      {
+        "start": 58.748,
+        "end": 59.21,
+        "char": 10,
+        "len": 5
+      },
+      {
+        "start": 59.987,
+        "end": 60.347,
+        "char": 17,
+        "len": 4
+      },
+      {
+        "start": 60.358,
+        "end": 60.516,
+        "char": 22,
+        "len": 2
+      },
+      {
+        "start": 60.527,
+        "end": 60.685,
+        "char": 25,
+        "len": 2
+      },
+      {
+        "start": 60.696,
+        "end": 61.045,
+        "char": 28,
+        "len": 6
+      },
+      {
+        "start": 61.056,
+        "end": 61.586,
+        "char": 35,
+        "len": 7
+      }
+    ]
+  },
+  "seed": "deepest-blue-hole",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank into the deepest blue hole on Earth?",
+      "Taam Ja': the blue hole with no bottom found yet"
+    ],
+    "description": "Sink into Taam Ja', a blue hole in Mexico's Chetumal Bay, through water with no oxygen, past 420 metres, and find out why it may be secretly connected to the Caribbean Sea.",
+    "tags": [
+      "blue hole",
+      "taam ja",
+      "mexico",
+      "ocean mysteries",
+      "deep water",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Taam Ja' Blue Hole is in Chetumal Bay, Mexico, and was discovered around 2003 by a local diver following a grouper; it is the deepest known blue hole",
+      "url": "https://en.wikipedia.org/wiki/Taam_Ja%27_Blue_Hole"
+    },
+    {
+      "claim": "Taam Ja' sits in Chetumal Bay at about 5 m depth, with slopes steeper than 80\u00b0; it has a hypoxic layer at 5\u201320 m, a chemocline at 50\u201380 m and anoxic water below about 110 m; first measured at 274.4 m, then described as the second-deepest known blue hole",
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1141160/full"
+    },
+    {
+      "claim": "CTD casts on 6 and 13 December 2023 reached 423.6 m without reaching the bottom; deep water below 400 m resembles Caribbean seawater, suggesting a possible subterranean connection; temperature layers from about 27 \u00b0C at the surface to 19.8 \u00b0C at 332\u2013399 m",
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1387235/full"
+    },
+    {
+      "claim": "Dragon Hole in the South China Sea is about 301 m deep and was the deepest known blue hole until Taam Ja' surpassed it in 2024",
+      "url": "https://en.wikipedia.org/wiki/Dragon_Hole"
+    }
+  ],
+  "voiceover": "audio/deepest-blue-hole.mp3",
+  "music": "audio/deepest-blue-hole_bed.mp3"
+}

@@ -834,5 +834,27 @@
     "video_id": "zuQZ4K0G97A",
     "youtube_url": "https://youtube.com/shorts/zuQZ4K0G97A",
     "scheduled_at": null
+  },
+  "83": {
+    "episode": "deepest-blue-hole",
+    "video_path": "output/drafts/deepest-blue-hole.mp4",
+    "titles": [
+      "What if you sank into the deepest blue hole on Earth?",
+      "Taam Ja': the blue hole with no bottom found yet"
+    ],
+    "description": "Sink into Taam Ja', a blue hole in Mexico's Chetumal Bay, through water with no oxygen, past 420 metres, and find out why it may be secretly connected to the Caribbean Sea.\n\nSources:\n- Taam Ja' Blue Hole is in Chetumal Bay, Mexico, and was discovered around 2003 by a local diver following a grouper; it is the deepest known blue hole: https://en.wikipedia.org/wiki/Taam_Ja%27_Blue_Hole\n- Taam Ja' sits in Chetumal Bay at about 5 m depth, with slopes steeper than 80°; it has a hypoxic layer at 5–20 m, a chemocline at 50–80 m and anoxic water below about 110 m; first measured at 274.4 m, then described as the second-deepest known blue hole: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1141160/full\n- CTD casts on 6 and 13 December 2023 reached 423.6 m without reaching the bottom; deep water below 400 m resembles Caribbean seawater, suggesting a possible subterranean connection; temperature layers from about 27 °C at the surface to 19.8 °C at 332–399 m: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1387235/full\n- Dragon Hole in the South China Sea is about 301 m deep and was the deepest known blue hole until Taam Ja' surpassed it in 2024: https://en.wikipedia.org/wiki/Dragon_Hole\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- \"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- impact boom: CC0 1.0, https://freesound.org/people/ROHHSADOTCOM/sounds/825790/\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "blue hole",
+      "taam ja",
+      "mexico",
+      "ocean mysteries",
+      "deep water",
+      "ocean science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · deepest-blue-hole · 64s</i>\n\n<b>A:</b> What if you sank into the deepest blue hole on Earth?\n<b>B:</b> Taam Ja': the blue hole with no bottom found yet\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 16 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794764609.863683
   }
 }
