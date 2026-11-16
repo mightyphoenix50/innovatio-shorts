@@ -195,7 +195,8 @@
       "title": "How big is Jupiter's Great Red Spot?",
       "format": "Orbit",
       "angle": "Spin round Jupiter to a storm that has raged for centuries and is wider than Earth; the twist is that it has been shrinking.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-16"
     },
     {
       "slug": "balloon-to-edge-of-space",
