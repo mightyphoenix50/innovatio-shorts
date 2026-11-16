@@ -1,0 +1,1225 @@
+{
+  "template": "Orbit",
+  "title": "How big is Jupiter's Great Red Spot?",
+  "fps": 30,
+  "hook": {
+    "banner": "How big is Jupiter's Great Red Spot?",
+    "flash": "IT'S SHRINKING",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.705,
+      0.05
+    ],
+    [
+      6.731,
+      0.3
+    ],
+    [
+      10.277,
+      0.3
+    ],
+    [
+      11.954,
+      0.4
+    ],
+    [
+      14.888,
+      0.4
+    ],
+    [
+      17.092,
+      0.55
+    ],
+    [
+      21.499,
+      0.55
+    ],
+    [
+      23.556,
+      0.75
+    ],
+    [
+      27.669,
+      0.72
+    ],
+    [
+      29.686,
+      0.75
+    ],
+    [
+      33.721,
+      0.72
+    ],
+    [
+      35.788,
+      0.78
+    ],
+    [
+      39.404,
+      0.75
+    ],
+    [
+      41.274,
+      0.6
+    ],
+    [
+      45.014,
+      0.6
+    ],
+    [
+      46.126,
+      0.1
+    ],
+    [
+      48.627,
+      0.08
+    ]
+  ],
+  "body": {
+    "kind": "gas",
+    "name": "Jupiter",
+    "colours": [
+      "#F2DEC0",
+      "#D9A56B",
+      "#B6703F"
+    ],
+    "moon": true,
+    "radiusKm": 69911
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0,
+      "lon": 60,
+      "label": "Jupiter",
+      "value": "11\u00d7 Earth",
+      "caption": "Wider than Earth"
+    },
+    {
+      "line": 2,
+      "lat": 5,
+      "lon": 120,
+      "label": "Equator",
+      "value": "9.9 h",
+      "caption": "One day"
+    },
+    {
+      "line": 3,
+      "lat": 15,
+      "lon": -150,
+      "label": "Cloud belts",
+      "value": "E and W",
+      "caption": "Winds both ways"
+    },
+    {
+      "line": 4,
+      "lat": -22,
+      "lon": -60,
+      "label": "Great Red Spot",
+      "value": "16,350 km",
+      "caption": "Wide (2017)"
+    },
+    {
+      "line": 5,
+      "lat": -22,
+      "lon": -60,
+      "label": "Great Red Spot",
+      "value": "496 km/h",
+      "caption": "Top winds"
+    },
+    {
+      "line": 6,
+      "lat": -22,
+      "lon": -60,
+      "label": "Great Red Spot",
+      "value": "~500 km",
+      "caption": "Deep, maybe"
+    },
+    {
+      "line": 7,
+      "lat": -22,
+      "lon": -60,
+      "label": "Great Red Spot",
+      "value": "40,000 km",
+      "caption": "Width ~100 years ago"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.705,
+      "heading": "Biggest storm",
+      "text": "You think hurricanes on Earth are big? This storm could swallow our whole planet.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.341,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.352,
+          "end": 0.531,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.543,
+          "end": 1.055,
+          "char": 10,
+          "len": 10
+        },
+        {
+          "start": 1.067,
+          "end": 1.186,
+          "char": 21,
+          "len": 2
+        },
+        {
+          "start": 1.198,
+          "end": 1.424,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 1.436,
+          "end": 1.531,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 1.543,
+          "end": 1.888,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 2.281,
+          "end": 2.4,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 2.412,
+          "end": 2.71,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 2.721,
+          "end": 2.852,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 2.864,
+          "end": 3.281,
+          "char": 56,
+          "len": 7
+        },
+        {
+          "start": 3.293,
+          "end": 3.376,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 3.388,
+          "end": 3.543,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 3.555,
+          "end": 3.959,
+          "char": 74,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 4.705,
+      "to": 10.277,
+      "heading": "Jupiter",
+      "text": "Jupiter is about eleven times wider than Earth. A thousand Earths could fit inside.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.95,
+          "end": 5.415,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 5.426,
+          "end": 5.534,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 5.545,
+          "end": 5.807,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 5.819,
+          "end": 6.26,
+          "char": 17,
+          "len": 6
+        },
+        {
+          "start": 6.272,
+          "end": 6.605,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 6.617,
+          "end": 6.962,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 6.974,
+          "end": 7.093,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 7.105,
+          "end": 7.438,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 7.831,
+          "end": 7.891,
+          "char": 48,
+          "len": 1
+        },
+        {
+          "start": 7.903,
+          "end": 8.331,
+          "char": 50,
+          "len": 8
+        },
+        {
+          "start": 8.343,
+          "end": 8.629,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 8.641,
+          "end": 8.795,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 8.807,
+          "end": 9.034,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 9.045,
+          "end": 9.534,
+          "char": 76,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 10.277,
+      "to": 14.888,
+      "heading": "Short days",
+      "text": "And it spins in under ten hours, the shortest day of any planet.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "shortest",
+          "kind": "stamp",
+          "value": "SHORTEST DAY"
+        }
+      ],
+      "words": [
+        {
+          "start": 10.522,
+          "end": 10.606,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 10.617,
+          "end": 10.701,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 10.713,
+          "end": 11.141,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 11.153,
+          "end": 11.26,
+          "char": 13,
+          "len": 2
+        },
+        {
+          "start": 11.272,
+          "end": 11.546,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 11.558,
+          "end": 11.796,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 11.808,
+          "end": 12.26,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 12.475,
+          "end": 12.558,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 12.57,
+          "end": 13.022,
+          "char": 37,
+          "len": 8
+        },
+        {
+          "start": 13.034,
+          "end": 13.32,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 13.332,
+          "end": 13.463,
+          "char": 50,
+          "len": 2
+        },
+        {
+          "start": 13.522,
+          "end": 13.665,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 13.677,
+          "end": 14.141,
+          "char": 57,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 14.888,
+      "to": 21.499,
+      "heading": "Belts and zones",
+      "text": "Those stripes are belts and zones, with winds racing east and west in opposite directions.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "opposite",
+          "kind": "warning",
+          "value": "OPPOSING WINDS"
+        }
+      ],
+      "words": [
+        {
+          "start": 15.133,
+          "end": 15.348,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 15.359,
+          "end": 15.764,
+          "char": 6,
+          "len": 7
+        },
+        {
+          "start": 15.776,
+          "end": 15.895,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 15.907,
+          "end": 16.371,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 16.49,
+          "end": 16.621,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 16.633,
+          "end": 17.193,
+          "char": 28,
+          "len": 5
+        },
+        {
+          "start": 17.407,
+          "end": 17.562,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 17.574,
+          "end": 17.931,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 17.943,
+          "end": 18.359,
+          "char": 46,
+          "len": 6
+        },
+        {
+          "start": 18.455,
+          "end": 18.776,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 19.038,
+          "end": 19.193,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 19.205,
+          "end": 19.514,
+          "char": 62,
+          "len": 4
+        },
+        {
+          "start": 19.526,
+          "end": 19.633,
+          "char": 67,
+          "len": 2
+        },
+        {
+          "start": 19.717,
+          "end": 20.098,
+          "char": 70,
+          "len": 8
+        },
+        {
+          "start": 20.109,
+          "end": 20.752,
+          "char": 79,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 21.499,
+      "to": 27.669,
+      "heading": "Great Red Spot",
+      "text": "Now look south. The Great Red Spot, a storm about one point three times wider than Earth.",
+      "source": "Great Red Spot, Wikipedia",
+      "beats": [
+        {
+          "word": "wider",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth",
+            "value": 1,
+            "icon": "land",
+            "subject": "Great Red Spot",
+            "subjectValue": 1.3,
+            "unit": "Earths wide",
+            "note": "Earth would fit inside"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 21.744,
+          "end": 21.851,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 21.863,
+          "end": 22.006,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 22.018,
+          "end": 22.435,
+          "char": 9,
+          "len": 5
+        },
+        {
+          "start": 22.839,
+          "end": 22.887,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 22.899,
+          "end": 23.161,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 23.173,
+          "end": 23.328,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 23.339,
+          "end": 23.744,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 24.125,
+          "end": 24.161,
+          "char": 36,
+          "len": 1
+        },
+        {
+          "start": 24.173,
+          "end": 24.47,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 24.482,
+          "end": 24.768,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 24.78,
+          "end": 25.018,
+          "char": 50,
+          "len": 3
+        },
+        {
+          "start": 25.03,
+          "end": 25.339,
+          "char": 54,
+          "len": 5
+        },
+        {
+          "start": 25.423,
+          "end": 25.756,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 25.768,
+          "end": 26.101,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 26.113,
+          "end": 26.423,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 26.435,
+          "end": 26.554,
+          "char": 78,
+          "len": 4
+        },
+        {
+          "start": 26.566,
+          "end": 26.923,
+          "char": 83,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 27.669,
+      "to": 33.721,
+      "heading": "Fierce winds",
+      "text": "Its winds hit nearly five hundred kilometres an hour, and people have watched it since 1831.",
+      "source": "Great Red Spot, Wikipedia",
+      "beats": [
+        {
+          "word": "1831",
+          "kind": "stat",
+          "value": "1831",
+          "label": "first observed"
+        }
+      ],
+      "words": [
+        {
+          "start": 27.914,
+          "end": 28.033,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 28.045,
+          "end": 28.343,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 28.355,
+          "end": 28.557,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 28.569,
+          "end": 28.938,
+          "char": 14,
+          "len": 6
+        },
+        {
+          "start": 28.95,
+          "end": 29.319,
+          "char": 21,
+          "len": 4
+        },
+        {
+          "start": 29.331,
+          "end": 29.593,
+          "char": 26,
+          "len": 7
+        },
+        {
+          "start": 29.605,
+          "end": 30.105,
+          "char": 34,
+          "len": 10
+        },
+        {
+          "start": 30.117,
+          "end": 30.188,
+          "char": 45,
+          "len": 2
+        },
+        {
+          "start": 30.2,
+          "end": 30.521,
+          "char": 48,
+          "len": 4
+        },
+        {
+          "start": 30.819,
+          "end": 30.867,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 30.879,
+          "end": 31.176,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 31.188,
+          "end": 31.307,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 31.319,
+          "end": 31.64,
+          "char": 70,
+          "len": 7
+        },
+        {
+          "start": 31.652,
+          "end": 31.724,
+          "char": 78,
+          "len": 2
+        },
+        {
+          "start": 31.736,
+          "end": 32.974,
+          "char": 81,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 33.721,
+      "to": 39.404,
+      "heading": "Deep roots",
+      "text": "It reaches hundreds of kilometres down, maybe five hundred, below the cloud tops.",
+      "source": "Great Red Spot, Wikipedia",
+      "beats": [
+        {
+          "word": "down",
+          "kind": "warning",
+          "value": "DEEP STORM"
+        }
+      ],
+      "words": [
+        {
+          "start": 33.966,
+          "end": 34.109,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 34.121,
+          "end": 34.431,
+          "char": 3,
+          "len": 7
+        },
+        {
+          "start": 34.442,
+          "end": 34.895,
+          "char": 11,
+          "len": 8
+        },
+        {
+          "start": 34.907,
+          "end": 34.978,
+          "char": 20,
+          "len": 2
+        },
+        {
+          "start": 34.99,
+          "end": 35.573,
+          "char": 23,
+          "len": 10
+        },
+        {
+          "start": 35.585,
+          "end": 35.931,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 36.204,
+          "end": 36.431,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 36.442,
+          "end": 36.752,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 36.764,
+          "end": 37.169,
+          "char": 51,
+          "len": 7
+        },
+        {
+          "start": 37.419,
+          "end": 37.788,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 37.8,
+          "end": 37.883,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 37.895,
+          "end": 38.18,
+          "char": 70,
+          "len": 5
+        },
+        {
+          "start": 38.192,
+          "end": 38.657,
+          "char": 76,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 39.404,
+      "to": 45.014,
+      "heading": "The twist",
+      "text": "The twist? It's shrinking. About a century ago, three Earths could have fit across it.",
+      "source": "Great Red Spot, Wikipedia",
+      "beats": [
+        {
+          "word": "shrinking",
+          "kind": "stamp",
+          "value": "IT'S SHRINKING"
+        }
+      ],
+      "words": [
+        {
+          "start": 39.661,
+          "end": 39.709,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 39.721,
+          "end": 40.161,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 40.554,
+          "end": 40.649,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 40.661,
+          "end": 41.102,
+          "char": 16,
+          "len": 9
+        },
+        {
+          "start": 41.494,
+          "end": 41.685,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 41.697,
+          "end": 41.733,
+          "char": 33,
+          "len": 1
+        },
+        {
+          "start": 41.744,
+          "end": 42.161,
+          "char": 35,
+          "len": 7
+        },
+        {
+          "start": 42.173,
+          "end": 42.471,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 42.733,
+          "end": 42.971,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 42.983,
+          "end": 43.28,
+          "char": 54,
+          "len": 6
+        },
+        {
+          "start": 43.292,
+          "end": 43.411,
+          "char": 61,
+          "len": 5
+        },
+        {
+          "start": 43.423,
+          "end": 43.554,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 43.566,
+          "end": 43.709,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 43.721,
+          "end": 44.09,
+          "char": 76,
+          "len": 6
+        },
+        {
+          "start": 44.102,
+          "end": 44.268,
+          "char": 83,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 45.014,
+      "to": 51.129,
+      "heading": "Round by 2040",
+      "text": "At this rate, it could be round by 2040. Do you think it will ever vanish?",
+      "source": "Great Red Spot, Wikipedia",
+      "words": [
+        {
+          "start": 45.259,
+          "end": 45.366,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 45.378,
+          "end": 45.545,
+          "char": 3,
+          "len": 4
+        },
+        {
+          "start": 45.557,
+          "end": 45.831,
+          "char": 8,
+          "len": 4
+        },
+        {
+          "start": 46.093,
+          "end": 46.164,
+          "char": 14,
+          "len": 2
+        },
+        {
+          "start": 46.176,
+          "end": 46.271,
+          "char": 17,
+          "len": 5
+        },
+        {
+          "start": 46.283,
+          "end": 46.378,
+          "char": 23,
+          "len": 2
+        },
+        {
+          "start": 46.39,
+          "end": 46.771,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 46.783,
+          "end": 47.569,
+          "char": 32,
+          "len": 7
+        },
+        {
+          "start": 47.962,
+          "end": 48.009,
+          "char": 41,
+          "len": 2
+        },
+        {
+          "start": 48.021,
+          "end": 48.128,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 48.14,
+          "end": 48.319,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 48.331,
+          "end": 48.402,
+          "char": 54,
+          "len": 2
+        },
+        {
+          "start": 48.414,
+          "end": 48.533,
+          "char": 57,
+          "len": 4
+        },
+        {
+          "start": 48.545,
+          "end": 48.7,
+          "char": 62,
+          "len": 4
+        },
+        {
+          "start": 48.712,
+          "end": 49.188,
+          "char": 67,
+          "len": 6
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.538
+    },
+    {
+      "need": "whoosh",
+      "at": 4.806,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 21.705,
+      "align": "peak"
+    },
+    {
+      "need": "sonar_ping",
+      "at": 34.238
+    },
+    {
+      "need": "whoosh",
+      "at": 39.591,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 45.125,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "A storm bigger than Earth, shrinking? Relatable. My storage does that too.",
+    "mood": "shrug",
+    "action": "*sad beep*",
+    "from": 51.129,
+    "to": 59.83,
+    "words": [
+      {
+        "start": 51.674,
+        "end": 51.764,
+        "char": 0,
+        "len": 1
+      },
+      {
+        "start": 51.775,
+        "end": 52.192,
+        "char": 2,
+        "len": 5
+      },
+      {
+        "start": 52.203,
+        "end": 52.53,
+        "char": 8,
+        "len": 6
+      },
+      {
+        "start": 52.541,
+        "end": 52.721,
+        "char": 15,
+        "len": 4
+      },
+      {
+        "start": 52.733,
+        "end": 53.07,
+        "char": 20,
+        "len": 5
+      },
+      {
+        "start": 53.284,
+        "end": 53.859,
+        "char": 27,
+        "len": 9
+      },
+      {
+        "start": 54.636,
+        "end": 55.368,
+        "char": 38,
+        "len": 9
+      },
+      {
+        "start": 56.133,
+        "end": 56.336,
+        "char": 49,
+        "len": 2
+      },
+      {
+        "start": 56.347,
+        "end": 56.911,
+        "char": 52,
+        "len": 7
+      },
+      {
+        "start": 56.922,
+        "end": 57.113,
+        "char": 60,
+        "len": 4
+      },
+      {
+        "start": 57.124,
+        "end": 57.361,
+        "char": 65,
+        "len": 4
+      },
+      {
+        "start": 57.372,
+        "end": 57.699,
+        "char": 70,
+        "len": 3
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if a storm could swallow the Earth?",
+      "Jupiter's Great Red Spot is shrinking"
+    ],
+    "description": "A spin around Jupiter to the Great Red Spot, a storm wider than Earth that has been watched since 1831, and why it is slowly shrinking.",
+    "tags": [
+      "jupiter",
+      "great red spot",
+      "storms",
+      "juno",
+      "planets",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Jupiter's radius is 69,911 km, about 11 times Earth's width; about 1,000 Earths would fit inside; its day is about 9.9 hours, the shortest in the Solar System; its belts and zones flow east and west in opposite directions",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "The Great Red Spot sits about 22\u00b0 S, has winds up to 496 km/h and has been observed since 1831; in 2017 it was 16,350 km wide, about 1.3 times Earth's diameter; it extends roughly 200\u2013500 km below the clouds",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot"
+    },
+    {
+      "claim": "The Great Red Spot was largest about a century before 2004, at about 40,000 km, about three times Earth's diameter; at the present rate it would become circular by 2040",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot"
+    }
+  ],
+  "seed": "great-red-spot",
+  "voiceover": "audio/great-red-spot.mp3",
+  "music": "audio/great-red-spot_bed.mp3"
+}
