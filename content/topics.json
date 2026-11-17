@@ -203,7 +203,8 @@
       "title": "What if you rode a balloon to the edge of space?",
       "format": "Fall-up",
       "angle": "Rise with Alan Eustace's 2014 balloon to about 41 km, past airliners and the ozone layer, then jump; the twist is that he broke the sound barrier on the way down.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-17"
     },
     {
       "slug": "infrared-like-a-snake",
