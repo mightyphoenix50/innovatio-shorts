@@ -861,5 +861,27 @@
     "video_id": "EkHigpGVPY0",
     "youtube_url": "https://youtube.com/shorts/EkHigpGVPY0",
     "scheduled_at": null
+  },
+  "86": {
+    "episode": "balloon-to-edge-of-space",
+    "video_path": "output/drafts/balloon-to-edge-of-space.mp4",
+    "titles": [
+      "What if you rode a balloon to the edge of space?",
+      "He jumped from 41 km and broke the sound barrier"
+    ],
+    "description": "Rise with Alan Eustace's 2014 balloon past Everest, the ozone layer and the Armstrong limit to 41 km, then cut free and fall faster than sound.\n\nSources:\n- On 24 October 2014 Alan Eustace, a Google senior vice president, launched from Roswell, New Mexico, hanging beneath a balloon with no capsule; he reached about 41.4 km, separated with an explosive device, and exceeded 1,323 km/h: https://en.wikipedia.org/wiki/Alan_Eustace\n- Eustace ascended about two hours into near-space and fell faster than the speed of sound: https://www.cnbc.com/2016/11/18/how-working-at-google-led-this-man-to-jump-from-the-stratosphere.html\n- Eustace went supersonic and spent about 4.5 minutes in freefall: https://www.space.com/27537-supersonic-near-space-dive-photos.html\n- Mount Everest is 8,848.86 m high: https://en.wikipedia.org/wiki/Mount_Everest\n- The ozone layer lies about 15–35 km up and absorbs 97–99% of the Sun's medium-frequency ultraviolet light: https://en.wikipedia.org/wiki/Ozone_layer\n- The Armstrong limit is about 18–19 km up; above it, exposed body fluids such as saliva boil at body temperature without a pressure suit: https://en.wikipedia.org/wiki/Armstrong_limit\n- Felix Baumgartner jumped from 38,969 m on 14 October 2012; his height record was later surpassed by Alan Eustace: https://en.wikipedia.org/wiki/Red_Bull_Stratos\n\nSound effects:\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- cartoon pop: CC0 1.0, https://freesound.org/people/mikala_oidua/sounds/321163/\n- \"cinematic boom 130730_06.wav\" by klankbeeld (https://freesound.org/people/klankbeeld/sounds/195790/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "alan eustace",
+      "space jump",
+      "stratosphere",
+      "sound barrier",
+      "high altitude balloon",
+      "earth science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · balloon-to-edge-of-space · 62s</i>\n\n<b>A:</b> What if you rode a balloon to the edge of space?\n<b>B:</b> He jumped from 41 km and broke the sound barrier\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 18 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1794937452.730057
   }
 }

@@ -1,0 +1,1325 @@
+{
+  "template": "Fall",
+  "direction": "up",
+  "pressureUnit": "percent",
+  "title": "What if you rode a balloon to the edge of space?",
+  "fps": 30,
+  "hook": {
+    "banner": "What if you jumped from the stratosphere?",
+    "flash": "SUPERSONIC",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.088,
+      0
+    ],
+    [
+      8.321,
+      2000
+    ],
+    [
+      13.957,
+      4000
+    ],
+    [
+      15.932,
+      8849
+    ],
+    [
+      19.883,
+      10000
+    ],
+    [
+      22.077,
+      15000
+    ],
+    [
+      26.464,
+      16500
+    ],
+    [
+      28.576,
+      19000
+    ],
+    [
+      32.801,
+      25000
+    ],
+    [
+      34.802,
+      41419
+    ],
+    [
+      38.804,
+      41419
+    ],
+    [
+      40.791,
+      41000
+    ],
+    [
+      43.176,
+      38000
+    ],
+    [
+      46.115,
+      30000
+    ],
+    [
+      49.543,
+      25000
+    ]
+  ],
+  "maxDepth": 41419,
+  "fallAt": 4.088,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      2000,
+      400
+    ],
+    [
+      8849,
+      1200
+    ],
+    [
+      15000,
+      1900
+    ],
+    [
+      19000,
+      2500
+    ],
+    [
+      30000,
+      3200
+    ],
+    [
+      41419,
+      4000
+    ],
+    [
+      60000,
+      4800
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 11000,
+      "name": "Troposphere",
+      "colourTop": "#F2B896",
+      "colourBottom": "#A9C3DD",
+      "texture": "cloud"
+    },
+    {
+      "from": 11000,
+      "to": 50000,
+      "name": "Stratosphere",
+      "colourTop": "#A9C3DD",
+      "colourBottom": "#6474A8",
+      "texture": "ozone"
+    },
+    {
+      "from": 50000,
+      "to": 85000,
+      "name": "Mesosphere",
+      "colourTop": "#6474A8",
+      "colourBottom": "#3B3966",
+      "texture": "haze"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 8849,
+      "kind": "mountain",
+      "label": "Everest \u00b7 8,849 m",
+      "side": "left"
+    },
+    {
+      "depth": 15000,
+      "kind": "boundary",
+      "label": "Ozone layer begins \u00b7 15 km",
+      "side": "right"
+    },
+    {
+      "depth": 19000,
+      "kind": "boundary",
+      "label": "Armstrong limit \u00b7 19 km",
+      "side": "left"
+    },
+    {
+      "depth": 38969,
+      "kind": "boundary",
+      "label": "Baumgartner 2012 \u00b7 39 km",
+      "side": "right"
+    },
+    {
+      "depth": 41419,
+      "kind": "balloon",
+      "label": "Eustace's jump \u00b7 41.4 km",
+      "side": "left"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      15
+    ],
+    [
+      8849,
+      -37
+    ],
+    [
+      11000,
+      -56
+    ],
+    [
+      20000,
+      -56
+    ],
+    [
+      32000,
+      -44
+    ],
+    [
+      41419,
+      -15
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      100
+    ],
+    [
+      8849,
+      33
+    ],
+    [
+      19000,
+      6.2
+    ],
+    [
+      30000,
+      1.2
+    ],
+    [
+      41419,
+      0.25
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.503,
+      "heading": "Lift-off",
+      "text": "You're dangling under a giant balloon in a spacesuit, rising toward space.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.4,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.412,
+          "end": 0.983,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 0.995,
+          "end": 1.245,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 1.257,
+          "end": 1.329,
+          "char": 22,
+          "len": 1
+        },
+        {
+          "start": 1.34,
+          "end": 1.733,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 1.745,
+          "end": 2.221,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 2.233,
+          "end": 2.364,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 2.376,
+          "end": 2.424,
+          "char": 41,
+          "len": 1
+        },
+        {
+          "start": 2.436,
+          "end": 3.138,
+          "char": 43,
+          "len": 9
+        },
+        {
+          "start": 3.436,
+          "end": 3.793,
+          "char": 54,
+          "len": 6
+        },
+        {
+          "start": 3.805,
+          "end": 4.102,
+          "char": 61,
+          "len": 6
+        },
+        {
+          "start": 4.114,
+          "end": 4.757,
+          "char": 68,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 5.503,
+      "to": 13.957,
+      "heading": "No capsule",
+      "text": "October 2014, Roswell, New Mexico. Google executive Alan Eustace lifts off, with no capsule at all.",
+      "source": "Alan Eustace, Wikipedia",
+      "beats": [
+        {
+          "word": "capsule",
+          "kind": "stamp",
+          "value": "NO CAPSULE"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.748,
+          "end": 7.332,
+          "char": 0,
+          "len": 12
+        },
+        {
+          "start": 7.689,
+          "end": 9.129,
+          "char": 14,
+          "len": 19
+        },
+        {
+          "start": 9.522,
+          "end": 9.82,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 9.832,
+          "end": 10.391,
+          "char": 42,
+          "len": 9
+        },
+        {
+          "start": 10.486,
+          "end": 10.748,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 10.76,
+          "end": 11.165,
+          "char": 57,
+          "len": 7
+        },
+        {
+          "start": 11.177,
+          "end": 11.462,
+          "char": 65,
+          "len": 5
+        },
+        {
+          "start": 11.474,
+          "end": 11.82,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 12.058,
+          "end": 12.189,
+          "char": 76,
+          "len": 4
+        },
+        {
+          "start": 12.201,
+          "end": 12.379,
+          "char": 81,
+          "len": 2
+        },
+        {
+          "start": 12.391,
+          "end": 12.867,
+          "char": 84,
+          "len": 7
+        },
+        {
+          "start": 12.879,
+          "end": 12.951,
+          "char": 92,
+          "len": 2
+        },
+        {
+          "start": 12.963,
+          "end": 13.213,
+          "char": 95,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 13.957,
+      "to": 19.883,
+      "heading": "8.8 km up",
+      "text": "Eight thousand eight hundred and forty-nine metres. You've just risen past the top of Mount Everest.",
+      "source": "Mount Everest, Wikipedia",
+      "beats": [
+        {
+          "word": "Everest",
+          "kind": "stamp",
+          "value": "ABOVE EVEREST"
+        }
+      ],
+      "words": [
+        {
+          "start": 14.202,
+          "end": 14.357,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 14.369,
+          "end": 14.821,
+          "char": 6,
+          "len": 8
+        },
+        {
+          "start": 14.976,
+          "end": 15.095,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 15.107,
+          "end": 15.417,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 15.428,
+          "end": 15.488,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 15.5,
+          "end": 16.071,
+          "char": 33,
+          "len": 10
+        },
+        {
+          "start": 16.083,
+          "end": 16.571,
+          "char": 44,
+          "len": 6
+        },
+        {
+          "start": 16.964,
+          "end": 17.083,
+          "char": 52,
+          "len": 6
+        },
+        {
+          "start": 17.095,
+          "end": 17.309,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 17.321,
+          "end": 17.607,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 17.619,
+          "end": 17.988,
+          "char": 70,
+          "len": 4
+        },
+        {
+          "start": 18.0,
+          "end": 18.071,
+          "char": 75,
+          "len": 3
+        },
+        {
+          "start": 18.083,
+          "end": 18.321,
+          "char": 79,
+          "len": 3
+        },
+        {
+          "start": 18.333,
+          "end": 18.393,
+          "char": 83,
+          "len": 2
+        },
+        {
+          "start": 18.405,
+          "end": 18.619,
+          "char": 86,
+          "len": 5
+        },
+        {
+          "start": 18.631,
+          "end": 19.143,
+          "char": 92,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 19.883,
+      "to": 26.464,
+      "heading": "The ozone layer",
+      "text": "Fifteen kilometres up, you enter the ozone layer. It soaks up most of the Sun's harsh ultraviolet.",
+      "source": "Ozone layer, Wikipedia",
+      "beats": [
+        {
+          "word": "ultraviolet",
+          "kind": "stat",
+          "value": "97\u201399%",
+          "label": "of medium UV absorbed"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.176,
+          "end": 20.521,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 20.533,
+          "end": 21.045,
+          "char": 8,
+          "len": 10
+        },
+        {
+          "start": 21.057,
+          "end": 21.259,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 21.533,
+          "end": 21.676,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 21.688,
+          "end": 21.914,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 21.926,
+          "end": 22.057,
+          "char": 33,
+          "len": 3
+        },
+        {
+          "start": 22.069,
+          "end": 22.426,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 22.438,
+          "end": 22.795,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 23.188,
+          "end": 23.271,
+          "char": 50,
+          "len": 2
+        },
+        {
+          "start": 23.283,
+          "end": 23.581,
+          "char": 53,
+          "len": 5
+        },
+        {
+          "start": 23.593,
+          "end": 23.759,
+          "char": 59,
+          "len": 2
+        },
+        {
+          "start": 23.771,
+          "end": 24.116,
+          "char": 62,
+          "len": 4
+        },
+        {
+          "start": 24.128,
+          "end": 24.188,
+          "char": 67,
+          "len": 2
+        },
+        {
+          "start": 24.2,
+          "end": 24.283,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 24.295,
+          "end": 24.652,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 24.664,
+          "end": 24.997,
+          "char": 80,
+          "len": 5
+        },
+        {
+          "start": 25.009,
+          "end": 25.723,
+          "char": 86,
+          "len": 11
+        }
+      ]
+    },
+    {
+      "from": 26.464,
+      "to": 32.801,
+      "heading": "Armstrong limit",
+      "text": "Nineteen kilometres: the Armstrong limit. Without a pressure suit, the spit in your mouth would boil.",
+      "source": "Armstrong limit, Wikipedia",
+      "beats": [
+        {
+          "word": "boil",
+          "kind": "warning",
+          "value": "SPIT WOULD BOIL"
+        }
+      ],
+      "words": [
+        {
+          "start": 26.709,
+          "end": 27.066,
+          "char": 0,
+          "len": 8
+        },
+        {
+          "start": 27.078,
+          "end": 27.769,
+          "char": 9,
+          "len": 10
+        },
+        {
+          "start": 27.971,
+          "end": 28.066,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 28.078,
+          "end": 28.602,
+          "char": 25,
+          "len": 9
+        },
+        {
+          "start": 28.614,
+          "end": 28.935,
+          "char": 35,
+          "len": 5
+        },
+        {
+          "start": 29.34,
+          "end": 29.578,
+          "char": 42,
+          "len": 7
+        },
+        {
+          "start": 29.59,
+          "end": 29.626,
+          "char": 50,
+          "len": 1
+        },
+        {
+          "start": 29.638,
+          "end": 29.983,
+          "char": 52,
+          "len": 8
+        },
+        {
+          "start": 29.995,
+          "end": 30.304,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 30.59,
+          "end": 30.685,
+          "char": 67,
+          "len": 3
+        },
+        {
+          "start": 30.697,
+          "end": 31.019,
+          "char": 71,
+          "len": 4
+        },
+        {
+          "start": 31.031,
+          "end": 31.102,
+          "char": 76,
+          "len": 2
+        },
+        {
+          "start": 31.114,
+          "end": 31.221,
+          "char": 79,
+          "len": 4
+        },
+        {
+          "start": 31.233,
+          "end": 31.531,
+          "char": 84,
+          "len": 5
+        },
+        {
+          "start": 31.543,
+          "end": 31.685,
+          "char": 90,
+          "len": 5
+        },
+        {
+          "start": 31.697,
+          "end": 32.054,
+          "char": 96,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 32.801,
+      "to": 38.804,
+      "heading": "41 km up",
+      "text": "After about two hours, you reach forty-one kilometres. Above you, the sky is black.",
+      "source": "CNBC",
+      "beats": [
+        {
+          "word": "forty-one",
+          "kind": "compare",
+          "compare": {
+            "name": "Baumgartner, 2012",
+            "value": 39.0,
+            "icon": "person",
+            "subject": "Eustace, 2014",
+            "subjectValue": 41.4,
+            "unit": "km",
+            "note": "New height record"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 33.046,
+          "end": 33.284,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 33.296,
+          "end": 33.558,
+          "char": 6,
+          "len": 5
+        },
+        {
+          "start": 33.57,
+          "end": 33.808,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 33.82,
+          "end": 34.249,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 34.487,
+          "end": 34.641,
+          "char": 23,
+          "len": 3
+        },
+        {
+          "start": 34.653,
+          "end": 34.903,
+          "char": 27,
+          "len": 5
+        },
+        {
+          "start": 34.915,
+          "end": 35.368,
+          "char": 33,
+          "len": 9
+        },
+        {
+          "start": 35.38,
+          "end": 36.058,
+          "char": 43,
+          "len": 10
+        },
+        {
+          "start": 36.451,
+          "end": 36.701,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 36.713,
+          "end": 36.915,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 37.13,
+          "end": 37.213,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 37.225,
+          "end": 37.51,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 37.522,
+          "end": 37.653,
+          "char": 74,
+          "len": 2
+        },
+        {
+          "start": 37.665,
+          "end": 38.058,
+          "char": 77,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 38.804,
+      "to": 43.176,
+      "heading": "Cut free",
+      "text": "Then a small explosive cuts you loose from the balloon. And you fall.",
+      "source": "Alan Eustace, Wikipedia",
+      "beats": [
+        {
+          "word": "loose",
+          "kind": "stamp",
+          "value": "CUT FREE"
+        }
+      ],
+      "words": [
+        {
+          "start": 39.049,
+          "end": 39.133,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 39.144,
+          "end": 39.192,
+          "char": 5,
+          "len": 1
+        },
+        {
+          "start": 39.204,
+          "end": 39.561,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 39.573,
+          "end": 40.156,
+          "char": 13,
+          "len": 9
+        },
+        {
+          "start": 40.168,
+          "end": 40.454,
+          "char": 23,
+          "len": 4
+        },
+        {
+          "start": 40.466,
+          "end": 40.585,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 40.597,
+          "end": 40.859,
+          "char": 32,
+          "len": 5
+        },
+        {
+          "start": 40.871,
+          "end": 41.014,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 41.025,
+          "end": 41.097,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 41.109,
+          "end": 41.502,
+          "char": 47,
+          "len": 7
+        },
+        {
+          "start": 41.894,
+          "end": 41.954,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 41.966,
+          "end": 42.073,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 42.085,
+          "end": 42.43,
+          "char": 64,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 43.176,
+      "to": 49.543,
+      "heading": "The twist",
+      "text": "The twist? You fall so fast you break the sound barrier, at over thirteen hundred kilometres an hour.",
+      "source": "Alan Eustace, Wikipedia",
+      "beats": [
+        {
+          "word": "sound",
+          "kind": "stamp",
+          "value": "SUPERSONIC"
+        },
+        {
+          "word": "thirteen",
+          "kind": "stat",
+          "value": "1,323 km/h",
+          "label": "top speed"
+        }
+      ],
+      "words": [
+        {
+          "start": 43.433,
+          "end": 43.481,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 43.493,
+          "end": 43.933,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 44.326,
+          "end": 44.457,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 44.469,
+          "end": 44.719,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 44.731,
+          "end": 44.981,
+          "char": 20,
+          "len": 2
+        },
+        {
+          "start": 44.993,
+          "end": 45.386,
+          "char": 23,
+          "len": 4
+        },
+        {
+          "start": 45.397,
+          "end": 45.481,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 45.493,
+          "end": 45.743,
+          "char": 32,
+          "len": 5
+        },
+        {
+          "start": 45.755,
+          "end": 45.826,
+          "char": 38,
+          "len": 3
+        },
+        {
+          "start": 45.838,
+          "end": 46.136,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 46.147,
+          "end": 46.552,
+          "char": 48,
+          "len": 7
+        },
+        {
+          "start": 46.814,
+          "end": 46.874,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 46.886,
+          "end": 47.112,
+          "char": 60,
+          "len": 4
+        },
+        {
+          "start": 47.124,
+          "end": 47.576,
+          "char": 65,
+          "len": 8
+        },
+        {
+          "start": 47.588,
+          "end": 47.838,
+          "char": 74,
+          "len": 7
+        },
+        {
+          "start": 47.85,
+          "end": 48.374,
+          "char": 82,
+          "len": 10
+        },
+        {
+          "start": 48.386,
+          "end": 48.457,
+          "char": 93,
+          "len": 2
+        },
+        {
+          "start": 48.469,
+          "end": 48.802,
+          "char": 96,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 49.543,
+      "to": 55.605,
+      "heading": "Back down",
+      "text": "Four and a half minutes of freefall, then a parachute. Would you take that jump?",
+      "source": "Space.com",
+      "words": [
+        {
+          "start": 49.848,
+          "end": 50.098,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 50.11,
+          "end": 50.169,
+          "char": 5,
+          "len": 3
+        },
+        {
+          "start": 50.181,
+          "end": 50.229,
+          "char": 9,
+          "len": 1
+        },
+        {
+          "start": 50.241,
+          "end": 50.562,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 50.574,
+          "end": 50.848,
+          "char": 16,
+          "len": 7
+        },
+        {
+          "start": 50.86,
+          "end": 50.919,
+          "char": 24,
+          "len": 2
+        },
+        {
+          "start": 50.931,
+          "end": 51.419,
+          "char": 27,
+          "len": 8
+        },
+        {
+          "start": 51.705,
+          "end": 51.8,
+          "char": 37,
+          "len": 4
+        },
+        {
+          "start": 51.812,
+          "end": 51.86,
+          "char": 42,
+          "len": 1
+        },
+        {
+          "start": 51.872,
+          "end": 52.443,
+          "char": 44,
+          "len": 9
+        },
+        {
+          "start": 52.836,
+          "end": 52.919,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 52.931,
+          "end": 52.991,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 53.003,
+          "end": 53.181,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 53.193,
+          "end": 53.348,
+          "char": 70,
+          "len": 4
+        },
+        {
+          "start": 53.36,
+          "end": 53.657,
+          "char": 75,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "diagramAt": 49.543,
+  "diagram": {
+    "kind": "atmosphere",
+    "start": "The air, to scale",
+    "end": "Eustace's jump \u00b7 41 km",
+    "timer": "Up: about 2 hours",
+    "speed": "Down: 1,323 km/h"
+  },
+  "sfx": [
+    {
+      "need": "whoosh",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "fall_wind",
+      "at": 38.883,
+      "align": "attack"
+    },
+    {
+      "need": "whoosh",
+      "at": 43.372,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": "diagramAt",
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Faster than sound? I can't even load a video that fast.",
+    "mood": "gasp",
+    "action": "*buffering beep*",
+    "from": 55.605,
+    "to": 62.425,
+    "words": [
+      {
+        "start": 56.151,
+        "end": 56.647,
+        "char": 0,
+        "len": 6
+      },
+      {
+        "start": 56.658,
+        "end": 56.838,
+        "char": 7,
+        "len": 4
+      },
+      {
+        "start": 56.849,
+        "end": 57.311,
+        "char": 12,
+        "len": 5
+      },
+      {
+        "start": 58.087,
+        "end": 58.233,
+        "char": 19,
+        "len": 1
+      },
+      {
+        "start": 58.245,
+        "end": 58.537,
+        "char": 21,
+        "len": 5
+      },
+      {
+        "start": 58.549,
+        "end": 58.819,
+        "char": 27,
+        "len": 4
+      },
+      {
+        "start": 58.83,
+        "end": 59.067,
+        "char": 32,
+        "len": 4
+      },
+      {
+        "start": 59.078,
+        "end": 59.123,
+        "char": 37,
+        "len": 1
+      },
+      {
+        "start": 59.134,
+        "end": 59.528,
+        "char": 39,
+        "len": 5
+      },
+      {
+        "start": 59.54,
+        "end": 59.765,
+        "char": 45,
+        "len": 4
+      },
+      {
+        "start": 59.776,
+        "end": 60.294,
+        "char": 50,
+        "len": 4
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you rode a balloon to the edge of space?",
+      "He jumped from 41 km and broke the sound barrier"
+    ],
+    "description": "Rise with Alan Eustace's 2014 balloon past Everest, the ozone layer and the Armstrong limit to 41 km, then cut free and fall faster than sound.",
+    "tags": [
+      "alan eustace",
+      "space jump",
+      "stratosphere",
+      "sound barrier",
+      "high altitude balloon",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "On 24 October 2014 Alan Eustace, a Google senior vice president, launched from Roswell, New Mexico, hanging beneath a balloon with no capsule; he reached about 41.4 km, separated with an explosive device, and exceeded 1,323 km/h",
+      "url": "https://en.wikipedia.org/wiki/Alan_Eustace"
+    },
+    {
+      "claim": "Eustace ascended about two hours into near-space and fell faster than the speed of sound",
+      "url": "https://www.cnbc.com/2016/11/18/how-working-at-google-led-this-man-to-jump-from-the-stratosphere.html"
+    },
+    {
+      "claim": "Eustace went supersonic and spent about 4.5 minutes in freefall",
+      "url": "https://www.space.com/27537-supersonic-near-space-dive-photos.html"
+    },
+    {
+      "claim": "Mount Everest is 8,848.86 m high",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "claim": "The ozone layer lies about 15\u201335 km up and absorbs 97\u201399% of the Sun's medium-frequency ultraviolet light",
+      "url": "https://en.wikipedia.org/wiki/Ozone_layer"
+    },
+    {
+      "claim": "The Armstrong limit is about 18\u201319 km up; above it, exposed body fluids such as saliva boil at body temperature without a pressure suit",
+      "url": "https://en.wikipedia.org/wiki/Armstrong_limit"
+    },
+    {
+      "claim": "Felix Baumgartner jumped from 38,969 m on 14 October 2012; his height record was later surpassed by Alan Eustace",
+      "url": "https://en.wikipedia.org/wiki/Red_Bull_Stratos"
+    }
+  ],
+  "seed": "balloon-to-edge-of-space",
+  "voiceover": "audio/balloon-to-edge-of-space.mp3",
+  "music": "audio/balloon-to-edge-of-space_bed.mp3"
+}
