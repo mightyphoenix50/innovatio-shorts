@@ -881,7 +881,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · balloon-to-edge-of-space · 62s</i>\n\n<b>A:</b> What if you rode a balloon to the edge of space?\n<b>B:</b> He jumped from 41 km and broke the sound barrier\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 18 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1794937452.730057
+    "status": "PUBLISHED",
+    "created_at": 1794937452.730057,
+    "updated_at": 1794937791.684657,
+    "title_used": "What if you rode a balloon to the edge of space?",
+    "video_id": "dtYXazOzx4w",
+    "youtube_url": "https://youtube.com/shorts/dtYXazOzx4w",
+    "scheduled_at": null
   }
 }
