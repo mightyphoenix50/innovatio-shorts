@@ -1,0 +1,271 @@
+{
+  "template": "Story",
+  "title": "What if you could see heat, like a snake?",
+  "fps": 30,
+  "hero": {
+    "hoodie": "#2A9D8F"
+  },
+  "scenes": [
+    {
+      "line": 0,
+      "place": "night",
+      "pose": "idle",
+      "mood": "shocked",
+      "x": 0.5,
+      "effect": "glow",
+      "camera": "push"
+    },
+    {
+      "line": 1,
+      "place": "room",
+      "pose": "point",
+      "mood": "neutral",
+      "x": 0.45,
+      "prop": {
+        "kind": "bulb",
+        "motion": "float"
+      },
+      "label": {
+        "text": "INFRARED",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 2,
+      "place": "lab",
+      "pose": "point",
+      "mood": "determined",
+      "x": 0.45,
+      "prop": {
+        "kind": "eye",
+        "motion": "float"
+      },
+      "label": {
+        "text": "HEAT PIT",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 3,
+      "place": "meadow",
+      "pose": "think",
+      "mood": "neutral",
+      "x": 0.5,
+      "camera": "pan"
+    },
+    {
+      "line": 4,
+      "place": "lab",
+      "pose": "think",
+      "mood": "determined",
+      "x": 0.5,
+      "camera": "still",
+      "chain": [
+        "INFRARED",
+        "MEMBRANE",
+        "BRAIN"
+      ]
+    },
+    {
+      "line": 5,
+      "place": "night",
+      "pose": "point",
+      "mood": "happy",
+      "x": 0.45,
+      "prop": {
+        "kind": "eye",
+        "motion": "float"
+      },
+      "effect": "glow",
+      "camera": "push"
+    },
+    {
+      "line": 6,
+      "place": "night",
+      "pose": "run",
+      "mood": "determined",
+      "x": 0.4,
+      "effect": "speed",
+      "camera": "pan"
+    },
+    {
+      "line": 7,
+      "place": "lab",
+      "pose": "catch",
+      "mood": "shocked",
+      "x": 0.45,
+      "prop": {
+        "kind": "brain",
+        "motion": "float"
+      },
+      "label": {
+        "text": "<0.001 °C",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 8,
+      "place": "street",
+      "pose": "cheer",
+      "mood": "smug",
+      "x": 0.5,
+      "others": 2,
+      "othersPose": "point",
+      "effect": "glow",
+      "camera": "pull"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 4.0,
+      "heading": "Heat vision",
+      "text": "You wake up, and everything warm around you is glowing, even in the dark."
+    },
+    {
+      "from": 4.0,
+      "to": 10.0,
+      "heading": "Your heat",
+      "text": "Your body gives off heat as infrared light, mostly around ten micrometres. Your eyes can't see it.",
+      "source": "Wikipedia: Infrared",
+      "beats": [
+        {
+          "word": "infrared",
+          "kind": "stat",
+          "value": "~10 μm",
+          "label": "your body's heat glow"
+        }
+      ]
+    },
+    {
+      "from": 10.0,
+      "to": 16.0,
+      "heading": "The pit",
+      "text": "But some snakes can. Pit vipers, like rattlesnakes, have a heat-sensing pit between each eye and nostril.",
+      "source": "Wikipedia: Pit viper",
+      "beats": [
+        {
+          "word": "pit",
+          "kind": "stamp",
+          "value": "HEAT SENSOR"
+        }
+      ]
+    },
+    {
+      "from": 16.0,
+      "to": 21.5,
+      "heading": "Three times",
+      "text": "Heat sensing evolved three separate times in snakes: in pit vipers, pythons and boas.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stat",
+          "value": "3×",
+          "label": "evolved separately"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "How it works",
+      "text": "Here's how. Infrared warms a thin membrane, heat-sensing proteins fire, and the brain builds a picture.",
+      "source": "Wikipedia: Infrared sensing in snakes"
+    },
+    {
+      "from": 27.5,
+      "to": 33.0,
+      "heading": "Two pictures",
+      "text": "That heat map overlaps with what their eyes see. Heat and light, together.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "together",
+          "kind": "stamp",
+          "value": "HEAT + LIGHT"
+        }
+      ]
+    },
+    {
+      "from": 33.0,
+      "to": 39.0,
+      "heading": "In the dark",
+      "text": "In total darkness, they can spot something warm from several metres away, and strike.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "strike",
+          "kind": "warning",
+          "value": "STRIKE!"
+        }
+      ]
+    },
+    {
+      "from": 39.0,
+      "to": 45.0,
+      "heading": "The twist",
+      "text": "The twist? Those nerves can sense a temperature change of less than a thousandth of a degree.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "thousandth",
+          "kind": "stat",
+          "value": "<0.001 °C",
+          "label": "detectable change"
+        }
+      ]
+    },
+    {
+      "from": 45.0,
+      "to": 51.0,
+      "heading": "Your call",
+      "text": "With snake senses, nobody could hide from you at night. Would you want heat vision?"
+    }
+  ],
+  "hook": {
+    "banner": "What if you could see heat?",
+    "flash": "<0.001 °C",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Heat vision? Please don't look at me while I'm rendering.",
+    "mood": "gasp",
+    "action": "*overheating beep*"
+  },
+  "series": "What if…",
+  "youtube": {
+    "titles": [
+      "What if you could see heat, like a snake?",
+      "Some snakes can see your body heat in the dark"
+    ],
+    "description": "How pit vipers, pythons and boas sense the infrared heat your body gives off, combine it with what their eyes see, and strike in total darkness.",
+    "tags": [
+      "pit viper",
+      "infrared",
+      "snakes",
+      "heat vision",
+      "animal senses",
+      "biology",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "At body temperature, humans radiate mainly at wavelengths around 10 μm; infrared is invisible to people",
+      "url": "https://en.wikipedia.org/wiki/Infrared"
+    },
+    {
+      "claim": "Pit vipers, including rattlesnakes, have a heat-sensing pit between the eye and the nostril on each side of the head",
+      "url": "https://en.wikipedia.org/wiki/Pit_viper"
+    },
+    {
+      "claim": "Infrared sensing evolved independently in boas, pythons and pit vipers; a warmed membrane and the TRPA1 channel detect the heat; visual and infrared maps overlap in the optic tectum; pit vipers detect warm objects from several metres away in darkness; nerve sensitivity is estimated at under 0.001 °C",
+      "url": "https://en.wikipedia.org/wiki/Infrared_sensing_in_snakes"
+    }
+  ],
+  "seed": "infrared-like-a-snake"
+}

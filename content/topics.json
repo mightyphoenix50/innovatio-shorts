@@ -211,7 +211,8 @@
       "title": "What if you could see heat, like a snake?",
       "format": "Story",
       "angle": "You wake up sensing warmth in the dark like a pit viper, spotting warm bodies at night; the twist is how small a temperature change those pits can detect.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-18"
     },
     {
       "slug": "exoplanets-to-scale",
