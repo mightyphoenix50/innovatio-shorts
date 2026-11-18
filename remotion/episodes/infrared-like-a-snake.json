@@ -1,0 +1,1177 @@
+{
+  "template": "Story",
+  "title": "What if you could see heat, like a snake?",
+  "fps": 30,
+  "hero": {
+    "hoodie": "#2A9D8F"
+  },
+  "scenes": [
+    {
+      "line": 0,
+      "place": "night",
+      "pose": "idle",
+      "mood": "shocked",
+      "x": 0.5,
+      "effect": "glow",
+      "camera": "push"
+    },
+    {
+      "line": 1,
+      "place": "room",
+      "pose": "point",
+      "mood": "neutral",
+      "x": 0.45,
+      "prop": {
+        "kind": "bulb",
+        "motion": "float"
+      },
+      "label": {
+        "text": "INFRARED",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 2,
+      "place": "lab",
+      "pose": "point",
+      "mood": "determined",
+      "x": 0.45,
+      "prop": {
+        "kind": "eye",
+        "motion": "float"
+      },
+      "label": {
+        "text": "HEAT PIT",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 3,
+      "place": "meadow",
+      "pose": "think",
+      "mood": "neutral",
+      "x": 0.5,
+      "camera": "pan"
+    },
+    {
+      "line": 4,
+      "place": "lab",
+      "pose": "think",
+      "mood": "determined",
+      "x": 0.5,
+      "camera": "still",
+      "chain": [
+        "INFRARED",
+        "MEMBRANE",
+        "BRAIN"
+      ]
+    },
+    {
+      "line": 5,
+      "place": "night",
+      "pose": "point",
+      "mood": "happy",
+      "x": 0.45,
+      "prop": {
+        "kind": "eye",
+        "motion": "float"
+      },
+      "effect": "glow",
+      "camera": "push"
+    },
+    {
+      "line": 6,
+      "place": "night",
+      "pose": "run",
+      "mood": "determined",
+      "x": 0.4,
+      "effect": "speed",
+      "camera": "pan"
+    },
+    {
+      "line": 7,
+      "place": "lab",
+      "pose": "catch",
+      "mood": "shocked",
+      "x": 0.45,
+      "prop": {
+        "kind": "brain",
+        "motion": "float"
+      },
+      "label": {
+        "text": "<0.001 \u00b0C",
+        "on": "prop"
+      },
+      "camera": "push"
+    },
+    {
+      "line": 8,
+      "place": "street",
+      "pose": "cheer",
+      "mood": "smug",
+      "x": 0.5,
+      "others": 2,
+      "othersPose": "point",
+      "effect": "glow",
+      "camera": "pull"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 5.004,
+      "heading": "Heat vision",
+      "text": "You wake up, and everything warm around you is glowing, even in the dark.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.388,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.4,
+          "end": 0.638,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 0.65,
+          "end": 0.864,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 1.138,
+          "end": 1.257,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 1.269,
+          "end": 1.709,
+          "char": 17,
+          "len": 10
+        },
+        {
+          "start": 1.721,
+          "end": 1.983,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 1.995,
+          "end": 2.341,
+          "char": 33,
+          "len": 6
+        },
+        {
+          "start": 2.352,
+          "end": 2.483,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 2.495,
+          "end": 2.638,
+          "char": 44,
+          "len": 2
+        },
+        {
+          "start": 2.65,
+          "end": 3.126,
+          "char": 47,
+          "len": 7
+        },
+        {
+          "start": 3.531,
+          "end": 3.71,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 3.721,
+          "end": 3.793,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 3.805,
+          "end": 3.876,
+          "char": 64,
+          "len": 3
+        },
+        {
+          "start": 3.888,
+          "end": 4.257,
+          "char": 68,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 5.004,
+      "to": 11.66,
+      "heading": "Your heat",
+      "text": "Your body gives off heat as infrared light, mostly around ten micrometres. Your eyes can't see it.",
+      "source": "Wikipedia: Infrared",
+      "beats": [
+        {
+          "word": "infrared",
+          "kind": "stat",
+          "value": "~10 \u03bcm",
+          "label": "your body's heat glow"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.249,
+          "end": 5.368,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 5.38,
+          "end": 5.69,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 5.702,
+          "end": 5.94,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 5.952,
+          "end": 6.142,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 6.154,
+          "end": 6.487,
+          "char": 20,
+          "len": 4
+        },
+        {
+          "start": 6.606,
+          "end": 6.725,
+          "char": 25,
+          "len": 2
+        },
+        {
+          "start": 6.797,
+          "end": 7.285,
+          "char": 28,
+          "len": 8
+        },
+        {
+          "start": 7.297,
+          "end": 7.559,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 7.928,
+          "end": 8.273,
+          "char": 44,
+          "len": 6
+        },
+        {
+          "start": 8.285,
+          "end": 8.606,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 8.666,
+          "end": 8.904,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 8.916,
+          "end": 9.678,
+          "char": 62,
+          "len": 11
+        },
+        {
+          "start": 10.071,
+          "end": 10.178,
+          "char": 75,
+          "len": 4
+        },
+        {
+          "start": 10.19,
+          "end": 10.344,
+          "char": 80,
+          "len": 4
+        },
+        {
+          "start": 10.356,
+          "end": 10.547,
+          "char": 85,
+          "len": 5
+        },
+        {
+          "start": 10.559,
+          "end": 10.749,
+          "char": 91,
+          "len": 3
+        },
+        {
+          "start": 10.761,
+          "end": 10.916,
+          "char": 95,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 11.66,
+      "to": 18.854,
+      "heading": "The pit",
+      "text": "But some snakes can. Pit vipers, like rattlesnakes, have a heat-sensing pit between each eye and nostril.",
+      "source": "Wikipedia: Pit viper",
+      "beats": [
+        {
+          "word": "pit",
+          "kind": "stamp",
+          "value": "HEAT SENSOR"
+        }
+      ],
+      "words": [
+        {
+          "start": 11.917,
+          "end": 12.0,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 12.012,
+          "end": 12.155,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 12.167,
+          "end": 12.453,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 12.465,
+          "end": 12.774,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 13.179,
+          "end": 13.322,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 13.334,
+          "end": 13.917,
+          "char": 25,
+          "len": 6
+        },
+        {
+          "start": 14.084,
+          "end": 14.239,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 14.25,
+          "end": 15.0,
+          "char": 38,
+          "len": 12
+        },
+        {
+          "start": 15.239,
+          "end": 15.358,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 15.37,
+          "end": 15.405,
+          "char": 57,
+          "len": 1
+        },
+        {
+          "start": 15.417,
+          "end": 16.131,
+          "char": 59,
+          "len": 12
+        },
+        {
+          "start": 16.143,
+          "end": 16.441,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 16.453,
+          "end": 16.822,
+          "char": 76,
+          "len": 7
+        },
+        {
+          "start": 16.953,
+          "end": 17.179,
+          "char": 84,
+          "len": 4
+        },
+        {
+          "start": 17.191,
+          "end": 17.429,
+          "char": 89,
+          "len": 3
+        },
+        {
+          "start": 17.441,
+          "end": 17.56,
+          "char": 93,
+          "len": 3
+        },
+        {
+          "start": 17.572,
+          "end": 18.108,
+          "char": 97,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 18.854,
+      "to": 25.394,
+      "heading": "Three times",
+      "text": "Heat sensing evolved three separate times in snakes: in pit vipers, pythons and boas.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stat",
+          "value": "3\u00d7",
+          "label": "evolved separately"
+        }
+      ],
+      "words": [
+        {
+          "start": 19.135,
+          "end": 19.29,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 19.302,
+          "end": 19.718,
+          "char": 5,
+          "len": 7
+        },
+        {
+          "start": 19.73,
+          "end": 20.123,
+          "char": 13,
+          "len": 7
+        },
+        {
+          "start": 20.206,
+          "end": 20.528,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 20.54,
+          "end": 20.944,
+          "char": 27,
+          "len": 8
+        },
+        {
+          "start": 20.956,
+          "end": 21.385,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 21.397,
+          "end": 21.492,
+          "char": 42,
+          "len": 2
+        },
+        {
+          "start": 21.504,
+          "end": 22.016,
+          "char": 45,
+          "len": 6
+        },
+        {
+          "start": 22.242,
+          "end": 22.373,
+          "char": 53,
+          "len": 2
+        },
+        {
+          "start": 22.385,
+          "end": 22.599,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 22.611,
+          "end": 23.194,
+          "char": 60,
+          "len": 6
+        },
+        {
+          "start": 23.373,
+          "end": 24.004,
+          "char": 68,
+          "len": 7
+        },
+        {
+          "start": 24.016,
+          "end": 24.123,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 24.135,
+          "end": 24.647,
+          "char": 80,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 25.394,
+      "to": 33.028,
+      "heading": "How it works",
+      "text": "Here's how. Infrared warms a thin membrane, heat-sensing proteins fire, and the brain builds a picture.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "words": [
+        {
+          "start": 25.663,
+          "end": 25.818,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 25.83,
+          "end": 26.092,
+          "char": 7,
+          "len": 3
+        },
+        {
+          "start": 26.484,
+          "end": 27.044,
+          "char": 12,
+          "len": 8
+        },
+        {
+          "start": 27.056,
+          "end": 27.461,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 27.473,
+          "end": 27.52,
+          "char": 27,
+          "len": 1
+        },
+        {
+          "start": 27.532,
+          "end": 27.937,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 27.949,
+          "end": 28.461,
+          "char": 34,
+          "len": 8
+        },
+        {
+          "start": 28.83,
+          "end": 29.461,
+          "char": 44,
+          "len": 12
+        },
+        {
+          "start": 29.473,
+          "end": 30.068,
+          "char": 57,
+          "len": 8
+        },
+        {
+          "start": 30.08,
+          "end": 30.544,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 30.925,
+          "end": 30.973,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 30.984,
+          "end": 31.056,
+          "char": 76,
+          "len": 3
+        },
+        {
+          "start": 31.068,
+          "end": 31.461,
+          "char": 80,
+          "len": 5
+        },
+        {
+          "start": 31.473,
+          "end": 31.746,
+          "char": 86,
+          "len": 6
+        },
+        {
+          "start": 31.758,
+          "end": 31.806,
+          "char": 93,
+          "len": 1
+        },
+        {
+          "start": 31.818,
+          "end": 32.282,
+          "char": 95,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 33.028,
+      "to": 38.269,
+      "heading": "Two pictures",
+      "text": "That heat map overlaps with what their eyes see. Heat and light, together.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "together",
+          "kind": "stamp",
+          "value": "HEAT + LIGHT"
+        }
+      ],
+      "words": [
+        {
+          "start": 33.273,
+          "end": 33.392,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 33.404,
+          "end": 33.666,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 33.678,
+          "end": 33.988,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 34.118,
+          "end": 34.654,
+          "char": 14,
+          "len": 8
+        },
+        {
+          "start": 34.666,
+          "end": 34.797,
+          "char": 23,
+          "len": 4
+        },
+        {
+          "start": 34.809,
+          "end": 34.94,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 34.952,
+          "end": 35.107,
+          "char": 33,
+          "len": 5
+        },
+        {
+          "start": 35.118,
+          "end": 35.345,
+          "char": 39,
+          "len": 4
+        },
+        {
+          "start": 35.357,
+          "end": 35.654,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 36.071,
+          "end": 36.297,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 36.404,
+          "end": 36.535,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 36.547,
+          "end": 36.845,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 37.035,
+          "end": 37.523,
+          "char": 65,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 38.269,
+      "to": 43.952,
+      "heading": "In the dark",
+      "text": "In total darkness, they can spot something warm from several metres away, and strike.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "strike",
+          "kind": "warning",
+          "value": "STRIKE!"
+        }
+      ],
+      "words": [
+        {
+          "start": 38.514,
+          "end": 38.645,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 38.657,
+          "end": 38.99,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 39.002,
+          "end": 39.562,
+          "char": 9,
+          "len": 8
+        },
+        {
+          "start": 39.764,
+          "end": 39.883,
+          "char": 19,
+          "len": 4
+        },
+        {
+          "start": 39.895,
+          "end": 40.026,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 40.038,
+          "end": 40.348,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 40.359,
+          "end": 40.74,
+          "char": 33,
+          "len": 9
+        },
+        {
+          "start": 40.752,
+          "end": 41.062,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 41.074,
+          "end": 41.228,
+          "char": 48,
+          "len": 4
+        },
+        {
+          "start": 41.24,
+          "end": 41.633,
+          "char": 53,
+          "len": 7
+        },
+        {
+          "start": 41.645,
+          "end": 41.955,
+          "char": 61,
+          "len": 6
+        },
+        {
+          "start": 41.967,
+          "end": 42.359,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 42.645,
+          "end": 42.74,
+          "char": 74,
+          "len": 3
+        },
+        {
+          "start": 42.752,
+          "end": 43.205,
+          "char": 78,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 43.952,
+      "to": 49.263,
+      "heading": "The twist",
+      "text": "The twist? Those nerves can sense a temperature change of less than a thousandth of a degree.",
+      "source": "Wikipedia: Infrared sensing in snakes",
+      "beats": [
+        {
+          "word": "thousandth",
+          "kind": "stat",
+          "value": "<0.001 \u00b0C",
+          "label": "detectable change"
+        }
+      ],
+      "words": [
+        {
+          "start": 44.209,
+          "end": 44.257,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 44.269,
+          "end": 44.709,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 45.102,
+          "end": 45.328,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 45.34,
+          "end": 45.614,
+          "char": 17,
+          "len": 6
+        },
+        {
+          "start": 45.626,
+          "end": 45.769,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 45.781,
+          "end": 46.042,
+          "char": 28,
+          "len": 5
+        },
+        {
+          "start": 46.054,
+          "end": 46.102,
+          "char": 34,
+          "len": 1
+        },
+        {
+          "start": 46.114,
+          "end": 46.554,
+          "char": 36,
+          "len": 11
+        },
+        {
+          "start": 46.566,
+          "end": 46.912,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 46.923,
+          "end": 47.019,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 47.031,
+          "end": 47.328,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 47.34,
+          "end": 47.471,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 47.483,
+          "end": 47.519,
+          "char": 68,
+          "len": 1
+        },
+        {
+          "start": 47.531,
+          "end": 48.007,
+          "char": 70,
+          "len": 10
+        },
+        {
+          "start": 48.019,
+          "end": 48.078,
+          "char": 81,
+          "len": 2
+        },
+        {
+          "start": 48.09,
+          "end": 48.138,
+          "char": 84,
+          "len": 1
+        },
+        {
+          "start": 48.15,
+          "end": 48.519,
+          "char": 86,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 49.263,
+      "to": 55.496,
+      "heading": "Your call",
+      "text": "With snake senses, nobody could hide from you at night. Would you want heat vision?",
+      "words": [
+        {
+          "start": 49.52,
+          "end": 49.627,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 49.639,
+          "end": 49.877,
+          "char": 5,
+          "len": 5
+        },
+        {
+          "start": 49.889,
+          "end": 50.401,
+          "char": 11,
+          "len": 6
+        },
+        {
+          "start": 50.663,
+          "end": 51.056,
+          "char": 19,
+          "len": 6
+        },
+        {
+          "start": 51.068,
+          "end": 51.211,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 51.223,
+          "end": 51.568,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 51.58,
+          "end": 51.723,
+          "char": 37,
+          "len": 4
+        },
+        {
+          "start": 51.734,
+          "end": 51.877,
+          "char": 42,
+          "len": 3
+        },
+        {
+          "start": 51.889,
+          "end": 51.984,
+          "char": 46,
+          "len": 2
+        },
+        {
+          "start": 51.996,
+          "end": 52.353,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 52.746,
+          "end": 52.853,
+          "char": 56,
+          "len": 5
+        },
+        {
+          "start": 52.865,
+          "end": 52.925,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 52.937,
+          "end": 53.068,
+          "char": 66,
+          "len": 4
+        },
+        {
+          "start": 53.08,
+          "end": 53.246,
+          "char": 71,
+          "len": 4
+        },
+        {
+          "start": 53.258,
+          "end": 53.556,
+          "char": 76,
+          "len": 6
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "What if you could see heat?",
+    "flash": "<0.001 \u00b0C",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Heat vision? Please don't look at me while I'm rendering.",
+    "mood": "gasp",
+    "action": "*overheating beep*",
+    "from": 55.496,
+    "to": 61.675,
+    "words": [
+      {
+        "start": 56.041,
+        "end": 56.3,
+        "char": 0,
+        "len": 4
+      },
+      {
+        "start": 56.311,
+        "end": 56.762,
+        "char": 5,
+        "len": 6
+      },
+      {
+        "start": 57.539,
+        "end": 57.854,
+        "char": 13,
+        "len": 6
+      },
+      {
+        "start": 57.865,
+        "end": 58.124,
+        "char": 20,
+        "len": 5
+      },
+      {
+        "start": 58.136,
+        "end": 58.305,
+        "char": 26,
+        "len": 4
+      },
+      {
+        "start": 58.316,
+        "end": 58.406,
+        "char": 31,
+        "len": 2
+      },
+      {
+        "start": 58.417,
+        "end": 58.586,
+        "char": 34,
+        "len": 2
+      },
+      {
+        "start": 58.597,
+        "end": 58.8,
+        "char": 37,
+        "len": 5
+      },
+      {
+        "start": 58.811,
+        "end": 58.98,
+        "char": 43,
+        "len": 3
+      },
+      {
+        "start": 58.992,
+        "end": 59.543,
+        "char": 47,
+        "len": 9
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you could see heat, like a snake?",
+      "Some snakes can see your body heat in the dark"
+    ],
+    "description": "How pit vipers, pythons and boas sense the infrared heat your body gives off, combine it with what their eyes see, and strike in total darkness.",
+    "tags": [
+      "pit viper",
+      "infrared",
+      "snakes",
+      "heat vision",
+      "animal senses",
+      "biology",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "At body temperature, humans radiate mainly at wavelengths around 10 \u03bcm; infrared is invisible to people",
+      "url": "https://en.wikipedia.org/wiki/Infrared"
+    },
+    {
+      "claim": "Pit vipers, including rattlesnakes, have a heat-sensing pit between the eye and the nostril on each side of the head",
+      "url": "https://en.wikipedia.org/wiki/Pit_viper"
+    },
+    {
+      "claim": "Infrared sensing evolved independently in boas, pythons and pit vipers; a warmed membrane and the TRPA1 channel detect the heat; visual and infrared maps overlap in the optic tectum; pit vipers detect warm objects from several metres away in darkness; nerve sensitivity is estimated at under 0.001 \u00b0C",
+      "url": "https://en.wikipedia.org/wiki/Infrared_sensing_in_snakes"
+    }
+  ],
+  "seed": "infrared-like-a-snake",
+  "voiceover": "audio/infrared-like-a-snake.mp3",
+  "music": "audio/infrared-like-a-snake_bed.mp3"
+}

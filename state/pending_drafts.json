@@ -888,5 +888,27 @@
     "video_id": "dtYXazOzx4w",
     "youtube_url": "https://youtube.com/shorts/dtYXazOzx4w",
     "scheduled_at": null
+  },
+  "88": {
+    "episode": "infrared-like-a-snake",
+    "video_path": "output/drafts/infrared-like-a-snake.mp4",
+    "titles": [
+      "What if you could see heat, like a snake?",
+      "Some snakes can see your body heat in the dark"
+    ],
+    "description": "How pit vipers, pythons and boas sense the infrared heat your body gives off, combine it with what their eyes see, and strike in total darkness.\n\nSources:\n- At body temperature, humans radiate mainly at wavelengths around 10 μm; infrared is invisible to people: https://en.wikipedia.org/wiki/Infrared\n- Pit vipers, including rattlesnakes, have a heat-sensing pit between the eye and the nostril on each side of the head: https://en.wikipedia.org/wiki/Pit_viper\n- Infrared sensing evolved independently in boas, pythons and pit vipers; a warmed membrane and the TRPA1 channel detect the heat; visual and infrared maps overlap in the optic tectum; pit vipers detect warm objects from several metres away in darkness; nerve sensitivity is estimated at under 0.001 °C: https://en.wikipedia.org/wiki/Infrared_sensing_in_snakes\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- \"Sonar ping (sine wave)\" by marb7e (https://freesound.org/people/marb7e/sounds/620321/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- cartoon pop: CC0 1.0, https://freesound.org/people/oldedgar/sounds/97978/\n- \"cinematic boom 130730_06.wav\" by klankbeeld (https://freesound.org/people/klankbeeld/sounds/195790/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "pit viper",
+      "infrared",
+      "snakes",
+      "heat vision",
+      "animal senses",
+      "biology",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · infrared-like-a-snake · 62s</i>\n\n<b>A:</b> What if you could see heat, like a snake?\n<b>B:</b> Some snakes can see your body heat in the dark\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 19 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795024031.6800385
   }
 }
