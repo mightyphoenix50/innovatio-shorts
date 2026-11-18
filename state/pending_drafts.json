@@ -908,7 +908,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · infrared-like-a-snake · 62s</i>\n\n<b>A:</b> What if you could see heat, like a snake?\n<b>B:</b> Some snakes can see your body heat in the dark\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 19 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1795024031.6800385
+    "status": "PUBLISHED",
+    "created_at": 1795024031.6800385,
+    "updated_at": 1795024149.1396883,
+    "title_used": "What if you could see heat, like a snake?",
+    "video_id": "-C8pJj694jo",
+    "youtube_url": "https://youtube.com/shorts/-C8pJj694jo",
+    "scheduled_at": null
   }
 }
