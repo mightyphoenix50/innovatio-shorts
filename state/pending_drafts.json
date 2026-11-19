@@ -935,7 +935,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · exoplanets-to-scale · 61s</i>\n\n<b>A:</b> What if you lined up the biggest planets ever found?\n<b>B:</b> The planet that's less dense than a marshmallow\n\n✅ QC passed\n📅 Approving schedules it for <b>Fri 20 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1795110888.986649
+    "status": "PUBLISHED",
+    "created_at": 1795110888.986649,
+    "updated_at": 1795112803.8473153,
+    "title_used": "What if you lined up the biggest planets ever found?",
+    "video_id": "XcJYrd_jgoc",
+    "youtube_url": "https://youtube.com/shorts/XcJYrd_jgoc",
+    "scheduled_at": null
   }
 }
