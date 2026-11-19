@@ -915,5 +915,27 @@
     "video_id": "-C8pJj694jo",
     "youtube_url": "https://youtube.com/shorts/-C8pJj694jo",
     "scheduled_at": null
+  },
+  "90": {
+    "episode": "exoplanets-to-scale",
+    "video_path": "output/drafts/exoplanets-to-scale.mp4",
+    "titles": [
+      "What if you lined up the biggest planets ever found?",
+      "The planet that's less dense than a marshmallow"
+    ],
+    "description": "Earth, Neptune and Jupiter side by side at true scale with two giant exoplanets, WASP-17b and HAT-P-67b, and why the biggest of them weighs less than Jupiter.\n\nSources:\n- Earth's equatorial radius is 6,378.137 km; of the four rocky planets it is the largest and most massive: https://en.wikipedia.org/wiki/Earth\n- Neptune's equatorial diameter is 49,528 km, about four times wider than Earth: https://science.nasa.gov/neptune/facts/\n- Jupiter's radius is 69,911 km, about 11 times Earth's width; about 1,000 Earths would fit inside: https://science.nasa.gov/jupiter/facts/\n- WASP-17b, about 1,000 light-years away, is about 1.9 times Jupiter's radius; it was the first planet found with a retrograde orbit; JWST detected evidence of quartz clouds in 2023: https://en.wikipedia.org/wiki/WASP-17b\n- HAT-P-67b's host star is 1,200 light-years away; the planet is about 2.14 Jupiter radii and 0.45 Jupiter masses, with a density lower than marshmallows: https://en.wikipedia.org/wiki/HAT-P-67b\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/Mixigodo/sounds/553563/\n- \"Sonar Ping.wav\" by digifishmusic (https://freesound.org/people/digifishmusic/sounds/42796/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- \"cinematic boom 130730_06.wav\" by klankbeeld (https://freesound.org/people/klankbeeld/sounds/195790/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "exoplanets",
+      "hat-p-67b",
+      "wasp-17b",
+      "jupiter",
+      "planets to scale",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · exoplanets-to-scale · 61s</i>\n\n<b>A:</b> What if you lined up the biggest planets ever found?\n<b>B:</b> The planet that's less dense than a marshmallow\n\n✅ QC passed\n📅 Approving schedules it for <b>Fri 20 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795110888.986649
   }
 }

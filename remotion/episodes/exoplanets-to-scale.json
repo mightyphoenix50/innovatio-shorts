@@ -1,0 +1,1057 @@
+{
+  "template": "Scale",
+  "title": "How big can planets get?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 2,
+      "name": "Neptune",
+      "value": "49,528 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 24764,
+      "colours": [
+        "#BFE3F5",
+        "#5B9BD5",
+        "#2E5FA8"
+      ],
+      "glow": "#7FB8D6"
+    },
+    {
+      "line": 3,
+      "name": "Jupiter",
+      "value": "139,822 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 69911,
+      "colours": [
+        "#F2DEC0",
+        "#D9A56B",
+        "#B6703F"
+      ]
+    },
+    {
+      "line": 4,
+      "name": "WASP-17b",
+      "value": "1.9\u00d7 Jupiter",
+      "caption": "WIDTH",
+      "kind": "gas",
+      "radiusKm": 132800,
+      "colours": [
+        "#F5C99A",
+        "#E39A5C",
+        "#B8653A"
+      ],
+      "glow": "#F2A65A"
+    },
+    {
+      "line": 6,
+      "name": "HAT-P-67b",
+      "value": "2.1\u00d7 Jupiter",
+      "caption": "WIDTH",
+      "kind": "gas",
+      "radiusKm": 149600,
+      "colours": [
+        "#F7D7B0",
+        "#E8A86E",
+        "#C47A45"
+      ],
+      "glow": "#F2B880"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 3.806,
+      "heading": "How big?",
+      "text": "You think Jupiter is as big as planets get? Think again.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.341,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.352,
+          "end": 0.543,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.555,
+          "end": 0.971,
+          "char": 10,
+          "len": 7
+        },
+        {
+          "start": 0.983,
+          "end": 1.09,
+          "char": 18,
+          "len": 2
+        },
+        {
+          "start": 1.102,
+          "end": 1.221,
+          "char": 21,
+          "len": 2
+        },
+        {
+          "start": 1.233,
+          "end": 1.46,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 1.471,
+          "end": 1.567,
+          "char": 28,
+          "len": 2
+        },
+        {
+          "start": 1.579,
+          "end": 1.971,
+          "char": 31,
+          "len": 7
+        },
+        {
+          "start": 1.983,
+          "end": 2.221,
+          "char": 39,
+          "len": 3
+        },
+        {
+          "start": 2.626,
+          "end": 2.745,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 2.757,
+          "end": 3.067,
+          "char": 50,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 3.806,
+      "to": 8.644,
+      "heading": "Earth",
+      "text": "Start with Earth, the biggest and heaviest of the four rocky planets.",
+      "source": "Earth, Wikipedia",
+      "words": [
+        {
+          "start": 4.051,
+          "end": 4.325,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 4.337,
+          "end": 4.48,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 4.492,
+          "end": 4.825,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 5.063,
+          "end": 5.194,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 5.254,
+          "end": 5.706,
+          "char": 22,
+          "len": 7
+        },
+        {
+          "start": 5.718,
+          "end": 5.801,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 5.813,
+          "end": 6.396,
+          "char": 34,
+          "len": 8
+        },
+        {
+          "start": 6.408,
+          "end": 6.48,
+          "char": 43,
+          "len": 2
+        },
+        {
+          "start": 6.492,
+          "end": 6.563,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 6.575,
+          "end": 6.956,
+          "char": 50,
+          "len": 4
+        },
+        {
+          "start": 6.968,
+          "end": 7.277,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 7.289,
+          "end": 7.896,
+          "char": 61,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 8.644,
+      "to": 13.684,
+      "heading": "Neptune",
+      "text": "Neptune is about four times wider. Big, but nowhere near the record.",
+      "source": "NASA Neptune facts",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "4\u00d7",
+          "label": "wider than Earth"
+        }
+      ],
+      "words": [
+        {
+          "start": 8.889,
+          "end": 9.354,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 9.425,
+          "end": 9.544,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 9.556,
+          "end": 9.806,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 9.818,
+          "end": 10.103,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 10.115,
+          "end": 10.389,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 10.401,
+          "end": 10.806,
+          "char": 28,
+          "len": 5
+        },
+        {
+          "start": 11.211,
+          "end": 11.568,
+          "char": 35,
+          "len": 3
+        },
+        {
+          "start": 11.83,
+          "end": 11.973,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 11.984,
+          "end": 12.282,
+          "char": 44,
+          "len": 7
+        },
+        {
+          "start": 12.294,
+          "end": 12.449,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 12.461,
+          "end": 12.532,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 12.544,
+          "end": 12.937,
+          "char": 61,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 13.684,
+      "to": 19.256,
+      "heading": "Jupiter",
+      "text": "Jupiter is about eleven times wider than Earth. A thousand Earths could fit inside.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 13.929,
+          "end": 14.394,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 14.405,
+          "end": 14.513,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 14.524,
+          "end": 14.786,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 14.798,
+          "end": 15.239,
+          "char": 17,
+          "len": 6
+        },
+        {
+          "start": 15.251,
+          "end": 15.584,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 15.596,
+          "end": 15.941,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 15.953,
+          "end": 16.072,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 16.084,
+          "end": 16.417,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 16.81,
+          "end": 16.87,
+          "char": 48,
+          "len": 1
+        },
+        {
+          "start": 16.882,
+          "end": 17.31,
+          "char": 50,
+          "len": 8
+        },
+        {
+          "start": 17.322,
+          "end": 17.608,
+          "char": 59,
+          "len": 6
+        },
+        {
+          "start": 17.62,
+          "end": 17.774,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 17.786,
+          "end": 18.013,
+          "char": 72,
+          "len": 3
+        },
+        {
+          "start": 18.024,
+          "end": 18.513,
+          "char": 76,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 19.256,
+      "to": 27.305,
+      "heading": "WASP-17b",
+      "text": "Now leave the solar system. WASP-17b, about a thousand light-years away, is nearly twice Jupiter's width.",
+      "source": "WASP-17b, Wikipedia",
+      "beats": [
+        {
+          "word": "leave",
+          "kind": "stamp",
+          "value": "ALIEN WORLDS"
+        }
+      ],
+      "words": [
+        {
+          "start": 19.501,
+          "end": 19.704,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 19.716,
+          "end": 19.93,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 19.942,
+          "end": 20.013,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 20.025,
+          "end": 20.335,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 20.346,
+          "end": 20.727,
+          "char": 20,
+          "len": 6
+        },
+        {
+          "start": 21.132,
+          "end": 22.501,
+          "char": 28,
+          "len": 8
+        },
+        {
+          "start": 22.763,
+          "end": 22.977,
+          "char": 38,
+          "len": 5
+        },
+        {
+          "start": 22.989,
+          "end": 23.025,
+          "char": 44,
+          "len": 1
+        },
+        {
+          "start": 23.037,
+          "end": 23.596,
+          "char": 46,
+          "len": 8
+        },
+        {
+          "start": 23.608,
+          "end": 24.061,
+          "char": 55,
+          "len": 11
+        },
+        {
+          "start": 24.073,
+          "end": 24.43,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 24.739,
+          "end": 24.894,
+          "char": 73,
+          "len": 2
+        },
+        {
+          "start": 24.906,
+          "end": 25.239,
+          "char": 76,
+          "len": 6
+        },
+        {
+          "start": 25.251,
+          "end": 25.668,
+          "char": 83,
+          "len": 5
+        },
+        {
+          "start": 25.68,
+          "end": 26.12,
+          "char": 89,
+          "len": 9
+        },
+        {
+          "start": 26.132,
+          "end": 26.561,
+          "char": 99,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 27.305,
+      "to": 34.439,
+      "heading": "Backwards",
+      "text": "It even orbits backwards, against its star's spin. And the Webb telescope found clouds made of quartz.",
+      "source": "WASP-17b, Wikipedia",
+      "beats": [
+        {
+          "word": "quartz",
+          "kind": "warning",
+          "value": "QUARTZ CLOUDS"
+        }
+      ],
+      "words": [
+        {
+          "start": 27.55,
+          "end": 27.645,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 27.657,
+          "end": 27.967,
+          "char": 3,
+          "len": 4
+        },
+        {
+          "start": 28.074,
+          "end": 28.455,
+          "char": 8,
+          "len": 6
+        },
+        {
+          "start": 28.467,
+          "end": 29.122,
+          "char": 15,
+          "len": 9
+        },
+        {
+          "start": 29.324,
+          "end": 29.669,
+          "char": 26,
+          "len": 7
+        },
+        {
+          "start": 29.681,
+          "end": 29.8,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 29.812,
+          "end": 30.205,
+          "char": 38,
+          "len": 6
+        },
+        {
+          "start": 30.217,
+          "end": 30.61,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 31.003,
+          "end": 31.05,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 31.062,
+          "end": 31.145,
+          "char": 55,
+          "len": 3
+        },
+        {
+          "start": 31.157,
+          "end": 31.36,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 31.372,
+          "end": 31.907,
+          "char": 64,
+          "len": 9
+        },
+        {
+          "start": 32.003,
+          "end": 32.372,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 32.384,
+          "end": 32.836,
+          "char": 80,
+          "len": 6
+        },
+        {
+          "start": 32.848,
+          "end": 33.038,
+          "char": 87,
+          "len": 4
+        },
+        {
+          "start": 33.05,
+          "end": 33.122,
+          "char": 92,
+          "len": 2
+        },
+        {
+          "start": 33.134,
+          "end": 33.693,
+          "char": 95,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 34.439,
+      "to": 42.581,
+      "heading": "HAT-P-67b",
+      "text": "HAT-P-67b is bigger still, over twice as wide as Jupiter, twelve hundred light-years away.",
+      "source": "HAT-P-67b, Wikipedia",
+      "beats": [
+        {
+          "word": "twelve",
+          "kind": "stat",
+          "value": "1,200 ly",
+          "label": "from Earth"
+        }
+      ],
+      "words": [
+        {
+          "start": 34.696,
+          "end": 36.922,
+          "char": 0,
+          "len": 9
+        },
+        {
+          "start": 37.029,
+          "end": 37.196,
+          "char": 10,
+          "len": 2
+        },
+        {
+          "start": 37.303,
+          "end": 37.613,
+          "char": 13,
+          "len": 6
+        },
+        {
+          "start": 37.625,
+          "end": 38.041,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 38.399,
+          "end": 38.577,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 38.589,
+          "end": 39.029,
+          "char": 32,
+          "len": 5
+        },
+        {
+          "start": 39.041,
+          "end": 39.16,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 39.172,
+          "end": 39.529,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 39.541,
+          "end": 39.648,
+          "char": 46,
+          "len": 2
+        },
+        {
+          "start": 39.66,
+          "end": 40.137,
+          "char": 49,
+          "len": 7
+        },
+        {
+          "start": 40.375,
+          "end": 40.684,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 40.696,
+          "end": 41.029,
+          "char": 65,
+          "len": 7
+        },
+        {
+          "start": 41.041,
+          "end": 41.518,
+          "char": 73,
+          "len": 11
+        },
+        {
+          "start": 41.529,
+          "end": 41.839,
+          "char": 85,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 42.581,
+      "to": 48.261,
+      "heading": "The twist",
+      "text": "The twist? It has under half of Jupiter's mass. It's less dense than a marshmallow.",
+      "source": "HAT-P-67b, Wikipedia",
+      "beats": [
+        {
+          "word": "marshmallow",
+          "kind": "stamp",
+          "value": "MARSHMALLOW PLANET"
+        },
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "0.45\u00d7",
+          "label": "Jupiter's mass"
+        }
+      ],
+      "words": [
+        {
+          "start": 42.838,
+          "end": 42.886,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 42.898,
+          "end": 43.338,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 43.731,
+          "end": 43.791,
+          "char": 11,
+          "len": 2
+        },
+        {
+          "start": 43.802,
+          "end": 43.981,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 43.993,
+          "end": 44.231,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 44.243,
+          "end": 44.576,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 44.588,
+          "end": 44.683,
+          "char": 29,
+          "len": 2
+        },
+        {
+          "start": 44.695,
+          "end": 45.136,
+          "char": 32,
+          "len": 9
+        },
+        {
+          "start": 45.148,
+          "end": 45.624,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 46.017,
+          "end": 46.148,
+          "char": 48,
+          "len": 4
+        },
+        {
+          "start": 46.16,
+          "end": 46.398,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 46.41,
+          "end": 46.719,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 46.731,
+          "end": 46.838,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 46.85,
+          "end": 46.886,
+          "char": 69,
+          "len": 1
+        },
+        {
+          "start": 46.898,
+          "end": 47.517,
+          "char": 71,
+          "len": 11
+        }
+      ]
+    },
+    {
+      "from": 48.261,
+      "to": 53.983,
+      "heading": "Your turn",
+      "text": "So bigger isn't always heavier. What's the strangest planet you know?",
+      "words": [
+        {
+          "start": 48.518,
+          "end": 48.685,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 48.697,
+          "end": 49.054,
+          "char": 3,
+          "len": 6
+        },
+        {
+          "start": 49.066,
+          "end": 49.304,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 49.316,
+          "end": 49.661,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 49.673,
+          "end": 50.101,
+          "char": 23,
+          "len": 7
+        },
+        {
+          "start": 50.494,
+          "end": 50.661,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 50.673,
+          "end": 50.756,
+          "char": 39,
+          "len": 3
+        },
+        {
+          "start": 50.768,
+          "end": 51.34,
+          "char": 43,
+          "len": 9
+        },
+        {
+          "start": 51.351,
+          "end": 51.673,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 51.685,
+          "end": 51.768,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 51.78,
+          "end": 52.042,
+          "char": 64,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How big can planets really get?",
+    "flash": "MARSHMALLOW PLANET",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Huge but weighs almost nothing? Like my promises to stop buffering.",
+    "mood": "smug",
+    "action": "*cheeky beep*",
+    "from": 53.983,
+    "to": 61.411,
+    "words": [
+      {
+        "start": 54.528,
+        "end": 54.967,
+        "char": 0,
+        "len": 4
+      },
+      {
+        "start": 54.978,
+        "end": 55.17,
+        "char": 5,
+        "len": 3
+      },
+      {
+        "start": 55.181,
+        "end": 55.508,
+        "char": 9,
+        "len": 6
+      },
+      {
+        "start": 55.519,
+        "end": 55.913,
+        "char": 16,
+        "len": 6
+      },
+      {
+        "start": 55.924,
+        "end": 56.397,
+        "char": 23,
+        "len": 7
+      },
+      {
+        "start": 57.174,
+        "end": 57.422,
+        "char": 32,
+        "len": 4
+      },
+      {
+        "start": 57.433,
+        "end": 57.58,
+        "char": 37,
+        "len": 2
+      },
+      {
+        "start": 57.591,
+        "end": 58.233,
+        "char": 40,
+        "len": 8
+      },
+      {
+        "start": 58.244,
+        "end": 58.357,
+        "char": 49,
+        "len": 2
+      },
+      {
+        "start": 58.368,
+        "end": 58.717,
+        "char": 52,
+        "len": 4
+      },
+      {
+        "start": 58.728,
+        "end": 59.28,
+        "char": 57,
+        "len": 9
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up the biggest planets ever found?",
+      "The planet that's less dense than a marshmallow"
+    ],
+    "description": "Earth, Neptune and Jupiter side by side at true scale with two giant exoplanets, WASP-17b and HAT-P-67b, and why the biggest of them weighs less than Jupiter.",
+    "tags": [
+      "exoplanets",
+      "hat-p-67b",
+      "wasp-17b",
+      "jupiter",
+      "planets to scale",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Earth's equatorial radius is 6,378.137 km; of the four rocky planets it is the largest and most massive",
+      "url": "https://en.wikipedia.org/wiki/Earth"
+    },
+    {
+      "claim": "Neptune's equatorial diameter is 49,528 km, about four times wider than Earth",
+      "url": "https://science.nasa.gov/neptune/facts/"
+    },
+    {
+      "claim": "Jupiter's radius is 69,911 km, about 11 times Earth's width; about 1,000 Earths would fit inside",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "WASP-17b, about 1,000 light-years away, is about 1.9 times Jupiter's radius; it was the first planet found with a retrograde orbit; JWST detected evidence of quartz clouds in 2023",
+      "url": "https://en.wikipedia.org/wiki/WASP-17b"
+    },
+    {
+      "claim": "HAT-P-67b's host star is 1,200 light-years away; the planet is about 2.14 Jupiter radii and 0.45 Jupiter masses, with a density lower than marshmallows",
+      "url": "https://en.wikipedia.org/wiki/HAT-P-67b"
+    }
+  ],
+  "seed": "exoplanets-to-scale",
+  "voiceover": "audio/exoplanets-to-scale.mp3",
+  "music": "audio/exoplanets-to-scale_bed.mp3"
+}

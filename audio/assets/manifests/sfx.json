@@ -348,35 +348,6 @@
     }
   },
   {
-    "id": "fs-42796",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-42796_sonar-ping-wav.ogg",
-    "title": "Sonar Ping.wav",
-    "author": "digifishmusic",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/digifishmusic/sounds/42796/",
-    "download_url": "https://cdn.freesound.org/previews/42/42796_29541-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"Sonar Ping.wav\" by digifishmusic (https://freesound.org/people/digifishmusic/sounds/42796/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "sonar_ping",
-    "rank": 4,
-    "best_segment": [
-      0.041,
-      1.755
-    ],
-    "duration_s": 4.21295,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 5.82,
-        "verdict": "strong"
-      },
-      "realness": 0.263
-    }
-  },
-  {
     "id": "fs-474849",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-474849_lava-loop-1.ogg",
@@ -841,35 +812,6 @@
     }
   },
   {
-    "id": "fs-679404",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-679404_dipping-below-water.ogg",
-    "title": "Dipping below water",
-    "author": "adviseme333",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/adviseme333/sounds/679404/",
-    "download_url": "https://cdn.freesound.org/previews/679/679404_14805886-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 2,
-    "best_segment": [
-      2.4,
-      4.342
-    ],
-    "duration_s": 4.34213,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 4.08,
-        "verdict": "strong"
-      },
-      "realness": 0.946
-    }
-  },
-  {
     "id": "fs-829590",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-829590_custom-heavy-whoosh-punch-kick-thud-impa.ogg",
@@ -1276,35 +1218,6 @@
     }
   },
   {
-    "id": "fs-119467",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-119467_metal-creak-3-wav.ogg",
-    "title": "Metal Creak 3.wav",
-    "author": "ingudios",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/ingudios/sounds/119467/",
-    "download_url": "https://cdn.freesound.org/previews/119/119467_1819253-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "hull_creak",
-    "rank": 2,
-    "best_segment": [
-      0.213,
-      2.005
-    ],
-    "duration_s": 2.13392,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep metal hull creaking under pressure",
-        "z": 3.04,
-        "verdict": "strong"
-      },
-      "realness": 0.897
-    }
-  },
-  {
     "id": "fs-561728",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-561728_creaking-and-jangling-metal-clasp-on-bel.ogg",
@@ -1360,35 +1273,6 @@
         "verdict": "strong"
       },
       "realness": 0.375
-    }
-  },
-  {
-    "id": "fs-817070",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-817070_toonpop-blue-snowball-microphone-cu-deta.ogg",
-    "title": "TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC",
-    "author": "designerschoice",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/designerschoice/sounds/817070/",
-    "download_url": "https://cdn.freesound.org/previews/817/817070_6951162-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC\" by designerschoice (https://freesound.org/people/designerschoice/sounds/817070/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "cartoon_pop",
-    "rank": 4,
-    "best_segment": [
-      0.011,
-      0.145
-    ],
-    "duration_s": 0.563084,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a short cute cartoon pop",
-        "z": 2.63,
-        "verdict": "plausible"
-      },
-      "realness": 0.992
     }
   },
   {
@@ -1682,35 +1566,6 @@
     }
   },
   {
-    "id": "fs-67882",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-67882_dive-mixdown-wav.ogg",
-    "title": "dive_mixdown.wav",
-    "author": "gyzhor",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/gyzhor/sounds/67882/",
-    "download_url": "https://cdn.freesound.org/previews/67/67882_383523-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 1,
-    "best_segment": [
-      0.0,
-      2.4
-    ],
-    "duration_s": 9.66429,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 2.76,
-        "verdict": "plausible"
-      },
-      "realness": 0.751
-    }
-  },
-  {
     "id": "fs-679407",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-679407_dipping-below-water-2.ogg",
@@ -1737,93 +1592,6 @@
         "verdict": "strong"
       },
       "realness": 0.899
-    }
-  },
-  {
-    "id": "fs-553563",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
-    "title": "Diver going underwater",
-    "author": "Mixigodo",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
-    "download_url": "https://cdn.freesound.org/previews/553/553563_3753531-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 3,
-    "best_segment": [
-      5.6,
-      8.0
-    ],
-    "duration_s": 11.178,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 4.62,
-        "verdict": "strong"
-      },
-      "realness": 0.952
-    }
-  },
-  {
-    "id": "fs-105341",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-105341_sonar-ping-pong-c-wav.ogg",
-    "title": "SONAR PING PONG C#.wav",
-    "author": "sandyrb",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/sandyrb/sounds/105341/",
-    "download_url": "https://cdn.freesound.org/previews/105/105341_14771-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"SONAR PING PONG C#.wav\" by sandyrb (https://freesound.org/people/sandyrb/sounds/105341/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "sonar_ping",
-    "rank": 1,
-    "best_segment": [
-      1.5,
-      2.605
-    ],
-    "duration_s": 3.89321,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 3.83,
-        "verdict": "strong"
-      },
-      "realness": 0.114
-    }
-  },
-  {
-    "id": "fs-70329",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-70329_sonar-dual-ping.ogg",
-    "title": "Sonar Dual Ping",
-    "author": "paulnorthyorks",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/paulnorthyorks/sounds/70329/",
-    "download_url": "https://cdn.freesound.org/previews/70/70329_1019270-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "sonar_ping",
-    "rank": 2,
-    "best_segment": [
-      0.995,
-      1.675
-    ],
-    "duration_s": 4.12501,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a submarine sonar ping",
-        "z": 5.1,
-        "verdict": "strong"
-      },
-      "realness": 0.012
     }
   },
   {
@@ -1885,35 +1653,6 @@
     }
   },
   {
-    "id": "fs-508280",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-508280_old-truck-metal-squeaks-creaks-rattle-im.ogg",
-    "title": "Old_Truck_Metal_Squeaks-Creaks-Rattle-Impact_Squeaky_Sequence_Bounce_Turn_Press_Release.wav",
-    "author": "dilsun",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/dilsun/sounds/508280/",
-    "download_url": "https://cdn.freesound.org/previews/508/508280_4810511-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "hull_creak",
-    "rank": 1,
-    "best_segment": [
-      0.617,
-      1.85
-    ],
-    "duration_s": 7.40073,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep metal hull creaking under pressure",
-        "z": 3.57,
-        "verdict": "strong"
-      },
-      "realness": 0.991
-    }
-  },
-  {
     "id": "fs-119466",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-119466_metal-creak-2-wav.ogg",
@@ -1940,383 +1679,6 @@
         "verdict": "strong"
       },
       "realness": 0.825
-    }
-  },
-  {
-    "id": "fs-697748",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-697748_metlimpt-metal-impact-creak-resonant-sdf.ogg",
-    "title": "METLImpt_Metal Impact Creak Resonant_SDFY_Metal Resonant.wav",
-    "author": "SoundDesignForYou",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/SoundDesignForYou/sounds/697748/",
-    "download_url": "https://cdn.freesound.org/previews/697/697748_13085623-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "hull_creak",
-    "rank": 3,
-    "best_segment": [
-      0.057,
-      1.751
-    ],
-    "duration_s": 3.39781,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep metal hull creaking under pressure",
-        "z": 4.57,
-        "verdict": "strong"
-      },
-      "realness": 0.733
-    }
-  },
-  {
-    "id": "fs-490136",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-490136_metal-creak.ogg",
-    "title": "Metal creak",
-    "author": "manuelaurreaf",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/manuelaurreaf/sounds/490136/",
-    "download_url": "https://cdn.freesound.org/previews/490/490136_10574339-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"Metal creak\" by manuelaurreaf (https://freesound.org/people/manuelaurreaf/sounds/490136/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "hull_creak",
-    "rank": 4,
-    "best_segment": [
-      0.614,
-      1.885
-    ],
-    "duration_s": 2.0,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a deep metal hull creaking under pressure",
-        "z": 1.77,
-        "verdict": "no match"
-      },
-      "realness": 0.998
-    }
-  },
-  {
-    "id": "fs-828412",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-828412_custom-heavy-punch-kick-thud-impact-soun.ogg",
-    "title": "custom_heavy_punch_kick_thud_impact_sound_10022025",
-    "author": "Artninja",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Artninja/sounds/828412/",
-    "download_url": "https://cdn.freesound.org/previews/828/828412_10996917-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "seabed_thud",
-    "rank": 1,
-    "best_segment": [
-      0.08,
-      1.68
-    ],
-    "duration_s": 2.3624,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a heavy deep thud impact",
-        "z": 4.54,
-        "verdict": "strong"
-      },
-      "realness": 0.994
-    }
-  },
-  {
-    "id": "fs-842939",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-842939_double-heavy-scifi-impact.ogg",
-    "title": "Double Heavy Scifi Impact",
-    "author": "TannerSound",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/TannerSound/sounds/842939/",
-    "download_url": "https://cdn.freesound.org/previews/842/842939_4369435-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"Double Heavy Scifi Impact\" by TannerSound (https://freesound.org/people/TannerSound/sounds/842939/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "seabed_thud",
-    "rank": 2,
-    "best_segment": [
-      1.375,
-      2.375
-    ],
-    "duration_s": 2.375,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a heavy deep thud impact",
-        "z": 4.51,
-        "verdict": "strong"
-      },
-      "realness": 0.926
-    }
-  },
-  {
-    "id": "fs-879272",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-879272_low-thud.ogg",
-    "title": "Low Thud",
-    "author": "Qvantor",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Qvantor/sounds/879272/",
-    "download_url": "https://cdn.freesound.org/previews/879/879272_19512113-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "seabed_thud",
-    "rank": 3,
-    "best_segment": [
-      0.253,
-      0.526
-    ],
-    "duration_s": 0.526458,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a heavy deep thud impact",
-        "z": 2.64,
-        "verdict": "plausible"
-      },
-      "realness": 0.327
-    }
-  },
-  {
-    "id": "fs-641040",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-641040_gross-impact.ogg",
-    "title": "GROSS IMPACT",
-    "author": "magnuswaker",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/magnuswaker/sounds/641040/",
-    "download_url": "https://cdn.freesound.org/previews/641/641040_11537497-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "seabed_thud",
-    "rank": 4,
-    "best_segment": [
-      0.011,
-      1.15
-    ],
-    "duration_s": 1.15,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a heavy deep thud impact",
-        "z": 2.71,
-        "verdict": "plausible"
-      },
-      "realness": 0.988
-    }
-  },
-  {
-    "id": "fs-807286",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-807286_crt-tv-whoosh.ogg",
-    "title": "CRT TV Whoosh",
-    "author": "sound.variant",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/sound.variant/sounds/807286/",
-    "download_url": "https://cdn.freesound.org/previews/807/807286_5455544-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 1,
-    "best_segment": [
-      0.0,
-      1.4
-    ],
-    "duration_s": 2.48067,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 2.88,
-        "verdict": "plausible"
-      },
-      "realness": 0.704
-    }
-  },
-  {
-    "id": "fs-170516",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-170516_rubber-crunch-whoosh-wav.ogg",
-    "title": "Rubber Crunch whoosh.wav",
-    "author": "alexkandrell",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/alexkandrell/sounds/170516/",
-    "download_url": "https://cdn.freesound.org/previews/170/170516_1363668-hq.ogg",
-    "license": "CC BY 3.0",
-    "license_url": "https://creativecommons.org/licenses/by/3.0/",
-    "attribution": "\"Rubber Crunch whoosh.wav\" by alexkandrell (https://freesound.org/people/alexkandrell/sounds/170516/), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited",
-    "need": "whoosh",
-    "rank": 2,
-    "best_segment": [
-      0.073,
-      1.473
-    ],
-    "duration_s": 2.624,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 1.52,
-        "verdict": "no match"
-      },
-      "realness": 0.649
-    }
-  },
-  {
-    "id": "fs-461015",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-461015_hard-whoosh-into-hit-debris-wav.ogg",
-    "title": "hard_whoosh_into_hit_debris.wav",
-    "author": "alanmcki",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/alanmcki/sounds/461015/",
-    "download_url": "https://cdn.freesound.org/previews/461/461015_5564376-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"hard_whoosh_into_hit_debris.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461015/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 3,
-    "best_segment": [
-      1.638,
-      2.735
-    ],
-    "duration_s": 5.49648,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 0.97,
-        "verdict": "no match"
-      },
-      "realness": 0.859
-    }
-  },
-  {
-    "id": "fs-761174",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-761174_220727-002-whoosh-sound-01.ogg",
-    "title": "220727_002_whoosh_sound_01",
-    "author": "Artninja",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Artninja/sounds/761174/",
-    "download_url": "https://cdn.freesound.org/previews/761/761174_10996917-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"220727_002_whoosh_sound_01\" by Artninja (https://freesound.org/people/Artninja/sounds/761174/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 4,
-    "best_segment": [
-      0.0,
-      1.075
-    ],
-    "duration_s": 1.29773,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a whoosh",
-        "z": 2.68,
-        "verdict": "plausible"
-      },
-      "realness": 0.932
-    }
-  },
-  {
-    "id": "fs-463393",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-463393_vs-pop-7-mp3.ogg",
-    "title": "VS Pop_7.mp3",
-    "author": "Vilkas_Sound",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463393/",
-    "download_url": "https://cdn.freesound.org/previews/463/463393_9658839-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "cartoon_pop",
-    "rank": 1,
-    "best_segment": [
-      0.078,
-      0.16
-    ],
-    "duration_s": 0.432086,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a short cute cartoon pop",
-        "z": 4.69,
-        "verdict": "strong"
-      },
-      "realness": 0.685
-    }
-  },
-  {
-    "id": "fs-676000",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-676000_s24-24-comedy-cartoon-cork-pop-wav.ogg",
-    "title": "S24-24 Comedy cartoon cork pop.wav",
-    "author": "craigsmith",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/craigsmith/sounds/676000/",
-    "download_url": "https://cdn.freesound.org/previews/676/676000_2524442-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "cartoon_pop",
-    "rank": 2,
-    "best_segment": [
-      0.115,
-      0.47
-    ],
-    "duration_s": 1.10967,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a short cute cartoon pop",
-        "z": 3.87,
-        "verdict": "strong"
-      },
-      "realness": 0.793
-    }
-  },
-  {
-    "id": "fs-741368",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-741368_cartoon-pop.ogg",
-    "title": "Cartoon Pop",
-    "author": "Mish7913",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Mish7913/sounds/741368/",
-    "download_url": "https://cdn.freesound.org/previews/741/741368_16104671-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "cartoon_pop",
-    "rank": 3,
-    "best_segment": [
-      0.111,
-      0.19
-    ],
-    "duration_s": 0.460469,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a short cute cartoon pop",
-        "z": 3.36,
-        "verdict": "strong"
-      },
-      "realness": 0.222
     }
   },
   {
@@ -2349,6 +1711,673 @@
     }
   },
   {
+    "id": "fs-67882",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-67882_dive-mixdown-wav.ogg",
+    "title": "dive_mixdown.wav",
+    "author": "gyzhor",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/gyzhor/sounds/67882/",
+    "download_url": "https://cdn.freesound.org/previews/67/67882_383523-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 1,
+    "best_segment": [
+      0.0,
+      2.4
+    ],
+    "duration_s": 9.66429,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a splash of a heavy object entering water",
+        "z": 2.74,
+        "verdict": "plausible"
+      },
+      "realness": 0.758
+    }
+  },
+  {
+    "id": "fs-679404",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-679404_dipping-below-water.ogg",
+    "title": "Dipping below water",
+    "author": "adviseme333",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/adviseme333/sounds/679404/",
+    "download_url": "https://cdn.freesound.org/previews/679/679404_14805886-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 2,
+    "best_segment": [
+      2.4,
+      4.342
+    ],
+    "duration_s": 4.34213,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a splash of a heavy object entering water",
+        "z": 4.08,
+        "verdict": "strong"
+      },
+      "realness": 0.945
+    }
+  },
+  {
+    "id": "fs-553563",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-553563_diver-going-underwater.ogg",
+    "title": "Diver going underwater",
+    "author": "Mixigodo",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Mixigodo/sounds/553563/",
+    "download_url": "https://cdn.freesound.org/previews/553/553563_3753531-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 3,
+    "best_segment": [
+      5.6,
+      8.0
+    ],
+    "duration_s": 11.178,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a splash of a heavy object entering water",
+        "z": 4.62,
+        "verdict": "strong"
+      },
+      "realness": 0.951
+    }
+  },
+  {
+    "id": "fs-105341",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-105341_sonar-ping-pong-c-wav.ogg",
+    "title": "SONAR PING PONG C#.wav",
+    "author": "sandyrb",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sandyrb/sounds/105341/",
+    "download_url": "https://cdn.freesound.org/previews/105/105341_14771-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"SONAR PING PONG C#.wav\" by sandyrb (https://freesound.org/people/sandyrb/sounds/105341/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "sonar_ping",
+    "rank": 1,
+    "best_segment": [
+      1.5,
+      2.605
+    ],
+    "duration_s": 3.89321,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 3.84,
+        "verdict": "strong"
+      },
+      "realness": 0.117
+    }
+  },
+  {
+    "id": "fs-70329",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-70329_sonar-dual-ping.ogg",
+    "title": "Sonar Dual Ping",
+    "author": "paulnorthyorks",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/paulnorthyorks/sounds/70329/",
+    "download_url": "https://cdn.freesound.org/previews/70/70329_1019270-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"Sonar Dual Ping\" by paulnorthyorks (https://freesound.org/people/paulnorthyorks/sounds/70329/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "sonar_ping",
+    "rank": 2,
+    "best_segment": [
+      0.995,
+      1.675
+    ],
+    "duration_s": 4.12501,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 5.1,
+        "verdict": "strong"
+      },
+      "realness": 0.013
+    }
+  },
+  {
+    "id": "fs-42796",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-42796_sonar-ping-wav.ogg",
+    "title": "Sonar Ping.wav",
+    "author": "digifishmusic",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/digifishmusic/sounds/42796/",
+    "download_url": "https://cdn.freesound.org/previews/42/42796_29541-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"Sonar Ping.wav\" by digifishmusic (https://freesound.org/people/digifishmusic/sounds/42796/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "sonar_ping",
+    "rank": 3,
+    "best_segment": [
+      0.041,
+      1.755
+    ],
+    "duration_s": 4.21295,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 5.8,
+        "verdict": "strong"
+      },
+      "realness": 0.272
+    }
+  },
+  {
+    "id": "fs-38700",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-38700_archi-sonar-01-wav.ogg",
+    "title": "archi_sonar_01.wav",
+    "author": "ElanHickler",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ElanHickler/sounds/38700/",
+    "download_url": "https://cdn.freesound.org/previews/38/38700_107780-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "sonar_ping",
+    "rank": 4,
+    "best_segment": [
+      0.578,
+      1.9
+    ],
+    "duration_s": 4.0,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a submarine sonar ping",
+        "z": 5.14,
+        "verdict": "strong"
+      },
+      "realness": 0.139
+    }
+  },
+  {
+    "id": "fs-508280",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-508280_old-truck-metal-squeaks-creaks-rattle-im.ogg",
+    "title": "Old_Truck_Metal_Squeaks-Creaks-Rattle-Impact_Squeaky_Sequence_Bounce_Turn_Press_Release.wav",
+    "author": "dilsun",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/dilsun/sounds/508280/",
+    "download_url": "https://cdn.freesound.org/previews/508/508280_4810511-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "hull_creak",
+    "rank": 1,
+    "best_segment": [
+      0.617,
+      1.85
+    ],
+    "duration_s": 7.40073,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep metal hull creaking under pressure",
+        "z": 3.56,
+        "verdict": "strong"
+      },
+      "realness": 0.991
+    }
+  },
+  {
+    "id": "fs-697748",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-697748_metlimpt-metal-impact-creak-resonant-sdf.ogg",
+    "title": "METLImpt_Metal Impact Creak Resonant_SDFY_Metal Resonant.wav",
+    "author": "SoundDesignForYou",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/SoundDesignForYou/sounds/697748/",
+    "download_url": "https://cdn.freesound.org/previews/697/697748_13085623-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "hull_creak",
+    "rank": 2,
+    "best_segment": [
+      0.057,
+      1.751
+    ],
+    "duration_s": 3.39781,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep metal hull creaking under pressure",
+        "z": 4.59,
+        "verdict": "strong"
+      },
+      "realness": 0.736
+    }
+  },
+  {
+    "id": "fs-119467",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-119467_metal-creak-3-wav.ogg",
+    "title": "Metal Creak 3.wav",
+    "author": "ingudios",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ingudios/sounds/119467/",
+    "download_url": "https://cdn.freesound.org/previews/119/119467_1819253-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "hull_creak",
+    "rank": 3,
+    "best_segment": [
+      0.213,
+      2.005
+    ],
+    "duration_s": 2.13392,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep metal hull creaking under pressure",
+        "z": 3.03,
+        "verdict": "strong"
+      },
+      "realness": 0.9
+    }
+  },
+  {
+    "id": "fs-490136",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-490136_metal-creak.ogg",
+    "title": "Metal creak",
+    "author": "manuelaurreaf",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/manuelaurreaf/sounds/490136/",
+    "download_url": "https://cdn.freesound.org/previews/490/490136_10574339-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"Metal creak\" by manuelaurreaf (https://freesound.org/people/manuelaurreaf/sounds/490136/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "hull_creak",
+    "rank": 4,
+    "best_segment": [
+      0.614,
+      1.885
+    ],
+    "duration_s": 2.0,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a deep metal hull creaking under pressure",
+        "z": 1.78,
+        "verdict": "no match"
+      },
+      "realness": 0.998
+    }
+  },
+  {
+    "id": "fs-828412",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-828412_custom-heavy-punch-kick-thud-impact-soun.ogg",
+    "title": "custom_heavy_punch_kick_thud_impact_sound_10022025",
+    "author": "Artninja",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Artninja/sounds/828412/",
+    "download_url": "https://cdn.freesound.org/previews/828/828412_10996917-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "seabed_thud",
+    "rank": 1,
+    "best_segment": [
+      0.08,
+      1.68
+    ],
+    "duration_s": 2.3624,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a heavy deep thud impact",
+        "z": 4.56,
+        "verdict": "strong"
+      },
+      "realness": 0.994
+    }
+  },
+  {
+    "id": "fs-842939",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-842939_double-heavy-scifi-impact.ogg",
+    "title": "Double Heavy Scifi Impact",
+    "author": "TannerSound",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/TannerSound/sounds/842939/",
+    "download_url": "https://cdn.freesound.org/previews/842/842939_4369435-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"Double Heavy Scifi Impact\" by TannerSound (https://freesound.org/people/TannerSound/sounds/842939/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "seabed_thud",
+    "rank": 2,
+    "best_segment": [
+      1.375,
+      2.375
+    ],
+    "duration_s": 2.375,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a heavy deep thud impact",
+        "z": 4.51,
+        "verdict": "strong"
+      },
+      "realness": 0.927
+    }
+  },
+  {
+    "id": "fs-641040",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-641040_gross-impact.ogg",
+    "title": "GROSS IMPACT",
+    "author": "magnuswaker",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/magnuswaker/sounds/641040/",
+    "download_url": "https://cdn.freesound.org/previews/641/641040_11537497-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "seabed_thud",
+    "rank": 3,
+    "best_segment": [
+      0.011,
+      1.15
+    ],
+    "duration_s": 1.15,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a heavy deep thud impact",
+        "z": 2.7,
+        "verdict": "plausible"
+      },
+      "realness": 0.988
+    }
+  },
+  {
+    "id": "fs-879272",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-879272_low-thud.ogg",
+    "title": "Low Thud",
+    "author": "Qvantor",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Qvantor/sounds/879272/",
+    "download_url": "https://cdn.freesound.org/previews/879/879272_19512113-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "seabed_thud",
+    "rank": 4,
+    "best_segment": [
+      0.253,
+      0.526
+    ],
+    "duration_s": 0.526458,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a heavy deep thud impact",
+        "z": 2.65,
+        "verdict": "plausible"
+      },
+      "realness": 0.315
+    }
+  },
+  {
+    "id": "fs-807286",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-807286_crt-tv-whoosh.ogg",
+    "title": "CRT TV Whoosh",
+    "author": "sound.variant",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807286/",
+    "download_url": "https://cdn.freesound.org/previews/807/807286_5455544-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 1,
+    "best_segment": [
+      0.0,
+      1.4
+    ],
+    "duration_s": 2.48067,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 2.86,
+        "verdict": "plausible"
+      },
+      "realness": 0.705
+    }
+  },
+  {
+    "id": "fs-170516",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-170516_rubber-crunch-whoosh-wav.ogg",
+    "title": "Rubber Crunch whoosh.wav",
+    "author": "alexkandrell",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/alexkandrell/sounds/170516/",
+    "download_url": "https://cdn.freesound.org/previews/170/170516_1363668-hq.ogg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "\"Rubber Crunch whoosh.wav\" by alexkandrell (https://freesound.org/people/alexkandrell/sounds/170516/), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited",
+    "need": "whoosh",
+    "rank": 2,
+    "best_segment": [
+      0.073,
+      1.473
+    ],
+    "duration_s": 2.624,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 1.52,
+        "verdict": "no match"
+      },
+      "realness": 0.632
+    }
+  },
+  {
+    "id": "fs-461015",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-461015_hard-whoosh-into-hit-debris-wav.ogg",
+    "title": "hard_whoosh_into_hit_debris.wav",
+    "author": "alanmcki",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/alanmcki/sounds/461015/",
+    "download_url": "https://cdn.freesound.org/previews/461/461015_5564376-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"hard_whoosh_into_hit_debris.wav\" by alanmcki (https://freesound.org/people/alanmcki/sounds/461015/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 3,
+    "best_segment": [
+      1.638,
+      2.735
+    ],
+    "duration_s": 5.49648,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 0.97,
+        "verdict": "no match"
+      },
+      "realness": 0.854
+    }
+  },
+  {
+    "id": "fs-761174",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-761174_220727-002-whoosh-sound-01.ogg",
+    "title": "220727_002_whoosh_sound_01",
+    "author": "Artninja",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Artninja/sounds/761174/",
+    "download_url": "https://cdn.freesound.org/previews/761/761174_10996917-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"220727_002_whoosh_sound_01\" by Artninja (https://freesound.org/people/Artninja/sounds/761174/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 4,
+    "best_segment": [
+      0.0,
+      1.075
+    ],
+    "duration_s": 1.29773,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a whoosh",
+        "z": 2.7,
+        "verdict": "plausible"
+      },
+      "realness": 0.933
+    }
+  },
+  {
+    "id": "fs-463393",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-463393_vs-pop-7-mp3.ogg",
+    "title": "VS Pop_7.mp3",
+    "author": "Vilkas_Sound",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Vilkas_Sound/sounds/463393/",
+    "download_url": "https://cdn.freesound.org/previews/463/463393_9658839-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"VS Pop_7.mp3\" by Vilkas_Sound (https://freesound.org/people/Vilkas_Sound/sounds/463393/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "cartoon_pop",
+    "rank": 1,
+    "best_segment": [
+      0.078,
+      0.16
+    ],
+    "duration_s": 0.432086,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 4.7,
+        "verdict": "strong"
+      },
+      "realness": 0.684
+    }
+  },
+  {
+    "id": "fs-676000",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-676000_s24-24-comedy-cartoon-cork-pop-wav.ogg",
+    "title": "S24-24 Comedy cartoon cork pop.wav",
+    "author": "craigsmith",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/craigsmith/sounds/676000/",
+    "download_url": "https://cdn.freesound.org/previews/676/676000_2524442-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "cartoon_pop",
+    "rank": 2,
+    "best_segment": [
+      0.115,
+      0.47
+    ],
+    "duration_s": 1.10967,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 3.86,
+        "verdict": "strong"
+      },
+      "realness": 0.799
+    }
+  },
+  {
+    "id": "fs-741368",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-741368_cartoon-pop.ogg",
+    "title": "Cartoon Pop",
+    "author": "Mish7913",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Mish7913/sounds/741368/",
+    "download_url": "https://cdn.freesound.org/previews/741/741368_16104671-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "cartoon_pop",
+    "rank": 3,
+    "best_segment": [
+      0.111,
+      0.19
+    ],
+    "duration_s": 0.460469,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 3.35,
+        "verdict": "strong"
+      },
+      "realness": 0.22
+    }
+  },
+  {
+    "id": "fs-817070",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-817070_toonpop-blue-snowball-microphone-cu-deta.ogg",
+    "title": "TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC",
+    "author": "designerschoice",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/designerschoice/sounds/817070/",
+    "download_url": "https://cdn.freesound.org/previews/817/817070_6951162-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"TOONPop-Blue Snowball Microphone, CU_Detach_Nicholas Judy_TDC\" by designerschoice (https://freesound.org/people/designerschoice/sounds/817070/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "cartoon_pop",
+    "rank": 4,
+    "best_segment": [
+      0.011,
+      0.145
+    ],
+    "duration_s": 0.563084,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
+    "earshot": {
+      "match": {
+        "query": "a short cute cartoon pop",
+        "z": 2.64,
+        "verdict": "plausible"
+      },
+      "realness": 0.992
+    }
+  },
+  {
     "id": "fs-879905",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-879905_cinematic-boom-impact.ogg",
@@ -2371,10 +2400,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.1,
+        "z": 3.08,
         "verdict": "strong"
       },
-      "realness": 0.022
+      "realness": 0.021
     }
   },
   {
@@ -2400,10 +2429,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.56,
+        "z": 3.55,
         "verdict": "strong"
       },
-      "realness": 0.38
+      "realness": 0.393
     }
   },
   {
@@ -2429,10 +2458,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.87,
+        "z": 3.86,
         "verdict": "strong"
       },
-      "realness": 0.216
+      "realness": 0.221
     }
   },
   {
@@ -2458,10 +2487,10 @@
     "earshot": {
       "match": {
         "query": "a deep cinematic impact boom",
-        "z": 3.8,
+        "z": 3.79,
         "verdict": "strong"
       },
-      "realness": 0.664
+      "realness": 0.668
     }
   },
   {
@@ -2487,10 +2516,10 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": 5.09,
+        "z": 5.11,
         "verdict": "strong"
       },
-      "realness": 0.033
+      "realness": 0.031
     }
   },
   {
@@ -2516,10 +2545,10 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": 2.25,
+        "z": 2.26,
         "verdict": "weak"
       },
-      "realness": 0.894
+      "realness": 0.896
     }
   },
   {
@@ -2548,7 +2577,7 @@
         "z": 3.22,
         "verdict": "strong"
       },
-      "realness": 0.61
+      "realness": 0.613
     }
   },
   {
@@ -2574,10 +2603,10 @@
     "earshot": {
       "match": {
         "query": "a short clean user interface click or pop",
-        "z": -0.13,
+        "z": -0.11,
         "verdict": "no match"
       },
-      "realness": 0.982
+      "realness": 0.983
     }
   }
 ]
