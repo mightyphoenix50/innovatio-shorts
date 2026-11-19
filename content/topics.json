@@ -219,7 +219,8 @@
       "title": "How big can planets get?",
       "format": "Scale",
       "angle": "From Earth to Neptune, Jupiter and the biggest known puffy exoplanets; the twist is that some giant planets are wider than Jupiter but lighter than it.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-19"
     },
     {
       "slug": "hydrothermal-vents",
@@ -229,10 +230,45 @@
       "status": "next"
     },
     {
+      "slug": "venus-surface",
+      "title": "What's it like on the surface of Venus?",
+      "format": "Orbit",
+      "angle": "Spin round Venus past Maxwell Montes and its lava plains under thick clouds; the twist is that it's hotter than Mercury even though it's twice as far from the Sun.",
+      "status": "next"
+    },
+    {
       "slug": "rocket-to-the-iss",
       "title": "What if you rode a rocket to the space station?",
       "format": "Fall-up",
       "angle": "Rise past clouds, the ozone layer and the edge of space to the ISS about 400 km up; the twist is that you'd get there in a matter of hours, faster than many flights across an ocean.",
+      "status": "next"
+    },
+    {
+      "slug": "sleep-like-a-dolphin",
+      "title": "What if you slept like a dolphin, half your brain at a time?",
+      "format": "Story",
+      "angle": "You could sleep with one eye open while the other half of your brain keeps watch; the twist is that some birds do it in flight.",
+      "status": "next"
+    },
+    {
+      "slug": "dead-stars-to-scale",
+      "title": "How small can a star get?",
+      "format": "Scale",
+      "angle": "From a city-sized neutron star to a white dwarf the size of Earth, then the Sun; the twist is that the tiny neutron star outweighs the Sun.",
+      "status": "next"
+    },
+    {
+      "slug": "fall-into-jupiter",
+      "title": "What if you fell into Jupiter?",
+      "format": "Fall-down",
+      "angle": "Sink through the cloud layers into deeper and hotter hydrogen until it turns metallic; the twist is that there's no surface to land on.",
+      "status": "next"
+    },
+    {
+      "slug": "earth-without-oceans",
+      "title": "What if Earth's oceans drained away?",
+      "format": "Orbit",
+      "angle": "Tour the hidden landscape under the sea: the Mid-Atlantic Ridge, the Mariana Trench and Mauna Kea's true height; the twist is that the longest mountain range on Earth is underwater.",
       "status": "next"
     }
   ]

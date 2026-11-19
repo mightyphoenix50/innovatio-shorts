@@ -1,0 +1,235 @@
+{
+  "template": "Scale",
+  "title": "How big can planets get?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 2,
+      "name": "Neptune",
+      "value": "49,528 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 24764,
+      "colours": [
+        "#BFE3F5",
+        "#5B9BD5",
+        "#2E5FA8"
+      ],
+      "glow": "#7FB8D6"
+    },
+    {
+      "line": 3,
+      "name": "Jupiter",
+      "value": "139,822 km",
+      "caption": "WIDE",
+      "kind": "gas",
+      "radiusKm": 69911,
+      "colours": [
+        "#F2DEC0",
+        "#D9A56B",
+        "#B6703F"
+      ]
+    },
+    {
+      "line": 4,
+      "name": "WASP-17b",
+      "value": "1.9× Jupiter",
+      "caption": "WIDTH",
+      "kind": "gas",
+      "radiusKm": 132800,
+      "colours": [
+        "#F5C99A",
+        "#E39A5C",
+        "#B8653A"
+      ],
+      "glow": "#F2A65A"
+    },
+    {
+      "line": 6,
+      "name": "HAT-P-67b",
+      "value": "2.1× Jupiter",
+      "caption": "WIDTH",
+      "kind": "gas",
+      "radiusKm": 149600,
+      "colours": [
+        "#F7D7B0",
+        "#E8A86E",
+        "#C47A45"
+      ],
+      "glow": "#F2B880"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 3.5,
+      "heading": "How big?",
+      "text": "You think Jupiter is as big as planets get? Think again."
+    },
+    {
+      "from": 3.5,
+      "to": 8.5,
+      "heading": "Earth",
+      "text": "Start with Earth, the biggest and heaviest of the four rocky planets.",
+      "source": "Earth, Wikipedia"
+    },
+    {
+      "from": 8.5,
+      "to": 14.0,
+      "heading": "Neptune",
+      "text": "Neptune is about four times wider. Big, but nowhere near the record.",
+      "source": "NASA Neptune facts",
+      "beats": [
+        {
+          "word": "four",
+          "kind": "stat",
+          "value": "4×",
+          "label": "wider than Earth"
+        }
+      ]
+    },
+    {
+      "from": 14.0,
+      "to": 20.0,
+      "heading": "Jupiter",
+      "text": "Jupiter is about eleven times wider than Earth. A thousand Earths could fit inside.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "thousand",
+          "kind": "stat",
+          "value": "1,000",
+          "label": "Earths would fit inside"
+        }
+      ]
+    },
+    {
+      "from": 20.0,
+      "to": 26.5,
+      "heading": "WASP-17b",
+      "text": "Now leave the solar system. WASP-17b, about a thousand light-years away, is nearly twice Jupiter's width.",
+      "source": "WASP-17b, Wikipedia",
+      "beats": [
+        {
+          "word": "leave",
+          "kind": "stamp",
+          "value": "ALIEN WORLDS"
+        }
+      ]
+    },
+    {
+      "from": 26.5,
+      "to": 32.5,
+      "heading": "Backwards",
+      "text": "It even orbits backwards, against its star's spin. And the Webb telescope found clouds made of quartz.",
+      "source": "WASP-17b, Wikipedia",
+      "beats": [
+        {
+          "word": "quartz",
+          "kind": "warning",
+          "value": "QUARTZ CLOUDS"
+        }
+      ]
+    },
+    {
+      "from": 32.5,
+      "to": 38.5,
+      "heading": "HAT-P-67b",
+      "text": "HAT-P-67b is bigger still, over twice as wide as Jupiter, twelve hundred light-years away.",
+      "source": "HAT-P-67b, Wikipedia",
+      "beats": [
+        {
+          "word": "twelve",
+          "kind": "stat",
+          "value": "1,200 ly",
+          "label": "from Earth"
+        }
+      ]
+    },
+    {
+      "from": 38.5,
+      "to": 44.5,
+      "heading": "The twist",
+      "text": "The twist? It has under half of Jupiter's mass. It's less dense than a marshmallow.",
+      "source": "HAT-P-67b, Wikipedia",
+      "beats": [
+        {
+          "word": "marshmallow",
+          "kind": "stamp",
+          "value": "MARSHMALLOW PLANET"
+        },
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "0.45×",
+          "label": "Jupiter's mass"
+        }
+      ]
+    },
+    {
+      "from": 44.5,
+      "to": 49.5,
+      "heading": "Your turn",
+      "text": "So bigger isn't always heavier. What's the strangest planet you know?"
+    }
+  ],
+  "hook": {
+    "banner": "How big can planets really get?",
+    "flash": "MARSHMALLOW PLANET",
+    "previewLine": 7
+  },
+  "skit": {
+    "text": "Huge but weighs almost nothing? Like my promises to stop buffering.",
+    "mood": "smug",
+    "action": "*cheeky beep*"
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up the biggest planets ever found?",
+      "The planet that's less dense than a marshmallow"
+    ],
+    "description": "Earth, Neptune and Jupiter side by side at true scale with two giant exoplanets, WASP-17b and HAT-P-67b, and why the biggest of them weighs less than Jupiter.",
+    "tags": [
+      "exoplanets",
+      "hat-p-67b",
+      "wasp-17b",
+      "jupiter",
+      "planets to scale",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Earth's equatorial radius is 6,378.137 km; of the four rocky planets it is the largest and most massive",
+      "url": "https://en.wikipedia.org/wiki/Earth"
+    },
+    {
+      "claim": "Neptune's equatorial diameter is 49,528 km, about four times wider than Earth",
+      "url": "https://science.nasa.gov/neptune/facts/"
+    },
+    {
+      "claim": "Jupiter's radius is 69,911 km, about 11 times Earth's width; about 1,000 Earths would fit inside",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "WASP-17b, about 1,000 light-years away, is about 1.9 times Jupiter's radius; it was the first planet found with a retrograde orbit; JWST detected evidence of quartz clouds in 2023",
+      "url": "https://en.wikipedia.org/wiki/WASP-17b"
+    },
+    {
+      "claim": "HAT-P-67b's host star is 1,200 light-years away; the planet is about 2.14 Jupiter radii and 0.45 Jupiter masses, with a density lower than marshmallows",
+      "url": "https://en.wikipedia.org/wiki/HAT-P-67b"
+    }
+  ],
+  "seed": "exoplanets-to-scale"
+}
