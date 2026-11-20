@@ -1,0 +1,114 @@
+# Sends a pre-rendered Short from the 'drafts' GitHub release to Telegram for approval
+# and registers it in state/pending_drafts.json so approval buttons work end-to-end.
+name: Send draft to Telegram
+
+on:
+  workflow_dispatch:
+    inputs:
+      asset:
+        description: "MP4 filename on the 'drafts' release (e.g. dynamite_viral_short.mp4)"
+        required: true
+      video_url:
+        description: "Optional direct or Google Drive URL to download the MP4 from and upload to the 'drafts' release"
+        required: false
+        default: ""
+      episode:
+        description: "Episode slug (e.g. dynamite-vs-donut)"
+        required: true
+      series:
+        description: "Series label"
+        required: false
+        default: "Physics"
+      title_a:
+        description: "Title option A"
+        required: true
+      title_b:
+        description: "Title option B (optional)"
+        required: false
+        default: ""
+      description:
+        description: "YouTube description"
+        required: false
+        default: ""
+      tags:
+        description: "Comma-separated tags"
+        required: false
+        default: ""
+      script:
+        description: "Optional script summary (newline-separated)"
+        required: false
+        default: ""
+
+concurrency:
+  group: produce
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  send:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      DRAFTS_REGISTRY: state/pending_drafts.json
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q requests gdown
+
+      - name: Fetch video from URL (if provided) and save to drafts release
+        if: ${{ inputs.video_url != '' }}
+        env:
+          ASSET: ${{ inputs.asset }}
+          VIDEO_URL: ${{ inputs.video_url }}
+        run: |
+          mkdir -p output/drafts
+          gdown --fuzzy "$VIDEO_URL" -O "output/drafts/$ASSET"
+          gh release view drafts > /dev/null 2>&1 || \
+            gh release create drafts --title "Drafts" --notes "Rendered drafts waiting for approval. Managed by the pipeline." --prerelease
+          gh release upload drafts "output/drafts/$ASSET" --clobber
+
+      - name: Send draft to Telegram
+        env:
+          ASSET: ${{ inputs.asset }}
+          EPISODE: ${{ inputs.episode }}
+          SERIES: ${{ inputs.series }}
+          TITLE_A: ${{ inputs.title_a }}
+          TITLE_B: ${{ inputs.title_b }}
+          DESCRIPTION: ${{ inputs.description }}
+          TAGS: ${{ inputs.tags }}
+          SCRIPT: ${{ inputs.script }}
+        run: |
+          python scripts/send_draft.py \
+            --asset "$ASSET" \
+            --episode "$EPISODE" \
+            --series "$SERIES" \
+            --title-a "$TITLE_A" \
+            --title-b "$TITLE_B" \
+            --description "$DESCRIPTION" \
+            --tags "$TAGS" \
+            --script "$SCRIPT"
+
+      - name: Save draft state back to the repo
+        run: |
+          git config user.name "innovatio-bot"
+          git config user.email "innovatio-bot@users.noreply.github.com"
+          git config merge.state.driver "python scripts/merge_state.py %O %A %B"
+          git add -A state
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Send draft: update drafts [skip ci]"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
+          exit 1
