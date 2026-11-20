@@ -942,5 +942,27 @@
     "video_id": "XcJYrd_jgoc",
     "youtube_url": "https://youtube.com/shorts/XcJYrd_jgoc",
     "scheduled_at": null
+  },
+  "92": {
+    "episode": "hydrothermal-vents",
+    "video_path": "output/drafts/hydrothermal-vents.mp4",
+    "titles": [
+      "What if you sank to the deepest volcano vents on Earth?",
+      "Sinking 5 km to the deepest hot springs in the sea"
+    ],
+    "description": "Sink into the Cayman Trough to the Beebe vent field, almost 5 km down, where black smokers pour out 400 °C water that can't boil, and life runs on chemicals instead of sunlight.\n\nSources:\n- The Beebe vent field lies just south of Grand Cayman in the Cayman Trough, at nearly 5,000 m (visually confirmed at 4,960 m); its chimneys emit fluids up to 403 °C: https://en.wikipedia.org/wiki/Beebe_Hydrothermal_Vent_Field\n- Black smokers are most often found at 2,500–3,000 m; vent fluids can exceed 400 °C against seafloor water of about 4 °C; high pressure keeps the water liquid or supercritical; they emit dark metal sulfide minerals; chemosynthetic bacteria and archaea form the base of the vent food chain: https://en.wikipedia.org/wiki/Hydrothermal_vent\n- Riftia giant tube worms reach up to 3 m long and have no mouth, digestive system or anus: https://en.wikipedia.org/wiki/Riftia\n- Below 1,000 m sunlight does not reach: https://oceanservice.noaa.gov/facts/light_travel.html\n- The Burj Khalifa's roof height is 828 m: https://en.wikipedia.org/wiki/Burj_Khalifa\n\nSound effects:\n- dive splash: CC0 1.0, https://freesound.org/people/adviseme333/sounds/679407/\n- sonar ping: CC0 1.0, https://freesound.org/people/ElanHickler/sounds/38700/\n- hull creak: CC0 1.0, https://freesound.org/people/SoundDesignForYou/sounds/697748/\n- \"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- cartoon pop: CC0 1.0, https://freesound.org/people/mikala_oidua/sounds/321163/\n- \"cinematic boom 130730_06.wav\" by klankbeeld (https://freesound.org/people/klankbeeld/sounds/195790/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\n- ui click: CC0 1.0, https://freesound.org/people/bassimat/sounds/855481/\n- \"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "hydrothermal vents",
+      "black smokers",
+      "deep sea",
+      "cayman trough",
+      "tube worms",
+      "ocean science",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · hydrothermal-vents · 64s</i>\n\n<b>A:</b> What if you sank to the deepest volcano vents on Earth?\n<b>B:</b> Sinking 5 km to the deepest hot springs in the sea\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 21 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795196746.9003787
   }
 }

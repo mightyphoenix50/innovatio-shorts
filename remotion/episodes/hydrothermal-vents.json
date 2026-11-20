@@ -1,0 +1,1322 @@
+{
+  "title": "What if you sank to a deep-sea volcano vent?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's at the deepest sea vents?",
+    "flash": "403 \u00b0C WATER",
+    "previewLine": 5
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      6.064,
+      0
+    ],
+    [
+      7.641,
+      100
+    ],
+    [
+      10.795,
+      300
+    ],
+    [
+      12.951,
+      1000
+    ],
+    [
+      17.264,
+      1400
+    ],
+    [
+      18.974,
+      2500
+    ],
+    [
+      22.395,
+      2800
+    ],
+    [
+      24.607,
+      4960
+    ],
+    [
+      53.291,
+      4960
+    ]
+  ],
+  "maxDepth": 4960,
+  "colours": [
+    [
+      0,
+      [
+        42,
+        143,
+        189
+      ]
+    ],
+    [
+      200,
+      [
+        14,
+        74,
+        120
+      ]
+    ],
+    [
+      1000,
+      [
+        3,
+        22,
+        46
+      ]
+    ],
+    [
+      2500,
+      [
+        1,
+        12,
+        24
+      ]
+    ],
+    [
+      4960,
+      [
+        1,
+        9,
+        18
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 200,
+      "name": "Sunlight zone",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 200,
+      "to": 1000,
+      "name": "Twilight zone",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 1000,
+      "to": 4960,
+      "name": "Midnight zone",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      27
+    ],
+    [
+      200,
+      20
+    ],
+    [
+      1000,
+      6
+    ],
+    [
+      2500,
+      4
+    ],
+    [
+      4960,
+      4
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 40,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 160,
+      "x": 0.7,
+      "kind": "jelly"
+    },
+    {
+      "depth": 500,
+      "x": 0.3,
+      "kind": "lantern"
+    },
+    {
+      "depth": 900,
+      "x": 0.7,
+      "kind": "squid"
+    },
+    {
+      "depth": 1800,
+      "x": 0.3,
+      "kind": "angler"
+    },
+    {
+      "depth": 3000,
+      "x": 0.68,
+      "kind": "gulper"
+    },
+    {
+      "depth": 4200,
+      "x": 0.3,
+      "kind": "dumbo"
+    },
+    {
+      "depth": 4950,
+      "x": 0.25,
+      "kind": "amph"
+    },
+    {
+      "depth": 4955,
+      "x": 0.72,
+      "kind": "amph"
+    },
+    {
+      "depth": 4945,
+      "x": 0.5,
+      "kind": "snail"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 6.064,
+      "heading": "Hot springs",
+      "text": "You're sinking five kilometres down, to the deepest hot springs ever found under the sea.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.352,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.364,
+          "end": 0.757,
+          "char": 7,
+          "len": 7
+        },
+        {
+          "start": 0.769,
+          "end": 1.15,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 1.162,
+          "end": 1.733,
+          "char": 20,
+          "len": 10
+        },
+        {
+          "start": 1.745,
+          "end": 2.102,
+          "char": 31,
+          "len": 4
+        },
+        {
+          "start": 2.352,
+          "end": 2.436,
+          "char": 37,
+          "len": 2
+        },
+        {
+          "start": 2.448,
+          "end": 2.591,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 2.602,
+          "end": 3.007,
+          "char": 44,
+          "len": 7
+        },
+        {
+          "start": 3.019,
+          "end": 3.281,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 3.293,
+          "end": 3.924,
+          "char": 56,
+          "len": 7
+        },
+        {
+          "start": 4.09,
+          "end": 4.305,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 4.317,
+          "end": 4.71,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 4.721,
+          "end": 4.888,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 4.9,
+          "end": 4.971,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 4.983,
+          "end": 5.317,
+          "char": 85,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 6.064,
+      "to": 10.795,
+      "heading": "Cayman Trough",
+      "text": "This is the Cayman Trough, just south of Grand Cayman in the Caribbean.",
+      "source": "Beebe Hydrothermal Vent Field, Wikipedia",
+      "beats": [
+        {
+          "word": "Trough",
+          "kind": "stamp",
+          "value": "CARIBBEAN DEEP"
+        }
+      ],
+      "words": [
+        {
+          "start": 6.309,
+          "end": 6.571,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 6.607,
+          "end": 6.714,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 6.726,
+          "end": 6.809,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 6.821,
+          "end": 7.119,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 7.131,
+          "end": 7.595,
+          "char": 19,
+          "len": 6
+        },
+        {
+          "start": 7.857,
+          "end": 8.119,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 8.131,
+          "end": 8.44,
+          "char": 32,
+          "len": 5
+        },
+        {
+          "start": 8.452,
+          "end": 8.535,
+          "char": 38,
+          "len": 2
+        },
+        {
+          "start": 8.547,
+          "end": 8.857,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 8.869,
+          "end": 9.214,
+          "char": 47,
+          "len": 6
+        },
+        {
+          "start": 9.309,
+          "end": 9.416,
+          "char": 54,
+          "len": 2
+        },
+        {
+          "start": 9.428,
+          "end": 9.5,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 9.512,
+          "end": 10.047,
+          "char": 61,
+          "len": 9
+        }
+      ]
+    },
+    {
+      "from": 10.795,
+      "to": 17.264,
+      "heading": "Cold and dark",
+      "text": "Past a thousand metres, sunlight is gone, and the water is only a few degrees above freezing.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "freezing",
+          "kind": "stat",
+          "value": "~4 \u00b0C",
+          "label": "deep seawater"
+        }
+      ],
+      "words": [
+        {
+          "start": 11.04,
+          "end": 11.29,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 11.302,
+          "end": 11.338,
+          "char": 5,
+          "len": 1
+        },
+        {
+          "start": 11.35,
+          "end": 11.766,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 11.778,
+          "end": 12.255,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 12.409,
+          "end": 12.862,
+          "char": 24,
+          "len": 8
+        },
+        {
+          "start": 12.874,
+          "end": 12.993,
+          "char": 33,
+          "len": 2
+        },
+        {
+          "start": 13.005,
+          "end": 13.374,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 13.743,
+          "end": 13.79,
+          "char": 42,
+          "len": 3
+        },
+        {
+          "start": 13.802,
+          "end": 13.885,
+          "char": 46,
+          "len": 3
+        },
+        {
+          "start": 13.897,
+          "end": 14.243,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 14.255,
+          "end": 14.421,
+          "char": 56,
+          "len": 2
+        },
+        {
+          "start": 14.481,
+          "end": 14.802,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 14.814,
+          "end": 14.862,
+          "char": 64,
+          "len": 1
+        },
+        {
+          "start": 14.874,
+          "end": 15.183,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 15.195,
+          "end": 15.707,
+          "char": 70,
+          "len": 7
+        },
+        {
+          "start": 15.719,
+          "end": 16.04,
+          "char": 78,
+          "len": 5
+        },
+        {
+          "start": 16.052,
+          "end": 16.516,
+          "char": 84,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 17.264,
+      "to": 22.395,
+      "heading": "Smoker zone",
+      "text": "Two and a half kilometres: the depth where black smokers are most often found.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "smokers",
+          "kind": "stamp",
+          "value": "SMOKER ZONE"
+        }
+      ],
+      "words": [
+        {
+          "start": 17.521,
+          "end": 17.819,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 17.831,
+          "end": 17.926,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 17.938,
+          "end": 17.973,
+          "char": 8,
+          "len": 1
+        },
+        {
+          "start": 17.985,
+          "end": 18.271,
+          "char": 10,
+          "len": 4
+        },
+        {
+          "start": 18.283,
+          "end": 18.938,
+          "char": 15,
+          "len": 10
+        },
+        {
+          "start": 19.2,
+          "end": 19.319,
+          "char": 27,
+          "len": 3
+        },
+        {
+          "start": 19.331,
+          "end": 19.628,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 19.64,
+          "end": 19.807,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 19.819,
+          "end": 20.116,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 20.128,
+          "end": 20.557,
+          "char": 49,
+          "len": 7
+        },
+        {
+          "start": 20.569,
+          "end": 20.652,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 20.664,
+          "end": 20.95,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 20.962,
+          "end": 21.235,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 21.247,
+          "end": 21.652,
+          "char": 72,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 22.395,
+      "to": 29.03,
+      "heading": "Beebe vents",
+      "text": "But we keep going. Almost five thousand metres down, the Beebe vent field rises out of the dark.",
+      "source": "Beebe Hydrothermal Vent Field, Wikipedia",
+      "beats": [
+        {
+          "word": "Beebe",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "Beebe vents",
+            "subjectValue": 4960,
+            "unit": "m",
+            "note": "Almost 6 Burj Khalifas"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 22.652,
+          "end": 22.724,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 22.735,
+          "end": 22.831,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 22.843,
+          "end": 23.057,
+          "char": 7,
+          "len": 4
+        },
+        {
+          "start": 23.069,
+          "end": 23.378,
+          "char": 12,
+          "len": 5
+        },
+        {
+          "start": 23.771,
+          "end": 24.057,
+          "char": 19,
+          "len": 6
+        },
+        {
+          "start": 24.069,
+          "end": 24.414,
+          "char": 26,
+          "len": 4
+        },
+        {
+          "start": 24.426,
+          "end": 24.795,
+          "char": 31,
+          "len": 8
+        },
+        {
+          "start": 24.807,
+          "end": 25.128,
+          "char": 40,
+          "len": 6
+        },
+        {
+          "start": 25.14,
+          "end": 25.509,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 25.759,
+          "end": 25.855,
+          "char": 53,
+          "len": 3
+        },
+        {
+          "start": 25.866,
+          "end": 26.212,
+          "char": 57,
+          "len": 5
+        },
+        {
+          "start": 26.224,
+          "end": 26.533,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 26.712,
+          "end": 27.093,
+          "char": 68,
+          "len": 5
+        },
+        {
+          "start": 27.105,
+          "end": 27.593,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 27.605,
+          "end": 27.735,
+          "char": 80,
+          "len": 3
+        },
+        {
+          "start": 27.747,
+          "end": 27.807,
+          "char": 84,
+          "len": 2
+        },
+        {
+          "start": 27.819,
+          "end": 27.89,
+          "char": 87,
+          "len": 3
+        },
+        {
+          "start": 27.902,
+          "end": 28.283,
+          "char": 91,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 29.03,
+      "to": 35.058,
+      "heading": "Black smoke",
+      "text": "Its chimneys pour out water over four hundred degrees, black with metal sulfide minerals.",
+      "source": "Beebe Hydrothermal Vent Field, Wikipedia",
+      "beats": [
+        {
+          "word": "hundred",
+          "kind": "stat",
+          "value": "403 \u00b0C",
+          "label": "hottest vent water here"
+        }
+      ],
+      "words": [
+        {
+          "start": 29.275,
+          "end": 29.454,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 29.466,
+          "end": 29.918,
+          "char": 4,
+          "len": 8
+        },
+        {
+          "start": 29.93,
+          "end": 30.228,
+          "char": 13,
+          "len": 4
+        },
+        {
+          "start": 30.24,
+          "end": 30.382,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 30.394,
+          "end": 30.799,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 30.811,
+          "end": 31.025,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 31.037,
+          "end": 31.335,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 31.347,
+          "end": 31.609,
+          "char": 38,
+          "len": 7
+        },
+        {
+          "start": 31.62,
+          "end": 32.144,
+          "char": 46,
+          "len": 7
+        },
+        {
+          "start": 32.382,
+          "end": 32.739,
+          "char": 55,
+          "len": 5
+        },
+        {
+          "start": 32.751,
+          "end": 32.906,
+          "char": 61,
+          "len": 4
+        },
+        {
+          "start": 32.918,
+          "end": 33.228,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 33.24,
+          "end": 33.763,
+          "char": 72,
+          "len": 7
+        },
+        {
+          "start": 33.775,
+          "end": 34.311,
+          "char": 80,
+          "len": 8
+        }
+      ]
+    },
+    {
+      "from": 35.058,
+      "to": 41.824,
+      "heading": "Can't boil",
+      "text": "At this pressure, the water can't boil. It stays liquid, or becomes a strange supercritical fluid.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "boil",
+          "kind": "stamp",
+          "value": "CAN'T BOIL"
+        }
+      ],
+      "words": [
+        {
+          "start": 35.303,
+          "end": 35.41,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 35.422,
+          "end": 35.577,
+          "char": 3,
+          "len": 4
+        },
+        {
+          "start": 35.589,
+          "end": 36.006,
+          "char": 8,
+          "len": 8
+        },
+        {
+          "start": 36.244,
+          "end": 36.327,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 36.339,
+          "end": 36.601,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 36.613,
+          "end": 36.863,
+          "char": 28,
+          "len": 5
+        },
+        {
+          "start": 36.875,
+          "end": 37.208,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 37.601,
+          "end": 37.684,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 37.696,
+          "end": 38.029,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 38.041,
+          "end": 38.398,
+          "char": 49,
+          "len": 6
+        },
+        {
+          "start": 38.768,
+          "end": 38.863,
+          "char": 57,
+          "len": 2
+        },
+        {
+          "start": 38.875,
+          "end": 39.244,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 39.256,
+          "end": 39.315,
+          "char": 68,
+          "len": 1
+        },
+        {
+          "start": 39.327,
+          "end": 39.863,
+          "char": 70,
+          "len": 7
+        },
+        {
+          "start": 39.97,
+          "end": 40.648,
+          "char": 78,
+          "len": 13
+        },
+        {
+          "start": 40.66,
+          "end": 41.077,
+          "char": 92,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 41.824,
+      "to": 48.257,
+      "heading": "The twist",
+      "text": "The twist? Life thrives here without sunlight. Microbes turn the vents' chemicals into food.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "sunlight",
+          "kind": "stamp",
+          "value": "NO SUNLIGHT NEEDED"
+        }
+      ],
+      "words": [
+        {
+          "start": 42.081,
+          "end": 42.129,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 42.141,
+          "end": 42.581,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 42.974,
+          "end": 43.26,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 43.272,
+          "end": 43.676,
+          "char": 16,
+          "len": 7
+        },
+        {
+          "start": 43.688,
+          "end": 43.843,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 43.855,
+          "end": 44.153,
+          "char": 29,
+          "len": 7
+        },
+        {
+          "start": 44.164,
+          "end": 44.664,
+          "char": 37,
+          "len": 8
+        },
+        {
+          "start": 45.057,
+          "end": 45.581,
+          "char": 47,
+          "len": 8
+        },
+        {
+          "start": 45.593,
+          "end": 45.855,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 45.867,
+          "end": 45.95,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 45.962,
+          "end": 46.272,
+          "char": 65,
+          "len": 6
+        },
+        {
+          "start": 46.284,
+          "end": 46.843,
+          "char": 72,
+          "len": 9
+        },
+        {
+          "start": 46.855,
+          "end": 47.093,
+          "char": 82,
+          "len": 4
+        },
+        {
+          "start": 47.105,
+          "end": 47.51,
+          "char": 87,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 48.257,
+      "to": 56.527,
+      "heading": "Giant worms",
+      "text": "At Pacific vents, giant tube worms with no mouth or gut grow up to three metres long. Would you visit?",
+      "source": "Riftia, Wikipedia",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stat",
+          "value": "3 m",
+          "label": "giant tube worm"
+        }
+      ],
+      "words": [
+        {
+          "start": 48.502,
+          "end": 48.609,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 48.621,
+          "end": 49.074,
+          "char": 3,
+          "len": 7
+        },
+        {
+          "start": 49.086,
+          "end": 49.562,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 49.812,
+          "end": 50.181,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 50.193,
+          "end": 50.443,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 50.455,
+          "end": 50.752,
+          "char": 29,
+          "len": 5
+        },
+        {
+          "start": 50.764,
+          "end": 50.907,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 50.919,
+          "end": 51.133,
+          "char": 40,
+          "len": 2
+        },
+        {
+          "start": 51.145,
+          "end": 51.574,
+          "char": 43,
+          "len": 5
+        },
+        {
+          "start": 51.681,
+          "end": 51.812,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 51.824,
+          "end": 52.026,
+          "char": 52,
+          "len": 3
+        },
+        {
+          "start": 52.038,
+          "end": 52.347,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 52.359,
+          "end": 52.502,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 52.514,
+          "end": 52.597,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 52.609,
+          "end": 52.943,
+          "char": 67,
+          "len": 5
+        },
+        {
+          "start": 52.955,
+          "end": 53.336,
+          "char": 73,
+          "len": 6
+        },
+        {
+          "start": 53.347,
+          "end": 53.657,
+          "char": 80,
+          "len": 4
+        },
+        {
+          "start": 54.05,
+          "end": 54.157,
+          "char": 86,
+          "len": 5
+        },
+        {
+          "start": 54.169,
+          "end": 54.24,
+          "char": 92,
+          "len": 3
+        },
+        {
+          "start": 54.252,
+          "end": 54.586,
+          "char": 96,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 5.255
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:1000"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:2500"
+    },
+    {
+      "need": "hull_creak",
+      "at": 36.186
+    },
+    {
+      "need": "seabed_thud",
+      "at": "depth:4960"
+    }
+  ],
+  "skit": {
+    "text": "Four hundred degrees and it still won't boil? My processor relates.",
+    "mood": "smug",
+    "action": "*sizzling beep*",
+    "from": 56.527,
+    "to": 63.865,
+    "words": [
+      {
+        "start": 57.072,
+        "end": 57.309,
+        "char": 0,
+        "len": 4
+      },
+      {
+        "start": 57.32,
+        "end": 57.691,
+        "char": 5,
+        "len": 7
+      },
+      {
+        "start": 57.703,
+        "end": 58.221,
+        "char": 13,
+        "len": 7
+      },
+      {
+        "start": 58.232,
+        "end": 58.401,
+        "char": 21,
+        "len": 3
+      },
+      {
+        "start": 58.412,
+        "end": 58.525,
+        "char": 25,
+        "len": 2
+      },
+      {
+        "start": 58.536,
+        "end": 58.863,
+        "char": 28,
+        "len": 5
+      },
+      {
+        "start": 58.874,
+        "end": 59.133,
+        "char": 34,
+        "len": 5
+      },
+      {
+        "start": 59.144,
+        "end": 59.516,
+        "char": 40,
+        "len": 4
+      },
+      {
+        "start": 60.293,
+        "end": 60.484,
+        "char": 46,
+        "len": 2
+      },
+      {
+        "start": 60.495,
+        "end": 61.137,
+        "char": 49,
+        "len": 9
+      },
+      {
+        "start": 61.149,
+        "end": 61.734,
+        "char": 59,
+        "len": 7
+      }
+    ]
+  },
+  "seed": "hydrothermal-vents",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank to the deepest volcano vents on Earth?",
+      "Sinking 5 km to the deepest hot springs in the sea"
+    ],
+    "description": "Sink into the Cayman Trough to the Beebe vent field, almost 5 km down, where black smokers pour out 400 \u00b0C water that can't boil, and life runs on chemicals instead of sunlight.",
+    "tags": [
+      "hydrothermal vents",
+      "black smokers",
+      "deep sea",
+      "cayman trough",
+      "tube worms",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "The Beebe vent field lies just south of Grand Cayman in the Cayman Trough, at nearly 5,000 m (visually confirmed at 4,960 m); its chimneys emit fluids up to 403 \u00b0C",
+      "url": "https://en.wikipedia.org/wiki/Beebe_Hydrothermal_Vent_Field"
+    },
+    {
+      "claim": "Black smokers are most often found at 2,500\u20133,000 m; vent fluids can exceed 400 \u00b0C against seafloor water of about 4 \u00b0C; high pressure keeps the water liquid or supercritical; they emit dark metal sulfide minerals; chemosynthetic bacteria and archaea form the base of the vent food chain",
+      "url": "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+    },
+    {
+      "claim": "Riftia giant tube worms reach up to 3 m long and have no mouth, digestive system or anus",
+      "url": "https://en.wikipedia.org/wiki/Riftia"
+    },
+    {
+      "claim": "Below 1,000 m sunlight does not reach",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ],
+  "voiceover": "audio/hydrothermal-vents.mp3",
+  "music": "audio/hydrothermal-vents_bed.mp3"
+}
