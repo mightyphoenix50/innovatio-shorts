@@ -227,7 +227,8 @@
       "title": "What if you sank to a deep-sea volcano vent?",
       "format": "Descent",
       "angle": "Down to black smokers on the sea floor where water comes out hotter than boiling but doesn't boil; the twist is the life that lives on chemicals, not sunlight.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-20"
     },
     {
       "slug": "venus-surface",

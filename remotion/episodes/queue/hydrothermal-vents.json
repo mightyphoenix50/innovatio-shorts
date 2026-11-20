@@ -1,0 +1,386 @@
+{
+  "title": "What if you sank to a deep-sea volcano vent?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's at the deepest sea vents?",
+    "flash": "403 °C WATER",
+    "previewLine": 5
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      5,
+      100
+    ],
+    [
+      9,
+      300
+    ],
+    [
+      11,
+      1000
+    ],
+    [
+      15,
+      1400
+    ],
+    [
+      17,
+      2500
+    ],
+    [
+      21,
+      2800
+    ],
+    [
+      23,
+      4960
+    ],
+    [
+      53,
+      4960
+    ]
+  ],
+  "maxDepth": 4960,
+  "colours": [
+    [
+      0,
+      [
+        42,
+        143,
+        189
+      ]
+    ],
+    [
+      200,
+      [
+        14,
+        74,
+        120
+      ]
+    ],
+    [
+      1000,
+      [
+        3,
+        22,
+        46
+      ]
+    ],
+    [
+      2500,
+      [
+        1,
+        12,
+        24
+      ]
+    ],
+    [
+      4960,
+      [
+        1,
+        9,
+        18
+      ]
+    ]
+  ],
+  "zones": [
+    {
+      "from": 0,
+      "to": 200,
+      "name": "Sunlight zone",
+      "colour": "#8fd8f0"
+    },
+    {
+      "from": 200,
+      "to": 1000,
+      "name": "Twilight zone",
+      "colour": "#3f8fb8"
+    },
+    {
+      "from": 1000,
+      "to": 4960,
+      "name": "Midnight zone",
+      "colour": "#1f5a84"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      27
+    ],
+    [
+      200,
+      20
+    ],
+    [
+      1000,
+      6
+    ],
+    [
+      2500,
+      4
+    ],
+    [
+      4960,
+      4
+    ]
+  ],
+  "creatures": [
+    {
+      "depth": 40,
+      "x": 0.3,
+      "kind": "fish"
+    },
+    {
+      "depth": 160,
+      "x": 0.7,
+      "kind": "jelly"
+    },
+    {
+      "depth": 500,
+      "x": 0.3,
+      "kind": "lantern"
+    },
+    {
+      "depth": 900,
+      "x": 0.7,
+      "kind": "squid"
+    },
+    {
+      "depth": 1800,
+      "x": 0.3,
+      "kind": "angler"
+    },
+    {
+      "depth": 3000,
+      "x": 0.68,
+      "kind": "gulper"
+    },
+    {
+      "depth": 4200,
+      "x": 0.3,
+      "kind": "dumbo"
+    },
+    {
+      "depth": 4950,
+      "x": 0.25,
+      "kind": "amph"
+    },
+    {
+      "depth": 4955,
+      "x": 0.72,
+      "kind": "amph"
+    },
+    {
+      "depth": 4945,
+      "x": 0.5,
+      "kind": "snail"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3,
+      "heading": "Hot springs",
+      "text": "You're sinking five kilometres down, to the deepest hot springs ever found under the sea."
+    },
+    {
+      "from": 3,
+      "to": 9,
+      "heading": "Cayman Trough",
+      "text": "This is the Cayman Trough, just south of Grand Cayman in the Caribbean.",
+      "source": "Beebe Hydrothermal Vent Field, Wikipedia",
+      "beats": [
+        {
+          "word": "Trough",
+          "kind": "stamp",
+          "value": "CARIBBEAN DEEP"
+        }
+      ]
+    },
+    {
+      "from": 9,
+      "to": 15,
+      "heading": "Cold and dark",
+      "text": "Past a thousand metres, sunlight is gone, and the water is only a few degrees above freezing.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "freezing",
+          "kind": "stat",
+          "value": "~4 °C",
+          "label": "deep seawater"
+        }
+      ]
+    },
+    {
+      "from": 15,
+      "to": 21,
+      "heading": "Smoker zone",
+      "text": "Two and a half kilometres: the depth where black smokers are most often found.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "smokers",
+          "kind": "stamp",
+          "value": "SMOKER ZONE"
+        }
+      ]
+    },
+    {
+      "from": 21,
+      "to": 27,
+      "heading": "Beebe vents",
+      "text": "But we keep going. Almost five thousand metres down, the Beebe vent field rises out of the dark.",
+      "source": "Beebe Hydrothermal Vent Field, Wikipedia",
+      "beats": [
+        {
+          "word": "Beebe",
+          "kind": "compare",
+          "compare": {
+            "name": "Burj Khalifa",
+            "value": 828,
+            "icon": "tower",
+            "subject": "Beebe vents",
+            "subjectValue": 4960,
+            "unit": "m",
+            "note": "Almost 6 Burj Khalifas"
+          }
+        }
+      ]
+    },
+    {
+      "from": 27,
+      "to": 33,
+      "heading": "Black smoke",
+      "text": "Its chimneys pour out water over four hundred degrees, black with metal sulfide minerals.",
+      "source": "Beebe Hydrothermal Vent Field, Wikipedia",
+      "beats": [
+        {
+          "word": "hundred",
+          "kind": "stat",
+          "value": "403 °C",
+          "label": "hottest vent water here"
+        }
+      ]
+    },
+    {
+      "from": 33,
+      "to": 39,
+      "heading": "Can't boil",
+      "text": "At this pressure, the water can't boil. It stays liquid, or becomes a strange supercritical fluid.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "boil",
+          "kind": "stamp",
+          "value": "CAN'T BOIL"
+        }
+      ]
+    },
+    {
+      "from": 39,
+      "to": 46,
+      "heading": "The twist",
+      "text": "The twist? Life thrives here without sunlight. Microbes turn the vents' chemicals into food.",
+      "source": "Hydrothermal vent, Wikipedia",
+      "beats": [
+        {
+          "word": "sunlight",
+          "kind": "stamp",
+          "value": "NO SUNLIGHT NEEDED"
+        }
+      ]
+    },
+    {
+      "from": 46,
+      "to": 53,
+      "heading": "Giant worms",
+      "text": "At Pacific vents, giant tube worms with no mouth or gut grow up to three metres long. Would you visit?",
+      "source": "Riftia, Wikipedia",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stat",
+          "value": "3 m",
+          "label": "giant tube worm"
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "dive_splash",
+      "at": 2.6
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:1000"
+    },
+    {
+      "need": "sonar_ping",
+      "at": "depth:2500"
+    },
+    {
+      "need": "hull_creak",
+      "at": 34
+    },
+    {
+      "need": "seabed_thud",
+      "at": "depth:4960"
+    }
+  ],
+  "skit": {
+    "text": "Four hundred degrees and it still won't boil? My processor relates.",
+    "mood": "smug",
+    "action": "*sizzling beep*"
+  },
+  "seed": "hydrothermal-vents",
+  "series": "Journeys",
+  "youtube": {
+    "titles": [
+      "What if you sank to the deepest volcano vents on Earth?",
+      "Sinking 5 km to the deepest hot springs in the sea"
+    ],
+    "description": "Sink into the Cayman Trough to the Beebe vent field, almost 5 km down, where black smokers pour out 400 °C water that can't boil, and life runs on chemicals instead of sunlight.",
+    "tags": [
+      "hydrothermal vents",
+      "black smokers",
+      "deep sea",
+      "cayman trough",
+      "tube worms",
+      "ocean science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "The Beebe vent field lies just south of Grand Cayman in the Cayman Trough, at nearly 5,000 m (visually confirmed at 4,960 m); its chimneys emit fluids up to 403 °C",
+      "url": "https://en.wikipedia.org/wiki/Beebe_Hydrothermal_Vent_Field"
+    },
+    {
+      "claim": "Black smokers are most often found at 2,500–3,000 m; vent fluids can exceed 400 °C against seafloor water of about 4 °C; high pressure keeps the water liquid or supercritical; they emit dark metal sulfide minerals; chemosynthetic bacteria and archaea form the base of the vent food chain",
+      "url": "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+    },
+    {
+      "claim": "Riftia giant tube worms reach up to 3 m long and have no mouth, digestive system or anus",
+      "url": "https://en.wikipedia.org/wiki/Riftia"
+    },
+    {
+      "claim": "Below 1,000 m sunlight does not reach",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+    },
+    {
+      "claim": "The Burj Khalifa's roof height is 828 m",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    }
+  ]
+}
