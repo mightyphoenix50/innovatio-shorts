@@ -964,5 +964,27 @@
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Journeys · hydrothermal-vents · 64s</i>\n\n<b>A:</b> What if you sank to the deepest volcano vents on Earth?\n<b>B:</b> Sinking 5 km to the deepest hot springs in the sea\n\n✅ QC passed\n📅 Approving schedules it for <b>Sat 21 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
     "status": "PENDING",
     "created_at": 1795196746.9003787
+  },
+  "94": {
+    "episode": "venus-surface",
+    "video_path": "output/drafts/venus-surface.mp4",
+    "titles": [
+      "What if you landed on the surface of Venus?",
+      "Venus is hotter than Mercury, and here's what's on it"
+    ],
+    "description": "A spin around Venus under its sulfuric acid clouds, from Maxwell Montes and Maat Mons to Aphrodite Terra, and why it's the hottest planet even though Mercury is closer to the Sun.\n\nSources:\n- Venus is about 12,104 km wide versus Earth's 12,756 km; its clouds are sulfuric acid; surface pressure is about 93 times Earth's, like being about 930 m underwater; at about 467 °C it is the hottest planet, hotter than Mercury; its average distance from the Sun is 108 million km: https://science.nasa.gov/venus/facts/\n- Mercury's average distance from the Sun is about 58 million km: https://science.nasa.gov/mercury/facts/\n- Maxwell Montes, on Ishtar Terra at 65.2° N 3.3° E, is 11 km high: https://en.wikipedia.org/wiki/Maxwell_Montes\n- Mount Everest is 8,848.86 m high: https://en.wikipedia.org/wiki/Mount_Everest\n- Maat Mons, at 0.5° N 194.6° E, is the tallest volcano on Venus, rising 8 km above the mean planetary radius: https://en.wikipedia.org/wiki/Maat_Mons\n- Aphrodite Terra, at 5.8° S 104.8° E, is about half the size of Africa, the largest of the terrae: https://en.wikipedia.org/wiki/Aphrodite_Terra\n- Venera 13 landed on 1 March 1982 at 7.5° S 303° E, operated for at least 127 minutes and transmitted the first recording of sound from another planet: https://en.wikipedia.org/wiki/Venera_13\n- Venus's mean radius is 6,051.8 km: https://en.wikipedia.org/wiki/Venus\n\nSound effects:\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "venus",
+      "venera 13",
+      "maxwell montes",
+      "planets",
+      "solar system",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · venus-surface · 65s</i>\n\n<b>A:</b> What if you landed on the surface of Venus?\n<b>B:</b> Venus is hotter than Mercury, and here's what's on it\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 22 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795283357.3431509
   }
 }

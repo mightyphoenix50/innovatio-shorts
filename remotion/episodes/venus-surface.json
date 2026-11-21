@@ -1,0 +1,1280 @@
+{
+  "template": "Orbit",
+  "title": "What's it like on the surface of Venus?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's it like on Venus?",
+    "flash": "467 \u00b0C",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      4.069,
+      0.05
+    ],
+    [
+      5.668,
+      0.3
+    ],
+    [
+      8.466,
+      0.3
+    ],
+    [
+      9.832,
+      0.35
+    ],
+    [
+      11.881,
+      0.35
+    ],
+    [
+      14.04,
+      0.72
+    ],
+    [
+      18.897,
+      0.7
+    ],
+    [
+      20.874,
+      0.75
+    ],
+    [
+      24.827,
+      0.72
+    ],
+    [
+      27.071,
+      0.75
+    ],
+    [
+      31.558,
+      0.72
+    ],
+    [
+      33.452,
+      0.45
+    ],
+    [
+      37.241,
+      0.45
+    ],
+    [
+      39.871,
+      0.3
+    ],
+    [
+      46.447,
+      0.3
+    ],
+    [
+      48.096,
+      0.7
+    ],
+    [
+      50.982,
+      0.6
+    ],
+    [
+      52.631,
+      0.1
+    ]
+  ],
+  "body": {
+    "kind": "venus",
+    "name": "Venus",
+    "glow": "#F2D9A0",
+    "radiusKm": 6051.8
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0,
+      "lon": 0,
+      "label": "Venus",
+      "value": "12,104 km",
+      "caption": "Wide"
+    },
+    {
+      "line": 2,
+      "lat": 30,
+      "lon": 60,
+      "label": "Cloud deck",
+      "value": "H\u2082SO\u2084",
+      "caption": "Sulfuric acid clouds"
+    },
+    {
+      "line": 3,
+      "lat": -10,
+      "lon": 120,
+      "label": "The surface",
+      "value": "93\u00d7",
+      "caption": "Earth's air pressure"
+    },
+    {
+      "line": 4,
+      "lat": 65.2,
+      "lon": 3.3,
+      "label": "Maxwell Montes",
+      "value": "11 km",
+      "caption": "High"
+    },
+    {
+      "line": 5,
+      "lat": 0.5,
+      "lon": -165.4,
+      "label": "Maat Mons",
+      "value": "8 km",
+      "caption": "Above average surface"
+    },
+    {
+      "line": 6,
+      "lat": -5.8,
+      "lon": 104.8,
+      "label": "Aphrodite Terra",
+      "value": "\u00bd Africa",
+      "caption": "Highland area"
+    },
+    {
+      "line": 7,
+      "lat": 20,
+      "lon": -100,
+      "label": "Surface heat",
+      "value": "467 \u00b0C",
+      "caption": "Melts lead"
+    },
+    {
+      "line": 8,
+      "lat": -7.5,
+      "lon": -57,
+      "label": "Venera 13 landing",
+      "value": "1982",
+      "caption": "First sounds recorded"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.069,
+      "heading": "Venus",
+      "text": "You think Earth's summers are hot? Wait till you land on Venus.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.329,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.34,
+          "end": 0.531,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.543,
+          "end": 0.745,
+          "char": 10,
+          "len": 7
+        },
+        {
+          "start": 0.757,
+          "end": 1.055,
+          "char": 18,
+          "len": 7
+        },
+        {
+          "start": 1.067,
+          "end": 1.15,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 1.162,
+          "end": 1.507,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 1.9,
+          "end": 2.114,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 2.138,
+          "end": 2.293,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 2.305,
+          "end": 2.4,
+          "char": 45,
+          "len": 3
+        },
+        {
+          "start": 2.412,
+          "end": 2.698,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 2.71,
+          "end": 2.805,
+          "char": 54,
+          "len": 2
+        },
+        {
+          "start": 2.817,
+          "end": 3.329,
+          "char": 57,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 4.069,
+      "to": 8.466,
+      "heading": "Earth's twin?",
+      "text": "Venus is almost Earth's twin in size, just a little smaller.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "twin",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth",
+            "value": 12756,
+            "icon": "land",
+            "subject": "Venus",
+            "subjectValue": 12104,
+            "unit": "km wide",
+            "note": "Almost twins"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 4.314,
+          "end": 4.683,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 4.695,
+          "end": 4.814,
+          "char": 6,
+          "len": 2
+        },
+        {
+          "start": 4.826,
+          "end": 5.255,
+          "char": 9,
+          "len": 6
+        },
+        {
+          "start": 5.326,
+          "end": 5.612,
+          "char": 16,
+          "len": 7
+        },
+        {
+          "start": 5.624,
+          "end": 5.909,
+          "char": 24,
+          "len": 4
+        },
+        {
+          "start": 5.921,
+          "end": 6.029,
+          "char": 29,
+          "len": 2
+        },
+        {
+          "start": 6.04,
+          "end": 6.54,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 6.755,
+          "end": 6.957,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 6.969,
+          "end": 7.005,
+          "char": 43,
+          "len": 1
+        },
+        {
+          "start": 7.017,
+          "end": 7.231,
+          "char": 45,
+          "len": 6
+        },
+        {
+          "start": 7.243,
+          "end": 7.719,
+          "char": 52,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 8.466,
+      "to": 11.881,
+      "heading": "Acid clouds",
+      "text": "But its thick clouds are made of sulfuric acid.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "acid",
+          "kind": "warning",
+          "value": "ACID CLOUDS"
+        }
+      ],
+      "words": [
+        {
+          "start": 8.723,
+          "end": 8.795,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 8.806,
+          "end": 8.961,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 8.973,
+          "end": 9.211,
+          "char": 8,
+          "len": 5
+        },
+        {
+          "start": 9.223,
+          "end": 9.652,
+          "char": 14,
+          "len": 6
+        },
+        {
+          "start": 9.664,
+          "end": 9.795,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 9.806,
+          "end": 10.033,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 10.045,
+          "end": 10.116,
+          "char": 30,
+          "len": 2
+        },
+        {
+          "start": 10.128,
+          "end": 10.723,
+          "char": 33,
+          "len": 8
+        },
+        {
+          "start": 10.735,
+          "end": 11.14,
+          "char": 42,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 11.881,
+      "to": 18.897,
+      "heading": "Crushing air",
+      "text": "At the surface, the air presses ninety-three times harder than on Earth. Like being nine hundred metres underwater.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "underwater",
+          "kind": "stat",
+          "value": "930 m",
+          "label": "deep in Earth's ocean"
+        }
+      ],
+      "words": [
+        {
+          "start": 12.126,
+          "end": 12.198,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 12.21,
+          "end": 12.281,
+          "char": 3,
+          "len": 3
+        },
+        {
+          "start": 12.293,
+          "end": 12.888,
+          "char": 7,
+          "len": 7
+        },
+        {
+          "start": 13.091,
+          "end": 13.198,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 13.21,
+          "end": 13.424,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 13.436,
+          "end": 13.829,
+          "char": 24,
+          "len": 7
+        },
+        {
+          "start": 13.841,
+          "end": 14.543,
+          "char": 32,
+          "len": 12
+        },
+        {
+          "start": 14.555,
+          "end": 14.912,
+          "char": 45,
+          "len": 5
+        },
+        {
+          "start": 14.924,
+          "end": 15.269,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 15.281,
+          "end": 15.388,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 15.4,
+          "end": 15.543,
+          "char": 63,
+          "len": 2
+        },
+        {
+          "start": 15.555,
+          "end": 15.936,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 16.329,
+          "end": 16.495,
+          "char": 73,
+          "len": 4
+        },
+        {
+          "start": 16.507,
+          "end": 16.757,
+          "char": 78,
+          "len": 5
+        },
+        {
+          "start": 16.769,
+          "end": 16.971,
+          "char": 84,
+          "len": 4
+        },
+        {
+          "start": 16.983,
+          "end": 17.257,
+          "char": 89,
+          "len": 7
+        },
+        {
+          "start": 17.269,
+          "end": 17.59,
+          "char": 97,
+          "len": 6
+        },
+        {
+          "start": 17.602,
+          "end": 18.15,
+          "char": 104,
+          "len": 10
+        }
+      ]
+    },
+    {
+      "from": 18.897,
+      "to": 24.827,
+      "heading": "Maxwell Montes",
+      "text": "Up north, Maxwell Montes rises eleven kilometres. That's higher than Everest.",
+      "source": "Maxwell Montes, Wikipedia",
+      "beats": [
+        {
+          "word": "Everest",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Maxwell Montes",
+            "subjectValue": 11,
+            "unit": "km",
+            "note": "Taller than Everest"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 19.142,
+          "end": 19.273,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 19.285,
+          "end": 19.678,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 19.928,
+          "end": 20.38,
+          "char": 10,
+          "len": 7
+        },
+        {
+          "start": 20.392,
+          "end": 20.892,
+          "char": 18,
+          "len": 6
+        },
+        {
+          "start": 20.904,
+          "end": 21.333,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 21.345,
+          "end": 21.761,
+          "char": 31,
+          "len": 6
+        },
+        {
+          "start": 21.773,
+          "end": 22.464,
+          "char": 38,
+          "len": 10
+        },
+        {
+          "start": 22.868,
+          "end": 23.023,
+          "char": 50,
+          "len": 6
+        },
+        {
+          "start": 23.035,
+          "end": 23.38,
+          "char": 57,
+          "len": 6
+        },
+        {
+          "start": 23.392,
+          "end": 23.523,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 23.535,
+          "end": 24.083,
+          "char": 69,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 24.827,
+      "to": 31.558,
+      "heading": "Maat Mons",
+      "text": "Maat Mons, the tallest volcano on Venus, towers eight kilometres above the average surface.",
+      "source": "Maat Mons, Wikipedia",
+      "beats": [
+        {
+          "word": "volcano",
+          "kind": "stamp",
+          "value": "TALLEST VOLCANO"
+        }
+      ],
+      "words": [
+        {
+          "start": 25.072,
+          "end": 25.287,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 25.298,
+          "end": 25.834,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 26.013,
+          "end": 26.12,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 26.132,
+          "end": 26.525,
+          "char": 15,
+          "len": 7
+        },
+        {
+          "start": 26.537,
+          "end": 27.108,
+          "char": 23,
+          "len": 7
+        },
+        {
+          "start": 27.12,
+          "end": 27.239,
+          "char": 31,
+          "len": 2
+        },
+        {
+          "start": 27.251,
+          "end": 27.751,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 27.977,
+          "end": 28.406,
+          "char": 41,
+          "len": 6
+        },
+        {
+          "start": 28.489,
+          "end": 28.667,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 28.679,
+          "end": 29.275,
+          "char": 54,
+          "len": 10
+        },
+        {
+          "start": 29.334,
+          "end": 29.739,
+          "char": 65,
+          "len": 5
+        },
+        {
+          "start": 29.751,
+          "end": 29.858,
+          "char": 71,
+          "len": 3
+        },
+        {
+          "start": 29.929,
+          "end": 30.227,
+          "char": 75,
+          "len": 7
+        },
+        {
+          "start": 30.239,
+          "end": 30.81,
+          "char": 83,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 31.558,
+      "to": 37.241,
+      "heading": "Aphrodite Terra",
+      "text": "And Aphrodite Terra, its biggest highland, covers about half the area of Africa.",
+      "source": "Aphrodite Terra, Wikipedia",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "\u00bd",
+          "label": "the size of Africa"
+        }
+      ],
+      "words": [
+        {
+          "start": 31.803,
+          "end": 31.958,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 31.97,
+          "end": 32.482,
+          "char": 4,
+          "len": 9
+        },
+        {
+          "start": 32.494,
+          "end": 32.91,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 33.137,
+          "end": 33.315,
+          "char": 21,
+          "len": 3
+        },
+        {
+          "start": 33.387,
+          "end": 33.732,
+          "char": 25,
+          "len": 7
+        },
+        {
+          "start": 33.744,
+          "end": 34.148,
+          "char": 33,
+          "len": 8
+        },
+        {
+          "start": 34.422,
+          "end": 34.732,
+          "char": 43,
+          "len": 6
+        },
+        {
+          "start": 34.744,
+          "end": 34.97,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 34.982,
+          "end": 35.327,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 35.339,
+          "end": 35.422,
+          "char": 61,
+          "len": 3
+        },
+        {
+          "start": 35.482,
+          "end": 35.863,
+          "char": 65,
+          "len": 4
+        },
+        {
+          "start": 35.875,
+          "end": 35.982,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 35.994,
+          "end": 36.494,
+          "char": 73,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 37.241,
+      "to": 46.447,
+      "heading": "The twist",
+      "text": "The twist? Venus is the hottest planet, around four hundred and sixty-seven degrees, though Mercury is nearly twice as close to the Sun.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "hottest",
+          "kind": "stamp",
+          "value": "BEATS MERCURY"
+        }
+      ],
+      "words": [
+        {
+          "start": 37.498,
+          "end": 37.546,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 37.558,
+          "end": 37.998,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 38.391,
+          "end": 38.843,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 38.951,
+          "end": 39.058,
+          "char": 17,
+          "len": 2
+        },
+        {
+          "start": 39.07,
+          "end": 39.153,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 39.165,
+          "end": 39.605,
+          "char": 24,
+          "len": 7
+        },
+        {
+          "start": 39.617,
+          "end": 39.998,
+          "char": 32,
+          "len": 6
+        },
+        {
+          "start": 40.331,
+          "end": 40.617,
+          "char": 40,
+          "len": 6
+        },
+        {
+          "start": 40.629,
+          "end": 40.915,
+          "char": 47,
+          "len": 4
+        },
+        {
+          "start": 40.927,
+          "end": 41.212,
+          "char": 52,
+          "len": 7
+        },
+        {
+          "start": 41.224,
+          "end": 41.296,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 41.308,
+          "end": 41.986,
+          "char": 64,
+          "len": 11
+        },
+        {
+          "start": 41.998,
+          "end": 42.534,
+          "char": 76,
+          "len": 7
+        },
+        {
+          "start": 42.82,
+          "end": 42.951,
+          "char": 85,
+          "len": 6
+        },
+        {
+          "start": 42.962,
+          "end": 43.51,
+          "char": 92,
+          "len": 7
+        },
+        {
+          "start": 43.617,
+          "end": 43.736,
+          "char": 100,
+          "len": 2
+        },
+        {
+          "start": 43.748,
+          "end": 44.141,
+          "char": 103,
+          "len": 6
+        },
+        {
+          "start": 44.153,
+          "end": 44.665,
+          "char": 110,
+          "len": 5
+        },
+        {
+          "start": 44.736,
+          "end": 44.831,
+          "char": 116,
+          "len": 2
+        },
+        {
+          "start": 44.843,
+          "end": 45.153,
+          "char": 119,
+          "len": 5
+        },
+        {
+          "start": 45.165,
+          "end": 45.236,
+          "char": 125,
+          "len": 2
+        },
+        {
+          "start": 45.248,
+          "end": 45.331,
+          "char": 128,
+          "len": 3
+        },
+        {
+          "start": 45.343,
+          "end": 45.7,
+          "char": 132,
+          "len": 3
+        }
+      ]
+    },
+    {
+      "from": 46.447,
+      "to": 56.341,
+      "heading": "Venera 13",
+      "text": "In 1982, the Soviet lander Venera 13 lasted just over two hours here, and recorded the first sounds from another planet.",
+      "source": "Venera 13, Wikipedia",
+      "beats": [
+        {
+          "word": "sounds",
+          "kind": "stat",
+          "value": "127 min",
+          "label": "survived on the surface"
+        }
+      ],
+      "words": [
+        {
+          "start": 46.692,
+          "end": 47.716,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 47.93,
+          "end": 48.014,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 48.026,
+          "end": 48.49,
+          "char": 13,
+          "len": 6
+        },
+        {
+          "start": 48.502,
+          "end": 48.811,
+          "char": 20,
+          "len": 6
+        },
+        {
+          "start": 48.823,
+          "end": 49.24,
+          "char": 27,
+          "len": 6
+        },
+        {
+          "start": 49.252,
+          "end": 49.811,
+          "char": 34,
+          "len": 2
+        },
+        {
+          "start": 49.823,
+          "end": 50.264,
+          "char": 37,
+          "len": 6
+        },
+        {
+          "start": 50.371,
+          "end": 50.609,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 50.621,
+          "end": 50.847,
+          "char": 49,
+          "len": 4
+        },
+        {
+          "start": 50.859,
+          "end": 51.121,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 51.133,
+          "end": 51.442,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 51.454,
+          "end": 51.74,
+          "char": 64,
+          "len": 4
+        },
+        {
+          "start": 52.097,
+          "end": 52.145,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 52.157,
+          "end": 52.573,
+          "char": 74,
+          "len": 8
+        },
+        {
+          "start": 52.585,
+          "end": 52.656,
+          "char": 83,
+          "len": 3
+        },
+        {
+          "start": 52.668,
+          "end": 53.097,
+          "char": 87,
+          "len": 5
+        },
+        {
+          "start": 53.109,
+          "end": 53.526,
+          "char": 93,
+          "len": 6
+        },
+        {
+          "start": 53.537,
+          "end": 53.68,
+          "char": 100,
+          "len": 4
+        },
+        {
+          "start": 53.692,
+          "end": 53.954,
+          "char": 105,
+          "len": 7
+        },
+        {
+          "start": 53.966,
+          "end": 54.395,
+          "char": 113,
+          "len": 6
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.465
+    },
+    {
+      "need": "whoosh",
+      "at": 4.149,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 19.095,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 31.747,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 37.504,
+      "align": "peak"
+    },
+    {
+      "need": "station_beep",
+      "at": 46.859
+    }
+  ],
+  "skit": {
+    "text": "Four hundred and sixty-seven degrees? Finally, a planet that runs hotter than my laptop.",
+    "mood": "gasp",
+    "action": "*fan spins up*",
+    "from": 56.341,
+    "to": 65.108,
+    "words": [
+      {
+        "start": 56.886,
+        "end": 57.123,
+        "char": 0,
+        "len": 4
+      },
+      {
+        "start": 57.134,
+        "end": 57.528,
+        "char": 5,
+        "len": 7
+      },
+      {
+        "start": 57.539,
+        "end": 57.674,
+        "char": 13,
+        "len": 3
+      },
+      {
+        "start": 57.686,
+        "end": 58.418,
+        "char": 17,
+        "len": 11
+      },
+      {
+        "start": 58.429,
+        "end": 59.003,
+        "char": 29,
+        "len": 7
+      },
+      {
+        "start": 59.78,
+        "end": 60.377,
+        "char": 38,
+        "len": 7
+      },
+      {
+        "start": 60.636,
+        "end": 60.692,
+        "char": 47,
+        "len": 1
+      },
+      {
+        "start": 60.704,
+        "end": 61.143,
+        "char": 49,
+        "len": 6
+      },
+      {
+        "start": 61.154,
+        "end": 61.368,
+        "char": 56,
+        "len": 4
+      },
+      {
+        "start": 61.379,
+        "end": 61.627,
+        "char": 61,
+        "len": 4
+      },
+      {
+        "start": 61.638,
+        "end": 62.021,
+        "char": 66,
+        "len": 6
+      },
+      {
+        "start": 62.032,
+        "end": 62.179,
+        "char": 73,
+        "len": 4
+      },
+      {
+        "start": 62.19,
+        "end": 62.325,
+        "char": 78,
+        "len": 2
+      },
+      {
+        "start": 62.337,
+        "end": 62.978,
+        "char": 81,
+        "len": 6
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you landed on the surface of Venus?",
+      "Venus is hotter than Mercury, and here's what's on it"
+    ],
+    "description": "A spin around Venus under its sulfuric acid clouds, from Maxwell Montes and Maat Mons to Aphrodite Terra, and why it's the hottest planet even though Mercury is closer to the Sun.",
+    "tags": [
+      "venus",
+      "venera 13",
+      "maxwell montes",
+      "planets",
+      "solar system",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Venus is about 12,104 km wide versus Earth's 12,756 km; its clouds are sulfuric acid; surface pressure is about 93 times Earth's, like being about 930 m underwater; at about 467 \u00b0C it is the hottest planet, hotter than Mercury; its average distance from the Sun is 108 million km",
+      "url": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "claim": "Mercury's average distance from the Sun is about 58 million km",
+      "url": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "claim": "Maxwell Montes, on Ishtar Terra at 65.2\u00b0 N 3.3\u00b0 E, is 11 km high",
+      "url": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+    },
+    {
+      "claim": "Mount Everest is 8,848.86 m high",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "claim": "Maat Mons, at 0.5\u00b0 N 194.6\u00b0 E, is the tallest volcano on Venus, rising 8 km above the mean planetary radius",
+      "url": "https://en.wikipedia.org/wiki/Maat_Mons"
+    },
+    {
+      "claim": "Aphrodite Terra, at 5.8\u00b0 S 104.8\u00b0 E, is about half the size of Africa, the largest of the terrae",
+      "url": "https://en.wikipedia.org/wiki/Aphrodite_Terra"
+    },
+    {
+      "claim": "Venera 13 landed on 1 March 1982 at 7.5\u00b0 S 303\u00b0 E, operated for at least 127 minutes and transmitted the first recording of sound from another planet",
+      "url": "https://en.wikipedia.org/wiki/Venera_13"
+    },
+    {
+      "claim": "Venus's mean radius is 6,051.8 km",
+      "url": "https://en.wikipedia.org/wiki/Venus"
+    }
+  ],
+  "seed": "venus-surface",
+  "voiceover": "audio/venus-surface.mp3",
+  "music": "audio/venus-surface_bed.mp3"
+}
