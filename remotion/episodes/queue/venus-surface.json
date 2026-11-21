@@ -1,0 +1,386 @@
+{
+  "template": "Orbit",
+  "title": "What's it like on the surface of Venus?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's it like on Venus?",
+    "flash": "467 °C",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.5,
+      0.05
+    ],
+    [
+      5.5,
+      0.3
+    ],
+    [
+      9,
+      0.3
+    ],
+    [
+      11,
+      0.35
+    ],
+    [
+      14,
+      0.35
+    ],
+    [
+      16,
+      0.72
+    ],
+    [
+      20.5,
+      0.7
+    ],
+    [
+      22.5,
+      0.75
+    ],
+    [
+      26.5,
+      0.72
+    ],
+    [
+      28.5,
+      0.75
+    ],
+    [
+      32.5,
+      0.72
+    ],
+    [
+      34.5,
+      0.45
+    ],
+    [
+      38.5,
+      0.45
+    ],
+    [
+      40.5,
+      0.3
+    ],
+    [
+      45.5,
+      0.3
+    ],
+    [
+      47.5,
+      0.7
+    ],
+    [
+      51,
+      0.6
+    ],
+    [
+      53,
+      0.1
+    ]
+  ],
+  "body": {
+    "kind": "venus",
+    "name": "Venus",
+    "glow": "#F2D9A0",
+    "radiusKm": 6051.8
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0,
+      "lon": 0,
+      "label": "Venus",
+      "value": "12,104 km",
+      "caption": "Wide"
+    },
+    {
+      "line": 2,
+      "lat": 30,
+      "lon": 60,
+      "label": "Cloud deck",
+      "value": "H₂SO₄",
+      "caption": "Sulfuric acid clouds"
+    },
+    {
+      "line": 3,
+      "lat": -10,
+      "lon": 120,
+      "label": "The surface",
+      "value": "93×",
+      "caption": "Earth's air pressure"
+    },
+    {
+      "line": 4,
+      "lat": 65.2,
+      "lon": 3.3,
+      "label": "Maxwell Montes",
+      "value": "11 km",
+      "caption": "High"
+    },
+    {
+      "line": 5,
+      "lat": 0.5,
+      "lon": -165.4,
+      "label": "Maat Mons",
+      "value": "8 km",
+      "caption": "Above average surface"
+    },
+    {
+      "line": 6,
+      "lat": -5.8,
+      "lon": 104.8,
+      "label": "Aphrodite Terra",
+      "value": "½ Africa",
+      "caption": "Highland area"
+    },
+    {
+      "line": 7,
+      "lat": 20,
+      "lon": -100,
+      "label": "Surface heat",
+      "value": "467 °C",
+      "caption": "Melts lead"
+    },
+    {
+      "line": 8,
+      "lat": -7.5,
+      "lon": -57,
+      "label": "Venera 13 landing",
+      "value": "1982",
+      "caption": "First sounds recorded"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "Venus",
+      "text": "You think Earth's summers are hot? Wait till you land on Venus."
+    },
+    {
+      "from": 3.5,
+      "to": 9,
+      "heading": "Earth's twin?",
+      "text": "Venus is almost Earth's twin in size, just a little smaller.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "twin",
+          "kind": "compare",
+          "compare": {
+            "name": "Earth",
+            "value": 12756,
+            "icon": "land",
+            "subject": "Venus",
+            "subjectValue": 12104,
+            "unit": "km wide",
+            "note": "Almost twins"
+          }
+        }
+      ]
+    },
+    {
+      "from": 9,
+      "to": 14,
+      "heading": "Acid clouds",
+      "text": "But its thick clouds are made of sulfuric acid.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "acid",
+          "kind": "warning",
+          "value": "ACID CLOUDS"
+        }
+      ]
+    },
+    {
+      "from": 14,
+      "to": 20.5,
+      "heading": "Crushing air",
+      "text": "At the surface, the air presses ninety-three times harder than on Earth. Like being nine hundred metres underwater.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "underwater",
+          "kind": "stat",
+          "value": "930 m",
+          "label": "deep in Earth's ocean"
+        }
+      ]
+    },
+    {
+      "from": 20.5,
+      "to": 26.5,
+      "heading": "Maxwell Montes",
+      "text": "Up north, Maxwell Montes rises eleven kilometres. That's higher than Everest.",
+      "source": "Maxwell Montes, Wikipedia",
+      "beats": [
+        {
+          "word": "Everest",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Maxwell Montes",
+            "subjectValue": 11,
+            "unit": "km",
+            "note": "Taller than Everest"
+          }
+        }
+      ]
+    },
+    {
+      "from": 26.5,
+      "to": 32.5,
+      "heading": "Maat Mons",
+      "text": "Maat Mons, the tallest volcano on Venus, towers eight kilometres above the average surface.",
+      "source": "Maat Mons, Wikipedia",
+      "beats": [
+        {
+          "word": "volcano",
+          "kind": "stamp",
+          "value": "TALLEST VOLCANO"
+        }
+      ]
+    },
+    {
+      "from": 32.5,
+      "to": 38.5,
+      "heading": "Aphrodite Terra",
+      "text": "And Aphrodite Terra, its biggest highland, covers about half the area of Africa.",
+      "source": "Aphrodite Terra, Wikipedia",
+      "beats": [
+        {
+          "word": "half",
+          "kind": "stat",
+          "value": "½",
+          "label": "the size of Africa"
+        }
+      ]
+    },
+    {
+      "from": 38.5,
+      "to": 45.5,
+      "heading": "The twist",
+      "text": "The twist? Venus is the hottest planet, around four hundred and sixty-seven degrees, though Mercury is nearly twice as close to the Sun.",
+      "source": "NASA Venus facts",
+      "beats": [
+        {
+          "word": "hottest",
+          "kind": "stamp",
+          "value": "BEATS MERCURY"
+        }
+      ]
+    },
+    {
+      "from": 45.5,
+      "to": 53,
+      "heading": "Venera 13",
+      "text": "In 1982, the Soviet lander Venera 13 lasted just over two hours here, and recorded the first sounds from another planet.",
+      "source": "Venera 13, Wikipedia",
+      "beats": [
+        {
+          "word": "sounds",
+          "kind": "stat",
+          "value": "127 min",
+          "label": "survived on the surface"
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.4
+    },
+    {
+      "need": "whoosh",
+      "at": 3.6,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 20.7,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 32.7,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 38.7,
+      "align": "peak"
+    },
+    {
+      "need": "station_beep",
+      "at": 46
+    }
+  ],
+  "skit": {
+    "text": "Four hundred and sixty-seven degrees? Finally, a planet that runs hotter than my laptop.",
+    "mood": "gasp",
+    "action": "*fan spins up*"
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you landed on the surface of Venus?",
+      "Venus is hotter than Mercury, and here's what's on it"
+    ],
+    "description": "A spin around Venus under its sulfuric acid clouds, from Maxwell Montes and Maat Mons to Aphrodite Terra, and why it's the hottest planet even though Mercury is closer to the Sun.",
+    "tags": [
+      "venus",
+      "venera 13",
+      "maxwell montes",
+      "planets",
+      "solar system",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Venus is about 12,104 km wide versus Earth's 12,756 km; its clouds are sulfuric acid; surface pressure is about 93 times Earth's, like being about 930 m underwater; at about 467 °C it is the hottest planet, hotter than Mercury; its average distance from the Sun is 108 million km",
+      "url": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "claim": "Mercury's average distance from the Sun is about 58 million km",
+      "url": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "claim": "Maxwell Montes, on Ishtar Terra at 65.2° N 3.3° E, is 11 km high",
+      "url": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+    },
+    {
+      "claim": "Mount Everest is 8,848.86 m high",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "claim": "Maat Mons, at 0.5° N 194.6° E, is the tallest volcano on Venus, rising 8 km above the mean planetary radius",
+      "url": "https://en.wikipedia.org/wiki/Maat_Mons"
+    },
+    {
+      "claim": "Aphrodite Terra, at 5.8° S 104.8° E, is about half the size of Africa, the largest of the terrae",
+      "url": "https://en.wikipedia.org/wiki/Aphrodite_Terra"
+    },
+    {
+      "claim": "Venera 13 landed on 1 March 1982 at 7.5° S 303° E, operated for at least 127 minutes and transmitted the first recording of sound from another planet",
+      "url": "https://en.wikipedia.org/wiki/Venera_13"
+    },
+    {
+      "claim": "Venus's mean radius is 6,051.8 km",
+      "url": "https://en.wikipedia.org/wiki/Venus"
+    }
+  ],
+  "seed": "venus-surface"
+}

@@ -235,7 +235,8 @@
       "title": "What's it like on the surface of Venus?",
       "format": "Orbit",
       "angle": "Spin round Venus past Maxwell Montes and its lava plains under thick clouds; the twist is that it's hotter than Mercury even though it's twice as far from the Sun.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-21"
     },
     {
       "slug": "rocket-to-the-iss",
