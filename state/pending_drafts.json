@@ -984,7 +984,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · venus-surface · 65s</i>\n\n<b>A:</b> What if you landed on the surface of Venus?\n<b>B:</b> Venus is hotter than Mercury, and here's what's on it\n\n✅ QC passed\n📅 Approving schedules it for <b>Sun 22 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1795283357.3431509
+    "status": "PUBLISHED",
+    "created_at": 1795283357.3431509,
+    "updated_at": 1795285510.5125039,
+    "title_used": "What if you landed on the surface of Venus?",
+    "video_id": "xHMOBMUB8nc",
+    "youtube_url": "https://youtube.com/shorts/xHMOBMUB8nc",
+    "scheduled_at": null
   }
 }
