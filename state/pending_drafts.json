@@ -1011,7 +1011,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · rocket-to-the-iss · 62s</i>\n\n<b>A:</b> What if you rode a rocket to the space station?\n<b>B:</b> From launch pad to space station in three hours\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 23 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1795369353.1192722
+    "status": "PUBLISHED",
+    "created_at": 1795369353.1192722,
+    "updated_at": 1795375875.4607172,
+    "title_used": "What if you rode a rocket to the space station?",
+    "video_id": "IwaDrQ3hcDc",
+    "youtube_url": "https://youtube.com/shorts/IwaDrQ3hcDc",
+    "scheduled_at": null
   }
 }
