@@ -243,7 +243,8 @@
       "title": "What if you rode a rocket to the space station?",
       "format": "Fall-up",
       "angle": "Rise past clouds, the ozone layer and the edge of space to the ISS about 400 km up; the twist is that you'd get there in a matter of hours, faster than many flights across an ocean.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-22"
     },
     {
       "slug": "sleep-like-a-dolphin",
