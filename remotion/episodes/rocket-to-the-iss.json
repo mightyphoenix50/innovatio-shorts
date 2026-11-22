@@ -1,0 +1,1274 @@
+{
+  "template": "Fall",
+  "direction": "up",
+  "pressureUnit": "percent",
+  "title": "What if you rode a rocket to the space station?",
+  "fps": 30,
+  "hook": {
+    "banner": "How fast can you get to space?",
+    "flash": "3 HOURS TO DOCK",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.718,
+      0
+    ],
+    [
+      7.352,
+      2000
+    ],
+    [
+      12.045,
+      4000
+    ],
+    [
+      13.873,
+      8849
+    ],
+    [
+      17.529,
+      10000
+    ],
+    [
+      19.491,
+      15000
+    ],
+    [
+      23.414,
+      35000
+    ],
+    [
+      25.129,
+      100000
+    ],
+    [
+      28.56,
+      150000
+    ],
+    [
+      30.598,
+      400000
+    ],
+    [
+      51.737,
+      400000
+    ]
+  ],
+  "maxDepth": 400000,
+  "fallAt": 3.718,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      8849,
+      900
+    ],
+    [
+      15000,
+      1500
+    ],
+    [
+      35000,
+      2100
+    ],
+    [
+      100000,
+      2900
+    ],
+    [
+      400000,
+      3800
+    ],
+    [
+      700000,
+      4500
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 11000,
+      "name": "Troposphere",
+      "colourTop": "#F2B896",
+      "colourBottom": "#A9C3DD",
+      "texture": "cloud"
+    },
+    {
+      "from": 11000,
+      "to": 50000,
+      "name": "Stratosphere",
+      "colourTop": "#A9C3DD",
+      "colourBottom": "#6474A8",
+      "texture": "ozone"
+    },
+    {
+      "from": 50000,
+      "to": 85000,
+      "name": "Mesosphere",
+      "colourTop": "#6474A8",
+      "colourBottom": "#3B3966",
+      "texture": "haze"
+    },
+    {
+      "from": 85000,
+      "to": 600000,
+      "name": "Thermosphere",
+      "colourTop": "#3B3966",
+      "colourBottom": "#141A33",
+      "texture": "aurora"
+    },
+    {
+      "from": 600000,
+      "to": 1000000,
+      "name": "Exosphere",
+      "colourTop": "#141A33",
+      "colourBottom": "#0B1020",
+      "texture": "stars"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 8849,
+      "kind": "mountain",
+      "label": "Everest \u00b7 8,849 m",
+      "side": "left"
+    },
+    {
+      "depth": 15000,
+      "kind": "boundary",
+      "label": "Ozone layer begins \u00b7 15 km",
+      "side": "right"
+    },
+    {
+      "depth": 100000,
+      "kind": "boundary",
+      "label": "K\u00e1rm\u00e1n line \u00b7 100 km",
+      "side": "left"
+    },
+    {
+      "depth": 400000,
+      "kind": "station",
+      "label": "Space Station \u00b7 ~400 km",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      15
+    ],
+    [
+      8849,
+      -37
+    ],
+    [
+      11000,
+      -56
+    ],
+    [
+      20000,
+      -56
+    ],
+    [
+      47000,
+      -2
+    ],
+    [
+      85000,
+      -86
+    ],
+    [
+      150000,
+      600
+    ],
+    [
+      400000,
+      1000
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      100
+    ],
+    [
+      8849,
+      33
+    ],
+    [
+      15000,
+      12
+    ],
+    [
+      35000,
+      0.6
+    ],
+    [
+      100000,
+      3e-05
+    ],
+    [
+      400000,
+      1e-10
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 5.005,
+      "heading": "Strapped in",
+      "text": "You're strapped into a rocket. In about three hours, you'll be living in space.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.329,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.34,
+          "end": 0.733,
+          "char": 7,
+          "len": 8
+        },
+        {
+          "start": 0.745,
+          "end": 0.96,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 0.971,
+          "end": 1.019,
+          "char": 21,
+          "len": 1
+        },
+        {
+          "start": 1.031,
+          "end": 1.46,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 1.852,
+          "end": 1.912,
+          "char": 31,
+          "len": 2
+        },
+        {
+          "start": 1.924,
+          "end": 2.162,
+          "char": 34,
+          "len": 5
+        },
+        {
+          "start": 2.174,
+          "end": 2.448,
+          "char": 40,
+          "len": 5
+        },
+        {
+          "start": 2.46,
+          "end": 2.888,
+          "char": 46,
+          "len": 5
+        },
+        {
+          "start": 3.102,
+          "end": 3.209,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 3.221,
+          "end": 3.329,
+          "char": 60,
+          "len": 2
+        },
+        {
+          "start": 3.34,
+          "end": 3.59,
+          "char": 63,
+          "len": 6
+        },
+        {
+          "start": 3.602,
+          "end": 3.686,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 3.698,
+          "end": 4.269,
+          "char": 73,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 5.005,
+      "to": 12.045,
+      "heading": "Lift-off",
+      "text": "October 2020: the Soyuz MS-17 rocket lifts off for the International Space Station.",
+      "source": "Soyuz MS-17, Wikipedia",
+      "beats": [
+        {
+          "word": "lifts",
+          "kind": "stamp",
+          "value": "LIFT-OFF"
+        }
+      ],
+      "words": [
+        {
+          "start": 5.25,
+          "end": 6.322,
+          "char": 0,
+          "len": 12
+        },
+        {
+          "start": 6.619,
+          "end": 6.715,
+          "char": 14,
+          "len": 3
+        },
+        {
+          "start": 6.726,
+          "end": 7.334,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 7.453,
+          "end": 8.655,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 8.667,
+          "end": 9.012,
+          "char": 30,
+          "len": 6
+        },
+        {
+          "start": 9.024,
+          "end": 9.322,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 9.334,
+          "end": 9.655,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 9.738,
+          "end": 9.857,
+          "char": 47,
+          "len": 3
+        },
+        {
+          "start": 9.869,
+          "end": 9.953,
+          "char": 51,
+          "len": 3
+        },
+        {
+          "start": 9.965,
+          "end": 10.536,
+          "char": 55,
+          "len": 13
+        },
+        {
+          "start": 10.548,
+          "end": 10.846,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 10.857,
+          "end": 11.298,
+          "char": 75,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 12.045,
+      "to": 17.529,
+      "heading": "8.8 km up",
+      "text": "Eight thousand eight hundred and forty-nine metres. You've already passed the top of Everest.",
+      "source": "Mount Everest, Wikipedia",
+      "beats": [
+        {
+          "word": "Everest",
+          "kind": "stamp",
+          "value": "ABOVE EVEREST"
+        }
+      ],
+      "words": [
+        {
+          "start": 12.29,
+          "end": 12.445,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 12.457,
+          "end": 12.909,
+          "char": 6,
+          "len": 8
+        },
+        {
+          "start": 13.064,
+          "end": 13.183,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 13.195,
+          "end": 13.505,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 13.516,
+          "end": 13.576,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 13.588,
+          "end": 14.159,
+          "char": 33,
+          "len": 10
+        },
+        {
+          "start": 14.171,
+          "end": 14.659,
+          "char": 44,
+          "len": 6
+        },
+        {
+          "start": 15.052,
+          "end": 15.183,
+          "char": 52,
+          "len": 6
+        },
+        {
+          "start": 15.195,
+          "end": 15.457,
+          "char": 59,
+          "len": 7
+        },
+        {
+          "start": 15.469,
+          "end": 15.838,
+          "char": 67,
+          "len": 6
+        },
+        {
+          "start": 15.85,
+          "end": 15.921,
+          "char": 74,
+          "len": 3
+        },
+        {
+          "start": 15.933,
+          "end": 16.159,
+          "char": 78,
+          "len": 3
+        },
+        {
+          "start": 16.171,
+          "end": 16.255,
+          "char": 82,
+          "len": 2
+        },
+        {
+          "start": 16.266,
+          "end": 16.79,
+          "char": 85,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 17.529,
+      "to": 23.414,
+      "heading": "Ozone layer",
+      "text": "Fifteen to thirty-five kilometres up, you shoot through the ozone layer, Earth's sunscreen.",
+      "source": "Ozone layer, Wikipedia",
+      "beats": [
+        {
+          "word": "sunscreen",
+          "kind": "stat",
+          "value": "97\u201399%",
+          "label": "of medium UV absorbed"
+        }
+      ],
+      "words": [
+        {
+          "start": 17.834,
+          "end": 18.215,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 18.227,
+          "end": 18.322,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 18.334,
+          "end": 18.988,
+          "char": 11,
+          "len": 11
+        },
+        {
+          "start": 19.0,
+          "end": 19.524,
+          "char": 23,
+          "len": 10
+        },
+        {
+          "start": 19.536,
+          "end": 19.75,
+          "char": 34,
+          "len": 2
+        },
+        {
+          "start": 20.024,
+          "end": 20.143,
+          "char": 38,
+          "len": 3
+        },
+        {
+          "start": 20.155,
+          "end": 20.489,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 20.5,
+          "end": 20.679,
+          "char": 48,
+          "len": 7
+        },
+        {
+          "start": 20.691,
+          "end": 20.822,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 20.834,
+          "end": 21.203,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 21.215,
+          "end": 21.536,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 21.917,
+          "end": 22.119,
+          "char": 73,
+          "len": 7
+        },
+        {
+          "start": 22.131,
+          "end": 22.667,
+          "char": 81,
+          "len": 9
+        }
+      ]
+    },
+    {
+      "from": 23.414,
+      "to": 28.56,
+      "heading": "K\u00e1rm\u00e1n line",
+      "text": "One hundred kilometres: the K\u00e1rm\u00e1n line. Officially, you're now in space.",
+      "source": "K\u00e1rm\u00e1n line, Wikipedia",
+      "beats": [
+        {
+          "word": "space",
+          "kind": "stamp",
+          "value": "WELCOME TO SPACE"
+        }
+      ],
+      "words": [
+        {
+          "start": 23.671,
+          "end": 23.766,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 23.778,
+          "end": 24.076,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 24.088,
+          "end": 24.766,
+          "char": 12,
+          "len": 10
+        },
+        {
+          "start": 24.957,
+          "end": 25.052,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 25.064,
+          "end": 25.433,
+          "char": 28,
+          "len": 6
+        },
+        {
+          "start": 25.445,
+          "end": 25.731,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 26.124,
+          "end": 26.624,
+          "char": 41,
+          "len": 10
+        },
+        {
+          "start": 26.921,
+          "end": 26.981,
+          "char": 53,
+          "len": 6
+        },
+        {
+          "start": 26.993,
+          "end": 27.195,
+          "char": 60,
+          "len": 3
+        },
+        {
+          "start": 27.207,
+          "end": 27.278,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 27.29,
+          "end": 27.814,
+          "char": 67,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 28.56,
+      "to": 34.675,
+      "heading": "The station",
+      "text": "The station orbits about four hundred kilometres up. It's almost as long as an American football field.",
+      "source": "NASA Space Station facts",
+      "beats": [
+        {
+          "word": "football",
+          "kind": "stat",
+          "value": "109 m",
+          "label": "end to end"
+        }
+      ],
+      "words": [
+        {
+          "start": 28.817,
+          "end": 28.865,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 28.877,
+          "end": 29.281,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 29.293,
+          "end": 29.615,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 29.627,
+          "end": 29.877,
+          "char": 19,
+          "len": 5
+        },
+        {
+          "start": 29.889,
+          "end": 30.21,
+          "char": 25,
+          "len": 4
+        },
+        {
+          "start": 30.222,
+          "end": 30.508,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 30.52,
+          "end": 31.067,
+          "char": 38,
+          "len": 10
+        },
+        {
+          "start": 31.079,
+          "end": 31.317,
+          "char": 49,
+          "len": 2
+        },
+        {
+          "start": 31.71,
+          "end": 31.805,
+          "char": 53,
+          "len": 4
+        },
+        {
+          "start": 31.817,
+          "end": 32.162,
+          "char": 58,
+          "len": 6
+        },
+        {
+          "start": 32.174,
+          "end": 32.27,
+          "char": 65,
+          "len": 2
+        },
+        {
+          "start": 32.281,
+          "end": 32.603,
+          "char": 68,
+          "len": 4
+        },
+        {
+          "start": 32.615,
+          "end": 32.698,
+          "char": 73,
+          "len": 2
+        },
+        {
+          "start": 32.71,
+          "end": 32.77,
+          "char": 76,
+          "len": 2
+        },
+        {
+          "start": 32.781,
+          "end": 33.139,
+          "char": 79,
+          "len": 8
+        },
+        {
+          "start": 33.15,
+          "end": 33.531,
+          "char": 88,
+          "len": 8
+        },
+        {
+          "start": 33.543,
+          "end": 33.936,
+          "char": 97,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 34.675,
+      "to": 40.447,
+      "heading": "Racing",
+      "text": "It races along at about eight kilometres a second, circling Earth every ninety minutes.",
+      "source": "NASA Space Station facts",
+      "beats": [
+        {
+          "word": "eight",
+          "kind": "stat",
+          "value": "8 km/s",
+          "label": "orbital speed"
+        }
+      ],
+      "words": [
+        {
+          "start": 34.92,
+          "end": 35.063,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 35.075,
+          "end": 35.396,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 35.408,
+          "end": 35.825,
+          "char": 9,
+          "len": 5
+        },
+        {
+          "start": 35.837,
+          "end": 35.908,
+          "char": 15,
+          "len": 2
+        },
+        {
+          "start": 35.92,
+          "end": 36.17,
+          "char": 18,
+          "len": 5
+        },
+        {
+          "start": 36.254,
+          "end": 36.432,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 36.444,
+          "end": 37.004,
+          "char": 30,
+          "len": 10
+        },
+        {
+          "start": 37.015,
+          "end": 37.063,
+          "char": 41,
+          "len": 1
+        },
+        {
+          "start": 37.075,
+          "end": 37.504,
+          "char": 43,
+          "len": 6
+        },
+        {
+          "start": 37.801,
+          "end": 38.242,
+          "char": 51,
+          "len": 8
+        },
+        {
+          "start": 38.254,
+          "end": 38.504,
+          "char": 60,
+          "len": 5
+        },
+        {
+          "start": 38.658,
+          "end": 38.896,
+          "char": 66,
+          "len": 5
+        },
+        {
+          "start": 38.908,
+          "end": 39.218,
+          "char": 72,
+          "len": 6
+        },
+        {
+          "start": 39.23,
+          "end": 39.706,
+          "char": 79,
+          "len": 7
+        }
+      ]
+    },
+    {
+      "from": 40.447,
+      "to": 47.783,
+      "heading": "The twist",
+      "text": "The twist? Soyuz MS-17 docked about three hours after lift-off. Space is closer than you think.",
+      "source": "Soyuz MS-17, Wikipedia",
+      "beats": [
+        {
+          "word": "three",
+          "kind": "stamp",
+          "value": "3 HOURS TO DOCK"
+        }
+      ],
+      "words": [
+        {
+          "start": 40.704,
+          "end": 40.752,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 40.764,
+          "end": 41.204,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 41.609,
+          "end": 42.073,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 42.085,
+          "end": 43.204,
+          "char": 17,
+          "len": 5
+        },
+        {
+          "start": 43.216,
+          "end": 43.502,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 43.514,
+          "end": 43.764,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 43.776,
+          "end": 44.145,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 44.157,
+          "end": 44.502,
+          "char": 42,
+          "len": 5
+        },
+        {
+          "start": 44.514,
+          "end": 44.764,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 44.776,
+          "end": 45.252,
+          "char": 54,
+          "len": 8
+        },
+        {
+          "start": 45.645,
+          "end": 45.954,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 45.966,
+          "end": 46.061,
+          "char": 70,
+          "len": 2
+        },
+        {
+          "start": 46.073,
+          "end": 46.418,
+          "char": 73,
+          "len": 6
+        },
+        {
+          "start": 46.43,
+          "end": 46.549,
+          "char": 80,
+          "len": 4
+        },
+        {
+          "start": 46.561,
+          "end": 46.633,
+          "char": 85,
+          "len": 3
+        },
+        {
+          "start": 46.645,
+          "end": 47.038,
+          "char": 89,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 47.783,
+      "to": 54.475,
+      "heading": "Sunrises",
+      "text": "And up there, you'd see sixteen sunrises every single day. Would you take the ride?",
+      "source": "NASA Space Station facts",
+      "beats": [
+        {
+          "word": "sixteen",
+          "kind": "stat",
+          "value": "16",
+          "label": "sunrises a day"
+        }
+      ],
+      "words": [
+        {
+          "start": 48.028,
+          "end": 48.147,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 48.159,
+          "end": 48.29,
+          "char": 4,
+          "len": 2
+        },
+        {
+          "start": 48.302,
+          "end": 48.528,
+          "char": 7,
+          "len": 5
+        },
+        {
+          "start": 48.921,
+          "end": 49.04,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 49.052,
+          "end": 49.231,
+          "char": 20,
+          "len": 3
+        },
+        {
+          "start": 49.243,
+          "end": 49.707,
+          "char": 24,
+          "len": 7
+        },
+        {
+          "start": 49.719,
+          "end": 50.385,
+          "char": 32,
+          "len": 8
+        },
+        {
+          "start": 50.528,
+          "end": 50.778,
+          "char": 41,
+          "len": 5
+        },
+        {
+          "start": 50.79,
+          "end": 51.076,
+          "char": 47,
+          "len": 6
+        },
+        {
+          "start": 51.088,
+          "end": 51.373,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 51.766,
+          "end": 51.873,
+          "char": 59,
+          "len": 5
+        },
+        {
+          "start": 51.885,
+          "end": 51.945,
+          "char": 65,
+          "len": 3
+        },
+        {
+          "start": 51.957,
+          "end": 52.147,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 52.159,
+          "end": 52.219,
+          "char": 74,
+          "len": 3
+        },
+        {
+          "start": 52.231,
+          "end": 52.528,
+          "char": 78,
+          "len": 4
+        }
+      ]
+    }
+  ],
+  "diagramAt": 47.783,
+  "diagram": {
+    "kind": "atmosphere",
+    "start": "The air, to scale",
+    "end": "Space Station \u00b7 ~400 km",
+    "timer": "Launch to dock: ~3 h",
+    "speed": "Orbit: 8 km/s"
+  },
+  "sfx": [
+    {
+      "need": "rock_rumble",
+      "at": "fallAt"
+    },
+    {
+      "need": "fall_wind",
+      "at": 5.592,
+      "align": "attack"
+    },
+    {
+      "need": "whoosh",
+      "at": 23.586,
+      "align": "peak"
+    },
+    {
+      "need": "station_beep",
+      "at": "depth:400000"
+    },
+    {
+      "need": "whoosh",
+      "at": "diagramAt",
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Three hours to space? It takes me longer to install updates.",
+    "mood": "gasp",
+    "action": "*impatient beep*",
+    "from": 54.475,
+    "to": 61.71,
+    "words": [
+      {
+        "start": 55.02,
+        "end": 55.324,
+        "char": 0,
+        "len": 5
+      },
+      {
+        "start": 55.335,
+        "end": 55.73,
+        "char": 6,
+        "len": 5
+      },
+      {
+        "start": 55.741,
+        "end": 55.842,
+        "char": 12,
+        "len": 2
+      },
+      {
+        "start": 55.853,
+        "end": 56.383,
+        "char": 15,
+        "len": 5
+      },
+      {
+        "start": 57.16,
+        "end": 57.329,
+        "char": 22,
+        "len": 2
+      },
+      {
+        "start": 57.34,
+        "end": 57.633,
+        "char": 25,
+        "len": 5
+      },
+      {
+        "start": 57.644,
+        "end": 57.779,
+        "char": 31,
+        "len": 2
+      },
+      {
+        "start": 57.79,
+        "end": 58.23,
+        "char": 34,
+        "len": 6
+      },
+      {
+        "start": 58.241,
+        "end": 58.398,
+        "char": 41,
+        "len": 2
+      },
+      {
+        "start": 58.41,
+        "end": 58.939,
+        "char": 44,
+        "len": 7
+      },
+      {
+        "start": 58.95,
+        "end": 59.581,
+        "char": 52,
+        "len": 7
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you rode a rocket to the space station?",
+      "From launch pad to space station in three hours"
+    ],
+    "description": "Ride Soyuz MS-17 past Everest, the ozone layer and the K\u00e1rm\u00e1n line to the International Space Station, 400 km up, which it reached about three hours after lift-off.",
+    "tags": [
+      "space station",
+      "iss",
+      "soyuz",
+      "rocket launch",
+      "karman line",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Soyuz MS-17 launched on 14 October 2020 at 05:45 UTC and docked at 08:48 UTC, arriving at the ISS about three hours after launch",
+      "url": "https://en.wikipedia.org/wiki/Soyuz_MS-17"
+    },
+    {
+      "claim": "Mount Everest is 8,848.86 m high",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "claim": "The ozone layer lies about 15\u201335 km up and absorbs 97\u201399% of the Sun's medium-frequency ultraviolet light",
+      "url": "https://en.wikipedia.org/wiki/Ozone_layer"
+    },
+    {
+      "claim": "The FAI defines the K\u00e1rm\u00e1n line at 100 km, the boundary between aeronautics and astronautics",
+      "url": "https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line"
+    },
+    {
+      "claim": "The ISS orbits about 400 km above Earth",
+      "url": "https://en.wikipedia.org/wiki/International_Space_Station"
+    },
+    {
+      "claim": "The station travels at five miles (about 8 km) per second, orbits Earth about every 90 minutes, makes 16 orbits and sees 16 sunrises a day, and is 109 m end to end, a yard shy of an American football field",
+      "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"
+    }
+  ],
+  "seed": "rocket-to-the-iss",
+  "voiceover": "audio/rocket-to-the-iss.mp3",
+  "music": "audio/rocket-to-the-iss_bed.mp3"
+}

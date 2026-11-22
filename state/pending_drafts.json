@@ -991,5 +991,27 @@
     "video_id": "xHMOBMUB8nc",
     "youtube_url": "https://youtube.com/shorts/xHMOBMUB8nc",
     "scheduled_at": null
+  },
+  "96": {
+    "episode": "rocket-to-the-iss",
+    "video_path": "output/drafts/rocket-to-the-iss.mp4",
+    "titles": [
+      "What if you rode a rocket to the space station?",
+      "From launch pad to space station in three hours"
+    ],
+    "description": "Ride Soyuz MS-17 past Everest, the ozone layer and the Kármán line to the International Space Station, 400 km up, which it reached about three hours after lift-off.\n\nSources:\n- Soyuz MS-17 launched on 14 October 2020 at 05:45 UTC and docked at 08:48 UTC, arriving at the ISS about three hours after launch: https://en.wikipedia.org/wiki/Soyuz_MS-17\n- Mount Everest is 8,848.86 m high: https://en.wikipedia.org/wiki/Mount_Everest\n- The ozone layer lies about 15–35 km up and absorbs 97–99% of the Sun's medium-frequency ultraviolet light: https://en.wikipedia.org/wiki/Ozone_layer\n- The FAI defines the Kármán line at 100 km, the boundary between aeronautics and astronautics: https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line\n- The ISS orbits about 400 km above Earth: https://en.wikipedia.org/wiki/International_Space_Station\n- The station travels at five miles (about 8 km) per second, orbits Earth about every 90 minutes, makes 16 orbits and sees 16 sunrises a day, and is 109 m end to end, a yard shy of an American football field: https://www.nasa.gov/international-space-station/space-station-facts-and-figures/\n\nSound effects:\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "space station",
+      "iss",
+      "soyuz",
+      "rocket launch",
+      "karman line",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · rocket-to-the-iss · 62s</i>\n\n<b>A:</b> What if you rode a rocket to the space station?\n<b>B:</b> From launch pad to space station in three hours\n\n✅ QC passed\n📅 Approving schedules it for <b>Mon 23 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795369353.1192722
   }
 }
