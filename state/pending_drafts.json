@@ -1038,7 +1038,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · sleep-like-a-dolphin · 58s</i>\n\n<b>A:</b> What if you slept like a dolphin, half your brain at a time?\n<b>B:</b> Dolphins sleep with half their brain, and so do you, sometimes\n\n✅ QC passed\n📅 Approving schedules it for <b>Tue 24 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1795456390.451751
+    "status": "PUBLISHED",
+    "created_at": 1795456390.451751,
+    "updated_at": 1795456433.2028036,
+    "title_used": "What if you slept like a dolphin, half your brain at a time?",
+    "video_id": "M12W9YJgSNo",
+    "youtube_url": "https://youtube.com/shorts/M12W9YJgSNo",
+    "scheduled_at": null
   }
 }
