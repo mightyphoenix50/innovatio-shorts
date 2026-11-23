@@ -1018,5 +1018,27 @@
     "video_id": "IwaDrQ3hcDc",
     "youtube_url": "https://youtube.com/shorts/IwaDrQ3hcDc",
     "scheduled_at": null
+  },
+  "98": {
+    "episode": "sleep-like-a-dolphin",
+    "video_path": "output/drafts/sleep-like-a-dolphin.mp4",
+    "titles": [
+      "What if you slept like a dolphin, half your brain at a time?",
+      "Dolphins sleep with half their brain, and so do you, sometimes"
+    ],
+    "description": "How dolphins and some birds sleep with one half of the brain while the other half keeps watch, and the night your own brain does something similar.\n\nSources:\n- Bottlenose dolphins are voluntary breathers who must deliberately surface to breathe; while they sleep one brain hemisphere stays active while the other shuts down; they sleep about 8 hours a day in short increments, swimming slowly near the surface: https://en.wikipedia.org/wiki/Bottlenose_dolphin\n- In birds sleeping with one hemisphere, the open eye is on the opposite side to the awake hemisphere; birds use it more as predation risk rises; frigatebirds sleep mostly while circling air currents in flight: https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep\n- On the first night in a new place, a network in the left hemisphere stayed more active during deep sleep, and irregular beeps in the right ear led to faster waking (Tamaki et al., Current Biology 2016): https://www.brown.edu/news/2016-04-21/sleep\n\nSound effects:\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "dolphins",
+      "sleep",
+      "unihemispheric sleep",
+      "frigatebird",
+      "brain",
+      "biology",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · sleep-like-a-dolphin · 58s</i>\n\n<b>A:</b> What if you slept like a dolphin, half your brain at a time?\n<b>B:</b> Dolphins sleep with half their brain, and so do you, sometimes\n\n✅ QC passed\n📅 Approving schedules it for <b>Tue 24 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795456390.451751
   }
 }
