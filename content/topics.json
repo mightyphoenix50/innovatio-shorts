@@ -251,7 +251,8 @@
       "title": "What if you slept like a dolphin, half your brain at a time?",
       "format": "Story",
       "angle": "You could sleep with one eye open while the other half of your brain keeps watch; the twist is that some birds do it in flight.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-23"
     },
     {
       "slug": "dead-stars-to-scale",
