@@ -1,0 +1,1229 @@
+{
+  "template": "Scale",
+  "title": "How small can a star get?",
+  "fps": 30,
+  "objects": [
+    {
+      "line": 0,
+      "name": "Neutron star",
+      "value": "~20 km",
+      "caption": "WIDE",
+      "kind": "star",
+      "radiusKm": 10,
+      "colours": [
+        "#E8F4FF",
+        "#9CC8FF",
+        "#4F7FE0"
+      ]
+    },
+    {
+      "line": 3,
+      "name": "The Moon",
+      "value": "3,475 km",
+      "caption": "WIDE",
+      "kind": "moon",
+      "radiusKm": 1737.4
+    },
+    {
+      "line": 4,
+      "name": "Sirius B",
+      "value": "11,268 km",
+      "caption": "WIDE",
+      "kind": "star",
+      "radiusKm": 5634,
+      "colours": [
+        "#FFFFFF",
+        "#DCE8FF",
+        "#9CB8F0"
+      ]
+    },
+    {
+      "line": 6,
+      "name": "Earth",
+      "value": "12,756 km",
+      "caption": "WIDE",
+      "kind": "earth",
+      "radiusKm": 6378,
+      "glow": "#7EC8F0"
+    },
+    {
+      "line": 7,
+      "name": "The Sun",
+      "value": "1.39M km",
+      "caption": "WIDE",
+      "kind": "star",
+      "radiusKm": 696000
+    }
+  ],
+  "narration": [
+    {
+      "from": 0.0,
+      "to": 4.262,
+      "heading": "Tiny stars",
+      "text": "You think stars are giant balls of fire? Some dead ones are tiny.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.352,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 0.364,
+          "end": 0.531,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 0.543,
+          "end": 0.888,
+          "char": 10,
+          "len": 5
+        },
+        {
+          "start": 0.9,
+          "end": 0.983,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 0.995,
+          "end": 1.329,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 1.34,
+          "end": 1.614,
+          "char": 26,
+          "len": 5
+        },
+        {
+          "start": 1.626,
+          "end": 1.698,
+          "char": 32,
+          "len": 2
+        },
+        {
+          "start": 1.71,
+          "end": 2.102,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 2.495,
+          "end": 2.662,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 2.674,
+          "end": 2.852,
+          "char": 46,
+          "len": 4
+        },
+        {
+          "start": 2.864,
+          "end": 3.043,
+          "char": 51,
+          "len": 4
+        },
+        {
+          "start": 3.055,
+          "end": 3.126,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 3.138,
+          "end": 3.519,
+          "char": 60,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 4.262,
+      "to": 11.052,
+      "heading": "Neutron star",
+      "text": "This is a neutron star, the crushed core left by a supernova. It's only about twenty kilometres wide.",
+      "source": "Neutron star, Wikipedia",
+      "beats": [
+        {
+          "word": "supernova",
+          "kind": "stamp",
+          "value": "SUPERNOVA LEFTOVER"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.507,
+          "end": 4.722,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 4.733,
+          "end": 4.841,
+          "char": 5,
+          "len": 2
+        },
+        {
+          "start": 4.852,
+          "end": 4.888,
+          "char": 8,
+          "len": 1
+        },
+        {
+          "start": 4.9,
+          "end": 5.412,
+          "char": 10,
+          "len": 7
+        },
+        {
+          "start": 5.424,
+          "end": 5.829,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 6.067,
+          "end": 6.15,
+          "char": 24,
+          "len": 3
+        },
+        {
+          "start": 6.162,
+          "end": 6.472,
+          "char": 28,
+          "len": 7
+        },
+        {
+          "start": 6.483,
+          "end": 6.721,
+          "char": 36,
+          "len": 4
+        },
+        {
+          "start": 6.733,
+          "end": 7.067,
+          "char": 41,
+          "len": 4
+        },
+        {
+          "start": 7.079,
+          "end": 7.21,
+          "char": 46,
+          "len": 2
+        },
+        {
+          "start": 7.222,
+          "end": 7.281,
+          "char": 49,
+          "len": 1
+        },
+        {
+          "start": 7.293,
+          "end": 7.972,
+          "char": 51,
+          "len": 9
+        },
+        {
+          "start": 8.376,
+          "end": 8.495,
+          "char": 62,
+          "len": 4
+        },
+        {
+          "start": 8.507,
+          "end": 8.757,
+          "char": 67,
+          "len": 4
+        },
+        {
+          "start": 8.769,
+          "end": 8.995,
+          "char": 72,
+          "len": 5
+        },
+        {
+          "start": 9.007,
+          "end": 9.341,
+          "char": 78,
+          "len": 6
+        },
+        {
+          "start": 9.352,
+          "end": 9.924,
+          "char": 85,
+          "len": 10
+        },
+        {
+          "start": 9.936,
+          "end": 10.305,
+          "char": 96,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 11.052,
+      "to": 15.414,
+      "heading": "Spinning",
+      "text": "The fastest one known spins over seven hundred times a second.",
+      "source": "Neutron star, Wikipedia",
+      "beats": [
+        {
+          "word": "seven",
+          "kind": "stat",
+          "value": "716/s",
+          "label": "fastest known spin"
+        }
+      ],
+      "words": [
+        {
+          "start": 11.309,
+          "end": 11.357,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 11.369,
+          "end": 11.928,
+          "char": 4,
+          "len": 7
+        },
+        {
+          "start": 11.94,
+          "end": 12.202,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 12.214,
+          "end": 12.464,
+          "char": 16,
+          "len": 5
+        },
+        {
+          "start": 12.476,
+          "end": 13.023,
+          "char": 22,
+          "len": 5
+        },
+        {
+          "start": 13.035,
+          "end": 13.25,
+          "char": 28,
+          "len": 4
+        },
+        {
+          "start": 13.262,
+          "end": 13.583,
+          "char": 33,
+          "len": 5
+        },
+        {
+          "start": 13.595,
+          "end": 13.869,
+          "char": 39,
+          "len": 7
+        },
+        {
+          "start": 13.881,
+          "end": 14.166,
+          "char": 47,
+          "len": 5
+        },
+        {
+          "start": 14.178,
+          "end": 14.214,
+          "char": 53,
+          "len": 1
+        },
+        {
+          "start": 14.226,
+          "end": 14.666,
+          "char": 55,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 15.414,
+      "to": 20.394,
+      "heading": "The Moon",
+      "text": "Our Moon is far bigger, about three and a half thousand kilometres across.",
+      "source": "Moon, Wikipedia",
+      "words": [
+        {
+          "start": 15.659,
+          "end": 15.766,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 15.778,
+          "end": 16.028,
+          "char": 4,
+          "len": 4
+        },
+        {
+          "start": 16.04,
+          "end": 16.147,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 16.159,
+          "end": 16.433,
+          "char": 12,
+          "len": 3
+        },
+        {
+          "start": 16.445,
+          "end": 16.826,
+          "char": 16,
+          "len": 6
+        },
+        {
+          "start": 17.028,
+          "end": 17.278,
+          "char": 24,
+          "len": 5
+        },
+        {
+          "start": 17.29,
+          "end": 17.707,
+          "char": 30,
+          "len": 5
+        },
+        {
+          "start": 17.719,
+          "end": 17.814,
+          "char": 36,
+          "len": 3
+        },
+        {
+          "start": 17.826,
+          "end": 17.874,
+          "char": 40,
+          "len": 1
+        },
+        {
+          "start": 17.885,
+          "end": 18.231,
+          "char": 42,
+          "len": 4
+        },
+        {
+          "start": 18.243,
+          "end": 18.6,
+          "char": 47,
+          "len": 8
+        },
+        {
+          "start": 18.612,
+          "end": 19.1,
+          "char": 56,
+          "len": 10
+        },
+        {
+          "start": 19.112,
+          "end": 19.647,
+          "char": 67,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 20.394,
+      "to": 25.646,
+      "heading": "Sirius B",
+      "text": "Sirius B is a white dwarf, another dead star, a little smaller than Earth.",
+      "source": "Sirius, Wikipedia",
+      "beats": [
+        {
+          "word": "dwarf",
+          "kind": "stamp",
+          "value": "WHITE DWARF"
+        }
+      ],
+      "words": [
+        {
+          "start": 20.651,
+          "end": 21.127,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 21.139,
+          "end": 21.496,
+          "char": 7,
+          "len": 1
+        },
+        {
+          "start": 21.508,
+          "end": 21.615,
+          "char": 9,
+          "len": 2
+        },
+        {
+          "start": 21.627,
+          "end": 21.687,
+          "char": 12,
+          "len": 1
+        },
+        {
+          "start": 21.699,
+          "end": 22.008,
+          "char": 14,
+          "len": 5
+        },
+        {
+          "start": 22.02,
+          "end": 22.449,
+          "char": 20,
+          "len": 5
+        },
+        {
+          "start": 22.639,
+          "end": 22.925,
+          "char": 27,
+          "len": 7
+        },
+        {
+          "start": 22.937,
+          "end": 23.127,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 23.139,
+          "end": 23.508,
+          "char": 40,
+          "len": 4
+        },
+        {
+          "start": 23.734,
+          "end": 23.758,
+          "char": 46,
+          "len": 1
+        },
+        {
+          "start": 23.77,
+          "end": 24.008,
+          "char": 48,
+          "len": 6
+        },
+        {
+          "start": 24.02,
+          "end": 24.413,
+          "char": 55,
+          "len": 7
+        },
+        {
+          "start": 24.425,
+          "end": 24.532,
+          "char": 63,
+          "len": 4
+        },
+        {
+          "start": 24.544,
+          "end": 24.901,
+          "char": 68,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 25.646,
+      "to": 31.114,
+      "heading": "Heavy stuff",
+      "text": "It holds about as much mass as the Sun. One cubic centimetre of it weighs about a tonne.",
+      "source": "White dwarf, Wikipedia",
+      "beats": [
+        {
+          "word": "tonne",
+          "kind": "stat",
+          "value": "~1 t",
+          "label": "per cubic centimetre"
+        }
+      ],
+      "words": [
+        {
+          "start": 25.891,
+          "end": 25.963,
+          "char": 0,
+          "len": 2
+        },
+        {
+          "start": 25.975,
+          "end": 26.248,
+          "char": 3,
+          "len": 5
+        },
+        {
+          "start": 26.26,
+          "end": 26.498,
+          "char": 9,
+          "len": 5
+        },
+        {
+          "start": 26.51,
+          "end": 26.606,
+          "char": 15,
+          "len": 2
+        },
+        {
+          "start": 26.617,
+          "end": 26.879,
+          "char": 18,
+          "len": 4
+        },
+        {
+          "start": 26.891,
+          "end": 27.284,
+          "char": 23,
+          "len": 4
+        },
+        {
+          "start": 27.296,
+          "end": 27.403,
+          "char": 28,
+          "len": 2
+        },
+        {
+          "start": 27.415,
+          "end": 27.486,
+          "char": 31,
+          "len": 3
+        },
+        {
+          "start": 27.498,
+          "end": 27.879,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 28.284,
+          "end": 28.475,
+          "char": 40,
+          "len": 3
+        },
+        {
+          "start": 28.486,
+          "end": 28.82,
+          "char": 44,
+          "len": 5
+        },
+        {
+          "start": 28.832,
+          "end": 29.308,
+          "char": 50,
+          "len": 10
+        },
+        {
+          "start": 29.32,
+          "end": 29.391,
+          "char": 61,
+          "len": 2
+        },
+        {
+          "start": 29.403,
+          "end": 29.498,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 29.51,
+          "end": 29.796,
+          "char": 67,
+          "len": 6
+        },
+        {
+          "start": 29.808,
+          "end": 29.986,
+          "char": 74,
+          "len": 5
+        },
+        {
+          "start": 29.998,
+          "end": 30.022,
+          "char": 80,
+          "len": 1
+        },
+        {
+          "start": 30.034,
+          "end": 30.367,
+          "char": 82,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 31.114,
+      "to": 34.511,
+      "heading": "Earth",
+      "text": "Earth is only slightly bigger than Sirius B.",
+      "source": "Earth, Wikipedia",
+      "beats": [
+        {
+          "word": "slightly",
+          "kind": "compare",
+          "compare": {
+            "name": "Sirius B",
+            "value": 11268,
+            "icon": "moon",
+            "subject": "Earth",
+            "subjectValue": 12756,
+            "unit": "km wide",
+            "note": "Barely bigger"
+          }
+        }
+      ],
+      "words": [
+        {
+          "start": 31.359,
+          "end": 31.55,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 31.562,
+          "end": 31.74,
+          "char": 6,
+          "len": 2
+        },
+        {
+          "start": 31.752,
+          "end": 32.038,
+          "char": 9,
+          "len": 4
+        },
+        {
+          "start": 32.05,
+          "end": 32.538,
+          "char": 14,
+          "len": 8
+        },
+        {
+          "start": 32.55,
+          "end": 32.859,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 32.871,
+          "end": 32.99,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 33.002,
+          "end": 33.466,
+          "char": 35,
+          "len": 6
+        },
+        {
+          "start": 33.478,
+          "end": 33.764,
+          "char": 42,
+          "len": 1
+        }
+      ]
+    },
+    {
+      "from": 34.511,
+      "to": 40.3,
+      "heading": "The Sun",
+      "text": "And the Sun is about a hundred times wider. One point three million Earths could fit inside.",
+      "source": "NASA Sun facts",
+      "beats": [
+        {
+          "word": "million",
+          "kind": "stat",
+          "value": "1.3M",
+          "label": "Earths would fit inside"
+        }
+      ],
+      "words": [
+        {
+          "start": 34.756,
+          "end": 34.828,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 34.84,
+          "end": 34.911,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 34.923,
+          "end": 35.316,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 35.399,
+          "end": 35.506,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 35.518,
+          "end": 35.732,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 35.744,
+          "end": 35.768,
+          "char": 21,
+          "len": 1
+        },
+        {
+          "start": 35.78,
+          "end": 36.137,
+          "char": 23,
+          "len": 7
+        },
+        {
+          "start": 36.149,
+          "end": 36.423,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 36.435,
+          "end": 36.863,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 37.268,
+          "end": 37.423,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 37.435,
+          "end": 37.685,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 37.697,
+          "end": 37.994,
+          "char": 54,
+          "len": 5
+        },
+        {
+          "start": 38.006,
+          "end": 38.375,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 38.387,
+          "end": 38.685,
+          "char": 68,
+          "len": 6
+        },
+        {
+          "start": 38.697,
+          "end": 38.84,
+          "char": 75,
+          "len": 5
+        },
+        {
+          "start": 38.851,
+          "end": 39.066,
+          "char": 81,
+          "len": 3
+        },
+        {
+          "start": 39.078,
+          "end": 39.554,
+          "char": 85,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 40.3,
+      "to": 47.849,
+      "heading": "The twist",
+      "text": "The twist? That tiny neutron star outweighs the Sun. A teaspoon of it would weigh over five billion tonnes.",
+      "source": "Neutron star, Wikipedia",
+      "beats": [
+        {
+          "word": "outweighs",
+          "kind": "stamp",
+          "value": "OUTWEIGHS THE SUN"
+        },
+        {
+          "word": "teaspoon",
+          "kind": "stat",
+          "value": "5.5 bn t",
+          "label": "per teaspoon"
+        }
+      ],
+      "words": [
+        {
+          "start": 40.557,
+          "end": 40.605,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 40.617,
+          "end": 41.057,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 41.462,
+          "end": 41.605,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 41.617,
+          "end": 41.974,
+          "char": 16,
+          "len": 4
+        },
+        {
+          "start": 41.986,
+          "end": 42.462,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 42.474,
+          "end": 42.867,
+          "char": 29,
+          "len": 4
+        },
+        {
+          "start": 43.021,
+          "end": 43.474,
+          "char": 34,
+          "len": 9
+        },
+        {
+          "start": 43.486,
+          "end": 43.569,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 43.581,
+          "end": 43.974,
+          "char": 48,
+          "len": 4
+        },
+        {
+          "start": 44.367,
+          "end": 44.414,
+          "char": 53,
+          "len": 1
+        },
+        {
+          "start": 44.426,
+          "end": 44.867,
+          "char": 55,
+          "len": 8
+        },
+        {
+          "start": 44.879,
+          "end": 44.95,
+          "char": 64,
+          "len": 2
+        },
+        {
+          "start": 44.962,
+          "end": 45.057,
+          "char": 67,
+          "len": 2
+        },
+        {
+          "start": 45.069,
+          "end": 45.212,
+          "char": 70,
+          "len": 5
+        },
+        {
+          "start": 45.224,
+          "end": 45.486,
+          "char": 76,
+          "len": 5
+        },
+        {
+          "start": 45.498,
+          "end": 45.688,
+          "char": 82,
+          "len": 4
+        },
+        {
+          "start": 45.7,
+          "end": 46.2,
+          "char": 87,
+          "len": 4
+        },
+        {
+          "start": 46.271,
+          "end": 46.581,
+          "char": 92,
+          "len": 7
+        },
+        {
+          "start": 46.593,
+          "end": 47.105,
+          "char": 100,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 47.849,
+      "to": 54.279,
+      "heading": "One day",
+      "text": "One day, our Sun will become a white dwarf too. Which dead star would you visit?",
+      "source": "NASA Sun facts",
+      "words": [
+        {
+          "start": 48.094,
+          "end": 48.237,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 48.249,
+          "end": 48.523,
+          "char": 4,
+          "len": 3
+        },
+        {
+          "start": 48.928,
+          "end": 49.082,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 49.094,
+          "end": 49.38,
+          "char": 13,
+          "len": 3
+        },
+        {
+          "start": 49.392,
+          "end": 49.487,
+          "char": 17,
+          "len": 4
+        },
+        {
+          "start": 49.499,
+          "end": 49.785,
+          "char": 22,
+          "len": 6
+        },
+        {
+          "start": 49.797,
+          "end": 49.88,
+          "char": 29,
+          "len": 1
+        },
+        {
+          "start": 49.892,
+          "end": 50.178,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 50.189,
+          "end": 50.487,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 50.499,
+          "end": 50.809,
+          "char": 43,
+          "len": 3
+        },
+        {
+          "start": 51.201,
+          "end": 51.392,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 51.404,
+          "end": 51.618,
+          "char": 54,
+          "len": 4
+        },
+        {
+          "start": 51.63,
+          "end": 51.785,
+          "char": 59,
+          "len": 4
+        },
+        {
+          "start": 51.797,
+          "end": 51.904,
+          "char": 64,
+          "len": 5
+        },
+        {
+          "start": 51.916,
+          "end": 51.987,
+          "char": 70,
+          "len": 3
+        },
+        {
+          "start": 51.999,
+          "end": 52.332,
+          "char": 74,
+          "len": 5
+        }
+      ]
+    }
+  ],
+  "hook": {
+    "banner": "How small can a star get?",
+    "flash": "OUTWEIGHS THE SUN",
+    "previewLine": 8
+  },
+  "skit": {
+    "text": "Five billion tonnes in a teaspoon? I'll stick to my sugar, thanks.",
+    "mood": "gasp",
+    "action": "*nervous beep*",
+    "from": 54.279,
+    "to": 61.786,
+    "words": [
+      {
+        "start": 54.825,
+        "end": 55.208,
+        "char": 0,
+        "len": 4
+      },
+      {
+        "start": 55.219,
+        "end": 55.625,
+        "char": 5,
+        "len": 7
+      },
+      {
+        "start": 55.636,
+        "end": 56.019,
+        "char": 13,
+        "len": 6
+      },
+      {
+        "start": 56.03,
+        "end": 56.154,
+        "char": 20,
+        "len": 2
+      },
+      {
+        "start": 56.165,
+        "end": 56.233,
+        "char": 23,
+        "len": 1
+      },
+      {
+        "start": 56.244,
+        "end": 56.852,
+        "char": 25,
+        "len": 8
+      },
+      {
+        "start": 57.628,
+        "end": 57.831,
+        "char": 35,
+        "len": 4
+      },
+      {
+        "start": 57.842,
+        "end": 58.169,
+        "char": 40,
+        "len": 5
+      },
+      {
+        "start": 58.18,
+        "end": 58.293,
+        "char": 46,
+        "len": 2
+      },
+      {
+        "start": 58.304,
+        "end": 58.461,
+        "char": 49,
+        "len": 2
+      },
+      {
+        "start": 58.473,
+        "end": 58.923,
+        "char": 52,
+        "len": 5
+      },
+      {
+        "start": 59.16,
+        "end": 59.655,
+        "char": 59,
+        "len": 6
+      }
+    ]
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if you lined up the smallest stars?",
+      "A star the size of a city that outweighs the Sun"
+    ],
+    "description": "A neutron star, our Moon, the white dwarf Sirius B, Earth and the Sun side by side at true scale, and how the smallest of them outweighs the Sun.",
+    "tags": [
+      "neutron star",
+      "white dwarf",
+      "sirius b",
+      "stars",
+      "stars to scale",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Neutron stars have a radius on the order of 10 km and a mass of about 1.4 solar masses; they form from a supernova; the fastest known spins 716.35 times per second; a teaspoon of the material would have a mass over 5.5\u00d710\u00b9\u00b2 kg",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star"
+    },
+    {
+      "claim": "A white dwarf packs a Sun-like mass into an Earth-sized volume, with a density of about 1 tonne per cubic centimetre",
+      "url": "https://en.wikipedia.org/wiki/White_dwarf"
+    },
+    {
+      "claim": "Sirius B is a white dwarf with a radius of 5,634 km and a mass of 1.018 solar masses",
+      "url": "https://en.wikipedia.org/wiki/Sirius"
+    },
+    {
+      "claim": "The Moon's mean radius is 1,737.4 km",
+      "url": "https://en.wikipedia.org/wiki/Moon"
+    },
+    {
+      "claim": "Earth's equatorial radius is 6,378.137 km",
+      "url": "https://en.wikipedia.org/wiki/Earth"
+    },
+    {
+      "claim": "The Sun's radius is about 700,000 km, about 100 times Earth's width; 1.3 million Earths would fill it; it will become a white dwarf in about 5 billion years",
+      "url": "https://science.nasa.gov/sun/facts/"
+    }
+  ],
+  "seed": "dead-stars-to-scale",
+  "voiceover": "audio/dead-stars-to-scale.mp3",
+  "music": "audio/dead-stars-to-scale_bed.mp3"
+}

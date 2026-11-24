@@ -783,35 +783,6 @@
     }
   },
   {
-    "id": "fs-829590",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-829590_custom-heavy-whoosh-punch-kick-thud-impa.ogg",
-    "title": "custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025",
-    "author": "Artninja",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/Artninja/sounds/829590/",
-    "download_url": "https://cdn.freesound.org/previews/829/829590_10996917-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/829590/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "seabed_thud",
-    "rank": 1,
-    "best_segment": [
-      3.005,
-      4.283
-    ],
-    "duration_s": 4.28308,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a heavy deep thud impact",
-        "z": 4.57,
-        "verdict": "strong"
-      },
-      "realness": 0.991
-    }
-  },
-  {
     "id": "fs-547584",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-547584_dropping-plastic-brick-in-grit-wav.ogg",
@@ -1334,35 +1305,6 @@
     }
   },
   {
-    "id": "fs-679407",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-679407_dipping-below-water-2.ogg",
-    "title": "Dipping below water 2",
-    "author": "adviseme333",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/adviseme333/sounds/679407/",
-    "download_url": "https://cdn.freesound.org/previews/679/679407_14805886-hq.ogg",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attribution": null,
-    "need": "dive_splash",
-    "rank": 2,
-    "best_segment": [
-      2.97,
-      4.116
-    ],
-    "duration_s": 4.11573,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing.",
-    "earshot": {
-      "match": {
-        "query": "a splash of a heavy object entering water",
-        "z": 5.25,
-        "verdict": "strong"
-      },
-      "realness": 0.898
-    }
-  },
-  {
     "id": "fs-38700",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-38700_archi-sonar-01-wav.ogg",
@@ -1630,6 +1572,78 @@
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
+    "id": "fs-679404",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-679404_dipping-below-water.ogg",
+    "title": "Dipping below water",
+    "author": "adviseme333",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/adviseme333/sounds/679404/",
+    "download_url": "https://cdn.freesound.org/previews/679/679404_14805886-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "dive_splash",
+    "rank": 2,
+    "best_segment": null,
+    "duration_s": 4.34213,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
+  },
+  {
+    "id": "fs-119466",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-119466_metal-creak-2-wav.ogg",
+    "title": "Metal Creak 2.wav",
+    "author": "ingudios",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/ingudios/sounds/119466/",
+    "download_url": "https://cdn.freesound.org/previews/119/119466_1819253-hq.ogg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": null,
+    "need": "hull_creak",
+    "rank": 2,
+    "best_segment": null,
+    "duration_s": 2.1916,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
+  },
+  {
+    "id": "fs-828412",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-828412_custom-heavy-punch-kick-thud-impact-soun.ogg",
+    "title": "custom_heavy_punch_kick_thud_impact_sound_10022025",
+    "author": "Artninja",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/Artninja/sounds/828412/",
+    "download_url": "https://cdn.freesound.org/previews/828/828412_10996917-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "seabed_thud",
+    "rank": 1,
+    "best_segment": null,
+    "duration_s": 2.3624,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
+  },
+  {
+    "id": "fs-807286",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-807286_crt-tv-whoosh.ogg",
+    "title": "CRT TV Whoosh",
+    "author": "sound.variant",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807286/",
+    "download_url": "https://cdn.freesound.org/previews/807/807286_5455544-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 1,
+    "best_segment": null,
+    "duration_s": 2.48067,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
+  },
+  {
     "id": "fs-67882",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-67882_dive-mixdown-wav.ogg",
@@ -1648,21 +1662,21 @@
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
-    "id": "fs-679404",
+    "id": "fs-679407",
     "category": "sfx",
-    "file": "audio/assets/sfx/fs-679404_dipping-below-water.ogg",
-    "title": "Dipping below water",
+    "file": "audio/assets/sfx/fs-679407_dipping-below-water-2.ogg",
+    "title": "Dipping below water 2",
     "author": "adviseme333",
     "source": "freesound",
-    "page_url": "https://freesound.org/people/adviseme333/sounds/679404/",
-    "download_url": "https://cdn.freesound.org/previews/679/679404_14805886-hq.ogg",
+    "page_url": "https://freesound.org/people/adviseme333/sounds/679407/",
+    "download_url": "https://cdn.freesound.org/previews/679/679407_14805886-hq.ogg",
     "license": "CC0 1.0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "attribution": null,
     "need": "dive_splash",
     "rank": 2,
     "best_segment": null,
-    "duration_s": 4.34213,
+    "duration_s": 4.11573,
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
@@ -1774,21 +1788,21 @@
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
-    "id": "fs-119466",
+    "id": "fs-119465",
     "category": "sfx",
-    "file": "audio/assets/sfx/fs-119466_metal-creak-2-wav.ogg",
-    "title": "Metal Creak 2.wav",
+    "file": "audio/assets/sfx/fs-119465_metal-creak-1-wav.ogg",
+    "title": "Metal Creak 1.wav",
     "author": "ingudios",
     "source": "freesound",
-    "page_url": "https://freesound.org/people/ingudios/sounds/119466/",
-    "download_url": "https://cdn.freesound.org/previews/119/119466_1819253-hq.ogg",
+    "page_url": "https://freesound.org/people/ingudios/sounds/119465/",
+    "download_url": "https://cdn.freesound.org/previews/119/119465_1819253-hq.ogg",
     "license": "CC0 1.0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "attribution": null,
     "need": "hull_creak",
     "rank": 2,
     "best_segment": null,
-    "duration_s": 2.1916,
+    "duration_s": 1.12465,
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
@@ -1828,21 +1842,21 @@
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
-    "id": "fs-828412",
+    "id": "fs-829590",
     "category": "sfx",
-    "file": "audio/assets/sfx/fs-828412_custom-heavy-punch-kick-thud-impact-soun.ogg",
-    "title": "custom_heavy_punch_kick_thud_impact_sound_10022025",
+    "file": "audio/assets/sfx/fs-829590_custom-heavy-whoosh-punch-kick-thud-impa.ogg",
+    "title": "custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025",
     "author": "Artninja",
     "source": "freesound",
-    "page_url": "https://freesound.org/people/Artninja/sounds/828412/",
-    "download_url": "https://cdn.freesound.org/previews/828/828412_10996917-hq.ogg",
+    "page_url": "https://freesound.org/people/Artninja/sounds/829590/",
+    "download_url": "https://cdn.freesound.org/previews/829/829590_10996917-hq.ogg",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"custom_heavy_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/828412/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "attribution": "\"custom_heavy_whoosh_punch_kick_thud_impact_sound_10022025\" by Artninja (https://freesound.org/people/Artninja/sounds/829590/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
     "need": "seabed_thud",
     "rank": 1,
     "best_segment": null,
-    "duration_s": 2.3624,
+    "duration_s": 4.28308,
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
@@ -1900,24 +1914,6 @@
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
-    "id": "fs-807286",
-    "category": "sfx",
-    "file": "audio/assets/sfx/fs-807286_crt-tv-whoosh.ogg",
-    "title": "CRT TV Whoosh",
-    "author": "sound.variant",
-    "source": "freesound",
-    "page_url": "https://freesound.org/people/sound.variant/sounds/807286/",
-    "download_url": "https://cdn.freesound.org/previews/807/807286_5455544-hq.ogg",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "attribution": "\"CRT TV Whoosh\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807286/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
-    "need": "whoosh",
-    "rank": 1,
-    "best_segment": null,
-    "duration_s": 2.48067,
-    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
-  },
-  {
     "id": "fs-170516",
     "category": "sfx",
     "file": "audio/assets/sfx/fs-170516_rubber-crunch-whoosh-wav.ogg",
@@ -1930,9 +1926,27 @@
     "license_url": "https://creativecommons.org/licenses/by/3.0/",
     "attribution": "\"Rubber Crunch whoosh.wav\" by alexkandrell (https://freesound.org/people/alexkandrell/sounds/170516/), licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited",
     "need": "whoosh",
-    "rank": 2,
+    "rank": 1,
     "best_segment": null,
     "duration_s": 2.624,
+    "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
+  },
+  {
+    "id": "fs-807300",
+    "category": "sfx",
+    "file": "audio/assets/sfx/fs-807300_tonal-whoosh-3.ogg",
+    "title": "TONAL WHOOSH 3",
+    "author": "sound.variant",
+    "source": "freesound",
+    "page_url": "https://freesound.org/people/sound.variant/sounds/807300/",
+    "download_url": "https://cdn.freesound.org/previews/807/807300_5455544-hq.ogg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "\"TONAL WHOOSH 3\" by sound.variant (https://freesound.org/people/sound.variant/sounds/807300/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), edited",
+    "need": "whoosh",
+    "rank": 2,
+    "best_segment": null,
+    "duration_s": 3.07969,
     "notes": "Freesound HQ preview. Confirm the licence on page_url before publishing."
   },
   {
