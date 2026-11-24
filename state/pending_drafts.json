@@ -1065,7 +1065,12 @@
     ],
     "contains_synthetic_media": false,
     "caption": "🎬 <b>New Short ready for review</b>\n<i>Planet scale · dead-stars-to-scale · 62s</i>\n\n<b>A:</b> What if you lined up the smallest stars?\n<b>B:</b> A star the size of a city that outweighs the Sun\n\n✅ QC passed\n📅 Approving schedules it for <b>Wed 25 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
-    "status": "PENDING",
-    "created_at": 1795542554.7027764
+    "status": "PUBLISHED",
+    "created_at": 1795542554.7027764,
+    "updated_at": 1795545756.194914,
+    "title_used": "What if you lined up the smallest stars?",
+    "video_id": "kav9vJaT868",
+    "youtube_url": "https://youtube.com/shorts/kav9vJaT868",
+    "scheduled_at": null
   }
 }
