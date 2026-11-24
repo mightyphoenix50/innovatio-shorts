@@ -259,7 +259,8 @@
       "title": "How small can a star get?",
       "format": "Scale",
       "angle": "From a city-sized neutron star to a white dwarf the size of Earth, then the Sun; the twist is that the tiny neutron star outweighs the Sun.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-24"
     },
     {
       "slug": "fall-into-jupiter",
@@ -273,6 +274,41 @@
       "title": "What if Earth's oceans drained away?",
       "format": "Orbit",
       "angle": "Tour the hidden landscape under the sea: the Mid-Atlantic Ridge, the Mariana Trench and Mauna Kea's true height; the twist is that the longest mountain range on Earth is underwater.",
+      "status": "next"
+    },
+    {
+      "slug": "hear-like-an-elephant",
+      "title": "What if you could hear through your feet, like an elephant?",
+      "format": "Story",
+      "angle": "Elephants pick up low rumbles through the ground; the twist is how far those rumbles can travel.",
+      "status": "next"
+    },
+    {
+      "slug": "mountains-to-scale",
+      "title": "How tall is the tallest mountain in the solar system?",
+      "format": "Scale",
+      "angle": "Compare worlds with their tallest peaks: Earth's Everest, Mars's Olympus Mons, Vesta's Rheasilvia; the twist is that the smallest world has one of the tallest peaks.",
+      "status": "next"
+    },
+    {
+      "slug": "dig-to-the-mantle",
+      "title": "What if you drilled through the ocean floor to the mantle?",
+      "format": "Descent",
+      "angle": "Sink to the thinnest crust on Earth, under the ocean, where drill ships try to reach the mantle; the twist is that the mantle is closer under the sea than under your feet.",
+      "status": "next"
+    },
+    {
+      "slug": "moon-far-side",
+      "title": "What's on the far side of the Moon?",
+      "format": "Orbit",
+      "angle": "Spin round to the side of the Moon we never see, with its huge South Pole–Aitken basin and China's landers; the twist is that it isn't actually dark.",
+      "status": "next"
+    },
+    {
+      "slug": "climb-to-mount-everest",
+      "title": "What if you climbed Everest in one minute?",
+      "format": "Fall-up",
+      "angle": "Rise from sea level to the summit as the air thins and temperatures drop; the twist is how little oxygen is left at the top.",
       "status": "next"
     }
   ]
