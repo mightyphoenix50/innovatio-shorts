@@ -1072,5 +1072,27 @@
     "video_id": "kav9vJaT868",
     "youtube_url": "https://youtube.com/shorts/kav9vJaT868",
     "scheduled_at": null
+  },
+  "102": {
+    "episode": "fall-into-jupiter",
+    "video_path": "output/drafts/fall-into-jupiter.mp4",
+    "titles": [
+      "What if you fell into Jupiter?",
+      "There's nothing to land on inside Jupiter"
+    ],
+    "description": "Fall through Jupiter's ammonia and water clouds, past where the Galileo probe went silent, into liquid metallic hydrogen and down to a core that isn't even solid.\n\nSources:\n- Jupiter has no solid surface; the troposphere transitions smoothly into the fluid interior; ammonia ice clouds sit at 0.6–0.9 bar, ammonium hydrosulfide clouds at 1–2 bar and water clouds at 3–7 bar; the Galileo probe entered on 7 December 1995 and stopped transmitting 132 km below the 1-bar level; hydrogen turns metallic at depths of more than 10,000 km: https://en.wikipedia.org/wiki/Atmosphere_of_Jupiter\n- Jupiter has no true surface; extreme pressures and temperatures crush, melt and vaporise spacecraft; deep inside, hydrogen becomes electrically conducting like metal; Juno suggests the core is not solid, partially dissolved, described as dilute or fuzzy; radius 69,911 km: https://science.nasa.gov/jupiter/facts/\n- Galileo arrived at Jupiter on 7 December 1995 and released an atmospheric entry probe: https://en.wikipedia.org/wiki/Galileo_(spacecraft)\n- Jupiter's mean radius is about 69,886 km; it has a diffuse core that mixes into its mantle: https://en.wikipedia.org/wiki/Jupiter\n\nSound effects:\nMusic: original, made for this channel.\n\nMade with code-driven animation and a synthetic narrator voice. #shorts #science",
+    "tags": [
+      "jupiter",
+      "gas giant",
+      "galileo probe",
+      "metallic hydrogen",
+      "juno",
+      "space",
+      "science shorts"
+    ],
+    "contains_synthetic_media": false,
+    "caption": "🎬 <b>New Short ready for review</b>\n<i>What if… · fall-into-jupiter · 64s</i>\n\n<b>A:</b> What if you fell into Jupiter?\n<b>B:</b> There's nothing to land on inside Jupiter\n\n✅ QC passed\n📅 Approving schedules it for <b>Thu 26 Nov, 18:00</b>\nScript, sources and credits are in the reply below.",
+    "status": "PENDING",
+    "created_at": 1795628586.0988123
   }
 }

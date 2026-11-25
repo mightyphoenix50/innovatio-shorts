@@ -1,0 +1,1290 @@
+{
+  "template": "Fall",
+  "title": "What if you fell into Jupiter?",
+  "fps": 30,
+  "hook": {
+    "banner": "What if you fell into Jupiter?",
+    "flash": "NO SURFACE",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.319,
+      0
+    ],
+    [
+      6.707,
+      3000
+    ],
+    [
+      11.186,
+      6000
+    ],
+    [
+      13.261,
+      10000
+    ],
+    [
+      16.892,
+      20000
+    ],
+    [
+      19.014,
+      80000
+    ],
+    [
+      23.258,
+      100000
+    ],
+    [
+      25.706,
+      132000
+    ],
+    [
+      30.601,
+      200000
+    ],
+    [
+      32.864,
+      2000000
+    ],
+    [
+      37.391,
+      5000000
+    ],
+    [
+      39.817,
+      10000000
+    ],
+    [
+      44.669,
+      15000000
+    ],
+    [
+      46.73,
+      35000000
+    ],
+    [
+      51.367,
+      45000000
+    ],
+    [
+      54.629,
+      50000000
+    ]
+  ],
+  "maxDepth": 69911000,
+  "fallAt": 3.319,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      10000,
+      700
+    ],
+    [
+      80000,
+      1400
+    ],
+    [
+      132000,
+      2000
+    ],
+    [
+      2000000,
+      2700
+    ],
+    [
+      10000000,
+      3500
+    ],
+    [
+      35000000,
+      4300
+    ],
+    [
+      69911000,
+      5100
+    ],
+    [
+      100000000,
+      5800
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 150000,
+      "name": "Clouds and gas",
+      "colourTop": "#E8C9A0",
+      "colourBottom": "#C99A6B",
+      "texture": "mantle"
+    },
+    {
+      "from": 150000,
+      "to": 10000000,
+      "name": "Hot, dense hydrogen",
+      "colourTop": "#B8865A",
+      "colourBottom": "#8A5A3E",
+      "texture": "liquid"
+    },
+    {
+      "from": 10000000,
+      "to": 35000000,
+      "name": "Metallic hydrogen",
+      "colourTop": "#6B5A8A",
+      "colourBottom": "#4A3D6B",
+      "texture": "liquid"
+    },
+    {
+      "from": 35000000,
+      "to": 100000000,
+      "name": "Fuzzy core",
+      "colourTop": "#D9692E",
+      "colourBottom": "#F09A3E",
+      "texture": "mantle"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 10000,
+      "kind": "boundary",
+      "label": "Ammonia ice clouds",
+      "side": "left"
+    },
+    {
+      "depth": 80000,
+      "kind": "boundary",
+      "label": "Water clouds \u00b7 3\u20137 bar",
+      "side": "right"
+    },
+    {
+      "depth": 132000,
+      "kind": "boundary",
+      "label": "Galileo probe lost \u00b7 132 km",
+      "side": "left"
+    },
+    {
+      "depth": 10000000,
+      "kind": "boundary",
+      "label": "Metallic hydrogen",
+      "side": "right"
+    },
+    {
+      "depth": 35000000,
+      "kind": "boundary",
+      "label": "Fuzzy core",
+      "side": "left"
+    },
+    {
+      "depth": 69911000,
+      "kind": "center",
+      "label": "The centre \u00b7 69,911 km",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -110
+    ],
+    [
+      132000,
+      150
+    ],
+    [
+      10000000,
+      10000
+    ],
+    [
+      69911000,
+      20000
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0.6
+    ],
+    [
+      10000,
+      1
+    ],
+    [
+      80000,
+      7
+    ],
+    [
+      132000,
+      23
+    ],
+    [
+      10000000,
+      2000000
+    ],
+    [
+      69911000,
+      40000000
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 4.468,
+      "heading": "Into Jupiter",
+      "text": "You're falling into Jupiter. Bad news: there's nothing to land on.",
+      "words": [
+        {
+          "start": 0.245,
+          "end": 0.329,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 0.34,
+          "end": 0.686,
+          "char": 7,
+          "len": 7
+        },
+        {
+          "start": 0.698,
+          "end": 0.864,
+          "char": 15,
+          "len": 4
+        },
+        {
+          "start": 0.876,
+          "end": 1.352,
+          "char": 20,
+          "len": 7
+        },
+        {
+          "start": 1.745,
+          "end": 1.936,
+          "char": 29,
+          "len": 3
+        },
+        {
+          "start": 1.948,
+          "end": 2.412,
+          "char": 33,
+          "len": 4
+        },
+        {
+          "start": 2.686,
+          "end": 2.852,
+          "char": 39,
+          "len": 7
+        },
+        {
+          "start": 2.864,
+          "end": 3.114,
+          "char": 47,
+          "len": 7
+        },
+        {
+          "start": 3.126,
+          "end": 3.198,
+          "char": 55,
+          "len": 2
+        },
+        {
+          "start": 3.21,
+          "end": 3.519,
+          "char": 58,
+          "len": 4
+        },
+        {
+          "start": 3.531,
+          "end": 3.721,
+          "char": 63,
+          "len": 2
+        }
+      ]
+    },
+    {
+      "from": 4.468,
+      "to": 11.186,
+      "heading": "No surface",
+      "text": "Jupiter has no solid surface. Its air just gets thicker and thicker, until it becomes the fluid inside.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "surface",
+          "kind": "stamp",
+          "value": "NO SURFACE"
+        }
+      ],
+      "words": [
+        {
+          "start": 4.713,
+          "end": 5.047,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 5.058,
+          "end": 5.237,
+          "char": 8,
+          "len": 3
+        },
+        {
+          "start": 5.249,
+          "end": 5.404,
+          "char": 12,
+          "len": 2
+        },
+        {
+          "start": 5.416,
+          "end": 5.737,
+          "char": 15,
+          "len": 5
+        },
+        {
+          "start": 5.749,
+          "end": 6.297,
+          "char": 21,
+          "len": 7
+        },
+        {
+          "start": 6.689,
+          "end": 6.82,
+          "char": 30,
+          "len": 3
+        },
+        {
+          "start": 6.832,
+          "end": 7.058,
+          "char": 34,
+          "len": 3
+        },
+        {
+          "start": 7.07,
+          "end": 7.261,
+          "char": 38,
+          "len": 4
+        },
+        {
+          "start": 7.273,
+          "end": 7.475,
+          "char": 43,
+          "len": 4
+        },
+        {
+          "start": 7.487,
+          "end": 7.868,
+          "char": 48,
+          "len": 7
+        },
+        {
+          "start": 7.88,
+          "end": 7.963,
+          "char": 56,
+          "len": 3
+        },
+        {
+          "start": 7.975,
+          "end": 8.404,
+          "char": 60,
+          "len": 7
+        },
+        {
+          "start": 8.785,
+          "end": 8.999,
+          "char": 69,
+          "len": 5
+        },
+        {
+          "start": 9.011,
+          "end": 9.07,
+          "char": 75,
+          "len": 2
+        },
+        {
+          "start": 9.082,
+          "end": 9.428,
+          "char": 78,
+          "len": 7
+        },
+        {
+          "start": 9.439,
+          "end": 9.523,
+          "char": 86,
+          "len": 3
+        },
+        {
+          "start": 9.535,
+          "end": 9.892,
+          "char": 90,
+          "len": 5
+        },
+        {
+          "start": 9.904,
+          "end": 10.439,
+          "char": 96,
+          "len": 6
+        }
+      ]
+    },
+    {
+      "from": 11.186,
+      "to": 16.892,
+      "heading": "Ammonia clouds",
+      "text": "First, the top clouds: frozen ammonia, at a bit under the air pressure on Earth.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "ammonia",
+          "kind": "warning",
+          "value": "AMMONIA ICE"
+        }
+      ],
+      "words": [
+        {
+          "start": 11.503,
+          "end": 11.872,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 12.038,
+          "end": 12.134,
+          "char": 7,
+          "len": 3
+        },
+        {
+          "start": 12.146,
+          "end": 12.431,
+          "char": 11,
+          "len": 3
+        },
+        {
+          "start": 12.443,
+          "end": 13.003,
+          "char": 15,
+          "len": 6
+        },
+        {
+          "start": 13.241,
+          "end": 13.622,
+          "char": 23,
+          "len": 6
+        },
+        {
+          "start": 13.634,
+          "end": 14.086,
+          "char": 30,
+          "len": 7
+        },
+        {
+          "start": 14.36,
+          "end": 14.443,
+          "char": 39,
+          "len": 2
+        },
+        {
+          "start": 14.455,
+          "end": 14.526,
+          "char": 42,
+          "len": 1
+        },
+        {
+          "start": 14.538,
+          "end": 14.741,
+          "char": 44,
+          "len": 3
+        },
+        {
+          "start": 14.753,
+          "end": 14.943,
+          "char": 48,
+          "len": 5
+        },
+        {
+          "start": 14.955,
+          "end": 15.038,
+          "char": 54,
+          "len": 3
+        },
+        {
+          "start": 15.05,
+          "end": 15.288,
+          "char": 58,
+          "len": 3
+        },
+        {
+          "start": 15.3,
+          "end": 15.634,
+          "char": 62,
+          "len": 8
+        },
+        {
+          "start": 15.646,
+          "end": 15.776,
+          "char": 71,
+          "len": 2
+        },
+        {
+          "start": 15.788,
+          "end": 16.145,
+          "char": 74,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 16.892,
+      "to": 23.258,
+      "heading": "Deeper clouds",
+      "text": "Below them, clouds of ammonium hydrosulfide. Then, deeper still, clouds of water.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "water",
+          "kind": "stat",
+          "value": "3\u20137 bar",
+          "label": "water clouds"
+        }
+      ],
+      "words": [
+        {
+          "start": 17.149,
+          "end": 17.387,
+          "char": 0,
+          "len": 5
+        },
+        {
+          "start": 17.399,
+          "end": 17.59,
+          "char": 6,
+          "len": 4
+        },
+        {
+          "start": 17.84,
+          "end": 18.221,
+          "char": 12,
+          "len": 6
+        },
+        {
+          "start": 18.232,
+          "end": 18.316,
+          "char": 19,
+          "len": 2
+        },
+        {
+          "start": 18.328,
+          "end": 18.792,
+          "char": 22,
+          "len": 8
+        },
+        {
+          "start": 18.804,
+          "end": 19.661,
+          "char": 31,
+          "len": 12
+        },
+        {
+          "start": 20.054,
+          "end": 20.304,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 20.661,
+          "end": 20.947,
+          "char": 51,
+          "len": 6
+        },
+        {
+          "start": 20.959,
+          "end": 21.399,
+          "char": 58,
+          "len": 5
+        },
+        {
+          "start": 21.637,
+          "end": 21.982,
+          "char": 65,
+          "len": 6
+        },
+        {
+          "start": 21.994,
+          "end": 22.078,
+          "char": 72,
+          "len": 2
+        },
+        {
+          "start": 22.09,
+          "end": 22.518,
+          "char": 75,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 23.258,
+      "to": 30.601,
+      "heading": "Galileo",
+      "text": "In 1995, the Galileo probe fell in here. It went silent a hundred and thirty-two kilometres down.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "silent",
+          "kind": "stamp",
+          "value": "SIGNAL LOST"
+        }
+      ],
+      "words": [
+        {
+          "start": 23.503,
+          "end": 24.67,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 24.884,
+          "end": 24.979,
+          "char": 9,
+          "len": 3
+        },
+        {
+          "start": 24.991,
+          "end": 25.563,
+          "char": 13,
+          "len": 7
+        },
+        {
+          "start": 25.575,
+          "end": 25.932,
+          "char": 21,
+          "len": 5
+        },
+        {
+          "start": 25.944,
+          "end": 26.217,
+          "char": 27,
+          "len": 4
+        },
+        {
+          "start": 26.229,
+          "end": 26.313,
+          "char": 32,
+          "len": 2
+        },
+        {
+          "start": 26.325,
+          "end": 26.658,
+          "char": 35,
+          "len": 4
+        },
+        {
+          "start": 27.051,
+          "end": 27.134,
+          "char": 41,
+          "len": 2
+        },
+        {
+          "start": 27.146,
+          "end": 27.313,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 27.325,
+          "end": 27.789,
+          "char": 49,
+          "len": 6
+        },
+        {
+          "start": 27.884,
+          "end": 27.92,
+          "char": 56,
+          "len": 1
+        },
+        {
+          "start": 27.932,
+          "end": 28.301,
+          "char": 58,
+          "len": 7
+        },
+        {
+          "start": 28.313,
+          "end": 28.396,
+          "char": 66,
+          "len": 3
+        },
+        {
+          "start": 28.408,
+          "end": 28.968,
+          "char": 70,
+          "len": 10
+        },
+        {
+          "start": 28.979,
+          "end": 29.527,
+          "char": 81,
+          "len": 10
+        },
+        {
+          "start": 29.539,
+          "end": 29.86,
+          "char": 92,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 30.601,
+      "to": 37.391,
+      "heading": "Crushed",
+      "text": "Deeper inside, the pressure and heat crush, melt and vaporise any spacecraft that tries.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "crush",
+          "kind": "warning",
+          "value": "CRUSHED + MELTED"
+        }
+      ],
+      "words": [
+        {
+          "start": 30.846,
+          "end": 31.132,
+          "char": 0,
+          "len": 6
+        },
+        {
+          "start": 31.144,
+          "end": 31.68,
+          "char": 7,
+          "len": 6
+        },
+        {
+          "start": 31.918,
+          "end": 32.013,
+          "char": 15,
+          "len": 3
+        },
+        {
+          "start": 32.025,
+          "end": 32.513,
+          "char": 19,
+          "len": 8
+        },
+        {
+          "start": 32.525,
+          "end": 32.608,
+          "char": 28,
+          "len": 3
+        },
+        {
+          "start": 32.62,
+          "end": 32.894,
+          "char": 32,
+          "len": 4
+        },
+        {
+          "start": 32.906,
+          "end": 33.43,
+          "char": 37,
+          "len": 5
+        },
+        {
+          "start": 33.811,
+          "end": 34.144,
+          "char": 44,
+          "len": 4
+        },
+        {
+          "start": 34.263,
+          "end": 34.358,
+          "char": 49,
+          "len": 3
+        },
+        {
+          "start": 34.37,
+          "end": 35.06,
+          "char": 53,
+          "len": 8
+        },
+        {
+          "start": 35.072,
+          "end": 35.239,
+          "char": 62,
+          "len": 3
+        },
+        {
+          "start": 35.251,
+          "end": 35.93,
+          "char": 66,
+          "len": 10
+        },
+        {
+          "start": 35.941,
+          "end": 36.096,
+          "char": 77,
+          "len": 4
+        },
+        {
+          "start": 36.108,
+          "end": 36.644,
+          "char": 82,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 37.391,
+      "to": 44.669,
+      "heading": "Liquid metal",
+      "text": "More than ten thousand kilometres down, hydrogen turns into a liquid that conducts electricity, like metal.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "metal",
+          "kind": "stamp",
+          "value": "LIQUID METAL"
+        }
+      ],
+      "words": [
+        {
+          "start": 37.636,
+          "end": 37.803,
+          "char": 0,
+          "len": 4
+        },
+        {
+          "start": 37.815,
+          "end": 37.97,
+          "char": 5,
+          "len": 4
+        },
+        {
+          "start": 37.981,
+          "end": 38.279,
+          "char": 10,
+          "len": 3
+        },
+        {
+          "start": 38.291,
+          "end": 38.755,
+          "char": 14,
+          "len": 8
+        },
+        {
+          "start": 38.767,
+          "end": 39.327,
+          "char": 23,
+          "len": 10
+        },
+        {
+          "start": 39.339,
+          "end": 39.672,
+          "char": 34,
+          "len": 4
+        },
+        {
+          "start": 40.053,
+          "end": 40.553,
+          "char": 40,
+          "len": 8
+        },
+        {
+          "start": 40.565,
+          "end": 40.898,
+          "char": 49,
+          "len": 5
+        },
+        {
+          "start": 40.91,
+          "end": 41.196,
+          "char": 55,
+          "len": 4
+        },
+        {
+          "start": 41.208,
+          "end": 41.279,
+          "char": 60,
+          "len": 1
+        },
+        {
+          "start": 41.291,
+          "end": 41.731,
+          "char": 62,
+          "len": 6
+        },
+        {
+          "start": 41.743,
+          "end": 41.874,
+          "char": 69,
+          "len": 4
+        },
+        {
+          "start": 41.886,
+          "end": 42.351,
+          "char": 74,
+          "len": 8
+        },
+        {
+          "start": 42.398,
+          "end": 43.112,
+          "char": 83,
+          "len": 11
+        },
+        {
+          "start": 43.422,
+          "end": 43.565,
+          "char": 96,
+          "len": 4
+        },
+        {
+          "start": 43.577,
+          "end": 43.922,
+          "char": 101,
+          "len": 5
+        }
+      ]
+    },
+    {
+      "from": 44.669,
+      "to": 51.367,
+      "heading": "The twist",
+      "text": "The twist? Even the core isn't solid. NASA's Juno found it's partly dissolved. A fuzzy core.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "fuzzy",
+          "kind": "stamp",
+          "value": "FUZZY CORE"
+        }
+      ],
+      "words": [
+        {
+          "start": 44.926,
+          "end": 44.974,
+          "char": 0,
+          "len": 3
+        },
+        {
+          "start": 44.986,
+          "end": 45.426,
+          "char": 4,
+          "len": 5
+        },
+        {
+          "start": 45.819,
+          "end": 45.986,
+          "char": 11,
+          "len": 4
+        },
+        {
+          "start": 45.998,
+          "end": 46.081,
+          "char": 16,
+          "len": 3
+        },
+        {
+          "start": 46.093,
+          "end": 46.402,
+          "char": 20,
+          "len": 4
+        },
+        {
+          "start": 46.414,
+          "end": 46.605,
+          "char": 25,
+          "len": 5
+        },
+        {
+          "start": 46.617,
+          "end": 47.033,
+          "char": 31,
+          "len": 5
+        },
+        {
+          "start": 47.426,
+          "end": 47.819,
+          "char": 38,
+          "len": 6
+        },
+        {
+          "start": 47.831,
+          "end": 48.176,
+          "char": 45,
+          "len": 4
+        },
+        {
+          "start": 48.188,
+          "end": 48.462,
+          "char": 50,
+          "len": 5
+        },
+        {
+          "start": 48.474,
+          "end": 48.593,
+          "char": 56,
+          "len": 4
+        },
+        {
+          "start": 48.605,
+          "end": 48.95,
+          "char": 61,
+          "len": 6
+        },
+        {
+          "start": 48.962,
+          "end": 49.509,
+          "char": 68,
+          "len": 9
+        },
+        {
+          "start": 49.902,
+          "end": 49.962,
+          "char": 79,
+          "len": 1
+        },
+        {
+          "start": 49.974,
+          "end": 50.283,
+          "char": 81,
+          "len": 5
+        },
+        {
+          "start": 50.295,
+          "end": 50.629,
+          "char": 87,
+          "len": 4
+        }
+      ]
+    },
+    {
+      "from": 51.367,
+      "to": 56.888,
+      "heading": "Nowhere to stand",
+      "text": "Nowhere to stand, all the way down. Would you still take the plunge?",
+      "words": [
+        {
+          "start": 51.612,
+          "end": 51.886,
+          "char": 0,
+          "len": 7
+        },
+        {
+          "start": 51.898,
+          "end": 51.957,
+          "char": 8,
+          "len": 2
+        },
+        {
+          "start": 51.969,
+          "end": 52.422,
+          "char": 11,
+          "len": 5
+        },
+        {
+          "start": 52.779,
+          "end": 52.898,
+          "char": 18,
+          "len": 3
+        },
+        {
+          "start": 52.91,
+          "end": 52.981,
+          "char": 22,
+          "len": 3
+        },
+        {
+          "start": 52.993,
+          "end": 53.124,
+          "char": 26,
+          "len": 3
+        },
+        {
+          "start": 53.136,
+          "end": 53.481,
+          "char": 30,
+          "len": 4
+        },
+        {
+          "start": 53.874,
+          "end": 53.969,
+          "char": 36,
+          "len": 5
+        },
+        {
+          "start": 53.981,
+          "end": 54.041,
+          "char": 42,
+          "len": 3
+        },
+        {
+          "start": 54.053,
+          "end": 54.243,
+          "char": 46,
+          "len": 5
+        },
+        {
+          "start": 54.255,
+          "end": 54.422,
+          "char": 52,
+          "len": 4
+        },
+        {
+          "start": 54.434,
+          "end": 54.505,
+          "char": 57,
+          "len": 3
+        },
+        {
+          "start": 54.517,
+          "end": 54.946,
+          "char": 61,
+          "len": 6
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "need": "fall_wind",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:132000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:10000000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:35000000"
+    },
+    {
+      "need": "whoosh",
+      "at": 44.875,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "No surface to land on? Finally, a fall I can't fail.",
+    "mood": "wink",
+    "action": "*smug beep*",
+    "from": 56.888,
+    "to": 64.001,
+    "words": [
+      {
+        "start": 57.433,
+        "end": 57.681,
+        "char": 0,
+        "len": 2
+      },
+      {
+        "start": 57.692,
+        "end": 58.176,
+        "char": 3,
+        "len": 7
+      },
+      {
+        "start": 58.188,
+        "end": 58.311,
+        "char": 11,
+        "len": 2
+      },
+      {
+        "start": 58.323,
+        "end": 58.649,
+        "char": 14,
+        "len": 4
+      },
+      {
+        "start": 58.661,
+        "end": 58.965,
+        "char": 19,
+        "len": 2
+      },
+      {
+        "start": 59.742,
+        "end": 60.338,
+        "char": 23,
+        "len": 7
+      },
+      {
+        "start": 60.62,
+        "end": 60.688,
+        "char": 32,
+        "len": 1
+      },
+      {
+        "start": 60.699,
+        "end": 61.025,
+        "char": 34,
+        "len": 4
+      },
+      {
+        "start": 61.037,
+        "end": 61.138,
+        "char": 39,
+        "len": 1
+      },
+      {
+        "start": 61.149,
+        "end": 61.453,
+        "char": 41,
+        "len": 5
+      },
+      {
+        "start": 61.465,
+        "end": 61.87,
+        "char": 47,
+        "len": 4
+      }
+    ]
+  },
+  "series": "What if\u2026",
+  "youtube": {
+    "titles": [
+      "What if you fell into Jupiter?",
+      "There's nothing to land on inside Jupiter"
+    ],
+    "description": "Fall through Jupiter's ammonia and water clouds, past where the Galileo probe went silent, into liquid metallic hydrogen and down to a core that isn't even solid.",
+    "tags": [
+      "jupiter",
+      "gas giant",
+      "galileo probe",
+      "metallic hydrogen",
+      "juno",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Jupiter has no solid surface; the troposphere transitions smoothly into the fluid interior; ammonia ice clouds sit at 0.6\u20130.9 bar, ammonium hydrosulfide clouds at 1\u20132 bar and water clouds at 3\u20137 bar; the Galileo probe entered on 7 December 1995 and stopped transmitting 132 km below the 1-bar level; hydrogen turns metallic at depths of more than 10,000 km",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Jupiter"
+    },
+    {
+      "claim": "Jupiter has no true surface; extreme pressures and temperatures crush, melt and vaporise spacecraft; deep inside, hydrogen becomes electrically conducting like metal; Juno suggests the core is not solid, partially dissolved, described as dilute or fuzzy; radius 69,911 km",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "Galileo arrived at Jupiter on 7 December 1995 and released an atmospheric entry probe",
+      "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
+    },
+    {
+      "claim": "Jupiter's mean radius is about 69,886 km; it has a diffuse core that mixes into its mantle",
+      "url": "https://en.wikipedia.org/wiki/Jupiter"
+    }
+  ],
+  "seed": "fall-into-jupiter",
+  "voiceover": "audio/fall-into-jupiter.mp3",
+  "music": "audio/fall-into-jupiter_bed.mp3"
+}
