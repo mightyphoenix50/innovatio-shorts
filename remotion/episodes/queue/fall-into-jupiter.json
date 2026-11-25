@@ -1,0 +1,414 @@
+{
+  "template": "Fall",
+  "title": "What if you fell into Jupiter?",
+  "fps": 30,
+  "hook": {
+    "banner": "What if you fell into Jupiter?",
+    "flash": "NO SURFACE",
+    "previewLine": 7
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      2.6,
+      0
+    ],
+    [
+      5.5,
+      3000
+    ],
+    [
+      9.5,
+      6000
+    ],
+    [
+      11.5,
+      10000
+    ],
+    [
+      15,
+      20000
+    ],
+    [
+      17,
+      80000
+    ],
+    [
+      21,
+      100000
+    ],
+    [
+      23,
+      132000
+    ],
+    [
+      27,
+      200000
+    ],
+    [
+      29,
+      2000000
+    ],
+    [
+      33,
+      5000000
+    ],
+    [
+      35,
+      10000000
+    ],
+    [
+      39,
+      15000000
+    ],
+    [
+      41,
+      35000000
+    ],
+    [
+      45.5,
+      45000000
+    ],
+    [
+      52,
+      50000000
+    ]
+  ],
+  "maxDepth": 69911000,
+  "fallAt": 2.6,
+  "visualScale": [
+    [
+      0,
+      0
+    ],
+    [
+      10000,
+      700
+    ],
+    [
+      80000,
+      1400
+    ],
+    [
+      132000,
+      2000
+    ],
+    [
+      2000000,
+      2700
+    ],
+    [
+      10000000,
+      3500
+    ],
+    [
+      35000000,
+      4300
+    ],
+    [
+      69911000,
+      5100
+    ],
+    [
+      100000000,
+      5800
+    ]
+  ],
+  "layers": [
+    {
+      "from": 0,
+      "to": 150000,
+      "name": "Clouds and gas",
+      "colourTop": "#E8C9A0",
+      "colourBottom": "#C99A6B",
+      "texture": "mantle"
+    },
+    {
+      "from": 150000,
+      "to": 10000000,
+      "name": "Hot, dense hydrogen",
+      "colourTop": "#B8865A",
+      "colourBottom": "#8A5A3E",
+      "texture": "liquid"
+    },
+    {
+      "from": 10000000,
+      "to": 35000000,
+      "name": "Metallic hydrogen",
+      "colourTop": "#6B5A8A",
+      "colourBottom": "#4A3D6B",
+      "texture": "liquid"
+    },
+    {
+      "from": 35000000,
+      "to": 100000000,
+      "name": "Fuzzy core",
+      "colourTop": "#D9692E",
+      "colourBottom": "#F09A3E",
+      "texture": "mantle"
+    }
+  ],
+  "landmarks": [
+    {
+      "depth": 10000,
+      "kind": "boundary",
+      "label": "Ammonia ice clouds",
+      "side": "left"
+    },
+    {
+      "depth": 80000,
+      "kind": "boundary",
+      "label": "Water clouds · 3–7 bar",
+      "side": "right"
+    },
+    {
+      "depth": 132000,
+      "kind": "boundary",
+      "label": "Galileo probe lost · 132 km",
+      "side": "left"
+    },
+    {
+      "depth": 10000000,
+      "kind": "boundary",
+      "label": "Metallic hydrogen",
+      "side": "right"
+    },
+    {
+      "depth": 35000000,
+      "kind": "boundary",
+      "label": "Fuzzy core",
+      "side": "left"
+    },
+    {
+      "depth": 69911000,
+      "kind": "center",
+      "label": "The centre · 69,911 km",
+      "side": "right"
+    }
+  ],
+  "temperature": [
+    [
+      0,
+      -110
+    ],
+    [
+      132000,
+      150
+    ],
+    [
+      10000000,
+      10000
+    ],
+    [
+      69911000,
+      20000
+    ]
+  ],
+  "pressure": [
+    [
+      0,
+      0.6
+    ],
+    [
+      10000,
+      1
+    ],
+    [
+      80000,
+      7
+    ],
+    [
+      132000,
+      23
+    ],
+    [
+      10000000,
+      2000000
+    ],
+    [
+      69911000,
+      40000000
+    ]
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "Into Jupiter",
+      "text": "You're falling into Jupiter. Bad news: there's nothing to land on."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "No surface",
+      "text": "Jupiter has no solid surface. Its air just gets thicker and thicker, until it becomes the fluid inside.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "surface",
+          "kind": "stamp",
+          "value": "NO SURFACE"
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15,
+      "heading": "Ammonia clouds",
+      "text": "First, the top clouds: frozen ammonia, at a bit under the air pressure on Earth.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "ammonia",
+          "kind": "warning",
+          "value": "AMMONIA ICE"
+        }
+      ]
+    },
+    {
+      "from": 15,
+      "to": 21,
+      "heading": "Deeper clouds",
+      "text": "Below them, clouds of ammonium hydrosulfide. Then, deeper still, clouds of water.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "water",
+          "kind": "stat",
+          "value": "3–7 bar",
+          "label": "water clouds"
+        }
+      ]
+    },
+    {
+      "from": 21,
+      "to": 27,
+      "heading": "Galileo",
+      "text": "In 1995, the Galileo probe fell in here. It went silent a hundred and thirty-two kilometres down.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "silent",
+          "kind": "stamp",
+          "value": "SIGNAL LOST"
+        }
+      ]
+    },
+    {
+      "from": 27,
+      "to": 33,
+      "heading": "Crushed",
+      "text": "Deeper inside, the pressure and heat crush, melt and vaporise any spacecraft that tries.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "crush",
+          "kind": "warning",
+          "value": "CRUSHED + MELTED"
+        }
+      ]
+    },
+    {
+      "from": 33,
+      "to": 39,
+      "heading": "Liquid metal",
+      "text": "More than ten thousand kilometres down, hydrogen turns into a liquid that conducts electricity, like metal.",
+      "source": "Atmosphere of Jupiter, Wikipedia",
+      "beats": [
+        {
+          "word": "metal",
+          "kind": "stamp",
+          "value": "LIQUID METAL"
+        }
+      ]
+    },
+    {
+      "from": 39,
+      "to": 45.5,
+      "heading": "The twist",
+      "text": "The twist? Even the core isn't solid. NASA's Juno found it's partly dissolved. A fuzzy core.",
+      "source": "NASA Jupiter facts",
+      "beats": [
+        {
+          "word": "fuzzy",
+          "kind": "stamp",
+          "value": "FUZZY CORE"
+        }
+      ]
+    },
+    {
+      "from": 45.5,
+      "to": 52,
+      "heading": "Nowhere to stand",
+      "text": "Nowhere to stand, all the way down. Would you still take the plunge?"
+    }
+  ],
+  "sfx": [
+    {
+      "need": "fall_wind",
+      "at": "fallAt",
+      "align": "attack"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:132000"
+    },
+    {
+      "need": "lava_bubble",
+      "at": "depth:10000000"
+    },
+    {
+      "need": "rock_rumble",
+      "at": "depth:35000000"
+    },
+    {
+      "need": "whoosh",
+      "at": 39.2,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "No surface to land on? Finally, a fall I can't fail.",
+    "mood": "wink",
+    "action": "*smug beep*"
+  },
+  "series": "What if…",
+  "youtube": {
+    "titles": [
+      "What if you fell into Jupiter?",
+      "There's nothing to land on inside Jupiter"
+    ],
+    "description": "Fall through Jupiter's ammonia and water clouds, past where the Galileo probe went silent, into liquid metallic hydrogen and down to a core that isn't even solid.",
+    "tags": [
+      "jupiter",
+      "gas giant",
+      "galileo probe",
+      "metallic hydrogen",
+      "juno",
+      "space",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "Jupiter has no solid surface; the troposphere transitions smoothly into the fluid interior; ammonia ice clouds sit at 0.6–0.9 bar, ammonium hydrosulfide clouds at 1–2 bar and water clouds at 3–7 bar; the Galileo probe entered on 7 December 1995 and stopped transmitting 132 km below the 1-bar level; hydrogen turns metallic at depths of more than 10,000 km",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Jupiter"
+    },
+    {
+      "claim": "Jupiter has no true surface; extreme pressures and temperatures crush, melt and vaporise spacecraft; deep inside, hydrogen becomes electrically conducting like metal; Juno suggests the core is not solid, partially dissolved, described as dilute or fuzzy; radius 69,911 km",
+      "url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "claim": "Galileo arrived at Jupiter on 7 December 1995 and released an atmospheric entry probe",
+      "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
+    },
+    {
+      "claim": "Jupiter's mean radius is about 69,886 km; it has a diffuse core that mixes into its mantle",
+      "url": "https://en.wikipedia.org/wiki/Jupiter"
+    }
+  ],
+  "seed": "fall-into-jupiter"
+}

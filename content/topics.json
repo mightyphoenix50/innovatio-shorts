@@ -267,7 +267,8 @@
       "title": "What if you fell into Jupiter?",
       "format": "Fall-down",
       "angle": "Sink through the cloud layers into deeper and hotter hydrogen until it turns metallic; the twist is that there's no surface to land on.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-25"
     },
     {
       "slug": "earth-without-oceans",
