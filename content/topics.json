@@ -275,7 +275,8 @@
       "title": "What if Earth's oceans drained away?",
       "format": "Orbit",
       "angle": "Tour the hidden landscape under the sea: the Mid-Atlantic Ridge, the Mariana Trench and Mauna Kea's true height; the twist is that the longest mountain range on Earth is underwater.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-26"
     },
     {
       "slug": "hear-like-an-elephant",

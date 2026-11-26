@@ -1,0 +1,358 @@
+{
+  "template": "Orbit",
+  "title": "What if Earth's oceans drained away?",
+  "fps": 30,
+  "hook": {
+    "banner": "What's hiding under Earth's oceans?",
+    "flash": "BEATS EVEREST",
+    "previewLine": 6
+  },
+  "keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      3.5,
+      0.05
+    ],
+    [
+      5.5,
+      0.35
+    ],
+    [
+      9.5,
+      0.35
+    ],
+    [
+      11.5,
+      0.6
+    ],
+    [
+      15.5,
+      0.6
+    ],
+    [
+      17.5,
+      0.4
+    ],
+    [
+      21.5,
+      0.4
+    ],
+    [
+      23.5,
+      0.72
+    ],
+    [
+      27.5,
+      0.7
+    ],
+    [
+      29.5,
+      0.72
+    ],
+    [
+      33,
+      0.7
+    ],
+    [
+      35,
+      0.75
+    ],
+    [
+      39.5,
+      0.72
+    ],
+    [
+      41.5,
+      0.3
+    ],
+    [
+      45.5,
+      0.3
+    ],
+    [
+      47.5,
+      0.1
+    ],
+    [
+      52,
+      0.08
+    ]
+  ],
+  "body": {
+    "kind": "earth",
+    "name": "Earth",
+    "tilt": 23.4,
+    "moon": true,
+    "glow": "#78C8FF"
+  },
+  "stops": [
+    {
+      "line": 1,
+      "lat": 0.92,
+      "lon": -29.34,
+      "label": "Mid-Atlantic Ridge",
+      "value": "65,000 km",
+      "caption": "Longest range"
+    },
+    {
+      "line": 2,
+      "lat": 64.9,
+      "lon": -19,
+      "label": "Iceland",
+      "value": "90%",
+      "caption": "Ridge underwater"
+    },
+    {
+      "line": 3,
+      "lat": -30,
+      "lon": -140,
+      "label": "Pacific floor",
+      "value": "3,682 m",
+      "caption": "Average ocean depth"
+    },
+    {
+      "line": 4,
+      "lat": 11.37,
+      "lon": 142.59,
+      "label": "Challenger Deep",
+      "value": "10.9 km",
+      "caption": "Deepest point"
+    },
+    {
+      "line": 5,
+      "lat": 19.82,
+      "lon": -155.47,
+      "label": "Mauna Kea",
+      "value": "4,207 m",
+      "caption": "Above sea level"
+    },
+    {
+      "line": 6,
+      "lat": 19.82,
+      "lon": -155.47,
+      "label": "Mauna Kea",
+      "value": "9,330 m",
+      "caption": "From its base"
+    },
+    {
+      "line": 7,
+      "lat": -50,
+      "lon": 60,
+      "label": "Unmapped seafloor",
+      "value": "28.7%",
+      "caption": "Mapped in detail"
+    }
+  ],
+  "narration": [
+    {
+      "from": 0,
+      "to": 3.5,
+      "heading": "Drain it",
+      "text": "You think you know Earth? Drain the oceans, and a whole new planet appears."
+    },
+    {
+      "from": 3.5,
+      "to": 9.5,
+      "heading": "Hidden mountains",
+      "text": "First, the longest mountain range on Earth: the mid-ocean ridge, about sixty-five thousand kilometres long.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "longest",
+          "kind": "stamp",
+          "value": "LONGEST RANGE"
+        }
+      ]
+    },
+    {
+      "from": 9.5,
+      "to": 15.5,
+      "heading": "Under the waves",
+      "text": "About ninety percent of it is underwater. Iceland is one place where it rises above the sea.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "ninety",
+          "kind": "stat",
+          "value": "90%",
+          "label": "of the ridge is underwater"
+        }
+      ]
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "heading": "Deep floors",
+      "text": "On average, the ocean was over three and a half kilometres deep.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "average",
+          "kind": "warning",
+          "value": "3.7 KM OF WATER"
+        }
+      ]
+    },
+    {
+      "from": 21.5,
+      "to": 27.5,
+      "heading": "Challenger Deep",
+      "text": "The deepest point, Challenger Deep, is nearly eleven kilometres down. Everest would vanish inside it.",
+      "source": "NOAA Ocean Service",
+      "beats": [
+        {
+          "word": "Everest",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8.8,
+            "icon": "mountain",
+            "subject": "Challenger Deep",
+            "subjectValue": 10.9,
+            "unit": "km",
+            "note": "Everest would vanish"
+          }
+        }
+      ]
+    },
+    {
+      "from": 27.5,
+      "to": 33,
+      "heading": "Mauna Kea",
+      "text": "Now look at Hawaii. Mauna Kea rises about four thousand two hundred metres above the sea.",
+      "source": "Mauna Kea, Wikipedia",
+      "beats": [
+        {
+          "word": "Hawaii",
+          "kind": "stamp",
+          "value": "HAWAII"
+        }
+      ]
+    },
+    {
+      "from": 33,
+      "to": 39.5,
+      "heading": "The twist",
+      "text": "The twist? From its base on the sea floor, it's over nine thousand metres. Taller than Everest.",
+      "source": "Mauna Kea, Wikipedia",
+      "beats": [
+        {
+          "word": "Taller",
+          "kind": "compare",
+          "compare": {
+            "name": "Mount Everest",
+            "value": 8849,
+            "icon": "mountain",
+            "subject": "Mauna Kea, base up",
+            "subjectValue": 9330,
+            "unit": "m",
+            "note": "Taller than Everest"
+          }
+        }
+      ]
+    },
+    {
+      "from": 39.5,
+      "to": 45.5,
+      "heading": "Unmapped",
+      "text": "And we've only mapped about twenty-nine percent of the sea floor in high detail.",
+      "source": "NOAA Ocean Exploration",
+      "beats": [
+        {
+          "word": "twenty-nine",
+          "kind": "stat",
+          "value": "28.7%",
+          "label": "mapped in detail"
+        }
+      ]
+    },
+    {
+      "from": 45.5,
+      "to": 52,
+      "heading": "Unseen",
+      "text": "Explorers have seen less than a thousandth of a percent of the deep sea floor. What do you think is down there?",
+      "source": "NOAA Ocean Exploration"
+    }
+  ],
+  "sfx": [
+    {
+      "need": "station_beep",
+      "at": 0.4
+    },
+    {
+      "need": "whoosh",
+      "at": 3.6,
+      "align": "peak"
+    },
+    {
+      "need": "sonar_ping",
+      "at": 16
+    },
+    {
+      "need": "sonar_ping",
+      "at": 22.5
+    },
+    {
+      "need": "whoosh",
+      "at": 27.7,
+      "align": "peak"
+    },
+    {
+      "need": "whoosh",
+      "at": 45.7,
+      "align": "peak"
+    }
+  ],
+  "skit": {
+    "text": "Drain the oceans? Great. Finally somewhere to put my spare cables.",
+    "mood": "smug",
+    "action": "*tidy beep*"
+  },
+  "series": "Planet scale",
+  "youtube": {
+    "titles": [
+      "What if Earth's oceans drained away?",
+      "The mountains hiding under Earth's oceans"
+    ],
+    "description": "A spin around Earth with the oceans pulled away: the longest mountain range on the planet, Challenger Deep, and Mauna Kea, taller than Everest from its base.",
+    "tags": [
+      "ocean floor",
+      "mid-ocean ridge",
+      "mauna kea",
+      "challenger deep",
+      "earth",
+      "earth science",
+      "science shorts"
+    ]
+  },
+  "sources": [
+    {
+      "claim": "The mid-ocean ridge is the longest mountain range on Earth, spanning 40,389 miles (about 65,000 km); about 90% of it is under the ocean",
+      "url": "https://oceanservice.noaa.gov/facts/midoceanridge.html"
+    },
+    {
+      "claim": "The Mid-Atlantic Ridge is part of the longest mountain range in the world and rises above sea level in Iceland; Saint Peter and Paul Rocks lie at 00°55′N 29°20′W",
+      "url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge"
+    },
+    {
+      "claim": "The average ocean depth is 3,682 m; Challenger Deep is about 10,935 m deep",
+      "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    },
+    {
+      "claim": "Challenger Deep is at 11°22.4′N 142°35.5′E",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep"
+    },
+    {
+      "claim": "Mauna Kea's peak is 4,207.3 m above sea level; its dry prominence of 9,330 m from the ocean floor is taller than Everest's 8,848.86 m; it is at 19°49′N 155°28′W",
+      "url": "https://en.wikipedia.org/wiki/Mauna_Kea"
+    },
+    {
+      "claim": "As of April 2026, 28.7% of the global seafloor had been mapped with modern high-resolution technology; explorers have seen less than 0.001% of the deep ocean seafloor",
+      "url": "https://oceanexplorer.noaa.gov/facts/explored.html"
+    }
+  ],
+  "seed": "earth-without-oceans"
+}
