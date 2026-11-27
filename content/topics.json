@@ -283,7 +283,8 @@
       "title": "What if you could hear through your feet, like an elephant?",
       "format": "Story",
       "angle": "Elephants pick up low rumbles through the ground; the twist is how far those rumbles can travel.",
-      "status": "next"
+      "status": "queued",
+      "queued_on": "2026-11-27"
     },
     {
       "slug": "mountains-to-scale",
